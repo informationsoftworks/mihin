@@ -75,9 +75,6 @@ Henry Ford Health System,HFWY OB GYN,2.16.840.1.113883.3.3823.105012^2.16.840.1.
 Henry Ford Health System,HFWY Novi,2.16.840.1.113883.3.3823.105013^2.16.840.1.113883.3.3823
 Henry Ford Health System,HFWY Northline East,2.16.840.1.113883.3.3823.105014^2.16.840.1.113883.3.3823
 Henry Ford Health System,HFWY Templin,2.16.840.1.113883.3.3823.105015^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFM Bruce Township,2.16.840.1.113883.3.3823.106003^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFM Chesterfield,2.16.840.1.113883.3.3823.106004^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFM Fraser,2.16.840.1.113883.3.3823.106005^2.16.840.1.113883.3.3823
 Henry Ford Health System,HFM Rrichmond,2.16.840.1.113883.3.3823.106006^2.16.840.1.113883.3.3823
 Henry Ford Health System,HFM Shelby Mall,2.16.840.1.113883.3.3823.106007^2.16.840.1.113883.3.3823
 Henry Ford Health System,HFM Washington Township,2.16.840.1.113883.3.3823.106008^2.16.840.1.113883.3.3823
@@ -109,29 +106,6 @@ Henry Ford Health System,HFHS Community Connect Thwainey Family Medicine Practic
 Henry Ford Health System,HFHS Community Connect Cardiovascular Institute of Michigan Practice - Roseville,2.16.840.1.113883.3.3823.213001^2.16.840.1.113883.3.3823
 Henry Ford Health System,"HFHS Community Connect Vijaya Challa, MD Practice",2.16.840.1.113883.3.3823.214001^2.16.840.1.113883.3.3823
 Henry Ford Health System,HFHN Clinton Oaks Behavioral Health Services,2.16.840.1.113883.3.3823.101011^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN Westland Super Vision Center,2.16.840.1.113883.3.3823.101044^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN Macomb Shelby,2.16.840.1.113883.3.3823.101068^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN Taylor Super Vision Center,2.16.840.1.113883.3.3823.101071^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN Flint,2.16.840.1.113883.3.3823.1010730001^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN East Lansing,2.16.840.1.113883.3.3823.101074^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN Genesys,2.16.840.1.113883.3.3823.101075^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN Woodward,2.16.840.1.113883.3.3823.101077^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN Bruce,2.16.840.1.113883.3.3823.101079^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN Chesterfield,2.16.840.1.113883.3.3823.101090^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN Fraser,2.16.840.1.113883.3.3823.101081^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN Harbortown II,2.16.840.1.113883.3.3823.101082^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN Southfield Supervision,2.16.840.1.113883.3.3823.101083^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFHN DTE Energy,2.16.840.1.113883.3.3823.101084^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFWY Bariatric Surgery,2.16.840.1.113883.3.3823.105006^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFWY OB GYN,2.16.840.1.113883.3.3823.105012^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFWY Novi,2.16.840.1.113883.3.3823.105013^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFWY Northline East,2.16.840.1.113883.3.3823.105014^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFWY Templin,2.16.840.1.113883.3.3823.105015^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFM Shelby Mall,2.16.840.1.113883.3.3823.106007^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFM Medical Office Pavilion,2.16.840.1.113883.3.3823.106017^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFM Sleep Center,2.16.840.1.113883.3.3823.106023^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFM Macomb Romeo,2.16.840.1.113883.3.3823.106028^2.16.840.1.113883.3.3823
-Henry Ford Health System,HFM South,2.16.840.1.113883.3.3823.106030^2.16.840.1.113883.3.3823
 Henry Ford Health System,HFM Associated Internists,2.16.840.1.113883.3.3823.106035^2.16.840.1.113883.3.3823
 Henry Ford Health System,HFM Pierson,2.16.840.1.113883.3.3823.106036^2.16.840.1.113883.3.3823
 Henry Ford Health System,HFM Cancer Center,2.16.840.1.113883.3.3823.106037^2.16.840.1.113883.3.3823
@@ -224,4 +198,30 @@ University of Michigan Health System,Wellpointe Medical Center,2.16.840.1.113883
 University of Michigan Health System,West Michigan Nephrology,2.16.840.1.113883.3.4220.4.10955^2.16.840.1.113883.3.4220
 University of Michigan Health System,Briarwood 01,2.16.840.1.113883.3.4220.4.10101^2.16.840.1.113883.3.4220
 University of Michigan Health System,Burlington,2.16.840.1.113883.3.4220.4.10205^2.16.840.1.113883.3.4220
+
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
 ,,
