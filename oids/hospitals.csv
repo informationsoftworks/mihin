@@ -1,5 +1,4 @@
 Health System,Hospital Name,Sending Facility Identifier (MSH-4.1^MSH-4.2),,
-Allegiance,Allegiance Health,2.16.840.1.113883.3.4420.1^2.16.840.1.113883.3.4420,,
 Alpena Regional Medical Center,Alpena Regional Medical Center,2.16.840.1.113883.3.1199^2.16.840.1.113883.3.1199,,
 Ascension,Borgess-Lee Memorial Hospital,2.16.840.1.113883.3.891.1^2.16.840.1.113883.3.891,,
 Ascension,Borgess Medical Center,2.16.840.1.113883.3.891^2.16.840.1.113883.3.891,,
@@ -35,6 +34,7 @@ Detroit Medical Center,DMC Sinai-Grace Hospital,2.16.840.1.113883.3.801.4.3^2.16
 Detroit Medical Center,DMC Surgery Hospital,2.16.840.1.113883.3.801.4.7^2.16.840.1.113883.3.801,,
 Dickinson County Healthcare System ,Dickinson County Memorial Hospital ,2.16.840.1.113883.3.4656.1^2.16.840.1.113883.3.4656,,
 Garden City,Garden City Hospital,2.16.840.1.113883.3.5416.1.85^2.16.840.1.113883.3.5416.1.85,,
+Henry Ford Health System,Henry Ford Allegiance Health,2.16.840.1.113883.17.4042.4^2.16.840.1.113883.3.3823,,
 Henry Ford Health System,Henry Ford Macomb Hospital - Clinton,2.16.840.1.113883.3.3823.106^2.16.840.1.113883.3.3823,,
 Henry Ford Health System,Henry Ford Hospital,2.16.840.1.113883.3.3823.101^2.16.840.1.113883.3.3823,,
 Henry Ford Health System,Henry Ford West Bloomfiled Hospital,2.16.840.1.113883.3.3823.104^2.16.840.1.113883.3.3823,,
