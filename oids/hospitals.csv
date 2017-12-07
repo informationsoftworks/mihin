@@ -19,7 +19,7 @@ Bronson Healthcare,Bronson Lakeview Hospital,2.16.840.1.113883.3.4771.2^2.16.840
 Bronson Healthcare,Bronson Methodist Hospital,2.16.840.1.113883.3.4771.1^2.16.840.1.113883.3.4771,,
 Bronson Healthcare,Bronson Battle Creek,2.16.840.1.113883.3.137.4.70^2.16.840.1.113883.3.4771,,
 Bronson Healthcare,Bronson Vicksburg Outpatient Center,2.16.840.1.113883.3.4771.3^2.16.840.1.113883.3.4771,,
-Bronson Healthcare,South Haven Community Hospital,2.16.840.1.113883.3.5023.1^2.16.840.1.113883.3.5023,,
+Bronson Healthcare,South Haven Community Hospital,2.16.840.1.113883.3.5023.1^2.16.840.1.113883.3.5023,2.16.840.1.113883.3.5023.1^2.16.840.1.113883.3.4771 * this organization sends with two different OIDs. ,
 Community Health Center of Branch County,Community Health Center of Branch County,2.16.840.1.113883.3.2403^2.16.840.1.113883.3.2403,,
 Covenant Health,Covenant,2.16.840.1.113883.3.5044^2.16.840.1.113883.3.5044,,
 Crittenton,Crittenton Hospital Medical Center,2.16.840.1.113883.3.1364^2.16.840.1.113883.3.1364 ,,
