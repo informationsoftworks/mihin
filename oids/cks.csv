@@ -1,24 +1,84 @@
-Hopsital Name,OID
-Bronson Battle Creek,2.16.840.1.113883.3.137.4.70 
-OSF St. Francis,2.16.840.1.113883.3.5416.1.117
-St. Mary's Mercy Medical Center,2.16.840.1.113883.3.137.240
-Mercy General Health Partner,2.16.840.1.113883.3.137.20
-Hackley Hospital,2.16.840.1.113883.3.137.30
-Lakeshore Community Hospital,2.16.840.1.113883.3.137.40
-St. Joseph Mercy Hospital,2.16.840.1.113883.3.137.210
-St. Joseph Mercy Livingston Hospital,2.16.840.1.113883.3.137.220
-Chelsea Community Hospital ,2.16.840.1.113883.3.137.230
-St. Mary Mercy Hospital,2.16.840.1.113883.3.137.240
-St. Joseph Mercy Oakland,2.16.840.1.113883.3.137.250
-Metro Health Hospital ,2.16.840.1.113883.3.3372
-Michigan Medicine,2.16.840.1.113883.3.4220
-Henry Ford Health System,2.16.840.1.113883.3.3823
-Beaumont ( waiting on confirmation regarding which orgs),
-Detroit Medical Center,2.16.840.1.113883.3.801
-DMC Children's Hospital of Michigan ,2.16.840.1.113883.3.801.4.5
-DMC Children's Hospital of Michigan - Troy,2.16.840.1.113883.3.6769
-DMC Harper University & Hutzel Hospital ,2.16.840.1.113883.3.801.4.1
-DMC Huron Valley Sinai Hospital,2.16.840.1.113883.3.801.4.4
-DMC Receiving Hospital,2.16.840.1.113883.3.801.4.2
-DMC Rehab of Institute of MI,2.16.840.1.113883.3.801.4.6
-DMC Sinai Grace Hospital ,2.16.840.1.113883.3.801.4.3
+Health System,Hospital Name
+Ascension,Genesys Regional Medical Center
+Ascension,Ascension Medical Group ProMed (a.k.a. Borgess Medical Center)
+Ascension,Borgess-Lee Memorial Hospital
+Ascension, Borgess Pipp Hospital
+Ascension,St. John Hospital and Medical Center
+Ascension,St. John Macomb Hospital
+Ascension,St. John Oakland Hospital 
+Ascension,St. John River District Hospital 
+Ascension,St. John Providence Hospital
+Ascension, St. John Providence Park Hospital
+Beaumont Health System,Beaumont Hospital Royal Oak
+Beaumont Health System,Beaumont Hospital Troy
+Beaumont Health System,Beaumont Hospital Grosse Pointe
+Beaumont Health System,Beaumont Hospital Farmington Hills(formerly Botsford Hospital)
+Beaumont Health System,Beaumont Hospital Wayne
+Beaumont Health System,Beaumont Medical Center Dearborn
+Beaumont Health System,Beaumont Hospital Taylor
+Beaumont Health System,Beaumont Hospital Southshore
+Bronson Healthcare ,Bronson Methodist Hospital
+Bronson Healthcare ,Bronson Lakeview Hospital
+Bronson Healthcare ,Bronson Battle Creek Hospital
+Bronson Healthcare ,Bronson South Haven Hospital
+Community Health Center of Branch County,Community Health Center of Branch County (CHCBC)
+Covenant Health,Covenant Health Care (Covenant Medical Center)
+Crittenton,Crittenton Hospital
+Dickinson County Healthcare System,Dickinson County Memorial Hospital - UPHIE
+Garden City,Garden City Hospital
+Henry Ford Health System,Henry Ford Allegiance Health
+Hillsdale,Hillsdale Community Health Center 
+Holland Hosiptal,Holland Community Hospital
+Hurley,Hurley Medical Center
+McLaren Health Care, McLaren Bay Region
+McLaren Health Care, McLaren Central Michigan
+McLaren Health Care, McLaren Flint
+McLaren Health Care, McLaren Greater Lansing
+McLaren Health Care,McLaren Lapeer
+McLaren Health Care,McLaren Macomb
+McLaren Health Care, McLaren Northern
+McLaren Health Care,McLaren Oakland
+McLaren Health Care,McLaren Port Huron Hospital
+McLaren Health Care,Barbara Ann Karmanos Cancer Hospital
+Metro Health,Metro Health Hospital
+Munson Healthcare,Munson Medical Center 
+Munson Healthcare,Munson Healthcare Cadillac Hospital (Mercy Cadillac) 
+Munson Healthcare,Munson Healthcare Grayling Hospital (Mercy Grayling) 
+Munson Healthcare,Paul Oliver Memorial Hospital
+Munson Healthcare,Kalkaska Memorial Health Center
+North Ottawa Community Health System,North Ottawa Community Hospital 
+Oaklawn Hospital,Oaklawn Hospital
+ProMedica,ProMedica Herrick Hospital
+ProMedica,ProMedica Monroe Regional Hospital
+ProMedica,ProMedica Bixby Hospital
+Sparrow,Sparrow Hospital
+Sparrow,St. Lawrence Hospital
+Sparrow,Clinton Hospital
+Sparrow,Ionia Hospital
+Sparrow,Sparrow Specialty Hospital
+Sparrow,Carson City Hospital
+St. Mary's of Michigan,St. Mary's of Michigan Saginaw
+St. Mary's of Michigan,St. Mary's of Michigan Towne Centre ED
+St. Mary's of Michigan,St. Mary's of Michigan Standish
+St. Mary's of Michigan,St. Joseph Health Tawas
+Sturgis Hospital,Sturgis Hospital
+Trinity Health,St. Mary's Mercy Medical Center
+Trinity Health,Mercy General Health Partner
+Trinity Health,Hackley Hospital
+Trinity Health,Lakeshore Community Hospital
+Trinity Health,St. Joseph Mercy Hospital
+Trinity Health,St. Joseph Mercy Livingston Hospital
+Trinity Health,Chelsea Community Hospital
+Trinity Health,St. Mary Mercy Hospital
+Trinity Health,St. Joseph Mercy Oakland
+UP Health System,Marquette Hospital
+Detroit Medical Center,Detroit Medical Center
+Detroit Medical Center,DMC Children hospital of Michigan
+Detroit Medical Center,DMC children's hospital of Michigan- Troy
+Detroit Medical Center,DMC Harper University & Hutzel Hospital
+Detroit Medical Center,DMC Huron Valley Sinai Hospital
+Detroit Medical Center,DMC Receiving Hospital
+Detroit Medical Center,DMC Rehab of Institute of MI
+Detroit Medical Center,DMC Sinai Grace Hospital
+Michigan Medicine,Michigan Medicine
+War Memorial Hospital,War Memorial Hospital
