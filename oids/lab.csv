@@ -1,14 +1,14 @@
 Health System,Hospital Name,OID
 Ascension,Genesys Regional Medical Center,
-Ascension,Ascension Medical Group ProMed (a.k.a. Borgess Medical Center),2.16.840.1.113883.3.891
+Ascension,Ascension Medical Group ProMed (a.k.a. Borgess Medical Center),
 Ascension,Borgess-Lee Memorial Hospital,2.16.840.1.113883.3.891.1
-Ascension,Borgess Pipp Hospital,2.16.840.1.113883.3.891.2
+Ascension, Borgess Pipp Hospital,2.16.840.1.113883.3.891.2
 Ascension,St. John Hospital and Medical Center,2.16.840.1.113883.17.3943
 Ascension,St. John Macomb Hospital,
 Ascension,St. John Oakland Hospital ,
 Ascension,St. John River District Hospital ,2.16.840.1.113883.17.3949
-Ascension,St. John Providence Hospital,2.16.840.1.113883.17.3950
-Ascension,St. John Providence Park Hospital,2.16.840.1.113883.17.3951
+Ascension,St. John Providence Hospital,
+Ascension, St. John Providence Park Hospital,
 Beaumont Health System,Beaumont Hospital Royal Oak,2.16.840.1.113883.3.1097.105
 Beaumont Health System,Beaumont Hospital Troy,2.16.840.1.113883.3.1097.205
 Beaumont Health System,Beaumont Hospital Grosse Pointe,2.16.840.1.113883.3.1097.405
@@ -60,12 +60,12 @@ Sparrow,Carson City Hospital,2.16.840.1.113883.3.3991.6
 St. Mary's of Michigan,St. Mary's of Michigan Saginaw,2.16.840.1.113883.3.44.21.100
 St. Mary's of Michigan,St. Mary's of Michigan Towne Centre ED,2.16.840.1.113883.3.44.21.100.1
 St. Mary's of Michigan,St. Mary's of Michigan Standish,2.16.840.1.113883.3.44.21.200
-St. Mary's of Michigan,St. Joseph Health Tawas,2.16.840.1.113883.3.44.21.300
+St. Mary's of Michigan,St. Joseph Health Tawas,
 Sturgis Hospital,Sturgis Hospital,2.16.840.1.113883.3.3571.1
 Trinity Health,St. Mary's Mercy Medical Center,2.16.840.1.113883.3.137.10
-Trinity Health,Mercy General Health Partner,2.16.840.1.113883.3.137.20
+Trinity Health,Mercy General Health Partner,
 Trinity Health,Hackley Hospital,2.16.840.1.113883.3.137.30
-Trinity Health,Lakeshore Community Hospital,2.16.840.1.113883.3.137.40
+Trinity Health,Lakeshore Community Hospital,
 Trinity Health,St. Joseph Mercy Hospital,2.16.840.1.113883.3.137.210
 Trinity Health,St. Joseph Mercy Livingston Hospital,2.16.840.1.113883.3.137.220
 Trinity Health,Chelsea Community Hospital,2.16.840.1.113883.3.137.230
@@ -80,5 +80,5 @@ Detroit Medical Center,DMC Huron Valley Sinai Hospital,2.16.840.1.113883.3.801.4
 Detroit Medical Center,DMC Receiving Hospital,2.16.840.1.113883.3.801.4.2
 Detroit Medical Center,DMC Rehabilitation Institute of Michigan,2.16.840.1.113883.3.801.4.6
 Detroit Medical Center,DMC Sinai Grace Hospital,2.16.840.1.113883.3.801.4.3
-Michigan Medicine,Michigan Medicine,2.16.840.1.113883.3.4220
+Michigan Medicine,Michigan Medicine,
 War Memorial Hospital,War Memorial Hospital,2.16.840.1.113883.3.1145.2
