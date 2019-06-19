@@ -1,98 +1,98 @@
-Health System,Hospital Name,OID
-Ascension,Genesys Regional Medical Center,
-Ascension,Ascension Medical Group ProMed (a.k.a. Borgess Medical Center),
-Ascension,Borgess-Lee Memorial Hospital,2.16.840.1.113883.3.891.1
-Ascension, Borgess Pipp Hospital,2.16.840.1.113883.3.891.2
-Ascension,St. John Hospital and Medical Center,2.16.840.1.113883.17.3943
-Ascension,St. John Macomb Hospital,
-Ascension,St. John Oakland Hospital ,
-Ascension,St. John River District Hospital ,2.16.840.1.113883.17.3949
-Ascension,St. John Providence Hospital,
-Ascension, St. John Providence Park Hospital,
-Beaumont Health System,Beaumont Hospital Royal Oak,2.16.840.1.113883.3.1097.105
-Beaumont Health System,Beaumont Hospital Troy,2.16.840.1.113883.3.1097.205
-Beaumont Health System,Beaumont Hospital Grosse Pointe,2.16.840.1.113883.3.1097.405
-Beaumont Health System,Beaumont Hospital Farmington Hills(formerly Botsford Hospital),2.16.840.1.113883.3.1097.705
-Beaumont Health System,Beaumont Hospital Wayne,2.16.840.1.113883.3.5141
-Beaumont Health System,Beaumont Medical Center Dearborn,2.16.840.1.113883.3.5128
-Beaumont Health System,Beaumont Hospital Taylor,2.16.840.1.113883.3.5140
-Beaumont Health System,Beaumont Hospital Southshore,2.16.840.1.113883.3.5139
-Bronson Healthcare ,Bronson Methodist Hospital,2.16.840.1.113883.3.4771.1
-Bronson Healthcare ,Bronson Lakeview Hospital,2.16.840.1.113883.3.4771.2
-Bronson Healthcare ,Bronson Battle Creek Hospital,2.16.840.1.113883.3.137.4.70
-Bronson Healthcare ,Bronson South Haven Hospital,2.16.840.1.113883.3.5023.1
-Community Health Center of Branch County,Community Health Center of Branch County (CHCBC),
-Covenant Health,Covenant Health Care (Covenant Medical Center),2.16.840.1.113883.3.5044
-Crittenton,Crittenton Hospital,2.16.840.1.113883.3.1364
-Dickinson County Healthcare System,Dickinson County Memorial Hospital - UPHIE,2.16.840.1.113883.3.4656.1
-Garden City,Garden City Hospital,2.16.840.1.113883.3.5416.1.85
-Henry Ford Health System,Henry Ford Allegiance Health,2.16.840.1.113883.17.4042.4
-Hillsdale,Hillsdale Community Health Center ,2.16.840.1.113883.3.4472
-Holland Hosiptal,Holland Community Hospital,2.16.840.1.113883.3.1158
-Hurley,Hurley Medical Center,2.16.840.1.113883.3.3413
-McLaren Health Care, McLaren Bay Region,2.16.840.1.113883.3.4376.400
-McLaren Health Care, McLaren Central Michigan,2.16.840.1.113883.3.4376.700
-McLaren Health Care, McLaren Flint,2.16.840.1.113883.3.4376.100
-McLaren Health Care, McLaren Greater Lansing,2.16.840.1.113883.3.4376.300
-McLaren Health Care,McLaren Lapeer,2.16.840.1.113883.3.4376.200
-McLaren Health Care,McLaren Macomb,2.16.840.1.113883.3.4376.600
-McLaren Health Care, McLaren Northern,2.16.840.1.113883.3.4376.800
-McLaren Health Care,McLaren Oakland,2.16.840.1.113883.3.4376.500
-McLaren Health Care,McLaren Port Huron Hospital,2.16.840.1.113883.3.4376.1100
-McLaren Health Care,Karmanos Cancer Institute,2.16.840.1.113883.3.4376.900
-Metro Health,Metro Health Hospital,2.16.840.1.113883.3.3372
-Munson Healthcare,Munson Medical Center ,2.16.840.1.113883.3.1164
-Munson Healthcare,Munson Healthcare Cadillac Hospital (Mercy Cadillac) ,2.16.840.1.113883.3.3252
-Munson Healthcare,Munson Healthcare Grayling Hospital (Mercy Grayling) ,2.16.840.1.113883.3.3253
-Munson Healthcare,Paul Oliver Memorial Hospital,2.16.840.1.113883.3.3254
-Munson Healthcare,Kalkaska Memorial Health Center,2.16.840.1.113883.3.3255
-North Ottawa Community Health System,North Ottawa Community Hospital ,2.16.840.1.113883.3.1939.1
-Oaklawn Hospital,Oaklawn Hospital,2.16.840.1.113883.3.1195
-ProMedica,ProMedica Herrick Hospital,2.16.840.1.113883.3.5416.1.81.1
-ProMedica,ProMedica Monroe Regional Hospital,2.16.840.1.113883.3.5416.1.134.1
-ProMedica,ProMedica Bixby Hospital,2.16.840.1.113883.3.5416.1.81.2
-Sparrow,Sparrow Hospital,2.16.840.1.113883.3.3991.1
-Sparrow,St. Lawrence Hospital,2.16.840.1.113883.3.3991.2
-Sparrow,Clinton Hospital,2.16.840.1.113883.3.3991.3
-Sparrow,Ionia Hospital,2.16.840.1.113883.3.3991.4
-Sparrow,Sparrow Specialty Hospital,2.16.840.1.113883.3.3991.5
-Sparrow,Carson City Hospital,2.16.840.1.113883.3.3991.6
-St. Mary's of Michigan,St. Mary's of Michigan Saginaw,2.16.840.1.113883.3.44.21.100
-St. Mary's of Michigan,St. Mary's of Michigan Towne Centre ED,2.16.840.1.113883.3.44.21.100.1
-St. Mary's of Michigan,St. Mary's of Michigan Standish,2.16.840.1.113883.3.44.21.200
-St. Mary's of Michigan,St. Joseph Health Tawas,
-Sturgis Hospital,Sturgis Hospital,2.16.840.1.113883.3.3571.1
-Trinity Health,St. Mary's Mercy Medical Center,2.16.840.1.113883.3.137.10
-Trinity Health,Mercy General Health Partner,
-Trinity Health,Hackley Hospital,2.16.840.1.113883.3.137.30
-Trinity Health,Lakeshore Community Hospital,
-Trinity Health,St. Joseph Mercy Hospital,2.16.840.1.113883.3.137.210
-Trinity Health,St. Joseph Mercy Livingston Hospital,2.16.840.1.113883.3.137.220
-Trinity Health,Chelsea Community Hospital,2.16.840.1.113883.3.137.230
-Trinity Health,St. Mary Mercy Hospital,2.16.840.1.113883.3.137.240
-Trinity Health,St. Joseph Mercy Oakland,2.16.840.1.113883.3.137.250
-UP Health System,Marquette Hospital,2.16.840.1.113883.3.2533
-Detroit Medical Center,Detroit Medical Center,
-Detroit Medical Center,DMC Children hospital of Michigan,2.16.840.1.113883.3.801.4.5
-Detroit Medical Center,DMC children's hospital of Michigan- Troy,2.16.840.1.113883.3.6769
-Detroit Medical Center,DMC Harper University & Hutzel Hospital,2.16.840.1.113883.3.801.4.1
-Detroit Medical Center,DMC Huron Valley Sinai Hospital,2.16.840.1.113883.3.801.4.4
-Detroit Medical Center,DMC Receiving Hospital,2.16.840.1.113883.3.801.4.2
-Detroit Medical Center,DMC Rehabilitation Institute of Michigan,2.16.840.1.113883.3.801.4.6
-Detroit Medical Center,DMC Sinai Grace Hospital,2.16.840.1.113883.3.801.4.3
-Michigan Medicine,Michigan Medicine,
-Henry Ford Health System,War Memorial Hospital,2.16.840.1.113883.3.1145.2
-Henry Ford Health System,Henry Ford Allegiance Health,2.16.840.1.113883.17.4042.4
-Henry Ford Health System,Henry Ford Health System (Root OID),2.16.840.1.113883.3.3823
-Henry Ford Health System,Henry Ford Main Campus,2.16.840.1.113883.3.3823.101
-Henry Ford Health System,Henry Ford Kingswood,2.16.840.1.113883.3.3823.103
-Henry Ford Health System,Henry Ford West Bloomfield,2.16.840.1.113883.3.3823.104
-Henry Ford Health System,Henry Ford Wyandotte,2.16.840.1.113883.3.3823.105
-Henry Ford Health System,Henry Ford Macomb Hospital,2.16.840.1.113883.3.3823.106
-Henry Ford Health System,HFMH MACOMB HOSPITAL CLINTON TOWNSHIP,2.16.840.1.113883.3.3823.106001
-Henry Ford Health System,Henry Ford Macomb Hospital-Mt. Clemens,2.16.840.1.113883.3.3823.106002
-Henry Ford Health System,Henry Ford Cottage,2.16.840.1.113883.3.3823.101014
-Henry Ford Health System,Henry Ford Fairlane,2.16.840.1.113883.3.3823.101018
-Henry Ford Health System,Henry Ford Sterling Heights,2.16.840.1.113883.3.3823.101032
-Henry Ford Health System,HFWY BROWNSTOWN,2.16.840.1.113883.3.3823.105002
-,,
+Health System,Hospital Name,OID,Notes 
+Ascension,Genesys Regional Medical Center,2.16.840.1.113883.3.1696,
+Ascension,Ascension Medical Group ProMed (a.k.a. Borgess Medical Center),2.16.840.1.113883.3.5416.1.5106,
+Ascension,Borgess-Lee Memorial Hospital,2.16.840.1.113883.3.891.1,
+Ascension, Borgess Pipp Hospital,2.16.840.1.113883.3.891.2,
+Ascension,St. John Hospital and Medical Center,2.16.840.1.113883.17.3943,
+Ascension,St. John Macomb Hospital,2.16.840.1.113883.17.3945,
+Ascension,St. John Oakland Hospital ,2.16.840.1.113883.17.3948,
+Ascension,St. John River District Hospital ,2.16.840.1.113883.17.3949,
+Ascension,St. John Providence Hospital,2.16.840.1.113883.3.5416.1.207,
+Ascension, St. John Providence Park Hospital,2.16.840.1.113883.17.3951,
+Beaumont Health System,Beaumont Hospital Royal Oak,2.16.840.1.113883.3.1097.105,
+Beaumont Health System,Beaumont Hospital Troy,2.16.840.1.113883.3.1097.205,
+Beaumont Health System,Beaumont Hospital Grosse Pointe,2.16.840.1.113883.3.1097.405,
+Beaumont Health System,Beaumont Hospital Farmington Hills(formerly Botsford Hospital),2.16.840.1.113883.3.1097.705,
+Beaumont Health System,Beaumont Hospital Wayne,2.16.840.1.113883.3.5141,
+Beaumont Health System,Beaumont Medical Center Dearborn,2.16.840.1.113883.3.5128,
+Beaumont Health System,Beaumont Hospital Taylor,2.16.840.1.113883.3.5140,
+Beaumont Health System,Beaumont Hospital Southshore,2.16.840.1.113883.3.5139,
+Bronson Healthcare ,Bronson Methodist Hospital,2.16.840.1.113883.3.4771.1,
+Bronson Healthcare ,Bronson Lakeview Hospital,2.16.840.1.113883.3.4771.2,
+Bronson Healthcare ,Bronson Battle Creek Hospital,2.16.840.1.113883.3.137.4.70,
+Bronson Healthcare ,Bronson South Haven Hospital,2.16.840.1.113883.3.5023.1,
+Community Health Center of Branch County,Community Health Center of Branch County (CHCBC),2.16.840.1.113883.3.2403,
+Covenant Health,Covenant Health Care (Covenant Medical Center),2.16.840.1.113883.3.5044,
+Crittenton,Crittenton Hospital,2.16.840.1.113883.3.1364,
+Dickinson County Healthcare System,Dickinson County Memorial Hospital - UPHIE,2.16.840.1.113883.3.4656.1,
+Garden City,Garden City Hospital,2.16.840.1.113883.3.5416.1.85,
+Henry Ford Health System,Henry Ford Allegiance Health,2.16.840.1.113883.17.4042.4,
+Hillsdale,Hillsdale Community Health Center ,2.16.840.1.113883.3.4472,
+Holland Hosiptal,Holland Community Hospital,2.16.840.1.113883.3.1158,
+Hurley,Hurley Medical Center,2.16.840.1.113883.3.3413,
+McLaren Health Care, McLaren Bay Region,2.16.840.1.113883.3.4376.400,
+McLaren Health Care, McLaren Central Michigan,2.16.840.1.113883.3.4376.700,
+McLaren Health Care, McLaren Flint,2.16.840.1.113883.3.4376.100,
+McLaren Health Care, McLaren Greater Lansing,2.16.840.1.113883.3.4376.300,
+McLaren Health Care,McLaren Lapeer,2.16.840.1.113883.3.4376.200,
+McLaren Health Care,McLaren Macomb,2.16.840.1.113883.3.4376.600,
+McLaren Health Care, McLaren Northern,2.16.840.1.113883.3.4376.800,
+McLaren Health Care,McLaren Oakland,2.16.840.1.113883.3.4376.500,
+McLaren Health Care,McLaren Port Huron Hospital,2.16.840.1.113883.3.4376.1100,
+McLaren Health Care,Karmanos Cancer Institute,2.16.840.1.113883.3.4376.900,
+Metro Health,Metro Health Hospital,2.16.840.1.113883.3.3372,
+Munson Healthcare,Munson Medical Center ,2.16.840.1.113883.3.1164,
+Munson Healthcare,Munson Healthcare Cadillac Hospital (Mercy Cadillac) ,2.16.840.1.113883.3.3252,
+Munson Healthcare,Munson Healthcare Grayling Hospital (Mercy Grayling) ,2.16.840.1.113883.3.3253,
+Munson Healthcare,Paul Oliver Memorial Hospital,2.16.840.1.113883.3.3254,
+Munson Healthcare,Kalkaska Memorial Health Center,2.16.840.1.113883.3.3255,
+North Ottawa Community Health System,North Ottawa Community Hospital ,2.16.840.1.113883.3.1939.1,
+Oaklawn Hospital,Oaklawn Hospital,2.16.840.1.113883.3.1195,
+ProMedica,ProMedica Herrick Hospital,2.16.840.1.113883.3.5416.1.81.1,
+ProMedica,ProMedica Monroe Regional Hospital,2.16.840.1.113883.3.5416.1.134.1,
+ProMedica,ProMedica Bixby Hospital,2.16.840.1.113883.3.5416.1.81.2,
+Sparrow,Sparrow Hospital,2.16.840.1.113883.3.3991.1,
+Sparrow,St. Lawrence Hospital,2.16.840.1.113883.3.3991.2,
+Sparrow,Clinton Hospital,2.16.840.1.113883.3.3991.3,
+Sparrow,Ionia Hospital,2.16.840.1.113883.3.3991.4,
+Sparrow,Sparrow Specialty Hospital,2.16.840.1.113883.3.3991.5,
+Sparrow,Carson City Hospital,2.16.840.1.113883.3.3991.6,
+St. Mary's of Michigan,St. Mary's of Michigan Saginaw,2.16.840.1.113883.3.44.21.100,
+St. Mary's of Michigan,St. Mary's of Michigan Towne Centre ED,2.16.840.1.113883.3.44.21.100.1,
+St. Mary's of Michigan,St. Mary's of Michigan Standish,2.16.840.1.113883.3.44.21.200,
+St. Mary's of Michigan,St. Joseph Health Tawas,2.16.840.1.113883.3.44.21.300,
+Sturgis Hospital,Sturgis Hospital,2.16.840.1.113883.3.3571.1,
+Trinity Health,St. Mary's Mercy Medical Center,2.16.840.1.113883.3.137.10,
+Trinity Health,Mercy General Health Partner,2.16.840.1.113883.3.137.20 ,
+Trinity Health,Hackley Hospital,2.16.840.1.113883.3.137.30,
+Trinity Health,Lakeshore Community Hospital,2.16.840.1.113883.3.137.40,
+Trinity Health,St. Joseph Mercy Hospital,2.16.840.1.113883.3.137.210,
+Trinity Health,St. Joseph Mercy Livingston Hospital,2.16.840.1.113883.3.137.220,
+Trinity Health,Chelsea Community Hospital,2.16.840.1.113883.3.137.230,
+Trinity Health,St. Mary Mercy Hospital,2.16.840.1.113883.3.137.240,
+Trinity Health,St. Joseph Mercy Oakland,2.16.840.1.113883.3.137.250,
+UP Health System,Marquette Hospital,2.16.840.1.113883.3.2533,
+Detroit Medical Center,Detroit Medical Center,2.16.840.1.113883.3.801.4.7,
+Detroit Medical Center,DMC Children hospital of Michigan,2.16.840.1.113883.3.801.4.5,
+Detroit Medical Center,DMC children's hospital of Michigan- Troy,2.16.840.1.113883.3.6769,
+Detroit Medical Center,DMC Harper University & Hutzel Hospital,2.16.840.1.113883.3.801.4.1,
+Detroit Medical Center,DMC Huron Valley Sinai Hospital,2.16.840.1.113883.3.801.4.4,
+Detroit Medical Center,DMC Receiving Hospital,2.16.840.1.113883.3.801.4.2,
+Detroit Medical Center,DMC Rehabilitation Institute of Michigan,2.16.840.1.113883.3.801.4.6,
+Detroit Medical Center,DMC Sinai Grace Hospital,2.16.840.1.113883.3.801.4.3,
+Michigan Medicine,Michigan Medicine,2.16.840.1.113883.3.4220,
+Henry Ford Health System,War Memorial Hospital,2.16.840.1.113883.3.1145.2,
+Henry Ford Health System,Henry Ford Allegiance Health,2.16.840.1.113883.17.4042.4,
+Henry Ford Health System,Henry Ford Health System (Root OID),2.16.840.1.113883.3.3823,
+Henry Ford Health System,Henry Ford Main Campus,2.16.840.1.113883.3.3823.101,
+Henry Ford Health System,Henry Ford Kingswood,2.16.840.1.113883.3.3823.103,
+Henry Ford Health System,Henry Ford West Bloomfield,2.16.840.1.113883.3.3823.104,
+Henry Ford Health System,Henry Ford Wyandotte,2.16.840.1.113883.3.3823.105,
+Henry Ford Health System,Henry Ford Macomb Hospital,2.16.840.1.113883.3.3823.106,
+Henry Ford Health System,HFMH MACOMB HOSPITAL CLINTON TOWNSHIP,2.16.840.1.113883.3.3823.106001,
+Henry Ford Health System,Henry Ford Macomb Hospital-Mt. Clemens,2.16.840.1.113883.3.3823.106002,
+Henry Ford Health System,Henry Ford Cottage,2.16.840.1.113883.3.3823.101014,
+Henry Ford Health System,Henry Ford Fairlane,2.16.840.1.113883.3.3823.101018,
+Henry Ford Health System,Henry Ford Sterling Heights,2.16.840.1.113883.3.3823.101032,
+Henry Ford Health System,HFWY BROWNSTOWN,2.16.840.1.113883.3.3823.105002,
+,,,
