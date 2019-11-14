@@ -25,6 +25,7 @@ Bronson Healthcare,Bronson Lakeview Hospital,Bronson Healthcare Group,2.16.840.1
 Bronson Healthcare,Bronson Methodist Hospital,Bronson Healthcare Group,2.16.840.1.113883.3.4771.1,2.16.840.1.113883.3.4771
 Bronson Healthcare,Bronson South Haven Hospital,Bronson Healthcare Group,2.16.840.1.113883.3.5023.1,2.16.840.1.113883.3.5023
 Covenant Health,Covenant HealthCare,Covenant Health,2.16.840.1.113883.3.5044,2.16.840.1.113883.3.5044
+Dickinson County Healthcare System,Dickinson County Memorial Hospital,DCH SYSTEM and Dickinson County Healthcare System,2.16.840.1.113883.3.4656.1,2.16.840.1.113883.3.4656
 Detroit Medical Center,DMC Children's Hospital of Michigan-Detroit,Children's Hospital of Michigan,2.16.840.1.113883.3.801.4.5,2.16.840.1.113883.3.801
 Detroit Medical Center,DMC Children's Hospital of Michigan-Troy,Children's Hospital of Michigan,2.16.840.1.113883.3.6769,2.16.840.1.113883.3.801
 Detroit Medical Center,DMC Detroit Receiving Hospital,Detroit Receiving Hospital and University Health Center,2.16.840.1.113883.3.801.4.2,2.16.840.1.113883.3.801
@@ -32,7 +33,7 @@ Detroit Medical Center,DMC Harper University Hospital/DMC Hutzel Women's Hospita
 Detroit Medical Center,DMC Huron Valley-Sinai Hospital,Huron Valley-Sinai Hospital,2.16.840.1.113883.3.801.4.4,2.16.840.1.113883.3.801
 Detroit Medical Center,DMC Rehabilitation Institute of Michigan,Rehabilitation Institute of Michigan,2.16.840.1.113883.3.801.4.6,2.16.840.1.113883.3.801
 Detroit Medical Center,DMC Sinai-Grace Hospital,Sinai-Grace Hospital,2.16.840.1.113883.3.801.4.3,2.16.840.1.113883.3.801
-Dickinson County Healthcare System,Dickinson County Memorial Hospital,DCH SYSTEM and Dickinson County Healthcare System,2.16.840.1.113883.3.4656.1,2.16.840.1.113883.3.4656
+Prime Healthcare,Garden City Hospital,Garden City,2.16.840.1.113883.3.5416.1.85,2.16.840.1.113883.3.5416.1.85
 Henry Ford Health System,Henry Ford Allegiance Health,Henry Ford Health System,2.16.840.1.113883.17.4042.4,2.16.840.1.113883.3.3823
 Henry Ford Health System,Henry Ford Hospital - Main Campus,Henry Ford Health System,2.16.840.1.113883.3.3823.101,2.16.840.1.113883.3.3823
 Henry Ford Health System,Henry Ford Hospital - Wyandotte,Henry Ford Health System,2.16.840.1.113883.3.3823.105,2.16.840.1.113883.3.3823
@@ -41,10 +42,11 @@ Henry Ford Health System,Henry Ford West Bloomfield Hospital,Henry Ford Health S
 Hillsdale Hospital,Hillsdale Hospital,Hillsdale Hospital,2.16.840.1.113883.3.4472,2.16.840.1.113883.3.4472
 Holland Hospital,Holland Hospital,Holland Hospital,2.16.840.1.113883.3.1158,2.16.840.1.113883.3.1158
 Hurley,Hurley Medical Center,Hurley Medical Center,2.16.840.1.113883.3.3413,2.16.840.1.113883.3.3413
+McLaren Health Care,Karmanos Cancer Institute-Detroit,Karmanos Cancer Center,2.16.840.1.113883.3.4376.900,2.16.840.1.113883.3.4376
+Prime Healthcare,Lake Huron Medical Center,PHS Michigan Service Area,2.16.840.1.113883.3.3238.50.958,2.16.840.1.113883.3.3238.50.958
 Lakeland HealthCare,"Lakeland Hospital, Niles",Lakeland Regional Health System,2.16.840.1.113883.17.162,2.16.840.1.113883.3.3846
 Lakeland HealthCare,"Lakeland Hospital, Watervliet",Lakeland Regional Health System,2.16.840.1.113883.17.159,2.16.840.1.113883.3.3846
 Lakeland HealthCare,"Lakeland Medical Center, St. Joseph",Lakeland Regional Health System,2.16.840.1.113883.17.160,2.16.840.1.113883.3.3846
-McLaren Health Care,Karmanos Cancer Institute-Detroit,Karmanos Cancer Center,2.16.840.1.113883.3.4376.900,2.16.840.1.113883.3.4376
 McLaren Health Care,McLaren Bay Region,Bay Regional Medical Center (Live),2.16.840.1.113883.3.4376.400,2.16.840.1.113883.3.4376
 McLaren Health Care,McLaren Central Michigan,Central Michigan Community Hospital,2.16.840.1.113883.3.4376.700,2.16.840.1.113883.3.4376
 McLaren Health Care,McLaren Flint,McLaren Regional Medical Center,2.16.840.1.113883.3.4376.100,2.16.840.1.113883.3.4376
@@ -55,16 +57,16 @@ McLaren Health Care,McLaren Northern Michigan,McLaren Northern Michigan,2.16.840
 McLaren Health Care,McLaren Oakland,McLaren Oakland,2.16.840.1.113883.3.4376.500,2.16.840.1.113883.3.4376
 McLaren Health Care,McLaren Port Huron,McLaren Port Huron,2.16.840.1.113883.3.4376.1100,2.16.840.1.113883.3.4376
 Memorial Healthcare,Memorial Healthcare Owosso,Memorial Healthcare,2.16.840.1.113883.3.992,2.16.840.1.113883.3.992
-Michigan Medicine - University of Michigan Health System,Metro Health Hospital,Metro Health Hospital,2.16.840.1.113883.3.3372,2.16.840.1.113883.3.3372
+Trinity Health,Mercy Health Hackley Campus,Mercy Health Muskegon,2.16.840.1.113883.3.137.30,2.16.840.1.113883.3.137
+Trinity Health,Mercy Health Lakeshore Campus,Mercy Health Lakeshore Campus,2.16.840.1.113883.3.137.40,2.16.840.1.113883.3.137
+Michigan Medicine - University of Michigan Health System,Metro Health Hospital,Metro Health Integrated Network,2.16.840.1.113883.3.3372,2.16.840.1.113883.3.3372
 Michigan Medicine - University of Michigan Health System,Michigan Medicine - University of Michigan Medical Center,"Michigan Medicine, Unviersity of Michigan",2.16.840.1.113883.3.4220.4.10001,2.16.840.1.113883.3.4220
-Michigan Medicine - University of Michigan Health System,Mott Children's Hospital,"Michigan Medicine, Unviersity of Michigan",2.16.840.1.113883.3.4220.4.10005,2.16.840.1.113883.3.4220
-Michigan Medicine - University of Michigan Health System,University Hospital South - Michigan Medicine,"Michigan Medicine, Unviersity of Michigan",2.16.840.1.113883.3.4220.4.10009,2.16.840.1.113883.3.4220
-Michigan Medicine - University of Michigan Health System,Von Voigtlander Women's Hospital,"Michigan Medicine, Unviersity of Michigan",2.16.840.1.113883.3.4220.4.10003,2.16.840.1.113883.3.4220
 Mid-Michigan Health,MidMichigan Medical Center - Alpena,MidMichigan Medical Center,2.16.840.1.113883.3.1199,2.16.840.1.113883.3.1199
 Mid-Michigan Health,MidMichigan Medical Center - Clare,MidMichigan Medical Center,2.16.840.1.113883.3.1738.1,2.16.840.1.113883.3.1738
 Mid-Michigan Health,MidMichigan Medical Center - Gladwin,MidMichigan Medical Center,2.16.840.1.113883.3.1738.2,2.16.840.1.113883.3.1738
 Mid-Michigan Health,MidMichigan Medical Center - Gratiot,MidMichigan Medical Center,2.16.840.1.113883.3.1738.3,2.16.840.1.113883.3.1738
 Mid-Michigan Health,MidMichigan Medical Center - Midland,MidMichigan Medical Center,2.16.840.1.113883.3.1738.4,2.16.840.1.113883.3.1738
+Michigan Medicine - University of Michigan Health System,Mott Children's Hospital,"Michigan Medicine, Unviersity of Michigan",2.16.840.1.113883.3.4220.4.10005,2.16.840.1.113883.3.4220
 Munson Healthcare,Munson Healthcare Cadillac Hospital,Cadillac Hospital,2.16.840.1.113883.3.3252,2.16.840.1.113883.3.5416.1.33
 Munson Healthcare,Munson Healthcare Grayling Hospital,Grayling Hospital,2.16.840.1.113883.3.3253,2.16.840.1.113883.3.5416.1.33
 Munson Healthcare,Munson Healthcare Kalkaska Memorial Health Center,Kalkaska Memorial Health Center,2.16.840.1.113883.3.3255,2.16.840.1.113883.3.5416.1.33
@@ -72,8 +74,7 @@ Munson Healthcare,Munson Healthcare Munson Medical Center,Munson Medical Center,
 Munson Healthcare,Munson Healthcare Paul Oliver Memorial Hospital,Paul Oliver Memorial Hospital,2.16.840.1.113883.3.3254,2.16.840.1.113883.3.5416.1.33
 North Ottawa Community Health System,North Ottawa Community Hospital,North Ottawa Community Hospital,2.16.840.1.113883.3.1939.1,2.16.840.1.113883.3.1939
 Oaklawn Hospital,Oaklawn Hospital,Oaklawn Hospital,2.16.840.1.113883.3.1195,2.16.840.1.113883.3.1195
-Prime Healthcare,Garden City Hospital,Garden City,2.16.840.1.113883.3.5416.1.85,2.16.840.1.113883.3.5416.1.85
-Prime Healthcare,Lake Huron Medical Center,PHS Michigan Service Area,2.16.840.1.113883.3.3238.50.958,2.16.840.1.113883.3.3238.50.958
+St. Francis Hospital,OSF St. Francis Hospital,OSF HEALTHCARE SA,2.16.840.1.113883.3.5416.1.117,2.16.840.1.113883.3.5416.1.359
 ProMedica Health System,ProMedica Bixby Hospital,ProMedica Health System,2.16.840.1.113883.3.5416.1.81.2,2.16.840.1.113883.3.5416.1.81
 ProMedica Health System,ProMedica Herrick Hospital,ProMedica Health System,2.16.840.1.113883.3.5416.1.81.1,2.16.840.1.113883.3.5416.1.81
 ProMedica Health System,ProMedica Monroe Regional Hospital,ProMedica Health System,2.16.840.1.113883.3.5416.1.134.1,2.16.840.1.113883.3.5416.1.81
@@ -83,17 +84,16 @@ Sparrow Health System,Sparrow Eaton Hospital,Sparrow Health System,2.16.840.1.11
 Sparrow Health System,Sparrow Hospital,Sparrow Health System,2.16.840.1.113883.3.3991.1,2.16.840.1.113883.3.3991
 Sparrow Health System,Sparrow Ionia Hospital,Sparrow Health System,2.16.840.1.113883.3.3991.4,2.16.840.1.113883.3.3991
 Sparrow Health System,Sparrow Speciaty Hospital,Sparrow Health System,2.16.840.1.113883.3.3991.5,2.16.840.1.113883.3.3991
-St. Francis Hospital,OSF St. Francis Hospital,OSF HEALTHCARE SA,2.16.840.1.113883.3.5416.1.117,2.16.840.1.113883.3.5416.1.359
-Sturgis Hospital,Sturgis Hospital,Sturgis Hospital,2.16.840.1.113883.3.3571.1,2.16.840.1.113883.3.3571
-Trinity Health,Mercy Health Hackley Campus,Mercy Health Muskegon,2.16.840.1.113883.3.137.30,2.16.840.1.113883.3.137
-Trinity Health,Mercy Health Lakeshore Campus,Mercy Health Lakeshore Campus,2.16.840.1.113883.3.137.40,2.16.840.1.113883.3.137
 Trinity Health,St. Joseph Mercy Chelsea,St. Joseph Mercy Chelsea,2.16.840.1.113883.3.137.230,2.16.840.1.113883.3.137
 Trinity Health,St. Joseph Mercy Hospital,"St. Joseph Mercy Hospital, Ann Arbor",2.16.840.1.113883.3.137.210,2.16.840.1.113883.3.137
 Trinity Health,St. Joseph Mercy Livingston Hospital,St. Joseph Mercy Livingston Hospital,2.16.840.1.113883.3.137.220,2.16.840.1.113883.3.137
 Trinity Health,St. Joseph Mercy Oakland,St. Joseph Mercy- Oakland,2.16.840.1.113883.3.137.250,2.16.840.1.113883.3.137
 Trinity Health,St. Mary Mercy Hospital,St. Mary Mercy Hospital - Livonia,2.16.840.1.113883.3.137.240,2.16.840.1.113883.3.137
 Trinity Health,St. Mary's Mercy Medical Center,Mercy Health Saint Mary's,2.16.840.1.113883.3.137.10,2.16.840.1.113883.3.137
+Sturgis Hospital,Sturgis Hospital,Sturgis Hospital,2.16.840.1.113883.3.3571.1,2.16.840.1.113883.3.3571
+Michigan Medicine - University of Michigan Health System,University Hospital South - Michigan Medicine,"Michigan Medicine, Unviersity of Michigan",2.16.840.1.113883.3.4220.4.10009,2.16.840.1.113883.3.4220
 UP Health System (part of LifePoint Hospitals),UP Health System - Marquette,UP HEALTH SYSTEM-MARQUETTE,2.16.840.1.113883.3.2533,2.16.840.1.113883.3.2533
+Michigan Medicine - University of Michigan Health System,Von Voigtlander Women's Hospital,"Michigan Medicine, Unviersity of Michigan",2.16.840.1.113883.3.4220.4.10003,2.16.840.1.113883.3.4220
 War Memorial Hospital,War Memorial Hospital,War Memorial Hospital,2.16.840.1.113883.3.1145.2,2.16.840.1.113883.3.1145
 
 ,,,,
