@@ -1,0 +1,23 @@
+base: SNF-Advantage Living Center- Wayne
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Advantage Living Center- Wayne ADT 2.0 tables 07-11-18.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: b45c402f4fe74af1b5ce412c52248ea5
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210913075502'
+          field name: PID-30
+          field value: '""'
+          message count: 6
+          receiving org message ID: 27168036
+        - HL7 ID: b45c402f4fe74af1b5ce412c52248ea5
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210913075502'
+          field name: PV1-36
+          field value: '""'
+          message count: 3
+          receiving org message ID: 27168036

@@ -1,0 +1,23 @@
+base: SNF-Wellbridge of Romeo, LLC
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Wellbridge of Romeo, LLC ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '466545890'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '2021062109285000000009'
+          field name: PID-30
+          field value: '""'
+          message count: 8
+          receiving org message ID: 60432638
+        - HL7 ID: '472960169'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '2021062718090500000007'
+          field name: PV1-36
+          field value: '""'
+          message count: 19
+          receiving org message ID: 61592389

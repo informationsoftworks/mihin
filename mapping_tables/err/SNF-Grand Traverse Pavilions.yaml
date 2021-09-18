@@ -1,0 +1,29 @@
+base: SNF-Grand Traverse Pavilions
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Grand Traverse Pavilions ADT 2.0 tables 3-13-17.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '14508_851457'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210818173511'
+          field name: PID-30
+          field value: '""'
+          message count: 17
+          receiving org message ID: 76770497
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Grand Traverse Pavilions ADT 2.0 tables 3-13-17.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP61
+            code: 'Hartford Life & Accident '
+          - cell: AP101
+            code: 'National General '

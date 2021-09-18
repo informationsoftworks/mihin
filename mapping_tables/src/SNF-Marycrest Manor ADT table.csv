@@ -1,0 +1,798 @@
+filename	0	0		2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Marycrest Manor ADT table 2.0 12-21-17.xlsx			
+MSH-4	2	1	Hospital Value	Description			4
+MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
+MSH-4	4	1	2.16.840.1.113883.3.137.4.2000.90         	Marycrest Manor			00000000
+PID-8	2	3	MiHIN Value	Description	Hospital Value		4
+PID-8	3	3	M	Male	M		2
+PID-8	4	3	F	Female	F		4
+PID-8	5	3	M	Male	M		4
+PID-8	6	3	O	Other			4
+PID-8	7	3	U	Unknown			4
+PID-8	8	3	A	Ambiguous			4
+PID-8	9	3	N	Not Applicable			4
+PID-10	2	6	MiHIN Value	Description	Hospital Value		4
+PID-10	3	6	2106-3	White	W		2
+PID-10	4	6	1002-5	American Indian or Alaska Native	1002-5		4
+PID-10	5	6	2028-9	Asian			4
+PID-10	6	6	2054-5	Black or African American	2054-5		4
+PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander			4
+PID-10	8	6	2106-3	White	2106-3		4
+PID-10	9	6	2131-1	Other Race	2131-1, 2028-9		4
+PID-10	10	6	MR	Multi-Racial			4
+PID-10	11	6	PR	Patient Refused 			4
+PID-22	2	9	MiHIN Value	Description	Hospital Value		4
+PID-22	3	9	H	Hispanic or Latino	Hisp		2
+PID-22	4	9	H	Hispanic or Latino	H		4
+PID-22	5	9	N	Not Hispanic or Latino	N		4
+PID-22	6	9	U	Unknown	U		4
+PID-22	7	9	D	Declined			4
+PID-22	8	9	AN	Alaskan Native 			4
+PID-22	9	9	AR	Arabic 			4
+PID-22	10	9	AS	Asian 			4
+PID-22	11	9	CA	Caucasian			4
+PID-22	12	9	CHA	Chaldean 			4
+PID-22	13	9	CHI	Chinese 			4
+PID-22	14	9	DU	Dutch 			4
+PID-22	15	9	EG	Egyptian 			4
+PID-22	16	9	FR	French 			4
+PID-22	17	9	GER	German 			4
+PID-22	18	9	GRE	Greek 			4
+PID-22	19	9	HA	Hawaiian 			4
+PID-22	20	9	IRA	Iranian 			4
+PID-22	21	9	IRQ	Iraqi 			4
+PID-22	22	9	IRH	Irish 			4
+PID-22	23	9	ITA	Italian 			4
+PID-22	24	9	JA	Japanese 			4
+PID-22	25	9	JE	Jewish 			4
+PID-22	26	9	JO	Jordanian 			4
+PID-22	27	9	KO	Korean 			4
+PID-22	28	9	LE	Lebanese  			4
+PID-22	29	9	MAC	Macedonian 			4
+PID-22	30	9	ME	Middle Eastern			4
+PID-22	31	9	MUL	Multi-Ethnic 			4
+PID-22	32	9	NA	Native American			4
+PID-22	33	9	O	Other 			4
+PID-22	34	9	PO	Polish 			4
+PID-22	35	9	RU	Russian 			4
+PID-22	36	9	SC	Scottish 			4
+PID-22	37	9	UK	Ukrainian 			4
+PID-22	38	9	VIT	Vietnamese 			4
+PID-30	2	12	MiHIN Value	Description	Hospital Value		4
+PID-30	3	12	Y	Expired	E		2
+PID-30	4	12	Y	Deceased/Yes	Y		4
+PID-30	5	12	N	Not Deceased/No	N		4
+DG1-6	2	15	MiHIN Value	Description	Hospital Value		4
+DG1-6	3	15	A	Admitting	AD		2
+DG1-6	4	15	A	Admitting	A		4
+DG1-6	5	15	F	Final			4
+DG1-6	6	15	W	Working 	W		4
+DG1-6	7	15	O	Other			4
+PV1-2	2	18	MiHIN Value	Description	Hospital Value		4
+PV1-2	3	18	E	Emergency	ER		2
+PV1-2	4	18	B	Obstetrics			4
+PV1-2	5	18	C	Commercial Account			4
+PV1-2	6	18	E	Emergency			4
+PV1-2	7	18	I	Inpatient	I		4
+PV1-2	8	18	N	Not Applicable			4
+PV1-2	9	18	O	Outpatient	O		4
+PV1-2	10	18	P	Preadmit			4
+PV1-2	11	18	R	Recurring patient			4
+PV1-2	12	18	U	Unknown			4
+PV1-2	13	18	IH	IP Hospice 			4
+PV1-2	14	18	NB	Newborn			4
+PV1-2	15	18	OB	Observation 			4
+PV1-2	16	18	SN	Skilled Nursing 			4
+PV1-2	17	18	SA	Surgery Admit 			4
+PV1-4	2	21	MiHIN Value	Description	Hospital Value		4
+PV1-4	3	21	E	Emergency	E		2
+PV1-4	4	21	A	Accident			4
+PV1-4	5	21	C	Elective			4
+PV1-4	6	21	E	Emergency			4
+PV1-4	7	21	L	Labor and Delivery			4
+PV1-4	8	21	N	Newborn (Birth in healthcare facility)			4
+PV1-4	9	21	R	Routine	R		4
+PV1-4	10	21	U	Urgent			4
+PV1-4	11	21	TC	Trauma Center 			4
+PV1-4	12	21	O	Other			4
+PV1-14	2	24	MiHIN Value	Description	Hospital Value		4
+PV1-14	3	24	2	Clinic referral	E		2
+PV1-14	4	24	1	Physician referral	PR		4
+PV1-14	5	24	2	Clinic referral	CR		4
+PV1-14	6	24	3	HMO referral	HR		4
+PV1-14	7	24	4	Transfer from a hospital	2		4
+PV1-14	8	24	5	Transfer froma skilled nursing facility	3		4
+PV1-14	9	24	6	Transfer from another health care facility	5		4
+PV1-14	10	24	7	Emergency Room	EM		4
+PV1-14	11	24	8	Court/Law enforcement	CL		4
+PV1-14	12	24	9	Information not available	NA		4
+PV1-14	13	24	SR	Self-Referral			4
+PV1-14	14	24	TRNF	Transfer from a non-health care facility	1		4
+PV1-14	15	24	TRAD	Transfer from Ambulatory Department	E1		4
+PV1-18	2	27	MiHIN Suggested Values		Hospital Value	Description	4
+PV1-18	3	27			A	Anonymous	2
+PV1-18	4	27	1	Anonymous			4
+PV1-18	5	27	2	Confidential			4
+PV1-18	6	27	3	Employee			4
+PV1-18	7	27	4	Dismissed			4
+PV1-18	8	27	5	No Medicare			4
+PV1-18	9	27	6	Prisoner			4
+PV1-18	10	27	7	VIP			4
+PV1-18	11	27	8	Staff Dependent			4
+PV1-18	12	27	9	Benefactor			4
+PV1-18	13	27	10	Employee Dependent			4
+PV1-18	14	27	11	Non-Employee			4
+PV1-18	15	27	12	Volunteer			4
+PV1-18	16	27	13	Staff Physician			4
+PV1-18	17	27	14	Non V.I.P			4
+PV1-18	18	27	15	Retired Employee			4
+PV1-18	19	27	42	Homeless			4
+PV1-18	20	27	44	Celebrity			4
+PV1-18	21	27	45	Donor			4
+PV1-18	22	27	46	Transplant			4
+PV1-18	23	27	47	Voucher			4
+PV1-18	24	27	49	Board Member			4
+PV1-18	25	27	49	Clergy			4
+PV1-18	26	27	52	Other			4
+PV1-18	27	27	58	Organ Donor			4
+PV1-18	28	27	59	Organ 			4
+PV1-18	29	27	60	Select Specialty			4
+PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
+PV1-10	3	31			121	Pediatrics	2
+PV1-10	4	31	104	Cardiology - General			4
+PV1-10	5	31	105	Emergency Medicine			4
+PV1-10	6	31	107	Geriatrics			4
+PV1-10	7	31	108	Gastroenterology			4
+PV1-10	8	31	109	Gynecology			4
+PV1-10	9	31	110	Hospice Medicine			4
+PV1-10	10	31	111	Medical Intensive Care			4
+PV1-10	11	31	112	Internal Medicine			4
+PV1-10	12	31	114	Neuro ICU			4
+PV1-10	13	31	115	Neurology			4
+PV1-10	14	31	116	Neonatology			4
+PV1-10	15	31	117	Obstetrics			4
+PV1-10	16	31	118	Oncology			4
+PV1-10	17	31	119	Orthopedics			4
+PV1-10	18	31	121	Pediatrics			4
+PV1-10	19	31	123	Physical Medicine and Rehabilitation			4
+PV1-10	20	31	124	General Surgery			4
+PV1-10	21	31	125	Surgical Intensive Care			4
+PV1-10	22	31	126	Nephrology Transplant			4
+PV1-10	23	31	127	Acute Care Surgery			4
+PV1-10	24	31	128	Allergy & Immunology			4
+PV1-10	25	31	129	Anesthesiology			4
+PV1-10	26	31	131	Dermatology			4
+PV1-10	27	31	132	Family Medicine			4
+PV1-10	28	31	133	Endocrinology			4
+PV1-10	29	31	134	Genetics			4
+PV1-10	30	31	135	Hematology			4
+PV1-10	31	31	136	Infectious Disease			4
+PV1-10	32	31	137	Nephrology			4
+PV1-10	33	31	138	Neurosurgery			4
+PV1-10	34	31	139	Ophthalmology			4
+PV1-10	35	31	140	Otolaryngology/ENT			4
+PV1-10	36	31	141	Plastic Surgery			4
+PV1-10	37	31	143	Radiation Oncology			4
+PV1-10	38	31	144	Rheumatology			4
+PV1-10	39	31	145	Urology			4
+PV1-10	40	31	148	Pharmacy			4
+PV1-10	41	31	149	Interventional Radiology			4
+PV1-10	42	31	150	Clinical Decision Unit			4
+PV1-10	43	31	151	Wound/Ostomy Care			4
+PV1-10	44	31	153	Newborn			4
+PV1-10	45	31	154	Labor and Delivery			4
+PV1-10	46	31	156	Hospitalist Medicine			4
+PV1-10	47	31	158	Select Specialty			4
+PV1-10	48	31	161	Audiology			4
+PV1-10	49	31	162	Behavioral Health - Psychology			4
+PV1-10	50	31	163	Cardiology - Structural Heart Disease			4
+PV1-10	51	31	165	Colon/Rectal Surgery			4
+PV1-10	52	31	166	Gynecology/Oncology			4
+PV1-10	53	31	172	Oral Surgery			4
+PV1-10	54	31	175	Palliative Medicine 			4
+PV1-10	55	31	178	Podiatry			4
+PV1-10	56	31	180	Radiology			4
+PV1-10	57	31	181	Sleep Center			4
+PV1-10	58	31	184	Cardiac Surgery			4
+PV1-10	59	31	185	Transplant			4
+PV1-10	60	31	198	Bone Marrow Transplant			4
+PV1-10	61	31	208	Chemotherapy			4
+PV1-10	62	31	273	Pathology			4
+PV1-10	63	31	293	Pulmonary			4
+PV1-10	64	31	322	Thoracic Surgery			4
+PV1-10	65	31	374	Transfusion Medicine			4
+PV1-10	66	31	376	Family Practice			4
+PV1-10	67	31	380	Orthopedic - Hand Surgery			4
+PV1-10	68	31	381	Orthopedic - Spine			4
+PV1-10	69	31	384	Hepatology			4
+PV1-10	70	31	385	Pain Management			4
+PV1-10	71	31	387	Urogynecology			4
+PV1-10	72	31	399	Bone & Mineral			4
+PV1-10	73	31	409	Cardiology - Electrophysiology			4
+PV1-10	74	31	463	Bariatric Surgery			4
+PV1-10	75	31	464	Intensive Care			4
+PV1-10	76	31	465	Pulmonary Hypertension			4
+PV1-10	77	31	466	Pulmonary Transplant			4
+PV1-10	78	31	467	Pulmonary Interventional			4
+PV1-10	79	31	469	Transplant HPB Surgery			4
+PV1-10	80	31	470	Cardiothoracic Transplant			4
+PV1-10	81	31	471	Vascular Surgery			4
+PV1-10	82	31	472	Speech Pathology			4
+PV1-10	83	31	473	Cardiology - Advanced Heart Failure/Transplant			4
+PV1-10	84	31	474	Cardiology - Vascular Medicine			4
+PV1-10	85	31	475	Physiatry			4
+PV1-10	86	31	476	Orthopedic - Surgery			4
+PV1-10	87	31	477	Cardiovascular SICU			4
+PV1-10	88	31	478	Behavioral Health - Neuropsychology			4
+PV1-10	89	31	479	Behavioral Health - Psychiatry			4
+PV1-10	90	31	480	Surgical Endoscopy			4
+PV1-10	91	31	481	Ethics			4
+PV1-10	92	31	482	Trauma Surgery			4
+PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	4
+PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
+PV1-36	4	35	01	Discharged to home or self care (routine discharge)	1	*Home or Self Care	4
+PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	2	***Short Term Hospital	4
+PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.	3	*Skilled Care(SNF)	4
+PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)	4	Intermediate Care Managed Care Only	4
+PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list	5	ZZZDischarged/Transferred to a Designated Cancer	4
+PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization	6	ZZZOrganized Home Care	4
+PV1-36	10	35	07	Left against medical advice or discontinued care	7	Left Against Medical Advice	4
+PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider	8	ZZZ Home under IV drug therapy Provider	4
+PV1-36	12	35	09	Admitted as an inpatient to this hospital	20	Expired	4
+PV1-36	13	35	20	Expired	30	Still Patient	4
+PV1-36	14	35	30	Still Patient	40	ZZZExpired at home (Hospice)	4
+PV1-36	15	35	40	Expired at home	41	ZZZExpired at Medical Facility (hospice)	4
+PV1-36	16	35	41	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)	42	ZZZExpired place unknown (Hospice)	4
+PV1-36	17	35	42	Expired - place unknown	50	Hospice - Home	4
+PV1-36	18	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)	51	Hospice - Medical Facility	4
+PV1-36	19	35	50	Hospice - home	52	Hospice - Beneficiary Moves out of Service Area (Eff 7/1/2012)	4
+PV1-36	20	35	51	Hospice - medical facility	61	Hospital-based Medicare Swing Bed	4
+PV1-36	21	35	61	Discharged/transferred to hospital-based Medicare approved swing bed	66	Critical Access Hospital	4
+PV1-36	22	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)	69	Designated Disaster Alternative Care Site	4
+PV1-36	23	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)	71	Another Institution for Outpatient Services	4
+PV1-36	24	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)	72	Same Institution for Outpatient Services	4
+PV1-36	25	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	81	Home with a planned acute hospital readmission	4
+PV1-36	26	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)	82	Hospital with a planned acute hospital readmission	4
+PV1-36	27	35			83	SNF w/Medicare with a planned acute hospital readmission	4
+PV1-36	28	35			84	Facility w/custodial care, w/planned acute hospital readmission	4
+PV1-36	29	35			85	Cancer center/children hospital w/planned acute hospital readmission	4
+PV1-36	30	35			86	Home under care of home health srvc w/planned acute care hosp. readmission	4
+PV1-36	31	35			87	Court/law enforcement w/planned acute care hospital inpatient readmission	4
+PV1-36	32	35			88	Federal health care facility w/planned acute care hospital readmission	4
+PV1-36	33	35			89	Hospital Medicare approved swing bed w/planned acute care hosp. readmission	4
+PV1-36	34	35			90	Inpatient rehab facility w/planned acute care hospital readmission	4
+PV1-36	35	35			91	Medicare certified LTC hospital w/planned acute care hospital readmission	4
+PV1-36	36	35			92	Medicaid only nursing facility w/planned acute care hosp. readmission	4
+PV1-36	37	35			93	Psychiatric unit of a hospital w/planned acute care hospital readmission	4
+PV1-36	38	35			94	Critical access hospital w/planned acute care hospital readmission	4
+PV1-36	39	35			95	Other health care institution w/planned acute care hospital readm	4
+PV1-36	40	35			AL	Assisted Living Facility	4
+PV1-36	41	35			BR	ZZZHospice Beneficiary Revokes (Eff 7/1/2012)	4
+PV1-36	42	35			FE	ZZZFederal Hospital	4
+PV1-36	43	35			H2	ZZZHospice - Beneficiary Discharged for Cause	4
+IN1-17	2	39	MiHIN Value	Description	Hospital Value		4
+IN1-17	3	39	FTH	Father 	F		2
+IN1-17	4	39	ASC	Associate			4
+IN1-17	5	39	BRO	Brother 	BR		4
+IN1-17	6	39	CGV	Care giver 			4
+IN1-17	7	39	CHD	Child	CH		4
+IN1-17	8	39	DEP	Handicapped dependant			4
+IN1-17	9	39	DOM	Life partner			4
+IN1-17	10	39	EMC	Emergency contact	EC		4
+IN1-17	11	39	EME	Employee			4
+IN1-17	12	39	EMR	Employer	1E		4
+IN1-17	13	39	EXF	Extended family			4
+IN1-17	14	39	FCH	Foster child 			4
+IN1-17	15	39	FND	Friend	FR		4
+IN1-17	16	39	FTH	Father 	FTH		4
+IN1-17	17	39	GCH	Grandchild	GC		4
+IN1-17	18	39	GRD	Guardian 	GU		4
+IN1-17	19	39	GRP	Grandparent 			4
+IN1-17	20	39	MGR	Manager			4
+IN1-17	21	39	MTH	Mother 	MTH		4
+IN1-17	22	39	NCH	Natural child			4
+IN1-17	23	39	NON	None			4
+IN1-17	24	39	OAD	Other adult			4
+IN1-17	25	39	OTH	Other 	OTH		4
+IN1-17	26	39	OWN	Owner			4
+IN1-17	27	39	PAR	Parent 			4
+IN1-17	28	39	SCH	Stepchild 	SD		4
+IN1-17	29	39	SEL	Self	SF		4
+IN1-17	30	39	SIB	Sibling 	SB		4
+IN1-17	31	39	SIS	Sister 	SI		4
+IN1-17	32	39	SPO	Spouse	SPO		4
+IN1-17	33	39	TRA	Trainer			4
+IN1-17	34	39	UNK	Unknown			4
+IN1-17	35	39	WRD	Ward of court			4
+IN1-17	36	39	AUN	Aunt 	AU		4
+IN1-17	37	39	DAU	Daughter	DA		4
+IN1-17	38	39	EXS	Ex Spouse 	ES		4
+IN1-17	39	39	EXH	Ex-husband			4
+IN1-17	40	39	EXW	Ex-wife 			4
+IN1-17	41	39	INL	In Law 			4
+IN1-17	42	39	LEG	Legal Guardian 			4
+IN1-17	43	39	SON	Son (S)	SO		4
+IN1-17	44	39	STP	Step Parent (STP)			4
+IN1-17	45	39	STS	Step Sibling			4
+IN1-17	46	39	UN	Uncle (UN)	UN		4
+IN1	2	42	IN1-3 Value	IN1-4 Value	Payer		4
+IN1	3	42	1001	BCN	BCBSM		2
+IN1	4	42	Medicaid Pend	Medicaid Pending			00000000
+IN1	5	42	RUG Pend	Medicare RUGs Pending			00000000
+IN1	6	42	Med A	Medicare A			00000000
+IN1	7	42	Med B	Medicare B			00000000
+IN1	8	42	Pri Pay	Private Pay			00000000
+IN1	9	42	685	Hospice			00000000
+IN1	10	42	686	Anthem BCBS Ins			00000000
+IN1	11	42	725	HAP Senior Plus nr			00000000
+IN1	12	42	726	HAP HMO nr			00000000
+IN1	13	42	727	Blue Care Network			00000000
+IN1	14	42	728	Priority Health Ins			00000000
+IN1	15	42	729	MNS Ins			00000000
+IN1	16	42	731	BCBS of Michigan Ins			00000000
+IN1	17	42	741	Cigna Ins MD			00000000
+IN1	18	42	742	Great Lakes Health Plan Ins			00000000
+IN1	19	42	746	Meridian Health Plan of MI			00000000
+IN1	20	42	747	HM Benefits Ins			00000000
+IN1	21	42	748	NGS American Ins			00000000
+IN1	22	42	749	United Health Care PFFS Ins			00000000
+IN1	23	42	756	Life Circles PACE Program Ins			00000000
+IN1	24	42	757	UHC Med Adv Per Diem nr Indiana			00000000
+IN1	25	42	775	Molina Healthcare MI - Medicaid Ins			00000000
+IN1	26	42	776	Tricare nr			00000000
+IN1	27	42	777	Select Health Network Ins			00000000
+IN1	28	42	778	Aetna Ins MD			00000000
+IN1	29	42	779	CareFirst Ins			00000000
+IN1	30	42	780	Kaiser Permanente Ins			00000000
+IN1	31	42	781	Medicaid			00000000
+IN1	32	42	782	Advantange Preferred Plus MR			00000000
+IN1	33	42	783	Anthem Senior Advantage MR			00000000
+IN1	34	42	784	Advantra Freedom MR			00000000
+IN1	35	42	789	Aetna Open Choice MR			00000000
+IN1	36	42	793	Aetna Medicare Advantage MR			00000000
+IN1	37	42	808	Aetna Gold PFFS MR			00000000
+IN1	38	42	809	AARP Complete MR - Maryland			00000000
+IN1	39	42	810	BCBS Medicare Advantage PFFS/PPO MR			00000000
+IN1	40	42	811	BCN Advantage MR			00000000
+IN1	41	42	812	Evercare MR			00000000
+IN1	42	42	813	Humana % of RUG			00000000
+IN1	43	42	814	MA-SNP MR			00000000
+IN1	44	42	815	Medicare Plus Blue MR			00000000
+IN1	45	42	816	Medicare Complete MR			00000000
+IN1	46	42	817	Molina Medicare MR			00000000
+IN1	47	42	818	Preferred Care MR			00000000
+IN1	48	42	819	Pyramid Todays Options MR			00000000
+IN1	49	42	820	Secure Horizons Direct MR			00000000
+IN1	50	42	821	Evercare UHC PFFS MR 			00000000
+IN1	51	42	822	AARP Medicare Complete UHC OH			00000000
+IN1	52	42	823	Secure Horizons UHC/PFFS MR			00000000
+IN1	53	42	824	Unicare Medicare Advantage MR			00000000
+IN1	54	42	825	Wellcare NR			00000000
+IN1	55	42	921	Medicare Advantage Molina Option MR			00000000
+IN1	56	42	961	Priority Health Medicare nr			00000000
+IN1	57	42	962	AAA of Michigan			00000000
+IN1	58	42	963	State Farm			00000000
+IN1	59	42	964	Allstate			00000000
+IN1	60	42	965	Cigna Ins			00000000
+IN1	61	42	966	Medicare Advantage B			00000000
+IN1	62	42	967	Insurance B			00000000
+IN1	63	42	969	AARP Medicare RX Preferred			00000000
+IN1	64	42	970	AARP			00000000
+IN1	65	42	971	Advantage Preferred Plus			00000000
+IN1	66	42	972	Advantra Freedom			00000000
+IN1	67	42	973	Aetna			00000000
+IN1	68	42	975	BCBS			00000000
+IN1	69	42	976	BCBS of MIchigan FEP			00000000
+IN1	70	42	977	Highmark BCBS of Michigan Ins			00000000
+IN1	71	42	978	Blue Care Network of Michigan			00000000
+IN1	72	42	979	Care Improvement Plus			00000000
+IN1	73	42	980	Christian Brothers Services			00000000
+IN1	74	42	981	Cigna			00000000
+IN1	75	42	982	Community Choice			00000000
+IN1	76	42	983	Connecticut General			00000000
+IN1	77	42	984	Coventry Healthcare of Iowa Coinsurance			00000000
+IN1	78	42	985	Equitable			00000000
+IN1	79	42	986	Fidelis Secure Care			00000000
+IN1	80	42	987	GEHA			00000000
+IN1	81	42	988	Guarantee Trust Life			00000000
+IN1	82	42	989	Health Alliance Plan			00000000
+IN1	83	42	990	Healthplus of Michigan			00000000
+IN1	84	42	991	Humana Health Gold			00000000
+IN1	85	42	992	Medicaid IN Co			00000000
+IN1	86	42	993	Medicaid Maryland Co			00000000
+IN1	87	42	994	Medicaid Michigan Co			00000000
+IN1	88	42	995	Medical Mutual of Ohio			00000000
+IN1	89	42	1000	Meridian Health Plan of MI			00000000
+IN1	90	42	1001	Meritain North American Administrators			00000000
+IN1	91	42	1002	Molina Healthcare of CA			00000000
+IN1	92	42	1003	Molina Healthcare of MI			00000000
+IN1	93	42	1004	Mutual of Omaha Insurance Co			00000000
+IN1	94	42	1005	MVP Health Plan of NY			00000000
+IN1	95	42	1006	National Rural Letter Carrier Assn			00000000
+IN1	96	42	1007	Nationwide Health Plans			00000000
+IN1	97	42	1008	NCAS Fairfax VA			00000000
+IN1	98	42	1009	NGS CoreSource/American Inc			00000000
+IN1	99	42	1010	Physician Mutual			00000000
+IN1	100	42	1011	Preferred Care			00000000
+IN1	101	42	1012	Secure Horizons			00000000
+IN1	102	42	1013	Sagamore Health Network			00000000
+IN1	103	42	1014	Pyramid Todays Option			00000000
+IN1	104	42	1015	Priority Health Commercial			00000000
+IN1	105	42	1016	StateFarm Group			00000000
+IN1	106	42	1077	Tricare for Life			00000000
+IN1	107	42	1018	Wisconsin Physician Service			00000000
+IN1	108	42	1019	Wellcare			00000000
+IN1	109	42	1021	United Healthcare Co			00000000
+IN1	110	42	1022	Universal Healthcare			00000000
+IN1	111	42	1023	UMR Wausau			00000000
+IN1	112	42	1024	Unicare Life			00000000
+IN1	113	42	1025	Aetna PPO			00000000
+IN1	114	42	1026	American Community			00000000
+IN1	115	42	1027	Bankers Life			00000000
+IN1	116	42	1028	Carefirst			00000000
+IN1	117	42	1029	Carefirst Blue Card			00000000
+IN1	118	42	1031	Freemont Insurance			00000000
+IN1	119	42	1032	Golden Rule			00000000
+IN1	120	42	1033	Hartford Life Insurance			00000000
+IN1	121	42	1034	Kaiser Permanente			00000000
+IN1	122	42	1035	Life Circles Pace Program			00000000
+IN1	123	42	1036R	Monumental Life Insurance			00000000
+IN1	124	42	1037	Priority Health			00000000
+IN1	125	42	1038	Sagamore			00000000
+IN1	126	42	1039	Tricare			00000000
+IN1	127	42	1040	United American			00000000
+IN1	128	42	1041	United Commercial Traveler			00000000
+IN1	129	42	1042	Wellmark BCBS			00000000
+IN1	130	42	1135	AARP Medicare RX Plan Saver			00000000
+IN1	131	42	1136	Advantage Preferred Plus Rx			00000000
+IN1	132	42	1137	Advantra RX			00000000
+IN1	133	42	1141	Alliance Medicare RX			00000000
+IN1	134	42	1142	AmeriHealth Advantage Rx			00000000
+IN1	135	42	1143	Anthem RX			00000000
+IN1	136	42	1144	CareMark Rx			00000000
+IN1	137	42	1145	Bravo RX			00000000
+IN1	138	42	1146	Caremark RX			00000000
+IN1	139	42	1147	Cigna Medicare RX			00000000
+IN1	140	42	1149	Cignature RX			00000000
+IN1	141	42	1150	Community Care RX			00000000
+IN1	142	42	1151	Community CareRX			00000000
+IN1	143	42	1152	CVS Caremark Rx			00000000
+IN1	144	42	1153	CVS CareMark RX			00000000
+IN1	145	42	1154	Envision Rx Plus			00000000
+IN1	146	42	1155	Express Scripts RX			00000000
+IN1	147	42	1156	HAP Senior Plus RX			00000000
+IN1	148	42	1163	First Health Premier RX			00000000
+IN1	149	42	1164	First Health RX			00000000
+IN1	150	42	1165	HealthNet RX			00000000
+IN1	151	42	1166	Health Spring RX Plan			00000000
+IN1	152	42	1167	Humana PDP			00000000
+IN1	153	42	1168	Medco RX			00000000
+IN1	154	42	1169	Medco Health Solutions RX			00000000
+IN1	155	42	1171	Medco of Washington Rx			00000000
+IN1	156	42	1172	Medicare Plus Blue RX			00000000
+IN1	157	42	1173	MedImpact Health Systems RX			00000000
+IN1	158	42	1174	Molina Healthcare RX			00000000
+IN1	159	42	1175	Pharmacare			00000000
+IN1	160	42	1178	Prescription Blue			00000000
+IN1	161	42	1179	AARP Health Care Options Rx			00000000
+IN1	162	42	1180	Aetna Medicare Rx			00000000
+IN1	163	42	1181	Fidelis Secure Comfort RX			00000000
+IN1	164	42	1184	HealthSpring RX			00000000
+IN1	165	42	1185	PrescribaRx			00000000
+IN1	166	42	1186	Prescription Solutions From Pacificare			00000000
+IN1	167	42	1187	Prescription Pathways			00000000
+IN1	168	42	1188	Priority Medicare Rx			00000000
+IN1	169	42	1190	RX America			00000000
+IN1	170	42	1191	Rx America Advantage Star Plan			00000000
+IN1	171	42	1192	Secure Horizons Rx			00000000
+IN1	172	42	1199	Silver Script RX			00000000
+IN1	173	42	1201	Sterling Retiree RX			00000000
+IN1	174	42	1203	Unicare Medicare Rx Rewards			00000000
+IN1	175	42	1204	Unicare MedicareRx			00000000
+IN1	176	42	1205	United Medicare MedAdvance RX			00000000
+IN1	177	42	1206	United Health Rx Basic			00000000
+IN1	178	42	1207	United MedicareRX			00000000
+IN1	179	42	1208	WellCare RX			00000000
+IN1	180	42	1209	WellCare Signature Plan RX			00000000
+IN1	181	42	1210	WellCare Prescriptions			00000000
+IN1	182	42	1211	WellPoint Nextrx RX			00000000
+IN1	183	42	1212	WellPoint Pharmacy - Unicare			00000000
+IN1	184	42	1754	Royal Neighbors of America			00000000
+IN1	185	42	1755	American National Life			00000000
+IN1	186	42	1756	Aflac			00000000
+IN1	187	42	1758	Principal Life Insurance Co			00000000
+IN1	188	42	1777	BCN Advantage Rx			00000000
+IN1	189	42	1837	Auto Owners			00000000
+IN1	190	42	3411	United World Life Insurance			00000000
+IN1	191	42	3474	Gerber Life Insurance			00000000
+IN1	192	42	3482	Anthem BCBS Senior nr			00000000
+IN1	193	42	3531	Standard Life			00000000
+IN1	194	42	3997	HOP Medical Plan			00000000
+IN1	195	42	4362	Highmark Blue Shield			00000000
+IN1	196	42	4604	Auto Insurance			00000000
+IN1	197	42	4627	FMH Benefit Services			00000000
+IN1	198	42	4628	Monroe Plumbers & Pipefitters			00000000
+IN1	199	42	4678	Union Fidelity Life Coinsurance			00000000
+IN1	200	42	4858	UniCare PPO			00000000
+IN1	201	42	6183	Simplifi ESO			00000000
+IN1	202	42	6742	UMWA Health & Retirement Fund			00000000
+IN1	203	42	7627	Waiver			00000000
+IN1	204	42	7972	United Health Care			00000000
+IN1	205	42	8038	A M General			00000000
+IN1	206	42	8039	ADC			00000000
+IN1	207	42	8044	Advantage MR			00000000
+IN1	208	42	8197	AMA Insurance			00000000
+IN1	209	42	8203	APWU Health Plan			00000000
+IN1	210	42	8206	Blue Cross UPS Traditional			00000000
+IN1	211	42	8207	Bridgestone Americas Holding Inc			00000000
+IN1	212	42	8211	CBCA Administrators			00000000
+IN1	213	42	8212	CHA			00000000
+IN1	214	42	8218	Cigna Medicare Select			00000000
+IN1	215	42	8220	Colonial Penn			00000000
+IN1	216	42	8222	Combined Ins Co of America			00000000
+IN1	217	42	8223	Conseco			00000000
+IN1	218	42	8225	Continental General Insurance			00000000
+IN1	219	42	8226	Continental Life			00000000
+IN1	220	42	8227	Elco Insurance			00000000
+IN1	221	42	8228	Empire Blue Cross Blue Shield			00000000
+IN1	222	42	8229	Family Life			00000000
+IN1	223	42	8230	Fremont Insurance Auto			00000000
+IN1	224	42	8231	Hartford Life Retiree Benefits			00000000
+IN1	225	42	8233	HealthScope Benefits			00000000
+IN1	226	42	8235	HM Benefits Administrators			00000000
+IN1	227	42	8236	HMSR Christian Brothers			00000000
+IN1	228	42	8237	IN KY Carpenters Welfare Fund			00000000
+IN1	229	42	8238	Medico Life Insurance			00000000
+IN1	230	42	8239	Mercy Health Partners			00000000
+IN1	231	42	8240	Meritain Health			00000000
+IN1	232	42	8241	Metlife			00000000
+IN1	233	42	8242	NEA Group Insurance			00000000
+IN1	234	42	8243	Providian Life and Health Ins Co			00000000
+IN1	235	42	8244	Retiree Medical Insurance			00000000
+IN1	236	42	8245	Saint Mary's Health Care			00000000
+IN1	237	42	8246	Scan Health Plan HMO MR			00000000
+IN1	238	42	8247	State Mutual Insurance			00000000
+IN1	239	42	8248	Union Bankers			00000000
+IN1	240	42	8249	United Medical Resource			00000000
+IN1	241	42	8250	United Teachers Associates			00000000
+IN1	242	42	8251	West Michigan Plumbers			00000000
+IN1	243	42	8252	United Healthcare Community Plan			00000000
+IN1	244	42	8582	Champva			00000000
+IN1	245	42	8590	Cofinity Health Insurance			00000000
+IN1	246	42	15203	HealthPlus PPO			00000000
+IN1	247	42	15517	Lincoln Heritage Life			00000000
+IN1	248	42	15592	Pekin Life Coinsurace			00000000
+IN1	249	42	15599	Liberty Mutual			00000000
+IN1	250	42	16812	Government Personnel Mutual Life			00000000
+IN1	251	42	16888	Central States Indemnity			00000000
+IN1	252	42	17303	LifeCircles Medicare Part D Plan			00000000
+IN1	253	42	17676	Workers Comp Plan			00000000
+IN1	254	42	18397	Care Improvement Plus			00000000
+IN1	255	42	18654	Plumbers & Pipefitters			00000000
+IN1	256	42	19131	Anthem BCBS IN FEP			00000000
+IN1	257	42	19183	BAC Local 32 Insurance Fund			00000000
+IN1	258	42	19217	Holy Cross Hospital - Contract			00000000
+IN1	259	42	19237	American Continental			00000000
+IN1	260	42	19247	Pan American Life			00000000
+IN1	261	42	19248	GEMGroup			00000000
+IN1	262	42	19249	Harrington Health			00000000
+IN1	263	42	19250	Sheet Metal Workers			00000000
+IN1	264	42	19251	USAA Life Insurance			00000000
+IN1	265	42	19254	Bravo Health			00000000
+IN1	266	42	23732	ING Life Insurance			00000000
+IN1	267	42	23786	Blue Cross Blue Shield			00000000
+IN1	268	42	23787	Medicare Generation Rx			00000000
+IN1	269	42	23820	Electrical Workers Trust Fund			00000000
+IN1	270	42	23849	Transamerica Life Ins			00000000
+IN1	271	42	23851	Aetna Medicare			00000000
+IN1	272	42	23868	Coventry Health Care MD			00000000
+IN1	273	42	24125	Pro Claims Plus			00000000
+IN1	274	42	24333	Odyssey			00000000
+IN1	275	42	24517	United American (PDP)			00000000
+IN1	276	42	24588	American Family Insurance			00000000
+IN1	277	42	24612	Indiana Laborers Welfare			00000000
+IN1	278	42	24660	Heartland National Life Ins			00000000
+IN1	279	42	24749	Marsh			00000000
+IN1	280	42	26120	American Republic Insurance			00000000
+IN1	281	42	26177	Country Life Insurance Co			00000000
+IN1	282	42	26179	Tricare Claims			00000000
+IN1	283	42	26198	McLaren Health Plan			00000000
+IN1	284	42	26201	Rural Carrier Benefit Plan			00000000
+IN1	285	42	26204	Sisco			00000000
+IN1	286	42	26206	State Farm First Health			00000000
+IN1	287	42	26207	Thrivent Financial			00000000
+IN1	288	42	27447	SmartHealth			00000000
+IN1	289	42	27611	Chesterfield Resources			00000000
+IN1	290	42	27708	Medicaid Iowa Co			00000000
+IN1	291	42	27768	Provident American Life			00000000
+IN1	292	42	27769	Loyal American Life Insurance			00000000
+IN1	293	42	27782	Midlands Choice Cigna/Aetna			00000000
+IN1	294	42	27797	Medicare Solutions UHC MR			00000000
+IN1	295	42	27835	AARP Medicare Complete Alverno UHC NR			00000000
+IN1	296	42	32000	Medicaid Illinois Co			00000000
+IN1	297	42	32067	Wellmark Medicare Replacement			00000000
+IN1	298	42	32068	UHC Med Adv			00000000
+IN1	299	42	32418	Mail Handlers Benefit Plan Co			00000000
+IN1	300	42	32423	Constitution Life Supplemental			00000000
+IN1	301	42	32726	Professional Benefit Co			00000000
+IN1	302	42	33803	GEHA Ins Auto			00000000
+IN1	303	42	34011	American Pioneer			00000000
+IN1	304	42	34047	ELCA Health Plan			00000000
+IN1	305	42	34198	St Joseph Regional Medical Center			00000000
+IN1	306	42	34704	Aetna Ins			00000000
+IN1	307	42	34764	First Administrators			00000000
+IN1	308	42	35458	Community Health Alliance			00000000
+IN1	309	42	35527	Sheet Metal Worker Local 91 Health & Wellness			00000000
+IN1	310	42	35787	ASR Health Benefits			00000000
+IN1	311	42	36258	Allianz			00000000
+IN1	312	42	594	Reserve National Coinsurance			00000000
+IN1	313	42	1200	Midwest Operating Engineers			00000000
+IN1	314	42	37807	MODA Health			00000000
+IN1	315	42	37987	Medical Mutual of Ohio			00000000
+IN1	316	42	39786	Bankers Fidelity			00000000
+IN1	317	42	40706	Great West Healthcare			00000000
+IN1	318	42	41765	Allegiance Benefit Plan			00000000
+IN1	319	42	43186	InforMed			00000000
+IN1	320	42	43485	Anthem Hoosier Healthwise			00000000
+IN1	321	42	43660	Sheet Metal Workers Plus National			00000000
+IN1	322	42	8253	Healthfirst			00000000
+IN1	323	42	5287	Alicare Inc Co			00000000
+IN1	324	42	785	Blue Shield 65 Plus HMO/PPO MR			00000000
+IN1	325	42	45216	Catamaran			00000000
+IN1	326	42	45491	Graphic Communications			00000000
+IN1	327	42	45599	McLaren Health Plan Medicaid HMO			00000000
+IN1	328	42	HOSP	Hospital Contract			00000000
+IN1	329	42	47020	My Choice Wellness MR - West MI Sites Only			00000000
+IN1	330	42	47215	VNSNY Choice			00000000
+IN1	331	42	47663	National Automatic Sprinkler Industry			00000000
+IN1	332	42	48226	Coventry MR			00000000
+IN1	333	42	48423	Middletown Works			00000000
+IN1	334	42	50342	Washington National Insurance Co			00000000
+IN1	335	42	50802	Medicaid Ohio Co			00000000
+IN1	336	42	50973	Line Construction Benefit Fund			00000000
+IN1	337	42	51124	Alliance Health & Life Ins			00000000
+IN1	338	42	51853	OneNet PPO			00000000
+IN1	339	42	51905	Liability Insurance %			00000000
+IN1	340	42	52589	Medicaid CT Co			00000000
+IN1	341	42	52681	Medical Mutual of Ohio Ins			00000000
+IN1	342	42	52682	GE Life & Annuity Assurance Co-ins			00000000
+IN1	343	42	52683	Definity Health Co-insurance			00000000
+IN1	344	42	52687	Health Design Plus Co-ins			00000000
+IN1	345	42	53294	GPM Life Insurance			00000000
+IN1	346	42	53331	Assured Life Association			00000000
+IN1	347	42	53374	Pioneer Life			00000000
+IN1	348	42	53877	IN St Council of Roofers 			00000000
+IN1	349	42	54477	United Health Care PPO Iowa			00000000
+IN1	350	42	54855	First Health Co Insurance			00000000
+IN1	351	42	54865	Forethought Co Insurance			00000000
+IN1	352	42	54960	KSKJ Life			00000000
+IN1	353	42	55394	NALC Health Benefit Plan			00000000
+IN1	354	42	55432	Medical Benefits			00000000
+IN1	355	42	55551	BCBS Advantage65			00000000
+IN1	356	42	55644	National Elevator Industry Health Benefit Plan 			00000000
+IN1	357	42	57818	United HC Community Plan Co-ins			00000000
+IN1	358	42	58730	IBEW / NECA Local 145			00000000
+IN1	359	42	59475	Optimum Health Care			00000000
+IN1	360	42	60492	UMR			00000000
+IN1	361	42	61449	HAP Alliance Medicare PPO			00000000
+IN1	362	42	61479	Loomis Company Coins			00000000
+IN1	363	42	61542	Midlands Choice Premier Health Alliance Out of Network			00000000
+IN1	364	42	61961	Evercare PPO/HMO			00000000
+IN1	365	42	62323	Evercare PPO HMO Grp 07010			00000000
+IN1	366	42	62435	Connecticare NR			00000000
+IN1	367	42	64827	Anthem BCBS CT Ins			00000000
+IN1	368	42	64870	Stirling Benefits			00000000
+IN1	369	42	64908	Lincoln Heritage Life			00000000
+IN1	370	42	64961	Empire BCBS NY			00000000
+IN1	371	42	64976	Insurance Programmers			00000000
+IN1	372	42	64989	New England Healthcare			00000000
+IN1	373	42	64996	WEB TPA			00000000
+IN1	374	42	65025	UHC PPO HMO AARP CT			00000000
+IN1	375	42	65057	UHC PPO/HMO B			00000000
+IN1	376	42	65257	Town of West Hartford			00000000
+IN1	377	42	65287	CT Adult Day Center			00000000
+IN1	378	42	65650	Cigna CT			00000000
+IN1	379	42	65935	Insurance Per Diem - One Time Contract			00000000
+IN1	380	42	66000	UHC Oxford			00000000
+IN1	381	42	66001	Healthy CT			00000000
+IN1	382	42	66175	LaSallatte Missionaries			00000000
+IN1	383	42	66182	Harvard Pilgram Healthcare Co			00000000
+IN1	384	42	66216	Globe Life Co Insurance			00000000
+IN1	385	42	66243	Coresource Co Insurance			00000000
+IN1	386	42	66291	BCBS of Washington Co Ins			00000000
+IN1	387	42	66375	Veterans Administration			00000000
+IN1	388	42	66419	HealthNet			00000000
+IN1	389	42	66572	Aetna Med Adv Plan PPO CT NR			00000000
+IN1	390	42	67616	Philadelphia American Life Insurance Company			00000000
+IN1	391	42	68217	Meridian Advantage Plan			00000000
+IN1	392	42	68509	Insurance % of Charges			00000000
+IN1	393	42	69722	EBPA Insurance			00000000
+IN1	394	42	70695	Buckeye Ohio MR			00000000
+IN1	395	42	71476	Teamsters and Food Employer's Security Trust Fund Co Insurance			00000000
+IN1	396	42	72680	HAP Curanet and CIGNA Co-ins			00000000
+IN1	397	42	72775	UHC Oxford			00000000
+IN1	398	42	73316	Molina Healthcare OH - Medicaid Ins			00000000
+IN1	399	42	73615	Contra Costa Co Electrical Workers Local 302			00000000
+IN1	400	42	74214	Adventist Risk Management			00000000
+IN1	401	42	74389	Auto Owners Co Insurance			00000000
+IN1	402	42	74718	Oxford Life Insurance Co			00000000
+IN1	403	42	74726	Genworth Life and Annuity Ins			00000000
+IN1	404	42	75480	Consumers Life Insurance Company			00000000
+IN1	405	42	75806	National Automatic Sprinkler Fund			00000000
+IN1	406	42	75841	United National Life Ins Co			00000000
+IN1	407	42	76314	Coventry HC Insurance IA			00000000
+IN1	408	42	78176	CareSource Medicaid OH			00000000
+IN1	409	42	79618	MVP Health Care MR			00000000
+IN1	410	42	79717	CUNA Mutual Ins Society Coins			00000000
+IN1	411	42	80531	Puritan Life Insurance			00000000
+IN1	412	42	81060	SummaCare 			00000000
+IN1	413	42	81702	Connecticare Ins			00000000
+IN1	414	42	82358	America's Choice Co			00000000
+IN1	415	42	82520	Medical Associates			00000000
+IN1	416	42	82690	Anthem BCBS Medicare Advantage NR			00000000
+IN1	417	42	84003	Trinity Health Retirees			00000000
+IN1	418	42	84657	Ohio Bricklayers H&W Fund Coin			00000000
+IN1	419	42	87196	Frontpath Repricing			00000000
+IN1	420	42	88143	ASR Health Ben Co			00000000
+IN1	421	42	88245	The Prudential Insurance Company of America			00000000
+IN1	422	42	88246	The Prudential Insurance Company of America			00000000
+IN1	423	42	89494	UHC HMO/PPO Commercial Alverno			00000000
+IN1	424	42	91291	Mutual Health Services Co			00000000
+IN1	425	42	92615	Woodmen Accident and Life			00000000
+IN1	426	42	93143	Anthem Med Advantage OH NR			00000000
+IN1	427	42	95047	Upper Peninsula Health Plan MI Medicare HL			00000000
+IN1	428	42	95049	Aetna Better Health of MI Medicare HL			00000000
+IN1	429	42	95087	Meridian Health Plan MI Medicare HL			00000000
+IN1	430	42	95089	AmeriHealth MI Medicare HL			00000000
+IN1	431	42	95091	Fidelis SecureCare MI Medicare HL			00000000
+IN1	432	42	95092	HAP Midwest Health Plan MI Medicare HL			00000000
+IN1	433	42	95093	Molina Healthcare MI Medicare HL			00000000
+IN1	434	42	95094	Molina Healthcare MI Medicaid HL			00000000
+IN1	435	42	95095	Upper Peninsula Health Plan MI Medicaid HL			00000000
+IN1	436	42	95186	Upper Peninsula Health Plan MI Medicaid HL			00000000
+IN1	437	42	95187	Aetna Better Health of MI Medicaid HL			00000000
+IN1	438	42	95188	Meridian Health Plan MI Medicaid HL			00000000
+IN1	439	42	95189	AmeriHealth MI Medicaid HL			00000000
+IN1	440	42	95192	Fidelis SecureCare MI Medicaid HL			00000000
+IN1	441	42	95193	HAP Midwest Health Plan MI Medicaid HL			00000000
+IN1	442	42	95387	Everence			00000000
+IN1	443	42	95423	NALC Prescription Drug Program			00000000
+IN1	444	42	96480	GHI 			00000000
+IN1	445	42	96572	Coventry HC Per Diem North Iowa			00000000
+IN1	446	42	99861	Health Partners Ins			00000000
+IN1	447	42	102186	Automated Benefit Services Co			00000000
+IN1	448	42	102571	Pyramid Life Insurance Co			00000000
+IN1	449	42	102708	Health First Health Plan			00000000
+IN1	450	42	104104	Buckeye Medicaid Community Health Plan			00000000
+IN1	451	42	104856	AmeriHealth Caritas Iowa Medicaid HL			00000000
+IN1	452	42	105154	CT Carpenters Union Health Fund Co Ins			00000000
+IN1	453	42	105914	Western Southern Life			00000000
+IN1	454	42	106583	American Retirement Life Ins Co-ins			00000000
+IN1	455	42	107674	Amerigroup Iowa HL Medicaid			00000000
+IN1	456	42	107675	UHC Plan of the River Valley Iowa HL Medicaid			00000000
+IN1	457	42	108973	Amerigroup Iowa HL Medicaid Coinsurance			00000000
+IN1	458	42	108974	UHC Plan River Valley IA HL Caid Coinsurance			00000000
+IN1	459	42	108975	AmeriHealth Caritas IA Medicaid HL Coinsurance			00000000
+IN1	460	42	110780	Auxiant			00000000
+IN1	461	42	111333	Manhattan Life Ins			00000000
+IN1	462	42	113395	PACE St Joseph IN			00000000
+IN1	463	42	114047	Indiana Roofers Fund			00000000
+IN1	464	42	114454	Cofinity Medicare Advantage			00000000
+IN1	465	42	114463	Cofinity Insurance			00000000
+IN1	466	42	115262	IE Shaffer and Co Coins			00000000
+IN1	467	42	115686	HAP Insurance			00000000
+IN1	468	42	115689	HAP Alliance Health Insurance Plan			00000000
+IN1	469	42	118759	AmeriHealth Caritas IA Caid Coins			00000000
+IN1	470	42	120882	Managed Medicare NR One Time Contract			00000000
+IN1	471	42	123936	Blue Cross Complete of Michigan			00000000
+IN1	472	42	126028	Tufts HealthPlan			00000000
+IN1	473	42	126029	Coinsurance - one time plan			00000000
+IN1	474	42	129270	ConnectiCare Coinsurance			00000000
+IN1	475	42	129472	Insurance - Leveled plan one time contract			00000000
+IN1	476	42	129587	Greek Catholic Union			00000000
+IN1	477	42	130620	AmeriHealth MI Caid HL Co			00000000
+IN1	478	42	131836	1199 SEIU Benefit and Pension Fund			00000000
+IN1	479	42	132402	Kaiser Permanente Medicare Plus NR			00000000
+IN1	480	42	133431	Foreign Service Benefit Plan			00000000
+IN1	481	42	134525	Indiana University Health Plans			00000000
+IN1	482	42	134528	Indiana University Health Plans			00000000
+IN1	483	42	135098	Medical Mutual of OH Ins LR			00000000

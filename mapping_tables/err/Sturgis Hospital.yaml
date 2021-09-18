@@ -1,0 +1,23 @@
+base: Sturgis Hospital
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Sturgis Hospital ADT 2.0 table 4-3-18.xlsx
+      list:
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: PV1-2
+          see:
+          - cell: R9
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE102
+          - cell: AE117
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            label: 'CARDIOLOGY, CARDIAC CARE UNIT, VASCULAR    '

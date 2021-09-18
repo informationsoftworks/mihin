@@ -1,0 +1,72 @@
+base: Spectrum Health Lakeland
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Spectrum Health Lakeland ADT 2.0 table 01-07-2021.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '121084398'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210908183743'
+          field name: PID-30
+          field value: '""'
+          message count: 45
+          receiving org message ID: 26891357
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Spectrum Health Lakeland ADT 2.0 table 01-07-2021.xlsx
+      list:
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP119
+      - error: Invalid OID
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            code: ' 2.16.840.1.113883.17.160'
+            value: Lakeland Hospital St Joseph
+          - cell: A5
+            code: ' 2.16.840.1.113883.17.162'
+            value: Lakeland Hospital Niles
+          - cell: A6
+            code: ' 2.16.840.1.113883.17.159'
+            value: 'Lakeland Hospital Watervliet '
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE13
+            label: 'Neurology, Neurosurgery, '
+          - cell: AE17
+            label: 'Orthopedics, Orthopedic - Surgery, '
+          - cell: AE49
+            label: 'Behavioral Health - Psychology, Psychiatry, '
+          - cell: AE63
+            label: 'Pulmonary Care, Pulmonary Hypertension, Pulmonary Interventional, '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE103
+            code: 'INF '
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI14
+            code: ' EXPIRED'
+          - cell: AI16
+            code: ' STILL A PA'
+          - cell: AI23
+            code: ' HOSPICEHOM'
+          - cell: AI24
+            code: ' HOSPICEMED'
+          - cell: AI27
+            code: ' REHAB'

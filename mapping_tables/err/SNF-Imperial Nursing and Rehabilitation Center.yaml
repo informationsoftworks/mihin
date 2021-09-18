@@ -1,0 +1,23 @@
+base: SNF-Imperial Nursing and Rehabilitation Center
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Imperial Nursing and Rehabilitation Center ADT 2.0 table 8-19-2020.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 98a35e0ac9094076b4a266d56d3912c6
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210914154537'
+          field name: PID-30
+          field value: '""'
+          message count: 33
+          receiving org message ID: 27241244
+        - HL7 ID: faaaf1de7b7c400c9ec0401ed1e419a9
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210914092958'
+          field name: PV1-36
+          field value: '""'
+          message count: 43
+          receiving org message ID: 19423426

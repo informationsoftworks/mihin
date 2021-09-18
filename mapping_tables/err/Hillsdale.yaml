@@ -1,0 +1,69 @@
+base: Hillsdale
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Hillsdale ADT 2.0 table 05-04-2017.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '2021091523104372'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210915231043'
+          field name: PID-30
+          field value: '""'
+          message count: 57
+          receiving org message ID: 27309926
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Hillsdale ADT 2.0 table 05-04-2017.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM47
+            code: '23'
+        - hl7 segment: IN1
+          see:
+          - cell: AP118
+            code: BC1
+      - error: Incomplete, non-specific or abbreviated facility name
+        level: Warning
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            code: 2.16.840.1.113883.3.4472
+            label: HCMC
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE23
+            label: 'I/P ACUTE, OUTPATIENT SURGERY '
+          - cell: AE52
+            label: 'OB TRIAGE, OB Observation, OB SERVICE '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-4
+          see:
+          - cell: U5
+            code: 'N, a, b, c, d, V, W, X, Y, Z, '
+          - cell: U6
+            code: 'E, A, B, C, e, F, G, H, I, J, K, p, '
+          - cell: U10
+            code: 'D, L, M, O, P, Q, R, S, T, U, '
+          - cell: U12
+            code: 'g, h, i, j, l, m, n, o, q, '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE52
+            code: 'TR, OB, OS, '
+          - cell: AE56
+            code: '3X, ML, XR, '
+          - cell: AE63
+            code: 'CP, RT, '

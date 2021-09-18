@@ -1,0 +1,288 @@
+base: Kennedy Health System
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Kennedy Health System ADT 2.0 table 9-20-19.xlsx
+      list:
+      - error: Code specified multiple times
+        level: Error
+        list:
+        - hl7 segment: PV1-2
+          see:
+          - cell: R9
+            code: O
+            duplicates:
+            - cell: R9
+              label: ''
+            - cell: R15
+              label: ''
+          - cell: R16
+            code: S
+            duplicates:
+            - cell: R16
+              label: ''
+            - cell: R17
+              label: ''
+        - hl7 segment: PV1-14
+          see:
+          - cell: X4
+            code: Phys/Clinic
+            duplicates:
+            - cell: X4
+              label: ''
+            - cell: X5
+              label: ''
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE100
+            code: DER
+            duplicates:
+            - cell: AE100
+              label: Dermatology
+            - cell: AE185
+              label: Dermatology
+          - cell: AE101
+            code: FAM
+            duplicates:
+            - cell: AE101
+              label: Family Medicine
+            - cell: AE186
+              label: Family Medicine
+          - cell: AE106
+            code: NEU
+            duplicates:
+            - cell: AE106
+              label: Neurology
+            - cell: AE210
+              label: Neurology
+            - cell: AE211
+              label: Neurology
+            - cell: AE212
+              label: Neurology
+            - cell: AE213
+              label: Neurology
+            - cell: AE214
+              label: Neurology
+          - cell: AE108
+            code: OBS
+            duplicates:
+            - cell: AE108
+              label: Obstetrics
+            - cell: AE217
+              label: Ob/Gyn
+            - cell: AE218
+              label: GYN Oncology
+            - cell: AE219
+              label: OB
+            - cell: AE220
+              label: OB
+            - cell: AE221
+              label: Urogynecology
+          - cell: AE110
+            code: OPT
+            duplicates:
+            - cell: AE110
+              label: Ophthalmology
+            - cell: AE188
+              label: Ophthalmology
+          - cell: AE111
+            code: ORT
+            duplicates:
+            - cell: AE111
+              label: Orthopedics
+            - cell: AE222
+              label: Ortho
+            - cell: AE223
+              label: Ortho
+            - cell: AE224
+              label: Ortho
+            - cell: AE225
+              label: Ortho
+            - cell: AE226
+              label: Ortho
+            - cell: AE227
+              label: Ortho
+            - cell: AE241
+              label: MHD Orthopedics
+          - cell: AE112
+            code: OTO
+            duplicates:
+            - cell: AE112
+              label: Otolaryngology
+            - cell: AE189
+              label: Otolaryngology
+          - cell: AE113
+            code: PED
+            duplicates:
+            - cell: AE113
+              label: Pediatrics
+            - cell: AE190
+              label: Pediatrics
+            - cell: AE228
+              label: Pediatrics
+          - cell: AE114
+            code: PSY
+            duplicates:
+            - cell: AE114
+              label: Psychiatry
+            - cell: AE191
+              label: Psychiatry
+          - cell: AE115
+            code: PUL
+            duplicates:
+            - cell: AE115
+              label: Pulmonary
+            - cell: AE244
+              label: Med Pulmonary Cohn/Carstens/Fung
+            - cell: AE245
+              label: Med Pulmonary University
+          - cell: AE116
+            code: RXO
+            duplicates:
+            - cell: AE116
+              label: Radiation Oncology I/P
+            - cell: AE192
+              label: Radiation Oncology
+          - cell: AE118
+            code: SUR
+            duplicates:
+            - cell: AE118
+              label: Surgery
+            - cell: AE230
+              label: Surgery
+            - cell: AE231
+              label: Surgery
+            - cell: AE232
+              label: Surgery
+            - cell: AE233
+              label: Surgery
+            - cell: AE234
+              label: Surgery
+            - cell: AE235
+              label: Surgery
+            - cell: AE236
+              label: Surgery
+            - cell: AE237
+              label: Surgery
+            - cell: AE238
+              label: Surgery
+            - cell: AE239
+              label: Surgery
+            - cell: AE242
+              label: MHD Surgery
+          - cell: AE120
+            code: URO
+            duplicates:
+            - cell: AE120
+              label: Urology
+            - cell: AE193
+              label: Urology
+            - cell: AE243
+              label: MHD Urology
+          - cell: AE122
+            code: EUR
+            duplicates:
+            - cell: AE122
+              label: Emergency Department
+            - cell: AE195
+              label: Emergency Department
+          - cell: AE136
+            code: GPS
+            duplicates:
+            - cell: AE136
+              label: Geriatric Psych
+            - cell: AE187
+              label: Geriatric Psychiatry
+          - cell: AE162
+            code: NEW
+            duplicates:
+            - cell: AE162
+              label: Newborn
+            - cell: AE196
+              label: Newborn
+          - cell: AE184
+            code: ABA
+            duplicates:
+            - cell: AE184
+              label: To Be Assigned by Admissions
+            - cell: AE194
+              label: To Be Assigned
+          - cell: AE198
+            code: MDC
+            duplicates:
+            - cell: AE198
+              label: Med Cardiology CHF Service
+            - cell: AE199
+              label: Med Cardiology Cohen
+            - cell: AE200
+              label: Med Cardiology EPS
+            - cell: AE201
+              label: Med Cardiology Heart Center of Philadelphia (HCP)
+            - cell: AE202
+              label: Med Cardiology Koka
+            - cell: AE203
+              label: Med Cardiology Mandal
+            - cell: AE204
+              label: Med Cardiology Nimoityn/Rosenberg
+            - cell: AE205
+              label: Med Cardiology Nonteach
+            - cell: AE206
+              label: Med Cardiology Schwartz/Breecker
+            - cell: AE207
+              label: Med Cardiology University (JHI)
+          - cell: AE209
+            code: ICU
+            duplicates:
+            - cell: AE209
+              label: MICU Nurse Practitioner
+            - cell: AE229
+              label: SICU
+            - cell: AE240
+              label: MHD ICU
+          - cell: AE215
+            code: NSU
+            duplicates:
+            - cell: AE215
+              label: Neurosurgery
+            - cell: AE216
+              label: Neurosurgery
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI32
+            code: Home
+            duplicates:
+            - cell: AI32
+              label: Home-Health
+            - cell: AI57
+              label: HH-Readm
+          - cell: AI35
+            code: Admitted to Inpatient
+            duplicates:
+            - cell: AI35
+              label: Admit to TJU
+            - cell: AI68
+              label: Admit to MHD
+            - cell: AI69
+              label: Admit to JHN
+          - cell: AI36
+            code: Expired
+            duplicates:
+            - cell: AI36
+              label: Expired
+            - cell: AI41
+              label: Exp Unknow
+          - cell: AI67
+            code: ED Dismiss
+            duplicates:
+            - cell: AI67
+              label: Not Arrived
+            - cell: AI89
+              label: Diverted
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE93
+          - cell: AE94
+          - cell: AE95

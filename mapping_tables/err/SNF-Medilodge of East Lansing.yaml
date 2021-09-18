@@ -1,0 +1,23 @@
+base: SNF-Medilodge of East Lansing
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of East Lansing ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 82e3e2886331477abad849169b3523ad
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210904175937'
+          field name: PID-30
+          field value: '""'
+          message count: 11
+          receiving org message ID: 26403660
+        - HL7 ID: 82e3e2886331477abad849169b3523ad
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210904175937'
+          field name: PV1-36
+          field value: '""'
+          message count: 11
+          receiving org message ID: 26403660

@@ -1,0 +1,542 @@
+filename	0	0		2.0 Mapping Tables - Hospitals/Ascension Genesys Hospital ADT 2.0 table 10-3-19.xlsx			
+MSH-4	2	1	Hospital Value	Description			4
+MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
+MSH-4	4	1	2.16.840.1.113883.3.1696 	Genesys Health System			00000000
+PID-8	2	3	MiHIN Value	Description	Hospital Value		4
+PID-8	3	3	M	Male	M		2
+PID-8	4	3	F	Female	F		4
+PID-8	5	3	M	Male	M		4
+PID-8	6	3	O	Other			4
+PID-8	7	3	U	Unknown			4
+PID-8	8	3	A	Ambiguous			4
+PID-8	9	3	N	Not Applicable			4
+PID-10	2	6	MiHIN Value	Description	Hospital Value		4
+PID-10	3	6	2106-3	White	W		2
+PID-10	4	6	1002-5	American Indian or Alaska Native	N		4
+PID-10	5	6	2028-9	Asian	A		4
+PID-10	6	6	2054-5	Black or African American	B		4
+PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	P		4
+PID-10	8	6	2106-3	White	C, W		4
+PID-10	9	6	2131-1	Other Race	O, H, U		4
+PID-10	10	6	MR	Multi-Racial			4
+PID-10	11	6	PR	Patient Refused 			4
+PID-22	2	9	MiHIN Value	Description	Hospital Value		4
+PID-22	3	9	H	Hispanic or Latino	Hisp		2
+PID-22	4	9	H	Hispanic or Latino	 Hispanic or Latino		4
+PID-22	5	9	N	Not Hispanic or Latino	 Not Hispanic or Latino, Not Hispanic or Lati		4
+PID-22	6	9	U	Unknown	 Non-disclosed		4
+PID-22	7	9	D	Declined			4
+PID-22	8	9	AN	Alaskan Native 			4
+PID-22	9	9	AR	Arabic 			4
+PID-22	10	9	AS	Asian 			4
+PID-22	11	9	CA	Caucasian			4
+PID-22	12	9	CHA	Chaldean 			4
+PID-22	13	9	CHI	Chinese 			4
+PID-22	14	9	DU	Dutch 			4
+PID-22	15	9	EG	Egyptian 			4
+PID-22	16	9	FR	French 			4
+PID-22	17	9	GER	German 			4
+PID-22	18	9	GRE	Greek 			4
+PID-22	19	9	HA	Hawaiian 			4
+PID-22	20	9	IRA	Iranian 			4
+PID-22	21	9	IRQ	Iraqi 			4
+PID-22	22	9	IRH	Irish 			4
+PID-22	23	9	ITA	Italian 			4
+PID-22	24	9	JA	Japanese 			4
+PID-22	25	9	JE	Jewish 			4
+PID-22	26	9	JO	Jordanian 			4
+PID-22	27	9	KO	Korean 			4
+PID-22	28	9	LE	Lebanese  			4
+PID-22	29	9	MAC	Macedonian 			4
+PID-22	30	9	ME	Middle Eastern			4
+PID-22	31	9	MUL	Multi-Ethnic 			4
+PID-22	32	9	NA	Native American			4
+PID-22	33	9	O	Other 			4
+PID-22	34	9	PO	Polish 			4
+PID-22	35	9	RU	Russian 			4
+PID-22	36	9	SC	Scottish 			4
+PID-22	37	9	UK	Ukrainian 			4
+PID-22	38	9	VIT	Vietnamese 			4
+PID-30	2	12	MiHIN Value	Description	Hospital Value		4
+PID-30	3	12	Y	Expired	E		2
+PID-30	4	12	Y	Deceased/Yes	Y		4
+PID-30	5	12	N	Not Deceased/No			4
+DG1-6	2	15	MiHIN Value	Description	Hospital Value		4
+DG1-6	3	15	A	Admitting	AD		2
+DG1-6	4	15	A	Admitting	 Chief Complaint		4
+DG1-6	5	15	F	Final			4
+DG1-6	6	15	W	Working 	W		4
+DG1-6	7	15	O	Other			4
+PV1-2	2	18	MiHIN Value	Description	Hospital Value		4
+PV1-2	3	18	E	Emergency	ER		2
+PV1-2	4	18	B	Obstetrics			4
+PV1-2	5	18	C	Commercial Account			4
+PV1-2	6	18	E	Emergency	E		4
+PV1-2	7	18	I	Inpatient	I		4
+PV1-2	8	18	N	Not Applicable			4
+PV1-2	9	18	O	Outpatient	O		4
+PV1-2	10	18	P	Preadmit			4
+PV1-2	11	18	R	Recurring patient			4
+PV1-2	12	18	U	Unknown			4
+PV1-2	13	18	IH	IP Hospice 			4
+PV1-2	14	18	NB	Newborn			4
+PV1-2	15	18	OB	Observation 			4
+PV1-2	16	18	SN	Skilled Nursing 			4
+PV1-2	17	18	SA	Surgery Admit 			4
+PV1-4	2	21	MiHIN Value	Description	Hospital Value		4
+PV1-4	3	21	E	Emergency	E		2
+PV1-4	4	21	A	Accident			4
+PV1-4	5	21	C	Elective			4
+PV1-4	6	21	E	Emergency	X, M, E		4
+PV1-4	7	21	L	Labor and Delivery	P		4
+PV1-4	8	21	N	Newborn (Birth in healthcare facility)	N		4
+PV1-4	9	21	R	Routine	R, O, T		4
+PV1-4	10	21	U	Urgent	U, S		4
+PV1-4	11	21	TC	Trauma Center 			4
+PV1-4	12	21	O	Other			4
+PV1-14	2	24	MiHIN Value	Description	Hospital Value		4
+PV1-14	3	24	2	Clinic referral	E		2
+PV1-14	4	24	1	Physician referral	RP, RB, RA		4
+PV1-14	5	24	2	Clinic referral	OS		4
+PV1-14	6	24	3	HMO referral			4
+PV1-14	7	24	4	Transfer from a hospital	TH		4
+PV1-14	8	24	5	Transfer froma skilled nursing facility	TE, TR		4
+PV1-14	9	24	6	Transfer from another health care facility	TO, TA, TT		4
+PV1-14	10	24	7	Emergency Room	EO, TU		4
+PV1-14	11	24	8	Court/Law enforcement	TB		4
+PV1-14	12	24	9	Information not available	ER, OE, EI, X, EE, EP, ET, X0, E, NB,0S,RO,UO, SS		4
+PV1-14	13	24	SR	Self-Referral			4
+PV1-14	14	24	TRNF	Transfer from a non-health care facility			4
+PV1-14	15	24	TRAD	Transfer from Ambulatory Department			4
+PV1-18	2	27	MiHIN Suggested Values		Hospital Value	Description	4
+PV1-18	3	27			A	Anonymous	2
+PV1-18	4	27	1	Anonymous			4
+PV1-18	5	27	2	Confidential			4
+PV1-18	6	27	3	Employee	E, I	Employee	4
+PV1-18	7	27	4	Dismissed			4
+PV1-18	8	27	5	No Medicare			4
+PV1-18	9	27	6	Prisoner			4
+PV1-18	10	27	7	VIP	O, L	VIP	4
+PV1-18	11	27	8	Staff Dependent			4
+PV1-18	12	27	9	Benefactor			4
+PV1-18	13	27	10	Employee Dependent			4
+PV1-18	14	27	11	Non-Employee			4
+PV1-18	15	27	12	Volunteer	V	Volunteer	4
+PV1-18	16	27	13	Staff Physician			4
+PV1-18	17	27	14	Non V.I.P			4
+PV1-18	18	27	15	Retired Employee			4
+PV1-18	19	27	42	Homeless			4
+PV1-18	20	27	44	Celebrity			4
+PV1-18	21	27	45	Donor			4
+PV1-18	22	27	46	Transplant			4
+PV1-18	23	27	47	Voucher			4
+PV1-18	24	27	49	Board Member	B	Board Member	4
+PV1-18	25	27	49	Clergy	C	Clergy	4
+PV1-18	26	27	52	Other	A, D, F, G, N, R, H	Other	4
+PV1-18	27	27	58	Organ Donor			4
+PV1-18	28	27	59	Organ 			4
+PV1-18	29	27	60	Select Specialty			4
+PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
+PV1-10	3	31			121	Pediatrics	2
+PV1-10	4	31	104	Cardiology - General	CCL, 1ME, CAR	Cardiology - General	4
+PV1-10	5	31	105	Emergency Medicine	EDH, GUC, DUC	Emergency Medicine	4
+PV1-10	6	31	107	Geriatrics			4
+PV1-10	7	31	108	Gastroenterology	DGI	Gastroenterology	4
+PV1-10	8	31	109	Gynecology			4
+PV1-10	9	31	110	Hospice Medicine	GHH, HSP	Hospice Medicine	4
+PV1-10	10	31	111	Medical Intensive Care			4
+PV1-10	11	31	112	Internal Medicine	3ME, 4ME, 5ME, DIM	Internal Medicine	4
+PV1-10	12	31	114	Neuro ICU			4
+PV1-10	13	31	115	Neurology	EEG	Neurology	4
+PV1-10	14	31	116	Neonatology			4
+PV1-10	15	31	117	Obstetrics	ELL, MCH, 5OB, 5SU, PND	Obstetrics	4
+PV1-10	16	31	118	Oncology			4
+PV1-10	17	31	119	Orthopedics	6ME, 6SU, ONO, PMH	Orthopedics	4
+PV1-10	18	31	121	Pediatrics	5PE, PUC	Pediatrics	4
+PV1-10	19	31	123	Physical Medicine and Rehabilitation	CRC, PMG, SUB	Physical Medicine and Rehabilitation	4
+PV1-10	20	31	124	General Surgery	ASC, GSR, 2SU, 4SU, NRP, WCS,3SU	General Surgery	4
+PV1-10	21	31	125	Surgical Intensive Care			4
+PV1-10	22	31	126	Nephrology Transplant			4
+PV1-10	23	31	127	Acute Care Surgery			4
+PV1-10	24	31	128	Allergy & Immunology			4
+PV1-10	25	31	129	Anesthesiology			4
+PV1-10	26	31	131	Dermatology			4
+PV1-10	27	31	132	Family Medicine			4
+PV1-10	28	31	133	Endocrinology			4
+PV1-10	29	31	134	Genetics			4
+PV1-10	30	31	135	Hematology	ACC		4
+PV1-10	31	31	136	Infectious Disease			4
+PV1-10	32	31	137	Nephrology	2ME	Nephrology	4
+PV1-10	33	31	138	Neurosurgery			4
+PV1-10	34	31	139	Ophthalmology			4
+PV1-10	35	31	140	Otolaryngology/ENT			4
+PV1-10	36	31	141	Plastic Surgery			4
+PV1-10	37	31	143	Radiation Oncology			4
+PV1-10	38	31	144	Rheumatology			4
+PV1-10	39	31	145	Urology			4
+PV1-10	40	31	148	Pharmacy			4
+PV1-10	41	31	149	Interventional Radiology			4
+PV1-10	42	31	150	Clinical Decision Unit	EDC, OBV	Clinical Decision Unit	4
+PV1-10	43	31	151	Wound/Ostomy Care	TTC	Wound/Ostomy Care	4
+PV1-10	44	31	153	Newborn	5NB, UBB,WBN	Newborn	4
+PV1-10	45	31	154	Labor and Delivery			4
+PV1-10	46	31	156	Hospitalist Medicine			4
+PV1-10	47	31	158	Select Specialty			4
+PV1-10	48	31	161	Audiology			4
+PV1-10	49	31	162	Behavioral Health - Psychology			4
+PV1-10	50	31	163	Cardiology - Structural Heart Disease			4
+PV1-10	51	31	165	Colon/Rectal Surgery			4
+PV1-10	52	31	166	Gynecology/Obstetrics	DOB	Gynecology/Obstetrics	4
+PV1-10	53	31	172	Oral Surgery			4
+PV1-10	54	31	175	Palliative Medicine 			4
+PV1-10	55	31	178	Podiatry	DPO	Podiatry	4
+PV1-10	56	31	180	Radiology	MRI, RDE, RDH	Radiology	4
+PV1-10	57	31	181	Sleep Center	SLP	Sleep Center	4
+PV1-10	58	31	184	Cardiac Surgery	CDP, 1SU	Cardiac Surgery	4
+PV1-10	59	31	185	Transplant			4
+PV1-10	60	31	198	Bone Marrow Transplant			4
+PV1-10	61	31	208	Chemotherapy	CMO		4
+PV1-10	62	31	273	Pathology			4
+PV1-10	63	31	293	Pulmonary	RSP, PRH	Pulmonary	4
+PV1-10	64	31	322	Thoracic Surgery			4
+PV1-10	65	31	374	Transfusion Medicine			4
+PV1-10	66	31	376	Family Practice			4
+PV1-10	67	31	380	Orthopedic - Hand Surgery			4
+PV1-10	68	31	381	Orthopedic - Spine			4
+PV1-10	69	31	384	Hepatology			4
+PV1-10	70	31	385	Pain Management	3PN		4
+PV1-10	71	31	387	Urogynecology			4
+PV1-10	72	31	399	Bone & Mineral			4
+PV1-10	73	31	409	Cardiology - Electrophysiology			4
+PV1-10	74	31	463	Bariatric Surgery			4
+PV1-10	75	31	464	Intensive Care			4
+PV1-10	76	31	465	Pulmonary Hypertension			4
+PV1-10	77	31	466	Pulmonary Transplant			4
+PV1-10	78	31	467	Pulmonary Interventional			4
+PV1-10	79	31	469	Transplant HPB Surgery			4
+PV1-10	80	31	470	Cardiothoracic Transplant			4
+PV1-10	81	31	471	Vascular Surgery			4
+PV1-10	82	31	472	Speech Pathology			4
+PV1-10	83	31	473	Cardiology - Advanced Heart Failure/Transplant			4
+PV1-10	84	31	474	Cardiology - Vascular Medicine			4
+PV1-10	85	31	475	Physiatry			4
+PV1-10	86	31	476	Orthopedic - Surgery			4
+PV1-10	87	31	477	Cardiovascular SICU			4
+PV1-10	88	31	478	Behavioral Health - Neuropsychology			4
+PV1-10	89	31	479	Behavioral Health - Psychiatry			4
+PV1-10	90	31	480	Surgical Endoscopy	ESC, MPU	Surgical Endoscopy	4
+PV1-10	91	31	481	Ethics			4
+PV1-10	92	31	482	Trauma Surgery	TRS	Trauma Surgery	4
+PV1-10	93	31		Miscellaneous OP	DSX,  DVT, DVG, DLC, DSD, DSP, DSE, GCC, DGD, DS8,  LBE, LSR, LBH, NUT, PAT, DSM, 4OS, GOH,  6PE, TLB, DS3, EMP, DAH, DAP, DML, DPD, DSC, DSL, DSS, DST, DSW, DS4, D27, PCE, PMB, SJC, 1PE, 2PE, 3PE, 3RE, 4RE, DS5	Miscellaneous OP	4
+PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	4
+PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
+PV1-36	4	35	01	Discharged to home or self care (routine discharge)	ADC, AHF, AHR, A81, A87	Discharged to home or self care (routine discharge)	4
+PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	ATH, A82	Discharged/transferred to a short-term general hospital for inpatient \ncare	4
+PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.	ATE, A83	Discharged/transferred to skilled nursing facility (SNF) with Medicare \ncertification.	4
+PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)	ATI, A84	Discharged/transferred to an intermediate care facility (ICF)	4
+PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list	ADB, ATF, ADS, ADZ, A85, A95	Discharged/transferred to another type of institution not defined elsewhere \nin this code list	4
+PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization	ARS, A86	Discharged/transferred to home under care of organized home health service \norganization	4
+PV1-36	10	35	07	Left against medical advice or discontinued care	AMA	Left against medical advice or discontinued care	4
+PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider			4
+PV1-36	12	35	09	Admitted as an inpatient to this hospital			4
+PV1-36	13	35	20	Expired	X7Z	Expired	4
+PV1-36	14	35	30	Still Patient			4
+PV1-36	15	35	40	Expired at home			4
+PV1-36	16	35	41	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)			4
+PV1-36	17	35	42	Expired - place unknown	D7Z	Expired - place unknown	4
+PV1-36	18	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)	ATN, A88		4
+PV1-36	19	35	50	Hospice - home	AHH	Hospice - home	4
+PV1-36	20	35	51	Hospice - medical facility	AHG	Hospice - medical facility	4
+PV1-36	21	35	61	Discharged/transferred to hospital-based Medicare approved swing bed	AHS		4
+PV1-36	22	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)	ATX, A90	Discharged/transferred to an inpatient rehabilitation facility (IRF) including \nrehabilitation distinct part units of a hospital. (Effective \nretroactive to 1/1/02.)	4
+PV1-36	23	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)	ATY, A91	Discharged/transferred to a Medicare certified long term care hospital \n(LTCH).(Effective 5/9/02.)	4
+PV1-36	24	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)	ATK, A92		4
+PV1-36	25	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	ATZ, A93	Discharged/transferred to a psychiatric hospital or psychiatric distinct \npart unit of a hospital. (Effective 4/1/04)	4
+PV1-36	26	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)	ATC, A94		4
+PV1-36	27	35	71	Reserved for national assignment (Discontinued effective 4/1/03)			4
+PV1-36	28	35	72	Reserved for national assignment (Discontinued effective 4/1/03)			4
+PV1-36	29	35	73-99	Reserved for national assignment			FFDDEBF7
+IN1-17	2	39	MiHIN Value	Description	Hospital Value		4
+IN1-17	3	39	FTH	Father 	F		2
+IN1-17	4	39	ASC	Associate			4
+IN1-17	5	39	BRO	Brother 			4
+IN1-17	6	39	CGV	Care giver 			4
+IN1-17	7	39	CHD	Child			4
+IN1-17	8	39	DEP	Handicapped dependant			4
+IN1-17	9	39	DOM	Life partner			4
+IN1-17	10	39	EMC	Emergency contact			4
+IN1-17	11	39	EME	Employee			4
+IN1-17	12	39	EMR	Employer			4
+IN1-17	13	39	EXF	Extended family			4
+IN1-17	14	39	FCH	Foster child 			4
+IN1-17	15	39	FND	Friend			4
+IN1-17	16	39	FTH	Father 			4
+IN1-17	17	39	GCH	Grandchild			4
+IN1-17	18	39	GRD	Guardian 			4
+IN1-17	19	39	GRP	Grandparent 			4
+IN1-17	20	39	MGR	Manager			4
+IN1-17	21	39	MTH	Mother 			4
+IN1-17	22	39	NCH	Natural child			4
+IN1-17	23	39	NON	None			4
+IN1-17	24	39	OAD	Other adult			4
+IN1-17	25	39	OTH	Other 	Employer, NG		4
+IN1-17	26	39	OWN	Owner			4
+IN1-17	27	39	PAR	Parent 	Dependent		4
+IN1-17	28	39	SCH	Stepchild 			4
+IN1-17	29	39	SEL	Self	Female Subscriber, Male Subscriber		4
+IN1-17	30	39	SIB	Sibling 			4
+IN1-17	31	39	SIS	Sister 			4
+IN1-17	32	39	SPO	Spouse	Wife on Husb's Ins, Husb on Wife's Ins		4
+IN1-17	33	39	TRA	Trainer			4
+IN1-17	34	39	UNK	Unknown			4
+IN1-17	35	39	WRD	Ward of court			4
+IN1-17	36	39	AUN	Aunt 			4
+IN1-17	37	39	DAU	Daughter			4
+IN1-17	38	39	EXS	Ex Spouse 			4
+IN1-17	39	39	EXH	Ex-husband			4
+IN1-17	40	39	EXW	Ex-wife 			4
+IN1-17	41	39	INL	In Law 			4
+IN1-17	42	39	LEG	Legal Guardian 			4
+IN1-17	43	39	SON	Son (S)			4
+IN1-17	44	39	STP	Step Parent (STP)			4
+IN1-17	45	39	STS	Step Sibling			4
+IN1-17	46	39	UN	Uncle (UN)			4
+IN1	2	42	IN1-3 Value	IN1-4 Value	Payer		4
+IN1	3	42	1001	BCN	BCBSM		2
+IN1	4	42	1	BLUE CROSS - PPO	BCBSM		00000000
+IN1	5	42	1	MEDICARE B	Medicare		00000000
+IN1	6	42	1	MEDICARE PLS BLUE OP	Medicare		00000000
+IN1	7	42	A01	BC/BS	BCBSM		00000000
+IN1	8	42	A01	BLUE CROSS	BCBSM		00000000
+IN1	9	42	A02	BLUE CROSS - PPO	BCBSM		00000000
+IN1	10	42	A03	BLUE CROSS-FEP(FED)	BCBSM		00000000
+IN1	11	42	A04	BLUE CROSS FEP (PPO)	BCBSM		00000000
+IN1	12	42	A07	BLUE PREF PLUS(AUTO	BCBSM		00000000
+IN1	13	42	A07	BLUE PREFPLUS/AM AXI	BCBSM		00000000
+IN1	14	42	A08	BLUE CHOICE	BCBSM		00000000
+IN1	15	42	A09	UNKNOWN	Commercial		00000000
+IN1	16	42	A20	BUE CROSS OUT OF STATE	BCBSM		00000000
+IN1	17	42	A48	BLUE CROSS-GENESYS	BCBSM		00000000
+IN1	18	42	A98	BC-SECONDARY EX CARE	BCBSM		00000000
+IN1	19	42	A98	BLUE CROSS SEC XCARE	BCBSM		00000000
+IN1	20	42	A99	B C-SECONDARY CARE	BCBSM		00000000
+IN1	21	42	C02	MEDICARE 2002	MEDICARE		00000000
+IN1	22	42	C02	MEDICARE A	MEDICARE		00000000
+IN1	23	42	C37	MEDICARE PLS BLUE IP	MEDICARE		00000000
+IN1	24	42	C38	BCN BLUE ADVANTAGE	BCBSM		00000000
+IN1	25	42	C38	BLUE ADVANTAGE	MEDICARE		00000000
+IN1	26	42	C50	BCN BLUE ADV - PHO	MEDICARE		00000000
+IN1	27	42	C50	BLUE ADVANTAGE PHO	BCBSM		00000000
+IN1	28	42	D37	?EDICARE PLS BLUE OP	MEDICARE		00000000
+IN1	29	42	D37	BCBS MEDICARE PLUS	MEDICARE		00000000
+IN1	30	42	D37	MEDICARE PLS BLUE OP	MEDICARE		00000000
+IN1	31	42	D37	MEDICARE PLUS BLUE	MEDICARE		00000000
+IN1	32	42	D38	?LUE ADVANTAGE OPT	MEDICARE		00000000
+IN1	33	42	D38	BCN BL ADVANTAGE OPT	MEDICARE		00000000
+IN1	34	42	D38	BLUE ADVANTAGE OPT	MEDICARE		00000000
+IN1	35	42	D76	MEDICARE B	MEDICARE		00000000
+IN1	36	42	D77	MEDICARE A OPT SERV	MEDICARE		00000000
+IN1	37	42	E01	PENDING DISABILITY	Commercial		00000000
+IN1	38	42	E18	INTERNAL PEND MEDICA	MEDICAID		00000000
+IN1	39	42	E18	PENDING CAID IN/OPT	MEDICAID		00000000
+IN1	40	42	E20	PENDING BABY ADD ON	MEDICAID		00000000
+IN1	41	42	E30	THE WELLNESS PLAN	MEDICAID		00000000
+IN1	42	42	E30	WELLNESS PLAN	Commercial		00000000
+IN1	43	42	E51	ADULT BENEFIT WAIVER	Commercial		00000000
+IN1	44	42	E68	MEDICAID IP SPEND DN	MEDICAID		00000000
+IN1	45	42	E69	MEDICAID SPEND DN OP	MEDICAID		00000000
+IN1	46	42	E69	MEDICAID SPEND DOWN	Medicaid		00000000
+IN1	47	42	E70	MEDICAID PLAN FIRST	MEDICAID		00000000
+IN1	48	42	E71	MEDICAID	MEDICAID		00000000
+IN1	49	42	E73	MEDICAID SPEND DOWN	MEDICAID		00000000
+IN1	50	42	E75	HEALTHY MICHIGAN	MEDICAID		00000000
+IN1	51	42	E75	MEDICAID	MEDICAID		00000000
+IN1	52	42	E78	?EDICAID INPATIENT	Medicaid		00000000
+IN1	53	42	E78	MEDICAID INPATIENT	MEDICAID		00000000
+IN1	54	42	E79		Commercial		00000000
+IN1	55	42	E79	MEDACAID OUTPATIENT	Medicaid		00000000
+IN1	56	42	E79	MEDICAID	MEDICAID		00000000
+IN1	57	42	E79	MEDICAID OUTPATIENT	MEDICAID		00000000
+IN1	58	42	E80	AMERIGROUP	Commercial		00000000
+IN1	59	42	E80	MEDICAID OUT STATE	MEDICAID		00000000
+IN1	60	42	E98	MEDICAID-SEC EX CARE	MEDICAID		00000000
+IN1	61	42	F30	UNKNOWN	Commercial		00000000
+IN1	62	42	F35	HPM SENIORS PPO	HEALTHPLUS		00000000
+IN1	63	42	F36	?PM SENIORS HMO	MEDICARE		00000000
+IN1	64	42	F36	HPM SENIORS HMO	HEALTHPLUS		00000000
+IN1	65	42	F37	HEALTH PLUS SENIORS	HEALTHPLUS		00000000
+IN1	66	42	F37	HPM-SENIORS	HEALTHPLUS		00000000
+IN1	67	42	F37	HPM-SENIORS(MEDICARE	Medicare		00000000
+IN1	68	42	F48	HLTHPLUS GRMC EMPL	HEALTHPLUS		00000000
+IN1	69	42	F60	HEALTHPLUS	HEALTHPLUS		00000000
+IN1	70	42	F60	HEALTHPLUS PPO	HEALTHPLUS		00000000
+IN1	71	42	F60	HLTHPLUS PPO	HEALTHPLUS		00000000
+IN1	72	42	F70	HEALTHPLUS NON-PHO	HEALTHPLUS		00000000
+IN1	73	42	F70	HLTHPLUS NON-PHO	HEALTHPLUS		00000000
+IN1	74	42	F80	HEALTHPLUS-NON-PHO	HEALTHPLUS		00000000
+IN1	75	42	F80	HLTHPLUS OPTIONS	HEALTHPLUS		00000000
+IN1	76	42	F90	HLTHPLUS-GENESYS PHO	HEALTHPLUS		00000000
+IN1	77	42	F91	HLTHPLUS COMML SPINE	HEALTHPLUS		00000000
+IN1	78	42	G05	TOTAL HEALTH CARE	Commercial		00000000
+IN1	79	42	G07	GLHP/UHC COMM PLAN	Commercial		00000000
+IN1	80	42	G08	COMMUNITY CHOICE	Commercial		00000000
+IN1	81	42	G09	HEALTH PLAN OF MICH	Commercial		00000000
+IN1	82	42	G10	AETNA BETTER HEALTH	Commercial		00000000
+IN1	83	42	G10	BLUE CROSS COMPLETE	BCBSM		00000000
+IN1	84	42	G10	MCAID MNGD CARE OTHR	MEDICAID		00000000
+IN1	85	42	G10	MEDICAID HMO	MEDICAID		00000000
+IN1	86	42	G10	MIDWEST HEALTH PLAN	Commercial		00000000
+IN1	87	42	G13	GHP PLAN A ALL SERV	Commercial		00000000
+IN1	88	42	G14	GENESEE HEALTH PLAN	Commercial		00000000
+IN1	89	42	G14	GENESEE HLTH PLAN ED	Commercial		00000000
+IN1	90	42	G14	GHP PLAN B ER SERV	Commercial		00000000
+IN1	91	42	G15	GENESEE HEALTH PLAN	Commercial		00000000
+IN1	92	42	G15	GHP PLAN B OP NON ER	Commercial		00000000
+IN1	93	42	G18	?OLINA	MOLINA		00000000
+IN1	94	42	G18	MOLINA	MOLINA		00000000
+IN1	95	42	G18	MOLINA MEDICAID	MOLINA		00000000
+IN1	96	42	G18	YOLINA	Commercial		00000000
+IN1	97	42	G20	BLUE CAID	BCBSM		00000000
+IN1	98	42	G23	MERIDIAN CHOICE	Commercial		00000000
+IN1	99	42	G23	MERIDIAN CHOICE CAID	Commercial		00000000
+IN1	100	42	G25	MCLAREN	Commercial		00000000
+IN1	101	42	G25	MCLAREN HEALTH PLAN	Commercial		00000000
+IN1	102	42	G25	MCLAREN HMP	Commercial		00000000
+IN1	103	42	G25	MCLAREN MEDICAID	Medicaid		00000000
+IN1	104	42	G25	MLAREN HEALTH PLAN	Commercial		00000000
+IN1	105	42	G26	MOLINA	MOLINA		00000000
+IN1	106	42	G26	MOLINA SENIOR PLAN	MOLINA		00000000
+IN1	107	42	G28	BLUE CROSS COMPLETE	BCBSM		00000000
+IN1	108	42	G29	HAP MIDWEST HLTHCARE	HAP		00000000
+IN1	109	42	H01	AETNA	Commercial		00000000
+IN1	110	42	H03	AETNA MICH PREFERRED	Commercial		00000000
+IN1	111	42	H04	AARP	Commercial		00000000
+IN1	112	42	H06	AETNA NEW BUSINESS	Commercial		00000000
+IN1	113	42	H08	CITIZENS INSURANCE	Auto		00000000
+IN1	114	42	H10	AAA	Auto		00000000
+IN1	115	42	H11	ALLSTATE INSURANCE	Auto		00000000
+IN1	116	42	H13	FARMERS INSURANCE	Commercial		00000000
+IN1	117	42	H15	UNITED HEALTH CARE	Commercial		00000000
+IN1	118	42	H15	UNITED HEALTHCARE	Commercial		00000000
+IN1	119	42	H16	UHC GOLDEN RULE	Commercial		00000000
+IN1	120	42	H20	FARM BUREAU	Auto		00000000
+IN1	121	42	H22	CIGNA	Commercial		00000000
+IN1	122	42	H22	CIGNA OPEN ACCESS	Commercial		00000000
+IN1	123	42	H27	STATE FARM	Auto		00000000
+IN1	124	42	H30	HOSPICE	Commercial		00000000
+IN1	125	42	H38	CONSUMERS MUTUAL(CMI	Commercial		00000000
+IN1	126	42	H40	DAVITA DIALYSIS LAB	Commercial		00000000
+IN1	127	42	H48	GENESYS EMPL WORKCOM	Commercial		00000000
+IN1	128	42	H55	PHCS	Commercial		00000000
+IN1	129	42	H65	MCLAREN POS	Commercial		00000000
+IN1	130	42	H87	PACE	Commercial		00000000
+IN1	131	42	H89	SAFE RESPONSE	Commercial		00000000
+IN1	132	42	H90	AUTO INS-GENERIC	Auto		00000000
+IN1	133	42	H93	LIABILITY-GENERAL	Commercial		00000000
+IN1	134	42	H95	WORKERS COMPENSATION	Commercial		00000000
+IN1	135	42	H99	COMMERCIAL-GENERAL	Commercial		00000000
+IN1	136	42	J16	BCN GENESYS PHO	Commercial		00000000
+IN1	137	42	J18	BCN SELF FUNDED	BCBSM		00000000
+IN1	138	42	J20	BCN	BCBSM		00000000
+IN1	139	42	J20	BCN NON PHO	BCBSM		00000000
+IN1	140	42	J20	BCN-NON-PHO	BCBSM		00000000
+IN1	141	42	J35	BCN PREMIER	BCBSM		00000000
+IN1	142	42	J35	BCN PREMIER CARE	BCBSM		00000000
+IN1	143	42	J95	BCN SECONDARY - CARE	BCBSM		00000000
+IN1	144	42	M10	CARE CHOICES	Commercial		00000000
+IN1	145	42	M15	JVHL - GHP	Commercial		00000000
+IN1	146	42	M15	JVHL/GHP	Commercial		00000000
+IN1	147	42	M15	JVHL-GAP	Commercial		00000000
+IN1	148	42	M16	JVHL (BCN)	BCBSM		00000000
+IN1	149	42	M17	JVHL UNITED HTL CARE	Commercial		00000000
+IN1	150	42	M17	JVHL/UNITED HEALTH C	Commercial		00000000
+IN1	151	42	M18	JVHL - -MOLINA	MOLINA		00000000
+IN1	152	42	M18	JVHL/MOLINA	MOLINA		00000000
+IN1	153	42	M19	JVHL - HLTH PLAN MI	Commercial		00000000
+IN1	154	42	M19	JVHL - MERIDAN HLTH	Commercial		00000000
+IN1	155	42	M19	JVHL/HLTH PLAN MI	Commercial		00000000
+IN1	156	42	M25	JVHL - MCLAREN HLTH	Commercial		00000000
+IN1	157	42	M28	HAP BENESYS	Commercial		00000000
+IN1	158	42	M29	HAP - PHP	HAP		00000000
+IN1	159	42	M29	HAP PHP	HAP		00000000
+IN1	160	42	M29	HAP PPO	Commercial		00000000
+IN1	161	42	M30	CORESOURCE	Commercial		00000000
+IN1	162	42	M30	HAP	Commercial		00000000
+IN1	163	42	M30	HAP - HMO	HAP		00000000
+IN1	164	42	M30	HAP HMO	Commercial		00000000
+IN1	165	42	M30	HAP(HEALTH ALLIANCE)	HAP		00000000
+IN1	166	42	M31	HAP	Commercial		00000000
+IN1	167	42	M31	HAP-SENIORS	HAP		00000000
+IN1	168	42	M33	JVHL - HAP	HAP		00000000
+IN1	169	42	M33	JVHL -- HAP	HAP		00000000
+IN1	170	42	M34	HAP - SPINE CARE	HAP		00000000
+IN1	171	42	M35	M-CARE	Commercial		00000000
+IN1	172	42	M38	JVHL -- MCARE	MEDICARE		00000000
+IN1	173	42	M39	HAP - PHO	HAP		00000000
+IN1	174	42	M39	HAP-PHO	Commercial		00000000
+IN1	175	42	M40	SELECT CARE	Commercial		00000000
+IN1	176	42	M45	HUMANA	Commercial		00000000
+IN1	177	42	M50	PRIORITY HEALTH	PRIORITY		00000000
+IN1	178	42	M51	PRIORITY HEALTH HMO	PRIORITY		00000000
+IN1	179	42	M52	PRIORITY HEALTH PPO	PRIORITY		00000000
+IN1	180	42	M55	PRIORITY HEALTH PHO	PRIORITY		00000000
+IN1	181	42	M60	MEDICARE SENIOR(GEN)	MEDICARE		00000000
+IN1	182	42	M64	MCLAREN SENIOR PLAN	Commercial		00000000
+IN1	183	42	M65	?UMANA SENIOR PLAN	MEDICARE		00000000
+IN1	184	42	M65	HUMANA SENIOR PLAN	MEDICARE		00000000
+IN1	185	42	M70	ASR HEALTH BENEFITS	Commercial		00000000
+IN1	186	42	M90	JVHL HEALTH PLUS	HEALTHPLUS		00000000
+IN1	187	42	M90	JVHL HEALTHPLUS	HEALTHPLUS		00000000
+IN1	188	42	N01	SMARTHEALTH GRMC	Commercial		00000000
+IN1	189	42	N03	SMARTHEALTH ST JOHN	Commercial		00000000
+IN1	190	42	N05	SMARTHEALTH PROVIDEN	Commercial		00000000
+IN1	191	42	N06	SMARTHEALTH ST MARYS	Commercial		00000000
+IN1	192	42	N10	COFINITY	Commercial		00000000
+IN1	193	42	N10	PAINTER'S INSURANCE	Commercial		00000000
+IN1	194	42	N10	PPOM	Commercial		00000000
+IN1	195	42	N10	UMR	Commercial		00000000
+IN1	196	42	N11	PPOM SECONDARY	Commercial		00000000
+IN1	197	42	N15	COFINITY	Commercial		00000000
+IN1	198	42	N15	COFINITY ADVANTAGE	Commercial		00000000
+IN1	199	42	N20	SMARTHEALTH ASCENSIO	Commercial		00000000
+IN1	200	42	N20	SMARTHLTH ASCESION	Commercial		00000000
+IN1	201	42	P01	PATIENT PAY PLAN	Commercial		00000000
+IN1	202	42	P14	PFL PATIENT PAY	Commercial		00000000
+IN1	203	42	R10	VA	Commercial		00000000
+IN1	204	42	R11	CHAMPVA	Commercial		00000000
+IN1	205	42	R13	TRICARE/CHAMP-ACTIVE	Commercial		00000000
+IN1	206	42	R15	CHAMPUS-SPOUSE/DEPEN	Commercial		00000000
+IN1	207	42	R15	TRICARE CHAMP SP DEP	Commercial		00000000
+IN1	208	42	R15	TRICARE/CHAMP-SP/DEP	Commercial		00000000
+IN1	209	42	R20	VA CHOICE	Commercial		00000000
+IN1	210	42	R99	TRICARE/CHAMP-2NDARY	Commercial		00000000
+IN1	211	42	S81	RESEARCH STUDY	Commercial		00000000
+IN1	212	42	U01	BLUE CROSS UNJUST	BCBSM		00000000
+IN1	213	42	U16	BCN UNJUSTIFIED ADM	BCBSM		00000000
+IN1	214	42	U38	BCN ADVANTAGE UNJ	BCBSM		00000000
+IN1	215	42	V02	MEDICARE - REHAB	MEDICARE		00000000
+IN1	216	42	X95	WORKER COMP EXEMPT	Commercial		00000000
+IN1	217	42	Y15	EMPLOYEE HEALTH	Commercial		00000000
+IN1	218	42	Z03	US----LAB	Commercial		00000000
+IN1	219	42	Z09	TAWAS HOSPITAL--LAB	Commercial		00000000
+IN1	220	42	Z11	STANDISH HOSP -- LAB	Commercial		00000000
+IN1	221	42	Z12	MCLAREN	Commercial		00000000
+IN1	222	42	Z20	GOHN	Commercial		00000000
+IN1	223	42	A01	BC/BS-AUTO GROUPS	BCBSM		00000000
+IN1	224	42	G29	HAP MIDWEST HLTH	HAP		00000000
+IN1	225	42	H15	UHCSS	Commercial		00000000
+IN1	226	42	H61	THC COMMERCIAL	Commercial		00000000
+IN1	227	42	H70	AAA	AUTO		00000000
+IN1	228	42	H70	AUTO OWNERS	AUTO		00000000
+IN1	229	42	H70	ESURANCE AUTO INS	AUTO		00000000
+IN1	230	42	H70	PENDING AUTO INS	AUTO		00000000
+IN1	231	42	H70	PROGRESSIVE AUTO	AUTO		00000000
+IN1	232	42	H70	STATE FARM	AUTO		00000000
+IN1	233	42	H71	PENDING LIABILITY	AUTO		00000000
+IN1	234	42	H72	PENDING WORK COMP	AUTO		00000000
+IN1	235	42	M48	HAP - GRMC DOMESTIC	HAP		00000000
+IN1	236	42	M67	MERIDIAN ADVANTAGE	Commercial		00000000
+IN1	237	42	M80	UHC MEDICARE ADV	MEDICARE		00000000
+IN1	238	42	N10	NGS CORSOURCE	Commercial		00000000
+IN1	239	42	S80	COSMETIC PROCEDURE	Commercial		00000000
+IN1	240	42	P90	PATIENT SELF PAY	Commercial		00000000

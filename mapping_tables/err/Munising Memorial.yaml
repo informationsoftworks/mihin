@@ -1,0 +1,30 @@
+base: Munising Memorial
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 8-13-2020.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: Q127854608T157741581X0
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210831040159'
+          field name: PV1-18
+          field value: CL
+          message count: 7
+          receiving org message ID: 79550875
+        - HL7 ID: Q123191822T150619969X409600
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210626044548'
+          field name: PV1-18
+          field value: ED
+          message count: 6
+          receiving org message ID: 61582532
+        - HL7 ID: Q120715121T146697308X246858
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210506131531'
+          field name: PV1-18
+          field value: PR
+          message count: 1
+          receiving org message ID: 34554535

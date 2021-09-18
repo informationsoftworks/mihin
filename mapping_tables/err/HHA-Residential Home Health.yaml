@@ -1,0 +1,23 @@
+base: HHA-Residential Home Health
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Residential Home Health ADT 2.0 table 6-30-2017.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '20210912215201'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210912215201'
+          field name: PID-30
+          field value: '""'
+          message count: 623
+          receiving org message ID: 82038982
+        - HL7 ID: '20210902082317'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210902082317'
+          field name: PV1-36
+          field value: '""'
+          message count: 205
+          receiving org message ID: 26263386

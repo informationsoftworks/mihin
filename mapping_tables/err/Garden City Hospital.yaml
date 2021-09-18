@@ -1,0 +1,71 @@
+base: Garden City Hospital
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 10-3-19.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '125260552'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210915112749'
+          field name: IN1-17
+          field value: Spouse
+          message count: 24
+          receiving org message ID: 19511572
+        - HL7 ID: '119673534'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210701044730'
+          field name: PID-30
+          field value: '""'
+          message count: 5500
+          receiving org message ID: 14193800
+        - HL7 ID: '122190930'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210804182429'
+          field name: PV1-36
+          field value: '""'
+          message count: 144
+          receiving org message ID: 23812070
+        - HL7 ID: '119842105'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210703135637'
+          field name: PV1-36
+          field value: ANOTH-READM
+          message count: 1
+          receiving org message ID: 20867985
+        - HL7 ID: '125186747'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210914133620'
+          field name: PV1-36
+          field value: ELOPE
+          message count: 7
+          receiving org message ID: 19423797
+        - HL7 ID: '124618623'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210907025207'
+          field name: PV1-36
+          field value: NOT ARRIVED
+          message count: 2
+          receiving org message ID: 18951351
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 10-3-19.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE28
+            label: 'DIABETIC EDUCATION, '
+          - cell: AE47
+            label: 'NUTRITION, '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-10
+          see:
+          - cell: F9
+            code: 'Other, U '

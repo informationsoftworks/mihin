@@ -1,0 +1,1073 @@
+filename	0	0		2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx			
+MSH-4	2	1	Hospital Value	Description			FFDEEAF6
+MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			FFAEABAB
+MSH-4	4	1	2.16.840.1.113883.3.891.37	AMG Anticoagulation Device Clinic			FFFFFFFF
+MSH-4	5	1	2.16.840.1.113883.3.891.35	AMG Anticoagulation Device Clinic-BHP			FFFFFFFF
+MSH-4	6	1	2.16.840.1.113883.3.891.36	AMG Anticoagulation Device Clinic-CW			FFFFFFFF
+MSH-4	7	1	2.16.840.1.113883.3.891.60	Ascension Borgess Hosp Diab Ed-Plainwell			FFFFFFFF
+MSH-4	8	1	2.16.840.1.113883.3.891.302	Ascension Borgess Hosp Heart Inst Diag			FFFFFFFF
+MSH-4	9	1	2.16.840.1.113883.3.891.456	Ascension Borgess Hosp Pulm Sleep-PLWL			FFFFFFFF
+MSH-4	10	1	2.16.840.1.113883.3.891.454	Ascension Borgess Hosp Surgical Serv-BHP			FFFFFFFF
+MSH-4	11	1	2.16.840.1.113883.3.891.488	Ascension Borgess Hosp Westside FM PDCM			FFFFFFFF
+MSH-4	12	1	2.16.840.1.113883.3.891.148	Ascension Borgess Hosp Wound Hyperbaric			FFFFFFFF
+MSH-4	13	1	2.16.840.1.113883.3.891.453	Ascension Borgess Hospital Bariatric Center - BHP			FFFFFFFF
+MSH-4	14	1	2.16.840.1.113883.3.891.114	Ascension Borgess Hospital Borgess Bone Joint Institute-MOB			FFFFFFFF
+MSH-4	15	1	2.16.840.1.113883.3.891.443	Ascension Borgess Hospital Borgess Flu Clinic			FFFFFFFF
+MSH-4	16	1	2.16.840.1.113883.3.891.44	Ascension Borgess Hospital Borgess Heart Institute - BHP			FFFFFFFF
+MSH-4	17	1	2.16.840.1.113883.3.891.45	Ascension Borgess Hospital Borgess Heart Institute - Delton			FFFFFFFF
+MSH-4	18	1	2.16.840.1.113883.3.891.81	Ascension Borgess Hospital Borgess Heart Institute - MOB			FFFFFFFF
+MSH-4	19	1	2.16.840.1.113883.3.891.490	Ascension Borgess Hospital Borgess Heart Institute Allegan			FFFFFFFF
+MSH-4	20	1	2.16.840.1.113883.3.891.76	Ascension Borgess Hospital Borgess Heart Institute-Marshall			FFFFFFFF
+MSH-4	21	1	2.16.840.1.113883.3.891.77	Ascension Borgess Hospital Borgess Heart Institute-Mattawan			FFFFFFFF
+MSH-4	22	1	2.16.840.1.113883.3.891.47	Ascension Borgess Hospital Borgess Heart Institute-North Pro			FFFFFFFF
+MSH-4	23	1	2.16.840.1.113883.3.891.79	Ascension Borgess Hospital Borgess Heart Institute-Plainwell			FFFFFFFF
+MSH-4	24	1	2.16.840.1.113883.3.891.445	Ascension Borgess Hospital Borgess Heart Institute-Westside			FFFFFFFF
+MSH-4	25	1	2.16.840.1.113883.3.891.361	Ascension Borgess Hospital Borgess Neurology - BC			FFFFFFFF
+MSH-4	26	1	2.16.840.1.113883.3.891.365	Ascension Borgess Hospital Borgess Neurology - Marshall			FFFFFFFF
+MSH-4	27	1	2.16.840.1.113883.3.891.112	Ascension Borgess Hospital Borgess Neurology - Westside			FFFFFFFF
+MSH-4	28	1	2.16.840.1.113883.3.891.363	Ascension Borgess Hospital Borgess Orthopedics - BHP			FFFFFFFF
+MSH-4	29	1	2.16.840.1.113883.3.891.458	Ascension Borgess Hospital Borgess Orthopedics - Gull			FFFFFFFF
+MSH-4	30	1	2.16.840.1.113883.3.891.491	Ascension Borgess Hospital Borgess Orthopedics Westside			FFFFFFFF
+MSH-4	31	1	2.16.840.1.113883.3.891.492	Ascension Borgess Hospital Borgess Pulmonary Sleep Allegan			FFFFFFFF
+MSH-4	32	1	2.16.840.1.113883.3.891.131	Ascension Borgess Hospital Borgess Spine			FFFFFFFF
+MSH-4	33	1	2.16.840.1.113883.3.891.452	Ascension Borgess Hospital Borgess Spine - BHP			FFFFFFFF
+MSH-4	34	1	2.16.840.1.113883.3.891.493	Ascension Borgess Hospital Borgess Westside Family Med II			FFFFFFFF
+MSH-4	35	1	2.16.840.1.113883.3.891.486	Ascension Borgess Hospital Borgess Westside Family Medicine			FFFFFFFF
+MSH-4	36	1	2.16.840.1.113883.3.891.141	Ascension Borgess Hospital Borgess Women's Health - BHP			FFFFFFFF
+MSH-4	37	1	2.16.840.1.113883.3.891.11	Ascension Borgess Hospital Borgess Women's Health - Currier			FFFFFFFF
+MSH-4	38	1	2.16.840.1.113883.3.891.142	Ascension Borgess Hospital Borgess Women's Health - MSB			FFFFFFFF
+MSH-4	39	1	2.16.840.1.113883.3.891.494	Ascension Borgess Hospital Cardio Oncology			FFFFFFFF
+MSH-4	40	1	2.16.840.1.113883.3.891.50	Ascension Borgess Hospital Cardiothoracic Surgery - Shaffer			FFFFFFFF
+MSH-4	41	1	2.16.840.1.113883.3.891.470	Ascension Borgess Hospital DeLano Clinic - Angling			FFFFFFFF
+MSH-4	42	1	2.16.840.1.113883.3.891.465	Ascension Borgess Hospital DeLano Clinic - BHP			FFFFFFFF
+MSH-4	43	1	2.16.840.1.113883.3.891.179	Ascension Borgess Hospital DeLano Clinic - Currier Drive			FFFFFFFF
+MSH-4	44	1	2.16.840.1.113883.3.891.467	Ascension Borgess Hospital DeLano Clinic - Delton			FFFFFFFF
+MSH-4	45	1	2.16.840.1.113883.3.891.466	Ascension Borgess Hospital DeLano Clinic - Galesburg			FFFFFFFF
+MSH-4	46	1	2.16.840.1.113883.3.891.468	Ascension Borgess Hospital DeLano Clinic - John St			FFFFFFFF
+MSH-4	47	1	2.16.840.1.113883.3.891.464	Ascension Borgess Hospital DeLano Clinic - Mattawan			FFFFFFFF
+MSH-4	48	1	2.16.840.1.113883.3.891.471	Ascension Borgess Hospital DeLano Clinic - NPro			FFFFFFFF
+MSH-4	49	1	2.16.840.1.113883.3.891.180	Ascension Borgess Hospital DeLano Clinic - Plainwell			FFFFFFFF
+MSH-4	50	1	2.16.840.1.113883.3.891.472	Ascension Borgess Hospital DeLano Clinic - Richland			FFFFFFFF
+MSH-4	51	1	2.16.840.1.113883.3.891.473	Ascension Borgess Hospital DeLano Clinic - Telemed Currier			FFFFFFFF
+MSH-4	52	1	2.16.840.1.113883.3.891.462	Ascension Borgess Hospital DeLano Clinic - Woodbridge			FFFFFFFF
+MSH-4	53	1	2.16.840.1.113883.3.891.591	Ascension Borgess Hospital DeLano Clinic - Woodbridge II			FFFFFFFF
+MSH-4	54	1	2.16.840.1.113883.3.891.572	Ascension Borgess Hospital Delano Clinic WH- MSB			FFFFFFFF
+MSH-4	55	1	2.16.840.1.113883.3.891.353	Ascension Borgess Hospital Diabetes Center - BHP			FFFFFFFF
+MSH-4	56	1	2.16.840.1.113883.3.891.54	Ascension Borgess Hospital Diabetes Center - Shaffer			FFFFFFFF
+MSH-4	57	1	2.16.840.1.113883.3.891.495	Ascension Borgess Hospital Diabetes Center - WB			FFFFFFFF
+MSH-4	58	1	2.16.840.1.113883.3.891.496	Ascension Borgess Hospital Diabetes Education - BHP			FFFFFFFF
+MSH-4	59	1	2.16.840.1.113883.3.891.186	Ascension Borgess Hospital Diabetes Education - Shaffer			FFFFFFFF
+MSH-4	60	1	2.16.840.1.113883.3.891.187	Ascension Borgess Hospital Diabetes Education - Woodbridge			FFFFFFFF
+MSH-4	61	1	2.16.840.1.113883.3.891.497	Ascension Borgess Hospital Early Atherosclerosis Clinic			FFFFFFFF
+MSH-4	62	1	2.16.840.1.113883.3.891.498	Ascension Borgess Hospital FM John St RD			FFFFFFFF
+MSH-4	63	1	2.16.840.1.113883.3.891.499	Ascension Borgess Hospital Family Med BHP RD			FFFFFFFF
+MSH-4	64	1	2.16.840.1.113883.3.891.500	Ascension Borgess Hospital Family Med North Pro RD			FFFFFFFF
+MSH-4	65	1	2.16.840.1.113883.3.891.501	Ascension Borgess Hospital Family Med WS RD			FFFFFFFF
+MSH-4	66	1	2.16.840.1.113883.3.891.182	Ascension Borgess Hospital Family Medicine - Delton			FFFFFFFF
+MSH-4	67	1	2.16.840.1.113883.3.891.502	Ascension Borgess Hospital Family Medicine - Delton II			FFFFFFFF
+MSH-4	68	1	2.16.840.1.113883.3.891.410	Ascension Borgess Hospital Family Medicine - Delton PDCM			FFFFFFFF
+MSH-4	69	1	2.16.840.1.113883.3.891.354	Ascension Borgess Hospital Family and Internal Med - BHP			FFFFFFFF
+MSH-4	70	1	2.16.840.1.113883.3.891.412	Ascension Borgess Hospital Family and Internal Med JS PDCM			FFFFFFFF
+MSH-4	71	1	2.16.840.1.113883.3.891.409	Ascension Borgess Hospital Family and Internal Med-BHP PDCM			FFFFFFFF
+MSH-4	72	1	2.16.840.1.113883.3.891.57	Ascension Borgess Hospital Family and Internal Med-John St			FFFFFFFF
+MSH-4	73	1	2.16.840.1.113883.3.891.85	Ascension Borgess Hospital Heart Failure Clinic			FFFFFFFF
+MSH-4	74	1	2.16.840.1.113883.3.891.503	Ascension Borgess Hospital Internal Med WB RD			FFFFFFFF
+MSH-4	75	1	2.16.840.1.113883.3.891.414	Ascension Borgess Hospital Internal Medicine - NPRO PDCM			FFFFFFFF
+MSH-4	76	1	2.16.840.1.113883.3.891.90	Ascension Borgess Hospital Internal Medicine - North Pro			FFFFFFFF
+MSH-4	77	1	2.16.840.1.113883.3.891.415	Ascension Borgess Hospital Internal Medicine - WB PDCM			FFFFFFFF
+MSH-4	78	1	2.16.840.1.113883.3.891.92	Ascension Borgess Hospital Internal Medicine - Woodbridge			FFFFFFFF
+MSH-4	79	1	2.16.840.1.113883.3.891.103	Ascension Borgess Hospital Neurointerventional Services			FFFFFFFF
+MSH-4	80	1	2.16.840.1.113883.3.891.118	Ascension Borgess Hospital Neurology			FFFFFFFF
+MSH-4	81	1	2.16.840.1.113883.3.891.105	Ascension Borgess Hospital Neurology - BMC Campus			FFFFFFFF
+MSH-4	82	1	2.16.840.1.113883.3.891.264	Ascension Borgess Hospital Neurosurg of KZ - BHP			FFFFFFFF
+MSH-4	83	1	2.16.840.1.113883.3.891.261	Ascension Borgess Hospital Neurosurg of KZ - BMC Campus			FFFFFFFF
+MSH-4	84	1	2.16.840.1.113883.3.891.262	Ascension Borgess Hospital Neurosurg of KZ - Coldwater			FFFFFFFF
+MSH-4	85	1	2.16.840.1.113883.3.891.263	Ascension Borgess Hospital Neurosurg of KZ - Oaklawn			FFFFFFFF
+MSH-4	86	1	2.16.840.1.113883.3.891.457	Ascension Borgess Hospital Neurosurg of KZ - Three Rivers			FFFFFFFF
+MSH-4	87	1	2.16.840.1.113883.3.891.268	Ascension Borgess Hospital Neurosurg of KZ - West Main			FFFFFFFF
+MSH-4	88	1	2.16.840.1.113883.3.891.483	Ascension Borgess Hospital Orthopedics - Fontbonne Manor			FFFFFFFF
+MSH-4	89	1	2.16.840.1.113883.3.891.504	Ascension Borgess Hospital Palliative Care NPRO			FFFFFFFF
+MSH-4	90	1	2.16.840.1.113883.3.891.127	Ascension Borgess Hospital Pulm Sleep-WB			FFFFFFFF
+MSH-4	91	1	2.16.840.1.113883.3.891.505	Ascension Borgess Hospital Pulmonary Embolism Clinic			FFFFFFFF
+MSH-4	92	1	2.16.840.1.113883.3.891.484	Ascension Borgess Hospital Pulmonary Hypertension Clinic			FFFFFFFF
+MSH-4	93	1	2.16.840.1.113883.3.891.448	Ascension Borgess Hospital Pulmonary Lung Nodule Clinic			FFFFFFFF
+MSH-4	94	1	2.16.840.1.113883.3.891.455	Ascension Borgess Hospital Pulmonary Lung Nodule Clinic BHP			FFFFFFFF
+MSH-4	95	1	2.16.840.1.113883.3.891.123	Ascension Borgess Hospital Pulmonary Sleep Medicine - BHP			FFFFFFFF
+MSH-4	96	1	2.16.840.1.113883.3.891.125	Ascension Borgess Hospital Pulmonary Sleep Medicine - MSB			FFFFFFFF
+MSH-4	97	1	2.16.840.1.113883.3.891.124	Ascension Borgess Hospital Pulmonary Sleep Medicine Dowagiac			FFFFFFFF
+MSH-4	98	1	2.16.840.1.113883.3.891.128	Ascension Borgess Hospital Rheumatology			FFFFFFFF
+MSH-4	99	1	2.16.840.1.113883.3.891.593	Ascension Borgess Hospital Spine - Woodbridge			FFFFFFFF
+MSH-4	100	1	2.16.840.1.113883.3.891.367	Ascension Borgess Hospital Stroke Clinic			FFFFFFFF
+MSH-4	101	1	2.16.840.1.113883.3.891.506	Ascension Borgess Hospital Structural Heart Clinic			FFFFFFFF
+MSH-4	102	1	2.16.840.1.113883.3.891.364	Ascension Borgess Hospital Surg Spec-WS			FFFFFFFF
+MSH-4	103	1	2.16.840.1.113883.3.891.133	Ascension Borgess Hospital Surgical Specialties - Bariatric			FFFFFFFF
+MSH-4	104	1	2.16.840.1.113883.3.891.136	Ascension Borgess Hospital Surgical Specialties - General			FFFFFFFF
+MSH-4	105	1	2.16.840.1.113883.3.891.489	Ascension Borgess Hospital The Surgical Group			FFFFFFFF
+MSH-4	106	1	2.16.840.1.113883.3.891.507	Ascension Borgess Hospital The Surgical Group Allegan			FFFFFFFF
+MSH-4	107	1	2.16.840.1.113883.3.891.508	Ascension Borgess Hospital The Surgical Group Lee			FFFFFFFF
+MSH-4	108	1	2.16.840.1.113883.3.891.509	Ascension Borgess Hospital The Surgical Grp BHP			FFFFFFFF
+MSH-4	109	1	2.16.840.1.113883.3.891.510	Ascension Borgess Hospital The Surgical Grp Diag			FFFFFFFF
+MSH-4	110	1	2.16.840.1.113883.3.891.511	Ascension Borgess Hospital The Surgical Grp WS			FFFFFFFF
+MSH-4	111	1	2.16.840.1.113883.3.891.512	Ascension Borgess Hospital Vascular Screening Clinic			FFFFFFFF
+MSH-4	112	1	2.16.840.1.113883.3.891.487	Ascension Borgess Hospital Westside IMC			FFFFFFFF
+MSH-4	113	1	2.16.840.1.113883.3.891.513	Ascension Borgess Hospital Womens Health Allegan			FFFFFFFF
+MSH-4	114	1	2.16.840.1.113883.3.891.514	Ascension Borgess Oncology Clinic Sturgis			FFFFFFFF
+MSH-4	115	1	2.16.840.1.113883.3.891.515	Ascension Borgess Orthopedic Associates (BOA)			FFFFFFFF
+MSH-4	116	1	2.16.840.1.113883.3.891.581	Ascension Borgess Orthopedic Associates (BOA) Westside			FFFFFFFF
+MSH-4	117	1	2.16.840.1.113883.3.891.516	Ascension Borgess Rehab 11th Street			FFFFFFFF
+MSH-4	118	1	2.16.840.1.113883.3.891.94	Ascension Medical Group - BLMG Cardiology			FFFFFFFF
+MSH-4	119	1	2.16.840.1.113883.3.891.592	Ascension Medical Group - BLMG Diabetes			FFFFFFFF
+MSH-4	120	1	2.16.840.1.113883.3.891.416	Ascension Medical Group - BLMG Dowagiac PDCM			FFFFFFFF
+MSH-4	121	1	2.16.840.1.113883.3.891.95	Ascension Medical Group - BLMG General Surgery			FFFFFFFF
+MSH-4	122	1	2.16.840.1.113883.3.891.96	Ascension Medical Group - BLMG Ortho			FFFFFFFF
+MSH-4	123	1	2.16.840.1.113883.3.891.101	Ascension Medical Group - BLMG Pediatrics			FFFFFFFF
+MSH-4	124	1	2.16.840.1.113883.3.891.366	Ascension Medical Group - BLMG Walk in Convenient Care			FFFFFFFF
+MSH-4	125	1	2.16.840.1.113883.3.891.517	Ascension Medical Group BLMG Ortho High			FFFFFFFF
+MSH-4	126	1	2.16.840.1.113883.3.891.98	Ascension Medical Group BLMG-Delano			FFFFFFFF
+MSH-4	127	1	2.16.840.1.113883.3.891.100	Ascension Medical Group BLMG-FM			FFFFFFFF
+MSH-4	128	1	2.16.840.1.113883.3.891.518	Ascension Medical Group Behavioral Health Sturgis			FFFFFFFF
+MSH-4	129	1	2.16.840.1.113883.3.891.519	Ascension Medical Group Borgess Family Med-Plainwell II			FFFFFFFF
+MSH-4	130	1	2.16.840.1.113883.3.891.64	Ascension Medical Group Borgess Family Medicine - Plainwell			FFFFFFFF
+MSH-4	131	1	2.16.840.1.113883.3.891.74	Ascension Medical Group Borgess Heart Institute - Coldwater			FFFFFFFF
+MSH-4	132	1	2.16.840.1.113883.3.891.46	Ascension Medical Group Borgess Heart Institute - Hillsdale			FFFFFFFF
+MSH-4	133	1	2.16.840.1.113883.3.891.82	Ascension Medical Group Borgess Heart Institute - Sturgis			FFFFFFFF
+MSH-4	134	1	2.16.840.1.113883.3.891.83	Ascension Medical Group Borgess Heart Institute-Three Rivers			FFFFFFFF
+MSH-4	135	1	2.16.840.1.113883.3.891.520	Ascension Medical Group Borgess Lung Nodule Clinic Allegan			FFFFFFFF
+MSH-4	136	1	2.16.840.1.113883.3.891.459	Ascension Medical Group Borgess Orthopedics - Walk In			FFFFFFFF
+MSH-4	137	1	2.16.840.1.113883.3.891.463	Ascension Medical Group DeLano Clinic - Three Rivers			FFFFFFFF
+MSH-4	138	1	2.16.840.1.113883.3.891.411	Ascension Medical Group FM-PW-PDCM			FFFFFFFF
+MSH-4	139	1	2.16.840.1.113883.3.891.521	Ascension Medical Group Family Medicine Colon			FFFFFFFF
+MSH-4	140	1	2.16.840.1.113883.3.891.578	Ascension Medical Group Family Medicine Galesburg			FFFFFFFF
+MSH-4	141	1	2.16.840.1.113883.3.891.417	Ascension Medical Group Family Medicine Galesburg PDCM			FFFFFFFF
+MSH-4	142	1	2.16.840.1.113883.3.891.579	Ascension Medical Group Family Medicine Mattawan			FFFFFFFF
+MSH-4	143	1	2.16.840.1.113883.3.891.418	Ascension Medical Group Family Medicine Mattawan PDCM			FFFFFFFF
+MSH-4	144	1	2.16.840.1.113883.3.891.522	Ascension Medical Group Family Medicine Milham			FFFFFFFF
+MSH-4	145	1	2.16.840.1.113883.3.891.580	Ascension Medical Group Family Medicine Richland			FFFFFFFF
+MSH-4	146	1	2.16.840.1.113883.3.891.368	Ascension Medical Group Family Medicine Richland PDCM			FFFFFFFF
+MSH-4	147	1	2.16.840.1.113883.3.891.523	Ascension Medical Group Family Medicine Sturgis I			FFFFFFFF
+MSH-4	148	1	2.16.840.1.113883.3.891.524	Ascension Medical Group Family Medicine Sturgis II			FFFFFFFF
+MSH-4	149	1	2.16.840.1.113883.3.891.575	Ascension Medical Group Family Medicine Three Rivers			FFFFFFFF
+MSH-4	150	1	2.16.840.1.113883.3.891.420	Ascension Medical Group Family Medicine Three Rivers PDCM			FFFFFFFF
+MSH-4	151	1	2.16.840.1.113883.3.891.577	Ascension Medical Group Family Medicine WIC Woodbridge			FFFFFFFF
+MSH-4	152	1	2.16.840.1.113883.3.891.576	Ascension Medical Group Family Medicine Woodbridge			FFFFFFFF
+MSH-4	153	1	2.16.840.1.113883.3.891.286	Ascension Medical Group Family Medicine Woodbridge PDCM			FFFFFFFF
+MSH-4	154	1	2.16.840.1.113883.3.891.525	Ascension Medical Group General Surgery Allegan			FFFFFFFF
+MSH-4	155	1	2.16.840.1.113883.3.891.110	Ascension Medical Group Neurology of KZ - Three Rivers			FFFFFFFF
+MSH-4	156	1	2.16.840.1.113883.3.891.106	Ascension Medical Group Neurology of KZ -Coldwater			FFFFFFFF
+MSH-4	157	1	2.16.840.1.113883.3.891.260	Ascension Medical Group Neurosurg of KZ - Allegan			FFFFFFFF
+MSH-4	158	1	2.16.840.1.113883.3.891.266	Ascension Medical Group Neurosurg of KZ - Sturgis			FFFFFFFF
+MSH-4	159	1	2.16.840.1.113883.3.891.526	Ascension Medical Group Orthopedics - Sturgis			FFFFFFFF
+MSH-4	160	1	2.16.840.1.113883.3.891.586	Ascension Medical Group Pediatrics Bright Futures			FFFFFFFF
+MSH-4	161	1	2.16.840.1.113883.3.891.588	Ascension Medical Group Pediatrics MSB			FFFFFFFF
+MSH-4	162	1	2.16.840.1.113883.3.891.573	Ascension Medical Group Pediatrics Mattawan			FFFFFFFF
+MSH-4	163	1	2.16.840.1.113883.3.891.587	Ascension Medical Group Pediatrics Mattawan PDCM			FFFFFFFF
+MSH-4	164	1	2.16.840.1.113883.3.891.527	Ascension Medical Group Pediatrics Milham			FFFFFFFF
+MSH-4	165	1	2.16.840.1.113883.3.891.585	Ascension Medical Group Pediatrics Milham PDCM			FFFFFFFF
+MSH-4	166	1	2.16.840.1.113883.3.891.574	Ascension Medical Group Pediatrics Richland			FFFFFFFF
+MSH-4	167	1	2.16.840.1.113883.3.891.419	Ascension Medical Group Pediatrics Richland PDCM			FFFFFFFF
+MSH-4	168	1	2.16.840.1.113883.3.891.528	Ascension Medical Group Pediatrics Sturgis			FFFFFFFF
+MSH-4	169	1	2.16.840.1.113883.3.891.590	Ascension Medical Group Pediatrics Three Rivers			FFFFFFFF
+MSH-4	170	1	2.16.840.1.113883.3.891.10	Ascension Medical Group ProMed Family Practice Three Rivers			FFFFFFFF
+MSH-4	171	1	2.16.840.1.113883.3.891.126	Ascension Medical Group Pulmonary Sleep Medicine - TR			FFFFFFFF
+MSH-4	172	1	2.16.840.1.113883.3.891.529	Ascension Medical Group Sturgis Walk In Clinic			FFFFFFFF
+MSH-4	173	1	2.16.840.1.113883.3.891.530	Ascension Medical Group Surgical Services - Sturgis			FFFFFFFF
+MSH-4	174	1	2.16.840.1.113883.3.891.485	Ascension Medical Group Telecardiology - Sturgis			FFFFFFFF
+MSH-4	175	1	2.16.840.1.113883.3.891.531	Ascension Medical Group Womens Health - Sturgis			FFFFFFFF
+MSH-4	176	1	2.16.840.1.113883.3.891.589	Ascension Medical Group Womens Health Woodbridge			FFFFFFFF
+MSH-4	177	1	2.16.840.1.113883.3.891.104	Ascension Medical Group-Neurology-AL			FFFFFFFF
+MSH-4	178	1	2.16.840.1.113883.3.891.369	ECP Alamo HOS			FFFFFFFF
+MSH-4	179	1	2.16.840.1.113883.3.891.370	ECP Alamo NH			FFFFFFFF
+MSH-4	180	1	2.16.840.1.113883.3.891.371	ECP Alamo SNU			FFFFFFFF
+MSH-4	181	1	2.16.840.1.113883.3.891.533	ECP Allegan Co MCC HOS			FFFFFFFF
+MSH-4	182	1	2.16.840.1.113883.3.891.534	ECP Allegan Co MCC NH			FFFFFFFF
+MSH-4	183	1	2.16.840.1.113883.3.891.535	ECP Allegan Co MCC SNF			FFFFFFFF
+MSH-4	184	1	2.16.840.1.113883.3.891.372	ECP Amber Place ALF			FFFFFFFF
+MSH-4	185	1	2.16.840.1.113883.3.891.373	ECP Amber Way ALF			FFFFFFFF
+MSH-4	186	1	2.16.840.1.113883.3.891.374	ECP Borgess Place HOS			FFFFFFFF
+MSH-4	187	1	2.16.840.1.113883.3.891.375	ECP Borgess Place NH			FFFFFFFF
+MSH-4	188	1	2.16.840.1.113883.3.891.376	ECP Borgess Place SNU			FFFFFFFF
+MSH-4	189	1	2.16.840.1.113883.3.891.477	ECP Crystal Woods ALF			FFFFFFFF
+MSH-4	190	1	2.16.840.1.113883.3.891.377	ECP Directors Hall ALF			FFFFFFFF
+MSH-4	191	1	2.16.840.1.113883.3.891.536	ECP Ely Manor HOS			FFFFFFFF
+MSH-4	192	1	2.16.840.1.113883.3.891.537	ECP Ely Manor NH			FFFFFFFF
+MSH-4	193	1	2.16.840.1.113883.3.891.538	ECP Ely Manor SNF			FFFFFFFF
+MSH-4	194	1	2.16.840.1.113883.3.891.378	ECP Fontbonne Manor ALF			FFFFFFFF
+MSH-4	195	1	2.16.840.1.113883.3.891.379	ECP Friendship Village ALF			FFFFFFFF
+MSH-4	196	1	2.16.840.1.113883.3.891.380	ECP Friendship Village HOS			FFFFFFFF
+MSH-4	197	1	2.16.840.1.113883.3.891.381	ECP Friendship Village NH			FFFFFFFF
+MSH-4	198	1	2.16.840.1.113883.3.891.382	ECP Friendship Village SNU			FFFFFFFF
+MSH-4	199	1	2.16.840.1.113883.3.891.480	ECP Grace Healthcare of Three Rivers HOS			FFFFFFFF
+MSH-4	200	1	2.16.840.1.113883.3.891.482	ECP Grace Healthcare of Three Rivers NH			FFFFFFFF
+MSH-4	201	1	2.16.840.1.113883.3.891.481	ECP Grace Healthcare of Three Rivers SNU			FFFFFFFF
+MSH-4	202	1	2.16.840.1.113883.3.891.383	ECP Heartland Health HOS			FFFFFFFF
+MSH-4	203	1	2.16.840.1.113883.3.891.384	ECP Heartland Health NH			FFFFFFFF
+MSH-4	204	1	2.16.840.1.113883.3.891.385	ECP Heartland Health SNU			FFFFFFFF
+MSH-4	205	1	2.16.840.1.113883.3.891.386	ECP Home			FFFFFFFF
+MSH-4	206	1	2.16.840.1.113883.3.891.474	ECP Laurels of Galesburg HOS			FFFFFFFF
+MSH-4	207	1	2.16.840.1.113883.3.891.475	ECP Laurels of Galesburg NH			FFFFFFFF
+MSH-4	208	1	2.16.840.1.113883.3.891.476	ECP Laurels of Galesburg SNU			FFFFFFFF
+MSH-4	209	1	2.16.840.1.113883.3.891.387	ECP Life Care Plainwell HOS			FFFFFFFF
+MSH-4	210	1	2.16.840.1.113883.3.891.388	ECP Life Care Plainwell NH			FFFFFFFF
+MSH-4	211	1	2.16.840.1.113883.3.891.389	ECP Life Care Plainwell SNU			FFFFFFFF
+MSH-4	212	1	2.16.840.1.113883.3.891.539	ECP Meadow Woods HOS			FFFFFFFF
+MSH-4	213	1	2.16.840.1.113883.3.891.540	ECP Meadow Woods NH			FFFFFFFF
+MSH-4	214	1	2.16.840.1.113883.3.891.541	ECP Meadow Woods SNF			FFFFFFFF
+MSH-4	215	1	2.16.840.1.113883.3.891.390	ECP Medilodge Kal HOS			FFFFFFFF
+MSH-4	216	1	2.16.840.1.113883.3.891.391	ECP Medilodge Kal NH			FFFFFFFF
+MSH-4	217	1	2.16.840.1.113883.3.891.392	ECP Medilodge Kal SNU			FFFFFFFF
+MSH-4	218	1	2.16.840.1.113883.3.891.393	ECP Medilodge Portage HOS			FFFFFFFF
+MSH-4	219	1	2.16.840.1.113883.3.891.394	ECP Medilodge Portage NH			FFFFFFFF
+MSH-4	220	1	2.16.840.1.113883.3.891.395	ECP Medilodge Portage SNU			FFFFFFFF
+MSH-4	221	1	2.16.840.1.113883.3.891.396	ECP Medilodge Westwood HOS			FFFFFFFF
+MSH-4	222	1	2.16.840.1.113883.3.891.397	ECP Medilodge Westwood NH			FFFFFFFF
+MSH-4	223	1	2.16.840.1.113883.3.891.398	ECP Medilodge Westwood SNU			FFFFFFFF
+MSH-4	224	1	2.16.840.1.113883.3.891.399	ECP New Friends ALF			FFFFFFFF
+MSH-4	225	1	2.16.840.1.113883.3.891.478	ECP Oakview Terrace ALF			FFFFFFFF
+MSH-4	226	1	2.16.840.1.113883.3.891.479	ECP Park Village Pine ALF			FFFFFFFF
+MSH-4	227	1	2.16.840.1.113883.3.891.400	ECP Stanford Lodge ALF			FFFFFFFF
+MSH-4	228	1	2.16.840.1.113883.3.891.401	ECP The Fountains Bron ALF			FFFFFFFF
+MSH-4	229	1	2.16.840.1.113883.3.891.402	ECP The Fountains Bron HOS			FFFFFFFF
+MSH-4	230	1	2.16.840.1.113883.3.891.403	ECP The Fountains Bron NH			FFFFFFFF
+MSH-4	231	1	2.16.840.1.113883.3.891.404	ECP The Fountains Bron SNU			FFFFFFFF
+MSH-4	232	1	2.16.840.1.113883.3.891.405	ECP Upjohn Community HOS			FFFFFFFF
+MSH-4	233	1	2.16.840.1.113883.3.891.406	ECP Upjohn Community NH			FFFFFFFF
+MSH-4	234	1	2.16.840.1.113883.3.891.407	ECP Upjohn Community SNU			FFFFFFFF
+MSH-4	235	1	2.16.840.1.113883.3.891.408	ECP Wyndham West ALF			FFFFFFFF
+MSH-4	236	1	2.16.840.1.113883.3.891.542	PALC Amber Place ALF			FFFFFFFF
+MSH-4	237	1	2.16.840.1.113883.3.891.543	PALC Amber Way ALF			FFFFFFFF
+MSH-4	238	1	2.16.840.1.113883.3.891.544	PALC Ascension HOME			FFFFFFFF
+MSH-4	239	1	2.16.840.1.113883.3.891.545	PALC Ascension Living Borgess Place HOS			FFFFFFFF
+MSH-4	240	1	2.16.840.1.113883.3.891.546	PALC Ascension Living Borgess Place NH			FFFFFFFF
+MSH-4	241	1	2.16.840.1.113883.3.891.547	PALC Ascension Living Borgess Place SNU			FFFFFFFF
+MSH-4	242	1	2.16.840.1.113883.3.891.548	PALC Bickford Cottage ALF			FFFFFFFF
+MSH-4	243	1	2.16.840.1.113883.3.891.549	PALC Directors Hall ALF			FFFFFFFF
+MSH-4	244	1	2.16.840.1.113883.3.891.550	PALC Fontebonne Manor ALF			FFFFFFFF
+MSH-4	245	1	2.16.840.1.113883.3.891.551	PALC Friendship Village ALF			FFFFFFFF
+MSH-4	246	1	2.16.840.1.113883.3.891.552	PALC Friendship Village NH			FFFFFFFF
+MSH-4	247	1	2.16.840.1.113883.3.891.553	PALC Friendship Village SNU			FFFFFFFF
+MSH-4	248	1	2.16.840.1.113883.3.891.582	PALC Laurels of Galesburg HOS			FFFFFFFF
+MSH-4	249	1	2.16.840.1.113883.3.891.583	PALC Laurels of Galesburg NH			FFFFFFFF
+MSH-4	250	1	2.16.840.1.113883.3.891.584	PALC Laurels of Galesburg SNF			FFFFFFFF
+MSH-4	251	1	2.16.840.1.113883.3.891.554	PALC Medilodge Kal NH			FFFFFFFF
+MSH-4	252	1	2.16.840.1.113883.3.891.555	PALC Medilodge Kal SNU			FFFFFFFF
+MSH-4	253	1	2.16.840.1.113883.3.891.556	PALC Medilodge Portage NH			FFFFFFFF
+MSH-4	254	1	2.16.840.1.113883.3.891.557	PALC Medilodge Portage SNU			FFFFFFFF
+MSH-4	255	1	2.16.840.1.113883.3.891.558	PALC Medilodge Westwood HOS			FFFFFFFF
+MSH-4	256	1	2.16.840.1.113883.3.891.559	PALC Medilodge Westwood NH			FFFFFFFF
+MSH-4	257	1	2.16.840.1.113883.3.891.560	PALC Medilodge Westwood SNU			FFFFFFFF
+MSH-4	258	1	2.16.840.1.113883.3.891.561	PALC New Friends ALF			FFFFFFFF
+MSH-4	259	1	2.16.840.1.113883.3.891.562	PALC Park Village Pines ALF			FFFFFFFF
+MSH-4	260	1	2.16.840.1.113883.3.891.563	PALC The Fountains Bron ALF			FFFFFFFF
+MSH-4	261	1	2.16.840.1.113883.3.891.564	PALC The Fountains Bron NH			FFFFFFFF
+MSH-4	262	1	2.16.840.1.113883.3.891.565	PALC The Fountains Bron SNU			FFFFFFFF
+MSH-4	263	1	2.16.840.1.113883.3.891.566	PALC Upjohn Community NH			FFFFFFFF
+MSH-4	264	1	2.16.840.1.113883.3.891.567	PALC Upjohn Community SNU			FFFFFFFF
+MSH-4	265	1	2.16.840.1.113883.3.891.568	PALC Wyndham West ALF			FFFFFFFF
+MSH-4	266	1	2.16.840.1.113883.3.891.285	Promed Health All Sites			FFFFFFFF
+MSH-4	267	1	2.16.840.1.113883.3.891.422	WBIM Amber Place ALF			FFFFFFFF
+MSH-4	268	1	2.16.840.1.113883.3.891.423	WBIM Amber Way ALF			FFFFFFFF
+MSH-4	269	1	2.16.840.1.113883.3.891.424	WBIM Bickford Cottage ALF			FFFFFFFF
+MSH-4	270	1	2.16.840.1.113883.3.891.425	WBIM Crystal Woods ALF			FFFFFFFF
+MSH-4	271	1	2.16.840.1.113883.3.891.426	WBIM Directors Hall ALF			FFFFFFFF
+MSH-4	272	1	2.16.840.1.113883.3.891.427	WBIM Fountainview Portage ALF			FFFFFFFF
+MSH-4	273	1	2.16.840.1.113883.3.891.428	WBIM Friendship Village ALF			FFFFFFFF
+MSH-4	274	1	2.16.840.1.113883.3.891.429	WBIM Grace Valley ALF			FFFFFFFF
+MSH-4	275	1	2.16.840.1.113883.3.891.430	WBIM Home			FFFFFFFF
+MSH-4	276	1	2.16.840.1.113883.3.891.431	WBIM New Friends ALF			FFFFFFFF
+MSH-4	277	1	2.16.840.1.113883.3.891.569	WBIM Northwoods ALF			FFFFFFFF
+MSH-4	278	1	2.16.840.1.113883.3.891.432	WBIM Oakview Terrace ALF			FFFFFFFF
+MSH-4	279	1	2.16.840.1.113883.3.891.433	WBIM Park Place ALF			FFFFFFFF
+MSH-4	280	1	2.16.840.1.113883.3.891.434	WBIM Park Village Pines ALF			FFFFFFFF
+MSH-4	281	1	2.16.840.1.113883.3.891.435	WBIM Sues Loving Care ALF			FFFFFFFF
+MSH-4	282	1	2.16.840.1.113883.3.891.436	WBIM Wyndham West ALF			FFFFFFFF
+MSH-4	283	1	2.16.840.1.113883.3.891.352	Ascension Borgess Hospital Coumadin Clinic			FFFFFFFF
+MSH-4	284	1	2.16.840.1.113883.3.891.344	Ascension Borgess Hospital at Woodbridge Hills PST			FFFFFFFF
+MSH-4	285	1	2.16.840.1.113883.3.891.244	Ascension Borgess-Lee Hospital Oncology			FFFFFFFF
+MSH-4	286	1	2.16.840.1.113883.3.891.245	Ascension Borgess-Lee Hospital Outpatient			FFFFFFFF
+MSH-4	287	1	2.16.840.1.113883.3.891.281	Ascension Borgess-Pipp Hospital Outpatient			FFFFFFFF
+MSH-4	288	1	2.16.840.1.113883.3.891.571	Ascension Borgess Hospital Delano Clinic WH- Woodbridge			FFFFFFFF
+MSH-4	289	1	2.16.840.1.113883.3.891.610	Ascension Borgess Lee Vaccination Clinic			FFFFFFFF
+MSH-4	290	1	2.16.840.1.113883.3.891.611	Ascension Medical Group FM RI Vaccination Clinic			FFFFFFFF
+MSH-4	291	1	2.16.840.1.113883.3.891.612	Ascension Medical Group FM WB Vaccination Clinic			FFFFFFFF
+MSH-4	292	1	2.16.840.1.113883.3.891.613	Ascension Medical Group FM TR Vaccination Clinic			FFFFFFFF
+MSH-4	293	1	2.16.840.1.113883.3.891.614	Ascension Borgess Hosp FMIM BHP Vaccination Clinic			FFFFFFFF
+MSH-4	294	1	2.16.840.1.113883.3.891.615	Ascension Borgess Hosp Westside FM Vaccination Clinic			FFFFFFFF
+MSH-4	295	1	2.16.840.1.113883.3.891.616	Ascension Medical Group Down East Medical-PDCM			FFFFFFFF
+MSH-4	296	1	2.16.840.1.113883.3.891.617	Ascension Medical Group Pediatrics Bright Futures-PDCM			FFFFFFFF
+MSH-4	297	1	2.16.840.1.113883.3.891.618	Ascension Medical Group FM Sturgis II-PDCM			FFFFFF00
+MSH-4	298	1	2.16.840.1.113883.3.891.619	 Ascension Medical Group FM Colon-PDCM			FF93C47D
+PID-8	2	3	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PID-8	3	3	M	Male	M		FFAEABAB
+PID-8	4	3	F	Female	F		FFDEEAF6
+PID-8	5	3	M	Male	M		FFDEEAF6
+PID-8	6	3	O	Other	O		FFDEEAF6
+PID-8	7	3	U	Unknown	U		FFDEEAF6
+PID-8	8	3	A	Ambiguous			FFDEEAF6
+PID-8	9	3	N	Not Applicable			FFDEEAF6
+PID-10	2	6	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PID-10	3	6	2106-3	White	W		FFAEABAB
+PID-10	4	6	1002-5	American Indian or Alaska Native	American Indian/Eskimo/Aleut, Native American		FFDEEAF6
+PID-10	5	6	2028-9	Asian	Asian		FFDEEAF6
+PID-10	6	6	2054-5	Black or African American	African American/Black		FFDEEAF6
+PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	Native Hawaiian/Pacific Island, Native Hawaiian/Pacific Islander		FFDEEAF6
+PID-10	8	6	2106-3	White	Caucasian/White		FFDEEAF6
+PID-10	9	6	2131-1	Other Race	Other, Hispanic, Hispanic or Latino, Hispanic/Latino/Black, Hispanic/Latino/Declined, Hispanic/Latino/White, Asian or Pacific Islander		FFDEEAF6
+PID-10	10	6	MR	Multi-Racial	Multiple		FFDEEAF6
+PID-10	11	6	PR	Patient Refused 	Declined, Unavailable/Unknown		FFDEEAF6
+PID-22	2	9	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PID-22	3	9	H	Hispanic or Latino	Hisp		FFAEABAB
+PID-22	4	9	H	Hispanic or Latino	Hispanic or Latino, Hispanic		FFDEEAF6
+PID-22	5	9	N	Not Hispanic or Latino	Non-Hispanic		FFDEEAF6
+PID-22	6	9	U	Unknown	Unknown, Blank, Unable to Obtain		FFDEEAF6
+PID-22	7	9	D	Declined	Declined, Declined to Specify		FFDEEAF6
+PID-22	8	9	AN	Alaskan Native 			FFDEEAF6
+PID-22	9	9	AR	Arabic 			FFDEEAF6
+PID-22	10	9	AS	Asian 			FFDEEAF6
+PID-22	11	9	CA	Caucasian			FFDEEAF6
+PID-22	12	9	CHA	Chaldean 			FFDEEAF6
+PID-22	13	9	CHI	Chinese 			FFDEEAF6
+PID-22	14	9	DU	Dutch 			FFDEEAF6
+PID-22	15	9	EG	Egyptian 			FFDEEAF6
+PID-22	16	9	FR	French 			FFDEEAF6
+PID-22	17	9	GER	German 			FFDEEAF6
+PID-22	18	9	GRE	Greek 			FFDEEAF6
+PID-22	19	9	HA	Hawaiian 			FFDEEAF6
+PID-22	20	9	IRA	Iranian 			FFDEEAF6
+PID-22	21	9	IRQ	Iraqi 			FFDEEAF6
+PID-22	22	9	IRH	Irish 			FFDEEAF6
+PID-22	23	9	ITA	Italian 			FFDEEAF6
+PID-22	24	9	JA	Japanese 			FFDEEAF6
+PID-22	25	9	JE	Jewish 			FFDEEAF6
+PID-22	26	9	JO	Jordanian 			FFDEEAF6
+PID-22	27	9	KO	Korean 			FFDEEAF6
+PID-22	28	9	LE	Lebanese  			FFDEEAF6
+PID-22	29	9	MAC	Macedonian 			FFDEEAF6
+PID-22	30	9	ME	Middle Eastern			FFDEEAF6
+PID-22	31	9	MUL	Multi-Ethnic 			FFDEEAF6
+PID-22	32	9	NA	Native American			FFDEEAF6
+PID-22	33	9	O	Other 			FFDEEAF6
+PID-22	34	9	PO	Polish 			FFDEEAF6
+PID-22	35	9	RU	Russian 			FFDEEAF6
+PID-22	36	9	SC	Scottish 			FFDEEAF6
+PID-22	37	9	UK	Ukrainian 			FFDEEAF6
+PID-22	38	9	VIT	Vietnamese 			FFDEEAF6
+PID-30	2	12	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PID-30	3	12	Y	Expired	E		FFAEABAB
+PID-30	4	12	Y	Deceased/Yes			FFDEEAF6
+PID-30	5	12	N	Not Deceased/No			FFDEEAF6
+DG1-6	2	15	MiHIN Value	Description	Hospital Value		FFDEEAF6
+DG1-6	3	15	A	Admitting	AD		FFAEABAB
+DG1-6	4	15	A	Admitting	Admitting, A		FFDEEAF6
+DG1-6	5	15	F	Final	Final, F		FFDEEAF6
+DG1-6	6	15	W	Working 	Working, W		FFDEEAF6
+DG1-6	7	15	O	Other	Billing Diagnosis, Cause of Death, Discharge, Other, Post-Op Diagnosis, Pre-Op Diagnosis, Principal, Reason For Visit, Referring, Suggested billing, Transfer, Transfer admission		FFDEEAF6
+PV1-2	2	18	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PV1-2	3	18	E	Emergency	ER		FFAEABAB
+PV1-2	4	18	B	Obstetrics	Obstetrics		FFDEEAF6
+PV1-2	5	18	C	Commercial Account	Commercial Account		FFDEEAF6
+PV1-2	6	18	E	Emergency	E		FFDEEAF6
+PV1-2	7	18	I	Inpatient	I		FFDEEAF6
+PV1-2	8	18	N	Not Applicable	Not Applicable		FFDEEAF6
+PV1-2	9	18	O	Outpatient	O		FFDEEAF6
+PV1-2	10	18	P	Preadmit	Preadmit		FFDEEAF6
+PV1-2	11	18	R	Recurring patient	Recurring patient		FFDEEAF6
+PV1-2	12	18	U	Unknown	Unknown		FFDEEAF6
+PV1-2	13	18	IH	IP Hospice 			FFDEEAF6
+PV1-2	14	18	NB	Newborn			FFDEEAF6
+PV1-2	15	18	OB	Observation 			FFDEEAF6
+PV1-2	16	18	SN	Skilled Nursing 			FFDEEAF6
+PV1-2	17	18	SA	Surgery Admit 			FFDEEAF6
+PV1-4	2	21	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PV1-4	3	21	E	Emergency	E		FFAEABAB
+PV1-4	4	21	A	Accident	Accident		FFDEEAF6
+PV1-4	5	21	C	Elective	Elective		FFDEEAF6
+PV1-4	6	21	E	Emergency	Emergency		FFDEEAF6
+PV1-4	7	21	L	Labor and Delivery	Labor and Delivery		FFDEEAF6
+PV1-4	8	21	N	Newborn (Birth in healthcare facility)	Newborn		FFDEEAF6
+PV1-4	9	21	R	Routine	Routine		FFDEEAF6
+PV1-4	10	21	U	Urgent	Urgent		FFDEEAF6
+PV1-4	11	21	TC	Trauma Center 	Trauma		FFDEEAF6
+PV1-4	12	21	O	Other	Unavailable, PREMATURE NEWBORN, NEWBORN EXTRAMURAL, 		FFDEEAF6
+PV1-14	2	24	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PV1-14	3	24	2	Clinic referral	E		FFAEABAB
+PV1-14	4	24	1	Physician referral	 Physician Referral		FFDEEAF6
+PV1-14	5	24	2	Clinic referral	Referred, Clinic Referral		FFDEEAF6
+PV1-14	6	24	3	HMO referral	HMO referral		FFDEEAF6
+PV1-14	7	24	4	Transfer from a hospital	Transfer from Hospital		FFDEEAF6
+PV1-14	8	24	5	Transfer froma skilled nursing facility	From SNF-ICF/Born in LH		FFDEEAF6
+PV1-14	9	24	6	Transfer from another health care facility	Frm other HCF/not born LH, Medical to Psych, Trnsfr Rural/P/C/Hosp		FFDEEAF6
+PV1-14	10	24	7	Emergency Room	Emergency room		FFDEEAF6
+PV1-14	11	24	8	Court/Law enforcement	Court / Law Enforcement		FFDEEAF6
+PV1-14	12	24	9	Information not available	Information not available, Not Available, for future use		FFDEEAF6
+PV1-14	13	24	SR	Self-Referral			FFDEEAF6
+PV1-14	14	24	TRNF	Transfer from a non-health care facility	Normal Delivery, Other		FFDEEAF6
+PV1-14	15	24	TRAD	Transfer from Ambulatory Department			FFDEEAF6
+PV1-18	2	27	MiHIN Suggested Values		Hospital Value	Description	FFDEEAF6
+PV1-18	3	27			A	Anonymous	FFAEABAB
+PV1-18	4	27	1	Anonymous			FFDEEAF6
+PV1-18	5	27	2	Confidential			FFDEEAF6
+PV1-18	6	27	3	Employee	New Employee		FFDEEAF6
+PV1-18	7	27	4	Dismissed			FFDEEAF6
+PV1-18	8	27	5	No Medicare			FFDEEAF6
+PV1-18	9	27	6	Prisoner			FFDEEAF6
+PV1-18	10	27	7	VIP			FFDEEAF6
+PV1-18	11	27	8	Staff Dependent			FFDEEAF6
+PV1-18	12	27	9	Benefactor			FFDEEAF6
+PV1-18	13	27	10	Employee Dependent			FFDEEAF6
+PV1-18	14	27	11	Non-Employee			FFDEEAF6
+PV1-18	15	27	12	Volunteer			FFDEEAF6
+PV1-18	16	27	13	Staff Physician			FFDEEAF6
+PV1-18	17	27	14	Non V.I.P			FFDEEAF6
+PV1-18	18	27	15	Retired Employee			FFDEEAF6
+PV1-18	19	27	42	Homeless			FFDEEAF6
+PV1-18	20	27	44	Celebrity			FFDEEAF6
+PV1-18	21	27	45	Donor			FFDEEAF6
+PV1-18	22	27	46	Transplant			FFDEEAF6
+PV1-18	23	27	47	Voucher			FFDEEAF6
+PV1-18	24	27	49	Board Member			FFDEEAF6
+PV1-18	25	27	49	Clergy			FFDEEAF6
+PV1-18	26	27	52	Other			FFDEEAF6
+PV1-18	27	27	58	Organ Donor			FFDEEAF6
+PV1-18	28	27	59	Organ 			FFDEEAF6
+PV1-18	29	27	60	Select Specialty			FFDEEAF6
+PV1-18	30	27			 Occupational Therapy	 Occupational Therapy	FFDEEAF6
+PV1-18	31	27			 Outpatient	 Outpatient	FFDEEAF6
+PV1-18	32	27			 KNI/SWMIC	 KNI/SWMIC	FFDEEAF6
+PV1-18	33	27			 PROMED Facility	 PROMED Facility	FFDEEAF6
+PV1-18	34	27			 Laboratory	 Laboratory	FFDEEAF6
+PV1-18	35	27			 Pysch Services	 Pysch Services	FFDEEAF6
+PV1-18	36	27			 Heart Cath	 Heart Cath	FFDEEAF6
+PV1-18	37	27			 Inf. Disease	 Inf. Disease	FFDEEAF6
+PV1-18	38	27			 Inpatient	 Inpatient	FFDEEAF6
+PV1-18	39	27			 Radiology	 Radiology	FFDEEAF6
+PV1-18	40	27			 Emergency	 Emergency	FFDEEAF6
+PV1-18	41	27			 Cardiac Rehab	 Cardiac Rehab	FFDEEAF6
+PV1-18	42	27			 Specimens Only	 Specimens Only	FFDEEAF6
+PV1-18	43	27			 Physical Therapy	 Physical Therapy	FFDEEAF6
+PV1-18	44	27			 Borgess Acute Care Outpt	 Borgess Acute Care Outpt	FFDEEAF6
+PV1-18	45	27			 Ambulatory Surgery	 Ambulatory Surgery	FFDEEAF6
+PV1-18	46	27			 Speech Therapy	 Speech Therapy	FFDEEAF6
+PV1-18	47	27			 Preadmit	 Preadmit	FFDEEAF6
+PV1-18	48	27			 Cardiovascular	 Cardiovascular	FFDEEAF6
+PV1-18	49	27			 GI Lab	 GI Lab	FFDEEAF6
+PV1-18	50	27			 Oncology	 Oncology	FFDEEAF6
+PV1-18	51	27			 OB Clinic	 OB Clinic	FFDEEAF6
+PV1-18	52	27			 WMCC Radiation Onco	 WMCC Radiation Onco	00000000
+PV1-18	53	27			 Kidney	 Kidney	00000000
+PV1-18	54	27			Arthritis Clinic	Arthritis Clinic	00000000
+PV1-18	55	27			Recurring	Recurring	00000000
+PV1-18	56	27			Peds	Peds	00000000
+PV1-18	57	27			Birthing Center	Birthing Center	00000000
+PV1-18	58	27			Borgess Home Care	Borgess Home Care	00000000
+PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	FFDEEAF6
+PV1-10	3	31			121	Pediatrics	FFAEABAB
+PV1-10	4	31	104	Cardiology - General	Cardiac, Heart Cath, Heart Cntr Ex Cardiac	Cardiac, Heart Cath, Heart Cntr Ex Cardiac	FFDEEAF6
+PV1-10	5	31	105	Emergency Medicine			FFDEEAF6
+PV1-10	6	31	107	Geriatrics			FFDEEAF6
+PV1-10	7	31	108	Gastroenterology	GI Lab	GI Lab	FFDEEAF6
+PV1-10	8	31	109	Gynecology	Gynecology, Mammography - BHP, Outpatient Mammogram	Gynecology, Mammography - BHP, Outpatient Mammogram	FFDEEAF6
+PV1-10	9	31	110	Hospice Medicine	Hospice - BMC	Hospice - BMC	FFDEEAF6
+PV1-10	10	31	111	Medical Intensive Care			FFDEEAF6
+PV1-10	11	31	112	Internal Medicine			FFDEEAF6
+PV1-10	12	31	114	Neuro ICU			FFDEEAF6
+PV1-10	13	31	115	Neurology	Neurology	Neurology	FFDEEAF6
+PV1-10	14	31	116	Neonatology			FFDEEAF6
+PV1-10	15	31	117	Obstetrics	Obstetrics	Obstetrics	FFDEEAF6
+PV1-10	16	31	118	Oncology	Oncology	Oncology	FFDEEAF6
+PV1-10	17	31	119	Orthopedics	Orthopedics	Orthopedics	FFDEEAF6
+PV1-10	18	31	121	Pediatrics			FFDEEAF6
+PV1-10	19	31	123	Physical Medicine and Rehabilitation	BHFC Occ Therapy, Cardiac Rehab, Neuro Rehab, Occupational Therapy, Physical Therapy, Physical Thpy @ BHFC, Pipp Occupational Therapy, Pipp Physical Therapy	BHFC Occ Therapy, Cardiac Rehab, Neuro Rehab, Occupational Therapy,  Physical Therapy, Physical Thpy @ BHFC, Pipp Occupational Therapy, Pipp Physical Therapy	FFDEEAF6
+PV1-10	20	31	124	General Surgery	Surgery, Woodbridge Surgery	Surgery, Woodbridge Surgery	FFDEEAF6
+PV1-10	21	31	125	Surgical Intensive Care			FFDEEAF6
+PV1-10	22	31	126	Nephrology Transplant			FFDEEAF6
+PV1-10	23	31	127	Acute Care Surgery			FFDEEAF6
+PV1-10	24	31	128	Allergy & Immunology			FFDEEAF6
+PV1-10	25	31	129	Anesthesiology			FFDEEAF6
+PV1-10	26	31	131	Dermatology			FFDEEAF6
+PV1-10	27	31	132	Family Medicine			FFDEEAF6
+PV1-10	28	31	133	Endocrinology			FFDEEAF6
+PV1-10	29	31	134	Genetics			FFDEEAF6
+PV1-10	30	31	135	Hematology			FFDEEAF6
+PV1-10	31	31	136	Infectious Disease			FFDEEAF6
+PV1-10	32	31	137	Nephrology			FFDEEAF6
+PV1-10	33	31	138	Neurosurgery			FFDEEAF6
+PV1-10	34	31	139	Ophthalmology			FFDEEAF6
+PV1-10	35	31	140	Otolaryngology/ENT			FFDEEAF6
+PV1-10	36	31	141	Plastic Surgery			FFDEEAF6
+PV1-10	37	31	143	Radiation Oncology			FFDEEAF6
+PV1-10	38	31	144	Rheumatology			FFDEEAF6
+PV1-10	39	31	145	Urology			FFDEEAF6
+PV1-10	40	31	148	Pharmacy			FFDEEAF6
+PV1-10	41	31	149	Interventional Radiology			FFDEEAF6
+PV1-10	42	31	150	Clinical Decision Unit			FFDEEAF6
+PV1-10	43	31	151	Wound/Ostomy Care			FFDEEAF6
+PV1-10	44	31	153	Newborn	Newborn	Newborn	FFDEEAF6
+PV1-10	45	31	154	Labor and Delivery			FFDEEAF6
+PV1-10	46	31	156	Hospitalist Medicine			FFDEEAF6
+PV1-10	47	31	158	Select Specialty			FFDEEAF6
+PV1-10	48	31	161	Audiology			FFDEEAF6
+PV1-10	49	31	162	Behavioral Health - Psychology			FFDEEAF6
+PV1-10	50	31	163	Cardiology - Structural Heart Disease			FFDEEAF6
+PV1-10	51	31	165	Colon/Rectal Surgery			FFDEEAF6
+PV1-10	52	31	166	Gynecology/Obstetrics			FFDEEAF6
+PV1-10	53	31	172	Oral Surgery			FFDEEAF6
+PV1-10	54	31	175	Palliative Medicine 			FFDEEAF6
+PV1-10	55	31	178	Podiatry			FFDEEAF6
+PV1-10	56	31	180	Radiology	Cat Scan, Diagnostic Radiology - BHP, Magnetic Resonance Imaging (MRI), MRI - BHP, PET CT Scan, Pipp Xray-Radiology, Radiology, Ultrasound / PVL - BHP, Westside CT, Westside Lab and Xray, Westside MRI, Woodbridge MRI	Cat Scan, Diagnostic Radiology - BHP, Magnetic Resonance Imaging (MRI), MRI - BHP, PET CT Scan, Pipp Xray-Radiology, Radiology, Ultrasound / PVL - BHP, Westside CT, Westside Lab and Xray, Westside MRI, Woodbridge MRI	FFDEEAF6
+PV1-10	57	31	181	Sleep Center	Sleep Lab	Sleep Lab	FFDEEAF6
+PV1-10	58	31	184	Cardiac Surgery			FFDEEAF6
+PV1-10	59	31	185	Transplant			FFDEEAF6
+PV1-10	60	31	198	Bone Marrow Transplant			FFDEEAF6
+PV1-10	61	31	208	Chemotherapy			FFDEEAF6
+PV1-10	62	31	273	Pathology			FFDEEAF6
+PV1-10	63	31	293	Pulmonary			FFDEEAF6
+PV1-10	64	31	322	Thoracic Surgery			FFDEEAF6
+PV1-10	65	31	374	Transfusion Medicine			FFDEEAF6
+PV1-10	66	31	376	Family Practice			FFDEEAF6
+PV1-10	67	31	380	Orthopedic - Hand Surgery			FFDEEAF6
+PV1-10	68	31	381	Orthopedic - Spine			FFDEEAF6
+PV1-10	69	31	384	Hepatology			FFDEEAF6
+PV1-10	70	31	385	Pain Management			FFDEEAF6
+PV1-10	71	31	387	Urogynecology			FFDEEAF6
+PV1-10	72	31	399	Bone & Mineral			FFDEEAF6
+PV1-10	73	31	409	Cardiology - Electrophysiology			FFDEEAF6
+PV1-10	74	31	463	Bariatric Surgery			FFDEEAF6
+PV1-10	75	31	464	Intensive Care			FFDEEAF6
+PV1-10	76	31	465	Pulmonary Hypertension			FFDEEAF6
+PV1-10	77	31	466	Pulmonary Transplant			FFDEEAF6
+PV1-10	78	31	467	Pulmonary Interventional			FFDEEAF6
+PV1-10	79	31	469	Transplant HPB Surgery			FFDEEAF6
+PV1-10	80	31	470	Cardiothoracic Transplant			FFDEEAF6
+PV1-10	81	31	471	Vascular Surgery			FFDEEAF6
+PV1-10	82	31	472	Speech Pathology	BHFC Speech Therapy, Speech Therapy, BC Speech Therapy	BHFC Speech Therapy, Speech Therapy, BC Speech Therapy	FFDEEAF6
+PV1-10	83	31	473	Cardiology - Advanced Heart Failure/Transplant			FFDEEAF6
+PV1-10	84	31	474	Cardiology - Vascular Medicine			FFDEEAF6
+PV1-10	85	31	475	Physiatry			FFDEEAF6
+PV1-10	86	31	476	Orthopedic - Surgery			FFDEEAF6
+PV1-10	87	31	477	Cardiovascular SICU			FFDEEAF6
+PV1-10	88	31	478	Behavioral Health - Neuropsychology			FFDEEAF6
+PV1-10	89	31	479	Behavioral Health - Psychiatry	Adolescent Psy Partl, Psychiatry 	Adolescent Psy Partl, Psychiatry 	FFDEEAF6
+PV1-10	90	31	480	Surgical Endoscopy			FFDEEAF6
+PV1-10	91	31	481	Ethics			FFDEEAF6
+PV1-10	92	31	482	Trauma Surgery			FFDEEAF6
+PV1-10	93	31			 BMC at Firekeepers	 BMC at Firekeepers	FFDEEAF6
+PV1-10	94	31			 Borgess Anticoag and Device Clinic, Borgess Anticoag and Device Clin	 Borgess Anticoag and Device Clinic, Borgess Anticoag and Device Clin	FFDEEAF6
+PV1-10	95	31			 Borgess Occupational Health	 Borgess Occupational Health	FFDDEBF7
+PV1-10	96	31			 Borgess Spine	 Borgess Spine	FFDDEBF7
+PV1-10	97	31			 Borgess Spine PT	 Borgess Spine PT	FFDDEBF7
+PV1-10	98	31			 CT - BHP	 CT - BHP	FFDDEBF7
+PV1-10	99	31			 Currier Drive	 Currier Drive	00000000
+PV1-10	100	31			 Diabetes Education	 Diabetes Education	00000000
+PV1-10	101	31			 Echo	 Echo	00000000
+PV1-10	102	31			 EECP	 EECP	00000000
+PV1-10	103	31			 Emergency	 Emergency	00000000
+PV1-10	104	31			 IV Therapy	 IV Therapy	00000000
+PV1-10	105	31			 Lab	 Lab	00000000
+PV1-10	106	31			 Lab - BHP	 Lab - BHP	00000000
+PV1-10	107	31			 LCB	 LCB	00000000
+PV1-10	108	31			 Medicine	 Medicine	00000000
+PV1-10	109	31			 Neuro.Interv.Lab	 Neuro.Interv.Lab	00000000
+PV1-10	110	31			 Neurophysiology	 Neurophysiology	00000000
+PV1-10	111	31			 Nuclear Medicine - BHP	 Nuclear Medicine - BHP	00000000
+PV1-10	112	31			 Nursing Home Lab	 Nursing Home Lab	00000000
+PV1-10	113	31			 Observation Patient	 Observation Patient	00000000
+PV1-10	114	31			 OP Medical Procedure	 OP Medical Procedure	00000000
+PV1-10	115	31			 Osteoporosis - BHP	 Osteoporosis - BHP	00000000
+PV1-10	116	31			 Osteoporosis/Sth Pro	 Osteoporosis/Sth Pro	00000000
+PV1-10	117	31			 OT - BHP	 OT - BHP	00000000
+PV1-10	118	31			 Outpatient	 Outpatient	00000000
+PV1-10	119	31			 Pipp Emergency Room	 Pipp Emergency Room	00000000
+PV1-10	120	31			 Pipp IV/Sub Q	 Pipp IV/Sub Q	00000000
+PV1-10	121	31			 Pipp Lab	 Pipp Lab	00000000
+PV1-10	122	31			 Pipp Medical	 Pipp Medical	00000000
+PV1-10	123	31			 Pipp Nursing Home Lab	 Pipp Nursing Home Lab	00000000
+PV1-10	124	31			 Pipp Outpatient	 Pipp Outpatient	00000000
+PV1-10	125	31			 Plainwell Ambulance	 Plainwell Ambulance	00000000
+PV1-10	126	31			 Pre-Surgical Testing	 Pre-Surgical Testing	00000000
+PV1-10	127	31			 PROMED Facility	 PROMED Facility	00000000
+PV1-10	128	31			 PT - BHP	 PT - BHP	00000000
+PV1-10	129	31			 Research Study Prtcl	 Research Study Prtcl	00000000
+PV1-10	130	31			 Routine Outpatient	 Routine Outpatient	00000000
+PV1-10	131	31			 Therapy	 Therapy	00000000
+PV1-10	132	31			 Trauma	 Trauma	00000000
+PV1-10	133	31			 W/B Diagnostic Tests	 W/B Diagnostic Tests	00000000
+PV1-10	134	31			 W/B Immediate Care	 W/B Immediate Care	00000000
+PV1-10	135	31			 W/B Post O/P Surgery	 W/B Post O/P Surgery	00000000
+PV1-10	136	31			 WB OPS Private Pay	 WB OPS Private Pay	00000000
+PV1-10	137	31			 Woodbridge Occupational Medicine	 Woodbridge Occupational Medicine	00000000
+PV1-10	138	31			 WOT	 WOT	00000000
+PV1-10	139	31			Pipp Occuational Therapy	Pipp Occuational Therapy	00000000
+PV1-10	140	31			Three Rivers Family Practice	Three Rivers Family Practice	00000000
+PV1-10	141	31			Lee Swing Bed	Lee Swing Bed	00000000
+PV1-10	142	31			Electroconvulsive Th	Electroconvulsive Th	00000000
+PV1-10	143	31			Richland Family Practice	Richland Family Practice	00000000
+PV1-10	144	31			Gift of Life	Gift of Life	00000000
+PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	FFDEEAF6
+PV1-36	3	35			01	Discharged to home or self care (routine discharge)	FFAEABAB
+PV1-36	4	35	01	Discharged to home or self care (routine discharge)	Discharged to home or self care (routine discharge), DSC to Home, Home, Home/ Self Care, Home/Self-Care/Foster	Discharged to home, DSC to Home, Home	FFDEEAF6
+PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	Another Hospital	Another Hospital	FFDEEAF6
+PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.	DSC to a Skilled Nursing Facility		FFDEEAF6
+PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)	DSC to Intermediate Care Facility	DSC to Intermediate Care Facility	FFDEEAF6
+PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list	Another Type of Institution, Discharged to other inst - outpatient, Discharged to same inst - outpatient, Transfer to Other Institution	Another Type of Institution, Discharged to other inst - outpatient, Discharged to same inst - outpatient, Transfer to Other Institution	FFDEEAF6
+PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization			FFDEEAF6
+PV1-36	10	35	07	Left against medical advice or discontinued care	Against Medical Advice, Against medical advice with follow-up, AMA, Left Against Medical Advice	Against Medical Advice, Against medical advice with follow-up, AMA, Left Against Medical Advice	FFDEEAF6
+PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider			FFDEEAF6
+PV1-36	12	35	09	Admitted as an inpatient to this hospital			FFDEEAF6
+PV1-36	13	35	10-19	Reserved for national assignment (Discontinued effective 10/16/03)			FFDEEAF6
+PV1-36	14	35	20	Expired	Deceased, Expired, Expired Within 1 day of Birth	Deceased, Expired, Expired Within 1 day of Birth	FFDEEAF6
+PV1-36	15	35	2l-29	Reserved for national assignment (Discontinued effective 10/16/03)			FFDEEAF6
+PV1-36	16	35	30	Still Patient			FFDEEAF6
+PV1-36	17	35	31-39	Reserved for national assignment (Discontinued effective 10/16/03)			FFDEEAF6
+PV1-36	18	35	40	Expired at home	Expired at home	Expired at home	FFDEEAF6
+PV1-36	19	35	41	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)	Expired At Home Hospice, Expired at other facility	Expired At Home Hospice, Expired at other facility	FFDEEAF6
+PV1-36	20	35	42	Expired - place unknown	Expired unknown place	Expired unknown place	FFDEEAF6
+PV1-36	21	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)	DSC to a Federal Hospital	DSC to a Federal Hospital	FFDEEAF6
+PV1-36	22	35	44-49	Reserved for national assignment			FFDEEAF6
+PV1-36	23	35	50	Hospice - home	Discharged to Hospice Home Health, Discharged to Hospice-Home	Discharged to Hospice Home Health, Discharged to Hospice-Home	FFDEEAF6
+PV1-36	24	35	51	Hospice - medical facility	Discharged to Hospice-Medical Facility, Discharged to Lourdes Hospice, Hospice Care, Hospice Facility	Discharged to Hospice-Medical Facility, Discharged to Lourdes Hospice	FFDEEAF6
+PV1-36	25	35	52-60	Reserved for national assignment			FFDEEAF6
+PV1-36	26	35	61	Discharged/transferred to hospital-based Medicare approved swing bed	Swing Bed	Swing Bed	FFDEEAF6
+PV1-36	27	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)			FFDEEAF6
+PV1-36	28	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)			FFDEEAF6
+PV1-36	29	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)			FFDEEAF6
+PV1-36	30	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	Discharge to Psychiatric Facility	Discharge to Psychiatric Facility	FFDEEAF6
+PV1-36	31	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)			FFDEEAF6
+PV1-36	32	35	67-70	Reserved for national assignment			FFDEEAF6
+PV1-36	33	35	71	Reserved for national assignment (Discontinued effective 4/1/03)			FFDEEAF6
+PV1-36	34	35	72	Reserved for national assignment (Discontinued effective 4/1/03)			FFDEEAF6
+PV1-36	35	35	73-99	Reserved for national assignment			FFDEEAF6
+PV1-36	36	35			Acute Care	Acute Care	FFDDEBF7
+PV1-36	37	35			Admitted as 23 hr. observation	Admitted as 23 hr. observation	FFDEEAF6
+PV1-36	38	35			09	Admitted as an inpatient to this hospital	FFDEEAF6
+PV1-36	39	35			Admitted as inpatient	Admitted as inpatient	FFDEEAF6
+PV1-36	40	35			Admitted as observation	Admitted as observation	FFDEEAF6
+PV1-36	41	35			Care of family/friend(s)	Care of family/friend(s)	FFDEEAF6
+PV1-36	42	35			Care of paid caregiver	Care of paid caregiver	FFDEEAF6
+PV1-36	43	35			Chemical Dependent Treatment Facility, Chemical Dependent Treatment Fac	Chemical Dependent Treatment Facility, Chemical Dependent Treatment Fac	FFDEEAF6
+PV1-36	44	35			Discharge	Discharge	FFDEEAF6
+PV1-36	45	35			Discharge for other reason with followup	Discharge for other reason with followup	FFDEEAF6
+PV1-36	46	35			Discharge to other facility per legal	Discharge to other facility per legal	FFDEEAF6
+PV1-36	47	35			Discharged for other reasons	Discharged for other reasons	FFDEEAF6
+PV1-36	48	35			Discharges or Transfers to Court/Law Enf	Discharges or Transfers to Court/Law Enf	FFDEEAF6
+PV1-36	49	35			DOA	DOA	FFDEEAF6
+PV1-36	50	35			DSC to Acute Care PPS Facility	DSC to Acute Care PPS Facility	FFDEEAF6
+PV1-36	51	35			Elopement	Elopement	FFDEEAF6
+PV1-36	52	35			Foster Home Care	Foster Home Care	FFDEEAF6
+PV1-36	53	35			Home Care IV Therapy	Home Care IV Therapy	FFDEEAF6
+PV1-36	54	35			Home Health Not Hospice with IV	Home Health Not Hospice with IV	FFDEEAF6
+PV1-36	55	35			Home Health Service	Home Health Service	FFDEEAF6
+PV1-36	56	35			Home Service (Not Hospice)	Home Service (Not Hospice)	FFDEEAF6
+PV1-36	57	35			Home with Home Health Care	Home with Home Health Care	FFDEEAF6
+PV1-36	58	35			HomeHlth After 3 Day	HomeHlth After 3 Day	FFDEEAF6
+PV1-36	59	35			Homehlth Not Related	Homehlth Not Related	FFDEEAF6
+PV1-36	60	35			ICF/ Mental Retardation	ICF/ Mental Retardation	FFDEEAF6
+PV1-36	61	35			Inpatient	Inpatient	FFDEEAF6
+PV1-36	62	35			Insurance carrier change	Insurance carrier change	FFDEEAF6
+PV1-36	63	35			Intermed. Care	Intermed. Care	FFDEEAF6
+PV1-36	64	35			Intermediate Care	Intermediate Care	FFDEEAF6
+PV1-36	65	35			Internal transfer per legal guidelines	Internal transfer per legal guidelines	FFDEEAF6
+PV1-36	66	35			Long Term Care	Long Term Care	FFDEEAF6
+PV1-36	67	35			LWBS	LWBS	FFDEEAF6
+PV1-36	68	35			Medicaid Ctfd Facility	Medicaid Ctfd Facility	FFDEEAF6
+PV1-36	69	35			Neonate Aftercare Wt. Gain NY Only	Neonate Aftercare Wt. Gain NY Only	FFDEEAF6
+PV1-36	70	35			Nursing Home	Nursing Home	FFDEEAF6
+PV1-36	71	35			Organ Donor	Organ Donor	FFDEEAF6
+PV1-36	72	35			Other Facility	Other Facility	FFDEEAF6
+PV1-36	73	35			Other Home Care	Other Home Care	FFDEEAF6
+PV1-36	74	35			Psychiatric Chronic Care	Psychiatric Chronic Care	FFDEEAF6
+PV1-36	75	35			Regular Discharge with follow-up	Regular Discharge with follow-up	FFDEEAF6
+PV1-36	76	35			Rehab Care	Rehab Care	FFDEEAF6
+PV1-36	77	35			Residential Hospice	Residential Hospice	FFDEEAF6
+PV1-36	78	35			Return transfer	Return transfer	FFDEEAF6
+PV1-36	79	35			Same Acute (Amb. Surg to Inpatient)	Same Acute (Amb. Surg to Inpatient)	FFDEEAF6
+PV1-36	80	35			Self Care	Self Care	FFDEEAF6
+PV1-36	81	35			Skilled Nursing Care	Skilled Nursing Care	FFDEEAF6
+PV1-36	82	35			SNF	SNF	FFDEEAF6
+PV1-36	83	35			Still a patient	Still a patient	FFDEEAF6
+PV1-36	84	35			Still Patient	Still Patient	FFDEEAF6
+PV1-36	85	35			To a Medicare Cert. LTC Hospital	To a Medicare Cert. LTC Hospital	FFDEEAF6
+PV1-36	86	35			To a Nursing Fac Cert by Medicaid	To a Nursing Fac Cert by Medicaid	FFDEEAF6
+PV1-36	87	35			To an Inpatient Rehab Facility	To an Inpatient Rehab Facility	FFDEEAF6
+PV1-36	88	35			Trans to Acute Care Trauma	Trans to Acute Care Trauma	FFDEEAF6
+PV1-36	89	35			Trans to Acute Care w/in 4 Dy Brth	Trans to Acute Care w/in 4 Dy Brth	FFDEEAF6
+PV1-36	90	35			Discharged to same inst-ED	Discharged to same inst-ED	FFDEEAF6
+PV1-36	91	35			EMS transport to same inst-ED	EMS transport to same inst-ED	FFDEEAF6
+IN1-17	2	39	MiHIN Value	Description	Hospital Value		FFDEEAF6
+IN1-17	3	39	FTH	Father 	F		FFAEABAB
+IN1-17	4	39	ASC	Associate			FFDEEAF6
+IN1-17	5	39	BRO	Brother 	Brother		FFDEEAF6
+IN1-17	6	39	CGV	Care giver 	Care giver		FFDEEAF6
+IN1-17	7	39	CHD	Child			FFDEEAF6
+IN1-17	8	39	DEP	Handicapped dependant			FFDEEAF6
+IN1-17	9	39	DOM	Life partner			FFDEEAF6
+IN1-17	10	39	EMC	Emergency contact			FFDEEAF6
+IN1-17	11	39	EME	Employee			FFDEEAF6
+IN1-17	12	39	EMR	Employer	Employer		FFDEEAF6
+IN1-17	13	39	EXF	Extended family			FFDEEAF6
+IN1-17	14	39	FCH	Foster child 	Foster child		FFDEEAF6
+IN1-17	15	39	FND	Friend			FFDEEAF6
+IN1-17	16	39	FTH	Father 	Father		FFDEEAF6
+IN1-17	17	39	GCH	Grandchild	Granddaughter		FFDEEAF6
+IN1-17	18	39	GRD	Guardian 	Guardian		FFDEEAF6
+IN1-17	19	39	GRP	Grandparent 	Grandparent, Grandfather, Grandmother		FFDEEAF6
+IN1-17	20	39	MGR	Manager			FFDEEAF6
+IN1-17	21	39	MTH	Mother 	Mother		FFDEEAF6
+IN1-17	22	39	NCH	Natural child			FFDEEAF6
+IN1-17	23	39	NON	None			FFDEEAF6
+IN1-17	24	39	OAD	Other adult	Female Subscriber, Male Subscriber		FFDEEAF6
+IN1-17	25	39	OTH	Other 	Other		FFDEEAF6
+IN1-17	26	39	OWN	Owner			FFDEEAF6
+IN1-17	27	39	PAR	Parent 	Parent, Foster Parent		FFDEEAF6
+IN1-17	28	39	SCH	Stepchild 	Stepchild		FFDEEAF6
+IN1-17	29	39	SEL	Self	SELF		FFDEEAF6
+IN1-17	30	39	SIB	Sibling 	Sibling		FFDEEAF6
+IN1-17	31	39	SIS	Sister 	Sister		FFDEEAF6
+IN1-17	32	39	SPO	Spouse	Spouse, Husband, Wife, Male Spouse		FFDEEAF6
+IN1-17	33	39	TRA	Trainer			FFDEEAF6
+IN1-17	34	39	UNK	Unknown	Unknown		FFDEEAF6
+IN1-17	35	39	WRD	Ward of court			FFDEEAF6
+IN1-17	36	39	AUN	Aunt 	Aunt		FFDEEAF6
+IN1-17	37	39	DAU	Daughter	Daughter		FFDEEAF6
+IN1-17	38	39	EXS	Ex Spouse 			FFDEEAF6
+IN1-17	39	39	EXH	Ex-husband			FFDEEAF6
+IN1-17	40	39	EXW	Ex-wife 			FFDEEAF6
+IN1-17	41	39	INL	In Law 			FFDEEAF6
+IN1-17	42	39	LEG	Legal Guardian 			FFDEEAF6
+IN1-17	43	39	SON	Son (S)	Son		FFDEEAF6
+IN1-17	44	39	STP	Step Parent (STP)	Stepfather, Stepmother		FFDEEAF6
+IN1-17	45	39	STS	Step Sibling			FFDEEAF6
+IN1-17	46	39	UN	Uncle (UN)	Uncle		FFDEEAF6
+IN1	2	42	IN1-3 Value	IN1-4 Value	Payer		FFDEEAF6
+IN1	3	42	1001	BCN	BCBSM		FFAEABAB
+IN1	4	42	599894	AARP UNITED HEALTHCARE			00000000
+IN1	5	42	599910	ALLEGAN COUNTY CMH			00000000
+IN1	6	42	599912	ALLIANCE HEALTH BEECHST			00000000
+IN1	7	42	599916	ALLSTATE AUTO CLAIMS OFFI			00000000
+IN1	8	42	599922	AMERICAN COMMUNITY			00000000
+IN1	9	42	599936	APWU HEALTH PLAN PHCS			00000000
+IN1	10	42	599942	ASR CORP			00000000
+IN1	11	42	599952	AUTO OWNERS AUTO CLAIMS			00000000
+IN1	12	42	599954	AUTOMATED BENEFIT SERVICE			00000000
+IN1	13	42	599976	BEECHSTREET CORP			00000000
+IN1	14	42	599982	BEECHSTREET MISC			00000000
+IN1	15	42	599986	BENEFIT ADMIN SYSTEMS			00000000
+IN1	16	42	600018	BENTELER SCREENING EXAMS			00000000
+IN1	17	42	600044	BORGESS EMP OFF NEW HIRES			00000000
+IN1	18	42	600046	BORGESS EMPLOYEE HEALTH			00000000
+IN1	19	42	600050	BORGESS NURSING HOME LAB			00000000
+IN1	20	42	600054	Borgess Research Institute			00000000
+IN1	21	42	600066	CALHOUN COUNTY CMH			00000000
+IN1	22	42	600074	CARDIO VASCULAR RESEARCH			00000000
+IN1	23	42	600080	CASS COUNTY CMH			00000000
+IN1	24	42	600120	CHAMPVA			00000000
+IN1	25	42	600206	CIGNA GM MENTAL BX 5132			00000000
+IN1	26	42	600212	CITIZENS AUTO CLAIMS			00000000
+IN1	27	42	600216	CLINTON EATON INGHAM CMH			00000000
+IN1	28	42	600230	COMMERCIAL SECONDARY			00000000
+IN1	29	42	600264	CORESOURCE PHCS BX 6118			00000000
+IN1	30	42	600266	CORESOURCE PHCS BX 879			00000000
+IN1	31	42	600294	CYPRESS BENEFIT ADM BEECH			00000000
+IN1	32	42	600342	EXEC PHYSICAL NON BORGESS			00000000
+IN1	33	42	600346	FARM BUREAU CENTRAL AUTO			00000000
+IN1	34	42	600348	FARMERS AUTO INSURANCE			00000000
+IN1	35	42	600358	FIRST HEALTH BOX 10398			00000000
+IN1	36	42	600360	FIRST HEALTH BOX 11745			00000000
+IN1	37	42	600372	FIRST HEALTH BOX 8092			00000000
+IN1	38	42	600380	FIRST HEALTH MISC			00000000
+IN1	39	42	600404	GEHA PHCS			00000000
+IN1	40	42	600408	GIFT OF LIFE			00000000
+IN1	41	42	600410	GOLDEN RULE INSURANCE			00000000
+IN1	42	42	600412	GOODYEAR TIRE AND RUBBER			00000000
+IN1	43	42	600414	GRAND VALLEY HEALTH PLAN			00000000
+IN1	44	42	600416	GREAT LAKES EMP ASSOC			00000000
+IN1	45	42	600418	GREAT LAKES HLTH MEDICAID	MEDICAID		00000000
+IN1	46	42	600426	GREAT WEST PHCS			00000000
+IN1	47	42	600470	HEALTH ALLIANCE PLAN			00000000
+IN1	48	42	600476	HEALTH NETWORK			00000000
+IN1	49	42	600484	HEALTHPLUS OF MICHIGAN	HEALTHPLUS		00000000
+IN1	50	42	600486	HEALTHSCOPE BX 2061			00000000
+IN1	51	42	600492	HEALTHSCOPE BX 8070			00000000
+IN1	52	42	600496	HEALTHSCOPE BX 8076			00000000
+IN1	53	42	600500	HEALTHSCOPE MISC			00000000
+IN1	54	42	600504	HILLSDALE AND JACKSON CMH			00000000
+IN1	55	42	600514	HOSPICE OF GREATER KALAMA			00000000
+IN1	56	42	600516	HUMANA			00000000
+IN1	57	42	600528	INDEPENDENT ADMIN CO			00000000
+IN1	58	42	600540	IONIA COUNTY CMH			00000000
+IN1	59	42	600566	KALAMAZOO COUNTY CMH			00000000
+IN1	60	42	600620	MAGELLAN BEHAV BX 2278			00000000
+IN1	61	42	600630	MEDICAID MISC COMM HMO	MEDICAID		00000000
+IN1	62	42	600642	MEDICARE MISC COMM HMO	MEDICARE		00000000
+IN1	63	42	600680	MICHIGAN TRANSPLANT INST			00000000
+IN1	64	42	600692	MIDWEST HEALTH SYSTEMS			00000000
+IN1	65	42	600704	MULTIPLAN BOX 6090			00000000
+IN1	66	42	600706	MULTIPLAN MISC			00000000
+IN1	67	42	600720	NALC			00000000
+IN1	68	42	600722	NALC FIRST HEALTH			00000000
+IN1	69	42	600754	NORTH AMERICAN INSURANCE			00000000
+IN1	70	42	600770	OMNICARE PLUS			00000000
+IN1	71	42	600800	PHCS MISC			00000000
+IN1	72	42	600808	PHYSICIANS HEALTH PLN IBA			00000000
+IN1	73	42	600816	PHYSICIANS MUTUAL			00000000
+IN1	74	42	600820	POKAGON POTAWATOMI I H S			00000000
+IN1	75	42	600850	PRIORITY HEALTH	PRIORITY		00000000
+IN1	76	42	600852	PRIORITY HEALTH HMO	PRIORITY		00000000
+IN1	77	42	600854	PRIORITY HEALTH MEDICAID	MEDICAID		00000000
+IN1	78	42	600884	RAILROAD MEDICARE B	MEDICARE		00000000
+IN1	79	42	600902	RURAL CARRIER BEN PHCS			00000000
+IN1	80	42	600904	RURAL CARRIER BENEFIT PLA			00000000
+IN1	81	42	600908	SAGINAW COUNTY CMH			00000000
+IN1	82	42	600936	SISCO SELF INSURED SERV			00000000
+IN1	83	42	600942	ST JOSEPH COUNTY CMH			00000000
+IN1	84	42	600948	STARMARK PHCS BX 2942			00000000
+IN1	85	42	600990	UNICARE BEECHSTREET			00000000
+IN1	86	42	601010	UNITED AMERICAN INSURANCE			00000000
+IN1	87	42	601012	UNITED BEHAVIORAL HEALTH			00000000
+IN1	88	42	601034	UNITED HLTH PPO 30555			00000000
+IN1	89	42	601096	VANBUREN COUNTY CMH			00000000
+IN1	90	42	601128	WESTSIDE FAMILY MED OSTEO			00000000
+IN1	91	42	654525	MEDICARE PART B      C123	MEDICARE		00000000
+IN1	92	42	654528	MEDICARE DISABILITY  C123	MEDICARE		00000000
+IN1	93	42	654531	MEDICAID	MEDICAID		00000000
+IN1	94	42	654539	BLUE CARE NETWORK			00000000
+IN1	95	42	654542	BCBS PPO TRUST	BCBSM		00000000
+IN1	96	42	654546	MEDICARE PART A      C210	MEDICARE		00000000
+IN1	97	42	654549	BCBS OF MICHIGAN	BCBSM		00000000
+IN1	98	42	654558	BLUE CROSS OF ILLINOIS			00000000
+IN1	99	42	654567	SAFECO INSURANCE			00000000
+IN1	100	42	654599	ADULT BENEFITS WAIVER			00000000
+IN1	101	42	654611	TRICARE HEALTH NET F S			00000000
+IN1	102	42	654690	FEDERAL BLUE CROSS G210			00000000
+IN1	103	42	654886	MEDICAID OUTSTATE	MEDICAID		00000000
+IN1	104	42	655276	MEDICARE NEPHROLOGY  C452	MEDICARE		00000000
+IN1	105	42	655596	CRIPPLED CHILDREN			00000000
+IN1	106	42	656364	MEDICAID MOMS	MEDICAID		00000000
+IN1	107	42	666291	PROF BENEFIT ADM PHCS			00000000
+IN1	108	42	710835	ESCREEN			00000000
+IN1	109	42	940541	GLOBALCARE BEECHSTREET			00000000
+IN1	110	42	1028525	DIRECTCARE AMERICA			00000000
+IN1	111	42	1238525	PROGRESSIVE AUTO INS			00000000
+IN1	112	42	1328525	CASS COUNTY SHERIFFS DEPT			00000000
+IN1	113	42	1362525	HEALTHSMART BEECHSTREET			00000000
+IN1	114	42	1440527	PIONEER STATE MUTUAL AUTO			00000000
+IN1	115	42	1460525	HARTFORD AUTO MICH CLAIMS			00000000
+IN1	116	42	1542525	HASTINGS MUTUAL AUTO INS			00000000
+IN1	117	42	1604525	USA MANAGED CARE MISC			00000000
+IN1	118	42	1634525	MCLAREN HEALTH PLAN			00000000
+IN1	119	42	1652529	MEDICARE PLUS BLUE	MEDICARE		00000000
+IN1	120	42	1662553	MEDICAID SPENDOWN	MEDICAID		00000000
+IN1	121	42	1668525	FRANKMUTH MUTUAL AUTO			00000000
+IN1	122	42	1686525	SECUREHORIZONS DIRECT			00000000
+IN1	123	42	1698564	MEDICARE	MEDICARE		00000000
+IN1	124	42	1698792	BLUE CROSS BLUE SHIELD			00000000
+IN1	125	42	1698811	BLUE CROSS BLUE SHIELD			00000000
+IN1	126	42	1699148	WORKERS COMP			00000000
+IN1	127	42	1699154	UNITED HLTH PPO 740800			00000000
+IN1	128	42	1699160	PPOM			00000000
+IN1	129	42	1699172	HEALTH PLAN OF MI MCAID			00000000
+IN1	130	42	1699183	AETNA ALL CLAIMS 981107			00000000
+IN1	131	42	1699186	STATE FARM HEALTH INS			00000000
+IN1	132	42	1699189	MOLINA HLTHCARE MI MCAID			00000000
+IN1	133	42	1699196	KALAMAZOO CO HLTH PLAN B			00000000
+IN1	134	42	1699211	UNITED HLTH 740800			00000000
+IN1	135	42	1699217	UNITED AMERICAN HEALTHCAR			00000000
+IN1	136	42	1699220	BEECHSTREET CORP 853925			00000000
+IN1	137	42	1699244	MUTUAL OF OMAHA			00000000
+IN1	138	42	1699253	STANDARD LIFE AND ACCIDEN			00000000
+IN1	139	42	1699314	BREAST CER CANCER PROGRAM			00000000
+IN1	140	42	1699318	STATE FARM AUTO CLAIMS			00000000
+IN1	141	42	1699327	UNITED HEALTHCARE			00000000
+IN1	142	42	1699330	UNIFIED LIFE			00000000
+IN1	143	42	1699333	PHYSICIANS HLTH UNITED HL			00000000
+IN1	144	42	1701613	AAA MICHIGAN ALL CLAIMS			00000000
+IN1	145	42	1701641	CIGNA MISC PPO			00000000
+IN1	146	42	1701665	CIGNA PPO BOX 188002			00000000
+IN1	147	42	1701733	CONNECTICUT GENERAL - FARMINGTON			00000000
+IN1	148	42	1701757	GREAT WEST PPO			00000000
+IN1	149	42	1701765	HEARTLAND HEALTH CARE KAL			00000000
+IN1	150	42	1701773	LIBERTY MUTUAL - FARMINGTN HLS			00000000
+IN1	151	42	1701801	OMNICARE HEALTH PLAN			00000000
+IN1	152	42	1704633	BLUE CROSS BLUE SHIELD			00000000
+IN1	153	42	1704723	BLUE CROSS BLUE SHIELD			00000000
+IN1	154	42	1704871	BLUE CROSS BLUE SHIELD			00000000
+IN1	155	42	1705238	TRICARE			00000000
+IN1	156	42	1706005	GOLDEN RULE INSURANCE CO			00000000
+IN1	157	42	1727840	STATE AUTO INSURANCE CO			00000000
+IN1	158	42	1768379	SAFECO AUTO			00000000
+IN1	159	42	1874264	BCN ADVANTAGE			00000000
+IN1	160	42	1876471	CHA			00000000
+IN1	161	42	1881617	ESURANCE INSURANE			00000000
+IN1	162	42	3192249	HUMANA CHOICE PPO			00000000
+IN1	163	42	3374751	BCBS OUTSTATE PPO			00000000
+IN1	164	42	3875907	PRIORITY HEALTH	PRIORITY		00000000
+IN1	165	42	3993706	AETNA HMO			00000000
+IN1	166	42	4342105	PRIORITY HLTH BH HMO POS	PRIORITY		00000000
+IN1	167	42	4401521	MEDICAID ILLINOIS	MEDICAID		00000000
+IN1	168	42	4587015	UNITED HLTH MISC PPO			00000000
+IN1	169	42	4631546	WORKERS COMP POSTAL SRVC			00000000
+IN1	170	42	4643318	UNITED HLTH MISC NONPPO			00000000
+IN1	171	42	4790542	AETNA SRC			00000000
+IN1	172	42	4896222	HUMANA MA BEHAV CORPHLTH			00000000
+IN1	173	42	4896409	MHNET			00000000
+IN1	174	42	5033380	HUMANA BEHAVRL CORPHLTH			00000000
+IN1	175	42	5034647	UMR UHC PPO			00000000
+IN1	176	42	5035856	COVENTRY MISC			00000000
+IN1	177	42	5048669	PRIORITY HLTH MDCR ADV	PRIORITY		00000000
+IN1	178	42	5071157	TRICARE FOR LIFE			00000000
+IN1	179	42	5104408	MEDICAID SPENDDOWN	MEDICAID		00000000
+IN1	180	42	5241788	CCS MEDICAID HUB	MEDICAID		00000000
+IN1	181	42	5319634	SMARTHEALTH			00000000
+IN1	182	42	5319638	SMARTHEALTH BH EMPLOYEES			00000000
+IN1	183	42	5375718	NGS AETNA SIGNATURE ADM			00000000
+IN1	184	42	5375636	UNICARE MEDCR ADV PFFS			00000000
+IN1	185	42	5375718	NGS AETNA SIGNATURE ADM			00000000
+IN1	186	42	5393833	PARTIAL CHARITY CARE			00000000
+IN1	187	42	5522279	GOLDEN RULE UHC CHOICE PL			00000000
+IN1	188	42	5691666	AETNA			00000000
+IN1	189	42	5812739	GREAT LAKES PERSONAL CARE			00000000
+IN1	190	42	5822683	AETNA SIGNATURE MISC			00000000
+IN1	191	42	6006837	APWU CIGNA			00000000
+IN1	192	42	6052839	COVERAGE PEND AUTO			00000000
+IN1	193	42	6052930	COVERAGE PEND CRIME			00000000
+IN1	194	42	6054807	COVERAGE PEND WCC			00000000
+IN1	195	42	6058867	COVERAGE PEND LIABILITY			00000000
+IN1	196	42	6112884	COVERAGE PEND 1011			00000000
+IN1	197	42	6133049	VALUEOPTIONS			00000000
+IN1	198	42	6140804	LTACH TO BMC FOR OP			00000000
+IN1	199	42	6184832	FIREKEEPERS/BORGESS			00000000
+IN1	200	42	6845831	MI CRIME VICTIM COMM. FND			00000000
+IN1	201	42	6915828	TREE OF LOVE			00000000
+IN1	202	42	6923793	KCMS MI STATE UNIVERSITY			00000000
+IN1	203	42	6931825	KALAMAZOO COLLEGE			00000000
+IN1	204	42	7043876	EVEREST INSTITUTE			00000000
+IN1	205	42	7054046	UMR UHC PPO			00000000
+IN1	206	42	7058296	LAKESIDE ACADEMY			00000000
+IN1	207	42	7064039	FEMA			00000000
+IN1	208	42	7086204	MANN HUMMEL			00000000
+IN1	209	42	7088234	COFINITY MISC			00000000
+IN1	210	42	7098287	ONSTAFF USA-KALA.			00000000
+IN1	211	42	7106231	ASR			00000000
+IN1	212	42	7116552	MCLAREN HLTH PLN COMMERCI			00000000
+IN1	213	42	7124542	GREEN BAY PKG OCC MED			00000000
+IN1	214	42	7124583	MCLAREN HLTH PLN HMO			00000000
+IN1	215	42	7125317	VANBUREN CMH UDS SCREEN			00000000
+IN1	216	42	7128270	PFIZER  INC.			00000000
+IN1	217	42	7134340	ASSURANT HEALTH PHCS			00000000
+IN1	218	42	7142265	LIBERTY MUTUAL AUTO INSUR			00000000
+IN1	219	42	7174429	HOSPICE AT HOME/ST JOSEPH			00000000
+IN1	220	42	7191020	NEW FRIENDS			00000000
+IN1	221	42	7192667	APPLE BUS COMPANY			00000000
+IN1	222	42	7200654	UMR UHC PPO			00000000
+IN1	223	42	7206895	BORGESS GARDENS NURS HOME			00000000
+IN1	224	42	7208935	WORKERS COMP BMC EMPLOYEE			00000000
+IN1	225	42	7213052	SECUREHORIZONES MED SUPPL			00000000
+IN1	226	42	7219277	ESURANCE AUTO			00000000
+IN1	227	42	7223729	AETNA MICHIGAN PREFERRED			00000000
+IN1	228	42	7228918	BCBS MED ADV PPO OUTSTATE			00000000
+IN1	229	42	7248022	USAA AUTO CLAIMS			00000000
+IN1	230	42	7248086	CENTRACARE/SENIOR CARE			00000000
+IN1	231	42	7258033	VETERANS ADMINISTRATION			00000000
+IN1	232	42	7382175	MERIDIAN ADV PLAN HMO SNP	MERIDIAN		00000000
+IN1	233	42	7418166	RESIDENTIAL OPPOR.  INC			00000000
+IN1	234	42	7428480	ANNUAL EMPLOYEE TESTING			00000000
+IN1	235	42	7432234	MERITAIN HEALTH AETNA			00000000
+IN1	236	42	7438658	COFINITY ADVANTAGE			00000000
+IN1	237	42	7440067	REVERENCE HOME			00000000
+IN1	238	42	7496308	MEDICAID PEND/PRIOR APP	MEDICAID		00000000
+IN1	239	42	7498315	AETNA AMERICAN AXLE			00000000
+IN1	240	42	7498622	AETNA AMER CONTINENTAL			00000000
+IN1	241	42	7519381	UNITED HLTH MED ADV PFFS			00000000
+IN1	242	42	7543358	MCLAREN ADV MEDICARE	MEDICARE		00000000
+IN1	243	42	7549378	CATHOLIC CHAR DIOCESE			00000000
+IN1	244	42	7555496	MICHILD MISC			00000000
+IN1	245	42	7562079	DRUG AND LAB DISPOSAL			00000000
+IN1	246	42	7597135	COVENTRY CARES MICHILD			00000000
+IN1	247	42	7600572	FOUNDATION FUNDING			00000000
+IN1	248	42	7602906	MCLAREN MICHILD			00000000
+IN1	249	42	7604763	SNF MISCELLANEOUS			00000000
+IN1	250	42	7607045	MEDICAID HEALTHY MICHIGAN	MEDICAID		00000000
+IN1	251	42	7610556	CONSUMERS MUTUAL INS MICH			00000000
+IN1	252	42	7611072	BLUE CROSS COMPLETE			00000000
+IN1	253	42	7615121	UNITED HEALTH COMM HMP			00000000
+IN1	254	42	7615275	PRIORITY HEALTH HMI	PRIORITY		00000000
+IN1	255	42	7615491	MERIDIAN HMP	MERIDIAN		00000000
+IN1	256	42	7616172	MCLAREN HMP			00000000
+IN1	257	42	7616443	COVENTRYCARES HMP			00000000
+IN1	258	42	7617605	FEDERAL BLUE CR MENTL HTH			00000000
+IN1	259	42	7619881	SEDGWICK			00000000
+IN1	260	42	7631198	BLUE CROSS COMPLETE HMP			00000000
+IN1	261	42	7633307	HENRY FORD HEALTH SYSTEMS			00000000
+IN1	262	42	7633494	IMPERIAL BEVERAGE			00000000
+IN1	263	42	7644583	PRIORITY HEALTH APPLE	PRIORITY		00000000
+IN1	264	42	7644659	MERIDIAN MMAI	MERIDIAN		00000000
+IN1	265	42	7649533	AETNA BETTER HEALTH OF MI			00000000
+IN1	266	42	7649809	VETERANS ADMINISTRATION			00000000
+IN1	267	42	7655420	BEHAVIORAL HLTH SERVICES			00000000
+IN1	268	42	7657269	MEDICARE B-MI:  WISCONSIN PHYSICIANS SERVICES	MEDICARE		00000000
+IN1	269	42	7657311	BCBS-MI:  BLUE CARE NETWORK (HMO)	BCBSM		00000000
+IN1	270	42	7657317	BCBS-MI: BCBS OF MI - UAW RETIREE MEDICAL BENEFITS TRUST (PPO)	BCBSM		00000000
+IN1	271	42	7657320	MEDICAID-MI: MI OF COMMUNITY HEALTH	MEDICAID		00000000
+IN1	272	42	7657386	BCBS-AL: (PPO)	BCBSM		00000000
+IN1	273	42	7657446	ABS - SMARTHEALTH (PPO)			00000000
+IN1	274	42	7657552	PRIORITY HEALTH (POS)	PRIORITY		00000000
+IN1	275	42	7658223	CCMSI			00000000
+IN1	276	42	7661987	UMR UHC NON PPO			00000000
+IN1	277	42	7664667	BROADSPIRE			00000000
+IN1	278	42	7677716	VETERANS CHOICE PROGRAM			00000000
+IN1	279	42	7684376	SWMBH BEHAVIORAL HEALTH			00000000
+IN1	280	42	7688568	WEST MI CANCER CNTR RSRCH			00000000
+IN1	281	42	7704727	HUMANA HMOX			00000000
+IN1	282	42	7706957	MOLINA MCR OPTIONS PLUS	MOLINA		00000000
+IN1	283	42	7711223	CHUBB GROUP OF INSURANCE			00000000
+IN1	284	42	7715734	MOLINA MCR OPTIONS	MOLINA		00000000
+IN1	285	42	7736148	MOLINA HEALTHY MI HMP	MOLINA		00000000
+IN1	286	42	7755288	GEHA ASA			00000000
+IN1	287	42	7758577	MERIDIAN PRIME MCR ADV	MERIDIAN		00000000
+IN1	288	42	7829119	MERIDIANCHOICE - BRONSON	MERIDIAN		00000000
+IN1	289	42	7876351	RURAL CARRIER BEN AETNA			00000000
+IN1	290	42	7929037	OUTSTATE MEDICAID PENDING	MEDICAID		00000000
+IN1	291	42	7929780	UNITED HLTH CORE			00000000
+IN1	292	42	8032207	MERITAIN AETNA MI PREFRED			00000000
+IN1	293	42	8050706	BCBS-MI (PPO)	BCBSM		00000000
+IN1	294	42	9999999	SELF PAY	SELF PAY		00000000
+IN1	295	42	600672	MICHIGAN CAREER TECH INST			00000000
+IN1	296	42	8112359	MEDICAID PEND OUTSTATE	MEDICAID		00000000
+IN1	297	42	8115098	HEALTHGRAM-COFINITY			00000000
+IN1	298	42	600432	GROUP BENEFIT SERVICES			00000000
+IN1	299	42	5812743	CMH COUNTY MISC			00000000
+IN1	300	42	600354	FIRST AGENCY			00000000
+IN1	301	42	1706506	BLUE CROSS BLUE SHIELD			00000000
+IN1	302	42	7246456	WEST MICHIGAN CMH SYSTEM			00000000
+IN1	303	42	1699180	KENT COUNTY CMH			00000000
+IN1	304	42	6194822	MEDICAID DISABILITY	MEDICAID		00000000
+IN1	305	42	7132219	JBS PLAINWELL			00000000
+IN1	306	42	8124193	MEDICAID INDIANA	MEDICAID		00000000
+IN1	307	42	6995806	PARKER HANNIFIN/PNEUMATIC			00000000
+IN1	308	42	7058265	PITT OHIO			00000000
+IN1	309	42	8125307	TRICARE HUMANA MILITARY			00000000
+IN1	310	42	4752225	VALUEOPTIONS			00000000
+IN1	311	42	6222851	NHBP CONTACT HEALTH SERVI			00000000
+IN1	312	42	601130	WEYCO BEECHSTREET			00000000
+IN1	313	42	600370	FIRST HEALTH BOX 737			00000000
+IN1	314	42	8136472	MEDICAID OHIO	MEDICAID		00000000
+IN1	315	42	600570	KALAMAZOO PSYCHIATRIC HOS			00000000
+IN1	316	42	6837848	PARKER HANNIFIN BRASS DIV			00000000
+IN1	317	42	8138219	MEDICAID KENTUCKY	MEDICAID		00000000
+IN1	318	42	1674539	UNITED WORLD LIFE			00000000
+IN1	319	42	1701751	FOREMOST AUTO INS			00000000
+IN1	320	42	600312	EMPLOYEE BENEFIT MGT PHCS			00000000
+IN1	321	42	7657281	MERIDIAN HEALTH PLAN OF MICHIGAN  (MEDICAID HMO)	MERIDIAN		00000000
+IN1	322	42	600934	SISCO BEECHSTREET			00000000
+IN1	323	42	599964	BARRY COUNTY CMH			00000000
+IN1	324	42	600802	PHILADELPHIA AMERICAN LIF			00000000
+IN1	325	42	7657323	UNITED HEALTHCARE			00000000
+IN1	326	42	600488	HEALTHSCOPE BX 251369			00000000
+IN1	327	42	600660	MI CARPENTERS HEALTH WEL			00000000
+IN1	328	42	600378	FIRST HEALTH EBP PLANS			00000000
+IN1	329	42	7152402	HEARTLAND HOSPICE SERVICE			00000000
+IN1	330	42	6837798	GREEN BAY PACKAGING			00000000
+IN1	331	42	7657290	PRIORITY HEALTH (MEDICARE REPLACEMENT HMO)	PRIORITY		00000000
+IN1	332	42	7671028	AETNA BETTER HEALTH - MI - PREMIER PLAN - DUAL ELIGIBLE (MEDICARE - MEDICAID REPLACEMENT HMO)			00000000
+IN1	333	42	7869888	BCBS-OH			00000000
+IN1	334	42	6833795	CONSUMERS ENERGY			00000000
+IN1	335	42	600700	MONUMENTAL LIFE			00000000

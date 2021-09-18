@@ -1,0 +1,103 @@
+base: Oaklawn Hospital
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Oaklawn Hospital ADT 2.0 table 04-04-18.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: Q253477913T653918305X0
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210909235956'
+          field name: PID-30
+          field value: '""'
+          message count: 128
+          receiving org message ID: 27023598
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Oaklawn Hospital ADT 2.0 table 04-04-18.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            label: 'Cardiac Rehab, Stress Test, '
+          - cell: AE9
+            label: 'Hospice Medicine, Hospice Inpatient, Hospice Respite, '
+          - cell: AE15
+            label: 'Obstetrics, Prenatal Diagnostic, Prenatal Sendover, Prenatal Sendover OakDraw, '
+          - cell: AE16
+            label: 'Oncology, Cancer Center, '
+          - cell: AE17
+            label: 'Orthopedics, Sports Medicine, '
+          - cell: AE18
+            label: 'Pediatrics, Pediatric-Surgical, '
+          - cell: AE19
+            label: 'Physical Medicine and Rehabilitation, Occupational Therapy, Rehabilitation, '
+          - cell: AE20
+            label: 'General Surgery, Day Surgery, Surgical Minor, '
+          - cell: AE28
+            label: 'Endocrinology, Diabetes/Nutritionl Education, '
+          - cell: AE46
+            label: 'Med-General, Med-Preventive, Partial Hospitalization, '
+          - cell: AE63
+            label: 'Pulmonary, Pulmonary Rehab, '
+          - cell: AE70
+            label: 'Pain Management '
+          - cell: AE84
+            label: 'Cardiovascular, Vascular, '
+          - cell: AE89
+            label: 'Behavioral Health - Psychiatry, Psychiatry (adult), Psychiatry (child), '
+          - cell: AE93
+            label: 'Diagnostic, Diagnostic Multi-Day, '
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI36
+            label: 'Transfer to another healthcare facility '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: DG1-6
+          see:
+          - cell: O7
+            code: 'Other, Billing Diagnosis, Discharge, Post-Op Diagnosis, Pre-Op Diagnosis, Principal, Reason For Visit, Referring, Suggested
+              billing, Transfer, Transfer admission, '
+        - hl7 segment: PV1-14
+          see:
+          - cell: X9
+            code: '06, OB, OF, OD, '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: 'CARH, DXST, '
+          - cell: AE9
+            code: 'HSPG, HSPI, HSPR, '
+          - cell: AE13
+            code: 'NEURO, CVA, '
+          - cell: AE15
+            code: 'OB, OPOB, SDOB, SDOBO, '
+          - cell: AE16
+            code: 'ONC, CANC, '
+          - cell: AE17
+            code: 'ORTHO, SPTM, '
+          - cell: AE18
+            code: 'PM, PED, PEDS, '
+          - cell: AE19
+            code: 'PT, OT, REHAB, '
+          - cell: AE20
+            code: 'SUR, DAYS, SMO, '
+          - cell: AE28
+            code: 'ENDOC, DSMT, '
+          - cell: AE46
+            code: 'MED, MEDP, PHPR, '
+          - cell: AE63
+            code: 'PULM, PURH, '
+          - cell: AE84
+            code: 'CARDIO, VASC, '
+          - cell: AE89
+            code: 'PSYC, PSYCA, PSYCC, '
+          - cell: AE93
+            code: 'DIAG, DXMD, '

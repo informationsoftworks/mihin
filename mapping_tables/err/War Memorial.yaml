@@ -1,0 +1,36 @@
+base: War Memorial
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/War Memorial ADT 2.0 table 07-08-19.xlsx
+      list:
+      - error: Incomplete, non-specific or abbreviated facility name
+        level: Warning
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A6
+            code: 2.16.840.1.113883.3.1145
+            label: War Memorial
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI10
+            label: 'AGAINST MEDICAL ADVICE, LEFT WITHOUR BEING SEEN '
+          - cell: AI21
+            label: 'Xfer Federal Health Facility/VA '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM41
+            code: 'IBR, IDA, ISI, ISO, '
+        - hl7 segment: IN1
+          see:
+          - cell: AP196
+            code: ' TITAN INS'
+          - cell: AP198
+            code: ' PRISON HEALTH SERVICES'

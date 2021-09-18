@@ -1,0 +1,51 @@
+base: North Ottawa Community Health System
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/North Ottawa Community Health System ADT 2.0 table 10-7-19.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '89814323'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '202108301635'
+          field name: PID-30
+          field value: '""'
+          message count: 11
+          receiving org message ID: 18041648
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/North Ottawa Community Health System ADT 2.0 table 10-7-19.xlsx
+      list:
+      - error: Code specified multiple times
+        level: Error
+        list:
+        - hl7 segment: PV1-14
+          see:
+          - cell: X4
+            code: PHY
+            duplicates:
+            - cell: X4
+              label: ''
+            - cell: X5
+              label: ''
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE19
+            code: ' REHABMILPT, GENERATION, REHAB'
+          - cell: AE94
+            code: ' MULTIMILPT, MULTIUC'
+          - cell: AE95
+            code: ' NUTRIDIET'
+          - cell: AE96
+            code: ' COMM ED, COMMUNITY, DIAB ED, CHILDBIRTH, FLU/PNEUMO'
+          - cell: AE97
+            code: ' AMB'
+        - hl7 segment: IN1
+          see:
+          - cell: AP151
+            code: ' MEDICARE'

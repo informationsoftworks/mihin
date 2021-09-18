@@ -1,0 +1,23 @@
+base: SNF-Heartland HC Center-Canton
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Heartland HC Center-Canton ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '155783420'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '2021063010432200000000'
+          field name: PID-30
+          field value: '""'
+          message count: 25
+          receiving org message ID: 14110827
+        - HL7 ID: '155839337'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '2021063013254900000004'
+          field name: PV1-36
+          field value: '""'
+          message count: 28
+          receiving org message ID: 14111233

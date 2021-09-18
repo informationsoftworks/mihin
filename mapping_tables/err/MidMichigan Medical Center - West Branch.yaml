@@ -1,0 +1,13 @@
+base: MidMichigan Medical Center - West Branch
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/MidMichigan Medical Center - West Branch ADT 2.0 table 02-27-2019.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE46
+            code: ' '

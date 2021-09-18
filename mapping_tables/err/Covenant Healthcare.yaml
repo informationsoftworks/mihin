@@ -1,0 +1,33 @@
+base: Covenant Healthcare
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Covenant Healthcare ADT 2.0 table 02-28-19.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '88967074'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210529223259'
+          field name: PV1-36
+          field value: '""'
+          message count: 1
+          receiving org message ID: 17082200
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Covenant Healthcare ADT 2.0 table 02-28-19.xlsx
+      list:
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP388
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI10
+            code: 'AMA AGAINST '

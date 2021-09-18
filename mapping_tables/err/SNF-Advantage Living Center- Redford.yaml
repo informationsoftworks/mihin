@@ -1,0 +1,23 @@
+base: SNF-Advantage Living Center- Redford
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Advantage Living Center- Redford ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 0951a04679694075a30dc0bdd64da5a0
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210909185237'
+          field name: PID-30
+          field value: '""'
+          message count: 9
+          receiving org message ID: 26956238
+        - HL7 ID: 0951a04679694075a30dc0bdd64da5a0
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210909185237'
+          field name: PV1-36
+          field value: '""'
+          message count: 9
+          receiving org message ID: 26956238

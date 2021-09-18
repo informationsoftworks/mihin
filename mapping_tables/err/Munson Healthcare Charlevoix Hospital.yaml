@@ -1,0 +1,306 @@
+base: Munson Healthcare Charlevoix Hospital
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 06-03-20.xlsx
+      list:
+      - error: Comma pair separating empty value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - Hospital Value: AMPS (Advanced Mgt of Pediatric Spastici, Limb Difference Peds/Adolescent, , Multiple Trauam Peds/Adolescent,
+              Pediatrics, Spasticity Peds/Adolescent, Spinal Peds/Adolescent, Stroke Peds/Adolescent
+            cell: AE18
+            label: Pediatrics
+          - Hospital Value: Driver Rehabilitation, Inpatient Rehab, Other Rehab, Other Rehab Peds/Adolescent, Physical Therapy OP, Rehabiliation,
+              therapy, Therapy Multiple, therapy-OT, Therapy-OT Driving, Therapy-OT/PT, Therapy-OT/ST, Therapy-OT vision, Therapy-OT Vision
+              Peds, ,Therapy-PT, therapy-PT/OP/SP, Therapy-PT/OT/SP, Therapy-PT/OT/ST, Therapy PT/SP, Therapy PT/ST, Therapy-SP, therapy-ST,
+              therapy-TR, IV Therapy, Speech Therapy OP, Rehabilitation, Rehab OT, Rehab PT
+            cell: AE19
+            label: Physical Medicine and Rehabilitation
+      - error: Incomplete, non-specific or abbreviated facility name
+        level: Warning
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            code: 2.16.840.1.113883.17.45
+            label: CHARLEVOIX AH
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA35
+            label: ' Clinic Preadmit'
+          - cell: AA36
+            label: ' Emergency'
+          - cell: AA37
+            label: ' Outpatient'
+          - cell: AA38
+            label: ' Day Surgery'
+          - cell: AA39
+            label: ' Observation'
+          - cell: AA40
+            label: ' Inpatient'
+          - cell: AA41
+            label: ' Recurring'
+          - cell: AA42
+            label: ' Preadmit'
+          - cell: AA43
+            label: ' Nurse Visit'
+          - cell: AA44
+            label: ' Clinic Outpatient'
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            label: 'Cardiac, Cardiac Cath Lab, Cardiac Clinic, Cardiac Rehab, Cardiology, Cardio/Plum Rehab, Cardio Respiratory, Cardiovascular,
+              Heart Station, CATH LAB, '
+          - cell: AE5
+            label: 'Emergency, Emergency Consult, Emergency Department, Emergency Medicine, '
+          - cell: AE7
+            label: 'Gastroenterology, Med-Gastroenterology, '
+          - cell: AE8
+            label: 'Surgery-Gynecology, Yearly Gynecological Exam, '
+          - cell: AE9
+            label: 'Hospice, Hospice Inpatient, Inpatient Hospice, Med-Hospice, '
+          - cell: AE11
+            label: 'Industrial Medicine, MEDICAL, OFFICE PROCEDURE, OFFICE VISIT, CLINIC, COMMUNITY HEALTH TEAM, FOLLOW-UP, NURSE VISIT, '
+          - cell: AE13
+            label: 'ALS, Brain Injury, Brain Injury Peds/Adolescent, Cerebral Palsy, Concussion, Concussion Peds/Adolescent, Neurological
+              Disorders, Neurology, Neuropsych, Neuropsychology, Neuropsychology Peds/Adolescent, OB - Not Delivered, Stroke, Surgery-Neurology,
+              PARKINSON, zzneurology, '
+          - cell: AE15
+            label: 'Gynecology-Obstetrics, OB - Aborted, OB - Aborted, OB-aborted GYN/SURG, OB- DEL C-SECT GYN/ST, OB- DEL C-section REP,
+              OB - Delivered, OB- Delivered C-sect, OB- Delivered StillBN, OBGL PRO FEES, OB/GYN, '
+          - cell: AE16
+            label: 'Cancer, Cancer Center, Oncology, Oncology Brain, Oncology Brain Peds/Adolescent, Onoclogy Peds/Adolescent, Oncology
+              Spinal, Oncology Spinal Peds/Adolescent, Radiation Oncology, Radiation therapy, '
+          - cell: AE17
+            label: 'Hip, Knee, Ortho Clinic, Orthopedic Peds/Adolescent, Orthopedics, Orthopedics Ped/Adolescent, Surgery-Orthopedics,
+              cast only, chiropractic, ORTHOTTICS, Spasticity, PROSTHETICS, '
+          - cell: AE18
+            label: 'AMPS (Advanced Mgt of Pediatric Spastici, Limb Difference Peds/Adolescent, , Multiple Trauam Peds/Adolescent, Pediatrics,
+              Spasticity Peds/Adolescent, Spinal Peds/Adolescent, Stroke Peds/Adolescent, '
+          - cell: AE19
+            label: 'Driver Rehabilitation, Inpatient Rehab, Other Rehab, Other Rehab Peds/Adolescent, Physical Therapy OP, Rehabiliation,
+              therapy, Therapy Multiple, therapy-OT, Therapy-OT Driving, Therapy-OT/PT, Therapy-OT/ST, Therapy-OT vision, Therapy-OT Vision
+              Peds, Therapy-PT, therapy-PT/OP/SP, Therapy-PT/OT/SP, Therapy-PT/OT/ST, Therapy PT/SP, Therapy PT/ST, Therapy-SP, therapy-ST,
+              therapy-TR, IV THERAPY, SPEECH THERAPY OP, '
+          - cell: AE20
+            label: 'Med/Surg, Surgery-General, Surgical, OFFSITE SURGICAL, PRE-OP, PRE-OP TESTING, '
+          - cell: AE23
+            label: 'Acute, AMBULATORY, day surgery, multiple outpatient, HOSPITAL OP, OUTPATIENT, RECURRING OUTPATIENT, '
+          - cell: AE24
+            label: 'Allergy-Immunology-Rheumatology, Immunization, Injection, Injection/Immunization, Injections, LYMPHEDEMA, MULTIPLE
+              SCLEROSIS, '
+          - cell: AE31
+            label: 'Med-Infectious Disease, infection disease, '
+          - cell: AE34
+            label: 'Ophthalmology, Surgery-Ears,nose,throat, Surgery-Opthamology, IOP PROGRESSIONS, '
+          - cell: AE39
+            label: 'Surgery-Urology, Urology, '
+          - cell: AE40
+            label: 'Baclefen Refill, Baclefen Refill Peds/Adolescent, Baclofen Test Dos, Baclefen Test Dose Peds/Adolescent, Flu Vaccinations,
+              Med-Clinical Pharmacology, Pharmacy, '
+          - cell: AE41
+            label: 'Interventional Radiology, Lithotripsy, Nuclear Med, '
+          - cell: AE43
+            label: 'Burn, Wound Care, '
+          - cell: AE44
+            label: 'Infant, Newborn, Nursery, '
+          - cell: AE46
+            label: 'Hospital IP, Hospital Rounding, inpatient acute care, OBSERVATION, partial hospitalization, treatment room, 23 HOUR
+              OBSERVATION, CONSULT, EXTENDED RECOVERY, GENERAL DEBILITY, INDEPENDENT MEDICAL EXAM, LONG-TERM CARE, PREADMISSION TESTING,
+              SCREENING, '
+          - cell: AE47
+            label: 'BOTOX, dysphagia-feeding, motion analysis, NUTRITION, special procedures, special services, AMBULANCE, AMPUTEE, BALANCE,
+              CLINICAL NUTRITION, CUSTOM WHEELCHAIR SEATING, DIETARY, EDUCATION SERVICES, HOME VISIT, OTHER, SCHOOL VISIT, SWING, SWING
+              BED, WHEELCHAIR EVALUATION, '
+          - cell: AE48
+            label: 'Hearing Test, Newborn Hearing, '
+          - cell: AE49
+            label: 'Counseling, Psychology, Psychology IME-contract, Psychology Peds/Adolescent, '
+          - cell: AE55
+            label: 'Podiatry, foot clinic, '
+          - cell: AE56
+            label: 'CT Scan, Lab/Radiology, Mammogram, Mooresville X-ray, MRI, Radiology, Ultra Sound, X-ray, '
+          - cell: AE63
+            label: 'Med-Pulmonary, Pulmonary, Pulmonary Rehab, Respiratory, Respiratory Care, '
+          - cell: AE65
+            label: 'Blood Transfusion, Infusion Care, Infusion Clinic, '
+          - cell: AE67
+            label: 'Hand, Occupational Ther OP, '
+          - cell: AE68
+            label: 'Scoliosis, Spinal, Spinal Cord, Spine Center, '
+          - cell: AE70
+            label: 'Pain/Headache, Pain Management, fibromyalgia, '
+          - cell: AE85
+            label: 'Physiatry, Psychiatry (adult), Psychiatry (child), Psychiatry (geriatric), '
+          - cell: AE89
+            label: 'Behavioral Health, Drug & Alcohol, Inpatient Senior Behavioral Health, A AND D RECOVERY CENTER, '
+          - cell: AE92
+            label: 'Surgery-Traumatic, MULTIPLE TRUAMA, traumatic, '
+          - cell: AE93
+            label: 'Allcaring Home Health, ASSISTED LIVING FACILITY, COMFORT CARE NURSING CENTER, GROUP HOME, HOME HEALTH, JONES COUNTY
+              NURSING CENTER, NH - DREAM HAVEN, NH - DREAM HAVEN CB, NH - EVERGREEN, NH - EVERGREEN CB, NH - FOUNTAINPARK, NH - FOUNTAIN
+              PARK CB, NH - HICKORY, NH - HICKORY CB, NH - HILLSIDE, NH - HILLSIDE CB, NH - LAKELAND, NH - LAKELAND CB, NH - MANOR HOUSE,
+              NH - MANOR HOUSE CB, NH - NRN LAKES, NH - NRN LAKES CB, NH - PARKVIEW, NH - PARKVIEW CB, NH - VANCREST, NH - VANCREST CB,
+              NURSING FACILITY, NURSING HOME, NURSING HOME - MPA, NURSING HOME ROUNDING, NURSING HOME VISIT, NURSING VISIT, RESPITE, SKILLED
+              NURSING FACILITY, SNF/NF, SPECIMEN NURSING HOME, '
+          - cell: AE94
+            label: 'Ancillary, ANEST PRO FEES, ASSISTIVE TECHNOLOGY, AUGMENTATIVE COMMUNICATION, BENEFITS EXHAUSTED, CANCELED ADMISSION,
+              CASE MANAGEMENT, CLIENT BILLING, CORPORATE HEALTH, CPSC PRO FEES, CUSTODIAL FEEDS, DERM PRO FEES, DIRECT ADMISSION, EMPLOYEE
+              HEALTH O/P, EOED ORI FEES, ERPH PRO FEES, EVON PRO FEES, LPED PRO FEES, LSUR PRO FEES, MSET, ORTH PRO FEES, PAIN PRO FEES,
+              PROFESSIONAL BILLING, PROGRAM, SCBH PRO FEES, SCUC PRO FEES, TELEMETRY, VEIN PRO FEES, VENT, VOICE, '
+          - cell: AE95
+            label: 'BAM/LB, HOME HEALTH LAB, LAB, LABORATORY, LABORATORY - PATHOLOGY, LABORATORY - SPECIMEN, NON PATIENT LAB, OUTPATIENT
+              TESTING, REFERENCE LAB, SPECIMEN, '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA35
+            code: ' Clinic Preadmit'
+          - cell: AA36
+            code: ' Emergency'
+          - cell: AA37
+            code: ' Outpatient'
+          - cell: AA38
+            code: ' Day Surgery'
+          - cell: AA39
+            code: ' Observation'
+          - cell: AA40
+            code: ' Inpatient'
+          - cell: AA41
+            code: ' Recurring'
+          - cell: AA42
+            code: ' Preadmit'
+          - cell: AA43
+            code: ' Nurse Visit'
+          - cell: AA44
+            code: ' Clinic Outpatient'
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: 'Cardiac, Cardiac Cath Lab, Cardiac Clinic, Cardiac Rehab, Cardiology, Cardio/Plum Rehab, Cardio Respiratory, Cardiovascular,
+              Heart Station, cath lab, '
+          - cell: AE5
+            code: 'Emergency, Emergency Consult, Emergency Department, Emergency Medicine, '
+          - cell: AE7
+            code: 'Gastroenterology, Med-Gastroenterology, '
+          - cell: AE9
+            code: 'Hospice, Hospice Inpatient, Inpatient Hospice, Med-Hospice, '
+          - cell: AE11
+            code: 'Industrial Medicine, Medical, Office Procedure, Office Visit, Clinic, Community Health Team, Follow-Up, Nurse Visit, '
+          - cell: AE13
+            code: 'ALS, Brain Injury, Brain Injury Peds/Adolescent, Cerebral Palsy, Concussion, Concussion Peds/Adolescent, Neurological
+              Disorders, Neurology, Neuropsych, Neuropsychology, Neuropsychology Peds/Adolescent, Stroke, Surgery-Neurology, Parkinson,
+              zzneurology, '
+          - cell: AE16
+            code: 'Cancer, Cancer Center, Oncology, Oncology Brain, Oncology Brain Peds/Adolescent, Onoclogy Peds/Adolescent, Oncology
+              Spinal, Oncology Spinal Peds/Adolescent, Radiation Oncology, Radiation therapy, surgery-Cancer, '
+          - cell: AE18
+            code: 'AMPS (Advanced Mgt of Pediatric Spastici, Limb Difference Peds/Adolescent, , Multiple Trauam Peds/Adolescent, Pediatrics,
+              Spasticity Peds/Adolescent, Spinal Peds/Adolescent, Stroke Peds/Adolescent, '
+          - cell: AE23
+            code: 'Acute, Ambulatory, Day Surgery, Multiple Outpatient, Hospital OP, Outpatient, Recurring Outpatient, '
+          - cell: AE24
+            code: 'Allergy-Immunology-Rheumatology, Immunization, Injection, Injection/Immunization, Injections, Lymphedema Multiple Sclerosis, '
+          - cell: AE30
+            code: 'Med-Hematology, Myelodysplasia, '
+          - cell: AE31
+            code: 'Med-Infectious Disease, Infection Disease, '
+          - cell: AE34
+            code: 'Ophthalmology, Surgery-Ears,nose,throat, Surgery-Opthamology, IOP Progressions, '
+          - cell: AE36
+            code: 'Cosmetic, Cosmetics, Plastic Clinic, Surgery-Plastic, '
+          - cell: AE39
+            code: 'Surgery-Urology, Urology, '
+          - cell: AE40
+            code: 'Baclefen Refill, Baclefen Refill Peds/Adolescent, Baclofen Test Dos, Baclefen Test Dose Peds/Adolescent, Flu Vaccinations,
+              Med-Clinical Pharmacology, Pharmacy, '
+          - cell: AE41
+            code: 'Interventional Radiology, Lithotripsy, Nuclear Med, '
+          - cell: AE44
+            code: 'Infant, Newborn, Nursery, '
+          - cell: AE46
+            code: 'Hospital IP, Hospital Rounding, Inpatient Acute Care, Observation, Partial Hospitalization, Treatment Room, 23 Hour
+              Observation, Consult, Extended Recovery, General Debility, Independent Medical Exam, Long-Term Care, Preadmission Testing,
+              Screening, '
+          - cell: AE48
+            code: 'Hearing Test, Newborn Hearing, '
+          - cell: AE49
+            code: 'Counseling, Psychology, Psychology IME-contract, Psychology Peds/Adolescent, '
+          - cell: AE55
+            code: 'Podiatry, Foot Clinic, '
+          - cell: AE56
+            code: 'CT Scan, Lab/Radiology, Mammogram, Mooresville X-ray, MRI, Radiology, Ultra Sound, X-ray, '
+          - cell: AE63
+            code: 'Med-Pulmonary, Pulmonary, Pulmonary Rehab, Respiratory, Respiratory Care, '
+          - cell: AE65
+            code: 'Blood Transfusion, Infusion Care, Infusion Clinic, '
+          - cell: AE67
+            code: 'Hand, Occupational Ther OP, '
+          - cell: AE68
+            code: 'Scoliosis, Spinal, Spinal Cord, Spine Center, '
+          - cell: AE70
+            code: 'Pain/Headache, Pain Management, Fibromyalgia, '
+          - cell: AE75
+            code: 'ICU, Intensive Care Unit, Urgent Care, Post Intensive Care Unit, '
+          - cell: AE85
+            code: 'Physiatry, Psychiatry (adult), Psychiatry (child), Psychiatry (geriatric), '
+          - cell: AE89
+            code: 'Behavioral Health, Drug & Alcohol, Inpatient Senior Behavioral Health, A and D Recovery Center, '
+          - cell: AE92
+            code: 'Surgery-Traumatic, Multiple Trauma, Traumatic, '
+          - cell: AE93
+            code: 'Allcaring Home Health, Assisted Living Facility, Comfort Care Nursing Center, Group Home, Home Health, Jones County
+              Nursing Center, NH - Dream Haven, NH - Dream Haven CB, NH - Evergreen, NH - Evergreen CB, NH - Fountainpark, NH - Fountainpark
+              CB, NH - Hickory, NH - Hickory CB, NH - Hillside, NH - Hillside CB, NH - Lakeland, NH - Lakeland CB, NH - Manor House, NH
+              - Manor House CB, NH - NRN Lakes, NH - NRN Lakes CB, NH - Parkview, NH - Parkview CB, NH - Vancrest, NH - Vancrest CB, Nursing
+              Facility, Nursing Home, Nursing Home - MPA, Nursing Home Rounding, Nursing Home Visit, Nursing Visit, Respite, Skilled Nursing
+              Facility, SNF/NF, Specimen Nursing Home, '
+          - cell: AE94
+            code: 'Ancillary, ANEST PRO FEES, Assistive Technology, Augmentative Communication, Benefits Exhausted, Canceled Admission,
+              Case Management, Client Billing, Corporate Health, CPSC PRO FEES, Custodial Care, DERM PRO FEES, Direct Admission, Employee
+              Health O/P, EPED PRO FEES, ERPH PRO FEES, EVON PRO FEES, LPED PRO FEES, LSUR PRO FEES, MSET, ORTH PRO FEES, PAIN PRO FEES,
+              Professional Billing, Program, SCBH PRO FEES, SCUC PRO FEES, Telemetry, VEIN PRO FEES, VENT, Voice,  '
+          - cell: AE95
+            code: 'BAM/LB, Home Health Lab, Lab, Laboratory, Laboratory - Pathology, Laboratory - Specimen, Non Patient Lab, Outpatient
+              Testing, Reference Lab, Specimen, '
+      - error: OID appearing in multiple files
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            files:
+            - cell: A4
+              filename: 2.0 Mapping Tables - Hospitals/Charlevoix ADT 2.0 table 9-17-19.xlsx
+            - cell: A4
+              filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 06-03-20.xlsx
+            oid: 2.16.840.1.113883.17.45
+          - cell: A5
+            files:
+            - cell: A5
+              filename: 2.0 Mapping Tables - Hospitals/Charlevoix ADT 2.0 table 9-17-19.xlsx
+            - cell: A5
+              filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 06-03-20.xlsx
+            oid: 2.16.840.1.113883.17.4092
+          - cell: A6
+            files:
+            - cell: A6
+              filename: 2.0 Mapping Tables - Hospitals/Charlevoix ADT 2.0 table 9-17-19.xlsx
+            - cell: A6
+              filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 06-03-20.xlsx
+            oid: 2.16.840.1.113883.17.4093
+          - cell: A7
+            files:
+            - cell: A7
+              filename: 2.0 Mapping Tables - Hospitals/Charlevoix ADT 2.0 table 9-17-19.xlsx
+            - cell: A7
+              filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 06-03-20.xlsx
+            oid: 2.16.840.1.113883.17.4094

@@ -1,0 +1,182 @@
+base: McLaren Bay Region
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Bay Region ADT 2.0 table 09-13-2021.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: Q599626991T667178787
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210910014325'
+          field name: PV1-36
+          field value: '""'
+          message count: 78
+          receiving org message ID: 26956350
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Bay Region ADT 2.0 table 10-20-2020.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA26
+            label: 'HOSPICE INPATIENT, MEDICAL INPATIENT, NEWBORN, FAMILY BIRTHING CENTER INPATIENT, PSYCH INPATIENT, REHAB INPATIENT,
+              SURGICAL INPATIENT, CARDIC INPATIENT, COURIER LAB, EMERGENCY ROOM, OBSERVATION, OUTPATIENT DIAGNOSTIC, PRE PROCEDURE TESTING,
+              SAME DAY SURGERY, RECURRING BILLING, FAMILY BIRTH CENTER OUTPATIENT, CARDIAC OUTPATIENT, RECURRING INFUSION, RECURRING PACEMAKER,
+              BAY SPECIAL CARE OUTPATIENT, BAY SPECIAL CARE INPATIENT, OFFICE VISIT, RESEARCH, '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            label: 'Cardiology Inpatient, cardiac cath outpatient, pb cardiology, cardiac research, pb mmp cardiology, pacemaker clinic, '
+          - cell: AE5
+            label: 'EMERGENCY, emergency department, CHILDBIRTH ED, '
+          - cell: AE7
+            label: 'PB GASTROENTEROLOGY, pb gastro, '
+          - cell: AE11
+            label: 'PB INTERNAL MEDICINE, CLNIC, DEVICE CLINIC, pb freeland practice, medical inpatient/ip medica/medical, pb aburn clinic
+              np, pb mmp health assoc, pb mmp internal med assoc, pb primary care, pc alma krepostman, pc alma mohan, pc mp krepostman,
+              pc mp mohan, pb medical, '
+          - cell: AE13
+            label: 'PB NEUROLOGY, cardiac neuro testing, neurosciences, '
+          - cell: AE16
+            label: 'ONCOLOGY INPATIENT, pb oncologist, oncology research, pb mmp hemo oncology, west branch oncology office, pb mmp infectious
+              disease, pb breast surgeon, '
+          - cell: AE17
+            label: 'ORTHOPEDICS INPATIENT, pb orthopedics, '
+          - cell: AE18
+            label: 'PB PEDIATRICS, pediatric outpatient, pediatric inpatient, '
+          - cell: AE19
+            label: 'Rehab Inpatient, rehab auburn, rehab center for rehab, rehab cardiac, rehab emm, rehab pinconning, rehab wmm, rehab
+              ymca, '
+          - cell: AE20
+            label: 'Surgery Inpatient, pb mmp min invasive surg assoc, '
+          - cell: AE23
+            label: 'BAY SPECIAL CARE OUTPATIENT, ambulatory surgery, '
+          - cell: AE27
+            label: 'pb mmp family med e lansing, pb mmp family med gr ledge, pm mmp fam med lipidology, pb mmp family med northside, pb
+              family and child, '
+          - cell: AE28
+            label: 'PB ENDOCHRONOLOGY, endo minor procedures, DIABETIC ED, '
+          - cell: AE30
+            label: 'anti coag clinic, '
+          - cell: AE41
+            label: 'NUCLEAR MEDICINE ALMA, nuclear medicine, '
+          - cell: AE44
+            label: 'NEW BORN, nursery inpatient, '
+          - cell: AE46
+            label: 'EXTENDED RECOVERY POST PROCEDURE, observational service, '
+          - cell: AE47
+            label: 'AMBULANCE SERVICE, nutritional ed, pre procedure testing, pb dietician service (IBT program), sroc, oxcc, '
+          - cell: AE63
+            label: 'rehab pulmonary, respiratory outpatient, '
+          - cell: AE65
+            label: 'INFUSION CLINIC, '
+          - cell: AE75
+            label: 'pm mmp urgent care, '
+          - cell: AE84
+            label: 'vascular study, '
+          - cell: AE93
+            label: 'BAY SPECIAL CARE, '
+          - cell: AE94
+            label: 'CLIENT SERVICES, EMPLOYEE HEALTH, '
+          - cell: AE98
+            label: 'EP LAB, FORENSICS, lab allen med, LAB AUBURN, LAB EMM, LAB HOMECARE, LAB KATALIN CT, LAB PINCONNING, LAB RIVERVIEW,
+              LAB TUSCOLA, LAB WOMENS CENTER, LAB WMM, lab east, courier lab unrelated, lab augres, lab karmanos, '
+          - cell: AE102
+            label: 'oakland manor snf rehab, '
+          - cell: AE103
+            label: 'unknown, '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA26
+            code: 'HOSP, MED, NB, OB, PSYCH, REHAB, SURG, CARDI, COUR, ED, ER, OBV, OPD, PAT, SDS, SERI, OBO, CARD, SERIONC, SERIPACE,
+              BSCHO, BSCH, OFFICE, RESH, '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: 'CAR, CTHLA, PBCAR, RSCH, PBMMPC, PACE, '
+          - cell: AE7
+            code: 'PBGE, PBGAS, '
+          - cell: AE13
+            code: 'PBNRL, CNT, NEU, '
+          - cell: AE16
+            code: 'ONC, PBONC, RESH, PBMMPHO, WBONC, PBBDC, '
+          - cell: AE17
+            code: 'OTR, PBORT, '
+          - cell: AE18
+            code: 'PBPED, PEDO, PEDS, '
+          - cell: AE19
+            code: 'REHAB, REHAU, RAHCF, REHCR, REHEM, REHPI, REHWM, REHYM, '
+          - cell: AE20
+            code: 'IPSUR, PBMMPMIS, '
+          - cell: AE23
+            code: 'SBSCOP, OPSUR, '
+          - cell: AE28
+            code: 'PBENDO, ENDO, DIAB, '
+          - cell: AE30
+            code: 'COUM, '
+          - cell: AE31
+            code: 'PBID, PBMMPIF, '
+          - cell: AE41
+            code: 'ALMA, NUC, '
+          - cell: AE44
+            code: 'NB, NURS, '
+          - cell: AE46
+            code: 'EXPRO, OBV, '
+          - cell: AE47
+            code: 'AMBU, NUT, PAT, PBDS, SROC, OXCC, '
+          - cell: AE63
+            code: 'PULRH, RESP, '
+          - cell: AE65
+            code: 'INFUS, '
+          - cell: AE75
+            code: 'PBMMPUC, '
+          - cell: AE84
+            code: 'VAS, '
+          - cell: AE93
+            code: 'BSCH, '
+          - cell: AE94
+            code: 'CLIEN, EMP, '
+          - cell: AE98
+            code: 'EP, FORENSICS, LABAM, LABAU, LABEM, LABHC, LABKT, LABPN, LABRV, PABTC, LABWC, LABWM, OPLAB, COURU, LABAG, LABKM, '
+          - cell: AE102
+            code: 'OMNF, '
+          - cell: AE103
+            code: 'WOC, '
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI4
+            code: '01, 81, '
+          - cell: AI5
+            code: '02, 82, '
+          - cell: AI6
+            code: '03, 83, '
+          - cell: AI7
+            code: '04, 84, '
+          - cell: AI8
+            code: '05, 85, 87, 95, 21, 70, '
+          - cell: AI9
+            code: '06, 86, '
+          - cell: AI21
+            code: '43, 88, '
+          - cell: AI27
+            code: '62, 90, '
+          - cell: AI28
+            code: '63, 91, '
+          - cell: AI30
+            code: '65, 93, '
+          - cell: AI31
+            code: '66, 94, '
+        - hl7 segment: IN1
+          see:
+          - cell: AP1941
+            code: ' QBE North America'
+          - cell: AP2053
+            code: ' Cincinnati Insurance'

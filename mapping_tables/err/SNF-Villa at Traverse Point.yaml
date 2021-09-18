@@ -1,0 +1,23 @@
+base: SNF-Villa at Traverse Point
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Villa at Traverse Point ADT 2.0 table 4-26-17.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 5ca40c541522469dbdfc8cd1bf2d3164
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210805115735'
+          field name: PID-30
+          field value: '""'
+          message count: 1
+          receiving org message ID: 23872844
+        - HL7 ID: 5ca40c541522469dbdfc8cd1bf2d3164
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210805115735'
+          field name: PV1-36
+          field value: '""'
+          message count: 1
+          receiving org message ID: 23872844

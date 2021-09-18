@@ -1,0 +1,23 @@
+base: SNF-Wellspring Lutheran Services - Monroe
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Wellspring Lutheran Services - Monroe ADT 2.0 table 1-10-17.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 7b9c5129a70247b2af25ad5cee18c813
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210902004813'
+          field name: PID-30
+          field value: '""'
+          message count: 8
+          receiving org message ID: 26263644
+        - HL7 ID: 7b9c5129a70247b2af25ad5cee18c813
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210902004813'
+          field name: PV1-36
+          field value: '""'
+          message count: 14
+          receiving org message ID: 26263644

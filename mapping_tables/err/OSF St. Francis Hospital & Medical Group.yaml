@@ -1,0 +1,118 @@
+base: OSF St. Francis Hospital & Medical Group
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/OSF St. Francis Hospital & Medical Group ADT 2.0 table 10-3-19.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '466142237'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210522120718'
+          field name: PID-30
+          field value: '""'
+          message count: 10
+          receiving org message ID: 16410800
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/OSF St. Francis Hospital & Medical Group ADT 2.0 table 10-3-19.xlsx
+      list:
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA44
+          - cell: AA45
+          - cell: AA46
+          - cell: AA47
+          - cell: AA48
+          - cell: AA49
+          - cell: AA50
+          - cell: AA51
+          - cell: AA52
+          - cell: AA53
+          - cell: AA54
+          - cell: AA55
+          - cell: AA56
+          - cell: AA57
+          - cell: AA58
+          - cell: AA59
+          - cell: AA60
+          - cell: AA61
+          - cell: AA62
+          - cell: AA63
+          - cell: AA64
+          - cell: AA65
+          - cell: AA66
+          - cell: AA67
+          - cell: AA68
+          - cell: AA69
+          - cell: AA70
+          - cell: AA71
+          - cell: AA72
+          - cell: AA73
+          - cell: AA74
+          - cell: AA75
+          - cell: AA76
+          - cell: AA77
+          - cell: AA78
+          - cell: AA79
+          - cell: AA80
+          - cell: AA81
+          - cell: AA82
+          - cell: AA83
+          - cell: AA84
+          - cell: AA85
+          - cell: AA86
+          - cell: AA87
+          - cell: AA88
+          - cell: AA89
+          - cell: AA90
+          - cell: AA91
+          - cell: AA92
+          - cell: AA93
+          - cell: AA94
+          - cell: AA95
+          - cell: AA96
+          - cell: AA97
+          - cell: AA98
+          - cell: AA99
+          - cell: AA100
+          - cell: AA101
+          - cell: AA102
+          - cell: AA103
+          - cell: AA104
+          - cell: AA105
+          - cell: AA106
+          - cell: AA107
+          - cell: AA108
+          - cell: AA109
+          - cell: AA110
+        - hl7 segment: IN1
+          see:
+          - cell: AP15
+          - cell: AP21
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA29
+            label: ' '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE44
+            label: 'Interventional Radiology '
+          - cell: AE47
+            label: 'Neuro Ophthamology '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA29
+            code: ' '
+          - cell: AA111
+            code: ' '

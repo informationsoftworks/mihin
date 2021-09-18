@@ -1,0 +1,152 @@
+base: JHN
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/JHN ADT 2.0 table  05-27-21.xlsx
+      list:
+      - error: Incomplete, non-specific or abbreviated facility name
+        level: Warning
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A31
+            code: 2.16.840.1.113883.17.4049
+            label: ALBION RAD
+          - cell: A65
+            code: 2.16.840.1.113883.3.3823.112009
+            label: HFA ALBION
+          - cell: A67
+            code: 2.16.840.1.113883.3.3823.112011
+            label: HFA BROOKLYN
+          - cell: A68
+            code: 2.16.840.1.113883.3.3823.112012
+            label: HFA CARLETON
+          - cell: A71
+            code: 2.16.840.1.113883.3.3823.112015
+            label: HFA FRANKLIN
+          - cell: A73
+            code: 2.16.840.1.113883.3.3823.112017
+            label: HFA GREENWOOD
+          - cell: A79
+            code: 2.16.840.1.113883.3.3823.112023
+            label: HFA MARSHALL
+          - cell: A80
+            code: 2.16.840.1.113883.3.3823.112024
+            label: HFA MASON
+          - cell: A84
+            code: 2.16.840.1.113883.3.3823.112028
+            label: HFA ONSTED
+          - cell: A85
+            code: 2.16.840.1.113883.3.3823.112029
+            label: HFA PAGE
+          - cell: A86
+            code: 2.16.840.1.113883.3.3823.112030
+            label: HFA ROSE CITY
+          - cell: A93
+            code: 2.16.840.1.113883.3.3823.112037
+            label: HFA TEJADA
+          - cell: A94
+            code: 2.16.840.1.113883.3.3823.112038
+            label: HFA TENEYCK
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA32
+            label: 'Organ '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE7
+            label: ' Interven Cardiology'
+          - cell: AE10
+            label: ' Hypertension'
+          - cell: AE11
+            label: ' pacemaker check up'
+          - cell: AE16
+            label: ' Hold Obs Patient in ED'
+          - cell: AE17
+            label: ' \cc'
+          - cell: AE19
+            label: ' EPI'
+          - cell: AE63
+            label: ' BCCH HLTH CNT - OB'
+          - cell: AE71
+            label: 'Orthopedics '
+          - cell: AE89
+            label: 'Physical Medicine and Rehabilitation, , , , , , , ,  ,, , , ,, '
+          - cell: AE98
+            label: ' Recreational Therapy'
+          - cell: AE102
+            label: ' Massage Therapy'
+          - cell: AE136
+            label: ' Reproductive Endocrinology'
+          - cell: AE139
+            label: ' Biochemical Genetics'
+          - cell: AE147
+            label: ' Ped-nephrology'
+          - cell: AE149
+            label: 'Pedatric Neurologic Surgery '
+          - cell: AE158
+            label: ' Pediatric Ears,Nose,Throat'
+          - cell: AE164
+            label: ' Ped-Rheumatology'
+          - cell: AE166
+            label: ' Pedatric Urology'
+          - cell: AE169
+            label: ' Prescription'
+          - cell: AE174
+            label: ' Medical Toxicology'
+          - cell: AE186
+            label: 'Wound/Ostomy Care '
+          - cell: AE191
+            label: ' Lactation services'
+          - cell: AE225
+            label: ' Womens Health '
+          - cell: AE229
+            label: 'Palliative Medicine '
+          - cell: AE270
+            label: 'Ped-Pathology '
+          - cell: AE272
+            label: ' Pulmonology'
+          - cell: AE280
+            label: ' Undersea/Hyperbaric'
+          - cell: AE288
+            label: ' Spinal Cord Inj Med'
+          - cell: AE290
+            label: 'Liver Biopsy '
+          - cell: AE299
+            label: ' Bariatric Exercise'
+          - cell: AE337
+            label: 'Administration, Telemetry, Cancelled Services, Confidential Files, CV Tracings Rec And Sent To Be M-Filmed, Documentation
+              To Be Kept For Hosp Ref., Medical Social Work, NWH, Received Records In The, Records Not Received In Department, Records
+              Off Site, RFP, Sent, Special Prcoedure Report, Charge Over Desk, '
+          - cell: AE338
+            label: 'Laboratory, Lab Screen, Multitest, Outpatient Collection Station, Outreach Lab Patients, offsite lab, outpatient lab, '
+          - cell: AE341
+            label: 'Non Patient        '
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI8
+            label: 'Discharged/transferred to another type of health care institution not defined elsewhe, court/law enforcement, '
+          - cell: AI10
+            label: 'Left Against Medical Advice, lwcs - before md evaluation, '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-22
+          see:
+          - cell: I7
+            code: 'D '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE258
+            code: '386, '
+          - cell: AE337
+            code: '159, 152, 200, 213, 214, 218, 244, 256, 296, 298, 299, 306, 309, 311, 340, '
+          - cell: AE338
+            code: '167, 237, 248, 267, 270, 354, 360, '
+        - hl7 segment: IN1
+          see:
+          - cell: AP139
+            code: 'HENRY FORD '

@@ -1,0 +1,23 @@
+base: SNF-Villa at Green Lake Estates
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Villa at Green Lake Estates ADT 2.0 table 11-9-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 9881fb1416354518a82366fce3ec6e2c
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210914151531'
+          field name: PID-30
+          field value: '""'
+          message count: 60
+          receiving org message ID: 19510615
+        - HL7 ID: 9244f2e3f2f84867a22405efdb21bb57
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210908220400'
+          field name: PV1-36
+          field value: '""'
+          message count: 86
+          receiving org message ID: 81505208

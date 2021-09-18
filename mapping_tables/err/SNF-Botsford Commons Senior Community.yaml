@@ -1,0 +1,23 @@
+base: SNF-Botsford Commons Senior Community
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Botsford Commons Senior Community ADT 2.0 table 2-20-17.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '444491960'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '2021052817234900000001'
+          field name: PID-30
+          field value: '""'
+          message count: 7
+          receiving org message ID: 10849869
+        - HL7 ID: '469252823'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '2021062315382600000001'
+          field name: PV1-36
+          field value: '""'
+          message count: 15
+          receiving org message ID: 60827526

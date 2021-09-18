@@ -1,0 +1,34 @@
+base: SNF-SKLD West Bloomfield
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD West Bloomfield ADT 2.0 table 9-13-18.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '41875388719'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '2021070106381200000005'
+          field name: PID-30
+          field value: '""'
+          message count: 32
+          receiving org message ID: 63923355
+        - HL7 ID: '41875388719'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '2021070106381200000005'
+          field name: PV1-36
+          field value: '""'
+          message count: 96
+          receiving org message ID: 63923355
+  import:
+  - error: Duplicate files
+    filenames:
+    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD West Bloomfield ADT 2.0 table 8-21-20.xlsx
+    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD West Bloomfield ADT 2.0 table 9-13-18.xlsx
+    level: Error
+  - error: Duplicate files
+    filenames:
+    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD West Bloomfield ADT 2.0 table 9-13-18.xlsx
+    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD West Bloomfield ADT 2.0 table 8-21-20.xlsx
+    level: Error

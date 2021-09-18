@@ -1,0 +1,44 @@
+base: SNF-West Bloomfield Nursing Center
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-West Bloomfield Nursing Center ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 73d2fdef527d4c0ea3b001dc3109cf52
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210916135716'
+          field name: PID-30
+          field value: '""'
+          message count: 171
+          receiving org message ID: 82738411
+        - HL7 ID: 73d2fdef527d4c0ea3b001dc3109cf52
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210916135716'
+          field name: PV1-36
+          field value: '""'
+          message count: 161
+          receiving org message ID: 82738411
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-West Bloomfield Nursing Center ADT 2.0 table 10-31-16.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-10
+          see:
+          - cell: F4
+            code: '1, NATIVE^American Indian/Alaskan Native, 1^American Indian / Alaskan Native, '
+          - cell: F5
+            code: '2, 6, 2^ Asian / Pacific Islander, 6^Asian, '
+          - cell: F6
+            code: '3, 3^Black, '
+          - cell: F7
+            code: '7,7^Native Hawaiian / Pacific Islander, '
+          - cell: F8
+            code: '5, 5^White, not of Hispanic Origin, '
+          - cell: F9
+            code: '4, 4^Hispanic, '

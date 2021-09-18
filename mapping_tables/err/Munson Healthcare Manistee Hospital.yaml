@@ -1,0 +1,50 @@
+base: Munson Healthcare Manistee Hospital
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare Manistee Hospital ADT 2.0 table 7-2-19.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE93
+            code: CBS
+          - cell: AE94
+            code: LAB
+          - cell: AE95
+            code: NUM
+          - cell: AE96
+            code: NURS
+          - cell: AE97
+            code: OB
+          - cell: AE98
+            code: RAD
+          - cell: AE99
+            code: SURG
+          - cell: AE100
+            code: SLEEP.CON
+          - cell: AE101
+            code: ULTRA
+          - cell: AE102
+            code: CT
+          - cell: AE103
+            code: MRI
+          - cell: AE104
+            code: OT
+          - cell: AE105
+            code: PET
+          - cell: AE106
+            code: WEL.LAB
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM17
+            code: 'MO, MO.CON, MO.GUA, '
+          - cell: AM25
+            code: 'SF '
+          - cell: AM28
+            code: 'H.DPOA, H.G, H.MDPOA, H.POA, HU, W.DPOA, W.G, W.GUA.DPOA, W.MDPOA, W.POA, WI, '

@@ -1,0 +1,88 @@
+base: Karmanos Cancer Center
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Karmanos Cancer Center ADT 2.0 table 05-31-2019.xlsx
+      list:
+      - error: Incomplete, non-specific or abbreviated facility name
+        level: Warning
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            code: 2.16.840.1.113883.3.4376.900
+            label: Karmanos
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA41
+            label: 'Ambulatory Surgery '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            label: 'Cardiology '
+          - cell: AE20
+            label: 'Surgery '
+          - cell: AE33
+            label: 'Neurology '
+          - cell: AE37
+            label: 'Radiation Oncology '
+          - cell: AE66
+            label: 'Family Practice '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-14
+          see:
+          - cell: X4
+            code: '1, RA, OP, '
+          - cell: X9
+            code: 'TH, TO, '
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA30
+            code: ' U'
+          - cell: AA31
+            code: ' T'
+          - cell: AA32
+            code: ' IP'
+          - cell: AA33
+            code: ' N'
+          - cell: AA34
+            code: ' I'
+          - cell: AA35
+            code: ' V'
+          - cell: AA36
+            code: ' C'
+          - cell: AA37
+            code: ' G'
+          - cell: AA38
+            code: ' K'
+          - cell: AA39
+            code: ' D'
+          - cell: AA40
+            code: ' S'
+          - cell: AA41
+            code: ' F'
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE20
+            code: ' SUR'
+          - cell: AE66
+            code: ' FAM'
+          - cell: AE93
+            code: ' LAB'
+          - cell: AE94
+            code: ' HIS'
+          - cell: AE95
+            code: ' TRA'
+        - hl7 segment: IN1
+          see:
+          - cell: AP49
+            code: 'Health Plus '
+          - cell: AP130
+            code: 'Health Plus '
+          - cell: AP214
+            code: 'Health Plus '

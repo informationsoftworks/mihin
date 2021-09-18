@@ -1,0 +1,40 @@
+base: McLaren Oakland
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Oakland ADT 2.0 table 01-29-2021.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI27
+            code: '62'
+          - cell: AI28
+            code: '63'
+          - cell: AI29
+            code: '64'
+          - cell: AI30
+            code: '65'
+          - cell: AI31
+            code: '66'
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE93
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI32
+          - cell: AI33
+          - cell: AI34
+          - cell: AI35
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: DG1-6
+          see:
+          - cell: O4
+            code: 'A '

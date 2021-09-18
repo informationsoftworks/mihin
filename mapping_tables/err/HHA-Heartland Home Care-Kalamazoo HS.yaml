@@ -1,0 +1,23 @@
+base: HHA-Heartland Home Care-Kalamazoo HS
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Heartland Home Care-Kalamazoo HS ADT 2.0 table 12-12-18.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '20210524092004'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210524092004'
+          field name: PID-30
+          field value: '""'
+          message count: 1
+          receiving org message ID: 10490345
+        - HL7 ID: '20210524092004'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210524092004'
+          field name: PV1-36
+          field value: '""'
+          message count: 1
+          receiving org message ID: 10490345

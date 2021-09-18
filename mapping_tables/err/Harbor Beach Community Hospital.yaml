@@ -1,0 +1,13 @@
+base: Harbor Beach Community Hospital
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Harbor Beach Community Hospital ADT 2.0 table 1-8-2020.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI4
+            code: 'H '

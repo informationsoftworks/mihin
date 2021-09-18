@@ -1,0 +1,51 @@
+base: Marlette Regional Hospital
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Marlette Regional Hospital ADT 2.0 table 10-3-19.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI28
+            label: 'Other '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM14
+            code: 'Foster Child, Foster Son, Foster Daughter, '
+          - cell: AM15
+            code: ' Friend'
+          - cell: AM17
+            code: ' Grandchild, Granddaughter, Grandson'
+          - cell: AM18
+            code: ' Guardian'
+          - cell: AM19
+            code: ' Grandparent, Grandfather, Grandfather (Maternal),Grandfather (Paternal), Grandmother (Maternal), Grandmother (Paternal),  Grandparents,
+              Great Grandmother (Paternal), Great Grandfather (Paternal), Great Grandfather (Maternal)'
+          - cell: AM21
+            code: ' Mother'
+          - cell: AM27
+            code: 'Parent, Parents, Foster Father, Foster Parents, Foster Mother, '
+          - cell: AM29
+            code: ' SELF'
+          - cell: AM30
+            code: 'Sibling, Foster Brother, Foster Sister, '
+          - cell: AM31
+            code: ' Sister'
+          - cell: AM32
+            code: ' Spouse, Husband, Wife'
+          - cell: AM34
+            code: ' Unknown'
+          - cell: AM36
+            code: ' Aunt'
+          - cell: AM37
+            code: ' Daughter'
+          - cell: AM41
+            code: 'Brother-In-Law,Daughter-In-Law,Father-In-Law, Mother-In-Law, Sister-In-Law, Son-In-Law, '
+          - cell: AM45
+            code: 'Step Sister, Step Brother, '

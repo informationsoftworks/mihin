@@ -1,0 +1,50 @@
+base: Ascension Genesys Hospital
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Ascension Genesys Hospital ADT 2.0 table 10-3-19.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '5935'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '202109170037'
+          field name: PID-30
+          field value: '""'
+          message count: 759
+          receiving org message ID: 27390755
+        - HL7 ID: '7918'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '202105060754'
+          field name: PV1-36
+          field value: '""'
+          message count: 2
+          receiving org message ID: 14719576
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Ascension Genesys Hospital ADT 2.0 table 10-3-19.xlsx
+      list:
+      - error: Invalid OID
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            code: '2.16.840.1.113883.3.1696 '
+            value: Genesys Health System
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-22
+          see:
+          - cell: I4
+            code: ' Hispanic or Latino'
+          - cell: I5
+            code: ' Not Hispanic or Latino, Not Hispanic or Lati'
+          - cell: I6
+            code: ' Non-disclosed'
+        - hl7 segment: DG1-6
+          see:
+          - cell: O4
+            code: ' Chief Complaint'

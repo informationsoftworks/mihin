@@ -1,0 +1,125 @@
+base: Holland Hospital
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Holland Hospital ADT 2.0 table 04-22-19.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP892
+            code: '298'
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP142
+          - cell: AP428
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA26
+            label: 'emergency room, medical - inpatient, new born, ob/gyn - inpatient, observation, outpatient in a bed, pre-admit testing,
+              psychiatric, rehabilitation, same day medical, same day surgery - outpatient, series/recurring, skilled nursing facility,
+              surgery - inpatient, '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            label: 'CARDIAC REHAB SERIES, cath lab, '
+          - cell: AE5
+            label: 'EMERGENCY, boven triage, '
+          - cell: AE9
+            label: 'hospice inpatient, hospice observation, observation, '
+          - cell: AE11
+            label: 'center for good health, lakeshore health partners, lakeshore medical campus op, lakeshore med camp prime care, '
+          - cell: AE23
+            label: 'atu (care), atu series (amb care series), op in bed, outpatient, '
+          - cell: AE43
+            label: 'WOUND CARE, WOUND CARE SERIES, '
+          - cell: AE46
+            label: 'medical-inpatient, '
+          - cell: AE49
+            label: 'outpatient psych series, psych profee - er, psych profee - ip med floors, psych profee-psych unit only, psych pro
+              fee - op svcs, '
+          - cell: AE75
+            label: 'urgent care holland hospital medical building, '
+          - cell: AE93
+            label: 'insitutional account, institutional-nonpatient, series, zeeland holland ancillaries, '
+          - cell: AE94
+            label: 'lab op, lab insitutional employers, lab op nonpatient,  '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA26
+            code: 'er, med, np, ob, obv, opd, pat, psych, rehab, sdm, sds, series, snf, surg, '
+          - cell: AA30
+            code: ' ER'
+          - cell: AA31
+            code: ' MED'
+          - cell: AA32
+            code: ' NB'
+          - cell: AA33
+            code: ' OB'
+          - cell: AA34
+            code: ' OBV'
+          - cell: AA35
+            code: ' OPD'
+          - cell: AA36
+            code: ' PAT'
+          - cell: AA37
+            code: ' PSYCH'
+          - cell: AA38
+            code: ' Rehab'
+          - cell: AA39
+            code: ' SDM'
+          - cell: AA40
+            code: ' SDS'
+          - cell: AA41
+            code: ' SERIES'
+          - cell: AA42
+            code: ' SNF'
+          - cell: AA43
+            code: ' SURG'
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: 'CRS, CVL, '
+          - cell: AE5
+            code: 'ER, BBC, '
+          - cell: AE9
+            code: 'HSIP, HSOU, OU, '
+          - cell: AE11
+            code: 'CFGH, LHP, LMCOP, LMCPC, '
+          - cell: AE23
+            code: 'AMB, AMBS, OPBED, OPD, '
+          - cell: AE49
+            code: 'OPSYS, PSYER, PSYIPM, PSYIPP, PSYOP, '
+          - cell: AE75
+            code: 'UCHHMB, '
+          - cell: AE93
+            code: 'INST, INSTX, SERIES, ZHAN, '
+          - cell: AE94
+            code: 'LAB, LABI, LABX, '
+        - hl7 segment: IN1
+          see:
+          - cell: AP341
+            code: ' '
+          - cell: AP344
+            code: ' '
+          - cell: AP359
+            code: ' '
+          - cell: AP957
+            code: ' '
+          - cell: AP960
+            code: ' '
+          - cell: AP961
+            code: ' '
+          - cell: AP1095
+            code: ' '

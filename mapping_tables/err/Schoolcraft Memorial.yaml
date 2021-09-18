@@ -1,0 +1,57 @@
+base: Schoolcraft Memorial
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Schoolcraft Memorial ADT 2.0 table 01-14-2021 .xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP1106
+            code: EBM:TRIWEST HEALTHCARE ALLIANCE       O/P
+          - cell: AP1107
+            code: CB8:UNITED HEALTHCARE       O/P SUPP
+          - cell: AP1108
+            code: CB:ALLIANCE HEALTH  LIFE INSURANCE CO  -O/P
+          - cell: AP1109
+            code: DBF:CHS/PRC   -O/P
+          - cell: AP1110
+            code: EM:TRIWEST HEALTHCARE ALLIANCE     I/P
+          - cell: AP1111
+            code: BB3:BLUE CARE NETWORK
+          - cell: AP1112
+            code: CB:ALERE COMPANY
+          - cell: AP1113
+            code: CB:MCLAREN MEDICADE           -O/P
+          - cell: AP1114
+            code: DB9:PROGRESSIVE            -O/P
+          - cell: AP1115
+            code: CB:COUNTY CARE
+          - cell: AP1116
+            code: CB:MOST  -O/P
+          - cell: AP1117
+            code: MBA:AETNA MEDICARE ADVANTAGE
+          - cell: AP1118
+            code: WB:CARMEUSE LIME AND STONE
+          - cell: AP1119
+            code: CB8:BANKERS LIFE
+          - cell: AP1120
+            code: WB:HASTING MUTUAL INSURANCE COMPANY
+          - cell: AP1121
+            code: WB:SCHOOLCRAFT MEDICAL CARE FACILITY
+          - cell: AP1122
+            code: WB:PAULS PLUMBING
+          - cell: AP1123
+            code: SB2:TRICARE EAST REGION CLAIMS         -O/P
+          - cell: AP1124
+            code: CB:ASI
+          - cell: AP1125
+            code: EC:OSCAR G JOHNSON VA MEDICAL CEN
+          - cell: AP1126
+            code: CB8:PHYSICANS MUTUAL MCR SUPP
+          - cell: AP1127
+            code: WB:GRADE-RITE EXCAVATING LLC
+          - cell: AP1128
+            code: EMR:TRIWEST HEALTHCARE ALLIANCE RECURR

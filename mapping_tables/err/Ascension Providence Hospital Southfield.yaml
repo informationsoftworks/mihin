@@ -1,0 +1,1244 @@
+base: Ascension Providence Hospital Southfield
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Ascension Providence Hospital Southfield ADT 2.0 table 07-10-2020.xlsx
+      list:
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP386
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA30
+            label: ' 23 Ambulatory Surgery'
+          - cell: AA31
+            label: ' 23 Mile Emergency'
+          - cell: AA32
+            label: ' 4 BED R'
+          - cell: AA33
+            label: ' A-NEWBORN'
+          - cell: AA34
+            label: ' ASF PSC BLUE CROSS'
+          - cell: AA35
+            label: ' ASF SCS BLUE CROSS'
+          - cell: AA36
+            label: ' After Hours Medical Care'
+          - cell: AA37
+            label: ' All'
+          - cell: AA38
+            label: ' Ancillary'
+          - cell: AA39
+            label: ' Audiology'
+          - cell: AA40
+            label: ' Autologous Blood'
+          - cell: AA41
+            label: ' BCBS DETOX'
+          - cell: AA42
+            label: ' Beacon Center'
+          - cell: AA43
+            label: ' Blood Donation'
+          - cell: AA44
+            label: ' Blood Transfusion/Iv Therapy'
+          - cell: AA45
+            label: ' Blue Cross Blue Shield'
+          - cell: AA46
+            label: ' Botulium Study'
+          - cell: AA47
+            label: ' Breast Care Program'
+          - cell: AA48
+            label: ' CCU/CSU'
+          - cell: AA49
+            label: ' CONT OBSRV NURSERY'
+          - cell: AA50
+            label: ' Cardiac Cath'
+          - cell: AA51
+            label: ' Cardiac Rehab'
+          - cell: AA52
+            label: ' Cardiac/Pulm Rehab'
+          - cell: AA53
+            label: ' Chemotherapy'
+          - cell: AA54
+            label: ' Clinic'
+          - cell: AA55
+            label: ' Comprehensive Rehab'
+          - cell: AA56
+            label: ' Consult'
+          - cell: AA57
+            label: ' Conversion Use Only'
+          - cell: AA58
+            label: ' Counseling Center'
+          - cell: AA59
+            label: ' Counseling Center SAB'
+          - cell: AA60
+            label: ' Day Surgery'
+          - cell: AA61
+            label: ' Diabetes Clinic'
+          - cell: AA62
+            label: ' Diagnostic'
+          - cell: AA63
+            label: ' ER Temp'
+          - cell: AA64
+            label: ' Eastside Adult Med'
+          - cell: AA65
+            label: ' Eastside Peds'
+          - cell: AA66
+            label: ' Ekg Pacemaker Clin'
+          - cell: AA67
+            label: ' Emergency'
+          - cell: AA68
+            label: ' Emergency Observ'
+          - cell: AA69
+            label: ' Emergency Room Express Care'
+          - cell: AA70
+            label: ' Employee Health'
+          - cell: AA71
+            label: ' Employee Physicals'
+          - cell: AA72
+            label: ' Endoscopy'
+          - cell: AA73
+            label: ' Facility Billing'
+          - cell: AA74
+            label: ' Faith Medical Unit 1'
+          - cell: AA75
+            label: ' Faith Medical Unit 2'
+          - cell: AA76
+            label: ' Faith Medical Unit 3'
+          - cell: AA77
+            label: ' Family Health Cn/Drh Ref'
+          - cell: AA78
+            label: ' Family Planning'
+          - cell: AA79
+            label: ' Group Billing'
+          - cell: AA80
+            label: ' HOSPITAL CONVENIENCE'
+          - cell: AA81
+            label: ' Home Health Care'
+          - cell: AA82
+            label: ' Hospice'
+          - cell: AA83
+            label: ' ICCU/ICSU/SSU'
+          - cell: AA84
+            label: ' ICU'
+          - cell: AA85
+            label: ' IICU'
+          - cell: AA86
+            label: ' IP Hospice'
+          - cell: AA87
+            label: ' Industrial Clinic'
+          - cell: AA88
+            label: ' Industrial Health'
+          - cell: AA89
+            label: ' Industrial Health - ER'
+          - cell: AA90
+            label: ' Infertility Clinic'
+          - cell: AA91
+            label: ' Infusion Therapy'
+          - cell: AA92
+            label: ' Inpatient'
+          - cell: AA93
+            label: ' Inpatient Daily'
+          - cell: AA94
+            label: ' Inpatient Psych'
+          - cell: AA95
+            label: ' Inpatient Rehab'
+          - cell: AA96
+            label: ' Intensive Care'
+          - cell: AA97
+            label: ' Intermitt Care Newbo'
+          - cell: AA98
+            label: ' Intox Therapy'
+          - cell: AA99
+            label: ' Jvhl Op Lab'
+          - cell: AA100
+            label: ' Lab Specimens'
+          - cell: AA101
+            label: ' Laser Eye Surgery'
+          - cell: AA102
+            label: ' Ldrp Triage'
+          - cell: AA103
+            label: ' MED J01'
+          - cell: AA104
+            label: ' Methadone Clinic'
+          - cell: AA105
+            label: ' Mssp'
+          - cell: AA106
+            label: ' NICU'
+          - cell: AA107
+            label: ' Ne Op Referred'
+          - cell: AA108
+            label: ' Newborn'
+          - cell: AA109
+            label: ' Non Facility'
+          - cell: AA110
+            label: ' Non Patient'
+          - cell: AA111
+            label: ' Northeast Emergency'
+          - cell: AA112
+            label: ' O/P Surgery Boarder'
+          - cell: AA113
+            label: ' Ob/Gyn Clinic'
+          - cell: AA114
+            label: ' Observation'
+          - cell: AA115
+            label: ' Occupational Health'
+          - cell: AA116
+            label: ' Oncology'
+          - cell: AA117
+            label: ' Oral Surgery'
+          - cell: AA118
+            label: ' Other Outpatient'
+          - cell: AA119
+            label: ' Out of Scope Radiology'
+          - cell: AA120
+            label: ' Outpat Labor & Del'
+          - cell: AA121
+            label: ' Outpatient'
+          - cell: AA122
+            label: ' Outpatient Diagnostic'
+          - cell: AA123
+            label: ' Outpatient Message'
+          - cell: AA124
+            label: ' Outpatient Surgery'
+          - cell: AA125
+            label: ' PARTIAL HOSPITAL'
+          - cell: AA126
+            label: ' PRIVATE'
+          - cell: AA127
+            label: ' PSYCH'
+          - cell: AA128
+            label: ' PVT'
+          - cell: AA129
+            label: ' PVT INTERMED. CARE'
+          - cell: AA130
+            label: ' Pain Clinic'
+          - cell: AA131
+            label: ' Partial Day'
+          - cell: AA132
+            label: ' Partial Hospitalization'
+          - cell: AA133
+            label: ' Past Program'
+          - cell: AA134
+            label: ' Pediatric Clinic'
+          - cell: AA135
+            label: ' Phy Ther/Neur Recov'
+          - cell: AA136
+            label: ' Physical Therapy'
+          - cell: AA137
+            label: ' Physician Lab Draw'
+          - cell: AA138
+            label: ' Podiatric Clinic'
+          - cell: AA139
+            label: ' Preadmission Testing'
+          - cell: AA140
+            label: ' Preadmit'
+          - cell: AA141
+            label: ' Prenatal Clinic'
+          - cell: AA142
+            label: ' Program'
+          - cell: AA143
+            label: ' Progressive'
+          - cell: AA144
+            label: ' Progressive Semi'
+          - cell: AA145
+            label: ' Psychiatry'
+          - cell: AA146
+            label: ' Pt/Ot/Speech'
+          - cell: AA147
+            label: ' REFERRED PRIVATE'
+          - cell: AA148
+            label: ' Radiation Oncology'
+          - cell: AA149
+            label: ' Radiation Therapy'
+          - cell: AA150
+            label: ' Recurring'
+          - cell: AA151
+            label: ' Reference Lab'
+          - cell: AA152
+            label: ' Referred Outpt'
+          - cell: AA153
+            label: ' Rehab'
+          - cell: AA154
+            label: ' Research'
+          - cell: AA155
+            label: ' Respiratory Therap'
+          - cell: AA156
+            label: ' Riverview Med Office'
+          - cell: AA157
+            label: ' Rmo Obstetrics'
+          - cell: AA158
+            label: ' Rx Home/Rx Homecare'
+          - cell: AA159
+            label: ' SEMI-PRIVATE'
+          - cell: AA160
+            label: ' Satellite Clin'
+          - cell: AA161
+            label: ' Series'
+          - cell: AA162
+            label: ' Sjsc On 12 Mile Rd'
+          - cell: AA163
+            label: ' Skilled Nursing Facility'
+          - cell: AA164
+            label: ' Sleep Study'
+          - cell: AA165
+            label: ' Special Care Nursery'
+          - cell: AA166
+            label: ' Special Procedures'
+          - cell: AA167
+            label: ' Sterility'
+          - cell: AA168
+            label: ' Substance Abuse'
+          - cell: AA169
+            label: ' The Care Program'
+          - cell: AA170
+            label: ' Urgent Care'
+          - cell: AA171
+            label: ' Void/Cancel'
+          - cell: AA172
+            label: ' Walk In Clinic'
+          - cell: AA173
+            label: ' Webber Clinic'
+          - cell: AA174
+            label: ' ZLAB'
+          - cell: AA175
+            label: ' ZRH'
+          - cell: AA176
+            label: ' eCare Downtime'
+          - cell: AA178
+            label: ' PVT  MED J01'
+          - cell: AA180
+            label: ' Outpat Labor and Del'
+          - cell: AA181
+            label: ' Doctor Office Visit'
+          - cell: AA182
+            label: ' Pulmonary Rehab'
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE5
+            label: ' Emergency Medicine,  Emergency First Aid, Medical Emergency'
+          - cell: AE6
+            label: ' Geriatric Medicine'
+          - cell: AE7
+            label: ' Gastroenterology, Gastro Surgery'
+          - cell: AE8
+            label: ' Gynecology, Breast Care Center, Livonia Breast Imaging, Farmington Mammography'
+          - cell: AE9
+            label: ' Hospice'
+          - cell: AE11
+            label: ' Internal Medicine'
+          - cell: AE13
+            label: ' Neurology,  Traumatic Brain Inj'
+          - cell: AE14
+            label: ' Neonatal-Perinatal Medicine'
+          - cell: AE15
+            label: ' Obstetrics'
+          - cell: AE16
+            label: ' Oncology,  Medical Oncology'
+          - cell: AE17
+            label: ' Orthopedics'
+          - cell: AE18
+            label: ' Pediatrics,  Fracture Clinic Pediatric'
+          - cell: AE19
+            label: ' Physical Medicine & Rehabilitation,  Rehab,  Occupational Therapy, Balance and Falls Clinic, Rehab Inpatient, Physical
+              Therapy, Park Physical Therap, Farmington Phy Ther'
+          - cell: AE20
+            label: ' General Surgery,  Surgery,  Op Surgery,  Park Surgical Center, I/P Surgery, Pre-surgical Screening, 12 Mile Surgery
+              Center Walk-In Lab, SFLD Pre-Surgical Testing, Pre-surgical Class, Park Pre-Surgical Testing, Same Day Surgery, Surgical
+              Oncology'
+          - cell: AE24
+            label: ' Allergy & Immunology'
+          - cell: AE25
+            label: ' Anesthesiology'
+          - cell: AE26
+            label: ' Dermatology'
+          - cell: AE28
+            label: ' Endocrinology'
+          - cell: AE29
+            label: ' Genetic General'
+          - cell: AE30
+            label: ' Hematology'
+          - cell: AE31
+            label: ' Infectious Disease'
+          - cell: AE32
+            label: ' Nephrology, Outpatient Dialysis Unit, Neph/Urol Surgery'
+          - cell: AE33
+            label: ' Neurological Surgery'
+          - cell: AE34
+            label: ' Ophthalmology'
+          - cell: AE35
+            label: ' Ear/Nose/Throat, Ent'
+          - cell: AE36
+            label: ' Plastic Surgery, Cosmetic, Cosmetic Surgery, Cosmetic Secondary to Medical'
+          - cell: AE37
+            label: ' Radiation Oncology'
+          - cell: AE38
+            label: ' Rheumatology'
+          - cell: AE39
+            label: ' Urology'
+          - cell: AE41
+            label: ' Interventional Radiology'
+          - cell: AE42
+            label: ' Clinical Diagnosis Unit'
+          - cell: AE43
+            label: ' Wound Care Treatment'
+          - cell: AE44
+            label: ' Newborn'
+          - cell: AE45
+            label: ' O/P Labor and Delivery, Boarder Baby, Outpatient Birthing, Nursery, Outpt Birth Nursery, Sick Baby'
+          - cell: AE46
+            label: ' Hospitalist'
+          - cell: AE47
+            label: ' Medical Subspecialty'
+          - cell: AE48
+            label: ' Audiology'
+          - cell: AE51
+            label: ' Colon & Rectal Surgery'
+          - cell: AE52
+            label: ' Maternity, Womens Breast Ctr - Park, Breast Imaging Center, Mammography, Gynecologic Oncology'
+          - cell: AE53
+            label: ' Oral Surgery,  Oral and Maxillofacial Surgery'
+          - cell: AE54
+            label: ' Palliative Care'
+          - cell: AE55
+            label: ' Podiatry Surgery'
+          - cell: AE56
+            label: ' Radiology,  Unscheduled Xray, Scheduled Xray,  Rad Special Procedure,  X-Ray (Seton/Depaul),  Livonia X-ray,  PET/CT
+              Scan - Park,  Diagnostic Radiology,  Farm Hills Radiology,  Pet Scan,  Open MRI,  X-Ray, Ultrasound, Macomb Township Diagnostic,
+              Cat Scan, Magnetic Resonance Imaging (MRI), Park Radiology/Amb, Outpatient Imaging Center, MRI, Occupational Health Radiology
+              Cases'
+          - cell: AE57
+            label: ' Sleep Disorders'
+          - cell: AE59
+            label: ' Transplant Clinic'
+          - cell: AE60
+            label: ' Bone Marrow,  Spinal Tap'
+          - cell: AE61
+            label: ' Chemotherapy,  O/P Chemotherapy'
+          - cell: AE63
+            label: ' Cardiopulmonary,  Pulmonary Funct-Resp,  Pulmonary Disease'
+          - cell: AE64
+            label: ' Thoracic Surgery'
+          - cell: AE65
+            label: ' Transfusions,  Blood Banking and Transfusion'
+          - cell: AE66
+            label: ' Family Practice'
+          - cell: AE69
+            label: ' Hepatology'
+          - cell: AE70
+            label: ' Pain Medicine'
+          - cell: AE74
+            label: ' Bariatric Surgery'
+          - cell: AE75
+            label: ' Urgent Care/After Hours'
+          - cell: AE79
+            label: ' Transplant Surgery'
+          - cell: AE81
+            label: ' Vascular Surgery'
+          - cell: AE82
+            label: ' Speech Pathology,  Speech Therapy'
+          - cell: AE84
+            label: ' Cardiology Joint Venture, NonInvasive Cardiology'
+          - cell: AE86
+            label: ' Orthopedic Surgery'
+          - cell: AE89
+            label: ' Psychiatry,  Partial Day Psych'
+          - cell: AE90
+            label: ' Endoscopy'
+          - cell: AE92
+            label: ' Trauma Surgery'
+          - cell: AE94
+            label: ' New Services'
+          - cell: AE98
+            label: ' Milford Sports Med'
+          - cell: AE99
+            label: ' Nuclear Medicine'
+          - cell: AE100
+            label: ' Day Treatment'
+          - cell: AE104
+            label: ' Alcoholism'
+          - cell: AE106
+            label: ' Mobile Pet Scanner Coach'
+          - cell: AE108
+            label: ' Livonia PT'
+          - cell: AE109
+            label: ' Private Referred'
+          - cell: AE111
+            label: ' Medical Practive Network/Physician Offic'
+          - cell: AE113
+            label: ' Special Procedures'
+          - cell: AE114
+            label: ' Laboratory'
+          - cell: AE115
+            label: ' Reversed Admit'
+          - cell: AE116
+            label: ' I/P Medicine'
+          - cell: AE119
+            label: ' Health Care Center'
+          - cell: AE120
+            label: ' Bronchoscopy - Respiratory Therapy'
+          - cell: AE122
+            label: ' Extended Care'
+          - cell: AE123
+            label: ' Vascular Lab'
+          - cell: AE124
+            label: ' Outpatient Cash Business Southfield PT'
+          - cell: AE127
+            label: ' Electroshock Therapy'
+          - cell: AE129
+            label: ' Recurring'
+          - cell: AE131
+            label: ' ABC OB Triage'
+          - cell: AE132
+            label: ' Specials'
+          - cell: AE133
+            label: ' Bronchoscopy-RESP'
+          - cell: AE134
+            label: ' Special Procedures (primarily cta''s)'
+          - cell: AE135
+            label: ' Referral'
+          - cell: AE137
+            label: ' Cancelled OP Surgery'
+          - cell: AE138
+            label: ' Providence Park Lab'
+          - cell: AE140
+            label: ' Op Procedure Unit'
+          - cell: AE141
+            label: ' Romeo Plank - 21 Mile Walk-In Lab'
+          - cell: AE143
+            label: ' OB Triage Patients'
+          - cell: AE144
+            label: ' Emergency-Park'
+          - cell: AE145
+            label: ' Livonia Ambulatory'
+          - cell: AE146
+            label: ' Home Health Agency'
+          - cell: AE151
+            label: ' Reversed ER Admit'
+          - cell: AE152
+            label: ' PK Cancer Inst Assarian CT'
+          - cell: AE156
+            label: ' Observation'
+          - cell: AE158
+            label: ' Myelograms'
+          - cell: AE159
+            label: ' Medical General'
+          - cell: AE160
+            label: ' PMB Lab'
+          - cell: AE161
+            label: ' Partial Hosp Program'
+          - cell: AE163
+            label: ' Outpatient Lab'
+          - cell: AE164
+            label: ' Diabetic Education'
+          - cell: AE165
+            label: ' Cancel Testing Done RSCH'
+          - cell: AE166
+            label: ' Lab (Seton and Depaul)'
+          - cell: AE167
+            label: ' Walk-in Moross'
+          - cell: AE168
+            label: ' Sfld OP Surgery'
+          - cell: AE169
+            label: ' OB ER'
+          - cell: AE170
+            label: ' Clinical Pathology/Laboratory Medicine'
+          - cell: AE171
+            label: ' Void/Cancel'
+          - cell: AE173
+            label: ' Occupational Medicine'
+          - cell: AE175
+            label: ' Outpatient Cash Business Northwestern'
+          - cell: AE177
+            label: ' Videostroboscopy'
+          - cell: AE179
+            label: ' Infusion with a charge'
+          - cell: AE180
+            label: ' Ent Surgery'
+          - cell: AE181
+            label: ' PMRS'
+          - cell: AE182
+            label: ' Park Corp Health'
+          - cell: AE183
+            label: ' Industrial Clinic'
+          - cell: AE184
+            label: ' Spinal Cord Injury Medicine'
+          - cell: AE185
+            label: ' Preadmission Testing'
+          - cell: AE186
+            label: ' Lab'
+          - cell: AE187
+            label: ' Card Outpt Cash - Sfld'
+          - cell: AE188
+            label: ' LaserTrtmt Non Eye'
+          - cell: AE189
+            label: ' Diagnostics'
+          - cell: AE190
+            label: ' Orbera Balloon Proc'
+          - cell: AE191
+            label: ' INDUSTRIAL EMERGENCY'
+          - cell: AE194
+            label: ' Heart Cardiology Consultants'
+          - cell: AE195
+            label: ' Use For Old Inactive Converted Codes'
+          - cell: AE196
+            label: ' Outpatient Pharmacy'
+          - cell: AE197
+            label: ' Mra'
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI7
+            label: ' Intermediate Care'
+          - cell: AI12
+            label: ' Admitted as Inpatient'
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-10
+          see:
+          - cell: F11
+            code: ' Unreported/Refused to Report'
+        - hl7 segment: DG1-6
+          see:
+          - cell: O4
+            code: ' Admitting,  Reason For Visit, Referring, Principal'
+        - hl7 segment: PV1-14
+          see:
+          - cell: X12
+            code: 'Not Available,  Birth Outside Hosp, Self Referral, Normal Delivery, UNSCHEDULED ADMIT(Direct Adm/Not ER),  NEWBORN,  Norm
+              Baby, SCHEDULED/PRESCHEDULED ADMISSION, ADM FROM O/P (NOT SURGERY),  Trans one unit to another (same hosp), ADM FROM O/P
+              SURGERY COPS/PSC,  IP to IP Same Facility, Outpatient/ Op Surg, Observation Patients,  Maternal Transfer, OTHER/NO OTHER
+              CODE APPLICABLE, Non Health Care Point of Origin, Trans one unit to another (same, UNSCHEDULED ADMIT(Direct Adm/Not, CD:746746239,
+              CD:746749349, CD:752318179, CD:796675875, '
+          - cell: X14
+            code: ' Premature Delivery, Extramural Birth'
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA30
+            code: ' 23 Ambulatory Surgery'
+          - cell: AA31
+            code: ' 23 Mile Emergency'
+          - cell: AA32
+            code: ' 4 BED R'
+          - cell: AA33
+            code: ' A-NEWBORN'
+          - cell: AA34
+            code: ' ASF PSC BLUE CROSS'
+          - cell: AA35
+            code: ' ASF SCS BLUE CROSS'
+          - cell: AA36
+            code: ' After Hours Medical Care'
+          - cell: AA37
+            code: ' All'
+          - cell: AA38
+            code: ' Ancillary'
+          - cell: AA39
+            code: ' Audiology'
+          - cell: AA40
+            code: ' Autologous Blood'
+          - cell: AA41
+            code: ' BCBS DETOX'
+          - cell: AA42
+            code: ' Beacon Center'
+          - cell: AA43
+            code: ' Blood Donation'
+          - cell: AA44
+            code: ' Blood Transfusion/Iv Therapy'
+          - cell: AA45
+            code: ' Blue Cross Blue Shield'
+          - cell: AA46
+            code: ' Botulium Study'
+          - cell: AA47
+            code: ' Breast Care Program'
+          - cell: AA48
+            code: ' CCU/CSU'
+          - cell: AA49
+            code: ' CONT OBSRV NURSERY'
+          - cell: AA50
+            code: ' Cardiac Cath'
+          - cell: AA51
+            code: ' Cardiac Rehab'
+          - cell: AA52
+            code: ' Cardiac/Pulm Rehab'
+          - cell: AA53
+            code: ' Chemotherapy'
+          - cell: AA54
+            code: ' Clinic'
+          - cell: AA55
+            code: ' Comprehensive Rehab'
+          - cell: AA56
+            code: ' Consult'
+          - cell: AA57
+            code: ' Conversion Use Only'
+          - cell: AA58
+            code: ' Counseling Center'
+          - cell: AA59
+            code: ' Counseling Center SAB'
+          - cell: AA60
+            code: ' Day Surgery'
+          - cell: AA61
+            code: ' Diabetes Clinic'
+          - cell: AA62
+            code: ' Diagnostic'
+          - cell: AA63
+            code: ' ER Temp'
+          - cell: AA64
+            code: ' Eastside Adult Med'
+          - cell: AA65
+            code: ' Eastside Peds'
+          - cell: AA66
+            code: ' Ekg Pacemaker Clin'
+          - cell: AA67
+            code: ' Emergency'
+          - cell: AA68
+            code: ' Emergency Observ'
+          - cell: AA69
+            code: ' Emergency Room Express Care'
+          - cell: AA70
+            code: ' Employee Health'
+          - cell: AA71
+            code: ' Employee Physicals'
+          - cell: AA72
+            code: ' Endoscopy'
+          - cell: AA73
+            code: ' Facility Billing'
+          - cell: AA74
+            code: ' Faith Medical Unit 1'
+          - cell: AA75
+            code: ' Faith Medical Unit 2'
+          - cell: AA76
+            code: ' Faith Medical Unit 3'
+          - cell: AA77
+            code: ' Family Health Cn/Drh Ref'
+          - cell: AA78
+            code: ' Family Planning'
+          - cell: AA79
+            code: ' Group Billing'
+          - cell: AA80
+            code: ' HOSPITAL CONVENIENCE'
+          - cell: AA81
+            code: ' Home Health Care'
+          - cell: AA82
+            code: ' Hospice'
+          - cell: AA83
+            code: ' ICCU/ICSU/SSU'
+          - cell: AA84
+            code: ' ICU'
+          - cell: AA85
+            code: ' IICU'
+          - cell: AA86
+            code: ' IP Hospice'
+          - cell: AA87
+            code: ' Industrial Clinic'
+          - cell: AA88
+            code: ' Industrial Health'
+          - cell: AA89
+            code: ' Industrial Health - ER'
+          - cell: AA90
+            code: ' Infertility Clinic'
+          - cell: AA91
+            code: ' Infusion Therapy'
+          - cell: AA92
+            code: ' Inpatient'
+          - cell: AA93
+            code: ' Inpatient Daily'
+          - cell: AA94
+            code: ' Inpatient Psych'
+          - cell: AA95
+            code: ' Inpatient Rehab'
+          - cell: AA96
+            code: ' Intensive Care'
+          - cell: AA97
+            code: ' Intermitt Care Newbo'
+          - cell: AA98
+            code: ' Intox Therapy'
+          - cell: AA99
+            code: ' Jvhl Op Lab'
+          - cell: AA100
+            code: ' Lab Specimens'
+          - cell: AA101
+            code: ' Laser Eye Surgery'
+          - cell: AA102
+            code: ' Ldrp Triage'
+          - cell: AA103
+            code: ' MED J01'
+          - cell: AA104
+            code: ' Methadone Clinic'
+          - cell: AA105
+            code: ' Mssp'
+          - cell: AA106
+            code: ' NICU'
+          - cell: AA107
+            code: ' Ne Op Referred'
+          - cell: AA108
+            code: ' Newborn'
+          - cell: AA109
+            code: ' Non Facility'
+          - cell: AA110
+            code: ' Non Patient'
+          - cell: AA111
+            code: ' Northeast Emergency'
+          - cell: AA112
+            code: ' O/P Surgery Boarder'
+          - cell: AA113
+            code: ' Ob/Gyn Clinic'
+          - cell: AA114
+            code: ' Observation'
+          - cell: AA115
+            code: ' Occupational Health'
+          - cell: AA116
+            code: ' Oncology'
+          - cell: AA117
+            code: ' Oral Surgery'
+          - cell: AA118
+            code: ' Other Outpatient'
+          - cell: AA119
+            code: ' Out of Scope Radiology'
+          - cell: AA120
+            code: ' Outpat Labor & Del'
+          - cell: AA121
+            code: ' Outpatient'
+          - cell: AA122
+            code: ' Outpatient Diagnostic'
+          - cell: AA123
+            code: ' Outpatient Message'
+          - cell: AA124
+            code: ' Outpatient Surgery'
+          - cell: AA125
+            code: ' PARTIAL HOSPITAL'
+          - cell: AA126
+            code: ' PRIVATE'
+          - cell: AA127
+            code: ' PSYCH'
+          - cell: AA128
+            code: ' PVT'
+          - cell: AA129
+            code: ' PVT INTERMED. CARE'
+          - cell: AA130
+            code: ' Pain Clinic'
+          - cell: AA131
+            code: ' Partial Day'
+          - cell: AA132
+            code: ' Partial Hospitalization'
+          - cell: AA133
+            code: ' Past Program'
+          - cell: AA134
+            code: ' Pediatric Clinic'
+          - cell: AA135
+            code: ' Phy Ther/Neur Recov'
+          - cell: AA136
+            code: ' Physical Therapy'
+          - cell: AA137
+            code: ' Physician Lab Draw'
+          - cell: AA138
+            code: ' Podiatric Clinic'
+          - cell: AA139
+            code: ' Preadmission Testing'
+          - cell: AA140
+            code: ' Preadmit'
+          - cell: AA141
+            code: ' Prenatal Clinic'
+          - cell: AA142
+            code: ' Program'
+          - cell: AA143
+            code: ' Progressive'
+          - cell: AA144
+            code: ' Progressive Semi'
+          - cell: AA145
+            code: ' Psychiatry'
+          - cell: AA146
+            code: ' Pt/Ot/Speech'
+          - cell: AA147
+            code: ' REFERRED PRIVATE'
+          - cell: AA148
+            code: ' Radiation Oncology'
+          - cell: AA149
+            code: ' Radiation Therapy'
+          - cell: AA150
+            code: ' Recurring'
+          - cell: AA151
+            code: ' Reference Lab'
+          - cell: AA152
+            code: ' Referred Outpt'
+          - cell: AA153
+            code: ' Rehab'
+          - cell: AA154
+            code: ' Research'
+          - cell: AA155
+            code: ' Respiratory Therap'
+          - cell: AA156
+            code: ' Riverview Med Office'
+          - cell: AA157
+            code: ' Rmo Obstetrics'
+          - cell: AA158
+            code: ' Rx Home/Rx Homecare'
+          - cell: AA159
+            code: ' SEMI-PRIVATE'
+          - cell: AA160
+            code: ' Satellite Clin'
+          - cell: AA161
+            code: ' Series'
+          - cell: AA162
+            code: ' Sjsc On 12 Mile Rd'
+          - cell: AA163
+            code: ' Skilled Nursing Facility'
+          - cell: AA164
+            code: ' Sleep Study'
+          - cell: AA165
+            code: ' Special Care Nursery'
+          - cell: AA166
+            code: ' Special Procedures'
+          - cell: AA167
+            code: ' Sterility'
+          - cell: AA168
+            code: ' Substance Abuse'
+          - cell: AA169
+            code: ' The Care Program'
+          - cell: AA170
+            code: ' Urgent Care'
+          - cell: AA171
+            code: ' Void/Cancel'
+          - cell: AA172
+            code: ' Walk In Clinic'
+          - cell: AA173
+            code: ' Webber Clinic'
+          - cell: AA174
+            code: ' ZLAB'
+          - cell: AA175
+            code: ' ZRH'
+          - cell: AA176
+            code: ' eCare Downtime'
+          - cell: AA178
+            code: ' PVT  MED J01'
+          - cell: AA180
+            code: ' Outpat Labor and Del'
+          - cell: AA181
+            code: ' Doctor Office Visit'
+          - cell: AA182
+            code: ' Pulmonary Rehab'
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: ' Cardiology,  Cardiodiagnostics - Park,  Cardiac Diagnostics, Cardiac Cath Lab, Cardiac Rehab - Novi, Cardiovascular
+              Disease, Cardiology Outpatient Clinic, Cardiac Referral, Cardiac Cath Extende, Cardiac Rehab, EEG/Holter/Echo, Cardio-Thoracic,
+              Cardiac Cath'
+          - cell: AE5
+            code: ' Emergency Medicine,  Emergency First Aid, Medical Emergency'
+          - cell: AE6
+            code: ' Geriatric Medicine'
+          - cell: AE7
+            code: ' Gastroenterology, Gastro Surgery'
+          - cell: AE8
+            code: ' Gynecology, Breast Care Center, Livonia Breast Imaging, Farmington Mammography'
+          - cell: AE9
+            code: ' Hospice'
+          - cell: AE11
+            code: ' Internal Medicine'
+          - cell: AE13
+            code: ' Neurology,  Traumatic Brain Inj'
+          - cell: AE14
+            code: ' Neonatal-Perinatal Medicine'
+          - cell: AE15
+            code: ' Obstetrics'
+          - cell: AE16
+            code: ' Oncology,  Medical Oncology'
+          - cell: AE17
+            code: ' Orthopedics'
+          - cell: AE18
+            code: ' Pediatrics,  Fracture Clinic Pediatric'
+          - cell: AE19
+            code: ' Physical Medicine & Rehabilitation,  Physical Medicine and Rehabilitation,  Rehab,  Occupational Therapy, Balance
+              and Falls Clinic, Rehab Inpatient, Physical Therapy, Park Physical Therap, Farmington Phy Ther'
+          - cell: AE20
+            code: ' General Surgery,  Surgery,  Op Surgery,  Park Surgical Center, I/P Surgery, Pre-surgical Screening, 12 Mile Surgery
+              Center Walk-In Lab, SFLD Pre-Surgical Testing, Pre-surgical Class, Park Pre-Surgical Testing, Same Day Surgery, Surgical
+              Oncology'
+          - cell: AE24
+            code: ' Allergy & Immunology'
+          - cell: AE25
+            code: ' Anesthesiology'
+          - cell: AE26
+            code: ' Dermatology'
+          - cell: AE28
+            code: ' Endocrinology'
+          - cell: AE29
+            code: ' Genetic General'
+          - cell: AE30
+            code: ' Hematology'
+          - cell: AE31
+            code: ' Infectious Disease'
+          - cell: AE32
+            code: ' Nephrology, Outpatient Dialysis Unit, Neph/Urol Surgery'
+          - cell: AE33
+            code: ' Neurological Surgery'
+          - cell: AE34
+            code: ' Ophthalmology'
+          - cell: AE35
+            code: ' Ear/Nose/Throat, Ent'
+          - cell: AE36
+            code: ' Plastic Surgery, Cosmetic, Cosmetic Surgery, Cosmetic Secondary to Medical'
+          - cell: AE37
+            code: ' Radiation Oncology'
+          - cell: AE38
+            code: ' Rheumatology'
+          - cell: AE39
+            code: ' Urology'
+          - cell: AE41
+            code: ' Interventional Radiology'
+          - cell: AE42
+            code: ' Clinical Diagnosis Unit'
+          - cell: AE43
+            code: ' Wound Care Treatment'
+          - cell: AE44
+            code: ' Newborn'
+          - cell: AE45
+            code: ' O/P Labor and Delivery, Boarder Baby, Outpatient Birthing, Nursery, Outpt Birth Nursery, Sick Baby'
+          - cell: AE46
+            code: ' Hospitalist'
+          - cell: AE47
+            code: ' Medical Subspecialty'
+          - cell: AE48
+            code: ' Audiology'
+          - cell: AE51
+            code: ' Colon & Rectal Surgery'
+          - cell: AE52
+            code: ' Maternity, Womens Breast Ctr - Park, Breast Imaging Center, Mammography, Gynecologic Oncology'
+          - cell: AE53
+            code: ' Oral Surgery,  Oral and Maxillofacial Surgery'
+          - cell: AE54
+            code: ' Palliative Care'
+          - cell: AE55
+            code: ' Podiatry Surgery'
+          - cell: AE56
+            code: ' Radiology,  Unscheduled Xray, Scheduled Xray,  Rad Special Procedure,  X-Ray (Seton/Depaul),  Livonia X-ray,  PET/CT
+              Scan - Park,  Diagnostic Radiology,  Farm Hills Radiology,  Pet Scan,  Open MRI,  X-Ray, Ultrasound, Macomb Township Diagnostic,
+              Cat Scan, Magnetic Resonance Imaging (MRI), Park Radiology/Amb, Outpatient Imaging Center, MRI, Occupational Health Radiology
+              Cases'
+          - cell: AE57
+            code: ' Sleep Disorders'
+          - cell: AE59
+            code: ' Transplant Clinic'
+          - cell: AE60
+            code: ' Bone Marrow,  Spinal Tap'
+          - cell: AE61
+            code: ' Chemotherapy,  O/P Chemotherapy'
+          - cell: AE63
+            code: ' Cardiopulmonary,  Pulmonary Funct-Resp,  Pulmonary Disease'
+          - cell: AE64
+            code: ' Thoracic Surgery'
+          - cell: AE65
+            code: ' Transfusions,  Blood Banking and Transfusion'
+          - cell: AE66
+            code: ' Family Practice'
+          - cell: AE69
+            code: ' Hepatology'
+          - cell: AE70
+            code: ' Pain Medicine'
+          - cell: AE74
+            code: ' Bariatric Surgery'
+          - cell: AE75
+            code: ' Urgent Care/After Hours'
+          - cell: AE79
+            code: ' Transplant Surgery'
+          - cell: AE81
+            code: ' Vascular Surgery'
+          - cell: AE82
+            code: ' Speech Pathology,  Speech Therapy'
+          - cell: AE84
+            code: ' Cardiology Joint Venture, NonInvasive Cardiology'
+          - cell: AE86
+            code: ' Orthopedic Surgery'
+          - cell: AE89
+            code: ' Psychiatry,  Partial Day Psych'
+          - cell: AE90
+            code: ' Endoscopy'
+          - cell: AE92
+            code: ' Trauma Surgery'
+          - cell: AE94
+            code: ' New Services'
+          - cell: AE98
+            code: ' Milford Sports Med'
+          - cell: AE99
+            code: ' Nuclear Medicine'
+          - cell: AE100
+            code: ' Day Treatment'
+          - cell: AE104
+            code: ' Alcoholism'
+          - cell: AE106
+            code: ' Mobile Pet Scanner Coach'
+          - cell: AE108
+            code: ' Livonia PT'
+          - cell: AE109
+            code: ' Private Referred'
+          - cell: AE111
+            code: ' Medical Practive Network/Physician Offic'
+          - cell: AE113
+            code: ' Special Procedures'
+          - cell: AE114
+            code: ' Laboratory'
+          - cell: AE115
+            code: ' Reversed Admit'
+          - cell: AE116
+            code: ' I/P Medicine'
+          - cell: AE119
+            code: ' Health Care Center'
+          - cell: AE120
+            code: ' Bronchoscopy - Respiratory Therapy'
+          - cell: AE122
+            code: ' Extended Care'
+          - cell: AE123
+            code: ' Vascular Lab'
+          - cell: AE124
+            code: ' Outpatient Cash Business Southfield PT'
+          - cell: AE127
+            code: ' Electroshock Therapy'
+          - cell: AE129
+            code: ' Recurring'
+          - cell: AE131
+            code: ' ABC OB Triage'
+          - cell: AE132
+            code: ' Specials'
+          - cell: AE133
+            code: ' Bronchoscopy-RESP'
+          - cell: AE134
+            code: ' Special Procedures (primarily cta''s)'
+          - cell: AE135
+            code: ' Referral'
+          - cell: AE137
+            code: ' Cancelled OP Surgery'
+          - cell: AE138
+            code: ' Providence Park Lab'
+          - cell: AE140
+            code: ' Op Procedure Unit'
+          - cell: AE141
+            code: ' Romeo Plank - 21 Mile Walk-In Lab'
+          - cell: AE143
+            code: ' OB Triage Patients'
+          - cell: AE144
+            code: ' Emergency-Park'
+          - cell: AE145
+            code: ' Livonia Ambulatory'
+          - cell: AE146
+            code: ' Home Health Agency'
+          - cell: AE151
+            code: ' Reversed ER Admit'
+          - cell: AE152
+            code: ' PK Cancer Inst Assarian CT'
+          - cell: AE156
+            code: ' Observation'
+          - cell: AE158
+            code: ' Myelograms'
+          - cell: AE159
+            code: ' Medical General'
+          - cell: AE160
+            code: ' PMB Lab'
+          - cell: AE161
+            code: ' Partial Hosp Program'
+          - cell: AE163
+            code: ' Outpatient Lab'
+          - cell: AE164
+            code: ' Diabetic Education'
+          - cell: AE165
+            code: ' Cancel Testing Done RSCH'
+          - cell: AE166
+            code: ' Lab (Seton and Depaul)'
+          - cell: AE167
+            code: ' Walk-in Moross'
+          - cell: AE168
+            code: ' Sfld OP Surgery'
+          - cell: AE169
+            code: ' OB ER'
+          - cell: AE170
+            code: ' Clinical Pathology/Laboratory Medicine'
+          - cell: AE171
+            code: ' Void/Cancel'
+          - cell: AE173
+            code: ' Occupational Medicine'
+          - cell: AE175
+            code: ' Outpatient Cash Business Northwestern'
+          - cell: AE177
+            code: ' Videostroboscopy'
+          - cell: AE179
+            code: ' Infusion with a charge'
+          - cell: AE180
+            code: ' Ent Surgery'
+          - cell: AE181
+            code: ' PMRS'
+          - cell: AE182
+            code: ' Park Corp Health'
+          - cell: AE183
+            code: ' Industrial Clinic'
+          - cell: AE184
+            code: ' Spinal Cord Injury Medicine'
+          - cell: AE185
+            code: ' Preadmission Testing'
+          - cell: AE186
+            code: ' Lab'
+          - cell: AE187
+            code: ' Card Outpt Cash - Sfld'
+          - cell: AE188
+            code: ' LaserTrtmt Non Eye'
+          - cell: AE189
+            code: ' Diagnostics'
+          - cell: AE190
+            code: ' Orbera Balloon Proc'
+          - cell: AE191
+            code: ' INDUSTRIAL EMERGENCY'
+          - cell: AE194
+            code: ' Heart Cardiology Consultants'
+          - cell: AE195
+            code: ' Use For Old Inactive Converted Codes'
+          - cell: AE196
+            code: ' Outpatient Pharmacy'
+          - cell: AE197
+            code: ' Mra'
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI5
+            code: 'General Hosp w/Planned Acute Care Readm,  Short Term Hospital, Another Hospital,  Acute Care, '
+          - cell: AI7
+            code: ' Intermediate Care'
+          - cell: AI12
+            code: ' Admitted as Inpatient'
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM5
+            code: ' Brother'
+          - cell: AM7
+            code: ' Son/Daughter'
+          - cell: AM16
+            code: ' Father'
+          - cell: AM18
+            code: '  Guardian, Legal Guardian'
+          - cell: AM19
+            code: '  Grandparent, Grandmother,  Grandfather'
+          - cell: AM21
+            code: ' Mother'
+          - cell: AM24
+            code: '  Clergy/Pastor, Partner'
+          - cell: AM25
+            code: ' Other Relationship, Unknown, CD:750941290, General, Patient Advocat'
+          - cell: AM27
+            code: ' Parent, Fosterparent,'
+          - cell: AM29
+            code: ' Self'
+          - cell: AM31
+            code: ' Sister'
+          - cell: AM32
+            code: ' Spouse, Husband,  Wife, Fiance'
+        - hl7 segment: IN1
+          see:
+          - cell: AP889
+            code: ' '
+          - cell: AP926
+            code: ' '
+          - cell: AP998
+            code: ' '
+          - cell: AP1014
+            code: ' '
+          - cell: AP1017
+            code: ' '

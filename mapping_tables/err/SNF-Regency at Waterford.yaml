@@ -1,0 +1,23 @@
+base: SNF-Regency at Waterford
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Regency at Waterford ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 365c960a1388428a9a6a6a755540926a
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210915095141'
+          field name: PID-30
+          field value: '""'
+          message count: 151
+          receiving org message ID: 82520669
+        - HL7 ID: 365c960a1388428a9a6a6a755540926a
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210915095141'
+          field name: PV1-36
+          field value: '""'
+          message count: 161
+          receiving org message ID: 82520669

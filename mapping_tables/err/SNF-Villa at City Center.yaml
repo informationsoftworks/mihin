@@ -1,0 +1,23 @@
+base: SNF-Villa at City Center
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Villa at City Center ADT 2.0 table 08-10-2021.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 7ef171cdde714be289c69fb969b4be98
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210904151044'
+          field name: PID-30
+          field value: '""'
+          message count: 46
+          receiving org message ID: 26403520
+        - HL7 ID: 7ef171cdde714be289c69fb969b4be98
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210904151044'
+          field name: PV1-36
+          field value: '""'
+          message count: 47
+          receiving org message ID: 26403520

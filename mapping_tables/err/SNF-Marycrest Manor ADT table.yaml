@@ -1,0 +1,14 @@
+base: SNF-Marycrest Manor ADT table
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Marycrest Manor ADT table 2.0 12-21-17.xlsx
+      list:
+      - error: Invalid OID
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            code: '2.16.840.1.113883.3.137.4.2000.90         '
+            value: Marycrest Manor

@@ -1,0 +1,454 @@
+base: Munson Healthcare
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare ADT 2.0 table 02-10-2021.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: Q2884050644T2927389861X662870
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210916113106'
+          field name: PID-10
+          field value: '""'
+          message count: 87
+          receiving org message ID: 19602904
+        - HL7 ID: Q2880093745T2920450216X149941
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210909001244'
+          field name: PID-22
+          field value: '""'
+          message count: 60
+          receiving org message ID: 26891490
+        - HL7 ID: Q2884420323T2928048566X712110
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210917002331'
+          field name: PID-30
+          field value: '""'
+          message count: 1909
+          receiving org message ID: 27391206
+        - HL7 ID: Q2882451455T2924565999X442163
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210914001502'
+          field name: PV1-14
+          field value: '""'
+          message count: 75
+          receiving org message ID: 27237514
+        - HL7 ID: Q2884420314T2928048553X712108
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210917002331'
+          field name: PV1-36
+          field value: '""'
+          message count: 419
+          receiving org message ID: 27391205
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare ADT 2.0 table 02-10-2021.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA164
+            code: GDM
+          - cell: AA165
+            code: F/C
+          - cell: AA172
+            code: VDM
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP17
+          - cell: AP27
+          - cell: AP38
+          - cell: AP75
+          - cell: AP83
+          - cell: AP90
+          - cell: AP98
+          - cell: AP103
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE5
+            label: 'ER (EMERGENCY ROOM), '
+          - cell: AE7
+            label: 'GEC (CLN-GASTROENTEROLOG), '
+          - cell: AE8
+            label: 'GYN (CLN-GYNEOCLOGY), '
+          - cell: AE9
+            label: 'HPC (HOSPICE INPATIENT), '
+          - cell: AE29
+            label: 'GCC (GENETIC COUNSELING CLINIC), '
+          - cell: AE39
+            label: 'BAP (BAY AREA UROLOGY PROCEDURE), BAU (BAY AREA UROLOGY), '
+          - cell: AE41
+            label: 'IRC (INTERVENTIONAL RADIOLOGY CLINIC), '
+          - cell: AE52
+            label: 'BRC (BREAST CENTER), CBP (COMPREHENSIVE BREAST PROGRAM), '
+          - cell: AE55
+            label: 'POD (CLN-PODIATRY), '
+          - cell: AE57
+            label: 'PSP (PRE-SLEEP), SDC (CLN SLEEP DISORDER), '
+          - cell: AE65
+            label: 'BLD (BLOOD TRANSFUSION), '
+          - cell: AE70
+            label: 'MCP (PAIN PROCEDURES), PAC (CLN-PAIN ASSES), MPP (PAIN PROCEDURE CLINIC), '
+          - cell: AE82
+            label: '(SPEECH THERAPY SERIES), SHP (PED SPEECH THERAPY), SH (O/P SPEECH & HEARING), MTS (MEMORY TRAINING SPEECH), '
+          - cell: AE84
+            label: 'THV (THRAV HEART & VASC), HVD (HEART & VASC DIAG), '
+          - cell: AE89
+            label: 'MEN (I/P MENTAL HEALTH), '
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI4
+            label: 'Discharged to home or self care (routine discharge), Home or Self Care (I), '
+          - cell: AI9
+            label: 'Discharged/transferred to home under care of organized home health service \norganization, Home Under Care (I) '
+          - cell: AI15
+            label: 'COURT OR LAW ENFORCE '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-10
+          see:
+          - cell: F4
+            code: '1002-5, 14799, 603630839, '
+        - hl7 segment: PV1-14
+          see:
+          - cell: X7
+            code: '4, I, TSF, '
+          - cell: X9
+            code: '6, O, LTC, '
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA30
+            code: ' THV'
+          - cell: AA32
+            code: ' IDC'
+          - cell: AA33
+            code: ' NPH'
+          - cell: AA34
+            code: ' ALC'
+          - cell: AA35
+            code: ' LKE'
+          - cell: AA36
+            code: ' PGT'
+          - cell: AA37
+            code: ' OTS'
+          - cell: AA38
+            code: ' NSR'
+          - cell: AA39
+            code: ' MVN'
+          - cell: AA40
+            code: ' RCC'
+          - cell: AA41
+            code: ' AUS'
+          - cell: AA42
+            code: ' RHC'
+          - cell: AA43
+            code: ' WMP'
+          - cell: AA44
+            code: ' MOP'
+          - cell: AA45
+            code: ' UCN'
+          - cell: AA46
+            code: ' PER'
+          - cell: AA47
+            code: ' NSY'
+          - cell: AA48
+            code: ' OBD'
+          - cell: AA49
+            code: ' CLK'
+          - cell: AA50
+            code: ' LUC'
+          - cell: AA51
+            code: ' CFP'
+          - cell: AA52
+            code: ' CLM'
+          - cell: AA53
+            code: ' IVT'
+          - cell: AA54
+            code: ' PSC'
+          - cell: AA55
+            code: ' CDS'
+          - cell: AA56
+            code: ' PST'
+          - cell: AA57
+            code: ' ELK'
+          - cell: AA58
+            code: ' MPP'
+          - cell: AA59
+            code: ' PR'
+          - cell: AA60
+            code: ' COP'
+          - cell: AA61
+            code: ' OPL'
+          - cell: AA62
+            code: ' BTZ'
+          - cell: AA63
+            code: ' SDC'
+          - cell: AA64
+            code: ' REL'
+          - cell: AA65
+            code: ' I/P'
+          - cell: AA66
+            code: ' MDC'
+          - cell: AA67
+            code: ' ECT'
+          - cell: AA68
+            code: ' HVD'
+          - cell: AA69
+            code: ' DSA'
+          - cell: AA70
+            code: ' PC'
+          - cell: AA71
+            code: ' TEN'
+          - cell: AA72
+            code: ' MCL'
+          - cell: AA73
+            code: ' AKI'
+          - cell: AA74
+            code: ' CON'
+          - cell: AA75
+            code: ' CDM'
+          - cell: AA76
+            code: ' INF'
+          - cell: AA77
+            code: ' PMC'
+          - cell: AA78
+            code: ' LCC'
+          - cell: AA79
+            code: ' PDM'
+          - cell: AA80
+            code: ' PRS'
+          - cell: AA81
+            code: ' PRH'
+          - cell: AA82
+            code: ' AAT'
+          - cell: AA83
+            code: ' MCP'
+          - cell: AA84
+            code: ' OHC'
+          - cell: AA85
+            code: ' PXY'
+          - cell: AA86
+            code: ' PRF'
+          - cell: AA87
+            code: ' ROS'
+          - cell: AA88
+            code: ' CLI'
+          - cell: AA89
+            code: ' CYT'
+          - cell: AA90
+            code: ' IHR'
+          - cell: AA91
+            code: ' PRU'
+          - cell: AA92
+            code: ' AUT'
+          - cell: AA93
+            code: ' CYC'
+          - cell: AA94
+            code: ' NUR'
+          - cell: AA95
+            code: ' LAB'
+          - cell: AA96
+            code: ' ANT'
+          - cell: AA97
+            code: ' SER'
+          - cell: AA99
+            code: ' ORC'
+          - cell: AA100
+            code: ' E/R'
+          - cell: AA101
+            code: ' GTP'
+          - cell: AA102
+            code: ' PSP'
+          - cell: AA103
+            code: ' LTV'
+          - cell: AA104
+            code: ' FPM'
+          - cell: AA105
+            code: ' EMP'
+          - cell: AA106
+            code: ' AGP'
+          - cell: AA107
+            code: ' AOC'
+          - cell: AA108
+            code: ' ONC'
+          - cell: AA109
+            code: ' CRH'
+          - cell: AA110
+            code: ' OTR'
+          - cell: AA111
+            code: ' ABR'
+          - cell: AA112
+            code: ' DIG'
+          - cell: AA113
+            code: ' UCK'
+          - cell: AA114
+            code: ' BIR'
+          - cell: AA115
+            code: ' OBV'
+          - cell: AA116
+            code: ' RTX'
+          - cell: AA117
+            code: ' PRT'
+          - cell: AA118
+            code: ' CRP'
+          - cell: AA119
+            code: ' ER'
+          - cell: AA120
+            code: ' RHU'
+          - cell: AA122
+            code: ' CCL'
+          - cell: AA123
+            code: ' KDM'
+          - cell: AA124
+            code: ' ALK'
+          - cell: AA125
+            code: ' MCH'
+          - cell: AA126
+            code: ' OPE'
+          - cell: AA127
+            code: ' OPR'
+          - cell: AA128
+            code: ' HAB'
+          - cell: AA129
+            code: ' NTH'
+          - cell: AA130
+            code: ' LTC'
+          - cell: AA131
+            code: ' MIL'
+          - cell: AA132
+            code: ' GTI'
+          - cell: AA133
+            code: ' PDS'
+          - cell: AA134
+            code: ' KTC'
+          - cell: AA135
+            code: ' XCL'
+          - cell: AA136
+            code: ' MRT'
+          - cell: AA137
+            code: ' ABZ'
+          - cell: AA138
+            code: ' O/P'
+          - cell: AA140
+            code: ' TPY'
+          - cell: AA141
+            code: ' CMP'
+          - cell: AA142
+            code: ' FAC'
+          - cell: AA143
+            code: ' NEP'
+          - cell: AA144
+            code: ' AUD'
+          - cell: AA145
+            code: ' PUC'
+          - cell: AA146
+            code: ' ATN'
+          - cell: AA147
+            code: ' XLO'
+          - cell: AA148
+            code: ' PAB'
+          - cell: AA149
+            code: ' NM'
+          - cell: AA150
+            code: ' CLF'
+          - cell: AA151
+            code: ' OPS'
+          - cell: AA152
+            code: ' MDM'
+          - cell: AA153
+            code: ' PPD'
+          - cell: AA154
+            code: ' M/M'
+          - cell: AA155
+            code: ' DAU'
+          - cell: AA156
+            code: ' END'
+          - cell: AA157
+            code: ' MRI'
+          - cell: AA158
+            code: ' ROF'
+          - cell: AA159
+            code: ' SWB'
+          - cell: AA160
+            code: ' WMC'
+          - cell: AA161
+            code: ' LIT'
+          - cell: AA162
+            code: ' SCL'
+          - cell: AA163
+            code: ' HCL'
+          - cell: AA164
+            code: ' GDM'
+          - cell: AA165
+            code: ' F/C'
+          - cell: AA166
+            code: ' SHS'
+          - cell: AA167
+            code: ' GCT'
+          - cell: AA168
+            code: ' MPL'
+          - cell: AA169
+            code: ' AWC'
+          - cell: AA170
+            code: ' WAR'
+          - cell: AA171
+            code: ' MAP'
+          - cell: AA172
+            code: ' VDM'
+          - cell: AA173
+            code: ' COT'
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: 'CAR, CP, EEG, CLT, NC, CCL, '
+          - cell: AE5
+            code: 'ER, '
+          - cell: AE7
+            code: 'GEC, '
+          - cell: AE8
+            code: 'GYN, '
+          - cell: AE9
+            code: 'HPC, '
+          - cell: AE18
+            code: 'SYN, PED, NUR, PD, OTP, '
+          - cell: AE29
+            code: 'GCC, '
+          - cell: AE39
+            code: 'BAP, BAU, '
+          - cell: AE41
+            code: 'IRC, '
+          - cell: AE43
+            code: 'TWC, AWC, '
+          - cell: AE52
+            code: 'BRC, CBP, '
+          - cell: AE55
+            code: 'POD, '
+          - cell: AE57
+            code: 'PSP, SDC, '
+          - cell: AE65
+            code: 'BLD, '
+          - cell: AE70
+            code: 'MCP, PAC, MPP, '
+          - cell: AE82
+            code: 'SP, SHP, SH, MTS, '
+          - cell: AE84
+            code: 'THV, HVD, '
+          - cell: AE89
+            code: 'MEN, '
+          - cell: AE93
+            code: ' OBS'
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM25
+            code: 'OTH, CHD, UNK, DOM, 16, GCH, ng, '

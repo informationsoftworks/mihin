@@ -1,0 +1,81 @@
+base: Ascension Providence Rochester
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Ascension Providence Rochester ADT 2.0 table 9-19-19.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: Q2232966525T33146737
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210913140047'
+          field name: PV1-36
+          field value: '""'
+          message count: 22
+          receiving org message ID: 82042997
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Ascension Providence Rochester ADT 2.0 table 9-19-19.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE94
+            code: Respiratory Disease
+          - cell: AE95
+            code: Employee Health Service
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            label: 'Cardiology, Pediatric Cardiac Clinic, '
+          - cell: AE12
+            label: 'Internal Medicine, CLINIC, GENERAL PRACTICE, OCCUPATIONAL MEDICINE, PREVENTATIVE MEDICINE, '
+          - cell: AE16
+            label: 'Obstetrics, Abortion, Ob Not Delivered (Medical), Ob Delivered, Postpartum, Special Care Nursery, Stillborn, '
+          - cell: AE30
+            label: 'Endocrinology '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: DG1-6
+          see:
+          - cell: O7
+            code: 'OT, PR, DI, '
+        - hl7 segment: PV1-2
+          see:
+          - cell: R7
+            code: 'I, R, '
+          - cell: R8
+            code: 'M, '
+          - cell: R9
+            code: 'O, H, 0, '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: '11, 22, '
+          - cell: AE12
+            code: 'Internal Medicine, Clinic, General Practice, Occupational Medicine, Preventative Medicine, '
+          - cell: AE16
+            code: 'Obstetrics, 75, 76, 77, 78, 84, 89, '
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM24
+            code: '15, FP, '
+          - cell: AM25
+            code: '04, 11, 12, 16, 17, CN, 08, NE, NI, PA, '
+          - cell: AM27
+            code: '18, PT, '
+          - cell: AM32
+            code: '02, HU, WI, '
+        - hl7 segment: IN1
+          see:
+          - cell: AP33
+            code: 'BC OUT OF STATE '
+          - cell: AP239
+            code: 'GIFT OF LIFE '

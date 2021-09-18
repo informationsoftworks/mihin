@@ -1,0 +1,23 @@
+base: SNF-Heartland HC Center-Briarwood
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Heartland HC Center-Briarwood ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 1ef752b3910843a5bb3fadc55ef04e69
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210914162141'
+          field name: PID-30
+          field value: '""'
+          message count: 25
+          receiving org message ID: 27241261
+        - HL7 ID: 1ef752b3910843a5bb3fadc55ef04e69
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210914162141'
+          field name: PV1-36
+          field value: '""'
+          message count: 18
+          receiving org message ID: 27241261

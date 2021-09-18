@@ -1,0 +1,1486 @@
+filename	0	0		2.0 Mapping Tables - Hospitals/Detroit Medical Center ADT 2.0 table 03-06-19.xlsx			
+MSH-4	2	1	Hospital Value	Description			4
+MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
+MSH-4	4	1	2.16.840.1.113883.3.801.4.5	DMC-Childrens Hosp of Michigan			00000000
+MSH-4	5	1	2.16.840.1.113883.3.801.4.1	Detroit Medical Center - Harper Univ & Hutzel Hosp			00000000
+MSH-4	6	1	2.16.840.1.113883.3.801.4.3	Detroit Medical Center - Sinai Grace Hospital			00000000
+MSH-4	7	1	2.16.840.1.113883.3.801.4.2	Detroit Medical Center - Detroit Receiving			00000000
+MSH-4	8	1	2.16.840.1.113883.3.801.4.6	Detroit Medical Center - Rehab Institute of MI			00000000
+MSH-4	9	1	2.16.840.1.113883.3.801.4.4	DMC Huron Valley Sinai Hospital			00000000
+MSH-4	10	1	2.16.840.1.113883.3.801.4.7	DMC Surgery Hospital			00000000
+MSH-4	11	1	2.16.840.1.113883.3.6769	DMC Children's Hospital of Michigan - Troy, Michigan Facility			00000000
+PID-8	2	3	MiHIN Value	Description	Hospital Value		4
+PID-8	3	3	M	Male	M		2
+PID-8	4	3	F	Female	F		4
+PID-8	5	3	M	Male	M		4
+PID-8	6	3	O	Other			4
+PID-8	7	3	U	Unknown	U		4
+PID-8	8	3	A	Ambiguous			4
+PID-8	9	3	N	Not Applicable			4
+PID-10	2	6	MiHIN Value	Description	Hospital Value		4
+PID-10	3	6	2106-3	White	W		2
+PID-10	4	6	1002-5	American Indian or Alaska Native	1002-5		4
+PID-10	5	6	2028-9	Asian	2028-9		4
+PID-10	6	6	2054-5	Black or African American	2054-5, 2056-0, 2058-6		4
+PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	2076-8		4
+PID-10	8	6	2106-3	White	2106-3		4
+PID-10	9	6	2131-1	Other Race	2131-1		4
+PID-10	10	6	MR	Multi-Racial			4
+PID-10	11	6	PR	Patient Refused 			4
+PID-10	12	6		American Indian	1004-1		0
+PID-10	13	6		Alaska Native	1735-0		0
+PID-10	14	6		Asian Indian	2029-7		0
+PID-10	15	6		Bangladeshi	2030-5		0
+PID-10	16	6		Bhutanese	2031-3		0
+PID-10	17	6		Burmese	2032-1		0
+PID-10	18	6		Cambodian	2033-9		0
+PID-10	19	6		Chinese	2034-7		0
+PID-10	20	6		Taiwanese	2035-4		0
+PID-10	21	6		Filipino	2036-2		0
+PID-10	22	6		Hmong	2037-0		0
+PID-10	23	6		Indonesian	2038-8		0
+PID-10	24	6		Japanese	2039-6		0
+PID-10	25	6		Korean	2040-4		0
+PID-10	26	6		Laotian	2041-2		0
+PID-10	27	6		Malaysian	2042-0		0
+PID-10	28	6		Okinawan	2043-8		0
+PID-10	29	6		Pakistani	2044-6		0
+PID-10	30	6		Sri Lankan	2045-3		0
+PID-10	31	6		Thai	2046-1		0
+PID-10	32	6		Vietnamese	2047-9		0
+PID-10	33	6		Iwo Jiman	2048-7		0
+PID-10	34	6		Maldivian	2049-5		0
+PID-10	35	6		Nepalese	2050-3		0
+PID-10	36	6		Singaporean	2051-1		0
+PID-10	37	6		African	2060-2		0
+PID-10	38	6		Bahamian	2067-7		0
+PID-10	39	6		Barbadian	2068-5		0
+PID-10	40	6		Dominican	2069-3		0
+PID-10	41	6		Dominica Islander	2070-1		0
+PID-10	42	6		Haitian	2071-9		0
+PID-10	43	6		Jamaican	2072-7		0
+PID-10	44	6		Tobagoan	2073-5		0
+PID-10	45	6		Trinidadian	2074-3		0
+PID-10	46	6		West Indian	2075-0		0
+PID-10	47	6		Polynesian	2078-4		0
+PID-10	48	6		Micronesian	2085-9		0
+PID-10	49	6		European	2108-9		0
+PID-10	50	6		Middle Eastern or North African	2118-8		0
+PID-10	51	6		Arab	2129-5		0
+PID-10	52	6		Other Pacific Islander	2500-7		0
+PID-22	2	9	MiHIN Value	Description	Hospital Value		4
+PID-22	3	9	H	Hispanic or Latino	Hisp		2
+PID-22	4	9	H	Hispanic or Latino	H		4
+PID-22	5	9	N	Not Hispanic or Latino	N		4
+PID-22	6	9	U	Unknown	U		4
+PID-22	7	9	D	Declined			4
+PID-22	8	9	AN	Alaskan Native 			4
+PID-22	9	9	AR	Arabic 			4
+PID-22	10	9	AS	Asian 			4
+PID-22	11	9	CA	Caucasian			4
+PID-22	12	9	CHA	Chaldean 			4
+PID-22	13	9	CHI	Chinese 			4
+PID-22	14	9	DU	Dutch 			4
+PID-22	15	9	EG	Egyptian 			4
+PID-22	16	9	FR	French 			4
+PID-22	17	9	GER	German 			4
+PID-22	18	9	GRE	Greek 			4
+PID-22	19	9	HA	Hawaiian 			4
+PID-22	20	9	IRA	Iranian 			4
+PID-22	21	9	IRQ	Iraqi 			4
+PID-22	22	9	IRH	Irish 			4
+PID-22	23	9	ITA	Italian 			4
+PID-22	24	9	JA	Japanese 			4
+PID-22	25	9	JE	Jewish 			4
+PID-22	26	9	JO	Jordanian 			4
+PID-22	27	9	KO	Korean 			4
+PID-22	28	9	LE	Lebanese  			4
+PID-22	29	9	MAC	Macedonian 			4
+PID-22	30	9	ME	Middle Eastern			4
+PID-22	31	9	MUL	Multi-Ethnic 			4
+PID-22	32	9	NA	Native American			4
+PID-22	33	9	O	Other 			4
+PID-22	34	9	PO	Polish 			4
+PID-22	35	9	RU	Russian 			4
+PID-22	36	9	SC	Scottish 			4
+PID-22	37	9	UK	Ukrainian 			4
+PID-22	38	9	VIT	Vietnamese 			4
+PID-30	2	12	MiHIN Value	Description	Hospital Value		4
+PID-30	3	12	Y	Expired	E		2
+PID-30	4	12	Y	Deceased/Yes	Y		4
+PID-30	5	12	N	Not Deceased/No	N		4
+DG1-6	2	15	MiHIN Value	Description	Hospital Value		4
+DG1-6	3	15	A	Admitting	AD		2
+DG1-6	4	15	A	Admitting	A		4
+DG1-6	5	15	F	Final	F		4
+DG1-6	6	15	W	Working 	W		4
+DG1-6	7	15	O	Other			4
+PV1-2	2	18	MiHIN Value	Description	Hospital Value		4
+PV1-2	3	18	E	Emergency	ER		2
+PV1-2	4	18	B	Obstetrics			4
+PV1-2	5	18	C	Commercial Account			4
+PV1-2	6	18	E	Emergency	E		4
+PV1-2	7	18	I	Inpatient	I		4
+PV1-2	8	18	N	Not Applicable	N		4
+PV1-2	9	18	O	Outpatient	O		4
+PV1-2	10	18	P	Preadmit	P		4
+PV1-2	11	18	R	Recurring patient	R		4
+PV1-2	12	18	U	Unknown			4
+PV1-2	13	18	IH	IP Hospice 			4
+PV1-2	14	18	NB	Newborn			4
+PV1-2	15	18	OB	Observation 			4
+PV1-2	16	18	SN	Skilled Nursing 			4
+PV1-2	17	18	SA	Surgery Admit 			4
+PV1-4	2	21	MiHIN Value	Description	Hospital Value		4
+PV1-4	3	21	E	Emergency	E		2
+PV1-4	4	21	A	Accident			4
+PV1-4	5	21	C	Elective			4
+PV1-4	6	21	E	Emergency	E		4
+PV1-4	7	21	L	Labor and Delivery			4
+PV1-4	8	21	N	Newborn (Birth in healthcare facility)	N		4
+PV1-4	9	21	R	Routine	R		4
+PV1-4	10	21	U	Urgent	U		4
+PV1-4	11	21	TC	Trauma Center 	T		4
+PV1-4	12	21	O	Other			4
+PV1-14	2	24	MiHIN Value	Description	Hospital Value		4
+PV1-14	3	24	2	Clinic referral	E		2
+PV1-14	4	24	1	Physician referral	1		4
+PV1-14	5	24	2	Clinic referral	2		4
+PV1-14	6	24	3	HMO referral	3		4
+PV1-14	7	24	4	Transfer from a hospital	4		4
+PV1-14	8	24	5	Transfer froma skilled nursing facility	5		4
+PV1-14	9	24	6	Transfer from another health care facility	6		4
+PV1-14	10	24	7	Emergency Room	7		4
+PV1-14	11	24	8	Court/Law enforcement	8		4
+PV1-14	12	24	9	Information not available	9		4
+PV1-14	13	24	SR	Self-Referral			4
+PV1-14	14	24	TRNF	Transfer from a non-health care facility			4
+PV1-14	15	24	TRAD	Transfer from Ambulatory Department			4
+PV1-18	2	27	MiHIN Suggested Values		Hospital Value	Description	4
+PV1-18	3	27			A	Anonymous	2
+PV1-18	4	27	1	Anonymous			4
+PV1-18	5	27	2	Confidential			4
+PV1-18	6	27	3	Employee			4
+PV1-18	7	27	4	Dismissed			4
+PV1-18	8	27	5	No Medicare			4
+PV1-18	9	27	6	Prisoner			4
+PV1-18	10	27	7	VIP			4
+PV1-18	11	27	8	Staff Dependent			4
+PV1-18	12	27	9	Benefactor			4
+PV1-18	13	27	10	Employee Dependent			4
+PV1-18	14	27	11	Non-Employee			4
+PV1-18	15	27	12	Volunteer			4
+PV1-18	16	27	13	Staff Physician			4
+PV1-18	17	27	14	Non V.I.P			4
+PV1-18	18	27	15	Retired Employee			4
+PV1-18	19	27	42	Homeless			4
+PV1-18	20	27	44	Celebrity			4
+PV1-18	21	27	45	Donor			4
+PV1-18	22	27	46	Transplant			4
+PV1-18	23	27	47	Voucher			4
+PV1-18	24	27	48	Board Member			4
+PV1-18	25	27	49	Clergy			4
+PV1-18	26	27	52	Other			4
+PV1-18	27	27	58	Organ Donor			4
+PV1-18	28	27	59	Organ 			4
+PV1-18	29	27	60	Select Specialty			4
+PV1-18	30	27			AOA	Amb Outpatient-Active, Amb Outpatient-Active Chgs	4
+PV1-18	31	27			AOP	Amb PreRegistration Chgs, Amb PreRegistration-Outpatient	4
+PV1-18	32	27			OA	Ambulatory Surgery, Outpatient Active - RIM, Outpatient-Active (Intercompany/LTAC), Outpatient-Active (Intercompany), Outpatient-Active	4
+PV1-18	33	27			PH	Phone	4
+PV1-18	34	27			OT	Outpatient-Temporary	4
+PV1-18	35	27			BD	Blood Donation	4
+PV1-18	36	27			OD	Outpatient-Discharged	00000000
+PV1-18	37	27			OS	Observation	00000000
+PV1-18	38	27			OP	PreRegistration-Outpatient	00000000
+PV1-18	39	27			EA	Emergency-Active	00000000
+PV1-18	40	27			ET	Emergency-Temporary	00000000
+PV1-18	41	27			IP	Inpatient-Preadmitted	00000000
+PV1-18	42	27			IE	Inpatient-Expired	00000000
+PV1-18	43	27			ID	Inpatient-Discharged	00000000
+PV1-18	44	27			IC	Inpatient-Complete	00000000
+PV1-18	45	27			IA	Inpatient-Active	00000000
+PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
+PV1-10	3	31			121	Pediatrics	2
+PV1-10	4	31	104	Cardiology - General	Cardiology, CAR, DAC, HYP, 	Cardiology, dac, hyp, 	4
+PV1-10	5	31	105	Emergency Medicine	Emergency Medicine	Emergency Medicine	4
+PV1-10	6	31	107	Geriatrics	Geriatric - General, GERI IP, Geriatric Medicine, PMR-Geriatric, 	Geriatric - General, geri ip, geriatric medicine, pmr-geriatric, 	4
+PV1-10	7	31	108	Gastroenterology	Gastroenterology	Gastroenterology	4
+PV1-10	8	31	109	Gynecology	Gynecology	Gynecology	4
+PV1-10	9	31	110	Hospice Medicine			4
+PV1-10	10	31	111	Medical Intensive Care			4
+PV1-10	11	31	112	Internal Medicine	Internal Medicine, AMP IP, AMP OP East, AMP OP HAG, Collaborative Medicine, East Occup. Health, Low Intensity Medica, North Occup. Health, Occupational Health, Primary Care Nursing, Primary Care PHY PSE, Primary Care Phy PSW, Primary Care Phy RIM, West Occup. Health,	Internal Medicine, AMP IP, AMP OP EAST, AMP OP HAG, collaborative medicine, East occup. Health, low intensity medica, north occup. Health, occupational health, primary care nursing, primary care phy pse, primary care psy psw, primary care phy rim, West Occup. Health, 	4
+PV1-10	12	31	114	Neuro ICU			4
+PV1-10	13	31	115	Neurology	Neurology, Brain Inj/Oncology, Brain Injury, Cerebral Vasculr ACC, Cerebral Vasculr ONC, CVA IP, Neutrotrauma, PM&R NEURO, PM&R Non Traumatic Brain Injury, PM&R Non Traumatic Spinal Cord, PMR-Traumatic Brain Injury, CTR for SC Recov, Low Intensity Debili, 	Neurology, Brain Inj/Oncology, brain injury, Cerebral Vasculr ACC, Cerebral Vasculr ONC, cva ip, NEUROTRAUMA, pm&r neuro, pm&r non traumatic brain injury, pm&r non truamatic spinal cord, pmr-traumatic brain injury, ctr for sc recov, 	4
+PV1-10	14	31	116	Neonatology	Neonatology, Maternal Fetal Medicine, 	Neonatology, MATERNAL FETAL MEDICINE, 	4
+PV1-10	15	31	117	Obstetrics	Obstetrics	Obstetrics	4
+PV1-10	16	31	118	Oncology	Oncology, AMP IP ONC, Amputee - Oncology, CVA IP ONC, GERI IP ONC, Geriatric - Oncology, Medical Complex - ONC, Ortho - Oncology, PM & R - Oncology, PMR IP ONC, SCI IP ONC, TBI IP ONC, 	Oncology, AMP IP ONC, AMPUTEE - ONCOLOGY, cva ip onc, geri ip onc, geriatric - oncology, MEDICAL COMPLEX - ONC, ORTHO - ONCOLOGY, pm & r - oncology, pmr ip onc, sci ip onc, tbi ip onc, 	4
+PV1-10	17	31	119	Orthopedics	Ortho - General, Ortho OP East, Ortho OP HAG, Ortho OP HCC, Ortho OP North, ORTHO OP RIM, Ortho OP RIM, PMR-Orthopaedic, 	Ortho - General, ORTHO OP EAST, ORTHO OP HAG, ORTHO OP HCC, ORTHO OP NORTH, ORTHO OP RIM, ORTHO OP WEST, pmr-orthopaedic, 	4
+PV1-10	18	31	121	Pediatrics	Pediatrics, Adolescent Medicine, 	Pediatrics, ADOLESCENT MEDICINE, 	4
+PV1-10	19	31	123	Physical Medicine and Rehabilitation	Physical Med & Rehabilitation, PM & R - General, PMR IP, RCM, Rehab Tosh, Respiratory Therapy Svs, Therapeutic Recreation,	Physical Med & Rehabilitation, pm & r - general, pmr ip, rcm, rehab tosh, respiratory therapy svs, therapeautic recreation, 	4
+PV1-10	20	31	124	General Surgery	Surgery, Surgery (General), Surgery (General) 1, Surgery (General) 3, SUR	Surgery, Surgery (General), Surgery (General) 1, Surgery (General) 3	4
+PV1-10	21	31	125	Surgical Intensive Care			4
+PV1-10	22	31	126	Nephrology Transplant			4
+PV1-10	23	31	127	Acute Care Surgery	SCI IP Acute, ONO, 	sci ip acute, ono, 	4
+PV1-10	24	31	128	Allergy & Immunology	Immunology, Allergy	Immunology, Allergy	4
+PV1-10	25	31	129	Anesthesiology	Anesthesiology	Anesthesiology	4
+PV1-10	26	31	131	Dermatology	Dermatology	Dermatology	4
+PV1-10	27	31	132	Family Medicine	Family Practice, PMR-Occupational Hlth,	Family Practice, pmr-occupational hlth, 	4
+PV1-10	28	31	133	Endocrinology	Endocrinology & Metabol, Reproductive Endocrinol, 	Endocrinology & Metabol, reproductive endocrinol, 	4
+PV1-10	29	31	134	Genetics	Genetic/Metabolic Diso, HOX, Medical Complex - GEN, Reproductive Genetics, 	Genetic/Metabolic Diso, HOX, MEDICAL COMPLEX - GEN, reproductive genetics, 	4
+PV1-10	30	31	135	Hematology	Hematology, HBH, HBR, HMH, 	Hematology, HBH, HBR, HMH, 	4
+PV1-10	31	31	136	Infectious Disease	Infectious Disease	Infectious Disease	4
+PV1-10	32	31	137	Nephrology	Nephrology (Renal),	Nephrology (Renal)	4
+PV1-10	33	31	138	Neurosurgery	Neurological Surgery	Neurological Surgery	4
+PV1-10	34	31	139	Ophthalmology	Ophthalmology, HCA, HFP, Optometry, 	Ophthalmology, HCA, HFP, OPTOMETRY, 	4
+PV1-10	35	31	140	Otolaryngology/ENT	Otolaryngology	Otolaryngology	4
+PV1-10	36	31	141	Plastic Surgery	Plastic & Reconstructive	Plastic & Reconstructive	4
+PV1-10	37	31	143	Radiation Oncology	Radiation Oncology Svs	Radiation Oncology Svs	4
+PV1-10	38	31	144	Rheumatology	Rheumatology	Rheumatology	4
+PV1-10	39	31	145	Urology	URO, Urology	Urology	4
+PV1-10	40	31	148	Pharmacy	Pharmacology, Pharmacology/Toxicology, Toxicology, Medicare Drug Care, OMC, RCO, RNO,  	Pharmacology, pharmacology/toxicology, toxicology, medicare drug care, omc, rco, rno, 	4
+PV1-10	41	31	149	Interventional Radiology			4
+PV1-10	42	31	150	Clinical Decision Unit			4
+PV1-10	43	31	151	Wound/Ostomy Care	AMP IP Burn, Burn Care, CVA OP Burn, GERI IP Burn, PM&R BURN, PMR IP Burn, SCI IP Burn, TBI IP Burn, 	AMP IP Burn, burn care, cva op burn, geri ip burn, pm&r burn, pmr ip burn, sci ip burn, tbi ip burn, 	4
+PV1-10	44	31	153	Newborn	Nursery/Newborn Care, A & O Nursery, Boarder Nursery, Mother-Baby Unit, 	Nursery/Newborn Care, A & O Nursery, boarder nursery, MOTHER-BABY UNIT, 	4
+PV1-10	45	31	154	Labor and Delivery			4
+PV1-10	46	31	156	Hospitalist Medicine			4
+PV1-10	47	31	158	Select Specialty	AMP IP Research, Amputee - General, CVA IP Research, Dietetic Services, FAF, Hosp Serv Not Assigned, SCN, 	AMP IP Research, AMPUTEE - GENERAL, cva ip research, dietetic services, faf, hosp serv not assigned, scn, 	4
+PV1-10	48	31	161	Audiology	Audiology	Audiology	4
+PV1-10	49	31	162	Behavioral Health - Psychology	Psychology, Forensic Pschology, 	Psychology, forensic pshology, 	4
+PV1-10	50	31	163	Cardiology - Structural Heart Disease			4
+PV1-10	51	31	165	Colon/Rectal Surgery	Colon & Rectal Surgery	Colon & Rectal Surgery	4
+PV1-10	52	31	166	Gynecology/Oncology	Gynecologic Oncology, pmp, 	Gynecologic Oncology, pmp, 	4
+PV1-10	53	31	172	Oral Surgery	Dental Surgery, Oral Surgery, Dentistry, 	Dental Surgery, Oral Surgery, dentistry, 	4
+PV1-10	54	31	175	Palliative Medicine 			4
+PV1-10	55	31	178	Podiatry	Podiatry	Podiatry	4
+PV1-10	56	31	180	Radiology	Radiology Services	Radiology Services	4
+PV1-10	57	31	181	Sleep Center			4
+PV1-10	58	31	184	Cardiac Surgery	Cardiovascular Surgery	Cardiovascular Surgery	4
+PV1-10	59	31	185	Transplant	Transplant Surgery	Transplant Surgery	4
+PV1-10	60	31	198	Bone Marrow Transplant			4
+PV1-10	61	31	208	Chemotherapy			4
+PV1-10	62	31	273	Pathology			4
+PV1-10	63	31	293	Pulmonary	PUL, Pulmonary Disease,	pulmunology, pulmonary disease, 	4
+PV1-10	64	31	322	Thoracic Surgery	Thoracic Surgery	Thoracic Surgery	4
+PV1-10	65	31	374	Transfusion Medicine			4
+PV1-10	66	31	376	Family Practice			4
+PV1-10	67	31	380	Orthopedic - Hand Surgery	Hand Surgery	Hand Surgery	4
+PV1-10	68	31	381	Orthopedic - Spine	PMR-Spinal Cord, Spinal Cord Recovery, 	PMR-Spinal Cord, spinal cord recovery, 	4
+PV1-10	69	31	384	Hepatology			4
+PV1-10	70	31	385	Pain Management			4
+PV1-10	71	31	387	Urogynecology			4
+PV1-10	72	31	399	Bone & Mineral			4
+PV1-10	73	31	409	Cardiology - Electrophysiology			4
+PV1-10	74	31	463	Bariatric Surgery	Bariatric Medicine	Bariatric Medicine	4
+PV1-10	75	31	464	Intensive Care	Critical Care/Intensive, NICU, Trauma/Critical Care, Urgent Care, 	Critical Care/Intensive, NICU, trauma/critical care, urgent care, 	4
+PV1-10	76	31	465	Pulmonary Hypertension			4
+PV1-10	77	31	466	Pulmonary Transplant			4
+PV1-10	78	31	467	Pulmonary Interventional			4
+PV1-10	79	31	469	Transplant HPB Surgery			4
+PV1-10	80	31	470	Cardiothoracic Transplant			4
+PV1-10	81	31	471	Vascular Surgery	Vascular Surgery	Vascular Surgery	4
+PV1-10	82	31	472	Speech Pathology	Speech Therapy Svs	Speech Therapy Svs	4
+PV1-10	83	31	473	Cardiology - Advanced Heart Failure/Transplant			4
+PV1-10	84	31	474	Cardiology - Vascular Medicine			4
+PV1-10	85	31	475	Physiatry			4
+PV1-10	86	31	476	Orthopedic - Surgery	Orthopaedic Surgery	Orthopaedic Surgery	4
+PV1-10	87	31	477	Cardiovascular SICU			4
+PV1-10	88	31	478	Behavioral Health - Neuropsychology			4
+PV1-10	89	31	479	Behavioral Health - Psychiatry	Psychiatry, Psych, Chemical Dependency, 	Psychiatry, Psych, chemical dependency, 	4
+PV1-10	90	31	480	Surgical Endoscopy			4
+PV1-10	91	31	481	Ethics			4
+PV1-10	92	31	482	Trauma Surgery			4
+PV1-10	93	31			Commerce, Compuware, Documentation, Employee Health Service,Historical Tracking, HPN, HRO, Karmanos Purchased Service, Phone, RNN, RSH, 	COMMERCE, COMPUWARE, documentation, employee health service, historical tracking, hpn, hro, karmanos purchased service, phone, rnn, rsh, 	00000000
+PV1-10	94	31			Commercial Lab, Laboratory, PEP, 	COMMERICAL LAB, laboratory, pep, 	00000000
+PV1-10	95	31			Detroit ATH Club, Downriver, Farmington, Franklin, GRO PTE ATH CLB, Jewish Community Center, Milford, Oakland Ath Club, Rochester Hills, Wixom, The Lakes, Troy, Walton Woods, West Bloomfield, YMCA Macomb, Ann Arbor,	detroit ath club, downriver, farmington, franklin, gro pte ath clb, jewish community center, milford, oakland ath club, rochester hills, wixom, the lakes, troy, walton woods, west bloomfield, ymca macomb, ann arbor, 	00000000
+PV1-10	96	31			PAR IP - PAA, PAR IP - PAC, PAR IP - PAD, PAR IP - PAH, PAR IP - PAM, PAR IP - PAO, PAR IP - PAP, PAR IP - PAR, PAR IP - PAS, PAR IP - PAT, PAR IP - PAW, 	par ip - paa, par ip - pac, par ip - pad, par ip - pah, par ip - pam, par ip - pao, par ip - pap, par ip - par, par ip - pas, par ip - pat, par ip - paw, 	00000000
+PV1-10	97	31			PHY OP DRH, PHY OP East, PHY OP Garden City, PHY OP Grace, PHY OP HAG, PHY OP Harper, PHY OP Hutzel, PHY OP Misc, PHY OP North, PHY OP RIM, PHY OP West, 	phy op drh, phy op east, phy op garden city, phy op grace, phy op hag, phy op harper, phy op hutzel, phy op misc, phy op north, phy op rim, phy op west, 	00000000
+PV1-10	98	31			PMR IP Research, PMR OP East, PMR OP HAG, PMR OP HCC, PMR OP North, PMR OP North - POZ, PMR OP West, PMR-Amputee, PMR-CVA, PMR-Research,	pmr ip research, pmr op east, pmr op hag, pmr op hcc, pmr op north, pmr op north - poz, pmr op west, pmr-amputee, pmr-cva, pmr-research, 	00000000
+PV1-10	99	31			Research IP Only, Research OP Inhouse, Research OP Only, 	Research ip only, research op inhouse, research op only, 	00000000
+PV1-10	100	31			RIM Crown Pointe, RIM Dearborn, RIM NW Detroit, RIM Occup. Health, 	RIM crown pointe, rim dearborn, rim nw detroit, rim occup. Health, 	00000000
+PV1-10	101	31			SCI IP Eval, SCI IP Research, SCI OP East, SCI OP HAG, SCI OP HCC, SCI OP North, SCI OP RIM, SCI OP West, 	sci ip eval, sci ip research, sci op east, sci op hag, sci op hcc, sci op north, sci op rim, sci op west, 	00000000
+PV1-10	102	31			TBI IP Acute, TBI IP BEH, TBI IP Eval, TBI IP Research, TBI OP East, TBI OP HAG, TBI OP HCC, TBI OP North, TBI OP RIM, TBI OP West, 	tbi ip acute, tbi ip beh, tbi ip eval, tbi ip research, tbi op east, tbi op hag, tbi op hcc, tbi op north, tbi op rim, tbi op west, 	00000000
+PV1-10	103	31			AMP OP HCC, AMP OP North, AMP OP RIM, AMP OP West, 	amp op hcc, amp op north, amp op rim, amp op west, 	00000000
+PV1-10	104	31			CVA OP East, CVA OP HAG, CVA OP HCC, CVA OP North, CVA OP RIM, CVA OP West, 	Cva op east, cva op hag, cva op hcc, cva op north, cva op rim, cva op west, 	00000000
+PV1-10	105	31			GERI IP Research, GERI OP East, GERI OP HAG, GERI OP North, GERI OP RIM, GERI OP West, 	geri ip research, geri op east, geri op hag, geri op north, geri op rim, geri op west, 	00000000
+PV1-10	106	31			MED	Medical Services	00000000
+PV1-10	107	31			ADO	Adolescent Medicine	00000000
+PV1-10	108	31			ALL	Allergy	00000000
+PV1-10	109	31			ANS	Anesthesiology	00000000
+PV1-10	110	31			AUD	Audiology	00000000
+PV1-10	111	31			BRN	Burn Care	00000000
+PV1-10	112	31			CCM	Critical Care/Intensive	00000000
+PV1-10	113	31			CHD	Psych	00000000
+PV1-10	114	31			CMS	Collaborative Medicine	00000000
+PV1-10	115	31			CRD	Cardiology	00000000
+PV1-10	116	31			CRS	Colon & Rectal Surgery	00000000
+PV1-10	117	31			CVA	Cerebral Vasculr ACC	00000000
+PV1-10	118	31			CVS	Cardiovascular Surgery	00000000
+PV1-10	120	31			DEN	Dentistry	00000000
+PV1-10	121	31			DER	Dermatology	00000000
+PV1-10	122	31			DNS	Dental Surgery	00000000
+PV1-10	123	31			DTY	Dietetic Services	00000000
+PV1-10	124	31			EHS	Employee Health Service	00000000
+PV1-10	125	31			EMD	Emergency Medicine	00000000
+PV1-10	126	31			ENM	Endocrinology & Metabol	00000000
+PV1-10	127	31			ENT	Otolaryngology	00000000
+PV1-10	129	31			FAM	Family Practice	00000000
+PV1-10	130	31			GER	Geriatric Medicine	00000000
+PV1-10	131	31			GMD	Genetic/Metabolic Diso	00000000
+PV1-10	132	31			GST	Gastroenterology	00000000
+PV1-10	133	31			GYN	Gynecology	00000000
+PV1-10	134	31			GYO	Gynecologic Oncology	00000000
+PV1-10	135	31			HEM	Hematology	00000000
+PV1-10	136	31			HND	Hand Surgery	00000000
+PV1-10	137	31			HOS	Hospice	00000000
+PV1-10	138	31			IBM	Bariatric Medicine	00000000
+PV1-10	139	31			IMM	Immunology	00000000
+PV1-10	140	31			INF	Infectious Disease	00000000
+PV1-10	141	31			KPS	Karmanos Purchased Service	00000000
+PV1-10	142	31			LAB	Laboratory	00000000
+PV1-10	143	31			MCX	Medical Complex - GEN	00000000
+PV1-10	144	31			MFM	Maternal Fetal Medicine	00000000
+PV1-10	145	31			NEO	Neonatology	00000000
+PV1-10	146	31			NEP	Nephrology (Renal)	00000000
+PV1-10	147	31			NEU	Neurology	00000000
+PV1-10	148	31			NRS	Neurological Surgery	00000000
+PV1-10	149	31			NTB	PM&R Non Traumatic Brain Injury	00000000
+PV1-10	150	31			NTR	Neurotrauma	00000000
+PV1-10	151	31			NTS	PM&R Non Traumatic Spinal Cord	00000000
+PV1-10	152	31			NUR	Nursery/Newborn Care	00000000
+PV1-10	153	31			OBS	Obstetrics	00000000
+PV1-10	154	31			OCH	Occupational Health	00000000
+PV1-10	155	31			ONC	Oncology	00000000
+PV1-10	156	31			OPH	Ophthalmology	00000000
+PV1-10	157	31			OPT	Optometry	00000000
+PV1-10	158	31			ORS	Oral Surgery	00000000
+PV1-10	159	31			ORT	Orthopaedic Surgery	00000000
+PV1-10	160	31			PCN	Primary Care Nursing	00000000
+PV1-10	161	31			PED	Pediatrics	00000000
+PV1-10	163	31			PHR	Pharmacology	00000000
+PV1-10	164	31			PMA	PMR-Amputee	00000000
+PV1-10	165	31			PMB	PM&R BURN	00000000
+PV1-10	166	31			PMC	PMR-CVA	00000000
+PV1-10	167	31			PMG	PMR-Geriatric	00000000
+PV1-10	168	31			PMN	PM&R NEURO	00000000
+PV1-10	169	31			PMO	PMR-Orthopaedic	00000000
+PV1-10	170	31			PMP	PMP	00000000
+PV1-10	171	31			PMR	Physical Med & Rehabilitation	00000000
+PV1-10	172	31			PMS	PMR-Spinal Cord	00000000
+PV1-10	173	31			PMT	PMR-Traumatic Brain Injury	00000000
+PV1-10	174	31			PMW	PMR-Occupational Hlth	00000000
+PV1-10	175	31			PMX	PMR-Research	00000000
+PV1-10	176	31			POD	Podiatry	00000000
+PV1-10	177	31			PRS	Plastic & Reconstructive	00000000
+PV1-10	178	31			PSC	Psychology	00000000
+PV1-10	179	31			PSY	Psychiatry	00000000
+PV1-10	181	31			RAD	Radiology Services	00000000
+PV1-10	183	31			REE	Reproductive Endocrinol	00000000
+PV1-10	184	31			REG	Reproductive Genetics	00000000
+PV1-10	185	31			RES	Respiratory Therapy Svs	00000000
+PV1-10	186	31			RHU	Rheumatology	00000000
+PV1-10	187	31			RJC	Jewish Community Center	00000000
+PV1-10	188	31			RMF	Milford	00000000
+PV1-10	189	31			ROC	Radiation Oncology Svs	00000000
+PV1-10	191	31			SIA	SCI IP Acute	00000000
+PV1-10	192	31			SPE	Speech Therapy Svs	00000000
+PV1-10	194	31			THR	Therapeutic Recreation	00000000
+PV1-10	195	31			THS	Thoracic Surgery	00000000
+PV1-10	196	31			TOX	Toxicology	00000000
+PV1-10	197	31			TRA	Trauma/Critical Care	00000000
+PV1-10	198	31			TRS	Transplant Surgery	00000000
+PV1-10	199	31			URG	Urgent Care	00000000
+PV1-10	201	31			VAS	Vascular Surgery	00000000
+PV1-10	202	31			XXX	Hosp Serv Not Assigned	00000000
+PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	4
+PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
+PV1-36	4	35	01	Discharged to home or self care (routine discharge)	01	Home, Self Care, Regular Discharge with follow-up, Care of family/friend(s)	4
+PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	02	Other Health Care Facility, Discharge to Psychiatric Facility, Acute Care Facility - Cancer or Child Ho, Discharged to Hospice-Medical Facility, Acute Care Facility - Critical Access Ho, Acute Care Facility - Dept of Def or Vet, Rehab Unit, Acute Care Uni	4
+PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.	03	Skilled Nursing Facility, Long Term Care	4
+PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)	04	Intermediate Care	4
+PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list	05	Acute Care Facility - Gen Inpt Care, Another Type of Instution, Another Hospital, Discharged to other inst - outpatient, Discharged to other inst - outpatient, Another Hospital	4
+PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization	06	Home Care with Home Health, Home with Home Health Care, Hospice - Home, Discharged to Hospice-Home, Other Home Care	4
+PV1-36	10	35	07	Left against medical advice or discontinued care	07	Left Against Medical Advice/AMA, Against Medical Advice, Against medical advice, with follow-up	4
+PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider	08	Home Care IV Therapy, Care of paid caregiver	4
+PV1-36	12	35	09	Admitted as an inpatient to this hospital	09	Admitted as inpatient, Inpatient	4
+PV1-36	13	35	20	Expired	20	Expired, Deceased	4
+PV1-36	14	35	30	Still Patient	30	Still a patient, Return transfer	4
+PV1-36	15	35	40	Expired at home	40	Expired at home	4
+PV1-36	16	35	41	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)	41	Expired at other facility	4
+PV1-36	17	35	42	Expired - place unknown	42	Expired, unknown place	4
+PV1-36	18	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)			4
+PV1-36	19	35	50	Hospice - home			4
+PV1-36	20	35	51	Hospice - medical facility			4
+PV1-36	21	35	61	Discharged/transferred to hospital-based Medicare approved swing bed			4
+PV1-36	22	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)			4
+PV1-36	23	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)			4
+PV1-36	24	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)			4
+PV1-36	25	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)			4
+PV1-36	26	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)			4
+PV1-36	27	35			A	Alive	4
+IN1-17	2	39	MiHIN Value	Description	Hospital Value		4
+IN1-17	3	39	FTH	Father 	F		2
+IN1-17	4	39	ASC	Associate			4
+IN1-17	5	39	BRO	Brother 	BRO		4
+IN1-17	6	39	CGV	Care giver 			4
+IN1-17	7	39	CHD	Child	CHD		4
+IN1-17	8	39	DEP	Handicapped dependant	Handicapped Dependent		4
+IN1-17	9	39	DOM	Life partner			4
+IN1-17	10	39	EMC	Emergency contact			4
+IN1-17	11	39	EME	Employee			4
+IN1-17	12	39	EMR	Employer			4
+IN1-17	13	39	EXF	Extended family			4
+IN1-17	14	39	FCH	Foster child 	FCH		4
+IN1-17	15	39	FND	Friend	Friend		4
+IN1-17	16	39	FTH	Father 	FTH		4
+IN1-17	17	39	GCH	Grandchild	GCH		4
+IN1-17	18	39	GRD	Guardian 	GRD		4
+IN1-17	19	39	GRP	Grandparent 	GRP		4
+IN1-17	20	39	MGR	Manager			4
+IN1-17	21	39	MTH	Mother 	MTH		4
+IN1-17	22	39	NCH	Natural child			4
+IN1-17	23	39	NON	None			4
+IN1-17	24	39	OAD	Other adult			4
+IN1-17	25	39	OTH	Other 	OTH		4
+IN1-17	26	39	OWN	Owner			4
+IN1-17	27	39	PAR	Parent 	PAR		4
+IN1-17	28	39	SCH	Stepchild 			4
+IN1-17	29	39	SEL	Self	SEL		4
+IN1-17	30	39	SIB	Sibling 			4
+IN1-17	31	39	SIS	Sister 	SIS		4
+IN1-17	32	39	SPO	Spouse	SPO		4
+IN1-17	33	39	TRA	Trainer			4
+IN1-17	34	39	UNK	Unknown			4
+IN1-17	35	39	WRD	Ward of court	Ward of the Court		4
+IN1-17	36	39	AUN	Aunt 			4
+IN1-17	37	39	DAU	Daughter			4
+IN1-17	38	39	EXS	Ex Spouse 			4
+IN1-17	39	39	EXH	Ex-husband			4
+IN1-17	40	39	EXW	Ex-wife 			4
+IN1-17	41	39	INL	In Law 			4
+IN1-17	42	39	LEG	Legal Guardian 			4
+IN1-17	43	39	SON	Son (S)			4
+IN1-17	44	39	STP	Step Parent (STP)			4
+IN1-17	45	39	STS	Step Sibling			4
+IN1-17	46	39	UN	Uncle (UN)			4
+IN1	2	42	IN1-3 Value	IN1-4 Value	Payer		4
+IN1	3	42	1001	BCN	BCBSM		2
+IN1	4	42	111	Patnt Pay-BMT Bndl-111			4
+IN1	5	42	111	PT PAY BMT BUNDLEUND-111			00000000
+IN1	6	42	116	TRUST BUNDLED BILLIN-116			00000000
+IN1	7	42	116	Trust Bundled Billing-116			4
+IN1	8	42	117	PAT PAY KIDNEY PANCR-117			00000000
+IN1	9	42	117	Patient Pay Kidney Pancreas Bundled Billing -117			4
+IN1	10	42	301	MCAID App/Pending -301	MEDICAID 		4
+IN1	11	42	302	Pending Expansion IP - 302	MEDICAID 		4
+IN1	12	42	303	PENDING EXCHANGE IP-303	MEDICAID 		00000000
+IN1	13	42	303	Pending Exhange IP - 303	MEDICAID 		4
+IN1	14	42	305	Medicaid Spend Down - 305	MEDICAID 		4
+IN1	15	42	351	MCAID App/Pending OP-351	MEDICAID 		4
+IN1	16	42	501	Patient/Self Pay-501			00000000
+IN1	17	42	501	Self Pay-501			4
+IN1	18	42	502	Patient Contract-502			00000000
+IN1	19	42	502	PT SELF PAY CONTRACT-502			00000000
+IN1	20	42	503	IBM/OPEN GASTRIC BYPASS - 503			4
+IN1	21	42	504	IBM/LAP GASTRIC BYPASS - 504			4
+IN1	22	42	505	Gastric Sleeve Outpatient - 505			4
+IN1	23	42	505	gastric sleeve outpatient - 505			4
+IN1	24	42	506	Dr. Kmak Genetic Abnormalities OP/IP - 506			4
+IN1	25	42	507	Self-Pay BCBS Reimbursement Rate - 507			4
+IN1	26	42	507	Self-Pay BCBS Reimbursement Rate Outpatient-507			00000000
+IN1	27	42	509	Lung Cancer Screening Program - 509			4
+IN1	28	42	510	Cash Pay Radiology -510			4
+IN1	29	42	525	VLOAN-525			00000000
+IN1	30	42	530	Uninsured Auto - 530			4
+IN1	31	42	588	HELP Financial - 588			4
+IN1	32	42	601	Uncompensated/Charity Care-IP - 601			4
+IN1	33	42	602	Uncompensated/Charity Care - OP - 602			4
+IN1	34	42	603	Uncompensated/Charity Care ABW IP - 603			4
+IN1	35	42	604	PRIM CLIN CHARITY CARE OP - 604			4
+IN1	36	42	640	Charity Pending-640			00000000
+IN1	37	42	650	Uncompensated/Charity Care-Financially Indigent - 650			4
+IN1	38	42	651	UNCOMP/MEDICAL INDIG - 651			00000000
+IN1	39	42	651	Uncompensated/Charity Care-Medically Indigent - 651			4
+IN1	40	42	652	UNCOMP/MED INDIG CAT - 652			00000000
+IN1	41	42	652	Uncompensated/Charity Care-Medically Indigent Catastrophic - 652			4
+IN1	42	42	702	Macomb County Mental Health  IP-702			4
+IN1	43	42	702	Macomb County Mental Health - IP-702			00000000
+IN1	44	42	702	MACOMB CTY M-HLTH IP - 702			00000000
+IN1	45	42	703	Oakland County Mental Health - IP-703			4
+IN1	46	42	704	Monroe County Mental Health  IP-704			4
+IN1	47	42	704	MONROE CTY M-HLTH IP - 704			00000000
+IN1	48	42	705	Mental Health Miscellaneous  IP-705			4
+IN1	49	42	705	MENTAL HLTH MISC IP - 705			00000000
+IN1	50	42	709	MiHealth Link IP-709			4
+IN1	51	42	721	Gateway/MCAID IP - 721	MEDICAID		00000000
+IN1	52	42	722	Gateway / Uninsured IP - 722			00000000
+IN1	53	42	722	Gateway Uninsured IP - 722			4
+IN1	54	42	723	Person Centered Network - MCAID IP - 723	MEDICAID		4
+IN1	55	42	724	Person Centered Network-Uninsured IP - 724			4
+IN1	56	42	725	Carelink - MCAID IP - 725	MEDICAID		00000000
+IN1	57	42	726	Carelink Uninsured IP - 726			4
+IN1	58	42	726	Carelink-Uninsured IP  - 726			00000000
+IN1	59	42	727	Developmentally Disabled.Other IP - 727			4
+IN1	60	42	728	Genessee Comm Health IP - 728			4
+IN1	61	42	728	GENESSEE COMM HLH IP - 728			00000000
+IN1	62	42	729	MiHealth Link OP-729			4
+IN1	63	42	753	OAKLAND COUNTY CMHSP - 753			00000000
+IN1	64	42	753	OAKLAND CTY M-HLTH OP-753			4
+IN1	65	42	771	Gateway / MCAID Crisis OP - 771			00000000
+IN1	66	42	772	Gateway / Uninsured Crisis OP - 772			00000000
+IN1	67	42	773	Person Centered Network MCAID OP - 773			4
+IN1	68	42	774	Person Centered Network UNINSURED OP - 774			4
+IN1	69	42	775	Carelink MCAID OP - 775			00000000
+IN1	70	42	776	Carelink UNINSURED OP - 776			00000000
+IN1	71	42	777	Developmentally Disabled/Other OP - 777			4
+IN1	72	42	778	GENESSEE COMM HLH OP - 778			00000000
+IN1	73	42	778	Genessee Community Health OP-778			4
+IN1	74	42	779	Gateway / MCAID Psych OP -779			00000000
+IN1	75	42	780	Gateway / Uninsured Psych OP - 780			00000000
+IN1	76	42	781	GATEWAY/CAID PSY CO-DED MCARE OP - 781			4
+IN1	77	42	790	ZZ Do Not Use - Thumb Mental Health Alliance - OP 790			4
+IN1	78	42	A11	MEDICARE TRAVELE  IP - A11	 MEDICARE		00000000
+IN1	79	42	A12	MCARE App/Buy IP-A12	 MEDICARE		00000000
+IN1	80	42	A14	MEDICARE U.M.W.-IP - A14	 MEDICARE		00000000
+IN1	81	42	A15	MCARE Kidney Acq IP-A15	 MEDICARE		00000000
+IN1	82	42	A17	MCARE A Only IP-A17	 MEDICARE		00000000
+IN1	83	42	A19	Pancreas Transplants IP - A19	MEDICARE		4
+IN1	84	42	A19	PANCREAS TRANSPLT IP-A19	 MEDICARE		00000000
+IN1	85	42	A26	MCARE A - 2006 IP A26	MEDICARE		4
+IN1	86	42	A26	MCARE A - 2006 IP-A26	 MEDICARE		00000000
+IN1	87	42	A27	MCARE A - 2007 IP-A27	 MEDICARE		00000000
+IN1	88	42	A28	MCARE A - 2008 IP-A28	 MEDICARE		00000000
+IN1	89	42	A29	C00452 MCARE IP 2009-A29	 MEDICARE		00000000
+IN1	90	42	A29	MCARE A-2009 IP-A29	 MEDICARE		00000000
+IN1	91	42	A30	MCARE A 2010-IP - A30 Inactive	MEDICARE		4
+IN1	92	42	A30	MCARE A 2010-IP-A30	 MEDICARE		00000000
+IN1	93	42	A31	MCARE A 2010 IP PYSC-A31	 MEDICARE		00000000
+IN1	94	42	A32	MCARE A 2010 IP REHAB-A32	MEDICARE 		00000000
+IN1	95	42	A33	MCARE A -2011 IP PSYCH -A33	MEDICARE		4
+IN1	96	42	A33	MCARE A-2011 IP P	 MEDICARE		4
+IN1	97	42	A34	MCare A - 2011 IP Rehab - A34	 MEDICARE		4
+IN1	98	42	A34	MCare A IP Rehab - A34	 MEDICARE		4
+IN1	99	42	A39	MCARE STATUS TRANSFER-A39	 MEDICARE		00000000
+IN1	100	42	A41	Mcare A - 2011 IP - A41	 MEDICARE		4
+IN1	101	42	A41	Mcare A IP - A41	 MEDICARE		4
+IN1	102	42	A42	MCARE A 2012 IP - A42	 MEDICARE		4
+IN1	103	42	A65	MCARE Kidney Acq OP-A65	 MEDICARE		00000000
+IN1	104	42	A67	BMT Donor and Harvest Workup (CHM)- A67	 MEDICARE		4
+IN1	105	42	A69	Pancreas Transplants OP-A69	 MEDICARE		4
+IN1	106	42	A69	PANCREAS TRANSPLT OP-A69	 MEDICARE		00000000
+IN1	107	42	A70	Medicare Heart Pre- Transp OP - A70	 MEDICARE		00000000
+IN1	108	42	A75	Medicare Liver Pre- Transp OP - A75	 MEDICARE		00000000
+IN1	109	42	A85	MCARE B ONLY IP BCBS - A85	 MEDICARE		00000000
+IN1	110	42	A86	MCARE B ONLY IP MEDICAID- A86	 MEDICARE		4
+IN1	111	42	A88	MCARE B ONLY - IP - A88	 MEDICARE		00000000
+IN1	112	42	A88	MCARE B Only IP-A88	 MEDICARE		4
+IN1	113	42	A89	MCARE B Only OP-A89	 MEDICARE		00000000
+IN1	114	42	A90	MCARE SECONDARY IP-A90	 MEDICARE		00000000
+IN1	115	42	A91	MCARE Secondary OP - A91	 MEDICARE		4
+IN1	116	42	A91	MCARE SECONDARY OP-A91	 MEDICARE		4
+IN1	117	42	A92	MCARE PLUS BLUE IP A92	 MEDICARE		00000000
+IN1	118	42	A94	BCN ADVANTAGE IP - A94	BCBSM		00000000
+IN1	119	42	A95	BCN ADVANTAGE OP - A95	BCBSM		00000000
+IN1	120	42	A99	SNF Medicare OP - A99	 MEDICARE		00000000
+IN1	121	42	B20	Molina/Mcare Adv IP-B20	 MEDICARE - MOLINA		00000000
+IN1	122	42	B21	FIDELIS/MCARE ADV IP-B21	 MEDICARE		00000000
+IN1	123	42	B22	HAP Midwest/Mcare Adv IP-B22	 MEDICARE - HAP		00000000
+IN1	124	42	B23	HUMANA/MCARE ADV IP-B23	 MEDICARE		00000000
+IN1	125	42	B24	MEDICARE BLUE/MCARE ADV IP-B24	 MEDICARE - BCBSM		00000000
+IN1	126	42	B25	BLUE CARE NETWORK/MCARE ADV IP-B25	 MEDICARE - BCBSM		00000000
+IN1	127	42	B26	HAP SENIOR PLAN/MCARE ADV IP-B26	 MEDICARE - HAP		00000000
+IN1	128	42	B27	Compcare/Mcare Adv IP-B27	 MEDICARE - MOLINA		00000000
+IN1	129	42	B27	MCARE ADV IP/MOL PSY-B27	 MEDICARE - MOLINA		00000000
+IN1	130	42	B28	CENTER FOR SR IND/MCARE ADV IP-B28	 MEDICARE		00000000
+IN1	131	42	B29	MISCELLANEOUS/MCARE ADV IP-B29	 MEDICARE		00000000
+IN1	132	42	B30	Molina/Mcare Adv OP-B30	 MEDICARE - MOLINA		00000000
+IN1	133	42	B31	FIDELIS/MCARE ADV OP-B31	 MEDICARE		00000000
+IN1	134	42	B31	Inactive:FIDELIS/MCARE ADV OP-B31 Inactive			00000000
+IN1	135	42	B32	HAP Midwest/Mcare Adv OP-B32	 MEDICARE		00000000
+IN1	136	42	B33	HUMANA/MCARE ADV OP-B33	 MEDICARE		00000000
+IN1	137	42	B34	MEDICARE BLUE/MCARE ADV OP-B34	 MEDICARE - BCBSM		00000000
+IN1	138	42	B35	BLUE CARE NETWORK/MCARE ADV OP -B35	 MEDICARE - BCBSM		4
+IN1	139	42	B35	BLUECARE NETWORK/MCARE ADV OP -B35	 MEDICARE - BCBSM		4
+IN1	140	42	B35	BLUECRE NTE/MCARE	 MEDICARE - BCBSM		4
+IN1	141	42	B35	BLUECRE NTE/MCARE-B35	 MEDICARE - BCBSM		4
+IN1	142	42	B36	HAP SENIOR PLAN/MCARE ADV OP-B36	 MEDICARE - HAP		00000000
+IN1	143	42	B37	Molina/Psych Mcare Advantage OP - B37	 MEDICARE - MOLINA		4
+IN1	144	42	B37	MOLINA/PSYCH MCRE	 MEDICARE - MOLINA		4
+IN1	145	42	B37	MOLINA/PSYCH MCRE-B37	 MEDICARE - MOLINA		00000000
+IN1	146	42	B38	CENTER FOR SR IND/MCARE ADV OP -B38	 MEDICARE		4
+IN1	147	42	B38	CENTER FOR SR IND/MCARE ADV OP-B38	 MEDICARE		00000000
+IN1	148	42	B39	MISC/MCARE ADV OP	 MEDICARE		4
+IN1	149	42	B39	MISC/MCARE ADV OP-B39	 MEDICARE		00000000
+IN1	150	42	B39	MISCELLANEOUS/MCARE ADV OP-B39	 MEDICARE		00000000
+IN1	151	42	B40	MCARE ADVANTAGE IP - B40	 MEDICARE		4
+IN1	152	42	B40	OUT OF AREA BCBSM/MCARE ADV IP- B40	 MEDICARE		4
+IN1	153	42	B40	OUT OF AREA BCBSM/MCARE ADV IP-B40	 MEDICARE		00000000
+IN1	154	42	B41	ALLIANCE HEALTH/HAP ADVANTAGE IP - B41	 MEDICARE - HAP		4
+IN1	155	42	B41	ALLIANCE HEALTH/HAP ADVANTAGE IP-B41	 MEDICARE - HAP		00000000
+IN1	156	42	B42	ERICKSON MCARE ADV IP - B42	 MEDICARE		4
+IN1	157	42	B42	ERICKSON MCARE ADV IP-B42	 MEDICARE		00000000
+IN1	158	42	B43	BCBS MEDICARE ADVANTAGE PPO IP - B43	 MEDICARE - BCBSM		4
+IN1	159	42	B43	BCBS MEDICARE ADVANTAGE PPO IP-B43	 MEDICARE - BCBSM		00000000
+IN1	160	42	B44	 Aetna Medicare IP - B44	 MEDICARE		00000000
+IN1	161	42	B44	Aetna Medicare-B44	 MEDICARE		00000000
+IN1	162	42	B45	Aetna Medicare OP - B45	 MEDICARE		00000000
+IN1	163	42	B46	UHC DUAL COMP/MA IP-B46	 MEDICARE		00000000
+IN1	164	42	B47	MCARE ADV IP/PARAMNT - B47	 MEDICARE		00000000
+IN1	165	42	B47	ZZ DO NOT USE - Paramount Mcare Adv IP - B47	 MEDICARE		4
+IN1	166	42	B48	MCARE ADV IP/PYRAMID - B48	 MEDICARE		00000000
+IN1	167	42	B48	Pyramid Life MCARE Advantage IP - B48	 MEDICARE		4
+IN1	168	42	B49	Priority Medicare Advantage IP - B49	 MEDICARE		00000000
+IN1	169	42	B50	MCARE ADVANTAGE OP - B50	 MEDICARE		00000000
+IN1	170	42	B50	MCARE ADVANTAGE OP Out of Area - B50	 MEDICARE		4
+IN1	171	42	B50	OUT OF AREA BCBSM/MCARE ADV OP-B50	 MEDICARE		00000000
+IN1	172	42	B51	HUMANA IP OCNTINUITY OF CARE- B51	 MEDICARE		4
+IN1	173	42	B52	HUMANA OP CONTINUITY OF CARE- B52	 MEDICARE		4
+IN1	174	42	B53	Alliance Health/Hap Advantage OP - B53	 MEDICARE		00000000
+IN1	175	42	B54	ERICKSON MCARE ADV OP - B54	 MEDICARE		00000000
+IN1	176	42	B55	BCBS MEDICARE ADVANTAGE PPO OP - B55	 MEDICARE		00000000
+IN1	177	42	B56	ZZDO NOT USE - GLHP/MCARE ADV OP-B56	 MEDICARE		4
+IN1	178	42	B57	MCARE ADV OP/PARAMNT - B57	 MEDICARE		00000000
+IN1	179	42	B57	Paramount Mcare Adv OP - B57	 MEDICARE		00000000
+IN1	180	42	B58	ZZ DONOTUSE - Pyramid Life MCARE Advantage OP- B58	 MEDICARE		4
+IN1	181	42	B59	Priority Medicare Advantage OP - B59	 MEDICARE		00000000
+IN1	182	42	B60	Health Plus Advantage IP - B60	 MEDICARE		00000000
+IN1	183	42	B60	Health Plus Advantage IP -B60	 MEDICARE		4
+IN1	184	42	B61	MCLAREN MCARE ADV IP - B61	 MEDICARE		00000000
+IN1	185	42	B61	MCLAREN MEDICARE ADV IP - B61	 MEDICARE		00000000
+IN1	186	42	B62	THC Medicare Plus IP - B62	 MEDICARE		00000000
+IN1	187	42	B63	Harbor Health Medicare Advantage IP - B63	 MEDICARE		00000000
+IN1	188	42	B64	Coventry Medicare Advantage IP - B64	 MEDICARE		00000000
+IN1	189	42	B65	UHC Medicare Advantage IP - B65	 MEDICARE		00000000
+IN1	190	42	B66	Fidelis - MiHealth Link IP - B66	 MEDICARE		00000000
+IN1	191	42	B67	Molina - MiHealth Link IP - B67	 MEDICARE - MOLINA		00000000
+IN1	192	42	B68	AETNA BHP MCARE ADV IP - B68	 MEDICARE		00000000
+IN1	193	42	B69	AMERIHEALTH MCARE ADV IP - B69	 MEDICARE		00000000
+IN1	194	42	B70	Health Plus Advantage OP - B70	 MEDICARE		00000000
+IN1	195	42	B70	Health Plus Advantage OP -B70	 MEDICARE		4
+IN1	196	42	B71	MCLAREN MEDICARE ADV OP - B71	 MEDICARE		00000000
+IN1	197	42	B72	THC Medicare Plus OP - B72	 MEDICARE		00000000
+IN1	198	42	B73	Harbor Health Medicare Advantage OP - B73	 MEDICARE		00000000
+IN1	199	42	B74	Coventry Medicare Advantage OP - B74	 MEDICARE		00000000
+IN1	200	42	B75	UHC MEDICARE ADV	 MEDICARE		4
+IN1	201	42	B75	UHC Medicare Advantage OP - B75	 MEDICARE		00000000
+IN1	202	42	B75	UHC MEDICARE ADV-B75	 MEDICARE		00000000
+IN1	203	42	B76	Fidelis - MiHealth Link OP - B76	 MEDICARE		00000000
+IN1	204	42	B77	Molina - MiHealth Link OP - B77	 MEDICARE - MOLINA		00000000
+IN1	205	42	B78	AETNA BHP MCARE ADV OP - B78	 MEDICARE		00000000
+IN1	206	42	B79	AMERIHEALTH MCARE ADV OP - B79	 MEDICARE		00000000
+IN1	207	42	B80	Hap/Midwest Health Plan- MI Health Link Dual Option-B80 Karmanos use only			4
+IN1	208	42	B81	Meridian Health Plan- MI Health link- B81- Karmanos Use Only			4
+IN1	209	42	B82	Molina Dual Option- MI Health Link-B82- Karmanos Use Only			4
+IN1	210	42	B83	Misc Dual Options-B83 Karmanos Use Only			4
+IN1	211	42	B84	Meridian Medicare Advantage OP-B84			4
+IN1	212	42	B90	Psych Molina Advantage IP - B90			4
+IN1	213	42	B94	Meridian Medicare Advantage IP-B94			4
+IN1	214	42	C01	MCAID IP-C01	MEDICAID  		00000000
+IN1	215	42	C02	MCAID Co-Ded/Care IP-C02	MEDICAID  		00000000
+IN1	216	42	C03	MCAID Out-State IP-C03	MEDICAID  		00000000
+IN1	217	42	C05	MCAID MOMS IP-C05	MEDICAID  		00000000
+IN1	218	42	C09	D111 MCAID CO-DED XFER-C09	MEDICAID  		4
+IN1	219	42	C09	MCAID CO-DED ST XFR - C09	MEDICAID  		00000000
+IN1	220	42	C16	MCaid  Out of State IP - C16	MEDICAID  		00000000
+IN1	221	42	C17	Ohio Medicaid - Inpatient C17	MEDICAID  		4
+IN1	222	42	C17	Out of State Medicaid of Ohio IP- C17	MEDICAID  		00000000
+IN1	223	42	C25	Louisiana Medicaid - C25	MEDICAID  		4
+IN1	224	42	C25	LOUISIANA MEDICAID - C25	MEDICAID  		00000000
+IN1	225	42	C26	Alabama Medicaid - C26	MEDICAID  		4
+IN1	226	42	C26	ALABAMA MEDICAID - C26	MEDICAID  		00000000
+IN1	227	42	C27	Mississippi  Medicaid - C27	MEDICAID  		4
+IN1	228	42	C27	MISSISSIPPI MEDICAID - C27	MEDICAID  		00000000
+IN1	229	42	C30	1E EMER MCAID OP	MEDICAID  		00000000
+IN1	230	42	C30	1E EMER MCAID OP - C30	MEDICAID  		00000000
+IN1	231	42	C30	1e Emergency Medicaid	MEDICAID  		4
+IN1	232	42	C30	1e Emergency Medicaid - C30	MEDICAID  		4
+IN1	233	42	C30	1e Emergency Medicaid-C30	MEDICAID  		00000000
+IN1	234	42	C31	1E EMERGENCY CAID IP - C31	MEDICAID  		00000000
+IN1	235	42	C31	1E EMERGENCY MEDICAID IP C31	MEDICAID  		4
+IN1	236	42	C32	MCaid Prisoners Inpt KCI - C32	MEDICAID  		4
+IN1	237	42	C33	MA-HMP-INC Healthy Michigan Plan Incarcerated-KCI ONLY	MEDICAID  		4
+IN1	238	42	C36	Blue Cross Ford Theramatrix Employees  - C36 - In  & out	BCBSM		4
+IN1	239	42	C40	MCAID SPENDDOWN IP - C40	MEDICAID  		00000000
+IN1	240	42	C40	Medicaid Spenddown Inpatient-C40	MEDICAID  		4
+IN1	241	42	C40	MEDICAID SPENDDWN IP	MEDICAID  		4
+IN1	242	42	C43	BCCCP - C43	MEDICAID  		00000000
+IN1	243	42	C45	Medicaid Spenddown Outpatient -C45	MEDICAID  		00000000
+IN1	244	42	C45	MEDICAID SPENDDOWN OUTPATIENT- C45	MEDICAID  		4
+IN1	245	42	C45	MEDICAID SPENDDWN OP	MEDICAID  		4
+IN1	246	42	C53	MCAID Out-State OP-C53	MEDICAID  		4
+IN1	247	42	C57	MCAID - MOMS OP  -C57	MEDICAID  		4
+IN1	248	42	C57	MCAID - MOMS OP  -C57	MEDICAID  		4
+IN1	249	42	C58	PLAN FIRST - MCAID   OP - C58	MEDICAID  		4
+IN1	250	42	C58	PLAN FIRST - MCAID OP C58	MEDICAID  		4
+IN1	251	42	C59	MCAID OP C59	MEDICAID  		4
+IN1	252	42	C62	MEDICAID HEALTHY MICHIGAN IP - C62	MEDICAID  		00000000
+IN1	253	42	C63	MA-HMP Healthy Michigan Plan-C63 KCI Only	MEDICAID  		4
+IN1	254	42	C63	MEDICAID HEALTHY MICHIGAN PLAN C63	MEDICAID  		4
+IN1	255	42	C63	MEDICAID HEALTHY MICHIGAN PLAN C63 KCI ONLY	MEDICAID  		4
+IN1	256	42	C65	MCAID OP Secondary Plan - C65	MEDICAID  		00000000
+IN1	257	42	C72	MCAID HEALTHY MI	MEDICAID  		4
+IN1	258	42	C72	MCAID HEALTHY MI-C72	MEDICAID  		00000000
+IN1	259	42	C72	Medicaid Healthy Michigan OP- C72	MEDICAID  		00000000
+IN1	260	42	C76	MCAID OUT OF STATE OP - C76	MEDICAID  		00000000
+IN1	261	42	C77	Ohio Medicaid - Outpatient C77	MEDICAID  		4
+IN1	262	42	C77	Out of State Medicaid of Ohio OP- C77	MEDICAID  		00000000
+IN1	263	42	C99	Out of State Medicaid Pending - C99	MEDICAID  		00000000
+IN1	264	42	D01	MCAID CSHCS IP-D01	MEDICAID  		00000000
+IN1	265	42	D02	MCAID CSHCS Pend IP-D02	MEDICAID  		4
+IN1	266	42	D02	MCAID CSHCS PEND IP-D02	MEDICAID  		00000000
+IN1	267	42	D03	CSHCSC/M'CAID DUAL ELIG IP-D03	MEDICAID  		00000000
+IN1	268	42	D41	MCAID CSHCS OP -D41	MEDICAID  		4
+IN1	269	42	D41	MCAID CSHCS OP -D41	MEDICAID  		00000000
+IN1	270	42	D41	MCAID CSHCS OP-APC-D41	MEDICAID  		00000000
+IN1	271	42	D51	MCAID CSHCS OP-D51 Inactive	MEDICAID  		00000000
+IN1	272	42	D53	CSHCSC/MCAID DUAL ELIG OP-D53	MEDICAID  		4
+IN1	273	42	D53	CSHCSC/M'CAID DUAL ELIG OP-D53	MEDICAID  		00000000
+IN1	274	42	E01	H/S DRHUHC/DCHC OP-E01	MEDICARE 		00000000
+IN1	275	42	F01	BCBSM IP-F01	BCBSM		00000000
+IN1	276	42	F03	BCBSM Co-Ded/Care IP-F03	BCBSM		00000000
+IN1	277	42	F05	BCBSM Out of Area IP-F05	BCBSM		00000000
+IN1	278	42	F06	BCBSM Sub Abs/Dtx IP-F06	BCBSM		4
+IN1	279	42	F07	BCBSM PSYCH IP - F07	BCBSM		00000000
+IN1	280	42	F07	BCBSM Psych IP-F07	BCBSM		4
+IN1	281	42	F08	BCBSM Teamsters IP-F08	BCBSM		00000000
+IN1	282	42	F09	BCBSM Brst BMT Bndl-F09	BCBSM		4
+IN1	283	42	F09	BCBSM BRST BMT BUNDL-F09	BCBSM		00000000
+IN1	284	42	F10	BCBSM Federal Emp IP-F10	BCBSM		00000000
+IN1	285	42	F11	BCBSM Interbank IP-F11	BCBSM		4
+IN1	286	42	F11	BCBSM INTERBANK-IP-F11	BCBSM		00000000
+IN1	287	42	F19	BCBSM BMT Bundle-F19	BCBSM		00000000
+IN1	288	42	F20	Blue Cross Out of State BMT - F20	BCBSM		4
+IN1	289	42	F39	BCBSM Gender Dysph-F39	BCBSM		4
+IN1	290	42	F39	BCBSM GENDER DYSPH-F39	BCBSM		00000000
+IN1	291	42	F43	BCBSM Fed Co-Ded IP-F43	BCBSM		00000000
+IN1	292	42	F49	BCBSM Second Plan IP-F49	BCBSM		00000000
+IN1	293	42	F51	BCBSM OP-F51	BCBSM		00000000
+IN1	294	42	F53	BCBSM Co-Ded/Care OP-F53	BCBSM		00000000
+IN1	295	42	F55	BCBSM Out of Area OP-F55	BCBSM		00000000
+IN1	296	42	F57	BCBSM Psych OP-F57	BCBSM		00000000
+IN1	297	42	F58	BCBSM Teamsters OP-F58	BCBSM		00000000
+IN1	298	42	F60	BCBSM Federal Emp OP-F60	BCBSM		00000000
+IN1	299	42	F61	BCBSM Interbank OP-F61	BCBSM		4
+IN1	300	42	F61	BCBSM INTERBANK-OP-F61	BCBSM		00000000
+IN1	301	42	F63	BCBSM Fed Co-Ded OP-F63	BCBSM		00000000
+IN1	302	42	F69	BCBSM BMT Bundle OP-F69	BCBSM		4
+IN1	303	42	F75	BCBSM KIDNEY PANCREA-F75	BCBSM		00000000
+IN1	304	42	F75	BCBSM Kidney Pancreas Bundled Billing  -F75	BCBSM		4
+IN1	305	42	F77	BCBSM COORDINATE CARE OP-F77	BCBSM		00000000
+IN1	306	42	F77	BCBSM COORDINATE OP-F77	BCBSM		00000000
+IN1	307	42	F78	BCBSM Functional Recovery Program OP - F78	BCBSM		4
+IN1	308	42	F78	BCBSM Functional Recovery Program OP- F78	BCBSM		00000000
+IN1	309	42	F80	Human Organ Transplant - F80	BCBSM		4
+IN1	310	42	F80	HUMAN ORGAN TRANSPLT-F80	BCBSM		00000000
+IN1	311	42	F99	BCBSM Second Plan OP-F99	BCBSM		00000000
+IN1	312	42	G01	BCBSM PPO IP-G01	BCBSM		00000000
+IN1	313	42	G02	BCBSM Chce Asgn IP-G02	BCBSM		4
+IN1	314	42	G02	BCBSM CHOICE ASGN IP -G02	BCBSM		00000000
+IN1	315	42	G04	Wayne County Prisoner IP-G04	BCBSM		4
+IN1	316	42	G04	WAYNE COUNTY PRISONER IP-G04	BCBSM		00000000
+IN1	317	42	G05	BCBSM PRIS HLTH SERV MDOC IP-G05	BCBSM		4
+IN1	318	42	G05	WYN CTY PCMS PRIS IP-G05	BCBSM		00000000
+IN1	319	42	G06	BCBS Out of Area PPO IP-G06	BCBSM		4
+IN1	320	42	G06	BCBS Out of Area PPO IP-G06	BCBSM		00000000
+IN1	321	42	G11	Community Blue IP-G11	BCBSM		4
+IN1	322	42	G20	WAYNE COUNTY JUVENIL - G20	BCBSM		00000000
+IN1	323	42	G20	Wayne County Juvenile - G20	BCBSM		00000000
+IN1	324	42	G51	BCBSM PPO  OP-G51	BCBSM		00000000
+IN1	325	42	G51	BCBSM PPO IP-G01	BCBSM		00000000
+IN1	326	42	G51	BCBSM PPO OP-G51	BCBSM		4
+IN1	327	42	G52	BCBSM Chce Asgn OP-G52	BCBSM		4
+IN1	328	42	G52	BCBSM CHCE ASGN OP-G52	BCBSM		00000000
+IN1	329	42	G52	BCBSM Chce Asgn OP-G52	BCBSM		00000000
+IN1	330	42	G54	BCBSM Wayne County Prisoner-G54	BCBSM		4
+IN1	331	42	G55	Wayne County PCMS Prisoner OP-G55	BCBSM		4
+IN1	332	42	G55	WAYNE COUNTY PCMS PRISONER OP-G55	BCBSM		00000000
+IN1	333	42	G56	BCBS Out of Area PPO OP-G56	BCBSM		00000000
+IN1	334	42	G56	BCBSM PPO OP Out of Area - G56	BCBSM		00000000
+IN1	335	42	G56	BCBSM PPO OP Out of Area -G56	BCBSM		4
+IN1	336	42	G80	BCBS OF TEXAS - Conifer Employee - G80	BCBSM		00000000
+IN1	337	42	G80	BCBS of Texas - Conifer Employee Inactive	BCBSM		4
+IN1	338	42	H04	Molina Healthcare of MI OP - H04	MOLINA 		00000000
+IN1	339	42	H13	MOLINA HEALTHCARE OF MI IP - H13	MOLINA 		00000000
+IN1	340	42	H13	MOLINA HEALTHCARE OF MI IP- H13	MOLINA 		4
+IN1	341	42	H14	Molina Stilson Urgent Care OP - H14	MOLINA 		00000000
+IN1	342	42	H23	Healthy MI Molina IP - H23	MOLINA 		00000000
+IN1	343	42	H24	Healthy MI Molina OP - H24	MOLINA 		00000000
+IN1	344	42	H36	Theramatric Physical Therapy Employees - H36 In & Out			4
+IN1	345	42	H75	Molina MiChild IP - H75	MOLINA 		00000000
+IN1	346	42	H90	MOLINA RETRO IP - H90	MOLINA 		00000000
+IN1	347	42	H91	MOLINA RETRO OP - H91	MOLINA 		00000000
+IN1	348	42	H95	Molina MiChild OP - H95	MOLINA 		00000000
+IN1	349	42	I05	BCBSM PPO EXCHANGE - I05	BCBSM		00000000
+IN1	350	42	I10	BCN HMO EXCHANGE - I10	BCBSM		00000000
+IN1	351	42	I20	HAP ALLIANCE HMO - I20	HAP		00000000
+IN1	352	42	I21	Henry Ford Choice - I21			4
+IN1	353	42	I22	Genesys Choice - I22			4
+IN1	354	42	I25	HAP ALLIANCE PPO EXCHANGE - I25	HAP		00000000
+IN1	355	42	I30	Priority MyHealth (Exchange) -I30	PRIORITY		4
+IN1	356	42	I30	PRIORITY MYHEALTH EXCHG -I30	PRIORITY		00000000
+IN1	357	42	I31	METRO DETROIT EPO - I31			00000000
+IN1	358	42	I40	THC Totally You Exchange -I40			4
+IN1	359	42	I40	THC TOTALLY YOU EXCHANGE -I40			00000000
+IN1	360	42	I40	THC TOTALLY YOU EXCHANGE IP -I40			4
+IN1	361	42	I41	THC TOTALLY YOU EXCHANGE OP - I41			4
+IN1	362	42	I42	Meridian Choice Exchange IP - I42			4
+IN1	363	42	I42	Meridian Choice Exchange IP- I42			4
+IN1	364	42	I43	Meridian Choice  Exchange OP - I43			4
+IN1	365	42	I43	MERIDIAN CHOICE EXCHANGE OP - I43			4
+IN1	366	42	I50	MCCLAREN REWARD EXCH-I50			00000000
+IN1	367	42	I50	MCLAREN REWARD EXCHANGE -I50			00000000
+IN1	368	42	I60	HUMANA X CONNECT -I60			00000000
+IN1	369	42	I65	HUMANA X CONNECT CONTINUITY OF CARE- I65			4
+IN1	370	42	I70	MOLINA MARKETPLACE EXCHANGE -I70	MOLINA 		00000000
+IN1	371	42	I80	CONSUMER MUTUAL BASIC EXCHANGE - I80			00000000
+IN1	372	42	I85	Aetna Non Contracted Exchange - I85			00000000
+IN1	373	42	I93	Harbor Health Exchange - I93			00000000
+IN1	374	42	I98	UHC Compass - Exchange - I98			00000000
+IN1	375	42	I99	MISC EXCHANGE PLAN - I99			00000000
+IN1	376	42	I99	PATIENT SERVICE I-I99			00000000
+IN1	377	42	J01	 Herman Kiefer CXR OP - J01			00000000
+IN1	378	42	J01	Herman Kiefer CXR OP  J01			00000000
+IN1	379	42	J01	Herman Kiefer CXR OP J01			4
+IN1	380	42	J01	ZZ - DON'T USE-Herman Kiefer CXR OP J01			4
+IN1	381	42	J02	OPT/BMT PRE/POST TRA-J02			00000000
+IN1	382	42	J02	Optum/BMT Pre/post Transplant - J02			4
+IN1	383	42	J03	Optum Oncology - J03			4
+IN1	384	42	J04	Marrow Foundation Fund - J04			4
+IN1	385	42	J05	BELITE WEIGHT PROGRA-J05			00000000
+IN1	386	42	J05	Belite Weight Program - J05 both			4
+IN1	387	42	J05	OR Services VA Special Contract - J05			4
+IN1	388	42	J06	OPTUM BMT CASE INCLUSIONS - J06			4
+IN1	389	42	J08	ALTUS 726 STUDY INPT-J08			00000000
+IN1	390	42	J09	PRIORITY HEALTH HMO/PPO- J09			00000000
+IN1	391	42	J10	PISTONS-J10			00000000
+IN1	392	42	J11	Shock-J11			4
+IN1	393	42	J11	SHOCK-J11			00000000
+IN1	394	42	J12	TIGERS-J12			00000000
+IN1	395	42	J13	RED WINGS-J13			00000000
+IN1	396	42	J15	HOSPICE IP/OP - HENRY FORD HEALTH SYSTEM-J15			4
+IN1	397	42	J17	Triumph Health Care - OP - J17			00000000
+IN1	398	42	J18	U OF D MERCY STUDENT-J18			00000000
+IN1	399	42	J18	U OF D MERCY STUDENTS AND PATIENT REFERRALS-J18			4
+IN1	400	42	J19	U of D MERCY EMPLOYEES - J19			4
+IN1	401	42	J19	U OF D MERCY EMPLOYE-J19			00000000
+IN1	402	42	J21	FUNC RECV PRGM-ACC FUND OP J21			4
+IN1	403	42	J21	FUNC RECV PRGM-ACC-J21			00000000
+IN1	404	42	J22	Paramount - J22			4
+IN1	405	42	J23	SPORT TEAM VISITOR - J23			4
+IN1	406	42	J23	SPORT TEAM VISITOR-J23			00000000
+IN1	407	42	J24	DETROIT IGNITION - J24			4
+IN1	408	42	J24	DETROIT IGNITION-J24			00000000
+IN1	409	42	J25	Psych Integrated Care-Flinn Grant OP-J25			4
+IN1	410	42	J25	PSYCH INTEGRATED OP-J25			00000000
+IN1	411	42	J26	CRIME VICTIMS OP - FORENSIC EXAM J26			4
+IN1	412	42	J26	CRIME VICTIMS-FRNSC-J26			00000000
+IN1	413	42	J28	Gift of Life Bone Marr Fd - J28			4
+IN1	414	42	J29	Season's Hospice - J29			00000000
+IN1	415	42	J31	Dr. J Berman & Halt Study - J31			4
+IN1	416	42	J31	ZZ DONOTUSE - Dr. J Berman & Halt Study - J31			4
+IN1	417	42	J32	CIGNA LIFESOURCE BMT BB - J32 Karmanos Only			4
+IN1	418	42	J33	DRH CARDIOLOGY SERVI-J33			00000000
+IN1	419	42	J34	HEALTH PLUS HMO AND PPO - J34			00000000
+IN1	420	42	J35	Community Care Associates - J35			00000000
+IN1	421	42	J36	Priority Health BMT Bundled - J36			00000000
+IN1	422	42	J37	Multiplan BMT Bundled - J37			4
+IN1	423	42	J38	Interlink Health Service Inc. BMT Bundled - J38			4
+IN1	424	42	J39	Paramount BMT Bundled - J39			4
+IN1	425	42	J40	CVI Alert Study - J40			4
+IN1	426	42	J40	CVI ALERT STUDY - J40			00000000
+IN1	427	42	J41	KCCIC - J41			4
+IN1	428	42	J43	INSPIRE STUDY - INPT - J43			00000000
+IN1	429	42	J43	Inspire Study - Inpt Only - J43			4
+IN1	430	42	J44	CVI INPATIENT STUDY - J44			00000000
+IN1	431	42	J44	DMC-CVI  J44			4
+IN1	432	42	J45	VETERAN EVAL SERV			4
+IN1	433	42	J45	Veterans Evaluation Services- J45			4
+IN1	434	42	J49	POS PRIORITY HEALTH - J49			00000000
+IN1	435	42	J52	MCARE IP IME - J52	MEDICARE 		00000000
+IN1	436	42	J53	SNF - Secondary - J53			4
+IN1	437	42	J55	EVOLUTION HLTSYS PPO - J55			00000000
+IN1	438	42	J55	Evolutions Health Systems PPO - J55			4
+IN1	439	42	J60	DMC/UDM TB Screening - J60			00000000
+IN1	440	42	J62	Vibra Inpatient - J62			4
+IN1	441	42	J71	Health Smart Direct - J71			4
+IN1	442	42	J71	HEALTH SMART DIRECT - J71			4
+IN1	443	42	J72	USA Managed Care Organization, Inc- J72			4
+IN1	444	42	J75	Health Smart HPO - J75			4
+IN1	445	42	J80	Plotkin and Sons Consulting Inc - J80			4
+IN1	446	42	J82	Vibra Outpatient - J82			4
+IN1	447	42	J82	Vibra Outpatient-J82			4
+IN1	448	42	K01	BCBSM BCN IP-K01	BCBSM		00000000
+IN1	449	42	K05	Blue Cross Complete IP - K05	BCBSM		00000000
+IN1	450	42	K06	Healthy MI BC Complete IP - K06	BCBSM		00000000
+IN1	451	42	K10	BCBSM BCN Co-Ded/Car-K10	BCBSM		00000000
+IN1	452	42	K15	BCN BMT BUNDLED - K15	BCBSM		00000000
+IN1	453	42	K15	BCN BMT BUNDLED-K15	BCBSM		4
+IN1	454	42	K20	BCN OP Exhaust - K20	BCBSM		4
+IN1	455	42	K20	BCN OP EXHAUST - K20	BCBSM		00000000
+IN1	456	42	K20	BCN OP Exhaust - K20	BCBSM		00000000
+IN1	457	42	K20	MEDICARE BLUE - H - K20			00000000
+IN1	458	42	K21	Medicare Blue - HMO/2nd Plan-K21	BCBSM		4
+IN1	459	42	K22	Medicare Blue - HMO Referral-K22	BCBSM		4
+IN1	460	42	K51	BCBSM BCN OP-K51	BCBSM		00000000
+IN1	461	42	K52	BCBSM BCN Asgn HCC-K52	BCBSM		4
+IN1	462	42	K55	Blue Cross Complete OP - K55	BCBSM		00000000
+IN1	463	42	K56	Blue Care Network OP - K56	BCBSM		00000000
+IN1	464	42	K57	BCN PSYCH OP - K57	BCBSM		00000000
+IN1	465	42	K57	BCN PSYCH OP K57	BCBSM		4
+IN1	466	42	K58	Healthy MI BC Complete OP - K58	BCBSM		00000000
+IN1	467	42	L01	HAP-L01	HAP		00000000
+IN1	468	42	L02	HAP ASSIGNED - L02	HAP		00000000
+IN1	469	42	L02	HAP DMC Assigned-L02	HAP		00000000
+IN1	470	42	L05	HAP - Cmplmty MCARE - L05	HAP		00000000
+IN1	471	42	L05	HAP - Cmplmty MCARE-L05	HAP		4
+IN1	472	42	L07	HAP - BMT - L07	HAP		00000000
+IN1	473	42	L07	HAP - BMT-L07	HAP		4
+IN1	474	42	L15	HAP Senior Plus-2nd Plan-L15	HAP		4
+IN1	475	42	L18	Alliance Health and Life Plan - L18	HAP		00000000
+IN1	476	42	L18	Alliance Health and Life-Err	HAP		4
+IN1	477	42	L18	HAP Alliance Health and Life Plan PPO L18	HAP		4
+IN1	478	42	L20	HAP DPS PREMIUM PLAN - L20	HAP		00000000
+IN1	479	42	L38	ASR HEALTH BENEFITS - L38	HAP		00000000
+IN1	480	42	L39	HAP ASO Self-Funded Health Plan - L39	HAP		00000000
+IN1	481	42	L50	HAP DPS CORE PLAN - L50	HAP		00000000
+IN1	482	42	L50	ZZ-DON'T USE-HAP DPS CORE PLAN - L50			4
+IN1	483	42	L91	HAP Unassigned Sinai Berry Ctr LLC OP - L91			4
+IN1	484	42	M03	Wellness MCAID IP-M03			4
+IN1	485	42	M05	Wellness Mcare/Co-Ded-M05			4
+IN1	486	42	M06	Wellness Plan IP MI Child-M06			4
+IN1	487	42	M51	Wellness Plan OP - M51			4
+IN1	488	42	M52	Wellness DMC Asgn IP-M52			4
+IN1	489	42	M53	Wellness MCAID OP M-53			4
+IN1	490	42	M53	WELLNESS MCAID OP-Inactive - M53			00000000
+IN1	491	42	M54	Wellness DMC Assigned OP-M54			4
+IN1	492	42	M55	Wellness Co-Ded OP-M55			4
+IN1	493	42	M56	Wellness OP MI Child OP-M56			4
+IN1	494	42	N01	Total Health Care  IP -N01			4
+IN1	495	42	N01	Total Health Care IP - N01			00000000
+IN1	496	42	N01	Total Health Care IP -N01			00000000
+IN1	497	42	N02	TOTAL HEALTH CAID IP - N02			00000000
+IN1	498	42	N05	Total Health Care OP - N05			00000000
+IN1	499	42	N06	Total Health Caid OP - N06			00000000
+IN1	500	42	N10	THC - Co-Ded/Care-N10			4
+IN1	501	42	N10	THC - CO-DED/CARE-N10			00000000
+IN1	502	42	N12	TOTAL HEALTH CAID IP  - N12			00000000
+IN1	503	42	N13	Total Health Care OP - N13			00000000
+IN1	504	42	N15	Healthy MI Total Health Care IP - N15			00000000
+IN1	505	42	N16	Healthy MI Total Health Care OP - N16			4
+IN1	506	42	N16	Healthy MI Total Health Care OP- N16			00000000
+IN1	507	42	N75	Total Healthcare MiChild - N75			4
+IN1	508	42	N75	Total Healthcare MiChild IP - N75			00000000
+IN1	509	42	N95	Total Healthcare MiChild - N95			4
+IN1	510	42	N95	Total Healthcare MiChild OP - N95			00000000
+IN1	511	42	P01	Health Source - DRH-P01			4
+IN1	512	42	P01	HEALTH SOURCE-DRH-P01			00000000
+IN1	513	42	P02	HEALTH SOURCE-GRC OP-P02			00000000
+IN1	514	42	P03	Health Source - DCHC-P03			00000000
+IN1	515	42	P04	BCCCP MAMM AGE 40-49-P04			00000000
+IN1	516	42	P04	Oak Cty BCCCP - P04 Karmanos Only			4
+IN1	517	42	P05	OAKLAND CTY IHP PROG-P05			00000000
+IN1	518	42	P07	Care First - OP - P07			4
+IN1	519	42	P08	Healthsource ABW - OP - P08			4
+IN1	520	42	P08	Healthsource ABW - OP-P08			00000000
+IN1	521	42	P10	Wayne County Prisoner IP- P10			4
+IN1	522	42	P99	Health Source Other-P99			00000000
+IN1	523	42	Q06	OMNICARE COVENTRY IP-Q06			00000000
+IN1	524	42	Q07	AETNA BETTER HTH OF MI OP - Q07			00000000
+IN1	525	42	Q07	CoventryCares of MI OP - Q07			00000000
+IN1	526	42	Q09	Aetna Better Health of Michigan - Healthy Michigan Plan - Q09			4
+IN1	527	42	Q10	HTHY MI AETNA BTTR HTH IP - Q10			00000000
+IN1	528	42	Q11	Healthy MI CoventryCares OP - Q11			00000000
+IN1	529	42	Q11	HTHY MI AETNA BTTR HTH OP - Q11			00000000
+IN1	530	42	Q16	AETNA BETTER HTH OF MI IP - Q16			00000000
+IN1	531	42	Q16	AETNA BETTER HTH OF MI IP- Q16			4
+IN1	532	42	Q16	CoventryCares of MI IP - Q16			00000000
+IN1	533	42	Q75	ABH/OMNI MICHILD IP- Q75			4
+IN1	534	42	Q75	Coventry/Omni MiChild IP - Q75			00000000
+IN1	535	42	Q95	ABH/OMNI MICHILD OP - Q95			00000000
+IN1	536	42	Q95	Coventry/Omni MiChild OP - Q95			00000000
+IN1	537	42	R30	WAYNE COUNTY PRISONER OP-R30			00000000
+IN1	538	42	R31	PRISONER-CITY DETROIT - R31			4
+IN1	539	42	R32	PRISONER-MISCEL			4
+IN1	540	42	R32	PRISONER-MISCELLANEOUS - R32			4
+IN1	541	42	R32	PRISONER-MISCEL-R32			00000000
+IN1	542	42	R33	PRISONER-FEDERAL - R33			4
+IN1	543	42	R81	VOC REHAB - R81			4
+IN1	544	42	S12	Healthy MI-Health Plus- S12 KARMANOS USE ONLY			4
+IN1	545	42	S12	U of M-Care POS-2nd Plan-S12			4
+IN1	546	42	S13	Healthy MI Misc- S13-Karmanos Only			4
+IN1	547	42	S13	U of M-Care Referral-S13			4
+IN1	548	42	S15	PRIORITY HEALTH MCAID IP - S15			4
+IN1	549	42	S15	U of M-CareSenior Plan-2nd Plan-S15			4
+IN1	550	42	S16	PRIORITY HEALTH MCAID OP - S16			4
+IN1	551	42	S16	U of M-Care Urgent Care-S16			4
+IN1	552	42	S17	Care Choice-S17			4
+IN1	553	42	S18	Four Star Health - S18			00000000
+IN1	554	42	S18	FOUR STAR HEALTH-S18			00000000
+IN1	555	42	S21	Great Lakes Health Plan Comm HMO-S21			4
+IN1	556	42	S22	Great Lakes Health Plan Comm HMO-2nd Plan-S22			4
+IN1	557	42	S24	Healthy MI Meridian IP - S24			00000000
+IN1	558	42	S30	Cape Medical Plan (HMO)-S30			00000000
+IN1	559	42	S31	Cape Health Choice-S31			4
+IN1	560	42	S32	Great West Health - S32			4
+IN1	561	42	S32	GREAT WEST HEALTH-S32			00000000
+IN1	562	42	S34	Cape Medical Plan - 2nd Plan-S34			4
+IN1	563	42	S35	Cape Medical Plan - Refer-S35			4
+IN1	564	42	S36	MCCLAREN RETRO IP-S36			00000000
+IN1	565	42	S37	MCCLAREN RETRO OP-S37			00000000
+IN1	566	42	S38	UNITEDHLTH RETRO IP-S38			00000000
+IN1	567	42	S39	United Hlth Care Retro OP - S39			4
+IN1	568	42	S39	UNITEDHLTH RETRO OP-S39			00000000
+IN1	569	42	S40	Midwest Health AKM ABW Program-OP S40			4
+IN1	570	42	S40	Midwest Health AKM ABW Program-OP-S40			00000000
+IN1	571	42	S42	MERIDIAN HLTH RETRO-S42			00000000
+IN1	572	42	S43	Meridian Health Retro OP-S43			00000000
+IN1	573	42	S45	HEALTH PLUS RETRO IP-S45			00000000
+IN1	574	42	S46	HEALTH PLUS RETRO OP-S46			00000000
+IN1	575	42	S47	HAP MIDWEST RETRO IP-S47	HAP		00000000
+IN1	576	42	S48	HAP MIDWEST RETRO OP-S48	HAP		00000000
+IN1	577	42	S49	Out of State Medicaid - HMO S49			4
+IN1	578	42	S49	Out of State Medicaid - HMO S49	MEDICAID  		00000000
+IN1	579	42	S50	COMMUNITY CARE ASSOCIATES IP - S50			4
+IN1	580	42	S50	COMMUNITY CARE ASSOCIATES IP- S50	MEDICARE 		00000000
+IN1	581	42	S51	UNITEDHLTHCRE COMM PLN IP - S51			4
+IN1	582	42	S51	UNITEDHLTHCRE COMM PLN IP-S51			00000000
+IN1	583	42	S52	OAKLAND HEALTH PLAN - S52			4
+IN1	584	42	S52	OAKLAND HEALTH PLAN-S52			00000000
+IN1	585	42	S52	OAKLAND HLTH PLN-ABW-S52			00000000
+IN1	586	42	S54	MERIDIAN HEALTH PLAN OF MICHIGAN IP - S54	MERIDIAN 		00000000
+IN1	587	42	S56	HEALTH PLUS PARTNERS IP - S56	HEALTHPLUS		00000000
+IN1	588	42	S57	MCLAREN HEALTH PLAN - APC - S57			4
+IN1	589	42	S57	MCLAREN HEALTH PLAN IP - S57			00000000
+IN1	590	42	S58	HAP MIDWEST HEALTH PLAN IP  - S58	HAP		00000000
+IN1	591	42	S58	HAP MIDWEST HEALTH PLAN IP - S58			4
+IN1	592	42	S59	PHYSICIANS HEALTH PLAN IP - S59			00000000
+IN1	593	42	S60	Kids Care Program-S60			4
+IN1	594	42	S61	PRIORITY HEALTH - S61			00000000
+IN1	595	42	S63	Healthy MI Hap/Midwest IP - S63	HAP		00000000
+IN1	596	42	S64	Healthy MI Mclaren IP - S64			4
+IN1	597	42	S64	Healthy MI McLaren IP - S64			00000000
+IN1	598	42	S65	Care Choice Trinity Kidney Pancreas Bundled Billing -S65			4
+IN1	599	42	S66	UHC KIDNEY/PANCREAS - S66			00000000
+IN1	600	42	S66	UNTDHLTCR COMM PLN-KIDNEY -S66			4
+IN1	601	42	S68	Healthy MI UHC Community IP - S68			00000000
+IN1	602	42	S69	MCAID OUT OF STATE HMO - S69			00000000
+IN1	603	42	S69	NHI OUT OF STATE HMO IP  OP - S69	MEDICAID  		00000000
+IN1	604	42	S71	Paramount - S71			4
+IN1	605	42	S72	MCLAREN COMMERCIAL HMO-S72			4
+IN1	606	42	S72	MCLAREN HTH COMM HMO - S72			00000000
+IN1	607	42	S73	COMPCARE PSYCH HMO - S73			00000000
+IN1	608	42	S73	Compcare Psych HMO Outpatient - S73			4
+IN1	609	42	S74	HAP Midwest Health OP - S74	HAP		00000000
+IN1	610	42	S75	HAP Midwest MiChild IP - S75	HAP		00000000
+IN1	611	42	S76	MCCLAREN MICHILD IP - S76			00000000
+IN1	612	42	S76	McLaren MiChild IP - S76			4
+IN1	613	42	S77	HealthPlus MiChild - S77			4
+IN1	614	42	S77	HealthPlus MiChild IP - S77	HEALTHPLUS		00000000
+IN1	615	42	S78	UHC Community MiChild - S78			4
+IN1	616	42	S78	UHC Community MiChild IP - S78			00000000
+IN1	617	42	S80	COMMUNITY CARE ASSOCIATES OP- S80			00000000
+IN1	618	42	S81	UHC COMM PLN OP - S81	MEDICAID  		00000000
+IN1	619	42	S83	Healthy MI Hap/Midwest OP - S83	HAP		00000000
+IN1	620	42	S84	Meridian Health Plan of MI OP - S84			4
+IN1	621	42	S84	Meridian Health Plan of MI OP - S84	MERIDIAN		00000000
+IN1	622	42	S87	McClaren Health Plan OP - S87			00000000
+IN1	623	42	S87	McLaren Health Plan OP - S87			00000000
+IN1	624	42	S88	HAP Midwest Health Plan Op - S88	HAP		00000000
+IN1	625	42	S88	HAP Midwest Health Plan OP -S88			4
+IN1	626	42	S89	Physician Health Plan OP - S89			4
+IN1	627	42	S89	Physicians Health Plan OP - S89			00000000
+IN1	628	42	S90	Preferred Health Plan - S90 - Sinai Berry Ctr LLC			4
+IN1	629	42	S91	MCAID HMO CO-DED ST - S91	MEDICAID  		00000000
+IN1	630	42	S91	MCAID HMO CO-DED ST XFER-S91	Medicaid IP		4
+IN1	631	42	S92	Healthy MI Meridian OP - S92			00000000
+IN1	632	42	S93	Healthy MI McLaren OP - S93			00000000
+IN1	633	42	S94	Healthy MI UHC Community OP - S94			00000000
+IN1	634	42	S95	HAP Midwest MiChild OP - S95	HAP		00000000
+IN1	635	42	S96	McClaren MiChild OP - S96			00000000
+IN1	636	42	S96	McLaren MiChild OP - S96			00000000
+IN1	637	42	S97	HealthPlus MiChild OP - S97	HEALTHPLUS		00000000
+IN1	638	42	S99	HMO - Miscellaneous-S99			00000000
+IN1	639	42	T02	Health Net - VA Patient Centered Community Care Program - T02			4
+IN1	640	42	T03	Banker's Life-T03			4
+IN1	641	42	T04	Cigna-T04			00000000
+IN1	642	42	T05	KCI Residenital Hospice - T05			4
+IN1	643	42	T07	Guardian-T07			4
+IN1	644	42	T08	John Hancock-T08			4
+IN1	645	42	T09	Hospice of Michigan-T09			4
+IN1	646	42	T11	DMC-OHS DPD PE-T11			4
+IN1	647	42	T12	DMC-OHS DFD PE-T12			4
+IN1	648	42	T17	Prudential-T17			4
+IN1	649	42	T18	Commerical Kidney Pancreas Bundled Billing -T18			4
+IN1	650	42	T19	Teamsters/COM-T19			4
+IN1	651	42	T20	Travelers - T20			4
+IN1	652	42	T21	TRICARE/CHAMPUS T21			00000000
+IN1	653	42	T22	OHIP - Ontario Hlth-T22			4
+IN1	654	42	T22	OHIP-ONTARIO HTH PLN T22			00000000
+IN1	655	42	T23	Organ Procurement-T23			00000000
+IN1	656	42	T26	INTERNATIONAL-T26			00000000
+IN1	657	42	T27	Heart Care - T27			4
+IN1	658	42	T28	HOSPICE OF HENRY FORD HEATLH SYSTEM - T28			4
+IN1	659	42	T28	URN Kidney Pancreas Bundled Billing  -T28			4
+IN1	660	42	T29	DMC UNIV LAB EMP NON COMP-T29			4
+IN1	661	42	T30	Veterans Admin-T30			00000000
+IN1	662	42	T31	AARP-T31			00000000
+IN1	663	42	T32	ChampVA-T32			00000000
+IN1	664	42	T33	GM Milford Proving Ground-T33			4
+IN1	665	42	T33	Veterans Choice-T33			4
+IN1	666	42	T34	DRH EMP NON-COMP			00000000
+IN1	667	42	T34	DRH EMP NON-COMP-T34			4
+IN1	668	42	T35	HAR/HUT/DSH  EMP NON-COMP-T35			4
+IN1	669	42	T36	HVS EMP NON-COMP-T36			4
+IN1	670	42	T37	SIN\\GRA EMP NON-COMP-T37			4
+IN1	671	42	T38	CHM EMP NON-COMP-T38			4
+IN1	672	42	T39	RIM EMP NON-COMP-T39			4
+IN1	673	42	T40	Title 15 BCCCP - T40 Karmanos Only			4
+IN1	674	42	T40	Title 15 BCCCP - T40 Karmanos Only - T40			00000000
+IN1	675	42	T43	PROJECT CHESSED-018-T43			00000000
+IN1	676	42	T44	KCI Grant/Research-T44			4
+IN1	677	42	T45	DRH VOCA Grant OP-T45			00000000
+IN1	678	42	T46	DRH Life Stress Center OP-T46			00000000
+IN1	679	42	T47	KCI Race for Cure Fund-T47			4
+IN1	680	42	T48	Cosmetic Surgery-T48			00000000
+IN1	681	42	T50	Theramatrix Physicial Therapy Employees OP - T50			4
+IN1	682	42	T51	List-Bon Secour-T51			00000000
+IN1	683	42	T51	Odyssey Hospice - T51			00000000
+IN1	684	42	T52	BCCCP WOMEN FUND - T52			4
+IN1	685	42	T53	BCCCNP - T53			4
+IN1	686	42	T57	Lear Corporation Detroit - T57			4
+IN1	687	42	T59	Procare Hlth Choice - T59			00000000
+IN1	688	42	T60	Kidney Transplant Bundled Billing T60			4
+IN1	689	42	T61	HAR Intercompany-T61			4
+IN1	690	42	T62	HVH Intercompany-T62			00000000
+IN1	691	42	T63	GRA Intercompany-T63			00000000
+IN1	692	42	T64	RIM Intercompany-T64			4
+IN1	693	42	T65	HTZ Intercompany-T65			4
+IN1	694	42	T66	DRH Intercompany-T66			4
+IN1	695	42	T67	CHM Intercompany-T67			00000000
+IN1	696	42	T68	KCI Clinical Trial Grant - T68			00000000
+IN1	697	42	T68	WSU Studies/Grants URN - T68			4
+IN1	698	42	T71	MRI Cash Program - T71			00000000
+IN1	699	42	T73	Healthsource Health Choice Program - T73			00000000
+IN1	700	42	T74	OHS Contracted Services - T74			4
+IN1	701	42	T74	OHS CONTRACTED SERVICES - T74			00000000
+IN1	702	42	T75	Midwest Health AKM Health Choice Program - T75			4
+IN1	703	42	T75	MIDWEST HLTH AKM - T75			00000000
+IN1	704	42	T78	Select Specialty Hospital NW Detroit - T78			00000000
+IN1	705	42	T79	Beacon Health Options-T79			4
+IN1	706	42	T79	Value Options-T79			00000000
+IN1	707	42	T80	PRISONER-CITY DET.-T80			00000000
+IN1	708	42	T80	Prisoner-City Det-T80			00000000
+IN1	709	42	T81	Dmc Employee Non Comp - T81			00000000
+IN1	710	42	T81	DMC Employee Non Comp-Inactive			4
+IN1	711	42	T81	DMC Employee Non Comp-Inactive-T81			00000000
+IN1	712	42	T81	Prisoner-House Corr-T81-INACTIVE			4
+IN1	713	42	T82	PRISONER - MISC-T82			00000000
+IN1	714	42	T82	Prisoner-Misc-T82			4
+IN1	715	42	T85	KARMANOS CLIN TRIALS-T85			00000000
+IN1	716	42	T85	Karmanos Clinical Trials - T85			00000000
+IN1	717	42	T88	Misc Home Health Care - T88			4
+IN1	718	42	T88	MISC HOME HEALTH CAR-T88			00000000
+IN1	719	42	T90	Hospice Karmanos - T90			4
+IN1	720	42	T90	HOSPICE KARMANOS-T90			00000000
+IN1	721	42	T91	Hospice Miscellaneous T91			4
+IN1	722	42	T91	HOSPICE MISCELLANEOUS-T91			00000000
+IN1	723	42	T92	National Marrow Donor - T92			4
+IN1	724	42	T92	NATIONAL MARROW DONO-T92			00000000
+IN1	725	42	T93	Caitlin Raymond - T93			4
+IN1	726	42	T94	Optum Bundle Billing-T94			4
+IN1	727	42	T94	OPTUM BUNDLE BILLING-T94			00000000
+IN1	728	42	T95	CTA Cash Program - T95			4
+IN1	729	42	T95	CTA CASH PROGRAM-T95			00000000
+IN1	730	42	T96	Comm - BMT Bndl-T96			00000000
+IN1	731	42	T97	Commercial Co-Ded/Care-T97			00000000
+IN1	732	42	T98	Misc Ins 2-T98			00000000
+IN1	733	42	T99	Misc Ins 1-T99			00000000
+IN1	734	42	U01	DMC Care Basic - U01			4
+IN1	735	42	U01	DMC CARE BASIC-U01			00000000
+IN1	736	42	U08	First Student- Wayne State Domestic Students - U08			4
+IN1	737	42	U14	Automated Benefit Service - U14			00000000
+IN1	738	42	U25	DMC CARE Employee - Value Options-U25			00000000
+IN1	739	42	U25	DMC CARE Employee\\Value Options-U25			4
+IN1	740	42	U31	DMC Care Plus-U31			00000000
+IN1	741	42	U41	DMC Care Advantage-U41			00000000
+IN1	742	42	U50	DMC CARE HSA			4
+IN1	743	42	U50	DMC CARE HSA- U50			00000000
+IN1	744	42	U60	DMC CARE HRA - U60			00000000
+IN1	745	42	U91	DMC CARE-URGENT CARE CLINIC - U91			4
+IN1	746	42	U91	DMC CARE-URGENT CARE CLINIC-U91			00000000
+IN1	747	42	U95	DMC CARE - KCI - U95			00000000
+IN1	748	42	U99	DMC CARE Other-U99			00000000
+IN1	749	42	V01	Total Healthcare Care, PPOM V01			4
+IN1	750	42	V02	Global Care, PPOM-V02			4
+IN1	751	42	V03	M Care, PPOM-V03			4
+IN1	752	42	V04	PHP, PPOM-V04			4
+IN1	753	42	V05	Aetna PPOM - V05			4
+IN1	754	42	V06	State of Michigan - V06			4
+IN1	755	42	V07	Humana Commercial - V07			4
+IN1	756	42	V07	Humana Commercial-V07			4
+IN1	757	42	V61	RIM AAA-V61			4
+IN1	758	42	V62	RIM STATE FARM-V62			4
+IN1	759	42	V96	PPOM Secondary - Medicare Primary V96	MEDICARE 		4
+IN1	760	42	V96	PPOM Secondary - Medicare Primary-V96	MEDICARE 		00000000
+IN1	761	42	V96	PPOM Secondary-Medicare Primary V96	MEDICARE 		4
+IN1	762	42	V98	PPOM Secondary Plan-V98			00000000
+IN1	763	42	V99	Cofinity PPOM Plan-V99			00000000
+IN1	764	42	W01	WC-Workers Comp-W01			00000000
+IN1	765	42	W02	WC-Accident Fund Mich-W02			00000000
+IN1	766	42	W03	A.S.U.-W03			00000000
+IN1	767	42	W03	WC-Adjst Srvc Unlmtd-W03			4
+IN1	768	42	W04	WC-Aetna-W04			4
+IN1	769	42	W04	WC-AETNA-W04			00000000
+IN1	770	42	W05	ALEXSIS-W05			00000000
+IN1	771	42	W05	WC-Alexsis-W05			4
+IN1	772	42	W06	WC-Amerisure/MI Mutl-W06			00000000
+IN1	773	42	W07	WC-Auto Alliance-W07			4
+IN1	774	42	W07	WC-AUTO ALLIANCE-W07			00000000
+IN1	775	42	W08	WC-Auto Owner-W08			00000000
+IN1	776	42	W09	C.N.A.-W09			00000000
+IN1	777	42	W10	WC-Chrysler-W10			4
+IN1	778	42	W10	WC-CHRYSLER-W10			00000000
+IN1	779	42	W10	WC-Chrysler-W10			00000000
+IN1	780	42	W11	WC-Cigna-W11			4
+IN1	781	42	W11	WC-CIGNA-W11			00000000
+IN1	782	42	W12	WC-Citizens-W12			00000000
+IN1	783	42	W13	WC-City of Detroit-W13			00000000
+IN1	784	42	W14	WC-Consolidated Risk-W14			4
+IN1	785	42	W14	WC-CONSOLIDATED RISK-W14			00000000
+IN1	786	42	W15	WC-Core Source-W15			4
+IN1	787	42	W15	WC-CORE SOURCE-W15			00000000
+IN1	788	42	W16	WC-Corporate Srvcs-W16			4
+IN1	789	42	W16	WC-CORPORATE SRVCS-W16			00000000
+IN1	790	42	W16	WC-Corporate Srvcs-W16			00000000
+IN1	791	42	W17	WC CRAWFORD/COMPANY-W17			00000000
+IN1	792	42	W17	WC-Crawford Company-W17			4
+IN1	793	42	W18	WC-CRUM & FOSTER-W18			00000000
+IN1	794	42	W18	WC-Crum and Forster-W18			4
+IN1	795	42	W19	WC-Firemans Fund Ins-W19			00000000
+IN1	796	42	W20	WC FORD MOTOR-W20			00000000
+IN1	797	42	W20	WC-Ford-W20			00000000
+IN1	798	42	W21	WC-Gallagher Bassett-W21			00000000
+IN1	799	42	W22	WC-General Motors-W22			00000000
+IN1	800	42	W23	WC-Hartford Company-W23			00000000
+IN1	801	42	W24	WC-KEMPER INS CO-W24			00000000
+IN1	802	42	W24	WC-Kemper Insurance-W24			4
+IN1	803	42	W25	WC-Liberty Mutual-W25			00000000
+IN1	804	42	W26	WC-PENN GENERAL SER-W26			00000000
+IN1	805	42	W26	WC-Penn General Srvc-W26			4
+IN1	806	42	W27	WC-Risk Management-W27			00000000
+IN1	807	42	W28	WC-Travelers Ins-W28			00000000
+IN1	808	42	W29	WC WAUSAU-W29			00000000
+IN1	809	42	W29	WC-Wausau Corporation-W29			4
+IN1	810	42	W31	WC-Occptnl Hlth Srvcs-W31			00000000
+IN1	811	42	W32	WC-Addison Iron Works-W32			4
+IN1	812	42	W33	WC-Bateson-Dailey-W33			4
+IN1	813	42	W34	WC-Bechtel Cnstrctn-W34			4
+IN1	814	42	W35	Galaxy Health Work Comp - W35			4
+IN1	815	42	W35	WC-Comerica Bank-W35			4
+IN1	816	42	W36	WC-Det Fire Dept/EMS-W36			00000000
+IN1	817	42	W37	WC-Detroit Police Dept-W37			00000000
+IN1	818	42	W38	WC-Federal Express-W38			4
+IN1	819	42	W39	WC-Friendship Manor Nrs-W39			4
+IN1	820	42	W40	EC-Gregory Boat-W40			4
+IN1	821	42	W41	EC-Lafayette Steel-W41			4
+IN1	822	42	W42	EC-National Bank Det-W42			4
+IN1	823	42	W43	EC-National Srvc-W43			4
+IN1	824	42	W44	EC-Ogden Food Srvc-W44			4
+IN1	825	42	W45	WC-Pepsi-Cola Bttlrs-W45			00000000
+IN1	826	42	W46	EC-Ren Ctr Mgmt-W46			4
+IN1	827	42	W47	EC-Superior Provision-W47			4
+IN1	828	42	W48	EC-Talon-W48			4
+IN1	829	42	W49	EC-U of D Mercy-W49			4
+IN1	830	42	W50	EC-US Coast Guard-W50			4
+IN1	831	42	W50	VA WORKERS COMPENSATION - W50			4
+IN1	832	42	W51	EC-US Coast Grd Grp-W51			4
+IN1	833	42	W52	EC-US Postal Service-W52			00000000
+IN1	834	42	W52	US POSTAL WORKERS-W52			00000000
+IN1	835	42	W53	EC-Wayne Co Risk Mgt-W53			4
+IN1	836	42	W53	WAYNE CO RISK MGMT-W53			00000000
+IN1	837	42	W54	EC-Wayne State Univ-W54			4
+IN1	838	42	W55	EC-Westin Hotel-W55			4
+IN1	839	42	W56	EC-White Color Card-W56			4
+IN1	840	42	W57	Wayne State Univ - Risk Mgmt-W57			00000000
+IN1	841	42	W57	Wayne State Univ/Risk Mgmt-W57			4
+IN1	842	42	W58	WSU ENVIRONMENT HLT SAFETY - W58			00000000
+IN1	843	42	W58	WSU ENVIRONMENT HLT SAFETY-W58			4
+IN1	844	42	W59	Wayne State Univ. Emp. Services -W59			4
+IN1	845	42	W59	WSU SPORTS MED-W59			00000000
+IN1	846	42	W60	DMC Rehabilitation-W60			4
+IN1	847	42	W61	Wayne State University-W61			4
+IN1	848	42	W62	DMC Employee Benefit-W62			4
+IN1	849	42	W63	DRH Required Referral-W63			4
+IN1	850	42	W64	DMC Lab Non-Comp-W64			4
+IN1	851	42	W65	DMC GME NON-COMP-W65			4
+IN1	852	42	W66	WC-U. S. Department of Labor - W66			00000000
+IN1	853	42	W66	WC-US Department of Labor - W66			4
+IN1	854	42	W67	GM DETROIT/HAMTRAMCK ASSY. CTR - W67			4
+IN1	855	42	W67	GM DETROIT/HAMTRAMCK ASSY. CTR -W67			00000000
+IN1	856	42	W69	OCC HEALTH - OC CONTRACTED-W69			4
+IN1	857	42	W69	OCC HEALTH-OC CONTR-W69			00000000
+IN1	858	42	W69	zzdo not use OCC HEALTH - OC CONTRACTED			4
+IN1	859	42	W70	HC-ST John Hsp Md Ct-W70			4
+IN1	860	42	W70	HC-ST JOHN HSP MD CT-W70			00000000
+IN1	861	42	W71	HC - U OF M PATH DEP-W71			00000000
+IN1	862	42	W71	HC-U of M Pathgy Dep-W71			4
+IN1	863	42	W72	HC-Providence Hosp-W72			4
+IN1	864	42	W72	HC-PROVIDENCE HOSP-W72			00000000
+IN1	865	42	W73	HC-Mt Clem Gen Hosp-W73			4
+IN1	866	42	W73	HC-MT CLEM GEN HOSP-W73			00000000
+IN1	867	42	W74	HC-VA Fee Med Unit-W74			4
+IN1	868	42	W74	HC-VA FEE MED UNIT-W74			00000000
+IN1	869	42	W75	HC-ST JOS MERCY PONT - W75			00000000
+IN1	870	42	W75	HC-St Jos Mercy Pont-W75			4
+IN1	871	42	W78	HC-Botsford General-W78			4
+IN1	872	42	W80	CORPORATE SERVICES - W80			00000000
+IN1	873	42	W81	DMC Uni Lab Emp Work-Comp-W81			4
+IN1	874	42	W82	DMC Corp Emp Work Comp-W82			4
+IN1	875	42	W83	Hutzel Employee Work Comp-W83			4
+IN1	876	42	W84	Children's Emp Work-Comp-W84			4
+IN1	877	42	W85	Har/Hut/DSH Employee Work-Comp-W85			4
+IN1	878	42	W86	DRH Emp Work-Comp-W86			4
+IN1	879	42	W87	Rehab Employee Work-Comp-W87			4
+IN1	880	42	W89	HVSH EMP WORKERS COMP-W89			4
+IN1	881	42	W90	DMC EMPLOYEE WORKERS COMP - W90			00000000
+IN1	882	42	W91	WC - WORKERS COMP W91			4
+IN1	883	42	W91	WORKERS COMP - W91			00000000
+IN1	884	42	W92	EVOLUTION HLTSYS WC -W92			00000000
+IN1	885	42	W92	Evolutions Health System- Workers Comp -W92			4
+IN1	886	42	W94	WC-ACPN Work Comp W94			4
+IN1	887	42	W95	Department of Energy - W95			4
+IN1	888	42	W96	Health Smart Workers Comp - W96			4
+IN1	889	42	W97	WC-Coventry - W97			00000000
+IN1	890	42	W99	U OF D DENTAL SCHOOL - W99			00000000
+IN1	891	42	W99	U of D Dental School-W99			00000000
+IN1	892	42	X04	ProCare  ABW/Health Choice - X04	MEDICAID  		4
+IN1	893	42	X04	ProCare ABW/Health Choice - X04	MEDICAID  		00000000
+IN1	894	42	X05	HARBOR HLTH PLAN OP - X05	MEDICAID  		00000000
+IN1	895	42	X06	ProCare - Medicaid OP - X06	MEDICAID  		00000000
+IN1	896	42	X06	ProCare - Medicaid OP -X06	MEDICAID  		4
+IN1	897	42	X07	Healthy MI Harbor Health OP - X07	MEDICAID  		4
+IN1	898	42	X07	Healthy MI Harbor Health OP - X07	MEDICAID  		00000000
+IN1	899	42	X12	PROCARE HEALTH PLAN IP - X12	MEDICAID  		4
+IN1	900	42	X12	PROCARE HLTH PLAN IP - X12	MEDICAID  		00000000
+IN1	901	42	X13	Procare Health Choice IP - X13	MEDICAID  		00000000
+IN1	902	42	X22	HARBOR HLTH PLAN IP - X22	MEDICAID  		00000000
+IN1	903	42	X23	Healthy MI Harbor Health IP - X23	MEDICAID  		4
+IN1	904	42	X23	Healthy MI Harbor Health IP- X23	MEDICAID  		00000000
+IN1	905	42	X75	Harbor MiChild IP - X75	MEDICAID  		4
+IN1	906	42	X75	HARBOR MICHILD IP-X75	MEDICAID  		00000000
+IN1	907	42	X95	Harbor MiChild OP - X95	MEDICAID  		00000000
+IN1	908	42	Y01	Auto - AAA-Y01			00000000
+IN1	909	42	Y02	Auto - Allstate-Y02			00000000
+IN1	910	42	Y03	Auto - Citizens-Y03			00000000
+IN1	911	42	Y04	Auto - Farmers Ins-Y04			00000000
+IN1	912	42	Y05	Auto - State Farm-Y05			00000000
+IN1	913	42	Y06	Auto  Other-Y06			00000000
+IN1	914	42	Y06	Auto - Other-Y06			4
+IN1	915	42	Y08	AUTO OWNERS-Y08			00000000
+IN1	916	42	Y20	Coventry Cofinity Auto(DRH Only) -Y20			4
+IN1	917	42	Y40	Aetna Cofinity Auto - Y40			00000000
+IN1	918	42	Y99	Auto - No Fault/Misc-Y99			00000000
+IN1	919	42	Z01	Aetna Health PPO/Indemnity-Z01			00000000
+IN1	920	42	Z02	Aetna Health HMO/POS-Z02			00000000
+IN1	921	42	Z03	American Psych Mgmt-Z03			4
+IN1	922	42	Z04	Capp Care PPO-Z04			4
+IN1	923	42	Z04	Wayne County Prisoner OP- Z04			4
+IN1	924	42	Z05	Cigna PPO - Z05			00000000
+IN1	925	42	Z06	Cigna POS-Z06			00000000
+IN1	926	42	Z07	ComPro - Group Hlth-Z07			4
+IN1	927	42	Z08	ALLIANCE HEALTH&LIFE-Z08			00000000
+IN1	928	42	Z09	MetLife PPO-Z09			4
+IN1	929	42	Z10	MetLife POS-Z10			4
+IN1	930	42	Z11	EXCEL PPO-Z11			00000000
+IN1	931	42	Z12	Prudential Plus POS-Z12			4
+IN1	932	42	Z13	Travelers PPO-Z13			4
+IN1	933	42	Z14	Travelers POS-Z14			4
+IN1	934	42	Z15	Beech Street-Z15			00000000
+IN1	935	42	Z16	PHCS - Z16			00000000
+IN1	936	42	Z17	CIGNA Behavioral Health-Z17			4
+IN1	937	42	Z17	CIGNA PSYCH BUNDLE I-Z17			00000000
+IN1	938	42	Z18	UNITED HEALTHCARE (All Other Products)-Z18			00000000
+IN1	939	42	Z19	UNITED HEALTHCARE (Indemnity/Options PPO only)-Z19			00000000
+IN1	940	42	Z19	UNITED HEALTHCARE (Indemnity/Options PPOonly)-Z19			4
+IN1	941	42	Z21	PHCS/POS-Z21			4
+IN1	942	42	Z22	Cigna Referral-Z22			4
+IN1	943	42	Z23	HAP-Preferred-Z23			00000000
+IN1	944	42	Z26	First Health/Coventry    Z26			4
+IN1	945	42	Z26	First Health/Coventry  Z26			4
+IN1	946	42	Z26	First Health/Coventry-Z26			00000000
+IN1	947	42	Z27	Coventry National - Z27			00000000
+IN1	948	42	Z28	MidMichigan Health Network-ConnectCare-Z28			4
+IN1	949	42	Z29	MULTIPLAN			4
+IN1	950	42	Z29	Multiplan-Z29			00000000
+IN1	951	42	Z29	MULTIPLAN-Z29			00000000
+IN1	952	42	Z30	PHCS-Motorola Advantage-PPO-Z30			4
+IN1	953	42	Z32	Care Choice PPO- Z32			4
+IN1	954	42	Z34	HUMANA BEHAVIORAL COMMERCIAL -Z34			4
+IN1	955	42	Z35	United Healthcare Golden Rule-Z35			00000000
+IN1	956	42	Z36	Aetna Select - Z36			00000000
+IN1	957	42	Z36	Conifer Advantage - Z36			00000000
+IN1	958	42	Z37	Aetna NAP - Z37			00000000
+IN1	959	42	Z38	AETNA ASA			4
+IN1	960	42	Z38	Aetna ASA - Z38			00000000
+IN1	961	42	Z39	AETNA MICHIGAN PREFERRED - Z39			00000000
+IN1	962	42	Z40	Great West HealthCare PPO - Z40			00000000
+IN1	963	42	Z41	Great West Healthcare POS - Z41			4
+IN1	964	42	Z41	GREAT WEST HLTHC POS-Z41			00000000
+IN1	965	42	Z42	ZZ DO NOT USE - GWH-CIGNA OPEN ACCESS PLUS-Z42			4
+IN1	966	42	Z43	Mercy Health Plans-Z43			4
+IN1	967	42	Z45	ZZ DO NOT USE - HEALTH ADVANTAGE PPO-Z45			4
+IN1	968	42	Z46	MCLAREN COMMERCIAL POS-Z46			00000000
+IN1	969	42	Z47	AMERICAS CHC PRV NWK-Z47			00000000
+IN1	970	42	Z47	America's Choice Provider Network - Z47			4
+IN1	971	42	Z48	National Healthcare Solutions, Inc - Z48			4
+IN1	972	42	Z50	PHP/HAP/Cigna - Z50	HAP		00000000
+IN1	973	42	Z50	PHP/HAP/Cigna/Karmanos only - Z50			4
+IN1	974	42	Z51	United Health Care Healthy Michigan Plan - Z51			4
+IN1	975	42	Z61	Galaxy Health Network - Z61			4
+IN1	976	42	Z65	Aetna Kidney Pancreas Bundled Billing -Z65			4
+IN1	977	42	Z66	HEALTHPLUS OPTIONS HMO/POS - Z66			4
+IN1	978	42	Z66	HLTHPLUS OPT HMO/POS - Z66	HEALTHPLUS		00000000
+IN1	979	42	Z67	Health Plus PPO HMO Options - Z67	HEALTHPLUS		00000000
+IN1	980	42	Z68	United Behavioral Health - Z68			00000000
+IN1	981	42	Z70	Aetna Health State Prisoners - Z70			4
+IN1	982	42	Z92	Meritain Health - Z92			00000000
+IN1	983	42	Z93	Harbor Health Commercial - Z93			00000000
+IN1	984	42	Z99	Miscellaneous PPO-Z99			00000000
+IN1	985	42	520	Front End Paymt Agreemnt-520			00000000
+IN1	986	42	A20	MCARE A - 2000 IP-A20-INACTIVE			00000000
+IN1	987	42	A97	McareADVMisc OP-A97			00000000
+IN1	988	42	B10	DMC Children's Choice-B10			00000000
+IN1	989	42	B56	UHC DUAL COMP/MA OP-B56			00000000
+IN1	990	42	B66	Michigan Complete Health IP - MiHealth Link - B66			00000000
+IN1	991	42	B76	Michigan Complete Health OP- MiHealth Link - B76			00000000
+IN1	992	42	B87	Meridian Dual Medicare Advantage Outpatient (HMO SNP) - B87			00000000
+IN1	993	42	C51	MCAID OP-C51 Inactive			00000000
+IN1	994	42	C78	Paramount Ohio Medicaid OP - C78			00000000
+IN1	995	42	C98	Great Lakes Health Plan-C98			00000000
+IN1	996	42	J50	Priority Health SBD - J50			00000000
+IN1	997	42	Q01	OmniCare - Q01			00000000
+IN1	998	42	Q05	OmniCare - MCAID-Q05			00000000
+IN1	999	42	Q60	OMNICARE PLUS CARE-Q60			00000000
+IN1	1000	42	S09	Great Lakes Health Plan-HMO-S09 Inactive			00000000
+IN1	1001	42	S26	Molina Healthcare of Michigan-S26			00000000
+IN1	1002	42	S86	HEALTH PLUS PARTNERS OP - S86			00000000
+IN1	1003	42	S98	UHC Community MiChild OP - S98			00000000
+IN1	1004	42	T22	OHIP Ontario Hlth (Non International Center) -T22			00000000
+IN1	1005	42	T56	Veteran's Admin Mammo U/S - T56			00000000
+IN1	1006	42	T88	MISC HOME HEALTH CARE-T88			00000000
+IN1	1007	42	U02	DMC Care Foreign Emp-U02			00000000
+IN1	1008	42	X01	Master/Ultimed Plus Care Outpatient - X01			00000000
+IN1	1009	42	X02	ProCare Health Plan - X02 Inactive			00000000
+IN1	1010	42	Z18	UHC Non-Options - Z18			00000000
+IN1	1011	42	Z19	UHC Options - Z19			00000000
+IN1	1012	42	Z20	UHC Fully Insured Existing-Z20			00000000
+IN1	1013	42	Z21	UHC New Business-Z21			00000000
+IN1	1014	42	Z45	MCLAREN HEALTH ADVANTAGE - Z45			00000000
+IN1	1015	42	Z80	Aetna Tenet HSP W/RX - Z80			00000000
+IN1	1016	42	Z81	Aetna Tenet HRP W/RX - Z81			00000000
+IN1	1017	42	Z82	Aetna Tenet Platinum - Z82			00000000
+IN1	1018	42	Z83	Aetna Tenet Bronze - Z83			00000000
+IN1	1019	42	Z84	Aetna Tenet Silver - Z84			00000000
+IN1	1020	42	Z85	Aetna Tenet Gold - Z85			00000000
+IN1	1021	42	Z94	Beaumont Employee Health  - Z94			00000000

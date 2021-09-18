@@ -1,0 +1,39 @@
+base: McLaren Macomb
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Macomb ADT 2.0 table 09-13-2021.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '20210917164418771'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210917001207'
+          field name: PV1-36
+          field value: '""'
+          message count: 49
+          receiving org message ID: 27390695
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Macomb ADT 2.0 tables 10-15-2019.xlsx
+      list:
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE96
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-10
+          see:
+          - cell: F9
+            code: ' OTHER_RACE, U'
+        - hl7 segment: IN1
+          see:
+          - cell: AP1936
+            code: ' QBE North America'
+          - cell: AP2048
+            code: ' Cincinnati Insurance'

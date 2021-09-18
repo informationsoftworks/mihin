@@ -1,0 +1,27 @@
+base: Scheurer Hospital
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Scheurer Hospital ADT 2.0 table 03-13-2020.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '98584120'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210916142021'
+          field name: PID-30
+          field value: '""'
+          message count: 955
+          receiving org message ID: 27390406
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Scheurer Hospital ADT 2.0 table 03-13-2020.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI10
+            code: 'AMA AGAINST '

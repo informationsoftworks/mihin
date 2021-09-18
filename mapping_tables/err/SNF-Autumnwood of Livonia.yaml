@@ -1,0 +1,23 @@
+base: SNF-Autumnwood of Livonia
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Autumnwood of Livonia ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 7845b8b94ce7462ab3278d6cebce9cca
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210916194148'
+          field name: PID-30
+          field value: '""'
+          message count: 19
+          receiving org message ID: 19603472
+        - HL7 ID: 7845b8b94ce7462ab3278d6cebce9cca
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210916194148'
+          field name: PV1-36
+          field value: '""'
+          message count: 17
+          receiving org message ID: 19603472

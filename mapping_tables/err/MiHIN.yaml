@@ -1,0 +1,27 @@
+base: MiHIN
+domains:
+  audit:
+    error: ADTs received from OID for which no mapping exists
+    level: Error
+    see:
+    - message count: 44
+      oid: 1.3.6.1.4.1.32898.1.4.2.30
+      sample:
+        HL7 ID: '20210831102114726'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+        HL7 timestamp: '20210831102110'
+        receiving org message ID: 18440397
+    - message count: 1291
+      oid: 1.3.6.1.4.1.37810.500.15.5.40
+      sample:
+        HL7 ID: '49738237'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+        HL7 timestamp: '20210916164202'
+        receiving org message ID: 82738213
+    - message count: 1
+      oid: 2.16.840.1.113883.3.5416.1.9346
+      sample:
+        HL7 ID: '20210616020828'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+        HL7 timestamp: '20210616020828'
+        receiving org message ID: 59720959

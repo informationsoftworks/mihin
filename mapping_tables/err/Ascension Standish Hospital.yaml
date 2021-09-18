@@ -1,0 +1,33 @@
+base: Ascension Standish Hospital
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Ascension Standish Hospital ADT 2.0 table 10-3-19.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP1563
+            code: S02
+          - cell: AP1769
+            code: A31
+          - cell: AP2673
+            code: S45
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA29
+            label: 'CCU, RECURRING, EMERGENCY, BURN/TRAUMA, OB GYN, SWING BED, ICU, PRIV JUSTIFIED, NEWBORN BOARDER, CLINIC/OB PRIVATE,
+              PROG CARE, NEURO UNIT, PRIVATE, PROG CARE, REFERRED PRIVATE, SEMI PRIVATE, TRANSPORT, BASIC, SKILLED/OB ISOLATION, WARD/NEWBORN
+              LVL 1,   NEWBORN LVL 2, NEWBORN LVL 3, NEWBORN LVL 4   '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP2288
+            code: ' CLAIMS'

@@ -1,0 +1,474 @@
+filename	0	0		2.0 Mapping Tables - Hospitals/Mackinac Straits Health System ADT 2.0 table 09-07-2021.xlsx			
+MSH-4	2	1	Hospital Value	Description			4
+MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
+MSH-4	4	1	2.16.840.1.113883.3.5416.1.1485.3	Mackinac Island Medical Center			00000000
+MSH-4	5	1	2.16.840.1.113883.3.5416.1.1485.1	Mackinac Straits Hospital			00000000
+MSH-4	6	1	2.16.840.1.113883.3.5416.1.1485	Mackinac Straits Health Systems			00000000
+PID-8	2	3	MiHIN Value	Description	Hospital Value		4
+PID-8	3	3	M	Male	M		2
+PID-8	4	3	F	Female	F		4
+PID-8	5	3	M	Male	M		4
+PID-8	6	3	O	Other			4
+PID-8	7	3	U	Unknown	UNK		4
+PID-8	8	3	A	Ambiguous			4
+PID-8	9	3	N	Not Applicable			4
+PID-10	2	6	MiHIN Value	Description	Hospital Value		4
+PID-10	3	6	2106-3	White	W		2
+PID-10	4	6	1002-5	American Indian or Alaska Native	AMERICAN_INDIAN, I		4
+PID-10	5	6	2028-9	Asian	ASIAN		4
+PID-10	6	6	2054-5	Black or African American	BLACK, B		4
+PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	NATIVE_HAWAIIAN, 7		4
+PID-10	8	6	2106-3	White	WHITE, W, C		4
+PID-10	9	6	2131-1	Other Race	OTH, OTHER_RACE		4
+PID-10	10	6	MR	Multi-Racial			4
+PID-10	11	6	PR	Patient Refused 	UNK, PR		4
+PID-10	12	6		Hispanic	H		0
+PID-22	2	9	MiHIN Value	Description	Hospital Value		4
+PID-22	3	9	H	Hispanic or Latino	Hisp		2
+PID-22	4	9	H	Hispanic or Latino	HISPANIC, 2135-2		4
+PID-22	5	9	N	Not Hispanic or Latino	NOT_HISPANIC, 2186-5, NH		4
+PID-22	6	9	U	Unknown	UNK		4
+PID-22	7	9	D	Declined			4
+PID-22	8	9	AN	Alaskan Native 			4
+PID-22	9	9	AR	Arabic 			4
+PID-22	10	9	AS	Asian 			4
+PID-22	11	9	CA	Caucasian			4
+PID-22	12	9	CHA	Chaldean 			4
+PID-22	13	9	CHI	Chinese 			4
+PID-22	14	9	DU	Dutch 			4
+PID-22	15	9	EG	Egyptian 			4
+PID-22	16	9	FR	French 			4
+PID-22	17	9	GER	German 			4
+PID-22	18	9	GRE	Greek 			4
+PID-22	19	9	HA	Hawaiian 			4
+PID-22	20	9	IRA	Iranian 			4
+PID-22	21	9	IRQ	Iraqi 			4
+PID-22	22	9	IRH	Irish 			4
+PID-22	23	9	ITA	Italian 			4
+PID-22	24	9	JA	Japanese 			4
+PID-22	25	9	JE	Jewish 			4
+PID-22	26	9	JO	Jordanian 			4
+PID-22	27	9	KO	Korean 			4
+PID-22	28	9	LE	Lebanese  			4
+PID-22	29	9	MAC	Macedonian 			4
+PID-22	30	9	ME	Middle Eastern			4
+PID-22	31	9	MUL	Multi-Ethnic 			4
+PID-22	32	9	NA	Native American			4
+PID-22	33	9	O	Other 			4
+PID-22	34	9	PO	Polish 			4
+PID-22	35	9	RU	Russian 			4
+PID-22	36	9	SC	Scottish 			4
+PID-22	37	9	UK	Ukrainian 			4
+PID-22	38	9	VIT	Vietnamese 			4
+PID-30	2	12	MiHIN Value	Description	Hospital Value		4
+PID-30	3	12	Y	Expired	E		2
+PID-30	4	12	Y	Deceased/Yes	Y		4
+PID-30	5	12	N	Not Deceased/No	N		4
+DG1-6	2	15	MiHIN Value	Description	Hospital Value		4
+DG1-6	3	15	A	Admitting	AD		2
+DG1-6	4	15	A	Admitting	A		4
+DG1-6	5	15	F	Final	F		4
+DG1-6	6	15	W	Working 	W, P		4
+DG1-6	7	15	O	Other	O, V		4
+PV1-2	2	18	MiHIN Value	Description	Hospital Value		4
+PV1-2	3	18	E	Emergency	ER		2
+PV1-2	4	18	B	Obstetrics			4
+PV1-2	5	18	C	Commercial Account			4
+PV1-2	6	18	E	Emergency	E		4
+PV1-2	7	18	I	Inpatient	I, RI		4
+PV1-2	8	18	N	Not Applicable			4
+PV1-2	9	18	O	Outpatient	O, W, C, SS, BB, F, Y, SC, NC, M, A, FC, L, R, S		4
+PV1-2	10	18	P	Preadmit	P		4
+PV1-2	11	18	R	Recurring patient	SR		4
+PV1-2	12	18	U	Unknown			4
+PV1-2	13	18	IH	IP Hospice 	D		4
+PV1-2	14	18	NB	Newborn			4
+PV1-2	15	18	OB	Observation 	H		4
+PV1-2	16	18	SN	Skilled Nursing 	B		4
+PV1-2	17	18	SA	Surgery Admit 			4
+PV1-4	2	21	MiHIN Value	Description	Hospital Value		4
+PV1-4	3	21	E	Emergency	E		2
+PV1-4	4	21	A	Accident			4
+PV1-4	5	21	C	Elective	3		4
+PV1-4	6	21	E	Emergency	1		4
+PV1-4	7	21	L	Labor and Delivery			4
+PV1-4	8	21	N	Newborn (Birth in healthcare facility)	4		4
+PV1-4	9	21	R	Routine			4
+PV1-4	10	21	U	Urgent	2		4
+PV1-4	11	21	TC	Trauma Center 	5		4
+PV1-4	12	21	O	Other	9		4
+PV1-14	2	24	MiHIN Value	Description	Hospital Value		4
+PV1-14	3	24	2	Clinic referral	E		2
+PV1-14	4	24	1	Physician referral			4
+PV1-14	5	24	2	Clinic referral	2		4
+PV1-14	6	24	3	HMO referral			4
+PV1-14	7	24	4	Transfer from a hospital	4		4
+PV1-14	8	24	5	Transfer froma skilled nursing facility	5		4
+PV1-14	9	24	6	Transfer from another health care facility	6		4
+PV1-14	10	24	7	Emergency Room	D		4
+PV1-14	11	24	8	Court/Law enforcement	8		4
+PV1-14	12	24	9	Information not available	9		4
+PV1-14	13	24	SR	Self-Referral			4
+PV1-14	14	24	TRNF	Transfer from a non-health care facility	1		4
+PV1-14	15	24	TRAD	Transfer from Ambulatory Department	E		4
+PV1-18	2	27	MiHIN Suggested Values		Hospital Value	Description	4
+PV1-18	3	27			A	Anonymous	2
+PV1-18	4	27	1	Anonymous			4
+PV1-18	5	27	2	Confidential			4
+PV1-18	6	27	3	Employee			4
+PV1-18	7	27	4	Dismissed			4
+PV1-18	8	27	5	No Medicare			4
+PV1-18	9	27	6	Prisoner			4
+PV1-18	10	27	7	VIP			4
+PV1-18	11	27	8	Staff Dependent			4
+PV1-18	12	27	9	Benefactor			4
+PV1-18	13	27	10	Employee Dependent			4
+PV1-18	14	27	11	Non-Employee			4
+PV1-18	15	27	12	Volunteer			4
+PV1-18	16	27	13	Staff Physician			4
+PV1-18	17	27	14	Non V.I.P			4
+PV1-18	18	27	15	Retired Employee			4
+PV1-18	19	27	42	Homeless			4
+PV1-18	20	27	44	Celebrity			4
+PV1-18	21	27	45	Donor			4
+PV1-18	22	27	46	Transplant			4
+PV1-18	23	27	47	Voucher			4
+PV1-18	24	27	48	Board Member			4
+PV1-18	25	27	49	Clergy			4
+PV1-18	26	27	52	Other			4
+PV1-18	27	27	58	Organ Donor			4
+PV1-18	28	27	59	Organ 			4
+PV1-18	29	27	60	Select Specialty			4
+PV1-18	30	27			I	Inpatient	4
+PV1-18	31	27			B	Swing Bed	4
+PV1-18	32	27			H	Observation	4
+PV1-18	33	27			O	Outpatient	4
+PV1-18	34	27			RI	Respite Inpatient	4
+PV1-18	35	27			E	Emergency	4
+PV1-18	36	27			EI	Emergency Island	00000000
+PV1-18	37	27			SR	Series Reoccurring	00000000
+PV1-18	38	27			W	Walk-In Clinic	00000000
+PV1-18	39	27			C	St Ignace Rural Health	00000000
+PV1-18	40	27			L	Long Term Care	00000000
+PV1-18	41	27			SS	St. Ignace Specialty	00000000
+PV1-18	42	27			BB	Bois Blant Clinic	00000000
+PV1-18	43	27			F	Rivertown Medical Clinic	00000000
+PV1-18	44	27			Y	Specialty Clinic	00000000
+PV1-18	45	27			D	Hospice	00000000
+PV1-18	46	27			SC	Sault Clinic	00000000
+PV1-18	47	27			NC	Newberry Clinic	00000000
+PV1-18	48	27			M	Mackinac Island Medical Clinic	00000000
+PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
+PV1-10	3	31			121	Pediatrics	2
+PV1-10	4	31	104	Cardiology - General			4
+PV1-10	5	31	105	Emergency Medicine	E		4
+PV1-10	6	31	107	Geriatrics			4
+PV1-10	7	31	108	Gastroenterology			4
+PV1-10	8	31	109	Gynecology			4
+PV1-10	9	31	110	Hospice Medicine			4
+PV1-10	10	31	111	Medical Intensive Care			4
+PV1-10	11	31	112	Internal Medicine			4
+PV1-10	12	31	114	Neuro ICU			4
+PV1-10	13	31	115	Neurology			4
+PV1-10	14	31	116	Neonatology			4
+PV1-10	15	31	117	Obstetrics	H		4
+PV1-10	16	31	118	Oncology	ON		4
+PV1-10	17	31	119	Orthopedics			4
+PV1-10	18	31	121	Pediatrics			4
+PV1-10	19	31	123	Physical Medicine and Rehabilitation			4
+PV1-10	20	31	124	General Surgery	S		4
+PV1-10	21	31	125	Surgical Intensive Care			4
+PV1-10	22	31	126	Nephrology Transplant			4
+PV1-10	23	31	127	Acute Care Surgery			4
+PV1-10	24	31	128	Allergy & Immunology			4
+PV1-10	25	31	129	Anesthesiology			4
+PV1-10	26	31	131	Dermatology			4
+PV1-10	27	31	132	Family Medicine			4
+PV1-10	28	31	133	Endocrinology			4
+PV1-10	29	31	134	Genetics			4
+PV1-10	30	31	135	Hematology			4
+PV1-10	31	31	136	Infectious Disease			4
+PV1-10	32	31	137	Nephrology			4
+PV1-10	33	31	138	Neurosurgery			4
+PV1-10	34	31	139	Ophthalmology			4
+PV1-10	35	31	140	Otolaryngology/ENT			4
+PV1-10	36	31	141	Plastic Surgery			4
+PV1-10	37	31	143	Radiation Oncology			4
+PV1-10	38	31	144	Rheumatology			4
+PV1-10	39	31	145	Urology			4
+PV1-10	40	31	148	Pharmacy			4
+PV1-10	41	31	149	Interventional Radiology			4
+PV1-10	42	31	150	Clinical Decision Unit			4
+PV1-10	43	31	151	Wound/Ostomy Care			4
+PV1-10	44	31	153	Newborn			4
+PV1-10	45	31	154	Labor and Delivery			4
+PV1-10	46	31	156	Hospitalist Medicine			4
+PV1-10	47	31	158	Select Specialty			4
+PV1-10	48	31	161	Audiology			4
+PV1-10	49	31	162	Behavioral Health - Psychology			4
+PV1-10	50	31	163	Cardiology - Structural Heart Disease			4
+PV1-10	51	31	165	Colon/Rectal Surgery			4
+PV1-10	52	31	166	Gynecology/Oncology			4
+PV1-10	53	31	172	Oral Surgery			4
+PV1-10	54	31	175	Palliative Medicine 			4
+PV1-10	55	31	178	Podiatry			4
+PV1-10	56	31	180	Radiology			4
+PV1-10	57	31	181	Sleep Center			4
+PV1-10	58	31	184	Cardiac Surgery			4
+PV1-10	59	31	185	Transplant			4
+PV1-10	60	31	198	Bone Marrow Transplant			4
+PV1-10	61	31	208	Chemotherapy			4
+PV1-10	62	31	273	Pathology			4
+PV1-10	63	31	293	Pulmonary			4
+PV1-10	64	31	322	Thoracic Surgery			4
+PV1-10	65	31	374	Transfusion Medicine			4
+PV1-10	66	31	376	Family Practice			4
+PV1-10	67	31	380	Orthopedic - Hand Surgery			4
+PV1-10	68	31	381	Orthopedic - Spine			4
+PV1-10	69	31	384	Hepatology			4
+PV1-10	70	31	385	Pain Management			4
+PV1-10	71	31	387	Urogynecology			4
+PV1-10	72	31	399	Bone & Mineral			4
+PV1-10	73	31	409	Cardiology - Electrophysiology			4
+PV1-10	74	31	463	Bariatric Surgery			4
+PV1-10	75	31	464	Intensive Care			4
+PV1-10	76	31	465	Pulmonary Hypertension			4
+PV1-10	77	31	466	Pulmonary Transplant			4
+PV1-10	78	31	467	Pulmonary Interventional			4
+PV1-10	79	31	469	Transplant HPB Surgery			4
+PV1-10	80	31	470	Cardiothoracic Transplant			4
+PV1-10	81	31	471	Vascular Surgery			4
+PV1-10	82	31	472	Speech Pathology			4
+PV1-10	83	31	473	Cardiology - Advanced Heart Failure/Transplant			4
+PV1-10	84	31	474	Cardiology - Vascular Medicine			4
+PV1-10	85	31	475	Physiatry			4
+PV1-10	86	31	476	Orthopedic - Surgery			4
+PV1-10	87	31	477	Cardiovascular SICU			4
+PV1-10	88	31	478	Behavioral Health - Neuropsychology			4
+PV1-10	89	31	479	Behavioral Health - Psychiatry			4
+PV1-10	90	31	480	Surgical Endoscopy			4
+PV1-10	91	31	481	Ethics			4
+PV1-10	92	31	482	Trauma Surgery			4
+PV1-10	93	31		Inpatient	M		00000000
+PV1-10	94	31		Swing Bed	B		00000000
+PV1-10	95	31		Outpatient	O		00000000
+PV1-10	96	31		Therapy	T		00000000
+PV1-10	97	31		Clinic	C		00000000
+PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	4
+PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
+PV1-36	4	35	01	Discharged to home or self care (routine discharge)	01, 95	Discharged to home or self care (routine discharge)	4
+PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	02	Discharged/transferred to a short-term general hospital for inpatient care	4
+PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.	4
+PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)			4
+PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list			4
+PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization	06	Discharged/transferred to home under care of organized home health service organization	4
+PV1-36	10	35	07	Left against medical advice or discontinued care	07	Left against medical advice or discontinued care	4
+PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider			4
+PV1-36	12	35	09	Admitted as an inpatient to this hospital	09, 66	Admitted as an inpatient to this hospital	4
+PV1-36	13	35	20	Expired	20	Expired	4
+PV1-36	14	35	30	Still Patient			4
+PV1-36	15	35	40	Expired at home			4
+PV1-36	16	35	41	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)			4
+PV1-36	17	35	42	Expired - place unknown			4
+PV1-36	18	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)			4
+PV1-36	19	35	50	Hospice - home	50	Hospice - home	4
+PV1-36	20	35	51	Hospice - medical facility	51	Hospice - medical facility	4
+PV1-36	21	35	61	Discharged/transferred to hospital-based Medicare approved swing bed	61	Swing Bed Mackinac Straits	4
+PV1-36	22	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)	90	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)	4
+PV1-36	23	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)	4
+PV1-36	24	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)	4
+PV1-36	25	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	4
+PV1-36	26	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)			4
+PV1-36	27	35		Rural Health Clinic	10	Rural Health Clinic	4
+PV1-36	28	35		Walk-In Clinic	11	Walk-In Clinic	4
+PV1-36	29	35		Court / Law Enforcement	21	Court / Law Enforcement	4
+PV1-36	30	35		Left Before Triage	BR, TR	Left Before Triage	4
+PV1-36	31	35			ED	Transferred to Emergency same facilty	4
+IN1-17	2	39	MiHIN Value	Description	Hospital Value		4
+IN1-17	3	39	FTH	Father 	F		2
+IN1-17	4	39	ASC	Associate			4
+IN1-17	5	39	BRO	Brother 			4
+IN1-17	6	39	CGV	Care giver 			4
+IN1-17	7	39	CHD	Child	 04/43, 03/19		4
+IN1-17	8	39	DEP	Handicapped dependant			4
+IN1-17	9	39	DOM	Life partner	29/29		4
+IN1-17	10	39	EMC	Emergency contact			4
+IN1-17	11	39	EME	Employee	 		4
+IN1-17	12	39	EMR	Employer			4
+IN1-17	13	39	EXF	Extended family	14/07		4
+IN1-17	14	39	FCH	Foster child 	 		4
+IN1-17	15	39	FND	Friend	48		4
+IN1-17	16	39	FTH	Father 	33/33		4
+IN1-17	17	39	GCH	Grandchild	13/05		4
+IN1-17	18	39	GRD	Guardian 			4
+IN1-17	19	39	GRP	Grandparent 	19/04		4
+IN1-17	20	39	MGR	Manager			4
+IN1-17	21	39	MTH	Mother 	32/32		4
+IN1-17	22	39	NCH	Natural child			4
+IN1-17	23	39	NON	None			4
+IN1-17	24	39	OAD	Other adult			4
+IN1-17	25	39	OTH	Other 			4
+IN1-17	26	39	OWN	Owner			4
+IN1-17	27	39	PAR	Parent 			4
+IN1-17	28	39	SCH	Stepchild 			4
+IN1-17	29	39	SEL	Self	01/18		4
+IN1-17	30	39	SIB	Sibling 	47		4
+IN1-17	31	39	SIS	Sister 			4
+IN1-17	32	39	SPO	Spouse	02/01		4
+IN1-17	33	39	TRA	Trainer			4
+IN1-17	34	39	UNK	Unknown	09/21		4
+IN1-17	35	39	WRD	Ward of court	07/15		4
+IN1-17	36	39	AUN	Aunt 	43		4
+IN1-17	37	39	DAU	Daughter			4
+IN1-17	38	39	EXS	Ex Spouse 			4
+IN1-17	39	39	EXH	Ex-husband			4
+IN1-17	40	39	EXW	Ex-wife 			4
+IN1-17	41	39	INL	In Law 			4
+IN1-17	42	39	LEG	Legal Guardian 	42		4
+IN1-17	43	39	SON	Son (S)			4
+IN1-17	44	39	STP	Step Parent (STP)	05/19		4
+IN1-17	45	39	STS	Step Sibling			4
+IN1-17	46	39	UN	Uncle (UN)	44		4
+IN1	2	42	IN1-3 Value	IN1-4 Value	Payer		4
+IN1	3	42	1001	BCN	BCBSM		2
+IN1	5	42	4	MD	MEDICAID		00000000
+IN1	6	42	2	MC	MEDICARE		00000000
+IN1	10	42	 	 	 		00000000
+IN1	11	42	1	PP	SELF PAY		00000000
+IN1	12	42	8	TR	TRIBE		00000000
+IN1	13	42	7	WC	WORKMANS COMP		00000000
+IN1	14	42	A	PP	PRIVATE PAY		00000000
+IN1	15	42	3	CO	COMMERCIAL		00000000
+IN1	16	42	1007	MEDICARE			00000000
+IN1	17	42	33	PRIVATE PAY			00000000
+IN1	19	42	1021	BLUECARE NETWORK			00000000
+IN1	20	42	1008	MEDICAID			00000000
+IN1	21	42	47551	SAULT TRIBE WALK IN CLINIC PROGRAM			00000000
+IN1	22	42	11141	AETNA			00000000
+IN1	23	42	1009	TRICARE			00000000
+IN1	24	42	987	HUMANA  MEDICARE ADVANTAGE			00000000
+IN1	26	42	1004	1004:UPHP MEDICARE HMO			FFFFFF00
+IN1	27	42	1007	1007:MEDICARE			FFFFFF00
+IN1	28	42	1011	1011:BCBSM			FFFFFF00
+IN1	29	42	1016	1016:MEDICARE PLUS BLUE			FFFFFF00
+IN1	30	42	970	970:UPPER PENINSULA HEALTH PL			FFFFFF00
+IN1	31	42	1011	BCBSM			00000000
+IN1	32	42	1016	MEDICARE PLUS BLUE			00000000
+IN1	33	42	986	HUMANA MEDICARE			00000000
+IN1	34	42	970	UPPER PENINSULA HEALTH PL			00000000
+IN1	35	42	802	MCLAREN HEALTH			00000000
+IN1	36	42	1004	UPHP MEDICARE HMO			00000000
+IN1	37	42	1015	BCBSM FEP			00000000
+IN1	38	42	5887	ESIS Central WC Claims			00000000
+IN1	39	42	5887	Mackinac Island Carriage Tours			00000000
+IN1	40	42	727	CIGNA			00000000
+IN1	41	42	807	MEDICAL MUT OF OH			00000000
+IN1	42	42	810	MERITAIN HEALTH			00000000
+IN1	43	42	859	UMR			00000000
+IN1	44	42	860	UNITED HEALTHCARE			00000000
+IN1	45	42	878	WPS INSURANCE			00000000
+IN1	46	42	895	SAULT TRIBE CONTRACT HEALTH			00000000
+IN1	47	42	928	BCN ADVANTAGE			00000000
+IN1	48	42	977	BCN MEDICARE ADV			00000000
+IN1	49	42	995	PRIORITY MEDICARE			00000000
+IN1	50	42	757	GEHA PPO USA			00000000
+IN1	51	42	1009	HUMANA MILITARY			00000000
+IN1	52	42	17587	SAULT TRIBE DOCTOR ORDERED			00000000
+IN1	53	42	23051	OCCUPATIONAL MEDICAL SERVICES			00000000
+IN1	54	42	41	HAP			00000000
+IN1	55	42	5884	Safeco Insurance			00000000
+IN1	56	42	926	VA			00000000
+IN1	57	42	1050	STANDARD LIFE			00000000
+IN1	58	42	30938	BLUE CROSS COMPLETE MEDICAID HMO			00000000
+IN1	59	42	5887	Mackinaw Pastie Shop inc			00000000
+IN1	60	42	5887	Pink Pony			00000000
+IN1	61	42	5887	STARLINE			00000000
+IN1	62	42	723	CARESOURCE			00000000
+IN1	63	42	791	HUMANA			00000000
+IN1	64	42	808	MEDICAL MUTUAL			00000000
+IN1	65	42	837	PHYSICIANS HEALTH			00000000
+IN1	66	42	841	PRIORITY HEALTH			00000000
+IN1	67	42	841	PRIORITY HEALTH MI			00000000
+IN1	68	42	890	MOLINA HEALTH			00000000
+IN1	69	42	955	MERIDIAN HEALTH			00000000
+IN1	70	42	985	HIGHMARK BC MEDICARE			00000000
+IN1	71	42	1006	RR MEDICARE			00000000
+IN1	72	42	1050	Advanced Correctional Healthcare			00000000
+IN1	73	42	1050	SOLIDARITY/MCS			00000000
+IN1	74	42	39	CHAMPVA			00000000
+IN1	75	42	46	UMAR			00000000
+IN1	76	42	5884	Progressive Marathon Insurance			00000000
+IN1	77	42	5887	CEDAR HILL LODGE			00000000
+IN1	78	42	786	HEALTHPARTNERS			00000000
+IN1	79	42	958	MOLINA HEALTH MC			00000000
+IN1	80	42	1050	WELLCARE HEALTH PLAN			00000000
+IN1	81	42	48438	VETERANS CHOICE PROGRAM			00000000
+IN1	82	42	5887	ACCIDENT FUND			00000000
+IN1	83	42	5887	COMPONE ADMINISTRATORS WC			00000000
+IN1	84	42	5887	Care Works			00000000
+IN1	85	42	5887	TRAVELERS INDEMNITY WC			00000000
+IN1	86	42	685	COFINITY			00000000
+IN1	87	42	697	ALLIED BENEFIT SY			00000000
+IN1	88	42	717	BEAUMONT HEALTH			00000000
+IN1	89	42	975	AETNAMEDICARE			00000000
+IN1	90	42	976	ANTHEM MEDICARE			00000000
+IN1	91	42	996	PRIORITY MEDICARE HMO			00000000
+IN1	92	42	1018	HIGHMARK BC MEDICARE HMO			00000000
+IN1	93	42	1050	GEHA			00000000
+IN1	94	42	1050	University of Michigan Hospitals			00000000
+IN1	95	42	879	ACCIDENT FUND			00000000
+IN1	96	42	1050	AVESIS			00000000
+IN1	97	42	1050	Corporate Benefit Services of America			00000000
+IN1	98	42	1050	OSCAR			00000000
+IN1	99	42	779	HEALTH NET			00000000
+IN1	100	42	964	PRIORITY HEALTH INS			00000000
+IN1	101	42	1050	ADVANCED CORRECTIONAL HEALTHCARE			00000000
+IN1	102	42	1050	COMPASSUS NORTHERN MICHIGAN			00000000
+IN1	103	42	1050	TRAVELERS INSURANCE			00000000
+IN1	104	42	5887	Yankee Rebel			00000000
+IN1	105	42	1050	MUTUAL HEALTH SERVICES EHP			00000000
+IN1	106	42	1050	PHILADELPHIA AMERICAN LIFE INS CO			00000000
+IN1	107	42	762	GOLDEN RULE			00000000
+IN1	108	42	856	TOTAL HEALTH CARE			00000000
+IN1	109	42	918	PROGRESSIVE AUTO			00000000
+IN1	110	42	1050	PEACH STATE HEALTH PLAN			00000000
+IN1	111	42	1050	connecticare			00000000
+IN1	112	42	44	SAGMORE HEALTH NETWORK			00000000
+IN1	113	42	5887	NONNA LISA'S ITALIAN RESTAURANT			00000000
+IN1	114	42	67524	ADMINISTRATIVE CONCEPTS			00000000
+IN1	115	42	709	ASR			00000000
+IN1	116	42	833	PHP			00000000
+IN1	117	42	834	PHP ESSENTIALS			00000000
+IN1	118	42	5887	Mackinac Straits Health System			00000000
+IN1	119	42	5887	York Insurance			00000000
+IN1	120	42	967	UNITED HEALTHCARE PLAN			00000000
+IN1	121	42	1050	Internationla claims services			00000000
+IN1	122	42	1050	Prestige Health Choice			00000000
+IN1	123	42	23051	Mackinac Straits Health Systme			00000000
+IN1	124	42	5884	MEEMIC INSURANCE			00000000
+IN1	125	42	5887	TRAVELERS INSURANCE			00000000
+IN1	126	42	5887	WORKERS COMP GENERIC			00000000
+IN1	127	42	739	CORE SOURCE			00000000
+IN1	128	42	1002	UHC MEDICARE HMO			00000000
+IN1	129	42	5887	Precision forestry Inc			00000000
+IN1	130	42	793	IMG			00000000
+IN1	131	42	1050	Montana Health Co Op			00000000
+IN1	132	42	716	BCCCP			00000000
+IN1	133	42	926	WPS MVH VAPC3			00000000
+IN1	134	42	1050	Mutual Health Services			00000000
+IN1	135	42	5887	YORK			00000000
+IN1	136	42	734	COFINITY (FARMINGTON HILLS)			00000000
+IN1	137	42	68780	LIGHTHOUSE HEALTH PLAN			00000000
+IN1	138	42	734	COFINITY			00000000
+IN1	139	42	919	STATE FARM			00000000
+IN1	140	42	9649	UNICARE			00000000
+IN1	141	42	5887	BC PIZZA			00000000
+IN1	142	42	1050	Optima Health			00000000
+IN1	143	42	5887	YORK RISK SERVICES WC			00000000
+IN1	144	42	847	SEVEN CORNERS			00000000
+IN1	145	42	897	AAA  AUTO			00000000
+IN1	146	42	1050	Health First Plans			00000000
+IN1	147	42	1050	Simply Healthcare			00000000
+IN1	148	42	750	EMPIRE PLAN			00000000
+IN1	149	42	780	HEALTH PARTNERS			00000000
+IN1	150	42	991	MEDICARE COMPLETE			00000000

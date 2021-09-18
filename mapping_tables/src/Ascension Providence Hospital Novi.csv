@@ -1,0 +1,1884 @@
+filename	0	0		2.0 Mapping Tables - Hospitals/Ascension Providence Hospital Novi ADT 2.0 table 07-10-2020.xlsx			
+MSH-4	2	1	Hospital Value	Description			FFDEEAF6
+MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			FFAEABAB
+MSH-4	4	1	2.16.840.1.113883.17.3951	St. John Providence Park Hospital 			00000000
+PID-8	2	3	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PID-8	3	3	M	Male	M		FFAEABAB
+PID-8	4	3	F	Female	Female		FFDEEAF6
+PID-8	5	3	M	Male	Male		FFDEEAF6
+PID-8	6	3	O	Other	Other		FFDEEAF6
+PID-8	7	3	U	Unknown	Unknown		FFDEEAF6
+PID-8	8	3	A	Ambiguous			FFDEEAF6
+PID-8	9	3	N	Not Applicable			FFDEEAF6
+PID-10	2	6	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PID-10	3	6	2106-3	White	W		FFAEABAB
+PID-10	4	6	1002-5	American Indian or Alaska Native	Indian/Alaskan,  Native American,  Indian  American, American Indian/Eskimo/Aleut, American Indian or Alaska Native		FFDEEAF6
+PID-10	5	6	2028-9	Asian	Asian,  Indian		FFDEEAF6
+PID-10	6	6	2054-5	Black or African American	Black/Afr Amer, Black, Black or African American		FFDEEAF6
+PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	Hawaii/Pac Isle,  Asian or Pacific Islander,  Native Hawaiian,  Other Pacific Islander		FFDEEAF6
+PID-10	8	6	2106-3	White	White,  Caucasian		FFDEEAF6
+PID-10	9	6	2131-1	Other Race	Other,  Mediterranean, Latino/Hispanic,  Hispanic,  Middle Eastern,  CD:929378655,  CD:929380522,  Unknown,  CD:798556718,  CD:538691278,  CD:538691975,  CD:538692564,  CD:657195265, Spanish		FFDEEAF6
+PID-10	10	6	MR	Multi-Racial	More Than One Race		FFDEEAF6
+PID-10	11	6	PR	Patient Refused 	 Unreported/Refused to Report		FFDEEAF6
+PID-22	2	9	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PID-22	3	9	H	Hispanic or Latino	Hisp		FFAEABAB
+PID-22	4	9	H	Hispanic or Latino	Hispanic or Latino, Hispanic ,  CD:538692756		FFDEEAF6
+PID-22	5	9	N	Not Hispanic or Latino	Not Hispanic or Latino, Caucasian, Asian American, African American, Non-Hispanic, Non Hispanic or Latino		FFDEEAF6
+PID-22	6	9	U	Unknown	Unknown, Unreported,  CD:343757839, CD:538691621		FFDEEAF6
+PID-22	7	9	D	Declined	Declined, Declined to Specify		FFDEEAF6
+PID-22	8	9	AN	Alaskan Native 			FFDEEAF6
+PID-22	9	9	AR	Arabic 			FFDEEAF6
+PID-22	10	9	AS	Asian 			FFDEEAF6
+PID-22	11	9	CA	Caucasian			FFDEEAF6
+PID-22	12	9	CHA	Chaldean 			FFDEEAF6
+PID-22	13	9	CHI	Chinese 			FFDEEAF6
+PID-22	14	9	DU	Dutch 			FFDEEAF6
+PID-22	15	9	EG	Egyptian 			FFDEEAF6
+PID-22	16	9	FR	French 			FFDEEAF6
+PID-22	17	9	GER	German 			FFDEEAF6
+PID-22	18	9	GRE	Greek 			FFDEEAF6
+PID-22	19	9	HA	Hawaiian 			FFDEEAF6
+PID-22	20	9	IRA	Iranian 			FFDEEAF6
+PID-22	21	9	IRQ	Iraqi 			FFDEEAF6
+PID-22	22	9	IRH	Irish 			FFDEEAF6
+PID-22	23	9	ITA	Italian 			FFDEEAF6
+PID-22	24	9	JA	Japanese 			FFDEEAF6
+PID-22	25	9	JE	Jewish 			FFDEEAF6
+PID-22	26	9	JO	Jordanian 			FFDEEAF6
+PID-22	27	9	KO	Korean 			FFDEEAF6
+PID-22	28	9	LE	Lebanese  			FFDEEAF6
+PID-22	29	9	MAC	Macedonian 			FFDEEAF6
+PID-22	30	9	ME	Middle Eastern			FFDEEAF6
+PID-22	31	9	MUL	Multi-Ethnic 			FFDEEAF6
+PID-22	32	9	NA	Native American			FFDEEAF6
+PID-22	33	9	O	Other 			FFDEEAF6
+PID-22	34	9	PO	Polish 			FFDEEAF6
+PID-22	35	9	RU	Russian 			FFDEEAF6
+PID-22	36	9	SC	Scottish 			FFDEEAF6
+PID-22	37	9	UK	Ukrainian 			FFDEEAF6
+PID-22	38	9	VIT	Vietnamese 			FFDEEAF6
+PID-30	2	12	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PID-30	3	12	Y	Expired	E		FFAEABAB
+PID-30	4	12	Y	Deceased/Yes	Yes		FFDEEAF6
+PID-30	5	12	N	Not Deceased/No	No		FFDEEAF6
+DG1-6	2	15	MiHIN Value	Description	Hospital Value		FFDEEAF6
+DG1-6	3	15	A	Admitting	AD		FFAEABAB
+DG1-6	4	15	A	Admitting	 Admitting,  Reason For Visit, Referring, Principal		FFDEEAF6
+DG1-6	5	15	F	Final	Final,  Discharge,  Billing Diagnosis		FFDEEAF6
+DG1-6	6	15	W	Working 	Working		FFDEEAF6
+DG1-6	7	15	O	Other	Other, Pre-Op Diagnosis, Post-Op Diagnosis,		FFDEEAF6
+PV1-2	2	18	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PV1-2	3	18	E	Emergency	ER		FFAEABAB
+PV1-2	4	18	B	Obstetrics			FFDEEAF6
+PV1-2	5	18	C	Commercial Account			FFDEEAF6
+PV1-2	6	18	E	Emergency	Emergency		FFDEEAF6
+PV1-2	7	18	I	Inpatient	Inpatient		FFDEEAF6
+PV1-2	8	18	N	Not Applicable	Blood donation, Case Management, Home Health, Inbox Message, Phone Msg, Private Duty, Research, Wait List, community health record		FFDEEAF6
+PV1-2	9	18	O	Outpatient	Outpatient		FFDEEAF6
+PV1-2	10	18	P	Preadmit	Preadmit		FFDEEAF6
+PV1-2	11	18	R	Recurring patient	Recurring		FFDEEAF6
+PV1-2	12	18	U	Unknown	U		FFDEEAF6
+PV1-2	13	18	IH	IP Hospice 			FFDEEAF6
+PV1-2	14	18	NB	Newborn			FFDEEAF6
+PV1-2	15	18	OB	Observation 	Observation		FFDEEAF6
+PV1-2	16	18	SN	Skilled Nursing 	Skilled Nursing		FFDEEAF6
+PV1-2	17	18	SA	Surgery Admit 			FFDEEAF6
+PV1-4	2	21	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PV1-4	3	21	E	Emergency	E		FFAEABAB
+PV1-4	4	21	A	Accident	Accident		FFDEEAF6
+PV1-4	5	21	C	Elective	Elective, Routine Elective		FFDEEAF6
+PV1-4	6	21	E	Emergency	Emergency, Cancel (O/P ONLY), Downtime, Emergency Admission, Trauma Bodily Injury Regardless of Sev, Trauma Center		FFDEEAF6
+PV1-4	7	21	L	Labor and Delivery	Labor and Delivery		FFDEEAF6
+PV1-4	8	21	N	Newborn (Birth in healthcare facility)	Newborn		FFDEEAF6
+PV1-4	9	21	R	Routine	Routine, Unavailable,  TRANS FROM ANOTHER CARE FACILITY		FFDEEAF6
+PV1-4	10	21	U	Urgent	Urgent, Urgent Admission,  CD:819972051		FFDEEAF6
+PV1-4	11	21	TC	Trauma Center 			FFDEEAF6
+PV1-4	12	21	O	Other			FFDEEAF6
+PV1-14	2	24	MiHIN Value	Description	Hospital Value		FFDEEAF6
+PV1-14	3	24	2	Clinic referral	E		FFAEABAB
+PV1-14	4	24	1	Physician referral	Physician Referral		FFDEEAF6
+PV1-14	5	24	2	Clinic referral	Clinic Referral		FFDEEAF6
+PV1-14	6	24	3	HMO referral	HMO Referral		FFDEEAF6
+PV1-14	7	24	4	Transfer from a hospital	Transfer from a Hospital, TRANS FROM ANOTHER HOSP/ER, Transfer from other facility, Transfer from Oakland, Birth Inside Hosp		FFDEEAF6
+PV1-14	8	24	5	Transfer froma skilled nursing facility	Transfer from SNF, TRANS FROM HOSPICE, Iht To/Fr Rhb/Psy, Tran Frm Hospice PGM		FFDEEAF6
+PV1-14	9	24	6	Transfer from another health care facility	Transfer from another HC Facility,  Admit From Sj Clinic,  Transfer fom an Outpatient Surgery Ctr, Routine Admission,  Trans From Rural Pri, ADM FROM PROV HOSP SAT/NOVI ER,  Transfer from another HC Facilit, Extended Care Facility, Transfer From Critical Access Hospital,Transfer From Critical Access Ho, Transfer fom an Outpatient Surge, TRANS RURAL PRI CARE, TRANS FROM ANOTHER CARE FACILITY, Critical Hospital Transfer		FFDEEAF6
+PV1-14	10	24	7	Emergency Room	Emergency Dept,  Staff Admit From Er, ADMIT FROM EMERGENCY,  EMERGENCY ROOM		FFDEEAF6
+PV1-14	11	24	8	Court/Law enforcement	Court/Law Enforcement		FFDEEAF6
+PV1-14	12	24	9	Information not available	Not Available,  Birth Outside Hosp, Self Referral, Normal Delivery, UNSCHEDULED ADMIT(Direct Adm/Not ER),  NEWBORN,  Norm Baby, SCHEDULED/PRESCHEDULED ADMISSION, ADM FROM O/P (NOT SURGERY),  Trans one unit to another (same hosp), ADM FROM O/P SURGERY COPS/PSC,  IP to IP Same Facility, Outpatient/ Op Surg, Observation Patients,  Maternal Transfer, OTHER/NO OTHER CODE APPLICABLE, Non Health Care Point of Origin, Trans one unit to another (same, UNSCHEDULED ADMIT(Direct Adm/Not, CD:746746239, CD:746749349, CD:752318179, CD:796675875, 		FFDEEAF6
+PV1-14	13	24	SR	Self-Referral			FFDEEAF6
+PV1-14	14	24	TRNF	Transfer from a non-health care facility	 Premature Delivery, Extramural Birth		FFDEEAF6
+PV1-14	15	24	TRAD	Transfer from Ambulatory Department	Clinic/Phy Office		FFDEEAF6
+PV1-18	2	27	MiHIN Suggested Values		Hospital Value	Description	FFDEEAF6
+PV1-18	3	27			A	Anonymous	FFAEABAB
+PV1-18	4	27	1	Anonymous			FFDEEAF6
+PV1-18	5	27	2	Confidential			FFDEEAF6
+PV1-18	6	27	3	Employee			FFDEEAF6
+PV1-18	7	27	4	Dismissed			FFDEEAF6
+PV1-18	8	27	5	No Medicare			FFDEEAF6
+PV1-18	9	27	6	Prisoner			FFDEEAF6
+PV1-18	10	27	7	VIP			FFDEEAF6
+PV1-18	11	27	8	Staff Dependent			FFDEEAF6
+PV1-18	12	27	9	Benefactor			FFDEEAF6
+PV1-18	13	27	10	Employee Dependent			FFDEEAF6
+PV1-18	14	27	11	Non-Employee			FFDEEAF6
+PV1-18	15	27	12	Volunteer			FFDEEAF6
+PV1-18	16	27	13	Staff Physician			FFDEEAF6
+PV1-18	17	27	14	Non V.I.P			FFDEEAF6
+PV1-18	18	27	15	Retired Employee			FFDEEAF6
+PV1-18	19	27	42	Homeless			FFDEEAF6
+PV1-18	20	27	44	Celebrity			FFDEEAF6
+PV1-18	21	27	45	Donor			FFDEEAF6
+PV1-18	22	27	46	Transplant			FFDEEAF6
+PV1-18	23	27	47	Voucher			FFDEEAF6
+PV1-18	24	27	49	Board Member			FFDEEAF6
+PV1-18	25	27	49	Clergy			FFDEEAF6
+PV1-18	26	27	52	Other			FFDEEAF6
+PV1-18	27	27	58	Organ Donor			FFDEEAF6
+PV1-18	28	27	59	Organ 			FFDEEAF6
+PV1-18	29	27	60	Select Specialty	Select Specialty Outpatient Surg	Select Specialty Outpatient Surg	FFDEEAF6
+PV1-18	30	27			 23 Ambulatory Surgery	 23 Ambulatory Surgery	FFDEEAF6
+PV1-18	31	27			 23 Mile Emergency	 23 Mile Emergency	FFDEEAF6
+PV1-18	32	27			 4 BED R	 4 BED R	FFDEEAF6
+PV1-18	33	27			 A-NEWBORN	 A-NEWBORN	FFDEEAF6
+PV1-18	34	27			 ASF PSC BLUE CROSS	 ASF PSC BLUE CROSS	FFDEEAF6
+PV1-18	35	27			 ASF SCS BLUE CROSS	 ASF SCS BLUE CROSS	FFDEEAF6
+PV1-18	36	27			 After Hours Medical Care	 After Hours Medical Care	FFDEEAF6
+PV1-18	37	27			 All	 All	FFDEEAF6
+PV1-18	38	27			 Ancillary	 Ancillary	FFDEEAF6
+PV1-18	39	27			 Audiology	 Audiology	FFDEEAF6
+PV1-18	40	27			 Autologous Blood	 Autologous Blood	FFDEEAF6
+PV1-18	41	27			 BCBS DETOX	 BCBS DETOX	FFDEEAF6
+PV1-18	42	27			 Beacon Center	 Beacon Center	FFDEEAF6
+PV1-18	43	27			 Blood Donation	 Blood Donation	FFDEEAF6
+PV1-18	44	27			 Blood Transfusion/Iv Therapy	 Blood Transfusion/Iv Therapy	FFDEEAF6
+PV1-18	45	27			 Blue Cross Blue Shield	 Blue Cross Blue Shield	FFDEEAF6
+PV1-18	46	27			 Botulium Study	 Botulium Study	FFDEEAF6
+PV1-18	47	27			 Breast Care Program	 Breast Care Program	FFDEEAF6
+PV1-18	48	27			 CCU/CSU	 CCU/CSU	FFDEEAF6
+PV1-18	49	27			 CONT OBSRV NURSERY	 CONT OBSRV NURSERY	FFDEEAF6
+PV1-18	50	27			 Cardiac Cath	 Cardiac Cath	FFDEEAF6
+PV1-18	51	27			 Cardiac Rehab	 Cardiac Rehab	FFDEEAF6
+PV1-18	52	27			 Cardiac/Pulm Rehab	 Cardiac/Pulm Rehab	FFDEEAF6
+PV1-18	53	27			 Chemotherapy	 Chemotherapy	FFDEEAF6
+PV1-18	54	27			 Clinic	 Clinic	FFDEEAF6
+PV1-18	55	27			 Comprehensive Rehab	 Comprehensive Rehab	FFDEEAF6
+PV1-18	56	27			 Consult	 Consult	FFDEEAF6
+PV1-18	57	27			 Conversion Use Only	 Conversion Use Only	FFDEEAF6
+PV1-18	58	27			 Counseling Center	 Counseling Center	FFDEEAF6
+PV1-18	59	27			 Counseling Center SAB	 Counseling Center SAB	FFDEEAF6
+PV1-18	60	27			 Day Surgery	 Day Surgery	FFDEEAF6
+PV1-18	61	27			 Diabetes Clinic	 Diabetes Clinic	FFDEEAF6
+PV1-18	62	27			 Diagnostic	 Diagnostic	FFDEEAF6
+PV1-18	63	27			 ER Temp	 ER Temp	FFDEEAF6
+PV1-18	64	27			 Eastside Adult Med	 Eastside Adult Med	FFDEEAF6
+PV1-18	65	27			 Eastside Peds	 Eastside Peds	FFDEEAF6
+PV1-18	66	27			 Ekg Pacemaker Clin	 Ekg Pacemaker Clin	FFDEEAF6
+PV1-18	67	27			 Emergency	 Emergency	FFDEEAF6
+PV1-18	68	27			 Emergency Observ	 Emergency Observ	FFDEEAF6
+PV1-18	69	27			 Emergency Room Express Care	 Emergency Room Express Care	FFDEEAF6
+PV1-18	70	27			 Employee Health	 Employee Health	FFDEEAF6
+PV1-18	71	27			 Employee Physicals	 Employee Physicals	FFDEEAF6
+PV1-18	72	27			 Endoscopy	 Endoscopy	FFDEEAF6
+PV1-18	73	27			 Facility Billing	 Facility Billing	FFDEEAF6
+PV1-18	74	27			 Faith Medical Unit 1	 Faith Medical Unit 1	FFDEEAF6
+PV1-18	75	27			 Faith Medical Unit 2	 Faith Medical Unit 2	FFDEEAF6
+PV1-18	76	27			 Faith Medical Unit 3	 Faith Medical Unit 3	FFDEEAF6
+PV1-18	77	27			 Family Health Cn/Drh Ref	 Family Health Cn/Drh Ref	FFDEEAF6
+PV1-18	78	27			 Family Planning	 Family Planning	FFDEEAF6
+PV1-18	79	27			 Group Billing	 Group Billing	FFDEEAF6
+PV1-18	80	27			 HOSPITAL CONVENIENCE	 HOSPITAL CONVENIENCE	FFDEEAF6
+PV1-18	81	27			 Home Health Care	 Home Health Care	FFDEEAF6
+PV1-18	82	27			 Hospice	 Hospice	FFDEEAF6
+PV1-18	83	27			 ICCU/ICSU/SSU	 ICCU/ICSU/SSU	FFDEEAF6
+PV1-18	84	27			 ICU	 ICU	FFDEEAF6
+PV1-18	85	27			 IICU	 IICU	FFDEEAF6
+PV1-18	86	27			 IP Hospice	 IP Hospice	FFDEEAF6
+PV1-18	87	27			 Industrial Clinic	 Industrial Clinic	FFDEEAF6
+PV1-18	88	27			 Industrial Health	 Industrial Health	FFDEEAF6
+PV1-18	89	27			 Industrial Health - ER	 Industrial Health - ER	FFDEEAF6
+PV1-18	90	27			 Infertility Clinic	 Infertility Clinic	FFDEEAF6
+PV1-18	91	27			 Infusion Therapy	 Infusion Therapy	FFDEEAF6
+PV1-18	92	27			 Inpatient	 Inpatient	FFDEEAF6
+PV1-18	93	27			 Inpatient Daily	 Inpatient Daily	FFDEEAF6
+PV1-18	94	27			 Inpatient Psych	 Inpatient Psych	FFDEEAF6
+PV1-18	95	27			 Inpatient Rehab	 Inpatient Rehab	FFDEEAF6
+PV1-18	96	27			 Intensive Care	 Intensive Care	FFDEEAF6
+PV1-18	97	27			 Intermitt Care Newbo	 Intermitt Care Newbo	FFDEEAF6
+PV1-18	98	27			 Intox Therapy	 Intox Therapy	FFDEEAF6
+PV1-18	99	27			 Jvhl Op Lab	 Jvhl Op Lab	FFDEEAF6
+PV1-18	100	27			 Lab Specimens	 Lab Specimens	FFDEEAF6
+PV1-18	101	27			 Laser Eye Surgery	 Laser Eye Surgery	FFDEEAF6
+PV1-18	102	27			 Ldrp Triage	 Ldrp Triage	FFDEEAF6
+PV1-18	103	27			 MED J01	 MED J01	FFDEEAF6
+PV1-18	104	27			 Methadone Clinic	 Methadone Clinic	FFDEEAF6
+PV1-18	105	27			 Mssp	 Mssp	FFDEEAF6
+PV1-18	106	27			 NICU	 NICU	FFDEEAF6
+PV1-18	107	27			 Ne Op Referred	 Ne Op Referred	FFDEEAF6
+PV1-18	108	27			 Newborn	 Newborn	FFDEEAF6
+PV1-18	109	27			 Non Facility	 Non Facility	FFDEEAF6
+PV1-18	110	27			 Non Patient	 Non Patient	FFDEEAF6
+PV1-18	111	27			 Northeast Emergency	 Northeast Emergency	FFDEEAF6
+PV1-18	112	27			 O/P Surgery Boarder	 O/P Surgery Boarder	FFDEEAF6
+PV1-18	113	27			 Ob/Gyn Clinic	 Ob/Gyn Clinic	FFDEEAF6
+PV1-18	114	27			 Observation	 Observation	FFDEEAF6
+PV1-18	115	27			 Occupational Health	 Occupational Health	FFDEEAF6
+PV1-18	116	27			 Oncology	 Oncology	FFDEEAF6
+PV1-18	117	27			 Oral Surgery	 Oral Surgery	FFDEEAF6
+PV1-18	118	27			 Other Outpatient	 Other Outpatient	FFDEEAF6
+PV1-18	119	27			 Out of Scope Radiology	 Out of Scope Radiology	FFDEEAF6
+PV1-18	120	27			 Outpat Labor & Del	 Outpat Labor & Del	FFDEEAF6
+PV1-18	121	27			 Outpatient	 Outpatient	FFDEEAF6
+PV1-18	122	27			 Outpatient Diagnostic	 Outpatient Diagnostic	FFDEEAF6
+PV1-18	123	27			 Outpatient Message	 Outpatient Message	FFDEEAF6
+PV1-18	124	27			 Outpatient Surgery	 Outpatient Surgery	FFDEEAF6
+PV1-18	125	27			 PARTIAL HOSPITAL	 PARTIAL HOSPITAL	FFDEEAF6
+PV1-18	126	27			 PRIVATE	 PRIVATE	FFDEEAF6
+PV1-18	127	27			 PSYCH	 PSYCH	FFDEEAF6
+PV1-18	128	27			 PVT	 PVT	FFDEEAF6
+PV1-18	129	27			 PVT INTERMED. CARE	 PVT INTERMED. CARE	FFDEEAF6
+PV1-18	130	27			 Pain Clinic	 Pain Clinic	FFDEEAF6
+PV1-18	131	27			 Partial Day	 Partial Day	FFDEEAF6
+PV1-18	132	27			 Partial Hospitalization	 Partial Hospitalization	FFDEEAF6
+PV1-18	133	27			 Past Program	 Past Program	FFDEEAF6
+PV1-18	134	27			 Pediatric Clinic	 Pediatric Clinic	FFDEEAF6
+PV1-18	135	27			 Phy Ther/Neur Recov	 Phy Ther/Neur Recov	FFDEEAF6
+PV1-18	136	27			 Physical Therapy	 Physical Therapy	FFDEEAF6
+PV1-18	137	27			 Physician Lab Draw	 Physician Lab Draw	FFDEEAF6
+PV1-18	138	27			 Podiatric Clinic	 Podiatric Clinic	FFDEEAF6
+PV1-18	139	27			 Preadmission Testing	 Preadmission Testing	FFDEEAF6
+PV1-18	140	27			 Preadmit	 Preadmit	FFDEEAF6
+PV1-18	141	27			 Prenatal Clinic	 Prenatal Clinic	FFDEEAF6
+PV1-18	142	27			 Program	 Program	FFDEEAF6
+PV1-18	143	27			 Progressive	 Progressive	FFDEEAF6
+PV1-18	144	27			 Progressive Semi	 Progressive Semi	FFDEEAF6
+PV1-18	145	27			 Psychiatry	 Psychiatry	FFDEEAF6
+PV1-18	146	27			 Pt/Ot/Speech	 Pt/Ot/Speech	FFDEEAF6
+PV1-18	147	27			 REFERRED PRIVATE	 REFERRED PRIVATE	FFDEEAF6
+PV1-18	148	27			 Radiation Oncology	 Radiation Oncology	FFDEEAF6
+PV1-18	149	27			 Radiation Therapy	 Radiation Therapy	FFDEEAF6
+PV1-18	150	27			 Recurring	 Recurring	FFDEEAF6
+PV1-18	151	27			 Reference Lab	 Reference Lab	FFDEEAF6
+PV1-18	152	27			 Referred Outpt	 Referred Outpt	FFDEEAF6
+PV1-18	153	27			 Rehab	 Rehab	FFDEEAF6
+PV1-18	154	27			 Research	 Research	FFDEEAF6
+PV1-18	155	27			 Respiratory Therap	 Respiratory Therap	FFDEEAF6
+PV1-18	156	27			 Riverview Med Office	 Riverview Med Office	FFDEEAF6
+PV1-18	157	27			 Rmo Obstetrics	 Rmo Obstetrics	FFDEEAF6
+PV1-18	158	27			 Rx Home/Rx Homecare	 Rx Home/Rx Homecare	FFDEEAF6
+PV1-18	159	27			 SEMI-PRIVATE	 SEMI-PRIVATE	FFDEEAF6
+PV1-18	160	27			 Satellite Clin	 Satellite Clin	FFDEEAF6
+PV1-18	161	27			 Series	 Series	FFDEEAF6
+PV1-18	162	27			 Sjsc On 12 Mile Rd	 Sjsc On 12 Mile Rd	FFDEEAF6
+PV1-18	163	27			 Skilled Nursing Facility	 Skilled Nursing Facility	FFDEEAF6
+PV1-18	164	27			 Sleep Study	 Sleep Study	FFDEEAF6
+PV1-18	165	27			 Special Care Nursery	 Special Care Nursery	FFDEEAF6
+PV1-18	166	27			 Special Procedures	 Special Procedures	FFDEEAF6
+PV1-18	167	27			 Sterility	 Sterility	FFDEEAF6
+PV1-18	168	27			 Substance Abuse	 Substance Abuse	FFDEEAF6
+PV1-18	169	27			 The Care Program	 The Care Program	FFDEEAF6
+PV1-18	170	27			 Urgent Care	 Urgent Care	FFDEEAF6
+PV1-18	171	27			 Void/Cancel	 Void/Cancel	FFDEEAF6
+PV1-18	172	27			 Walk In Clinic	 Walk In Clinic	FFDEEAF6
+PV1-18	173	27			 Webber Clinic	 Webber Clinic	FFDEEAF6
+PV1-18	174	27			 ZLAB	 ZLAB	FFDEEAF6
+PV1-18	175	27			 ZRH	 ZRH	FFDEEAF6
+PV1-18	176	27			 eCare Downtime	 eCare Downtime	FFDEEAF6
+PV1-18	177	27			Great Lakes	Great Lakes	FFDEEAF6
+PV1-18	178	27			 PVT  MED J01	 PVT  MED J01	FFDEEAF6
+PV1-18	179	27			OP Lab	OP Lab	FFDEEAF6
+PV1-18	180	27			 Outpat Labor and Del	 Outpat Labor and Del	FFDEEAF6
+PV1-18	181	27			 Doctor Office Visit	 Doctor Office Visit	FFDEEAF6
+PV1-18	182	27			 Pulmonary Rehab	 Pulmonary Rehab	FFDEEAF6
+PV1-18	183	27			Urgent Care/After Hr Care	Urgent Care/After Hr Care	FFDEEAF6
+PV1-18	184	27			23Mile Ind Workers Emer	23Mile Ind Workers Emer	FFDEEAF6
+PV1-18	185	27			Wound Care	Wound Care	FFDEEAF6
+PV1-18	186	27			Wound Hyperbaric Therapy	Wound Hyperbaric Therapy	FFDEEAF6
+PV1-18	187	27			CD:539920197	CD:539920197	FFDEEAF6
+PV1-18	188	27			CD:748724306	CD:748724306	FFDEEAF6
+PV1-18	189	27			CD:748742698	CD:748742698	FFDEEAF6
+PV1-18	190	27			CD:748724452	CD:748724452	00000000
+PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	FFDEEAF6
+PV1-10	3	31			121	Pediatrics	FFAEABAB
+PV1-10	4	31	104	Cardiology - General	 Cardiology,  Cardiodiagnostics - Park,  Cardiac Diagnostics, Cardiac Cath Lab, Cardiac Rehab - Novi, Cardiovascular Disease, Cardiology Outpatient Clinic, Cardiac Referral, Cardiac Cath Extende, Cardiac Rehab, EEG/Holter/Echo, Cardio-Thoracic, Cardiac Cath	Cardiology,  Cardiodiagnostics - Park,  Cardiac Diagnostics, Cardiac Cath Lab, Cardiac Rehab - Novi, Cardiovascular Disease, Cardiology Outpatient Clinic, Cardiac Referral, Cardiac Cath Extende, Cardiac Rehab, EEG/Holter/Echo, Cardio-Thoracic, Cardiac Cath	FFDEEAF6
+PV1-10	5	31	105	Emergency Medicine	 Emergency Medicine,  Emergency First Aid, Medical Emergency	 Emergency Medicine,  Emergency First Aid, Medical Emergency	FFDEEAF6
+PV1-10	6	31	107	Geriatrics	 Geriatric Medicine	 Geriatric Medicine	FFDEEAF6
+PV1-10	7	31	108	Gastroenterology	 Gastroenterology, Gastro Surgery	 Gastroenterology, Gastro Surgery	FFDEEAF6
+PV1-10	8	31	109	Gynecology	 Gynecology, Breast Care Center, Livonia Breast Imaging, Farmington Mammography	 Gynecology, Breast Care Center, Livonia Breast Imaging, Farmington Mammography	FFDEEAF6
+PV1-10	9	31	110	Hospice Medicine	 Hospice	 Hospice	FFDEEAF6
+PV1-10	10	31	111	Medical Intensive Care			FFDEEAF6
+PV1-10	11	31	112	Internal Medicine	 Internal Medicine	 Internal Medicine	FFDEEAF6
+PV1-10	12	31	114	Neuro ICU			FFDEEAF6
+PV1-10	13	31	115	Neurology	 Neurology,  Traumatic Brain Inj	 Neurology,  Traumatic Brain Inj	FFDEEAF6
+PV1-10	14	31	116	Neonatology	 Neonatal-Perinatal Medicine	 Neonatal-Perinatal Medicine	FFDEEAF6
+PV1-10	15	31	117	Obstetrics	 Obstetrics	 Obstetrics	FFDEEAF6
+PV1-10	16	31	118	Oncology	 Oncology,  Medical Oncology	 Oncology,  Medical Oncology	FFDEEAF6
+PV1-10	17	31	119	Orthopedics	 Orthopedics	 Orthopedics	FFDEEAF6
+PV1-10	18	31	121	Pediatrics	 Pediatrics,  Fracture Clinic Pediatric	 Pediatrics,  Fracture Clinic Pediatric	FFDEEAF6
+PV1-10	19	31	123	Physical Medicine and Rehabilitation	 Physical Medicine & Rehabilitation,  Physical Medicine and Rehabilitation,  Rehab,  Occupational Therapy, Balance and Falls Clinic, Rehab Inpatient, Physical Therapy, Park Physical Therap, Farmington Phy Ther	 Physical Medicine & Rehabilitation,  Rehab,  Occupational Therapy, Balance and Falls Clinic, Rehab Inpatient, Physical Therapy, Park Physical Therap, Farmington Phy Ther	FFDEEAF6
+PV1-10	20	31	124	General Surgery	 General Surgery,  Surgery,  Op Surgery,  Park Surgical Center, I/P Surgery, Pre-surgical Screening, 12 Mile Surgery Center Walk-In Lab, SFLD Pre-Surgical Testing, Pre-surgical Class, Park Pre-Surgical Testing, Same Day Surgery, Surgical Oncology	 General Surgery,  Surgery,  Op Surgery,  Park Surgical Center, I/P Surgery, Pre-surgical Screening, 12 Mile Surgery Center Walk-In Lab, SFLD Pre-Surgical Testing, Pre-surgical Class, Park Pre-Surgical Testing, Same Day Surgery, Surgical Oncology	FFDEEAF6
+PV1-10	21	31	125	Surgical Intensive Care			FFDEEAF6
+PV1-10	22	31	126	Nephrology Transplant			FFDEEAF6
+PV1-10	23	31	127	Acute Care Surgery			FFDEEAF6
+PV1-10	24	31	128	Allergy & Immunology	 Allergy & Immunology	 Allergy & Immunology	FFDEEAF6
+PV1-10	25	31	129	Anesthesiology	 Anesthesiology	 Anesthesiology	FFDEEAF6
+PV1-10	26	31	131	Dermatology	 Dermatology	 Dermatology	FFDEEAF6
+PV1-10	27	31	132	Family Medicine			FFDEEAF6
+PV1-10	28	31	133	Endocrinology	 Endocrinology	 Endocrinology	FFDEEAF6
+PV1-10	29	31	134	Genetics	 Genetic General	 Genetic General	FFDEEAF6
+PV1-10	30	31	135	Hematology	 Hematology	 Hematology	FFDEEAF6
+PV1-10	31	31	136	Infectious Disease	 Infectious Disease	 Infectious Disease	FFDEEAF6
+PV1-10	32	31	137	Nephrology	 Nephrology, Outpatient Dialysis Unit, Neph/Urol Surgery	 Nephrology, Outpatient Dialysis Unit, Neph/Urol Surgery	FFDEEAF6
+PV1-10	33	31	138	Neurosurgery	 Neurological Surgery	 Neurological Surgery	FFDEEAF6
+PV1-10	34	31	139	Ophthalmology	 Ophthalmology	 Ophthalmology	FFDEEAF6
+PV1-10	35	31	140	Otolaryngology/ENT	 Ear/Nose/Throat, Ent	 Ear/Nose/Throat, Ent	FFDEEAF6
+PV1-10	36	31	141	Plastic Surgery	 Plastic Surgery, Cosmetic, Cosmetic Surgery, Cosmetic Secondary to Medical	 Plastic Surgery, Cosmetic, Cosmetic Surgery, Cosmetic Secondary to Medical	FFDEEAF6
+PV1-10	37	31	143	Radiation Oncology	 Radiation Oncology	 Radiation Oncology	FFDEEAF6
+PV1-10	38	31	144	Rheumatology	 Rheumatology	 Rheumatology	FFDEEAF6
+PV1-10	39	31	145	Urology	 Urology	 Urology	FFDEEAF6
+PV1-10	40	31	148	Pharmacy			FFDEEAF6
+PV1-10	41	31	149	Interventional Radiology	 Interventional Radiology	 Interventional Radiology	FFDEEAF6
+PV1-10	42	31	150	Clinical Decision Unit	 Clinical Diagnosis Unit	 Clinical Diagnosis Unit	FFDEEAF6
+PV1-10	43	31	151	Wound/Ostomy Care	 Wound Care Treatment	 Wound Care Treatment	FFDEEAF6
+PV1-10	44	31	153	Newborn	 Newborn	 Newborn	FFDEEAF6
+PV1-10	45	31	154	Labor and Delivery	 O/P Labor and Delivery, Boarder Baby, Outpatient Birthing, Nursery, Outpt Birth Nursery, Sick Baby	 O/P Labor and Delivery, Boarder Baby, Outpatient Birthing, Nursery, Outpt Birth Nursery, Sick Baby	FFDEEAF6
+PV1-10	46	31	156	Hospitalist Medicine	 Hospitalist	 Hospitalist	FFDEEAF6
+PV1-10	47	31	158	Select Specialty	 Medical Subspecialty	 Medical Subspecialty	FFDEEAF6
+PV1-10	48	31	161	Audiology	 Audiology	 Audiology	FFDEEAF6
+PV1-10	49	31	162	Behavioral Health - Psychology			FFDEEAF6
+PV1-10	50	31	163	Cardiology - Structural Heart Disease			FFDEEAF6
+PV1-10	51	31	165	Colon/Rectal Surgery	 Colon & Rectal Surgery	 Colon & Rectal Surgery	FFDEEAF6
+PV1-10	52	31	166	Gynecology/Oncology	 Maternity, Womens Breast Ctr - Park, Breast Imaging Center, Mammography, Gynecologic Oncology	 Maternity, Womens Breast Ctr - Park, Breast Imaging Center, Mammography, Gynecologic Oncology	FFDEEAF6
+PV1-10	53	31	172	Oral Surgery	 Oral Surgery,  Oral and Maxillofacial Surgery	 Oral Surgery,  Oral and Maxillofacial Surgery	FFDEEAF6
+PV1-10	54	31	175	Palliative Medicine 	 Palliative Care	 Palliative Care	FFDEEAF6
+PV1-10	55	31	178	Podiatry	 Podiatry Surgery	 Podiatry Surgery	FFDEEAF6
+PV1-10	56	31	180	Radiology	 Radiology,  Unscheduled Xray, Scheduled Xray,  Rad Special Procedure,  X-Ray (Seton/Depaul),  Livonia X-ray,  PET/CT Scan - Park,  Diagnostic Radiology,  Farm Hills Radiology,  Pet Scan,  Open MRI,  X-Ray, Ultrasound, Macomb Township Diagnostic, Cat Scan, Magnetic Resonance Imaging (MRI), Park Radiology/Amb, Outpatient Imaging Center, MRI, Occupational Health Radiology Cases	 Radiology,  Unscheduled Xray, Scheduled Xray,  Rad Special Procedure,  X-Ray (Seton/Depaul),  Livonia X-ray,  PET/CT Scan - Park,  Diagnostic Radiology,  Farm Hills Radiology,  Pet Scan,  Open MRI,  X-Ray, Ultrasound, Macomb Township Diagnostic, Cat Scan, Magnetic Resonance Imaging (MRI), Park Radiology/Amb, Outpatient Imaging Center, MRI, Occupational Health Radiology Cases	FFDEEAF6
+PV1-10	57	31	181	Sleep Center	 Sleep Disorders	 Sleep Disorders	FFDEEAF6
+PV1-10	58	31	184	Cardiac Surgery			FFDEEAF6
+PV1-10	59	31	185	Transplant	 Transplant Clinic	 Transplant Clinic	FFDEEAF6
+PV1-10	60	31	198	Bone Marrow Transplant	 Bone Marrow,  Spinal Tap	 Bone Marrow,  Spinal Tap	FFDEEAF6
+PV1-10	61	31	208	Chemotherapy	 Chemotherapy,  O/P Chemotherapy	 Chemotherapy,  O/P Chemotherapy	FFDEEAF6
+PV1-10	62	31	273	Pathology			FFDEEAF6
+PV1-10	63	31	293	Pulmonary	 Cardiopulmonary,  Pulmonary Funct-Resp,  Pulmonary Disease	 Cardiopulmonary,  Pulmonary Funct-Resp,  Pulmonary Disease	FFDEEAF6
+PV1-10	64	31	322	Thoracic Surgery	 Thoracic Surgery	 Thoracic Surgery	FFDEEAF6
+PV1-10	65	31	374	Transfusion Medicine	 Transfusions,  Blood Banking and Transfusion	 Transfusions,  Blood Banking and Transfusion	FFDEEAF6
+PV1-10	66	31	376	Family Practice	 Family Practice	 Family Practice	FFDEEAF6
+PV1-10	67	31	380	Orthopedic - Hand Surgery			FFDEEAF6
+PV1-10	68	31	381	Orthopedic - Spine			FFDEEAF6
+PV1-10	69	31	384	Hepatology	 Hepatology	 Hepatology	FFDEEAF6
+PV1-10	70	31	385	Pain Management	 Pain Medicine	 Pain Medicine	FFDEEAF6
+PV1-10	71	31	387	Urogynecology			FFDEEAF6
+PV1-10	72	31	399	Bone & Mineral			FFDEEAF6
+PV1-10	73	31	409	Cardiology - Electrophysiology			FFDEEAF6
+PV1-10	74	31	463	Bariatric Surgery	 Bariatric Surgery	 Bariatric Surgery	FFDEEAF6
+PV1-10	75	31	464	Intensive Care	 Urgent Care/After Hours	 Urgent Care/After Hours	FFDEEAF6
+PV1-10	76	31	465	Pulmonary Hypertension			FFDEEAF6
+PV1-10	77	31	466	Pulmonary Transplant			FFDEEAF6
+PV1-10	78	31	467	Pulmonary Interventional			FFDEEAF6
+PV1-10	79	31	469	Transplant HPB Surgery	 Transplant Surgery	 Transplant Surgery	FFDEEAF6
+PV1-10	80	31	470	Cardiothoracic Transplant			FFDEEAF6
+PV1-10	81	31	471	Vascular Surgery	 Vascular Surgery	 Vascular Surgery	FFDEEAF6
+PV1-10	82	31	472	Speech Pathology	 Speech Pathology,  Speech Therapy	 Speech Pathology,  Speech Therapy	FFDEEAF6
+PV1-10	83	31	473	Cardiology - Advanced Heart Failure/Transplant			FFDEEAF6
+PV1-10	84	31	474	Cardiology - Vascular Medicine	 Cardiology Joint Venture, NonInvasive Cardiology	 Cardiology Joint Venture, NonInvasive Cardiology	FFDEEAF6
+PV1-10	85	31	475	Physiatry			FFDEEAF6
+PV1-10	86	31	476	Orthopedic - Surgery	 Orthopedic Surgery	 Orthopedic Surgery	FFDEEAF6
+PV1-10	87	31	477	Cardiovascular SICU			FFDEEAF6
+PV1-10	88	31	478	Behavioral Health - Neuropsychology			FFDEEAF6
+PV1-10	89	31	479	Behavioral Health - Psychiatry	 Psychiatry,  Partial Day Psych	 Psychiatry,  Partial Day Psych	FFDEEAF6
+PV1-10	90	31	480	Surgical Endoscopy	 Endoscopy	 Endoscopy	FFDEEAF6
+PV1-10	91	31	481	Ethics			FFDEEAF6
+PV1-10	92	31	482	Trauma Surgery	 Trauma Surgery	 Trauma Surgery	FFDEEAF6
+PV1-10	93	31			EMPI FIN Combines	EMPI FIN Combines	00000000
+PV1-10	94	31			 New Services	 New Services	00000000
+PV1-10	95	31			Consult	Consult	00000000
+PV1-10	96	31			Direct Admits Outpatient Only	Direct Admits Outpatient Only	00000000
+PV1-10	97	31			Epilepsy Monitoring Unit	Epilepsy Monitoring Unit	00000000
+PV1-10	98	31			 Milford Sports Med	 Milford Sports Med	00000000
+PV1-10	99	31			 Nuclear Medicine	 Nuclear Medicine	00000000
+PV1-10	100	31			 Day Treatment	 Day Treatment	00000000
+PV1-10	101	31			Special Procedures for Radiology OH	Special Procedures for Radiology OH	00000000
+PV1-10	102	31			Inquicker Emergency	Inquicker Emergency	00000000
+PV1-10	103	31			Emergency patient not seen	Emergency patient not seen	00000000
+PV1-10	104	31			 Alcoholism	 Alcoholism	00000000
+PV1-10	105	31			Palliative Care Clinic	Palliative Care Clinic	00000000
+PV1-10	106	31			 Mobile Pet Scanner Coach	 Mobile Pet Scanner Coach	00000000
+PV1-10	107	31			Emergency Ambulatory	Emergency Ambulatory	00000000
+PV1-10	108	31			 Livonia PT	 Livonia PT	00000000
+PV1-10	109	31			 Private Referred	 Private Referred	00000000
+PV1-10	110	31			Emergency Patient Left W/O Being Seen	Emergency Patient Left W/O Being Seen	00000000
+PV1-10	111	31			 Medical Practive Network/Physician Offic	 Medical Practive Network/Physician Offic	00000000
+PV1-10	112	31			Breast Multi-Disciplinary Clinic	Breast Multi-Disciplinary Clinic	00000000
+PV1-10	113	31			 Special Procedures	 Special Procedures	00000000
+PV1-10	114	31			 Laboratory	 Laboratory	00000000
+PV1-10	115	31			 Reversed Admit	 Reversed Admit	00000000
+PV1-10	116	31			 I/P Medicine	 I/P Medicine	00000000
+PV1-10	117	31			Inquicker Urgent Care	Inquicker Urgent Care	00000000
+PV1-10	118	31			PK Pulmonary Rehab	PK Pulmonary Rehab	00000000
+PV1-10	119	31			 Health Care Center	 Health Care Center	00000000
+PV1-10	120	31			 Bronchoscopy - Respiratory Therapy	 Bronchoscopy - Respiratory Therapy	00000000
+PV1-10	121	31			Blood Transfusion	Blood Transfusion	00000000
+PV1-10	122	31			 Extended Care	 Extended Care	00000000
+PV1-10	123	31			 Vascular Lab	 Vascular Lab	00000000
+PV1-10	124	31			 Outpatient Cash Business Southfield PT	 Outpatient Cash Business Southfield PT	00000000
+PV1-10	125	31			Sports Physicals	Sports Physicals	00000000
+PV1-10	126	31			Encounter Combine	Encounter Combine	00000000
+PV1-10	127	31			 Electroshock Therapy	 Electroshock Therapy	00000000
+PV1-10	128	31			Research	Research	00000000
+PV1-10	129	31			 Recurring	 Recurring	00000000
+PV1-10	130	31			Harrison Twp Lab	Harrison Twp Lab	00000000
+PV1-10	131	31			 ABC OB Triage	 ABC OB Triage	00000000
+PV1-10	132	31			 Specials	 Specials	00000000
+PV1-10	133	31			 Bronchoscopy-RESP	 Bronchoscopy-RESP	00000000
+PV1-10	134	31			 Special Procedures (primarily cta's)	 Special Procedures (primarily cta's)	00000000
+PV1-10	135	31			 Referral	 Referral	00000000
+PV1-10	136	31			Grosse Pointe Lab	Grosse Pointe Lab	00000000
+PV1-10	137	31			 Cancelled OP Surgery	 Cancelled OP Surgery	00000000
+PV1-10	138	31			 Providence Park Lab	 Providence Park Lab	00000000
+PV1-10	139	31			Radiation Therapy	Radiation Therapy	00000000
+PV1-10	140	31			 Op Procedure Unit	 Op Procedure Unit	00000000
+PV1-10	141	31			 Romeo Plank - 21 Mile Walk-In Lab	 Romeo Plank - 21 Mile Walk-In Lab	00000000
+PV1-10	142	31			Infusion Ther Ctr	Infusion Ther Ctr	00000000
+PV1-10	143	31			 OB Triage Patients	 OB Triage Patients	00000000
+PV1-10	144	31			 Emergency-Park	 Emergency-Park	00000000
+PV1-10	145	31			 Livonia Ambulatory	 Livonia Ambulatory	00000000
+PV1-10	146	31			 Home Health Agency	 Home Health Agency	00000000
+PV1-10	147	31			Hybrid OR	Hybrid OR	00000000
+PV1-10	148	31			Great Lakes Infusion	Great Lakes Infusion	00000000
+PV1-10	149	31			SFLD CT Self-Pay Screening	SFLD CT Self-Pay Screening	00000000
+PV1-10	150	31			Multiple Diagnostic Services	Multiple Diagnostic Services	00000000
+PV1-10	151	31			 Reversed ER Admit	 Reversed ER Admit	00000000
+PV1-10	152	31			 PK Cancer Inst Assarian CT	 PK Cancer Inst Assarian CT	00000000
+PV1-10	153	31			Park OR Intervention	Park OR Intervention	00000000
+PV1-10	154	31			OB Cerclage	OB Cerclage	00000000
+PV1-10	155	31			Heart Failure Clinic	Heart Failure Clinic	00000000
+PV1-10	156	31			 Observation	 Observation	00000000
+PV1-10	157	31			IV Hydration	IV Hydration	00000000
+PV1-10	158	31			 Myelograms	 Myelograms	00000000
+PV1-10	159	31			 Medical General	 Medical General	00000000
+PV1-10	160	31			 PMB Lab	 PMB Lab	00000000
+PV1-10	161	31			 Partial Hosp Program	 Partial Hosp Program	00000000
+PV1-10	162	31			Emergency Quick Registration	Emergency Quick Registration	00000000
+PV1-10	163	31			 Outpatient Lab	 Outpatient Lab	00000000
+PV1-10	164	31			 Diabetic Education	 Diabetic Education	00000000
+PV1-10	165	31			 Cancel Testing Done RSCH	 Cancel Testing Done RSCH	00000000
+PV1-10	166	31			 Lab (Seton and Depaul)	 Lab (Seton and Depaul)	00000000
+PV1-10	167	31			 Walk-in Moross	 Walk-in Moross	00000000
+PV1-10	168	31			 Sfld OP Surgery	 Sfld OP Surgery	00000000
+PV1-10	169	31			 OB ER	 OB ER	00000000
+PV1-10	170	31			 Clinical Pathology/Laboratory Medicine	 Clinical Pathology/Laboratory Medicine	00000000
+PV1-10	171	31			 Void/Cancel	 Void/Cancel	00000000
+PV1-10	172	31			SFLD OR Intervention	SFLD OR Intervention	00000000
+PV1-10	173	31			 Occupational Medicine	 Occupational Medicine	00000000
+PV1-10	174	31			Infusion Center	Infusion Center	00000000
+PV1-10	175	31			 Outpatient Cash Business Northwestern	 Outpatient Cash Business Northwestern	00000000
+PV1-10	176	31			Grosse Pointe Specimen	Grosse Pointe Specimen	00000000
+PV1-10	177	31			 Videostroboscopy	 Videostroboscopy	00000000
+PV1-10	178	31			Video Strobe Test	Video Strobe Test	00000000
+PV1-10	179	31			 Infusion with a charge	 Infusion with a charge	00000000
+PV1-10	180	31			 Ent Surgery	 Ent Surgery	00000000
+PV1-10	181	31			 PMRS	 PMRS	00000000
+PV1-10	182	31			 Park Corp Health	 Park Corp Health	00000000
+PV1-10	183	31			 Industrial Clinic	 Industrial Clinic	00000000
+PV1-10	184	31			 Spinal Cord Injury Medicine	 Spinal Cord Injury Medicine	00000000
+PV1-10	185	31			 Preadmission Testing	 Preadmission Testing	00000000
+PV1-10	186	31			 Lab	 Lab	00000000
+PV1-10	187	31			 Card Outpt Cash - Sfld	 Card Outpt Cash - Sfld	00000000
+PV1-10	188	31			 LaserTrtmt Non Eye	 LaserTrtmt Non Eye	00000000
+PV1-10	189	31			 Diagnostics	 Diagnostics	00000000
+PV1-10	190	31			 Orbera Balloon Proc	 Orbera Balloon Proc	00000000
+PV1-10	191	31			 INDUSTRIAL EMERGENCY	 INDUSTRIAL EMERGENCY	00000000
+PV1-10	192	31			Valade Cardo	Valade Cardo	00000000
+PV1-10	193	31			Select Long Term Care	Select Long Term Care	00000000
+PV1-10	194	31			 Heart Cardiology Consultants	 Heart Cardiology Consultants	00000000
+PV1-10	195	31			 Use For Old Inactive Converted Codes	 Use For Old Inactive Converted Codes	00000000
+PV1-10	196	31			 Outpatient Pharmacy	 Outpatient Pharmacy	00000000
+PV1-10	197	31			 Mra	 Mra	00000000
+PV1-10	198	31			12 Mile Surgery Center Walk-In L	12 Mile Surgery Center Walk-In L	00000000
+PV1-10	199	31			Botulinum	Botulinum	00000000
+PV1-10	200	31			Clinical Pathology/Laboratory Me	Clinical Pathology/Laboratory Me	00000000
+PV1-10	201	31			Livingston Urgent CA	Livingston Urgent CA	00000000
+PV1-10	202	31			Romeo Plank - 21 Mile Walk-In La	Romeo Plank - 21 Mile Walk-In La	00000000
+PV1-10	203	31			Transplant Recipient	Transplant Recipient	00000000
+PV1-10	204	31			Amputation Prevention Center	Amputation Prevention Center	00000000
+PV1-10	205	31			Livingston Imaging	Livingston Imaging	00000000
+PV1-10	206	31			Livingston Mammograp	Livingston Mammograp	00000000
+PV1-10	207	31			Cosmetic secondary to Medical	Cosmetic secondary to Medical	00000000
+PV1-10	208	31			Livingston AMB LAB	Livingston AMB LAB	00000000
+PV1-10	209	31			Livingston CT Scan	Livingston CT Scan	00000000
+PV1-10	210	31			Livonia Mammography	Livonia Mammography	00000000
+PV1-10	211	31			Medical Practive Network/Physici	Medical Practive Network/Physici	00000000
+PV1-10	212	31			Physical Medicine and Rehabilita	Physical Medicine and Rehabilita	00000000
+PV1-10	213	31			Special Procedures (primarily ct	Special Procedures (primarily ct	00000000
+PV1-10	214	31			Amputation Prevention Hyperbaric	Amputation Prevention Hyperbaric	00000000
+PV1-10	215	31			Bronchoscopy - Respiratory Thera	Bronchoscopy - Respiratory Thera	00000000
+PV1-10	216	31			Transplant Donor	Transplant Donor	00000000
+PV1-10	217	31			Livingston Occup Health Partner	Livingston Occup Health Partner	00000000
+PV1-10	218	31			Occupational Health Radiology Ca	Occupational Health Radiology Ca	00000000
+PV1-10	219	31			Ultrasound OB	Ultrasound OB	00000000
+PV1-10	220	31			Wound Hyperbaric Therapy	Wound Hyperbaric Therapy	00000000
+PV1-10	221	31			Outpatient Cash Business Southfi	Outpatient Cash Business Southfi	00000000
+PV1-10	222	31			CD:1122775680	CD:1122775680	00000000
+PV1-10	223	31			CD:1122776322	CD:1122776322	00000000
+PV1-10	224	31			CD:1224212073	CD:1224212073	00000000
+PV1-10	225	31			CD:1784697893	CD:1784697893	00000000
+PV1-10	226	31			CD:1784701083	CD:1784701083	00000000
+PV1-10	227	31			CD:343048198	CD:343048198	00000000
+PV1-10	228	31			CD:354518346	CD:354518346	00000000
+PV1-10	229	31			CD:364291432	CD:364291432	00000000
+PV1-10	230	31			CD:463082995	CD:463082995	00000000
+PV1-10	231	31			CD:463094711	CD:463094711	00000000
+PV1-10	232	31			CD:511250862	CD:511250862	00000000
+PV1-10	233	31			CD:549545085	CD:549545085	00000000
+PV1-10	234	31			CD:568877264	CD:568877264	00000000
+PV1-10	235	31			CD:586078119	CD:586078119	00000000
+PV1-10	236	31			CD:608371140	CD:608371140	00000000
+PV1-10	237	31			CD:615283852	CD:615283852	00000000
+PV1-10	238	31			CD:720497239	CD:720497239	00000000
+PV1-10	239	31			CD:734757375	CD:734757375	00000000
+PV1-10	240	31			CD:749098593	CD:749098593	00000000
+PV1-10	241	31			CD:749098827	CD:749098827	00000000
+PV1-10	242	31			CD:798103198	CD:798103198	00000000
+PV1-10	243	31			CD:847555435	CD:847555435	00000000
+PV1-10	244	31			CD:870758694	CD:870758694	00000000
+PV1-10	245	31			Harison Twp Lab	Harison Twp Lab	00000000
+PV1-10	246	31			Special Procedures for Radiology	Special Procedures for Radiology	00000000
+PV1-10	247	31			CD:343047977	CD:343047977	00000000
+PV1-10	248	31			CD:749098306	CD:749098306	00000000
+PV1-10	249	31			CD:834315356	CD:834315356	00000000
+PV1-10	250	31			Emergency Patient Left W/O Being	Emergency Patient Left W/O Being	00000000
+PV1-10	251	31			CD:1388779928	CD:1388779928	00000000
+PV1-10	252	31			CD:402079817	CD:402079817	00000000
+PV1-10	253	31			CD:1020958902	CD:1020958902	00000000
+PV1-10	254	31			CD:589292524	CD:589292524	00000000
+PV1-10	255	31			Neuromusculoskeletal Medicine	Neuromusculoskeletal Medicine	00000000
+PV1-10	256	31			CD:1235016922	CD:1235016922	00000000
+PV1-10	257	31			Cardiovascular Outpatient	Cardiovascular Outpatient	00000000
+PV1-10	258	31			Livonia Cat Scan PA	Livonia Cat Scan PA	00000000
+PV1-10	259	31			Use For Old Inactive Converted C	Use For Old Inactive Converted C	00000000
+PV1-10	260	31			Infusion without a charge	Infusion without a charge	00000000
+PV1-10	261	31			Novi Inpatients	Novi Inpatients	00000000
+PV1-10	262	31			SSU-Outpatient Special Procedure	SSU-Outpatient Special Procedure	00000000
+PV1-10	263	31			COVID19	COVID19 	00000000
+PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	FFDEEAF6
+PV1-36	3	35			01	Discharged to home or self care (routine discharge)	FFAEABAB
+PV1-36	4	35	01	Discharged to home or self care (routine discharge)	Home	Home	FFDEEAF6
+PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	General Hosp w/Planned Acute Care Readm,  Short Term Hospital, Another Hospital,  Acute Care, 	General Hosp w/Planned Acute Care Readm,  Short Term Hospital, Another Hospital,  Acute Care	FFDEEAF6
+PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.	Medicare SNF w/Planned Acute Care Readm,  Skilled Nursing Home,  Medicaid Nursing Facility, Skilled Nursing Care	Medicare SNF w/Planned Acute Care Readm,  Skilled Nursing Home,  Medicaid Nursing Facility, Skilled Nursing Care	FFDEEAF6
+PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)	 Intermediate Care	 Intermediate Care	FFDEEAF6
+PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list	Other Inst w/Planned Acute Care Readm,  Another Type of Institution, Discharge to other facility per legal,  Va Hospital,  CD:819461779,  CD:819460156,  CD:819465578, CD:746841674, CD:819462709,  CD:819460896,  CD:510578318,  CD:819462215,  Discharge Lobby,  Dis/Trans to a court or law enfor agency,  CD:819464931,  CD:819460466,  CD:605085946,  CD:819464042, CD:819464223,  Cancel Discharge,  Federal Hospital Incld Va Hospitals,  Discharged to same inst - outpatient,  CD:840770902,  CD:510577361,  Elope,  CD:819463195,  Basic Nursing Home,  Alive, Discharge to other facility per, Discharged to other inst - outpa, Discharge to cancer or childrens	Other Inst w/Planned Acute Care Readm,  Another Type of Institution, Discharge to other facility per legal,  Va Hospital,  CD:819461779,  CD:819460156,  CD:819465578, CD:746841674, CD:819462709,  CD:819460896,  CD:510578318,  CD:819462215,  Discharge Lobby,  Dis/Trans to a court or law enfor agency,  CD:819464931,  CD:819460466,  CD:605085946,  CD:819464042, CD:819464223,  Cancel Discharge,  Federal Hospital Incld Va Hospitals,  Discharged to same inst - outpatient,  CD:840770902,  CD:510577361,  Elope,  CD:819463195,  Basic Nursing Home,  Alive, Discharge to other facility per, Discharged to other inst - outpa, Discharge to cancer or childrens	FFDEEAF6
+PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization	Home with Home Health Care,  Home Care with Home Health	Home with Home Health Care,  Home Care with Home Health, Home Health Bcbsm	FFDEEAF6
+PV1-36	10	35	07	Left against medical advice or discontinued care	Against Medical Advice,  Cancelled Encounter,  Left Not Seen,  Registered  Not Seen, Patient Left Without Being Seen	Against Medical Advice,  Cancelled Encounter,  Left Not Seen,  Registered  Not Seen, Patient Left Without Being Seen	FFDEEAF6
+PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider	Home Care IV Therapy	Home Care IV Therapy	FFDEEAF6
+PV1-36	12	35	09	Admitted as an inpatient to this hospital	 Admitted as Inpatient	 Admitted as Inpatient	FFDEEAF6
+PV1-36	13	35	10-19	Reserved for national assignment (Discontinued effective 10/16/03)			FFDEEAF6
+PV1-36	14	35	20	Expired	Expired,  Expired - No Autopsy Performed,  Deceased, Expired - Autopsy Unknown	Expired,  Expired - No Autopsy Performed,  Deceased, Expired - Autopsy Unknown	FFDEEAF6
+PV1-36	15	35	2l-29	Reserved for national assignment (Discontinued effective 10/16/03)			FFDEEAF6
+PV1-36	16	35	30	Still Patient	Still a patient	Still a patient	FFDEEAF6
+PV1-36	17	35	31-39	Reserved for national assignment (Discontinued effective 10/16/03)			FFDEEAF6
+PV1-36	18	35	40	Expired at home	Expired at home	Expired at home	FFDEEAF6
+PV1-36	19	35	41	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)	Expired at other facility,  Expired In Hospital (Hospice), Exp in Hosp-Hospice, Expired in Hospital	Expired at other facility,  Expired In Hospital (Hospice), Exp in Hosp-Hospice, Expired in Hospital	FFDEEAF6
+PV1-36	20	35	42	Expired - place unknown	Expired\\, unknown place	Expired, unknown place, Expired  unknown place	FFDEEAF6
+PV1-36	21	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)	To Federal Hospital	To Federal Hospital, Federal Hospital Incld Va Hospit	FFDEEAF6
+PV1-36	22	35	44-49	Reserved for national assignment			FFDEEAF6
+PV1-36	23	35	50	Hospice - home	Discharged to Hospice-Home	Discharged to Hospice-Home	FFDEEAF6
+PV1-36	24	35	51	Hospice - medical facility	Discharged to Hospice-Medical Facility, Discharged to Hospice-Medical Fa	Discharged to Hospice-Medical Facility, Discharged to Hospice-Medical Fa	FFDEEAF6
+PV1-36	25	35	52-60	Reserved for national assignment			FFDEEAF6
+PV1-36	26	35	61	Discharged/transferred to hospital-based Medicare approved swing bed	MCare Swing w/Planned Acute Care Readm	MCare Swing w/Planned Acute Care Readm	FFDEEAF6
+PV1-36	27	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)	IP Rehab w/Planned Acute Care Readm,  Short Term Rehab Facility Hospital,  Rehab Care, To Reh Fac/Dist Unit,  Trans to Rehab Fac, Short Term Rehab Facility Hospit	IP Rehab w/Planned Acute Care Readm,  Short Term Rehab Facility Hospital,  Rehab Care, To Reh Fac/Dist Unit,  Trans to Rehab Fac, Short Term Rehab Facility Hospit	FFDEEAF6
+PV1-36	28	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)	MCare LTCH w/Planned Acute Care Readm, Long Term Care, Rehab Facility Long Term Hospital	MCare LTCH w/Planned Acute Care Readm, Long Term Care, Rehab Facility Long Term Hospital	FFDEEAF6
+PV1-36	29	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)	Trn Under Mcaid Icf Not Crt W/M'care	Trn Under Mcaid Icf Not Crt W/M'care	FFDEEAF6
+PV1-36	30	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	Psych Hosp w/Planned Acute Care Readm,  Psychiatric Facility,  Psychiatric Hospital,  Discharge to Psychiatric Facility, Discharge to Psychiatric Facilit	Psych Hosp w/Planned Acute Care Readm,  Psychiatric Facility,  Psychiatric Hospital,  Discharge to Psychiatric Facility, Discharge to Psychiatric Facilit, Psych Hosp w/Planned Acute Care, Xfer To/Frm Psy/Rehb	FFDEEAF6
+PV1-36	31	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)	Critical Access Hospital	Critical Access Hospital	FFDEEAF6
+PV1-36	32	35	67-70	Reserved for national assignment			FFDEEAF6
+PV1-36	33	35	71	Reserved for national assignment (Discontinued effective 4/1/03)			FFDEEAF6
+PV1-36	34	35	72	Reserved for national assignment (Discontinued effective 4/1/03)			FFDEEAF6
+PV1-36	35	35	73-99	Reserved for national assignment			FFDEEAF6
+PV1-36	36	35			Discharged to other inst - outpatient	Discharged to other institution	FFDEEAF6
+PV1-36	37	35			Long Term Acute-Ltac	Long Term Acute Care	FFDEEAF6
+PV1-36	38	35			Discharge to cancer or childrens hosp	Discharged to Cancer or Children's hospital	FFDEEAF6
+PV1-36	39	35			Dis/Trans to a court or law enfo	Dis/Trans to a court or law enfo	FFDEEAF6
+PV1-36	40	35			Discharged to same inst - outpat	Discharged to same inst - outpat	FFDEEAF6
+PV1-36	41	35			Rehab Facility Long Term Hospita	Rehab Facility Long Term Hospita	FFDEEAF6
+PV1-36	42	35			MCaid Nursing w/Planned Acute Care Readm	MCaid Nursing w/Planned Acute Care Readm	FFDEEAF6
+PV1-36	43	35			CD:819461212	CD:819461212	FFDEEAF6
+PV1-36	44	35			MCaid Nursing w/Planned Acute Ca	MCaid Nursing w/Planned Acute Ca	FFDEEAF6
+PV1-36	45	35			CD:510578042	CD:510578042	FFDEEAF6
+PV1-36	46	35			CD:746806973	CD:746806973	FFDEEAF6
+IN1-17	2	39	MiHIN Value	Description	Hospital Value		FFDEEAF6
+IN1-17	3	39	FTH	Father 	F		FFAEABAB
+IN1-17	4	39	ASC	Associate			FFDEEAF6
+IN1-17	5	39	BRO	Brother 	 Brother		FFDEEAF6
+IN1-17	6	39	CGV	Care giver 			FFDEEAF6
+IN1-17	7	39	CHD	Child	 Son/Daughter		FFDEEAF6
+IN1-17	8	39	DEP	Handicapped dependant			FFDEEAF6
+IN1-17	9	39	DOM	Life partner	Life Partner		FFDEEAF6
+IN1-17	10	39	EMC	Emergency contact			FFDEEAF6
+IN1-17	11	39	EME	Employee	Employee		FFDEEAF6
+IN1-17	12	39	EMR	Employer			FFDEEAF6
+IN1-17	13	39	EXF	Extended family	Aunt/Uncle, Cousin, Niece, Nephew		FFDEEAF6
+IN1-17	14	39	FCH	Foster child 			FFDEEAF6
+IN1-17	15	39	FND	Friend	Friend		FFDEEAF6
+IN1-17	16	39	FTH	Father 	 Father		FFDEEAF6
+IN1-17	17	39	GCH	Grandchild	Grandchild, Grandson		FFDEEAF6
+IN1-17	18	39	GRD	Guardian 	  Guardian, Legal Guardian		FFDEEAF6
+IN1-17	19	39	GRP	Grandparent 	  Grandparent, Grandmother,  Grandfather		FFDEEAF6
+IN1-17	20	39	MGR	Manager	Employer		FFDEEAF6
+IN1-17	21	39	MTH	Mother 	 Mother		FFDEEAF6
+IN1-17	22	39	NCH	Natural child			FFDEEAF6
+IN1-17	23	39	NON	None			FFDEEAF6
+IN1-17	24	39	OAD	Other adult	  Clergy/Pastor, Partner		FFDEEAF6
+IN1-17	25	39	OTH	Other 	 Other Relationship, Unknown, CD:750941290, General, Patient Advocat		FFDEEAF6
+IN1-17	26	39	OWN	Owner			FFDEEAF6
+IN1-17	27	39	PAR	Parent 	 Parent, Fosterparent,		FFDEEAF6
+IN1-17	28	39	SCH	Stepchild 			FFDEEAF6
+IN1-17	29	39	SEL	Self	 Self		FFDEEAF6
+IN1-17	30	39	SIB	Sibling 			FFDEEAF6
+IN1-17	31	39	SIS	Sister 	 Sister		FFDEEAF6
+IN1-17	32	39	SPO	Spouse	 Spouse, Husband,  Wife, Fiance		FFDEEAF6
+IN1-17	33	39	TRA	Trainer			FFDEEAF6
+IN1-17	34	39	UNK	Unknown			FFDEEAF6
+IN1-17	35	39	WRD	Ward of court			FFDEEAF6
+IN1-17	36	39	AUN	Aunt 	Aunt		FFDEEAF6
+IN1-17	37	39	DAU	Daughter	Daughter		FFDEEAF6
+IN1-17	38	39	EXS	Ex Spouse 			FFDEEAF6
+IN1-17	39	39	EXH	Ex-husband			FFDEEAF6
+IN1-17	40	39	EXW	Ex-wife 			FFDEEAF6
+IN1-17	41	39	INL	In Law 	Soninlaw, In-Law		FFDEEAF6
+IN1-17	42	39	LEG	Legal Guardian 			FFDEEAF6
+IN1-17	43	39	SON	Son (S)	Son		FFDEEAF6
+IN1-17	44	39	STP	Step Parent (STP)	Stepfather, Stepmother		FFDEEAF6
+IN1-17	45	39	STS	Step Sibling			FFDEEAF6
+IN1-17	46	39	UN	Uncle (UN)	Uncle		FFDEEAF6
+IN1	2	42	IN1-3 Value	IN1-4 Value	Payer		FFDEEAF6
+IN1	3	42	1001	BCN	BCBSM		FFAEABAB
+IN1	4	42	768153	HAP Alliance Health  J	HAP		00000000
+IN1	5	42	5198405	Aetna Medicare  J	Medicare		00000000
+IN1	6	42	9959707	Aetna Medicare  DS	Medicare		00000000
+IN1	7	42	9959707	Aetna Medicare  DS	Medicare		00000000
+IN1	8	42	768215	Blue Cross of MI Traditional  J	BCBSM		00000000
+IN1	9	42	768233	Blue Cross Federal  J	BCBSM		00000000
+IN1	10	42	6990292	Blue Choice PPO  DS	BCBSM		00000000
+IN1	11	42	6990292	Blue Choice PPO  DS	BCBSM		00000000
+IN1	12	42	768253	Blue Cross Preferred Plus  J	BCBSM		00000000
+IN1	13	42	768187	Blue Care Network Non SJH IPA  J	BCBSM		00000000
+IN1	14	42	768188	Blue Care Network A SJH IPA  J	BCBSM		00000000
+IN1	15	42	768218	Blue Cross of MI Teamsters  J	BCBSM		00000000
+IN1	16	42	9960314	Blue Care Network  DS	BCBSM		00000000
+IN1	17	42	9960314	Blue Care Network  DS	BCBSM		00000000
+IN1	18	42	6990334	Blue Choice PPO  J	BCBSM		00000000
+IN1	19	42	768221	Blue Cross of MI  DS	BCBSM		00000000
+IN1	20	42	768221	Blue Cross of MI  DS	BCBSM		00000000
+IN1	21	42	768222	Blue Cross Alternate  DS	BCBSM		00000000
+IN1	22	42	768222	Blue Cross Alternate  DS	BCBSM		00000000
+IN1	23	42	768203	Blue Choice POS  J	BCBSM		00000000
+IN1	24	42	768243	Blue Cross of MI PPO Trust  DS	BCBSM		00000000
+IN1	25	42	768243	Blue Cross of MI PPO Trust  DS	BCBSM		00000000
+IN1	26	42	768234	Blue Cross of MI Federal  DS	BCBSM		00000000
+IN1	27	42	768234	Blue Cross of MI Federal  DS	BCBSM		00000000
+IN1	28	42	768190	Blue Care Network Advantage   JSD	BCBSM		00000000
+IN1	29	42	768190	Blue Care Network Advantage   JSD	BCBSM		00000000
+IN1	30	42	768190	Blue Care Network Advantage   JSD	BCBSM		00000000
+IN1	31	42	768191	Blue Care Network Advantage Non SJH  J	BCBSM		00000000
+IN1	32	42	768205	Blue Cross of MI Dental  DS	BCBSM		00000000
+IN1	33	42	768205	Blue Cross of MI Dental  DS	BCBSM		00000000
+IN1	34	42	768194	Blue Care Network JVHL Lab Only  J	BCBSM		00000000
+IN1	35	42	7094040	BCBSM Medicare Advantage PPO  J	BCBSM		00000000
+IN1	36	42	7094024	BCBSM Medicare Advantage PPO  DS	BCBSM		00000000
+IN1	37	42	7094024	BCBSM Medicare Advantage PPO  DS	BCBSM		00000000
+IN1	38	42	8918394	MedPlusBlue PTB  J	BCBSM		00000000
+IN1	39	42	8918390	MedPlusBlue PTB  DS	BCBSM		00000000
+IN1	40	42	8918390	MedPlusBlue PTB  DS	BCBSM		00000000
+IN1	41	42	8695873	Blue Cross Complete JSD	BCBSM		00000000
+IN1	42	42	8695873	Blue Cross Complete JSD	BCBSM		00000000
+IN1	43	42	8695873	Blue Cross Complete JSD	BCBSM		00000000
+IN1	44	42	9961999	HAP Alliance Medicare  J	HAP		00000000
+IN1	45	42	782628	HAP Alliance Medicare  DS	HAP		00000000
+IN1	46	42	782628	HAP Alliance Medicare  DS	HAP		00000000
+IN1	47	42	768403	HAP Preferred  J	HAP		00000000
+IN1	48	42	8772529	HealthPlus Medicaid  JSD	HEALTHPLUS		00000000
+IN1	49	42	8772529	HealthPlus Medicaid  JSD	HEALTHPLUS		00000000
+IN1	50	42	8772529	HealthPlus Medicaid  JSD	HEALTHPLUS		00000000
+IN1	51	42	5198383	HAP POS  J	HAP		00000000
+IN1	52	42	9962180	HAP POS  DS	HAP		00000000
+IN1	53	42	9962180	HAP POS  DS	HAP		00000000
+IN1	54	42	8772509	HealthPlus Medicare  JSD	HEALTHPLUS		00000000
+IN1	55	42	8772509	HealthPlus Medicare  JSD	HEALTHPLUS		00000000
+IN1	56	42	8772509	HealthPlus Medicare  JSD	HEALTHPLUS		00000000
+IN1	57	42	768407	HAP Alliance Health PPO  DS	HAP		00000000
+IN1	58	42	768407	HAP Alliance Health PPO  DS	HAP		00000000
+IN1	59	42	768413	HAP Preferred PPO  DS	HAP		00000000
+IN1	60	42	768413	HAP Preferred PPO  DS	HAP		00000000
+IN1	61	42	768415	HAP Unassigned  DS	HAP		00000000
+IN1	62	42	768415	HAP Unassigned  DS	HAP		00000000
+IN1	63	42	768394	HAP Assigned  DS	HAP		00000000
+IN1	64	42	768394	HAP Assigned  DS	HAP		00000000
+IN1	65	42	768408	HAP Senior Plus  DS	HAP		00000000
+IN1	66	42	768408	HAP Senior Plus  DS	HAP		00000000
+IN1	67	42	768311	Community Choice Medicaid  DS	MEDICAID		00000000
+IN1	68	42	768311	Community Choice Medicaid  DS	MEDICAID		00000000
+IN1	69	42	768433	HMO Medicaid Related  DS	MEDICAID		00000000
+IN1	70	42	768433	HMO Medicaid Related  DS	MEDICAID		00000000
+IN1	71	42	768425	Meridian Health Plan Of MI  JSD	MERIDIAN		00000000
+IN1	72	42	768425	Meridian Health Plan Of MI  JSD	MERIDIAN		00000000
+IN1	73	42	768425	Meridian Health Plan Of MI  JSD	MERIDIAN		00000000
+IN1	74	42	768600	Molina of MI  DS	MOLINA		00000000
+IN1	75	42	768600	Molina of MI  DS	MOLINA		00000000
+IN1	76	42	768629	Coventry Cares of MI Medicaid  DS	MEDICAID		00000000
+IN1	77	42	768629	Coventry Cares of MI Medicaid  DS	MEDICAID		00000000
+IN1	78	42	768539	Medicare Part A  JSD	MEDICARE		00000000
+IN1	79	42	768552	Medicare Part B Only IP Care  J	MEDICARE		00000000
+IN1	80	42	768539	Medicare Part A  JSD	MEDICARE		00000000
+IN1	81	42	768539	Medicare Part A  JSD	MEDICARE		00000000
+IN1	82	42	768557	Medicare Part B  JSD	MEDICARE		00000000
+IN1	83	42	768557	Medicare Part B  JSD	MEDICARE		00000000
+IN1	84	42	768601	Molina Healthcare of MI  J	MOLINA		00000000
+IN1	85	42	9965575	Molina Advantage  J	MOLINA		00000000
+IN1	86	42	5198412	Molina Advantage  DS	MOLINA		00000000
+IN1	87	42	5198412	Molina Advantage  DS	MOLINA		00000000
+IN1	88	42	4845924	Medicare Plus Blue  J	MEDICARE		00000000
+IN1	89	42	9965604	Medicare Plus Blue  DS	MEDICARE		00000000
+IN1	90	42	9965604	Medicare Plus Blue  DS	MEDICARE		00000000
+IN1	91	42	5198420	Misc Medicare HMO  J	MEDICARE		00000000
+IN1	92	42	9969299	Misc Medicare HMO  DS	MEDICARE		00000000
+IN1	93	42	9969299	Misc Medicare HMO  DS	MEDICARE		00000000
+IN1	94	42	768410	HAP HMO SJH  J	HAP		00000000
+IN1	95	42	768411	HAP Senior Plus  J	HAP		00000000
+IN1	96	42	768412	HAP HMO Non SJH  J	HAP		00000000
+IN1	97	42	2818177	Health Alliance Medicare  J	HAP		00000000
+IN1	98	42	5198326	Priority Health PPO  JSD	PRIORTY		00000000
+IN1	99	42	5198326	Priority Health PPO  JSD	PRIORTY		00000000
+IN1	100	42	5198326	Priority Health PPO  JSD	PRIORTY		00000000
+IN1	101	42	5198368	Priority Health HMO  JSD	PRIORTY		00000000
+IN1	102	42	5198368	Priority Health HMO  JSD	PRIORTY		00000000
+IN1	103	42	5198368	Priority Health HMO  JSD	PRIORTY		00000000
+IN1	104	42	6990312	Priority Health Medicare  JSD	PRIORTY		00000000
+IN1	105	42	6990312	Priority Health Medicare  JSD	PRIORTY		00000000
+IN1	106	42	6990312	Priority Health Medicare  JSD	PRIORTY		00000000
+IN1	107	42	768557	Medicare Part B  JSD	MEDICARE		00000000
+IN1	108	42	783002	Blue Cross of MI Secondary  J	BCBSM		00000000
+IN1	109	42	1061408	Medicaid Pending Internal T05  DS	MEDICAID		00000000
+IN1	110	42	1061408	Medicaid Pending Internal T05  DS	MEDICAID		00000000
+IN1	111	42	768527	Medicaid CMHP  DS	MEDICAID		00000000
+IN1	112	42	768527	Medicaid CMHP  DS	MEDICAID		00000000
+IN1	113	42	8119754	Medicaid Oak County CMH  JSD	MEDICAID		00000000
+IN1	114	42	8119754	Medicaid Oak County CMH  JSD	MEDICAID		00000000
+IN1	115	42	8119754	Medicaid Oak County CMH  JSD	MEDICAID		00000000
+IN1	116	42	8119731	Medicaid Detroit Wayne  County CMH  JSD	MEDICAID		00000000
+IN1	117	42	8119731	Medicaid Detroit Wayne  County CMH  JSD	MEDICAID		00000000
+IN1	118	42	8119731	Medicaid Detroit Wayne  County CMH  JSD	MEDICAID		00000000
+IN1	119	42	768530	Medicaid  JSD	MEDICAID		00000000
+IN1	120	42	768530	Medicaid  JSD	MEDICAID		00000000
+IN1	121	42	768431	HealthSource ABW  Medicaid  DS	HEALTHSOURCE		00000000
+IN1	122	42	768431	HealthSource ABW  Medicaid  DS	HEALTHSOURCE		00000000
+IN1	123	42	768813	Ultimed ABW Medicaid  DS	MEDICAID		00000000
+IN1	124	42	768813	Ultimed ABW Medicaid  DS	MEDICAID		00000000
+IN1	125	42	768579	Midwest ABW Medicaid  DS	MEDICAID		00000000
+IN1	126	42	768579	Midwest ABW Medicaid  DS	MEDICAID		00000000
+IN1	127	42	768717	Procare ABW Medicaid  DS	MEDICAID		00000000
+IN1	128	42	768717	Procare ABW Medicaid  DS	MEDICAID		00000000
+IN1	129	42	768509	Medicaid Out of State  DS	MEDICAID		00000000
+IN1	130	42	768509	Medicaid Out of State  DS	MEDICAID		00000000
+IN1	131	42	10143441	Medicaid Pending Internal TI  DS	MEDICAID		00000000
+IN1	132	42	10143441	Medicaid Pending Internal TI  DS	MEDICAID		00000000
+IN1	133	42	9971868	MEH Pending Medicaid  J	MEDICAID		00000000
+IN1	134	42	7761594	MEH Pending Medicaid  DS	MEDICAID		00000000
+IN1	135	42	7761594	MEH Pending Medicaid  DS	MEDICAID		00000000
+IN1	136	42	768530	Medicaid  JSD	MEDICAID		00000000
+IN1	137	42	768495	MCH Crippled Children  J	MEDICAID		00000000
+IN1	138	42	768516	Medicaid Pending X09  J	MEDICAID		00000000
+IN1	139	42	6033824	Medicaid Disability  J	MEDICAID		00000000
+IN1	140	42	780392	Medicaid ABW  J	MEDICAID		00000000
+IN1	141	42	7678003	Oakland Health Medicaid ABW  J	MEDICAID		00000000
+IN1	142	42	7678016	HealthSource Medicaid ABW  J	MEDICAID		00000000
+IN1	143	42	7678035	Midwest Health Medicaid ABW  J	MEDICAID		00000000
+IN1	144	42	7678050	Procare Plus Medicaid ABW  J	MEDICAID		00000000
+IN1	145	42	7678058	Medicaid Misc ABW  J	MEDICAID		00000000
+IN1	146	42	8119826	Medicaid Misc CMH  JSD	MEDICAID		00000000
+IN1	147	42	8119826	Medicaid Misc CMH  JSD	MEDICAID		00000000
+IN1	148	42	8119826	Medicaid Misc CMH  JSD	MEDICAID		00000000
+IN1	149	42	8119709	Medicaid Macomb County CMH  J	MEDICAID		00000000
+IN1	150	42	5260810	Medicaid Pending 300 Day  JSD	MEDICAID		00000000
+IN1	151	42	5260810	Medicaid Pending 300 Day  JSD	MEDICAID		00000000
+IN1	152	42	5260810	Medicaid Pending 300 Day  JSD	MEDICAID		00000000
+IN1	153	42	7761451	Medicaid Pending ABW  J	MEDICAID		00000000
+IN1	154	42	9971956	Medicaid Pending ABW  DS	MEDICAID		00000000
+IN1	155	42	9971956	Medicaid Pending ABW  DS	MEDICAID		00000000
+IN1	156	42	9933280	Medicaid Pending External  JSD	MEDICAID		00000000
+IN1	157	42	9933280	Medicaid Pending External  JSD	MEDICAID		00000000
+IN1	158	42	9933280	Medicaid Pending External  JSD	MEDICAID		00000000
+IN1	159	42	7761574	MEH Pending Disability  J	MEDICAID		00000000
+IN1	160	42	6033858	Medicaid Disability  DS	MEDICAID		00000000
+IN1	161	42	6033858	Medicaid Disability  DS	MEDICAID		00000000
+IN1	162	42	9230009	Medicaid ESO  JSD	MEDICAID		00000000
+IN1	163	42	9230009	Medicaid ESO  JSD	MEDICAID		00000000
+IN1	164	42	9230009	Medicaid ESO  JSD	MEDICAID		00000000
+IN1	165	42	10511092	Healthy MI Medicaid  JSD	MEDICAID		00000000
+IN1	166	42	10511092	Healthy MI Medicaid  JSD	MEDICAID		00000000
+IN1	167	42	10511092	Healthy MI Medicaid  JSD	MEDICAID		00000000
+IN1	168	42	9230017	Medicaid MOMS  JSD	MEDICAID		00000000
+IN1	169	42	9230017	Medicaid MOMS  JSD	MEDICAID		00000000
+IN1	170	42	9230017	Medicaid MOMS  JSD	MEDICAID		00000000
+IN1	171	42	9421448	Medicaid Pending Internal  XN1  JSD	MEDICAID		00000000
+IN1	172	42	9421448	Medicaid Pending Internal  XN1  JSD	MEDICAID		00000000
+IN1	173	42	9421448	Medicaid Pending Internal  XN1  JSD	MEDICAID		00000000
+IN1	174	42	768510	Medicaid Out Of State  J	MEDICAID		00000000
+IN1	175	42	9230028	Medicaid Plan First  JSD	MEDICAID		00000000
+IN1	176	42	9230028	Medicaid Plan First  JSD	MEDICAID		00000000
+IN1	177	42	9230028	Medicaid Plan First  JSD	MEDICAID		00000000
+IN1	178	42	5248308	Medicaid Spenddown  JSD	MEDICAID		00000000
+IN1	179	42	5248308	Medicaid Spenddown  JSD	MEDICAID		00000000
+IN1	180	42	5248308	Medicaid Spenddown  JSD	MEDICAID		00000000
+IN1	181	42	10143425	Medicaid Pending XY  J	MEDICAID		00000000
+IN1	182	42	10143429	Medicaid Pending Internal  J	MEDICAID		00000000
+IN1	183	42	768515	Medicaid Pending  NI	MEDICAID		00000000
+IN1	184	42	768515	Medicaid Pending  NI	MEDICAID		00000000
+IN1	185	42	768496	Medassist Pending  NI	MEDICAID		00000000
+IN1	186	42	768496	Medassist Pending  NI	MEDICAID		00000000
+IN1	187	42	5901371	Medicaid Disability  NI	MEDICAID		00000000
+IN1	188	42	5901371	Medicaid Disability  NI	MEDICAID		00000000
+IN1	189	42	7978221	MEH Baby Add  NI	MEDICAID		00000000
+IN1	190	42	7978221	MEH Baby Add  NI	MEDICAID		00000000
+IN1	191	42	7978226	MEH Pending Medicaid  NI	MEDICAID		00000000
+IN1	192	42	7978226	MEH Pending Medicaid  NI	MEDICAID		00000000
+IN1	193	42	9839279	Medicaid Pending ABW  NI	MEDICAID		00000000
+IN1	194	42	9839279	Medicaid Pending ABW  NI	MEDICAID		00000000
+IN1	195	42	5618189	BCBSM B01  NI	BCBSM		00000000
+IN1	196	42	5618189	BCBSM B01  NI	BCBSM		00000000
+IN1	197	42	5605446	BCBSM B02  NI	BCBSM		00000000
+IN1	198	42	5605446	BCBSM B02  NI	BCBSM		00000000
+IN1	199	42	5182261	BCBSM Teamsters  NI	BCBSM		00000000
+IN1	200	42	5182261	BCBSM Teamsters  NI	BCBSM		00000000
+IN1	201	42	768219	BCBSM B09  NI	BCBSM		00000000
+IN1	202	42	768219	BCBSM B09  NI	BCBSM		00000000
+IN1	203	42	768220	BCBSM B10  NI	BCBSM		00000000
+IN1	204	42	768220	BCBSM B10  NI	BCBSM		00000000
+IN1	205	42	768192	Blue Care Network IP  NI	BCBSM		00000000
+IN1	206	42	768192	Blue Care Network IP  NI	BCBSM		00000000
+IN1	207	42	768204	Blue Choice IP and OP  NI	BCBSM		00000000
+IN1	208	42	768204	Blue Choice IP and OP  NI	BCBSM		00000000
+IN1	209	42	6973989	Blue Choice PPO  NI	BCBSM		00000000
+IN1	210	42	6973989	Blue Choice PPO  NI	BCBSM		00000000
+IN1	211	42	768251	BCBSM B29  NI	BCBSM		00000000
+IN1	212	42	768251	BCBSM B29  NI	BCBSM		00000000
+IN1	213	42	768224	BCBSM B30  NI	BCBSM		00000000
+IN1	214	42	768224	BCBSM B30  NI	BCBSM		00000000
+IN1	215	42	768193	Blue Care Network B31  NI	BCBSM		00000000
+IN1	216	42	768193	Blue Care Network B31  NI	BCBSM		00000000
+IN1	217	42	768225	BCBSM B40  NI	BCBSM		00000000
+IN1	218	42	768225	BCBSM B40  NI	BCBSM		00000000
+IN1	219	42	768227	BCBSM B46  NI	BCBSM		00000000
+IN1	220	42	768227	BCBSM B46  NI	BCBSM		00000000
+IN1	221	42	768228	BCBSM B65  NI	BCBSM		00000000
+IN1	222	42	768228	BCBSM B65  NI	BCBSM		00000000
+IN1	223	42	875934	Medicare Plus Blue IP and OP  NI	MEDICARE		00000000
+IN1	224	42	875934	Medicare Plus Blue IP and OP  NI	MEDICARE		00000000
+IN1	225	42	7078783	Medicare Plus Blue PPO  NI	MEDICARE		00000000
+IN1	226	42	7078783	Medicare Plus Blue PPO  NI	MEDICARE		00000000
+IN1	227	42	5618204	BCBSM B90  NI	BCBSM		00000000
+IN1	228	42	5618204	BCBSM B90  NI	BCBSM		00000000
+IN1	229	42	5314605	Duplicate Blue Cross Plans  NI	BCBSM		00000000
+IN1	230	42	5314605	Duplicate Blue Cross Plans  NI	BCBSM		00000000
+IN1	231	42	5100257	Priority Health HMO  NI	PRIORTY		00000000
+IN1	232	42	5100257	Priority Health HMO  NI	PRIORTY		00000000
+IN1	233	42	5256274	Priority Health PPO  NI	PRIORTY		00000000
+IN1	234	42	5256274	Priority Health PPO  NI	PRIORTY		00000000
+IN1	235	42	8902666	HealthPlus Medicare  NI	HEALTHPLUS		00000000
+IN1	236	42	8902666	HealthPlus Medicare  NI	HEALTHPLUS		00000000
+IN1	237	42	6973997	Priority Health Medicare  NI	PRIORTY		00000000
+IN1	238	42	6973997	Priority Health Medicare  NI	PRIORTY		00000000
+IN1	239	42	7056558	HealthPlus HMO  NI	HEALTHPLUS		00000000
+IN1	240	42	7056558	HealthPlus HMO  NI	HEALTHPLUS		00000000
+IN1	241	42	7056554	HealthPlus UAW RMBT  NI	HEALTHPLUS		00000000
+IN1	242	42	7056554	HealthPlus UAW RMBT  NI	HEALTHPLUS		00000000
+IN1	243	42	9785528	Total Medicare Plus  NI	MEDICARE		00000000
+IN1	244	42	9785528	Total Medicare Plus  NI	MEDICARE		00000000
+IN1	245	42	768395	HAP Henry Ford  NI	HAP		00000000
+IN1	246	42	768395	HAP Henry Ford  NI	HAP		00000000
+IN1	247	42	768396	HAP Metro Med DMC  NI	HAP		00000000
+IN1	248	42	768396	HAP Metro Med DMC  NI	HAP		00000000
+IN1	249	42	768397	HAP PPO HMO  NI	HAP		00000000
+IN1	250	42	768397	HAP PPO HMO  NI	HAP		00000000
+IN1	251	42	768398	HAP POS  NI	HAP		00000000
+IN1	252	42	768398	HAP POS  NI	HAP		00000000
+IN1	253	42	768399	HAP Preferred  NI	HAP		00000000
+IN1	254	42	768399	HAP Preferred  NI	HAP		00000000
+IN1	255	42	768400	HAP Medicaid  NI	HAP		00000000
+IN1	256	42	768400	HAP Medicaid  NI	HAP		00000000
+IN1	257	42	768402	HAP Senior Plus E96  NI	HAP		00000000
+IN1	258	42	768402	HAP Senior Plus E96  NI	HAP		00000000
+IN1	259	42	768428	HealthPlus  NI	HEALTHPLUS		00000000
+IN1	260	42	768428	HealthPlus  NI	HEALTHPLUS		00000000
+IN1	261	42	768404	HAP  NI	HAP		00000000
+IN1	262	42	768404	HAP  NI	HAP		00000000
+IN1	263	42	768405	HAP St. John  NI	HAP		00000000
+IN1	264	42	768405	HAP St. John  NI	HAP		00000000
+IN1	265	42	768406	HAP EPA POS P09  NI	HAP		00000000
+IN1	266	42	768406	HAP EPA POS P09  NI	HAP		00000000
+IN1	267	42	5355464	Alliance Medicare  NI	MEDICARE		00000000
+IN1	268	42	5355464	Alliance Medicare  NI	MEDICARE		00000000
+IN1	269	42	5598714	HAP Senior Plus K05  NI	HAP		00000000
+IN1	270	42	5598714	HAP Senior Plus K05  NI	HAP		00000000
+IN1	271	42	9977438	HAP JVHL  NI	HAP		00000000
+IN1	272	42	9977438	HAP JVHL  NI	HAP		00000000
+IN1	273	42	768351	Duplicate HAP HMO  NI	HAP		00000000
+IN1	274	42	768351	Duplicate HAP HMO  NI	HAP		00000000
+IN1	275	42	768540	Medicare M06  NI	MEDICARE		00000000
+IN1	276	42	768540	Medicare M06  NI	MEDICARE		00000000
+IN1	277	42	768343	Medicare Daughters  NI	MEDICARE		00000000
+IN1	278	42	768343	Medicare Daughters  NI	MEDICARE		00000000
+IN1	279	42	5618210	Medicare Psych  NI	MEDICARE		00000000
+IN1	280	42	5618210	Medicare Psych  NI	MEDICARE		00000000
+IN1	281	42	768554	Medicare No Part B  NI	MEDICARE		00000000
+IN1	282	42	768554	Medicare No Part B  NI	MEDICARE		00000000
+IN1	283	42	5605482	Medicare Rehab  NI	MEDICARE		00000000
+IN1	284	42	5605482	Medicare Rehab  NI	MEDICARE		00000000
+IN1	285	42	768555	Medicare M46  NI	MEDICARE		00000000
+IN1	286	42	768555	Medicare M46  NI	MEDICARE		00000000
+IN1	287	42	768556	Medicare Part B Only  NI	MEDICARE		00000000
+IN1	288	42	768556	Medicare Part B Only  NI	MEDICARE		00000000
+IN1	289	42	768560	Medicare Generic  NI	MEDICARE		00000000
+IN1	290	42	768560	Medicare Generic  NI	MEDICARE		00000000
+IN1	291	42	768508	Medicaid T08  NI	MEDICAID		00000000
+IN1	292	42	768508	Medicaid T08  NI	MEDICAID		00000000
+IN1	293	42	768429	Health Plus Of MI  NI	HEALTHPLUS		00000000
+IN1	294	42	768429	Health Plus Of MI  NI	HEALTHPLUS		00000000
+IN1	295	42	768840	Wellness Medicaid Non PH  NI	MEDICAID		00000000
+IN1	296	42	768840	Wellness Medicaid Non PH  NI	MEDICAID		00000000
+IN1	297	42	768602	Molina Healthcare  NI	MOLINA		00000000
+IN1	298	42	768602	Molina Healthcare  NI	MOLINA		00000000
+IN1	299	42	768336	Medicaid Misc HMO  NI	MEDICAID		00000000
+IN1	300	42	768336	Medicaid Misc HMO  NI	MEDICAID		00000000
+IN1	301	42	768252	BCBSM Trust  NI	BCBSM		00000000
+IN1	302	42	768252	BCBSM Trust  NI	BCBSM		00000000
+IN1	303	42	768502	Medicaid X01  NI	MEDICAID		00000000
+IN1	304	42	768502	Medicaid X01  NI	MEDICAID		00000000
+IN1	305	42	768524	Medicaid Psych  NI	MEDICAID		00000000
+IN1	306	42	768524	Medicaid Psych  NI	MEDICAID		00000000
+IN1	307	42	5395317	Medicaid Deductible  NI	MEDICAID		00000000
+IN1	308	42	5395317	Medicaid Deductible  NI	MEDICAID		00000000
+IN1	309	42	768505	Medicaid  X12  NI	MEDICAID		00000000
+IN1	310	42	768505	Medicaid  X12  NI	MEDICAID		00000000
+IN1	311	42	4955082	Molina Advantage  NI	MOLINA		00000000
+IN1	312	42	4955082	Molina Advantage  NI	MOLINA		00000000
+IN1	313	42	10514439	Medicaid Presumptive  NI	MEDICAID		00000000
+IN1	314	42	10514439	Medicaid Presumptive  NI	MEDICAID		00000000
+IN1	315	42	10514191	Healthy MI Medicaid  NI	MEDICAID		00000000
+IN1	316	42	10514191	Healthy MI Medicaid  NI	MEDICAID		00000000
+IN1	317	42	768196	Blue Care Network Y00  NI	BCBSM		00000000
+IN1	318	42	768196	Blue Care Network Y00  NI	BCBSM		00000000
+IN1	319	42	768197	Blue Care Network Y05  NI	BCBSM		00000000
+IN1	320	42	768197	Blue Care Network Y05  NI	BCBSM		00000000
+IN1	321	42	768198	Blue Care Network Y10  NI	BCBSM		00000000
+IN1	322	42	768198	Blue Care Network Y10  NI	BCBSM		00000000
+IN1	323	42	768199	Blue Care Network Y15  NI	BCBSM		00000000
+IN1	324	42	768199	Blue Care Network Y15  NI	BCBSM		00000000
+IN1	325	42	768200	Blue Care Network Y20  NI	BCBSM		00000000
+IN1	326	42	768200	Blue Care Network Y20  NI	BCBSM		00000000
+IN1	327	42	768201	Blue Care Network 2nd MC  NI	BCBSM		00000000
+IN1	328	42	768201	Blue Care Network 2nd MC  NI	BCBSM		00000000
+IN1	329	42	875928	Blue Elect SRO  NI	BCBSM		00000000
+IN1	330	42	875928	Blue Elect SRO  NI	BCBSM		00000000
+IN1	331	42	5597983	BCN Advantage HMO  NI	BCBSM		00000000
+IN1	332	42	5597983	BCN Advantage HMO  NI	BCBSM		00000000
+IN1	333	42	5100289	Bluecaid  NI	BCBSM		00000000
+IN1	334	42	5100289	Bluecaid  NI	BCBSM		00000000
+IN1	335	42	8689435	McLaren Medicaid HMO  NI	MEDICAID		00000000
+IN1	336	42	8689435	McLaren Medicaid HMO  NI	MEDICAID		00000000
+IN1	337	42	768531	Medicare  O	MEDICARE		00000000
+IN1	338	42	8956303	Medicare Part B Only IP  O	MEDICARE		00000000
+IN1	339	42	768561	Medicare PSYCH  O	MEDICARE		00000000
+IN1	340	42	768211	BCBSM  O	BCBSM		00000000
+IN1	341	42	9269135	Med Plus Blue Part B  O	MEDICARE		00000000
+IN1	342	42	3986542	BCBSM Medicare Plus Blue  O	BCBSM		00000000
+IN1	343	42	8956254	BCBSM Medicare Plus Blue PPO  O	BCBSM		00000000
+IN1	344	42	768212	Federal Blue Cross  O	BCBSM		00000000
+IN1	345	42	768213	BCBS Secondary Payor  O	BCBSM		00000000
+IN1	346	42	8956270	Federal Blue Cross Psych  O	BCBSM		00000000
+IN1	347	42	768249	Blue Cross PPO Trust  O	BCBSM		00000000
+IN1	348	42	8956262	Blue Choice PPO  O	BCBSM		00000000
+IN1	349	42	768186	Blue Care Network  O	BCBSM		00000000
+IN1	350	42	5065759	BCN Advantage  O	BCBSM		00000000
+IN1	351	42	8749913	Blue Cross Complete  O	BCBSM		00000000
+IN1	352	42	768500	Medicaid  O	MEDICAID		00000000
+IN1	353	42	768497	Medicaid ABW1  O	MEDICAID		00000000
+IN1	354	42	10509941	Healthy MI Medicaid  O	MEDICAID		00000000
+IN1	355	42	768512	Medicaid Pending  O	MEDICAID		00000000
+IN1	356	42	8985359	MEH Pending  O	MEDICAID		00000000
+IN1	357	42	6033887	Medicaid Disability  O	MEDICAID		00000000
+IN1	358	42	8985354	Medicaid Pending ABW  O	MEDICAID		00000000
+IN1	359	42	9981099	Medicaid Pending Internal  O	MEDICAID		00000000
+IN1	360	42	768513	Medicaid Spenddown IP Only  O	MEDICAID		00000000
+IN1	361	42	768506	Medicaid Out of State  O	MEDICAID		00000000
+IN1	362	42	9248348	Medicaid MOMS  O	MEDICAID		00000000
+IN1	363	42	9248368	Medicaid Plan First  O	MEDICAID		00000000
+IN1	364	42	9248382	Medicaid ESO  O	MEDICAID		00000000
+IN1	365	42	9421479	Medicare Managed Care Misc  O	MEDICAID		00000000
+IN1	366	42	768388	HAP Senior Plus  O	HAP		00000000
+IN1	367	42	8956305	Molina Advantage  O	MOLINA		00000000
+IN1	368	42	8956277	HAP Alliance Medicare  O	HAP		00000000
+IN1	369	42	8749922	HealthPlus Medicare HMO  O	HEALTHPLUS		00000000
+IN1	370	42	768504	Medicaid Managed Care Misc NO Psych  O	MEDICAID		00000000
+IN1	371	42	9421515	Total Health HMO Medicaid No Psych  O	MEDICAID		00000000
+IN1	372	42	768589	Midwest Medicaid No Psych  O	MEDICAID		00000000
+IN1	373	42	768430	HealthSource ABW Medicaid No Psych  O	HEALTHSOURCE		00000000
+IN1	374	42	8749926	HealthPlus Medicaid  O	HEALTHPLUS		00000000
+IN1	375	42	768314	Comm Choice MI Medicaid No Psych  O	MEDICAID		00000000
+IN1	376	42	768599	Molina Healthcare of MI  O	MOLINA		00000000
+IN1	377	42	9421565	Meridian Health Plan of MI  O	MERIDIAN		00000000
+IN1	378	42	8651854	McLaren Medicaid  O	MEDICAID		00000000
+IN1	379	42	5065762	Priority Health HMO  O	PRIORTY		00000000
+IN1	380	42	5387418	Priority Health PPO  O	PRIORTY		00000000
+IN1	381	42	768392	HAP  O	HAP		00000000
+IN1	382	42	768393	HAP Alliance Health PPO  O	HAP		00000000
+IN1	383	42	3624454	HAP Preferred  O	HAP		00000000
+IN1	384	42	5387371	HAP POS  O	HAP		00000000
+IN1	385	42	8749933	HealthPlus PPO  O	HEALTHPLUS		00000000
+IN1	387	42	768337	 County Care IP  NI			00000000
+IN1	388	42	768318	 Commercial Insurance  O			00000000
+IN1	389	42	768148	 Aetna Life Casualty  DS			00000000
+IN1	390	42	8749922	 Health Plus Medicare HMO  O	Medicare		00000000
+IN1	391	42	5778960	 HAP	HAP		00000000
+IN1	392	42	6459034	 VA Medical Center  NI			00000000
+IN1	393	42	768639	 OmniCare Medicaid  NI	Medicaid		00000000
+IN1	394	42	6477867	 United Healthcare I12  DS			00000000
+IN1	395	42	768354	 Cofinity Employee Benefit Concepts  DS			00000000
+IN1	396	42	5598709	 Workers Comp H51  NI			00000000
+IN1	397	42	5355717	 Public Liability PHMC  NI			00000000
+IN1	398	42	768664	 PHCS Provident Life  J			00000000
+IN1	399	42	10687059	 Blue Cross Complete HMP  O	BCBSM		00000000
+IN1	400	42	768674	 Cofinity Weyco  J			00000000
+IN1	401	42	8695867	 Potential Insurance Pending  J			00000000
+IN1	402	42	768296	 Tricare Prime Standard  J			00000000
+IN1	403	42	10692776	 Coventry Cares HMP  JSD			00000000
+IN1	404	42	768718	 Procare Clinic Plan  NI			00000000
+IN1	405	42	5256237	 UHC PLUS CARE  NI			00000000
+IN1	406	42	10692438	 UHC COMMUNITY HMP  NI			00000000
+IN1	407	42	768794	 Total Health Care MA Non SJH  J			00000000
+IN1	408	42	768685	 Cofinity Emp Benefit Concept  J			00000000
+IN1	409	42	768430	 Health Source ABW Medicaid No Psych  O	Medicaid		00000000
+IN1	410	42	8119852	 MRCC  J			00000000
+IN1	411	42	10692795	 McLaren Health HMP  JSD			00000000
+IN1	412	42	10687152	 McLaren Health HMP  O			00000000
+IN1	413	42	9962217	 Humana Choice  J			00000000
+IN1	414	42	768681	 Cofinity Cosource  J			00000000
+IN1	415	42	10509941	 Medicaid Healthy MI  O	Medicaid		00000000
+IN1	416	42	768156	 Allstate  NI			00000000
+IN1	417	42	11052013	 BC Metro Detroit EPO  JSD	BCBSM		00000000
+IN1	418	42	768307	 Cigna T05  NI			00000000
+IN1	419	42	768172	 Auto Ins Z Not Listed  JSD			00000000
+IN1	420	42	10148049	 Erickson Advantage  NI			00000000
+IN1	421	42	768263	 Cofinity CAM  DS			00000000
+IN1	422	42	6459051	 PAI  NI			00000000
+IN1	423	42	5598707	 Workers Comp H46  NI			00000000
+IN1	424	42	768320	 Commercial Bankers  J			00000000
+IN1	425	42	768844	 Workers Comp H02  NI			00000000
+IN1	426	42	8119838	 Ameraplan  J			00000000
+IN1	427	42	768241	 BCBS Out of State J01  NI	BCBSM		00000000
+IN1	428	42	10074511	 M04			00000000
+IN1	429	42	6477769	 Citizens  DS			00000000
+IN1	430	42	768365	 Farmers Auto Ins   JSD			00000000
+IN1	431	42	768598	 Misc PPO Z Not Listed  J			00000000
+IN1	432	42	768677	 Cofinity Benefit Source  J			00000000
+IN1	433	42	768771	 State Farm Auto Assign  J			00000000
+IN1	434	42	10687129	 Coventry Cares HMP  O			00000000
+IN1	435	42	768774	 State Farm Mutual  DS			00000000
+IN1	436	42	9986327	 CARE CHOICES			00000000
+IN1	437	42	8772560	 Aetna Michigan Preferred  JSD			00000000
+IN1	438	42	5775870	 HAP	HAP		00000000
+IN1	439	42	768622	 Oakland County Mental Health X05  NI			00000000
+IN1	440	42	5314637	 Charity PHMC C80  NI			00000000
+IN1	441	42	768366	 Federal Black Lung  DS			00000000
+IN1	442	42	768819	 United Healthcare  O			00000000
+IN1	443	42	768290	 Coventry  NI			00000000
+IN1	444	42	10143436	 Special Private Pay  DS			00000000
+IN1	445	42	768310	 Citizens Auto Ins  JSD			00000000
+IN1	446	42	10692741	 Harbor Health HMP  JSD			00000000
+IN1	447	42	9421451	 Misc CMH Community Mental Health  O			00000000
+IN1	448	42	10915420	 MEDICAID ESO-HMP  NI	Medicaid		00000000
+IN1	449	42	8587137	 McLaren Medicaid HMO  JSD	Medicaid		00000000
+IN1	450	42	7078958	 First Health PPO  J			00000000
+IN1	451	42	768443	 Industrial Clinic  O			00000000
+IN1	452	42	10520454	 Consumers Mutual of MI  O			00000000
+IN1	453	42	8985335	 United Healthcare ASO  O			00000000
+IN1	454	42	768608	 Mutual Of Omaha  JSD			00000000
+IN1	455	42	9957925	 Fidelis  O			00000000
+IN1	456	42	5943067	 Smart Health Assigned  NI			00000000
+IN1	457	42	9944505	 CAPE MEDICAL MCAID NO PSYCH	Medicaid		00000000
+IN1	458	42	768743	 Research Study  NI			00000000
+IN1	459	42	8695873	 Blue Cross Complete  JSD	BCBSM		00000000
+IN1	460	42	6459057	 United Healthcare D17  NI			00000000
+IN1	461	42	768428	 Health Plus  NI	HealthPlus		00000000
+IN1	462	42	768376	 United Healthcare CP MA  J			00000000
+IN1	463	42	9969220	 Midwest Advantage  DS			00000000
+IN1	464	42	768321	 Commercial Ins  NI			00000000
+IN1	465	42	10692411	 Meridian HMP  NI	Meridian		00000000
+IN1	466	42	8772548	 Health Plus PPO  JSD	HealthPlus		00000000
+IN1	467	42	6001579	 Tricare For Life  O			00000000
+IN1	468	42	10143420	 Self Pay  J			00000000
+IN1	469	42	6468373	 Medical Mutual  JSD			00000000
+IN1	470	42	8749933	 Health Plus PPO  O	HealthPlus		00000000
+IN1	471	42	6468480	 United Healthcare ASO  J			00000000
+IN1	472	42	5605439	 D12			00000000
+IN1	473	42	9785737	 United Healthcare Oxford  NI			00000000
+IN1	474	42	8956248	 Aetna Advantage  O			00000000
+IN1	475	42	768618	 Comm Northern Group Svc American  J			00000000
+IN1	476	42	768491	 MCare  NI			00000000
+IN1	477	42	768455	 Karmanos BCCCP  JSD			00000000
+IN1	478	42	768299	 Charity VODI  NI			00000000
+IN1	479	42	768469	 Macomb County Mental Health  O			00000000
+IN1	480	42	768584	 Midwest Health Plan  J			00000000
+IN1	481	42	10692733	 Molina HMP  JSD	Molina		00000000
+IN1	482	42	6033881	 Smart Health Assigned  O			00000000
+IN1	483	42	768706	 Cofinity PPOM  O			00000000
+IN1	484	42	768703	 Cofinity Regency Med  J			00000000
+IN1	485	42	768843	 Workers Comp  O			00000000
+IN1	486	42	768181	 Beaumont Employee Health  NI			00000000
+IN1	487	42	5777243	 OCCUPATIONAL HEALTH			00000000
+IN1	488	42	768701	 Cofinity NCAS Midwest  J			00000000
+IN1	489	42	9918586	 MCARE			00000000
+IN1	490	42	11057154	 Blue Cross Metro Detroit HMO  O	BCBSM		00000000
+IN1	491	42	8733202	 Aetna Michigan Preferred  O			00000000
+IN1	492	42	768176	 Comm ABS  J			00000000
+IN1	493	42	768159	 Comm American Community Mutual  J			00000000
+IN1	494	42	10692480	 THC NON ASSIGNED HMP  NI			00000000
+IN1	495	42	10081904	 SELECTCARE			00000000
+IN1	496	42	768704	 Cofinity Z Not List  J			00000000
+IN1	497	42	768237	 Blue Cross Out of State  J	BCBSM		00000000
+IN1	498	42	5772670	 PROVIDENCE HOSP			00000000
+IN1	499	42	5598720	 Humana Choice PPO  NI			00000000
+IN1	500	42	768377	 United Healthcare Commercial Plan  J			00000000
+IN1	501	42	768753	 Smart Network  NI			00000000
+IN1	502	42	768714	 PHCS Private Health Care T25  NI			00000000
+IN1	503	42	768308	 Cigna T48  NI			00000000
+IN1	504	42	9978055	 Humana Gold  NI			00000000
+IN1	505	42	10511092	 Medicaid Healthy MI  JSD	Medicaid		00000000
+IN1	506	42	10687095	 Harbor Health HMP  O			00000000
+IN1	507	42	6033849	 Smart Health Assigned  DS			00000000
+IN1	508	42	10039923	 CF			00000000
+IN1	509	42	10687135	 THC Assigned HMP  O			00000000
+IN1	510	42	768594	 Comm Z Not Listed  J			00000000
+IN1	511	42	5598682	 Midwest Advantage NI			00000000
+IN1	512	42	5387675	 Auto Insurance  NI			00000000
+IN1	513	42	768379	 UHC CAID HMO OP  NI			00000000
+IN1	514	42	9977754	 DMC Cofinity  NI			00000000
+IN1	515	42	782400	 Value Options Non BCN  DS			00000000
+IN1	516	42	768845	 Workers Comp Providence Hosp Associate  NI			00000000
+IN1	517	42	11120725	 BC METRO DETROIT HMO  NI			00000000
+IN1	518	42	10692759	 UHC Community HMP  JSD			00000000
+IN1	519	42	10692488	 McLaren Health HMP  NI			00000000
+IN1	520	42	768597	 Misc HMO Z Not Listed MA  J			00000000
+IN1	521	42	768333	 Comm Core Source  J			00000000
+IN1	522	42	768178	 BCCCP  NI			00000000
+IN1	523	42	9016400	 CareLink  J			00000000
+IN1	524	42	8749926	 Health Plus Medicaid  O	Medicaid		00000000
+IN1	525	42	10921330	 MEDICAID-ESO-HMP  O	Medicaid		00000000
+IN1	526	42	10576001	 BLUE CROSS	BCBSM		00000000
+IN1	527	42	9981153	 Humana Gold  O			00000000
+IN1	528	42	768817	 United Healthcare T85  NI			00000000
+IN1	529	42	11020520	 HAP SENIOR PLUS UNASSIGNED  O	HAP		00000000
+IN1	530	42	8651811	 McLaren HMO PPO  O			00000000
+IN1	531	42	8119868	 BAC Local 32  J			00000000
+IN1	532	42	768678	 Cofinity American Comm Mutual  J			00000000
+IN1	533	42	11099231	 Humana HMOX  S			00000000
+IN1	534	42	1280092	 Midwest Advantage  J			00000000
+IN1	535	42	11086398	 BC Metro Detroit HMO  JSD			00000000
+IN1	536	42	9961814	 Wayne County Four Star  J			00000000
+IN1	537	42	6477859	 Assurant Health  JSD			00000000
+IN1	538	42	780415	 Veterans J Dingell Med Ct  JSD			00000000
+IN1	539	42	768180	 Beaumont Employee Health  JSD			00000000
+IN1	540	42	768610	 Comm National Assoc Letter Carriers  J			00000000
+IN1	541	42	5910561	 HAP	HAP		00000000
+IN1	542	42	10096552	 Cigna HAP  DS	HAP		00000000
+IN1	543	42	768745	 Roofers  DS			00000000
+IN1	544	42	11019159	 Blue Cross Metro Detroit EPO  O	BCBSM		00000000
+IN1	545	42	768687	 Cofinity US Health and Life  J			00000000
+IN1	546	42	768476	 MARS  NI			00000000
+IN1	547	42	8119883	 Gilsbar  J			00000000
+IN1	548	42	10692445	 Midwest HMP  NI			00000000
+IN1	549	42	9816723	 Cofinity Advantage  O			00000000
+IN1	550	42	768451	 John Hancock  NI			00000000
+IN1	551	42	768240	 Blue Cross Out of State  DS	BCBSM		00000000
+IN1	552	42	768708	 PPOM Cofinity  NI			00000000
+IN1	553	42	5776073	 HAP	HAP		00000000
+IN1	554	42	11005155	 BCN Advantage ConnectedCare  O	BCBSM		00000000
+IN1	555	42	768378	 UHC CAID HMO IP  NI	Medicaid		00000000
+IN1	556	42	10692804	 BLUE CROSS COMPLETE HMP  JSD	BCBSM		00000000
+IN1	557	42	4829632	 Gateway  NI			00000000
+IN1	558	42	9961867	 Fidelis  J			00000000
+IN1	559	42	10143432	 Private Pay  DS			00000000
+IN1	560	42	6459024	 Medical Mutual  NI			00000000
+IN1	561	42	768586	 Midwest Health Plan IP  NI			00000000
+IN1	562	42	768368	 Comm First Health  J			00000000
+IN1	563	42	768163	 American Postal Workers  DS			00000000
+IN1	564	42	8772529	 Health Plus Medicaid  JSD	Medicaid		00000000
+IN1	565	42	768379	 Great Lakes Health UHC  NI			00000000
+IN1	566	42	768171	 Auto Assign Z Not Listed  J			00000000
+IN1	567	42	768128	AAA Auto Assign  J			00000000
+IN1	568	42	9839150	 Cofinity Advantage  NI			00000000
+IN1	569	42	768375	 United Healthcare Comm Plan MA  O			00000000
+IN1	570	42	768636	 OmniCare Medicaid (DONOTUSE)T86	Medicaid		00000000
+IN1	571	42	768473	 Mail Handlers  DS			00000000
+IN1	572	42	6033853	 Smart Health Non Assigned  DS			00000000
+IN1	573	42	10997541	 BCN Adv ConnectedCare HMO  NI	BCBSM		00000000
+IN1	574	42	10206233	 Medilodge Self Pay D			00000000
+IN1	575	42	5395461	 Duplicate Commercial  NI			00000000
+IN1	576	42	768438	 Hospice SE Michigan  NI			00000000
+IN1	577	42	768436	 Hospice  O			00000000
+IN1	578	42	768242	 BCBS Out of State J02  NI	BCBSM		00000000
+IN1	579	42	768439	 Hospice St Johns  NI			00000000
+IN1	580	42	10125293	 S02			00000000
+IN1	581	42	6653903	 Harbor Health Plan DS			00000000
+IN1	582	42	782629	 Humana Choice Care  J			00000000
+IN1	583	42	768238	 Blue Cross Out of State  O	BCBSM		00000000
+IN1	584	42	9717638	 Total Medicare Plus  O	Medicare		00000000
+IN1	585	42	9421435	 Self Pay Contracts  O			00000000
+IN1	586	42	5765314	 AETNA			00000000
+IN1	587	42	10208895	 Community Care NI			00000000
+IN1	588	42	768319	 Commercial Ins Secondary Payor  O			00000000
+IN1	589	42	768691	 Cofinity Fortis Benefit  J			00000000
+IN1	590	42	768170	 Adult Waiver Program  NI			00000000
+IN1	591	42	8902666	 Health Plus Medicare  NI	HealthPlus		00000000
+IN1	592	42	768380	 United Healthcare CP MA  DS			00000000
+IN1	593	42	7078850	 Health Plus HMO JSD	HealthPlus		00000000
+IN1	594	42	768297	 ChampVA  NI			00000000
+IN1	595	42	10692785	 THC Assigned HMP  JSD			00000000
+IN1	596	42	768144	 Aetna T92  NI			00000000
+IN1	597	42	10039086	 Charity Full  JSD			00000000
+IN1	598	42	8985344	 VA Veterans  O			00000000
+IN1	599	42	6033815	 Smart Health Non Assigned  J			00000000
+IN1	600	42	9421428	 Self Pay  O			00000000
+IN1	601	42	5901381	 Potential Insurance  NI			00000000
+IN1	602	42	7094047	 Hospice  JSD			00000000
+IN1	603	42	5314634	 Charity PHMC C70  NI			00000000
+IN1	604	42	782406	 Teamsters Psych Only  DS			00000000
+IN1	605	42	8985150	 Pending Oakland County IHP  O			00000000
+IN1	606	42	2404858	 Fidelis  DS			00000000
+IN1	607	42	768587	 Midwest Health Plan HMO  DS			00000000
+IN1	608	42	768135	 AARP  NI			00000000
+IN1	609	42	768300	 Childrens Special  HCS X17  NI			00000000
+IN1	610	42	11053732	 HAP SENIOR PLUS UNASS  NI	HAP		00000000
+IN1	611	42	9990867	 COFINITY ADVANTAGE			00000000
+IN1	612	42	5765129	 PPOM			00000000
+IN1	613	42	8119805	 Midwest HealthChoice  JSD			00000000
+IN1	614	42	768679	 Cofinity ABS  J			00000000
+IN1	615	42	10771666	 MKTPL Out of Network  NI			00000000
+IN1	616	42	768789	 Total Health Care Commercial  DS			00000000
+IN1	617	42	768792	 Total Health Care Medicaid  DS	Medicaid		00000000
+IN1	618	42	768143	 Aetna HMO  J			00000000
+IN1	619	42	768129	 Allstate Auto Assign  J			00000000
+IN1	620	42	3624482	 Harbor Health Plan  O			00000000
+IN1	621	42	5598679	 Workers Comp H38  NI			00000000
+IN1	622	42	10692471	 THC ASSIGNED HMP  NI			00000000
+IN1	623	42	10687143	 THC Non Assigned HMP  O			00000000
+IN1	624	42	768332	 Cofinity Cosource  DS			00000000
+IN1	625	42	768302	 Cigna Connecticut General  O			00000000
+IN1	626	42	768772	 State Farm Auto Ins  JSD			00000000
+IN1	627	42	2404878	 Humana Gold  DS			00000000
+IN1	628	42	6477840	 GEHA  JSD			00000000
+IN1	629	42	10692769	 Midwest HMP  JSD			00000000
+IN1	630	42	768702	 Cofinity Principal Plan  J			00000000
+IN1	631	42	10687069	 Meridian HMP  O	Meridian		00000000
+IN1	632	42	768686	 Cofinity Emp Health Ins  J			00000000
+IN1	633	42	768790	 Total Health Care Commercial  NI			00000000
+IN1	634	42	9969257	 Midwest Advantage  O			00000000
+IN1	635	42	10692421	 Molina HMP  NI	Molina		00000000
+IN1	636	42	6033884	 Smart Health Non Assigned  O			00000000
+IN1	637	42	768130	 AAA Michigan  J			00000000
+IN1	638	42	5773980	 HAP	HAP		00000000
+IN1	639	42	768788	 Titan Auto Ins  JSD			00000000
+IN1	640	42	10052230	 B37			00000000
+IN1	641	42	768472	 Magellan MCare Psych  NI			00000000
+IN1	642	42	5598688	 AETNA			00000000
+IN1	643	42	9969521	 United Healthcare CP SNP  DS			00000000
+IN1	644	42	768373	 General Motors Workers Comp  DS			00000000
+IN1	645	42	6459044	 Golden Rule  NI			00000000
+IN1	646	42	9953623	 WELLNESS PLAN MCAID-INACTIVE	Medicaid		00000000
+IN1	647	42	780417	 Voices of Detroit Initiative  J			00000000
+IN1	648	42	768304	 Cigna Commercial  J			00000000
+IN1	649	42	768596	 Misc HMO Z Not Listed  J			00000000
+IN1	650	42	780407	 Coventry Cares of MI Medicaid  J	Medicaid		00000000
+IN1	651	42	768801	 United Healthcare  J			00000000
+IN1	652	42	768592	 Comm ZZ Secondary Not Listed  J			00000000
+IN1	653	42	768356	 Cofinity Employers Health Ins  DS			00000000
+IN1	654	42	768132	 AAA  NI			00000000
+IN1	655	42	8587098	 McLaren HMO  JSD			00000000
+IN1	656	42	768707	 Cofinity PPOM  DS			00000000
+IN1	657	42	9991859	 End Effective Health Plan			00000000
+IN1	658	42	768612	 Nationwide Mutual  DS			00000000
+IN1	659	42	768626	 Occupational Med  NI			00000000
+IN1	660	42	768741	 Public Liability  NI			00000000
+IN1	661	42	768623	 Oakland County Mental Health X15  NI			00000000
+IN1	662	42	768806	 Tricare IP Only  NI			00000000
+IN1	663	42	10081647	 X03			00000000
+IN1	664	42	11051992	 Hap Senior Plus Unassigned  JSD	HAP		00000000
+IN1	665	42	768804	 Tricare  DS			00000000
+IN1	666	42	6477778	 Progressive  DS			00000000
+IN1	667	42	768150	 Aetna JVHL Lab Only  J			00000000
+IN1	668	42	768617	 Cofinity Northern Group Services America  DS			00000000
+IN1	669	42	5771804	 NA			00000000
+IN1	670	42	768634	 Coventry Cares of MI  J			00000000
+IN1	671	42	768604	 Multiplan PPO  J			00000000
+IN1	672	42	9421440	 Self Pay Vodi  O			00000000
+IN1	673	42	768149	 Aetna PPO  J			00000000
+IN1	674	42	768145	 Aetna T93  NI			00000000
+IN1	675	42	768847	 Workers Comp  J			00000000
+IN1	676	42	10692432	 Harbor Health HMP  NI			00000000
+IN1	677	42	768154	 Allstate Auto Ins  JSD			00000000
+IN1	678	42	10692463	 Coventry Cares HMP  NI			00000000
+IN1	679	42	768796	 Total Health Care MA SJH  J			00000000
+IN1	680	42	768342	 Sedgwick CMS  DS			00000000
+IN1	681	42	782401	 Magellan State Of MI Psych  DS			00000000
+IN1	682	42	9977967	 Fidelis  NI			00000000
+IN1	683	42	5765076	 HAP	HAP		00000000
+IN1	684	42	768775	 Comm State Farm  J			00000000
+IN1	685	42	768426	 Health Plan Of MI  NI			00000000
+IN1	686	42	780423	 Smart Network Partners Plus  J			00000000
+IN1	687	42	9428731	 Charity Full  O			00000000
+IN1	688	42	768378	 Great Lakes Health  NI			00000000
+IN1	689	42	768355	 Comm Employee Health  J			00000000
+IN1	690	42	5789415	 HAP	HAP		00000000
+IN1	691	42	768846	 Workers Comp SJH Employee  J			00000000
+IN1	692	42	10967752	 CHAMPVA  O			00000000
+IN1	693	42	8689440	 McLaren HMO PPO  NI			00000000
+IN1	694	42	5598712	 MOLINA HEALTH CARE	Molina		00000000
+IN1	695	42	5395454	 Undocumented Aliens  NI			00000000
+IN1	696	42	768309	 Citizens Auto Assign  J			00000000
+IN1	697	42	768805	 Tricare For Life  DS			00000000
+IN1	698	42	768416	 Comm Hartford Ins  J			00000000
+IN1	699	42	768585	 Midwest Health Plan OP  NI			00000000
+IN1	700	42	9957984	 Humana Choice  O			00000000
+IN1	701	42	768364	 Farmers Auto Assign  J			00000000
+IN1	702	42	768383	 Comm Great West Life  J			00000000
+IN1	703	42	1159337	 AETNA LIFE INSURANCE CO			00000000
+IN1	704	42	10197370	 American Medical Security  JSD			00000000
+IN1	705	42	768776	 State Medical  DS			00000000
+IN1	706	42	7207125	 Golden Rule  JSD			00000000
+IN1	707	42	10478182	 Consumers Mutual of MI  JSD			00000000
+IN1	708	42	8985211	 Potential Insurance  O			00000000
+IN1	709	42	768595	 Misc Commercial Ins  DS			00000000
+IN1	710	42	768689	 Cofinity First Health  J			00000000
+IN1	711	42	768437	 Comm Hospice  J			00000000
+IN1	712	42	768849	 Workers Comp  DS			00000000
+IN1	713	42	5943053	 Smart Health Non Assigned  NI			00000000
+IN1	714	42	10687115	 Midwest HMP  O			00000000
+IN1	715	42	6033807	 Smart Health Assigned  J			00000000
+IN1	716	42	768816	 United Healthcare C52  DS			00000000
+IN1	717	42	10687085	 Molina HMP  O	Molina		00000000
+IN1	718	42	782479	 Harbor Health Plan  J			00000000
+IN1	719	42	11048068	 Humana HMOx  O			00000000
+IN1	720	42	9421540	 Midwest HealthChoice  O			00000000
+IN1	721	42	10758726	 MKTPL Out of Network  O			00000000
+IN1	722	42	768800	 Travelers  NI			00000000
+IN1	723	42	8772509	 Health Plus Medicare  JSD	Medicare		00000000
+IN1	724	42	7056558	 Health Plus HMO  NI	HealthPlus		00000000
+IN1	725	42	9421528	 Procare HealthChoice  O			00000000
+IN1	726	42	768202	 zz Blue Care Network Y50  NI	BCBSM		00000000
+IN1	727	42	10687110	 UHC Community HMP  O			00000000
+IN1	728	42	9962082	 Humana Gold  J			00000000
+IN1	729	42	768848	 Workers Comp DMHC Employee  DS			00000000
+IN1	730	42	768752	 Smart Network  DS			00000000
+IN1	731	42	5766077	 HAP	HAP		00000000
+IN1	732	42	768605	 Multiplan  NI			00000000
+IN1	733	42	5777091	 HAP	HAP		00000000
+IN1	734	42	768306	 Cigna PPO  J			00000000
+IN1	735	42	768295	 ChampVA Disability  J			00000000
+IN1	736	42	5256237	 Great Lakes Personal Care Plus HMO  NI			00000000
+IN1	737	42	6468381	 Health Advantage  J			00000000
+IN1	738	42	10692724	 Meridian HMP  JSD	Meridian		00000000
+IN1	739	42	5387375	 United Healthcare Comm Plan SNP  O			00000000
+IN1	740	42	768803	 Tricare Champus  O			00000000
+IN1	741	42	9752997	 United Healthcare Oxford  JSD			00000000
+IN1	742	42	9976832	 Brighton Hospital Purchased Svc  NI			00000000
+IN1	743	42	8119912	 Procare HealthChoice  JSD			00000000
+IN1	744	42	782398	 Selectcare Vers PPO  DS			00000000
+IN1	745	42	9421609	 Total Health Group  O			00000000
+IN1	746	42	768305	 Cigna HMO  J			00000000
+IN1	747	42	9919550	 SMART PLAN			00000000
+IN1	748	42	768458	 Cofinity Laborers Metro Detroit  DS			00000000
+IN1	749	42	768621	 Oakland County Mental Health  O			00000000
+IN1	750	42	768690	 Cofinity Northern Group Services America  J			00000000
+IN1	751	42	768793	 Total Health Care Non SJH  J			00000000
+IN1	752	42	768667	 PHCS Z Not Listed  J			00000000
+IN1	753	42	768285	 CareLink  O			00000000
+IN1	754	42	768791	 Total Health Care Managed Care  NI			00000000
+IN1	755	42	5314765	 Alliance Health Life  NI			00000000
+IN1	756	42	768822	 Value Options  NI			00000000
+IN1	757	42	10301131	 Beaumont Employee Health  O			00000000
+IN1	758	42	768795	 Total Health Care SJH  J			00000000
+IN1	759	42	10202600	 B73			00000000
+IN1	760	42	10692498	 BLUE CROSS COMP HMP  NI	BCBSM		00000000
+IN1	761	42	5355834	 MOMS Program  NI			00000000
+IN1	762	42	2461172	 Humana Choice  DS			00000000
+IN1	763	42	768294	 Tricare for Life  J			00000000
+IN1	764	42	4829620	 CareLink  NI			00000000
+IN1	765	42	10692790	 THC Non Assigned HMP  JSD			00000000
+IN1	766	42	8119895	 United American  J			00000000
+IN1	767	42	768137	 Auto Accidents  O			00000000
+IN1	768	42	5598702	 Workers Comp H57  NI			00000000
+IN1	769	42	11052480	 BC METRO DETROIT EPO  NI	BCBSM		00000000
+IN1	770	42	768474	 First Health  NI			00000000
+IN1	771	42	10063807	 M04			00000000
+IN1	772	42	768736	 Comm AARP Healthcare OPTI  JSD			00000000
+IN1	773	42	780401	 M O R C    J			00000000
+IN1	774	42	768164	 American Postal Workers  NI			00000000
+IN1	775	42	10088093	 COFINITY ADVANTAGE			00000000
+IN1	776	42	9016393	 Gateway Comm Health  JSD			00000000
+IN1	777	42	7808873	 ChampVA  DS			00000000
+IN1	778	42	10757520	 MKTPL Out of Network  JSD			00000000
+IN1	779	42	10512558	 Consumers Mutual of MI  NI			00000000
+IN1	780	42	5598710	 Workers Comp Sedgwick CMS  NI			00000000
+IN1	781	42	768405	 HAP St John  NI	HAP		00000000
+IN1	782	42	768331	 Coventry Healthcare  O			00000000
+IN1	783	42	768348	 DMC Care Lab Only  J			00000000
+IN1	784	42	10998869	 BCN ADV CON CARE HMO  JSD	BCBSM		00000000
+IN1	785	42	768334	 Corp Health Svc Injury  NI			00000000
+IN1	786	42	7078948	 Coventry Commercial  J			00000000
+IN1	787	42	10301174	 Golden Rule  O			00000000
+IN1	788	42	6326680	 SEDGWICK			00000000
+IN1	789	42	5314699	 Charity PHMC C89  NI			00000000
+IN1	790	42	768453	 Comm JVHL Lab Only  J			00000000
+IN1	791	42	768807	 Tricare OP Only  NI			00000000
+IN1	792	42	10913086	 Medicaid-ESO-HMP  JSD	Medicaid		00000000
+IN1	793	42	768650	 Paramount Health  NI			00000000
+IN1	794	42	8918378	 Comm Care Assoc Health  JSD			00000000
+IN1	795	42	5818219	 ALLSTATE			00000000
+IN1	796	42	768131	 AAA  DS			00000000
+IN1	797	42	6468305	 Beechstreet  JSD			00000000
+IN1	798	42	9704091	 Total Medicare Plus  JSD	Medicare		00000000
+IN1	799	42	8695897	 Potential Insurance Pending  DS			00000000
+IN1	800	42	768335	 Cosmetic  NI			00000000
+IN1	801	42	6468460	 McLaren Health Medicaid  J	Medicaid		00000000
+IN1	802	42	5340766	 Workers Comp Amerisure Ins Co  NI			00000000
+IN1	803	42	914700	 Macomb County Comm Mental Health  DS			00000000
+IN1	804	42	768147	 Aetna  O			00000000
+IN1	805	42	6459054	 Assurant Health  NI			00000000
+IN1	806	42	782399	Value Options BCN Psych  DS			00000000
+IN1	807	42	768694	Cofinity Group Health Man  J			00000000
+IN1	808	42	768370	Gateway  O			00000000
+IN1	809	42	768732	Comm Provident Life  J			00000000
+IN1	810	42	768683	Cofinity Great West Life  J			00000000
+IN1	811	42	768841	Comm Weyco  J			00000000
+IN1	812	42	768461	Liberty Mutual  NI			00000000
+IN1	813	42	768432	Health Source  NI			00000000
+IN1	814	42	10052474	B33			00000000
+IN1	815	42	5346977	Workers Comp CIGNA Ins Co  NI			00000000
+IN1	816	42	8956232	AARP  O			00000000
+IN1	817	42	10110178	 X09			00000000
+IN1	818	42	5355813	Care Pref Choice PPO  NI			00000000
+IN1	819	42	11086272	 AmeriHealth VIP Care  JSD			00000000
+IN1	820	42	11282611	HAP senior plus unasn  JSD	HAP		00000000
+IN1	821	42	1293317	SELF PAY - CHARITY			00000000
+IN1	822	42	768676	 Cofinity CAM  J			00000000
+IN1	823	42	11382827	 UMR (PPO)			00000000
+IN1	824	42	11165727	 AETNA - OPEN CHOICE - NAP (PPO) 58666  A			00000000
+IN1	825	42	7078843	 Cofinity First Health  DS			00000000
+IN1	826	42	10878492	 HEALTH NET FEDERAL SERVICES - TRICARE NORTH - PRIME - RETIREE  A			00000000
+IN1	827	42	11248129	 COVENTRYCARES OF MI - HEALTHY MICHIGAN (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	828	42	10948498	 COMP ONE  A			00000000
+IN1	829	42	10879430	 HEALTHPLUS OF MICHIGAN - OPTIONS (HMO)  A	HEALTHPLUS		00000000
+IN1	830	42	11071579	 FREEDOM LIFE INSURANCE COMPANY OF AMERICA - MULTIPLAN (INDEMNITY)  A			00000000
+IN1	831	42	768460	 Liberty Mutual  DS			00000000
+IN1	832	42	768494	MCare PHMC Assigned  NI	Medicare		00000000
+IN1	833	42	10872832	UNITED HEALTHCARE - CHOICE PLUS 39027  A			00000000
+IN1	834	42	10056797	OMNICARE			00000000
+IN1	835	42	10849680	MICHIGAN MEDICARE	Medicare		00000000
+IN1	836	42	10831040	BCBS-MI: FEDERAL EMPLOYEE PROGRAM  A	BCBSM		00000000
+IN1	837	42	10873421	ALLIANCE HEALTH AND LIFE INSURANCE CO (PPO)  A			00000000
+IN1	838	42	768175	Bankers Life  DS			00000000
+IN1	839	42	10870472	 HUMANA (PPO)  A			00000000
+IN1	840	42	11336138	Molina MI Health Link MO1  JSD	MOLINA		00000000
+IN1	841	42	5598706	Workers Comp H50  NI			00000000
+IN1	842	42	10886173	AETNA - CHOICE - NAP (POS II) 53905  A			00000000
+IN1	843	42	11012400	 UNITEDHEALTHONE - UNITED HEALTHCARE CHOICE PLUS  A			00000000
+IN1	844	42	10870942	 COFINITY - ENTERPRISE GROUP PLANNING (PPO)  A			00000000
+IN1	845	42	11125556	COFINITY - HEALTHEZ (PPO)  A			00000000
+IN1	846	42	10873290	 BCBS-MI: MEDICARE PLUS BLUE (MEDICARE REPLACEMENT PFFS)  A	BCBSM		00000000
+IN1	847	42	10831002	AETNA 1352   A			00000000
+IN1	848	42	768682	Cofinity CGNA  J			00000000
+IN1	849	42	10889882	HEALTH ALLIANCE PLAN MI - PIPEFITTERS LOCAL 636 (PPO)  A			00000000
+IN1	850	42	5598692	Workers Comp H40  NI			00000000
+IN1	851	42	10880767	BCBS-MI: STATE OF MI HEALTH PLAN (PPO)  A	BCBSM		00000000
+IN1	852	42	10874636	BCBS-MI: BCBS OF MI - MESSA (PPO)  A	BCBSM		00000000
+IN1	853	42	10898609	HARTFORD INSURANCE GROUP 15882  A			00000000
+IN1	854	42	10887830	HAP PREFERRED OF MI - ASR HEALTH BENEFITS (PPO)  A	HAP		00000000
+IN1	855	42	10872575	UNITED HEALTHCARE COMMUNITY PLAN MI - DUAL COMPLETE (MEDICARE/MEDICAID REPLACEMENT HMO)  A			00000000
+IN1	856	42	10900950	CIGNA - AHOLD USA - TUFTS HEALTH PLAN - OPEN ACCESS PLUS  A			00000000
+IN1	857	42	11048385	TOTAL HEALTH CARE - MICHILD (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	858	42	10886521	BCBS-MI: BLUE CARE NETWORK OF MI (HMO)  A	BCBSM		00000000
+IN1	859	42	10993240	NGS CORESOURCE - AETNA SIGNATURE ADMINISTRATORS (PPO) 140793  A			00000000
+IN1	860	42	10969150	ACS/HEALTH NET OF AZ - ADVANTAGE VIOLET - PREFERRED PLAN (PPO)  A			00000000
+IN1	861	42	10831248	BCBS-MI: BLUE CARE NETWORK OF MI - ADVANTAGE (MEDICARE REPLACEMENT HMO)  A	BCBSM		00000000
+IN1	862	42	10831582	HEALTH NET FEDERAL SERVICES - TRICARE NORTH  A			00000000
+IN1	863	42	10881668	NGS CORESOURCE  A			00000000
+IN1	864	42	10910066	MERIDIAN HEALTH PLAN OF MICHIGAN - HEALTHY MICHIGAN (MEDICAID HMO)  A	MERIDIAN		00000000
+IN1	865	42	10872780	PRIORITY HEALTH (EPO)  A	PRIORITY		00000000
+IN1	866	42	10888028	UNITED HEALTHCARE (PPO) 10459  A			00000000
+IN1	867	42	10894915	HAP PREFERRED OF MI -  CITY OF ROSEVILLE - AUTOMATED BENEFIT SERVICES (PPO)  A	HAP		00000000
+IN1	868	42	10872295	STATE FARM			00000000
+IN1	869	42	10885302	BCBS-MI:  BCBS OF MI - NASCO  A	BCBSM		00000000
+IN1	870	42	10943502	AAA INSURANCE			00000000
+IN1	871	42	11383314	AMERIHEALTH CARITAS MI - VIP CARE PLUS (MEDICARE - MEDICAID REPLACEMENT HMO)			00000000
+IN1	872	42	10872195	HAP OF MICHIGAN (POS)  A	HAP		00000000
+IN1	873	42	8956274	First Health  O			00000000
+IN1	874	42	10872211	BCBS-MI:  MPSER - BLUE PREFERRED (PPO)  A	BCBSM		00000000
+IN1	875	42	11108157	HUMANA - OPEN ACCESS - NATIONAL (POS)  A			00000000
+IN1	876	42	10894012	AETNA - COSTCO - CHOICE (POS II)  A			00000000
+IN1	877	42	11339904	TRAVELERS			00000000
+IN1	878	42	10870717	MEDICAID-MI: CHILDRENS SPECIAL HEALTH CARE SERVICES PLAN  A	MEDICAID		00000000
+IN1	879	42	11019069	GEHA (PPO) 25  A			00000000
+IN1	880	42	10940273	BCBS-ME: ANTHEM BCBS OF ME HEALTH CHOICE PLUS (INDEMNITY)	BCBSM		00000000
+IN1	881	42	10900194	COFINITY - US HEALTH AND LIFE INS CO- COALITION OF PUBLIC SAFETY BENEFIT PLAN (PPO)  A			00000000
+IN1	882	42	10831162	MIDWEST HEALTH PLAN (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	883	42	10878574	UNITED HEALTHCARE (POS) 15047  A			00000000
+IN1	884	42	10870931	BCBS-MI:  CHRYSLER CORPORATION (PPO)  A	BCBSM		00000000
+IN1	885	42	10885621	HEALTHPLUS OF MICHIGAN - ADVANTAGE (MEDICARE REPLACEMENT HMO)  A	HEALTHPLUS		00000000
+IN1	886	42	11120680	AMERIHEALTH VIP CARE  NI			00000000
+IN1	887	42	10870804	BCBS-MI: BCBS OF MI - MI CONFERENCE OF TEAMSTERS WELFARE FUND (PPO)  A	BCBSM		00000000
+IN1	888	42	10831624	COVENTRYCARES OF MI (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	889	42	11126769	BCBS-PA: HIGHMARK BCBS - RAILROAD DEDICATED SERVICE UNIT (PPO)  A	 		00000000
+IN1	890	42	10875257	UNITED HEALTHCARE - CHOICE PLUS 39084  A			00000000
+IN1	891	42	10899444	THE MAIL HANDLERS BENEFIT PLAN (PPO)  A			00000000
+IN1	892	42	10870564	HAP OF MI (PPO)  A			00000000
+IN1	893	42	10831767	MERIDIAN HEALTH PLAN OF MICHIGAN (MEDICAID HMO)  A	MERIDIAN		00000000
+IN1	894	42	10872087	BCBS-MI: MPSERS - MEDICARE PLUS BLUE (MEDICARE REPLACEMENT PPO)  A	BCBSM		00000000
+IN1	895	42	10872350	PHCS - GEHA (PPO)  A			00000000
+IN1	896	42	10888443	GOLDEN RULE - UNITED HEALTHCARE CHOICE PLUS (PPO)			00000000
+IN1	897	42	11283330	MERITAIN HEALTH - AETNA (POS II)  A			00000000
+IN1	898	42	10874744	HEALTHPLUS OF MI - SAGINAW HEALTH PLAN (HMO)  A	HEALTHPLUS		00000000
+IN1	899	42	10883327	HEALTH NET FEDERAL SERVICES - TRICARE NORTH - RESERVE SELECT  A			00000000
+IN1	900	42	11320232	UNIFIED LIFE INS CO - MULTIPLAN (LIMITED BENEFIT PLAN)  A			00000000
+IN1	901	42	10892692	UNITED HEALTHCARE - CHOICE PLUS 37484  A			00000000
+IN1	902	42	10873110	UMR  A			00000000
+IN1	903	42	10871311	ALLIANCE HEALTH AND LIFE INSURANCE COMPANY (EPO)  A			00000000
+IN1	904	42	10870435	HEALTHPLUS OF MICHIGAN (HMO)  A	HEALTHPLUS		00000000
+IN1	905	42	768671	PK Pre Empl Physical  NI			00000000
+IN1	906	42	11376105	CONTINUED HEALTH CARE BENEFIT PROGRAM - HUMANA MILITARY			00000000
+IN1	907	42	10878617	MCLAREN HEALTH PLAN (POS)  A			00000000
+IN1	908	42	10986397	MOLINA HEALTHCARE OF MI - OPTIONS (MEDICARE REPLACEMENT HMO)  A	MOLINA		00000000
+IN1	909	42	10870360	MEDICAID-MI: MIHP  A	MEDICAID		00000000
+IN1	910	42	10892186	ALLIANCE HEALTH AND LIFE INSURANCE COMPANY (POS)  A			00000000
+IN1	911	42	10994792	COFINITY - DETROIT AND VICINITY TROWEL TRADES HEALTH AND WELFARE (PPO)  A			00000000
+IN1	912	42	8985238	Self Pay Bariatric  O			00000000
+IN1	913	42	10878865	PRIORITY HEALTH (MEDICARE REPLACEMENT HMO)  A	PRIORITY		00000000
+IN1	914	42	10995560	ALLIED BENEFIT SYSTEMS - ASSURANT HEALTH - AETNA SIGNATURE ADMINISTRATORS (PPO)  A			00000000
+IN1	915	42	10943738	PRIORITY HEALTH - FULLY FUNDED (HMO) (IN NETWORK CLAIMS)  A	PRIORITY		00000000
+IN1	916	42	11164124	MCLAREN HEALTH PLAN - HEALTHY MICHIGAN (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	917	42	10831709	TOTAL HEALTH CARE OF MI (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	918	42	10910533	UNITED HEALTHCARE  - OPEN ACCESS - CHOICE PLUS  (POS)  A			00000000
+IN1	919	42	11163619	TOTAL HEALTH CARE OF MI - HEALTHY MICHIGAN (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	920	42	11039653	UNITED HEALTHCARE - CHOICE PLUS (HMO) 25265  A			00000000
+IN1	921	42	11072813	COFINITY - AUTOMATED GROUP ADMINISTRATION (PPO)  A			00000000
+IN1	922	42	10933287	COFINITY - SECUREONE BENEFIT ADMINISTRATORS (PPO)  A			00000000
+IN1	923	42	11168494	COFINITY -  DEFINITY HRA - UNITED HEALTHCARE - CHOICE PLUS (POS)  A			00000000
+IN1	924	42	11282603	Aetna Better Health  JSD			00000000
+IN1	925	42	11263776	MEDICAL MUTUAL (PPO)  A			00000000
+IN1	926	42	10932060	BCBS-IL: JOHNSON CONTROLS (PPO)  A	 		00000000
+IN1	927	42	10930499	GEISINGER HEALTH PLAN (PPO)  A			00000000
+IN1	928	42	10922533	MIDWEST HEALTH PLAN - HEALTHY MICHIGAN (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	929	42	5598670	Workers Comp H43  NI			00000000
+IN1	930	42	10894215	MERITAIN HEALTH - AETNA (PPO)  A			00000000
+IN1	931	42	10878487	MEDICARE B-MD: NOVITAS SOLUTIONS MEDICARE - ALL OTHER COUNTIES  A	MEDICARE		00000000
+IN1	932	42	10831736	PRIORITY HEALTH (PPO)  A	PRIORITY		00000000
+IN1	933	42	8856613	Aetna Michigan Preferred  NI			00000000
+IN1	934	42	11199404	AETNA - EXXON MOBIL (INDEMNITY)  A			00000000
+IN1	935	42	9962514	OMNICARE MCAID	MEDICAID		00000000
+IN1	936	42	10879414	GOLDEN RULE INSURANCE - UNITED HEALTHCARE - CHOICE PLUS   A			00000000
+IN1	937	42	11338577	COFINITY - SELF FUNDED PLANS INCORPORATED (PPO)  A			00000000
+IN1	938	42	11242879	TOTAL HEALTH CARE USA (POS)  A			00000000
+IN1	939	42	10873668	EMPLOYEE BENEFIT LOGISTICS - NEXT CARE HEALTH AND WELLNESS BENEFIT PLAN  A			00000000
+IN1	940	42	10875338	BCBS-MI: BLUE CARE NETWORK 5 - ENHANCED HEALTHY LIVING (HMO)  A	BCBSM		00000000
+IN1	941	42	10831324	HEALTH NET FEDERAL SERVICES - TRICARE NORTH - PRIME  A			00000000
+IN1	942	42	10870418	AARP HEALTHCARE OPTION - PLAN F (MEDICARE SUPPLEMENT)  A	MEDICARE		00000000
+IN1	943	42	11214140	UNITED HEALTHCARE COMMUNITY PLAN MI - HEALTHY MICHIGAN (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	944	42	10870428	MEDICARE A-MI: WPS - PBB  A	MEDICARE		00000000
+IN1	945	42	10831179	BCBS-MI: MEDICARE PLUS BLUE (MEDICARE REPLACEMENT PPO)  A	BCBSM		00000000
+IN1	946	42	10831123	CBS-MI: BLUE CARE NETWORK - ADVANTAGE (MEDICARE REPLACEMENT HMO)  A	BCBSM		00000000
+IN1	947	42	11177509	HARBOR HEALTH PLAN - HEALTHY MICHIGAN (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	948	42	10870594	AETNA (POS) 16991  A			00000000
+IN1	949	42	10831144	UNITED HEALTHCARE COMMUNITY PLAN MI (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	950	42	10889839	MOLINA HEALTHCARE OF MI - OPTIONS PLUS (MEDICARE REPLACEMENT HMO)  A	MOLINA		00000000
+IN1	951	42	6468397	Caremark  J			00000000
+IN1	952	42	10910373	COFINITY - EMPLOYEE BENEFIT SYSTEMS (PPO)  A			00000000
+IN1	953	42	10878774	HUMANA (MEDICARE REPLACEMENT HMO)  A			00000000
+IN1	954	42	10892620	MCLAREN HEALTH PLAN (HMO)  A			00000000
+IN1	955	42	10873502	HAP PREFERRED OF MI - CIGNA (PPO)  A	HAP		00000000
+IN1	956	42	11342524	HAP MIDWEST MI HEALTH LINK  O	HAP		00000000
+IN1	957	42	11018559	CIGNA - APWU HEALTH PLAN (PPO)  A			00000000
+IN1	958	42	10873349	HAP PREFERRED OF MI - MICHIGAN REGIONAL COUNCIL OF CARPENTERS (PPO)  A	HAP		00000000
+IN1	959	42	10870550	BCBS MI - ABS - AUTOMATED BENEFIT SERVICES - SMARTHEALTH PLAN (PPO)  A	BCBSM		00000000
+IN1	960	42	11201072	BCBS-MI: BLUE CARE NETWORK - BLUE CROSS COMPLETE - HEALTHY MICHIGAN (MEDICAID HMO)  A	BCBSM		00000000
+IN1	961	42	11076306	UNITEDHEALTHONE - UNITED HEALTHCARE - NAVIGATE PLUS (POS)  A			00000000
+IN1	962	42	10873072	AETNA			00000000
+IN1	963	42	11091859	UNITEDHEALTHONE - UNITED HEALTHCARE - CHOICE PLUS (POS)  A			00000000
+IN1	964	42	11237134	SEDGWICK			00000000
+IN1	965	42	11106787	ABS - SMARTHEALTH - ASCENSION MISSION POINT NETWORK (PPO)  A			00000000
+IN1	966	42	4828442	Macomb County Care  NI			00000000
+IN1	967	42	10901738	ALLIED BENEFIT SYSTEMS  A			00000000
+IN1	968	42	11172331	CIGNA			00000000
+IN1	969	42	11010403	ENCOMPASS INS  A			00000000
+IN1	970	42	10885661	HUMANA - CHOICE REGIONAL (MEDICARE REPLACEMENT PPO)  A			00000000
+IN1	971	42	10896902	AETNA - SHERWIN WILLIIAMS - CHOICE - NAP (POS II)  A			00000000
+IN1	972	42	11282599	Aetna Better Health  O			00000000
+IN1	973	42	10870895	BCBS-MI: BCBS OF MI - HSA (PPO)  A	BCBSM		00000000
+IN1	974	42	11388660	COFINITY - LIBERTY UNION LIFE ASSURANCE - MID-AMERICA (PPO)			00000000
+IN1	975	42	11336002	HAP MIDWEST MI HEALTH LINK  JSD			00000000
+IN1	976	42	10870403	BCBS-MI: MEDICARE ADVANTAGE (MEDICARE REPLACEMENT PFFS)  A	BCBSM		00000000
+IN1	977	42	10999250	NGS CORESOURCE - AETNA SIGNATURE ADMINISTRATORS (PPO) 115445  A			00000000
+IN1	978	42	10069010	S37			00000000
+IN1	979	42	10935569	COFINITY - PAINTERS UNION INSURANCE FUND (PPO)  A			00000000
+IN1	980	42	10902214	Assurant Health - Aetna - Aetna Signature Administrators' PPO (PPO)  A			00000000
+IN1	981	42	10948248	 AETNA - CHOICE PLUS - NAP (POS II)  A			00000000
+IN1	982	42	10911923	CIGNA - CHRISTIAN BROTHERS EMPLOYEE BENEFIT TRUST (PPO)  A			00000000
+IN1	983	42	11064417	CREATIVE RISK SOLUTIONS  A			00000000
+IN1	984	42	10831672	GOLDEN RULE INSURANCE COMPANY  A			00000000
+IN1	985	42	10831569	HEALTHPLUS OF MICHIGAN (PPO)  A	HEALTHPLUS		00000000
+IN1	986	42	10927002	THE MAIL HANDLERS BENEFIT PLAN - AETNA CHOICE POS II (PPO)  A			00000000
+IN1	987	42	10872401	 MEDICA CHOICE - UNITED HEALTHCARE - CHOICE PLUS (POS)  A			00000000
+IN1	988	42	10948667	UMR - UNITED HEALTHCARE CHOICE PLUS (PPO)  A			00000000
+IN1	989	42	10907740	MERITAIN HEALTH - AETNA CHOICE POS II (PPO)  A			00000000
+IN1	990	42	10872678	ABS - AUTOMATED BENEFIT SERVICES - SMART PLAN - ST JOHN HEALTH SYSTEM (PPO)  A			00000000
+IN1	991	42	11380486	AETNA - AETNA HEALTH PLAN (POS II)			00000000
+IN1	992	42	10900468	FARM BUREAU MEDICAL  A			00000000
+IN1	993	42	10878738	AETNA (PPO) 5410  A			00000000
+IN1	994	42	10870737	BCBS-MI: SIMPLY BLUE (PPO)  A	BCBSM		00000000
+IN1	995	42	10938272	HAP PREFERRED OF MI - PHYSICIANS CARE HEALTH - HEALTHCHOICE (PPO)  A	HAP		00000000
+IN1	996	42	11028848	BCBS-MI: MI PUBLIC SCHOOL EMPL RETIREMENT SYS (MEDICARE REPLACEMENT ADVANTAGE PFFS)  A	BCBSM		00000000
+IN1	997	42	11376447	GOOD HEALTH - AETNA GLOBAL BENEFITS (PPO)			00000000
+IN1	998	42	11284066	BCBS-PA: HIGHMARK BCBS - CONSOL ENERGY (PPO)  A	 		00000000
+IN1	999	42	10874644	COFINITY - CHEROKEE INSURANCE COMPANY (PPO)  A			00000000
+IN1	1000	42	10992737	HEALTHPLUS OF MICHIGAN (POS)  A	HEALTHPLUS		00000000
+IN1	1001	42	10881432	BCBS-MI:  BCBS OF MI - MESSA TRADITIONAL  A	BCBSM		00000000
+IN1	1002	42	10962082	AETNA - AEXCEL - OPEN ACCESS - MANAGED CHOICE - NAP (POS II)  A			00000000
+IN1	1003	42	10831784	MEDICAID-MI: MI OF COMMUNITY HEALTH  A	MEDICAID		00000000
+IN1	1004	42	10905732	COFINITY - DETROIT MEDICAL CENTER CARE (PPO)  A			00000000
+IN1	1005	42	10980307	UNITED HEALTHCARE COMMUNITY PLAN MI - MICHILD (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	1006	42	10870415	BCBS-MI: COMMUNITY BLUE (PPO)  A	BCBSM		00000000
+IN1	1007	42	10918053	GOLDEN RULE - UNITED HEALTHCARE OPTIONS (PPO)  A			00000000
+IN1	1008	42	10875260	TOTAL HEALTH CARE OF MI - TOTAL MEDICARE PLUS (MEDICARE REPLACEMENT HMO)  A	MEDICARE		00000000
+IN1	1009	42	10903212	HAP PREFERRED OF MI - AUTOMATED BENEFIT SERVICES (PPO)  A	HAP		00000000
+IN1	1010	42	10873058	 BCBS-MI: SIMPLY BLUE - HRA (PPO)  A	BCBSM		00000000
+IN1	1011	42	10875264	PRIORITY HEALTH (POS)  A	PRIORITY		00000000
+IN1	1012	42	10879300	ALLIANCE HEALTH AND LIFE INSURANCE COMPANY (EPA)  A			00000000
+IN1	1013	42	10899808	MCMC - MEADOWBROOK INSURANCE  A			00000000
+IN1	1014	42	10878675	BCBS-IL: (PPO) 8708  A	 		00000000
+IN1	1015	42	10872259	ASR HEALTH BENEFITS - HAP AMERICAN HEALTH AND LIFE (PPO)  A			00000000
+IN1	1016	42	10886199	PRAIRIE STATES ENTERPRISES - COFINITY (PPO)  A			00000000
+IN1	1017	42	11028072	BLUE CROSS-CA: ANTHEM - HEWLETT PACKARD - EXCLUSIVE (PPO)  A	 		00000000
+IN1	1018	42	10894376	BCBS-MI: BLUE CARE NETWORK 10 - HEALTHY LIVING (HMO)  A	BCBSM		00000000
+IN1	1019	42	11052183	HUMANA - TEAMCARE GOLD (MEDICARE REPLACEMENT PPO)  A			00000000
+IN1	1020	42	10873119	COFINITY - FEDERATED MUTUAL INSURANCE CO (PPO)  A			00000000
+IN1	1021	42	10831348	UMR - BEAUMONT EMPLOYEE HEALTH PLAN (PPO)  A			00000000
+IN1	1022	42	10831626	KARMANOS CANCER INSTITUTE - BCCCP  A			00000000
+IN1	1023	42	11080881	GLOBAL CARE - REGENCY EMPLOYEE BENEFITS  A			00000000
+IN1	1024	42	10197394	Student Resources  JSD			00000000
+IN1	1025	42	10961870	AETNA - ADVANTAGE (PPO)  A			00000000
+IN1	1026	42	11161475	ALLIED - PHYSICIANS BENEFIT TRUST LIFE INSURANCE - AETNA SIGNATURE ADMINISTRATORS (PPO)  A			00000000
+IN1	1027	42	10986378	ASR HEALTH BENEFITS - CIGNA (PPO)  A			00000000
+IN1	1028	42	10831205	MOLINA HEALTHCARE OF MI (MEDICAID HMO)  A	MOLINA		00000000
+IN1	1029	42	11150494	CURANET - MERITAIN HEALTH (PPO)  A			00000000
+IN1	1030	42	10831172	BCBS-MI: BLUE CARE NETWORK - BLUE CROSS COMPLETE (MEDICAID HMO)  A	BCBSM		00000000
+IN1	1031	42	10930488	MUTUAL OF OMAHA - PLAN G (MEDICARE SUPPLEMENT) 256669  A			00000000
+IN1	1032	42	10831743	ABS - AUTOMATED BENEFIT SERVICES - SMARTHEALTH PLAN - ASCENSION HEALTH MI NETWORK (PPO)  A			00000000
+IN1	1033	42	10858843	TOTAL HEALTH CARE USA (PPO)  A			00000000
+IN1	1034	42	11303139	MULTIPLAN - UNITEDHEALTHONE  (PPO)  A			00000000
+IN1	1035	42	11198993	MOLINA HEALTHCARE OF MI - HEALTHY MICHIGAN (MEDICAID HMO)  A	MOLINA		00000000
+IN1	1036	42	10870400	HAP PREFERRED OF MI - CIGNA - OPEN ACCESS PLUS 249399  A	HAP		00000000
+IN1	1037	42	10831450	TOTAL HEALTH CARE USA (HMO)  A			00000000
+IN1	1038	42	10880816	BCBS-MI: ANTHEM BCBS - EPO PLAN (PPO)  A	BCBSM		00000000
+IN1	1039	42	10831616	UNITED HEALTHCARE  A			00000000
+IN1	1040	42	10885611	UNITED HEALTHCARE (PPO) 17835  A			00000000
+IN1	1041	42	11363505	AETNA BETTER HEALTH - MICHIGAN - PREMIER PLAN (MEDICARE - MEDICAID REPLACEMENT HMO)  A	MEDICARE		00000000
+IN1	1042	42	11043579	STATE FARM			00000000
+IN1	1043	42	11342846	HAP MIDWEST MI HEALTH LINK  NI	HAP		00000000
+IN1	1044	42	10880821	BCBS-IN: ANTHEM BCBS - MEDICARE ADVANTAGE PREFERRED (MEDICARE REPLACEMENT PPO) [51288]  A			00000000
+IN1	1045	42	10831214	HAP OF MICHIGAN - SENIOR PLUS (MEDICARE REPLACEMENT HMO)  A	HAP		00000000
+IN1	1046	42	10944389	BCBS-GA: ANTHEM - CUMMINS INC - HSA (PPO)  A			00000000
+IN1	1047	42	11293638	Aetna Better Health  NI			00000000
+IN1	1048	42	10871279	BCBS-MI:  OUT OF STATE - BLUE CARD  A	BCBSM		00000000
+IN1	1049	42	10831590	HEALTHPLUS OF MICHIGAN - HEALTHPLUS PARTNERS (MEDICAID HMO)  A	HEALTHPLUS		00000000
+IN1	1050	42	11387250	HARTFORD MEDICAL MANGEMENT CENTER - NC CLAIMS			00000000
+IN1	1051	42	10935353	FIDELIS SECURECARE OF MI - MEDICARE ADVANTAGE (MEDICARE REPLACEMENT HMO)  A	MEDICARE		00000000
+IN1	1052	42	11381595	CIGNA HEALTHCARE (POS)			00000000
+IN1	1053	42	768158	Cofinity American Community Mutual  DS			00000000
+IN1	1054	42	768386	Comm Guardian Life  J			00000000
+IN1	1055	42	10870788	ASR HEALTH BENEFITS (PPO)  A			00000000
+IN1	1056	42	11293645	MOLINA MI HEALTH LINK  NI	MOLINA		00000000
+IN1	1057	42	10874600	AETNA (HMO) 37821  A			00000000
+IN1	1058	42	11374193	MEDICAID - MEDICAID PENDING - MOVED-MGRHOLD	MEDICAID		00000000
+IN1	1059	42	11013197	UNITED HEALTHCARE - CHOICE PLUS - PS1 - MULTIPLAN  A			00000000
+IN1	1060	42	10873267	PRIORTY HEALTH - HRA (HMO)  A			00000000
+IN1	1061	42	10901352	MERITAIN - AETNA SIGNATURE ADMINISTRATORS (PPO)  A			00000000
+IN1	1062	42	11380322	CIGNA - MACYS BLOOMINGDALES - CHOICE PREMIER - OPEN ACCESS PLUS			00000000
+IN1	1063	42	10883968	CIGNA - NALC HEALTH BENEFIT PLAN  (FFS/PPO)  A			00000000
+IN1	1064	42	10831203	BCBS-MI: BCBS OF MI (PPO)  A	BCBSM		00000000
+IN1	1065	42	10884094	ANTHEM BLUE CROSS - THE GORES GROUP LLC (PPO)  A	BCBSM		00000000
+IN1	1066	42	10831549	HAP OF MICHIGAN (HMO)  A	HAP		00000000
+IN1	1067	42	11390293	CIGNA - EMPLOYEE PLANS LLC (PPO)			00000000
+IN1	1068	42	11373480	BCBS-FL: BLUE MEDICARE - PLAN N (MEDICARE SUPPLEMENT)			00000000
+IN1	1069	42	10888249	UNITED HEALTHCARE (PPO) 39992  A			00000000
+IN1	1070	42	11048168	MOLINA MI HEALTH LINK  O	MOLINA		00000000
+IN1	1071	42	10549044	Novi Wellness  NI			00000000
+IN1	1072	42	10875403	ALL SAVERS INSURANCE - UNITED HEALTHCARE CHOICE PLUS (PPO)  A			00000000
+IN1	1073	42	10883119	BCBS-MI: BCBS OF MI - QUICKEN LOANS - HEALTHY BLUE - BLUE PREFERRED (PPO)  A	BCBSM		00000000
+IN1	1074	42	10874672	MEDICAID-MI: COMMUNITY HEALTH - SPEND DOWN PROGRAM  A	MEDICAID		00000000
+IN1	1075	42	10872158	COFINITY - TOTAL HEALTH CARE - SELECT (POS)  A			00000000
+IN1	1076	42	10873019	HAP OF MICHIGAN (MEDICARE REPLACEMENT HMO)  A	HAP		00000000
+IN1	1077	42	10912145	TRAVELERS			00000000
+IN1	1078	42	10831013	AETNA (PPO) 6293  A			00000000
+IN1	1079	42	6459018	Unicare  NI			00000000
+IN1	1080	42	11213931	PLUMBERS LOCAL 98 - COFINITY (PPO)  A			00000000
+IN1	1081	42	10831776	MEDICAID-MI: HEALTHY MICHIGAN (FFS)  A	MEDICAID		00000000
+IN1	1082	42	11148326	CENTRAL STATES HEALTH AND WELFARE FUND (TEAMCARE) - PHCS (PPO)  A			00000000
+IN1	1083	42	10879505	MEDICARE B: PALMETTO GBA - RAILROAD MEDICARE  A	MEDICARE		00000000
+IN1	1084	42	10879643	HEALTH NET FEDERAL SERVICES - TRICARE NORTH - STANDARD  A			00000000
+IN1	1085	42	10944351	COFINITY - NGS CORESOURCE  A			00000000
+IN1	1086	42	10870356	MCLAREN HEALTH ADVANTAGE (PPO)  A			00000000
+IN1	1087	42	10831100	BCBS-MI: BCBS OF MI - BLUE PREFERRED (PPO)  A	BCBSM		00000000
+IN1	1088	42	10878656	COFINITY - PLUMBERS AND PIPEFITTERS HEALTH FUND (PPO)  A			00000000
+IN1	1089	42	11241176	HARTFORD			00000000
+IN1	1090	42	10831690	MCLAREN HEALTH PLAN (MEDICAID HMO)  A	MEDICAID		00000000
+IN1	1091	42	10872660	MERIDIAN HEALTH PLAN OF MICHIGAN - GOLD - ADVANTAGE (MEDICARE REPLACEMENT HMO)  A	MERIDIAN		00000000
+IN1	1092	42	10870476	MEDICARE B-IA:  WPS MEDICARE PART B  A	MEDICARE		00000000
+IN1	1093	42	10831728	PRIORITY HEALTH (HMO)  A	PRIORITY		00000000
+IN1	1094	42	11058387	BCBS-GA: CENTRAL STATES HEALTH AND WELFARE - TEAMCARE (PPO)  A			00000000
+IN1	1095	42	10871219	VA HEALTH ADMINISTRATION - CHAMPVA  A			00000000
+IN1	1096	42	11159147	ALLSTATE			00000000
+IN1	1097	42	10870365	HUMANA (MEDICARE REPLACEMENT PPO)  A			00000000
+IN1	1098	42	10870591	AETNA (POS) 8738  A			00000000
+IN1	1099	42	10859017	MEDICARE B-MI: WISCONSIN PHYSICIANS SERVICES  A	MEDICARE		00000000
+IN1	1100	42	10951097	DMC CARE (PPO) 26498  A			00000000
+IN1	1101	42	10933873	HAP ALLIANCE HEALTH AND LIFE - ASR HEALTH BENEFITS (EPO)  A	HAP		00000000
+IN1	1102	42	10931518	BCBS-MI: GM SALARIED HEALTH CARE PROGRAM (PPO)  A	BCBSM		00000000
+IN1	1103	42	10904779	HAP PREFERRED OF MI - US HEALTH AND LIFE INS CO (PPO)  A	HAP		00000000
+IN1	1104	42	768673	Cofinity Time Ins Co  J			00000000
+IN1	1105	42	10906492	AETNA - NAP  A			00000000
+IN1	1106	42	10872791	HUMANA - CHOICE (MEDICARE REPLACEMENT PPO)  A			00000000
+IN1	1107	42	11048061	HUMANA - GOLD CHOICE (MEDICARE REPLACEMENT PPO)  A			00000000
+IN1	1108	42	10870954	ALLIANCE HEALTH AND LIFE - CIGNA (PPO)  A			00000000
+IN1	1109	42	10910283	TEAMSTERS BENEFIT TRUST - INTERNATIONAL BROTHERHOOD OF TEAMSTERS - PHCS (PPO)  A			00000000
+IN1	1110	42	10874923	BCBS-MI: GENERAL MOTORS (PPO)  A	BCBSM		00000000
+IN1	1111	42	11277871	PAN AMERICAN LIFE INSURANCE COMPANY  A			00000000
+IN1	1112	42	11044015	ABS - SMARTHEALTH (PPO)  A			00000000
+IN1	1113	42	11028110	AETNA - CHOICE (POS II) 29711  A			00000000
+IN1	1114	42	11380264	AETNA BETTER HEALTH - FAMILY HEALTH PLAN (MEDICAID HMO)	MEDICAID		00000000
+IN1	1115	42	10831086	BCBS-MI: BCBS OF MI - TRADITIONAL  A	BCBSM		00000000
+IN1	1116	42	11366151	UNITEDHEALTH SHARED SERVICES - GEHA - UNITED HEALTHCARE (PPO)			00000000
+IN1	1117	42	10885635	FARMERS INSURANCE			00000000
+IN1	1118	42	10887833	HAP PREFERRED OF MI - CIGNA (HMO)  A	HAP		00000000
+IN1	1119	42	10871359	UNITED HEALTHCARE			00000000
+IN1	1120	42	10982331	AETNA - AHF - CHOICE (POS II)  A			00000000
+IN1	1121	42	11303100	JP FARLEY CORPORATION (PPO)  A			00000000
+IN1	1122	42	10831660	BCBS-MI: BLUE CARE NETWORK (HMO)  A	BCBSM		00000000
+IN1	1123	42	11044450	PLANNED ADMINISTRATORS INC - ESSENTIAL STAFF CARE - LIMITED BENEFIT - FIRST HEALTH (PPO)  A			00000000
+IN1	1124	42	10831184	BCBS-MI: BCBS OF MI  A	BCBSM		00000000
+IN1	1125	42	11374232	AETNA - AUTOLIV - NAP (PPO)			00000000
+IN1	1126	42	11378907	ABS - SMART HEALTH - BCBS MI (PPO)			00000000
+IN1	1127	42	10885209	ABS - AUTOMATED BENEFIT SERVICES  A			00000000
+IN1	1128	42	10687129	Aetna Btr Hlth - MEMIHEAL  O			00000000
+IN1	1129	42	10692463	Aetna Btr Hlth - MEMIHEAL  NI			00000000
+IN1	1130	42	10692776	Aetna Btr Hlth - MEMIHEAL  JSD			00000000
+IN1	1131	42	11282599	Aetna Btr Hlth -MI Hlth Lnk  O			00000000
+IN1	1132	42	11282603	Aetna Btr Hlth -MI Hlth Lnk  JSD			00000000
+IN1	1133	42	11293638	Aetna Btr Hlth - MEMIMED1  NI			00000000
+IN1	1134	42	11388668	TRICARE FOR LIFE  NI			00000000
+IN1	1135	42	11639393	MERIDIAN ADVANTAGE PLN HMO SNP  O	MERIDIAN		00000000
+IN1	1136	42	11653629	MERIDIAN ADVANTAGE  NI	MERIDIAN		00000000
+IN1	1137	42	11666480	Fidelis Secure Life MMP  JSD			00000000
+IN1	1138	42	11680311	ASR Health Benefits  O			00000000
+IN1	1139	42	11727036	ASR HEALTH BENEFITS  J			00000000
+IN1	1140	42	12488324	Humana HMOX  J			00000000
+IN1	1141	42	13062391	MI Complete Link OON  O			00000000
+IN1	1142	42	13072132	MI Complete Link OON  JSD			00000000
+IN1	1143	42	2404878	Humana Medicare PPO  DS	MEDICARE		00000000
+IN1	1144	42	2461172	Humana Medicare HMO  DS	MEDICARE		00000000
+IN1	1145	42	4955089	Aetna Medicare  NI	MEDICARE		00000000
+IN1	1146	42	5198428	United Healthcare CP SNP  J			00000000
+IN1	1147	42	5598720	Humana Medicare HMO  NI	MEDICARE		00000000
+IN1	1148	42	768331	Aetna Btr Hlth - MEMIMED1  O			00000000
+IN1	1149	42	768476	Healthy Michigan Approved  NI			00000000
+IN1	1150	42	768629	Aetna Btr Hlth - MEMIMED1  DS			00000000
+IN1	1151	42	780407	Aetna Btr Hlth - MEMIMED1  J			00000000
+IN1	1152	42	782629	Humana Medicare PPO  J	MEDICARE		00000000
+IN1	1153	42	9962082	Humana Medicare PPO  J	MEDICARE		00000000
+IN1	1154	42	9962217	Humana Medicare HMO  J	MEDICARE		00000000
+IN1	1155	42	9978055	Humana Medicare PPO  NI	MEDICARE		00000000
+IN1	1156	42	10910355	HARBOR HEALTH PLAN - PROCARE HEALTH PLAN (MEDICAID HMO)  A			00000000
+IN1	1157	42	11604529	Harbor Advantage HMO  NI			00000000
+IN1	1158	42	11652280	VETERANS CHOICE  NI			00000000
+IN1	1159	42	11667217	Meridian Advantage Plan  JSD	MERIDIAN		00000000
+IN1	1160	42	11738708	ASR Health Benefits  NI			00000000
+IN1	1161	42	11666488	Veterans Choice  JSD			00000000
+IN1	1162	42	5605480	Priority Health HMO  JSD	PRIORITY		00000000
+IN1	1163	42	768177	Bankers Life  NI			00000000
+IN1	1164	42	9957984	Humana Medicare HMO  O	MEDICARE		00000000
+IN1	1165	42	10039025	Charity Partial  JSD			00000000
+IN1	1166	42	10208908	Midwest HealthChoice NI			00000000
+IN1	1167	42	11728321	ASR Health Benefits  SD			00000000
+IN1	1168	42	12105506	HUMANA COM OON JSD			00000000
+IN1	1169	42	12234306	BCN Local network Southeast  J			00000000
+IN1	1170	42	12234332	BCN Local network Southeast  SD			00000000
+IN1	1171	42	12591506	McLaren Advantage HMO  JSD			00000000
+IN1	1172	42	13113382	HUMANA COMMERCIAL OON   NI			00000000
+IN1	1173	42	6459038	Administrative Conce  NI			00000000
+IN1	1174	42	768639	Aetna Btr Hlth - MEMIMED1  NI			00000000
+IN1	1175	42	9981153	Humana Medicare PPO  O	MEDICARE		00000000
+IN1	1176	42	11057240	AmeriHealth VIP Care  O			00000000
+IN1	1177	42	11594412	Harbor Advantage HMO  JSD			00000000
+IN1	1178	42	11956131	MISC PC 98Z  S			00000000
+IN1	1179	42	11604602	Harbor Choice  NI			00000000
+IN1	1180	42	11615917	VETERANS CHOICE  O			00000000
+IN1	1181	42	11615932	FIDELIS SECURE LIFE MMP  O			00000000
+IN1	1182	42	11654566	FIDELIS SECURE LIFE  NI			00000000
+IN1	1183	42	12106272	HUMANA COM OON  J			00000000
+IN1	1184	42	11935922	MISC PC 99Z  S			00000000
+IN1	1185	42	12098504	Humana Commercial OON  O			00000000
+IN1	1186	42	13208325	T91			00000000
+IN1	1187	42	9428737	S			00000000
+IN1	1188	42	10049760	SELF PAY - MED DIRECT	SELF PAY		00000000
+IN1	1189	42	768384	Great West  NI			00000000
+IN1	1190	42	768283	Care Choices  NI			00000000
+IN1	1191	42	9428737	Charity Partial  O			00000000
+IN1	1192	42	12206265	BCN Local Network Southeast  O	BCBSM		00000000
+IN1	1193	42	13210424	McLaren Advantage HMO  NI	BCBSM		00000000
+IN1	1194	42	13345466	BCN LOCAL NETWORK SE			00000000
+IN1	1195	42	1388191	SELF PAY MEDICARE	MEDICARE		00000000
+IN1	1196	42	8985255	Self Pay POS  O	SELF PAY		00000000
+IN1	1197	42	6468390	Christian Brothers Service  J			00000000
+IN1	1198	42	10046054	WELLNESS PLAN-INACTIVE			00000000
+IN1	1199	42	768620	Oakland County IHP  O			00000000
+IN1	1200	42	11577949	Harbor Advantage HMO  O			00000000
+IN1	1201	42	13315968	BCN LOCAL NETWORK SE	BCBSM		00000000
+IN1	1202	42	768259	Botsford Health Plan  NI			00000000
+IN1	1203	42	12578229	McLaren Advantage HMO  O			00000000
+IN1	1204	42	7780902	US POSTAL SERVICES			00000000
+IN1	1205	42	10007896	CAPE MEDICAL			00000000
+IN1	1206	42	10091934	SELECT CARE HMO			00000000
+IN1	1207	42	6468269	Fiserv Health  NI			00000000
+IN1	1208	42	6777545	Crime Victims  JSD			00000000
+IN1	1209	42	8956243	Aetna HMO  O			00000000
+IN1	1210	42	5314685	Charity Thea Bowman  NI			00000000
+IN1	1211	42	11594427	Harbor Choice  JSD			00000000
+IN1	1212	42	8119754	Medicaid Oakland County CMH  JSD	MEDICAID		00000000
+IN1	1213	42	12681962	F06			00000000
+IN1	1214	42	9943894	OMNICARE			00000000
+IN1	1215	42	10870808	 BCBS OF MI - UAW RETIREE MEDICAL BENEFITS TRUST (PPO)  A	BCBSM		00000000
+IN1	1216	42	5355846	Hospice Karmanos  NI			00000000
+IN1	1217	42	13213019	Providence Hosp  NI C96			00000000
+IN1	1218	42	768470	Macomb County Mental Health Self Pay  J			00000000
+IN1	1219	42	10018386	OMNICARE HEALTH PLAN			00000000
+IN1	1220	42	768698	Cofinity Lab Metro Detroit  J			00000000
+IN1	1221	42	10061883	HEALTH PLAN OF MI			00000000
+IN1	1222	42	11578049	Harbor Choice  O			00000000
+IN1	1223	42	768286	CareLink  DS			00000000
+IN1	1224	42	768468	Macomb County RCH  O			00000000
+IN1	1225	42	8902732	Comm Care Assoc Health Choice  O			00000000
+IN1	1226	42	1483323	HAP	HAP		00000000
+IN1	1227	42	12149457	HUMANA COM OON  D			00000000
+IN1	1228	42	768692	Cofinity Group Benefit Svc  J			00000000
+IN1	1229	42	9941397	BLUE CROSS PPO TRUST PSYCH	BCBSM		00000000
+IN1	1230	42	768138	Accident Fund Of MI  DS			00000000
+IN1	1231	42	768157	American Community  O			00000000
+IN1	1232	42	11480494	MERIDIAN HEALTH PLAN OF MICHIGAN - COMPLETE (MEDICARE - MEDICAID REPLACEMENT HMO)  A	MERIDIAN		00000000
+IN1	1233	42	5598695	Workers Comp H53  NI			00000000
+IN1	1234	42	1396244	WELLNESS PLAN			00000000
+IN1	1235	42	768573	Metropolitan  NI			00000000

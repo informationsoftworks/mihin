@@ -1,0 +1,23 @@
+base: SNF-Heartland HC Center-Allen Park
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Heartland HC Center-Allen Park ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: bc4cdcf438e34df79b300263b7010e84
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210916184001'
+          field name: PID-30
+          field value: '""'
+          message count: 22
+          receiving org message ID: 27390618
+        - HL7 ID: f58c0fae0cc14dfca026f297401b6e27
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210901124743'
+          field name: PV1-36
+          field value: '""'
+          message count: 18
+          receiving org message ID: 26106570

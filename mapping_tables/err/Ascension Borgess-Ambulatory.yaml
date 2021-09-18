@@ -1,0 +1,596 @@
+base: Ascension Borgess-Ambulatory
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: Q2457911003T3275943903X101336
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210408134051'
+          field name: PID-30
+          field value: '""'
+          message count: 3
+          receiving org message ID: 32202075
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+      list:
+      - error: Incomplete, non-specific or abbreviated facility name
+        level: Warning
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A178
+            code: 2.16.840.1.113883.3.891.369
+            label: ECP Alamo HOS
+          - cell: A179
+            code: 2.16.840.1.113883.3.891.370
+            label: ECP Alamo NH
+          - cell: A180
+            code: 2.16.840.1.113883.3.891.371
+            label: ECP Alamo SNU
+          - cell: A205
+            code: 2.16.840.1.113883.3.891.386
+            label: ECP Home
+          - cell: A275
+            code: 2.16.840.1.113883.3.891.430
+            label: WBIM Home
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA30
+            label: ' Occupational Therapy'
+          - cell: AA31
+            label: ' Outpatient'
+          - cell: AA32
+            label: ' KNI/SWMIC'
+          - cell: AA33
+            label: ' PROMED Facility'
+          - cell: AA34
+            label: ' Laboratory'
+          - cell: AA35
+            label: ' Pysch Services'
+          - cell: AA36
+            label: ' Heart Cath'
+          - cell: AA37
+            label: ' Inf. Disease'
+          - cell: AA38
+            label: ' Inpatient'
+          - cell: AA39
+            label: ' Radiology'
+          - cell: AA40
+            label: ' Emergency'
+          - cell: AA41
+            label: ' Cardiac Rehab'
+          - cell: AA42
+            label: ' Specimens Only'
+          - cell: AA43
+            label: ' Physical Therapy'
+          - cell: AA44
+            label: ' Borgess Acute Care Outpt'
+          - cell: AA45
+            label: ' Ambulatory Surgery'
+          - cell: AA46
+            label: ' Speech Therapy'
+          - cell: AA47
+            label: ' Preadmit'
+          - cell: AA48
+            label: ' Cardiovascular'
+          - cell: AA49
+            label: ' GI Lab'
+          - cell: AA50
+            label: ' Oncology'
+          - cell: AA51
+            label: ' OB Clinic'
+          - cell: AA52
+            label: ' WMCC Radiation Onco'
+          - cell: AA53
+            label: ' Kidney'
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE89
+            label: 'Adolescent Psy Partl, Psychiatry '
+          - cell: AE93
+            label: ' BMC at Firekeepers'
+          - cell: AE94
+            label: ' Borgess Anticoag and Device Clinic, Borgess Anticoag and Device Clin'
+          - cell: AE95
+            label: ' Borgess Occupational Health'
+          - cell: AE96
+            label: ' Borgess Spine'
+          - cell: AE97
+            label: ' Borgess Spine PT'
+          - cell: AE98
+            label: ' CT - BHP'
+          - cell: AE99
+            label: ' Currier Drive'
+          - cell: AE100
+            label: ' Diabetes Education'
+          - cell: AE101
+            label: ' Echo'
+          - cell: AE102
+            label: ' EECP'
+          - cell: AE103
+            label: ' Emergency'
+          - cell: AE104
+            label: ' IV Therapy'
+          - cell: AE105
+            label: ' Lab'
+          - cell: AE106
+            label: ' Lab - BHP'
+          - cell: AE107
+            label: ' LCB'
+          - cell: AE108
+            label: ' Medicine'
+          - cell: AE109
+            label: ' Neuro.Interv.Lab'
+          - cell: AE110
+            label: ' Neurophysiology'
+          - cell: AE111
+            label: ' Nuclear Medicine - BHP'
+          - cell: AE112
+            label: ' Nursing Home Lab'
+          - cell: AE113
+            label: ' Observation Patient'
+          - cell: AE114
+            label: ' OP Medical Procedure'
+          - cell: AE115
+            label: ' Osteoporosis - BHP'
+          - cell: AE116
+            label: ' Osteoporosis/Sth Pro'
+          - cell: AE117
+            label: ' OT - BHP'
+          - cell: AE118
+            label: ' Outpatient'
+          - cell: AE119
+            label: ' Pipp Emergency Room'
+          - cell: AE120
+            label: ' Pipp IV/Sub Q'
+          - cell: AE121
+            label: ' Pipp Lab'
+          - cell: AE122
+            label: ' Pipp Medical'
+          - cell: AE123
+            label: ' Pipp Nursing Home Lab'
+          - cell: AE124
+            label: ' Pipp Outpatient'
+          - cell: AE125
+            label: ' Plainwell Ambulance'
+          - cell: AE126
+            label: ' Pre-Surgical Testing'
+          - cell: AE127
+            label: ' PROMED Facility'
+          - cell: AE128
+            label: ' PT - BHP'
+          - cell: AE129
+            label: ' Research Study Prtcl'
+          - cell: AE130
+            label: ' Routine Outpatient'
+          - cell: AE131
+            label: ' Therapy'
+          - cell: AE132
+            label: ' Trauma'
+          - cell: AE133
+            label: ' W/B Diagnostic Tests'
+          - cell: AE134
+            label: ' W/B Immediate Care'
+          - cell: AE135
+            label: ' W/B Post O/P Surgery'
+          - cell: AE136
+            label: ' WB OPS Private Pay'
+          - cell: AE137
+            label: ' Woodbridge Occupational Medicine'
+          - cell: AE138
+            label: ' WOT'
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-4
+          see:
+          - cell: U12
+            code: 'Unavailable, PREMATURE NEWBORN, NEWBORN EXTRAMURAL, '
+        - hl7 segment: PV1-14
+          see:
+          - cell: X4
+            code: ' Physician Referral'
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA30
+            code: ' Occupational Therapy'
+          - cell: AA31
+            code: ' Outpatient'
+          - cell: AA32
+            code: ' KNI/SWMIC'
+          - cell: AA33
+            code: ' PROMED Facility'
+          - cell: AA34
+            code: ' Laboratory'
+          - cell: AA35
+            code: ' Pysch Services'
+          - cell: AA36
+            code: ' Heart Cath'
+          - cell: AA37
+            code: ' Inf. Disease'
+          - cell: AA38
+            code: ' Inpatient'
+          - cell: AA39
+            code: ' Radiology'
+          - cell: AA40
+            code: ' Emergency'
+          - cell: AA41
+            code: ' Cardiac Rehab'
+          - cell: AA42
+            code: ' Specimens Only'
+          - cell: AA43
+            code: ' Physical Therapy'
+          - cell: AA44
+            code: ' Borgess Acute Care Outpt'
+          - cell: AA45
+            code: ' Ambulatory Surgery'
+          - cell: AA46
+            code: ' Speech Therapy'
+          - cell: AA47
+            code: ' Preadmit'
+          - cell: AA48
+            code: ' Cardiovascular'
+          - cell: AA49
+            code: ' GI Lab'
+          - cell: AA50
+            code: ' Oncology'
+          - cell: AA51
+            code: ' OB Clinic'
+          - cell: AA52
+            code: ' WMCC Radiation Onco'
+          - cell: AA53
+            code: ' Kidney'
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE89
+            code: 'Adolescent Psy Partl, Psychiatry '
+          - cell: AE93
+            code: ' BMC at Firekeepers'
+          - cell: AE94
+            code: ' Borgess Anticoag and Device Clinic, Borgess Anticoag and Device Clin'
+          - cell: AE95
+            code: ' Borgess Occupational Health'
+          - cell: AE96
+            code: ' Borgess Spine'
+          - cell: AE97
+            code: ' Borgess Spine PT'
+          - cell: AE98
+            code: ' CT - BHP'
+          - cell: AE99
+            code: ' Currier Drive'
+          - cell: AE100
+            code: ' Diabetes Education'
+          - cell: AE101
+            code: ' Echo'
+          - cell: AE102
+            code: ' EECP'
+          - cell: AE103
+            code: ' Emergency'
+          - cell: AE104
+            code: ' IV Therapy'
+          - cell: AE105
+            code: ' Lab'
+          - cell: AE106
+            code: ' Lab - BHP'
+          - cell: AE107
+            code: ' LCB'
+          - cell: AE108
+            code: ' Medicine'
+          - cell: AE109
+            code: ' Neuro.Interv.Lab'
+          - cell: AE110
+            code: ' Neurophysiology'
+          - cell: AE111
+            code: ' Nuclear Medicine - BHP'
+          - cell: AE112
+            code: ' Nursing Home Lab'
+          - cell: AE113
+            code: ' Observation Patient'
+          - cell: AE114
+            code: ' OP Medical Procedure'
+          - cell: AE115
+            code: ' Osteoporosis - BHP'
+          - cell: AE116
+            code: ' Osteoporosis/Sth Pro'
+          - cell: AE117
+            code: ' OT - BHP'
+          - cell: AE118
+            code: ' Outpatient'
+          - cell: AE119
+            code: ' Pipp Emergency Room'
+          - cell: AE120
+            code: ' Pipp IV/Sub Q'
+          - cell: AE121
+            code: ' Pipp Lab'
+          - cell: AE122
+            code: ' Pipp Medical'
+          - cell: AE123
+            code: ' Pipp Nursing Home Lab'
+          - cell: AE124
+            code: ' Pipp Outpatient'
+          - cell: AE125
+            code: ' Plainwell Ambulance'
+          - cell: AE126
+            code: ' Pre-Surgical Testing'
+          - cell: AE127
+            code: ' PROMED Facility'
+          - cell: AE128
+            code: ' PT - BHP'
+          - cell: AE129
+            code: ' Research Study Prtcl'
+          - cell: AE130
+            code: ' Routine Outpatient'
+          - cell: AE131
+            code: ' Therapy'
+          - cell: AE132
+            code: ' Trauma'
+          - cell: AE133
+            code: ' W/B Diagnostic Tests'
+          - cell: AE134
+            code: ' W/B Immediate Care'
+          - cell: AE135
+            code: ' W/B Post O/P Surgery'
+          - cell: AE136
+            code: ' WB OPS Private Pay'
+          - cell: AE137
+            code: ' Woodbridge Occupational Medicine'
+          - cell: AE138
+            code: ' WOT'
+      - error: OID appearing in multiple files
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            files:
+            - cell: A4
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A39
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.37
+          - cell: A5
+            files:
+            - cell: A5
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A34
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.35
+          - cell: A6
+            files:
+            - cell: A6
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A37
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.36
+          - cell: A8
+            files:
+            - cell: A8
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A29
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.302
+          - cell: A18
+            files:
+            - cell: A18
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A56
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.81
+          - cell: A22
+            files:
+            - cell: A22
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A47
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.47
+          - cell: A27
+            files:
+            - cell: A27
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A11
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.112
+          - cell: A29
+            files:
+            - cell: A29
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A44
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.458
+          - cell: A32
+            files:
+            - cell: A32
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A19
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.131
+          - cell: A37
+            files:
+            - cell: A37
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A10
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.11
+          - cell: A38
+            files:
+            - cell: A38
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A23
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.142
+          - cell: A40
+            files:
+            - cell: A40
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A48
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.50
+          - cell: A56
+            files:
+            - cell: A56
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A49
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.54
+          - cell: A60
+            files:
+            - cell: A60
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A25
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.187
+          - cell: A69
+            files:
+            - cell: A69
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A35
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.354
+          - cell: A78
+            files:
+            - cell: A78
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A59
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.92
+          - cell: A80
+            files:
+            - cell: A80
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A13
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.118
+          - cell: A96
+            files:
+            - cell: A96
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A16
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.125
+          - cell: A97
+            files:
+            - cell: A97
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A15
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.124
+          - cell: A98
+            files:
+            - cell: A98
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A17
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.128
+          - cell: A118
+            files:
+            - cell: A118
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A60
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.94
+          - cell: A121
+            files:
+            - cell: A121
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A61
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.95
+          - cell: A122
+            files:
+            - cell: A122
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A62
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.96
+          - cell: A124
+            files:
+            - cell: A124
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A38
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.366
+          - cell: A127
+            files:
+            - cell: A127
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A7
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.100
+          - cell: A130
+            files:
+            - cell: A130
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A52
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.64
+          - cell: A132
+            files:
+            - cell: A132
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A46
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.46
+          - cell: A136
+            files:
+            - cell: A136
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A45
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.459
+          - cell: A156
+            files:
+            - cell: A156
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A9
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.106
+          - cell: A167
+            files:
+            - cell: A167
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A41
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.419
+          - cell: A170
+            files:
+            - cell: A170
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A6
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.10
+          - cell: A177
+            files:
+            - cell: A177
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A8
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.104
+          - cell: A284
+            files:
+            - cell: A284
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A32
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.344
+          - cell: A286
+            files:
+            - cell: A286
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A27
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.245
+          - cell: A287
+            files:
+            - cell: A287
+              filename: 2.0 Mapping Tables - Hospitals/Ascension Borgess-Ambulatory ADT 2.0 table 05-06-2021.xlsx
+            - cell: A28
+              filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+            oid: 2.16.840.1.113883.3.891.281

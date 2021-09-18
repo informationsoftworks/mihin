@@ -1,0 +1,24 @@
+base: SNF-Regency Nursing & Rehabilitation Healthcare Centre
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Regency Nursing & Rehabilitation Healthcare Centre ADT 2.0 table
+        5-1-18.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: fd98f5403d054092ab98ce0d39f2ea04
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210913080151'
+          field name: PID-30
+          field value: '""'
+          message count: 46
+          receiving org message ID: 27168126
+        - HL7 ID: fd98f5403d054092ab98ce0d39f2ea04
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210913080151'
+          field name: PV1-36
+          field value: '""'
+          message count: 66
+          receiving org message ID: 27168126

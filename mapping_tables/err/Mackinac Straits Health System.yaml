@@ -1,0 +1,32 @@
+base: Mackinac Straits Health System
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Mackinac Straits Health System ADT 2.0 table 08-18-2020.xlsx
+      list:
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP4
+          - cell: AP7
+          - cell: AP8
+          - cell: AP9
+          - cell: AP18
+          - cell: AP25
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM7
+            code: ' 04/43, 03/19'
+          - cell: AM11
+            code: ' '
+          - cell: AM14
+            code: ' '
+        - hl7 segment: IN1
+          see:
+          - cell: AP10
+            code: ' '

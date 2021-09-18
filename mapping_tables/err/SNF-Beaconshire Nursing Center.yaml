@@ -1,0 +1,23 @@
+base: SNF-Beaconshire Nursing Center
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Beaconshire Nursing Center ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '41855367074'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '2021060114261400000002'
+          field name: PID-30
+          field value: '""'
+          message count: 8
+          receiving org message ID: 46675233
+        - HL7 ID: '41855367074'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '2021060114261400000002'
+          field name: PV1-36
+          field value: '""'
+          message count: 9
+          receiving org message ID: 46675233

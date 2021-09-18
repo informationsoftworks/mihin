@@ -1,0 +1,66 @@
+base: Helen Newberry Joy Hospital
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Helen Newberry Joy Hospital ADT 2.0 table 10-10-2019.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI29
+            label: 'Discharged/Transferred to a federal health care facility '
+          - cell: AI30
+            label: 'Discharged/Transferred to a Critical Access Hospital '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE93
+            code: 'BC '
+          - cell: AE135
+            code: 'RX '
+          - cell: AE137
+            code: 'PT '
+          - cell: AE138
+            code: 'OT '
+          - cell: AE139
+            code: 'ST '
+          - cell: AE156
+            code: 'WC '
+          - cell: AE159
+            code: 'FC '
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM5
+            code: 'Brother '
+          - cell: AM6
+            code: 'Care giver '
+          - cell: AM14
+            code: 'Foster child '
+          - cell: AM16
+            code: 'Father '
+          - cell: AM18
+            code: 'Guardian '
+          - cell: AM19
+            code: 'Grandparent '
+          - cell: AM21
+            code: 'Mother '
+          - cell: AM27
+            code: 'Parent '
+          - cell: AM30
+            code: 'Sibling '
+          - cell: AM31
+            code: 'Sister '
+          - cell: AM36
+            code: 'Aunt '
+          - cell: AM38
+            code: 'Ex Spouse '
+          - cell: AM40
+            code: 'Ex-wife '
+          - cell: AM41
+            code: 'In Law '
+          - cell: AM42
+            code: 'Legal Guardian '

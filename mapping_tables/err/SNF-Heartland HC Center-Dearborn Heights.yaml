@@ -1,0 +1,23 @@
+base: SNF-Heartland HC Center-Dearborn Heights
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Heartland HC Center-Dearborn Heights ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '155053479'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '2021062700332600000001'
+          field name: PID-30
+          field value: '""'
+          message count: 38
+          receiving org message ID: 19951890
+        - HL7 ID: '154972896'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '2021062523420300000008'
+          field name: PV1-36
+          field value: '""'
+          message count: 59
+          receiving org message ID: 19919634

@@ -1,0 +1,25 @@
+base: McKenzie Health System
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/McKenzie Health System ADT 2.0 table 10-1-19.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE111
+            code: EN
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP4
+          - cell: AP5
+          - cell: AP6
+          - cell: AP7
+          - cell: AP8
+          - cell: AP9
+          - cell: AP10

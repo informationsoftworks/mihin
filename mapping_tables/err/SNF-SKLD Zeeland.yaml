@@ -1,0 +1,35 @@
+base: SNF-SKLD Zeeland
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Zeeland ADT 2.0 table 10-23-18.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '41831214938'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '2021042313010800000001'
+          field name: PID-30
+          field value: '""'
+          message count: 1
+          receiving org message ID: 32971473
+        - HL7 ID: '41831214938'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '2021042313010800000001'
+          field name: PV1-36
+          field value: '""'
+          message count: 2
+          receiving org message ID: 32971473
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Zeeland ADT 2.0 table 10-23-18.xlsx
+      list:
+      - error: Incomplete, non-specific or abbreviated facility name
+        level: Warning
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            code: 2.16.840.1.113883.3.5416.1.9414
+            label: SKLD Zeeland

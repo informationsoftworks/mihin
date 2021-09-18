@@ -1,0 +1,442 @@
+filename	0	0		2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Grand Traverse Pavilions ADT 2.0 tables 3-13-17.xlsx			
+MSH-4	2	1	Hospital Value	Description			4
+MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
+MSH-4	4	1	2.16.840.1.113883.3.6863	Grand Traverse Pavilions			0
+PID-8	2	3	MiHIN Value	Description	Hospital Value		4
+PID-8	3	3	M	Male	M		2
+PID-8	4	3	F	Female	F		4
+PID-8	5	3	M	Male	M		4
+PID-8	6	3	O	Other			4
+PID-8	7	3	U	Unknown			4
+PID-8	8	3	A	Ambiguous			4
+PID-8	9	3	N	Not Applicable			4
+PID-10	2	6	MiHIN Value	Description	Hospital Value		4
+PID-10	3	6	2106-3	White	W		2
+PID-10	4	6	1002-5	American Indian or Alaska Native	1002-5		4
+PID-10	5	6	2028-9	Asian	2028-9		4
+PID-10	6	6	2054-5	Black or African American	2054-5		4
+PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander			4
+PID-10	8	6	2106-3	White	2106-3		4
+PID-10	9	6	2131-1	Other Race	2131-1		4
+PID-10	10	6	MR	Multi-Racial			4
+PID-10	11	6	PR	Patient Refused 			4
+PID-22	2	9	MiHIN Value	Description	Hospital Value		4
+PID-22	3	9	H	Hispanic or Latino	Hisp		2
+PID-22	4	9	H	Hispanic or Latino	H		4
+PID-22	5	9	N	Not Hispanic or Latino	N		4
+PID-22	6	9	U	Unknown	U		4
+PID-22	7	9	D	Declined			4
+PID-22	8	9	AN	Alaskan Native 			4
+PID-22	9	9	AR	Arabic 			4
+PID-22	10	9	AS	Asian 			4
+PID-22	11	9	CA	Caucasian			4
+PID-22	12	9	CHA	Chaldean 			4
+PID-22	13	9	CHI	Chinese 			4
+PID-22	14	9	DU	Dutch 			4
+PID-22	15	9	EG	Egyptian 			4
+PID-22	16	9	FR	French 			4
+PID-22	17	9	GER	German 			4
+PID-22	18	9	GRE	Greek 			4
+PID-22	19	9	HA	Hawaiian 			4
+PID-22	20	9	IRA	Iranian 			4
+PID-22	21	9	IRQ	Iraqi 			4
+PID-22	22	9	IRH	Irish 			4
+PID-22	23	9	ITA	Italian 			4
+PID-22	24	9	JA	Japanese 			4
+PID-22	25	9	JE	Jewish 			4
+PID-22	26	9	JO	Jordanian 			4
+PID-22	27	9	KO	Korean 			4
+PID-22	28	9	LE	Lebanese  			4
+PID-22	29	9	MAC	Macedonian 			4
+PID-22	30	9	ME	Middle Eastern			4
+PID-22	31	9	MUL	Multi-Ethnic 			4
+PID-22	32	9	NA	Native American			4
+PID-22	33	9	O	Other 			4
+PID-22	34	9	PO	Polish 			4
+PID-22	35	9	RU	Russian 			4
+PID-22	36	9	SC	Scottish 			4
+PID-22	37	9	UK	Ukrainian 			4
+PID-22	38	9	VIT	Vietnamese 			4
+PID-30	2	12	MiHIN Value	Description	Hospital Value		4
+PID-30	3	12	Y	Expired	E		2
+PID-30	4	12	Y	Deceased/Yes			4
+PID-30	5	12	N	Not Deceased/No			4
+DG1-6	2	15	MiHIN Value	Description	Hospital Value		4
+DG1-6	3	15	A	Admitting	AD		2
+DG1-6	4	15	A	Admitting	A		4
+DG1-6	5	15	F	Final			4
+DG1-6	6	15	W	Working 	W		4
+DG1-6	7	15	O	Other			4
+PV1-2	2	18	MiHIN Value	Description	Hospital Value		4
+PV1-2	3	18	E	Emergency	ER		2
+PV1-2	4	18	B	Obstetrics			4
+PV1-2	5	18	C	Commercial Account			4
+PV1-2	6	18	E	Emergency			4
+PV1-2	7	18	I	Inpatient	I		4
+PV1-2	8	18	N	Not Applicable			4
+PV1-2	9	18	O	Outpatient	O		4
+PV1-2	10	18	P	Preadmit			4
+PV1-2	11	18	R	Recurring patient			4
+PV1-2	12	18	U	Unknown			4
+PV1-2	13	18	IH	IP Hospice 			4
+PV1-2	14	18	NB	Newborn			4
+PV1-2	15	18	OB	Observation 			4
+PV1-2	16	18	SN	Skilled Nursing 			4
+PV1-2	17	18	SA	Surgery Admit 			4
+PV1-4	2	21	MiHIN Value	Description	Hospital Value		4
+PV1-4	3	21	E	Emergency	E		2
+PV1-4	4	21	A	Accident			4
+PV1-4	5	21	C	Elective			4
+PV1-4	6	21	E	Emergency			4
+PV1-4	7	21	L	Labor and Delivery			4
+PV1-4	8	21	N	Newborn (Birth in healthcare facility)			4
+PV1-4	9	21	R	Routine	R		4
+PV1-4	10	21	U	Urgent			4
+PV1-4	11	21	TC	Trauma Center 			4
+PV1-4	12	21	O	Other			4
+PV1-14	2	24	MiHIN Value	Description	Hospital Value		4
+PV1-14	3	24	2	Clinic referral	E		2
+PV1-14	4	24	1	Physician referral	CR		4
+PV1-14	5	24	2	Clinic referral			4
+PV1-14	6	24	3	HMO referral	HR		4
+PV1-14	7	24	4	Transfer from a hospital	BB		4
+PV1-14	8	24	5	Transfer froma skilled nursing facility	3		4
+PV1-14	9	24	6	Transfer from another health care facility			4
+PV1-14	10	24	7	Emergency Room	EM		4
+PV1-14	11	24	8	Court/Law enforcement	CL		4
+PV1-14	12	24	9	Information not available	NA		4
+PV1-14	13	24	SR	Self-Referral	1		4
+PV1-14	14	24	TRNF	Transfer from a non-health care facility			4
+PV1-14	15	24	TRAD	Transfer from Ambulatory Department	E1		4
+PV1-18	2	27	MiHIN Suggested Values		Hospital Value	Description	4
+PV1-18	3	27			A	Anonymous	2
+PV1-18	4	27	1	Anonymous			4
+PV1-18	5	27	2	Confidential			4
+PV1-18	6	27	3	Employee			4
+PV1-18	7	27	4	Dismissed			4
+PV1-18	8	27	5	No Medicare			4
+PV1-18	9	27	6	Prisoner			4
+PV1-18	10	27	7	VIP			4
+PV1-18	11	27	8	Staff Dependent			4
+PV1-18	12	27	9	Benefactor			4
+PV1-18	13	27	10	Employee Dependent			4
+PV1-18	14	27	11	Non-Employee			4
+PV1-18	15	27	12	Volunteer			4
+PV1-18	16	27	13	Staff Physician			4
+PV1-18	17	27	14	Non V.I.P			4
+PV1-18	18	27	15	Retired Employee			4
+PV1-18	19	27	42	Homeless			4
+PV1-18	20	27	44	Celebrity			4
+PV1-18	21	27	45	Donor			4
+PV1-18	22	27	46	Transplant			4
+PV1-18	23	27	47	Voucher			4
+PV1-18	24	27	49	Board Member			4
+PV1-18	25	27	49	Clergy			4
+PV1-18	26	27	52	Other			4
+PV1-18	27	27	58	Organ Donor			4
+PV1-18	28	27	59	Organ 			4
+PV1-18	29	27	60	Select Specialty			4
+PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
+PV1-10	3	31			121	Pediatrics	2
+PV1-10	4	31	104	Cardiology - General			4
+PV1-10	5	31	105	Emergency Medicine			4
+PV1-10	6	31	107	Geriatrics			4
+PV1-10	7	31	108	Gastroenterology			4
+PV1-10	8	31	109	Gynecology			4
+PV1-10	9	31	110	Hospice Medicine			4
+PV1-10	10	31	111	Medical Intensive Care			4
+PV1-10	11	31	112	Internal Medicine			4
+PV1-10	12	31	114	Neuro ICU			4
+PV1-10	13	31	115	Neurology			4
+PV1-10	14	31	116	Neonatology			4
+PV1-10	15	31	117	Obstetrics			4
+PV1-10	16	31	118	Oncology			4
+PV1-10	17	31	119	Orthopedics			4
+PV1-10	18	31	121	Pediatrics			4
+PV1-10	19	31	123	Physical Medicine and Rehabilitation			4
+PV1-10	20	31	124	General Surgery			4
+PV1-10	21	31	125	Surgical Intensive Care			4
+PV1-10	22	31	126	Nephrology Transplant			4
+PV1-10	23	31	127	Acute Care Surgery			4
+PV1-10	24	31	128	Allergy & Immunology			4
+PV1-10	25	31	129	Anesthesiology			4
+PV1-10	26	31	131	Dermatology			4
+PV1-10	27	31	132	Family Medicine			4
+PV1-10	28	31	133	Endocrinology			4
+PV1-10	29	31	134	Genetics			4
+PV1-10	30	31	135	Hematology			4
+PV1-10	31	31	136	Infectious Disease			4
+PV1-10	32	31	137	Nephrology			4
+PV1-10	33	31	138	Neurosurgery			4
+PV1-10	34	31	139	Ophthalmology			4
+PV1-10	35	31	140	Otolaryngology/ENT			4
+PV1-10	36	31	141	Plastic Surgery			4
+PV1-10	37	31	143	Radiation Oncology			4
+PV1-10	38	31	144	Rheumatology			4
+PV1-10	39	31	145	Urology			4
+PV1-10	40	31	148	Pharmacy			4
+PV1-10	41	31	149	Interventional Radiology			4
+PV1-10	42	31	150	Clinical Decision Unit			4
+PV1-10	43	31	151	Wound/Ostomy Care			4
+PV1-10	44	31	153	Newborn			4
+PV1-10	45	31	154	Labor and Delivery			4
+PV1-10	46	31	156	Hospitalist Medicine			4
+PV1-10	47	31	158	Select Specialty			4
+PV1-10	48	31	161	Audiology			4
+PV1-10	49	31	162	Behavioral Health - Psychology			4
+PV1-10	50	31	163	Cardiology - Structural Heart Disease			4
+PV1-10	51	31	165	Colon/Rectal Surgery			4
+PV1-10	52	31	166	Gynecology/Oncology			4
+PV1-10	53	31	172	Oral Surgery			4
+PV1-10	54	31	175	Palliative Medicine 			4
+PV1-10	55	31	178	Podiatry			4
+PV1-10	56	31	180	Radiology			4
+PV1-10	57	31	181	Sleep Center			4
+PV1-10	58	31	184	Cardiac Surgery			4
+PV1-10	59	31	185	Transplant			4
+PV1-10	60	31	198	Bone Marrow Transplant			4
+PV1-10	61	31	208	Chemotherapy			4
+PV1-10	62	31	273	Pathology			4
+PV1-10	63	31	293	Pulmonary			4
+PV1-10	64	31	322	Thoracic Surgery			4
+PV1-10	65	31	374	Transfusion Medicine			4
+PV1-10	66	31	376	Family Practice			4
+PV1-10	67	31	380	Orthopedic - Hand Surgery			4
+PV1-10	68	31	381	Orthopedic - Spine			4
+PV1-10	69	31	384	Hepatology			4
+PV1-10	70	31	385	Pain Management			4
+PV1-10	71	31	387	Urogynecology			4
+PV1-10	72	31	399	Bone & Mineral			4
+PV1-10	73	31	409	Cardiology - Electrophysiology			4
+PV1-10	74	31	463	Bariatric Surgery			4
+PV1-10	75	31	464	Intensive Care			4
+PV1-10	76	31	465	Pulmonary Hypertension			4
+PV1-10	77	31	466	Pulmonary Transplant			4
+PV1-10	78	31	467	Pulmonary Interventional			4
+PV1-10	79	31	469	Transplant HPB Surgery			4
+PV1-10	80	31	470	Cardiothoracic Transplant			4
+PV1-10	81	31	471	Vascular Surgery			4
+PV1-10	82	31	472	Speech Pathology			4
+PV1-10	83	31	473	Cardiology - Advanced Heart Failure/Transplant			4
+PV1-10	84	31	474	Cardiology - Vascular Medicine			4
+PV1-10	85	31	475	Physiatry			4
+PV1-10	86	31	476	Orthopedic - Surgery			4
+PV1-10	87	31	477	Cardiovascular SICU			4
+PV1-10	88	31	478	Behavioral Health - Neuropsychology			4
+PV1-10	89	31	479	Behavioral Health - Psychiatry			4
+PV1-10	90	31	480	Surgical Endoscopy			4
+PV1-10	91	31	481	Ethics			4
+PV1-10	92	31	482	Trauma Surgery			4
+PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	4
+PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
+PV1-36	4	35	01	Discharged to home or self care (routine discharge)			4
+PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care			4
+PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.			4
+PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)			4
+PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list			4
+PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization			4
+PV1-36	10	35	07	Left against medical advice or discontinued care			4
+PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider			4
+PV1-36	12	35	09	Admitted as an inpatient to this hospital			4
+PV1-36	13	35	20	Expired			4
+PV1-36	14	35	30	Still Patient			4
+PV1-36	15	35	40	Expired at home			4
+PV1-36	16	35	41	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)			4
+PV1-36	17	35	42	Expired - place unknown			4
+PV1-36	18	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)			4
+PV1-36	19	35	50	Hospice - home			4
+PV1-36	20	35	51	Hospice - medical facility			4
+PV1-36	21	35	61	Discharged/transferred to hospital-based Medicare approved swing bed			4
+PV1-36	22	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)			4
+PV1-36	23	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)			4
+PV1-36	24	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)			4
+PV1-36	25	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)			4
+PV1-36	26	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)			4
+IN1-17	2	39	MiHIN Value	Description	Hospital Value		4
+IN1-17	3	39	FTH	Father 	F		2
+IN1-17	4	39	ASC	Associate			4
+IN1-17	5	39	BRO	Brother 			4
+IN1-17	6	39	CGV	Care giver 			4
+IN1-17	7	39	CHD	Child			4
+IN1-17	8	39	DEP	Handicapped dependant			4
+IN1-17	9	39	DOM	Life partner			4
+IN1-17	10	39	EMC	Emergency contact			4
+IN1-17	11	39	EME	Employee			4
+IN1-17	12	39	EMR	Employer			4
+IN1-17	13	39	EXF	Extended family			4
+IN1-17	14	39	FCH	Foster child 			4
+IN1-17	15	39	FND	Friend			4
+IN1-17	16	39	FTH	Father 			4
+IN1-17	17	39	GCH	Grandchild			4
+IN1-17	18	39	GRD	Guardian 			4
+IN1-17	19	39	GRP	Grandparent 			4
+IN1-17	20	39	MGR	Manager			4
+IN1-17	21	39	MTH	Mother 			4
+IN1-17	22	39	NCH	Natural child			4
+IN1-17	23	39	NON	None			4
+IN1-17	24	39	OAD	Other adult			4
+IN1-17	25	39	OTH	Other 			4
+IN1-17	26	39	OWN	Owner			4
+IN1-17	27	39	PAR	Parent 			4
+IN1-17	28	39	SCH	Stepchild 			4
+IN1-17	29	39	SEL	Self			4
+IN1-17	30	39	SIB	Sibling 			4
+IN1-17	31	39	SIS	Sister 			4
+IN1-17	32	39	SPO	Spouse			4
+IN1-17	33	39	TRA	Trainer			4
+IN1-17	34	39	UNK	Unknown			4
+IN1-17	35	39	WRD	Ward of court			4
+IN1-17	36	39	AUN	Aunt 			4
+IN1-17	37	39	DAU	Daughter			4
+IN1-17	38	39	EXS	Ex Spouse 			4
+IN1-17	39	39	EXH	Ex-husband			4
+IN1-17	40	39	EXW	Ex-wife 			4
+IN1-17	41	39	INL	In Law 			4
+IN1-17	42	39	LEG	Legal Guardian 			4
+IN1-17	43	39	SON	Son (S)			4
+IN1-17	44	39	STP	Step Parent (STP)			4
+IN1-17	45	39	STS	Step Sibling			4
+IN1-17	46	39	UN	Uncle (UN)			4
+IN1	2	42	IN1-3 Value	IN1-4 Value	Payer		4
+IN1	3	42	1001	BCN	BCBSM		2
+IN1	4	42	AAAMI	AAA Insurance of Michigan	AAA Insurance		0
+IN1	5	42	AARP	AARP	AARP		0
+IN1	6	42	AARPUN	AARP HEALTH CARE OPTIONS	AARP-UHC		0
+IN1	7	42	AdVentist	Adventist Risk Mgmt	Adventist Risk Management		0
+IN1	8	42	AETNA MCR B	AETNA MCR ADV B	AETNA		0
+IN1	9	42	AETNA MCR A	AETNA MEDICARE ADV A	AETNA Medicare		0
+IN1	10	42	AETNA	AETNA US HEALTHCARE	AETNA US HEALTHCARE		0
+IN1	11	42	ALLSI	All State Insurance	All State Insurance		0
+IN1	12	42	AMA	AMA INSURANCE AGENCY	AMA INSURANCE		0
+IN1	13	42	10424	American Continental	American Continental Ins		0
+IN1	14	42	AFLAC	American Family Life	American Family Life		0
+IN1	15	42	ANICO	American National Life Insurance Co	ANICO		0
+IN1	16	42	Am Republic	American Republc Insurance	Am Republic OP Part B		0
+IN1	17	42	Am Republic	American Republc Insurance	Am Republic SNF		0
+IN1	18	42	AUTO	Auto Owners Ins. Co.	Auto Owners Ins		0
+IN1	19	42	BF	BANKERS FIDELITY	BANKERS FIDELITY		0
+IN1	20	42	BANKERS	Bankers Life	Bankers Life Ins		0
+IN1	21	42	BANKC	Bankers Life and Casualty Company	Bankers Life & Casualty		0
+IN1	22	42	BCBSFED 	Bc/Bs Federal EP	Bc/Bs Federal Outpat		0
+IN1	23	42	BC/BS-Carefirst	BC/BS-Carefirst	Blue Care First		0
+IN1	24	42	BCN	BCN Advantage-Snf	BCNAdvantage Part A		0
+IN1	25	42	BCN Adv B	BCN MedicareAdvB	BCN MCR Adv B		0
+IN1	26	42	BLUECARE	Blue Care Network - Claims	Blue Care Network		0
+IN1	27	42	BCN HMO	Blue Care Network HMO	Blue Care Network HMO		0
+IN1	28	42	BCN HMO	Blue Care Network HMO	BCN MedicareAdvantage		0
+IN1	29	42	BCN HMO	Blue Care Network HMO	Blue Care Network-SNF		0
+IN1	30	42	BCFEP	Blue Cross Blue Shield - FEP	Blue Cross FEP		0
+IN1	31	42	BC/BS	Blue Cross Blue Shield Co-Insurance	BCBS SNF Part A/B		0
+IN1	32	42	BC/BS	Blue Cross Blue Shield Co-Insurance	BC/BS Copay Part B		0
+IN1	33	42	BCBS Private	Blue Cross Blue Shield MI	BCBS OT Private		0
+IN1	34	42	BCBS Private	Blue Cross Blue Shield MI	BCBS SNF Private		0
+IN1	35	42	Broad	Broadspire	Broadspire WC		0
+IN1	36	42	CBCA	CBCA	CBCA Coins		0
+IN1	37	42	CSI	Central States Indemnity	Central States Indemnity		0
+IN1	38	42	CHAM	CHAMPVA	CHAMPVA		0
+IN1	39	42	CIGNA	CIGNA HEALTH CARE	CIGNA HEALTH CARE		0
+IN1	40	42	Cinn	Cincinnati Insurance	Cincinnati Insurance		0
+IN1	41	42	CIC	Citizens Insurance Company	Citizens Insurance Company		0
+IN1	42	42	CIT	CITIZENS MANAGEMENT INC	CITIZENS MANAGEMENT INC		0
+IN1	43	42	COFIN	Cofinity Insurance	Cofinity Insurance		0
+IN1	44	42	8660	Colonial Penn Life Ins	Colonial Penn Life Ins		0
+IN1	45	42	CMIM	Consumers Mutual Insurance of Michigan	Part A/B		0
+IN1	46	42	CGIC	Continential General Insurance Co	Continental General  Insurance Co		0
+IN1	47	42	Cov	Coventry	Coventry		0
+IN1	48	42	9987	Eagle Claims Management	Eagle Claims Mgmt		0
+IN1	49	42	EQUITABLE	EQUITABLE LIFE & CASUALTY INS CO	EQUITABLE LIFE AND CASUALTY		0
+IN1	50	42	FARM	FARM BUREAU INS	Farm Bureau Ins SNF		0
+IN1	51	42	FARM	FARM BUREAU INS	Farm Bureau OT		0
+IN1	52	42	FCPI	Forest County Potawatomi 	Forest County Potawatomi		0
+IN1	53	42	Forest Cty	Forest County Potawatomi	Forest County Potawatomi SNF		0
+IN1	54	42	Forest Cty	Forest County Potawatomi	Forest County Potawatomi OP		0
+IN1	55	42	Fremont	Fremont Insurance	Fremont Auto Insurance		0
+IN1	56	42	Gerber	Gerber Life Insurance	Gerber Life Insurance		0
+IN1	57	42	GR	Golden Rule	Golden Rule		0
+IN1	58	42	GPM Life	Gov't Personnel Mutual	Gov't Personnel OP		0
+IN1	59	42	10264	GPM Life Ins Co	Government Personnel Mutual Life		0
+IN1	60	42	GRANT	Grant	Grant		0
+IN1	61	42	Hartford Coins	Hartford Life & Accident 	Hartford Life & Accident 		0
+IN1	62	42	HART	HARTFORD LIFE & ACCIDENT INS CO	Hartford Life & Accident		0
+IN1	63	42	HPE	Harvard Pilgrim HC COINS	Harvard Pilgrim Health Care OP		0
+IN1	64	42	HPM	Health Plan of Michigan Meridan	Health Plan of Michigan-Outpatient		0
+IN1	65	42	HEART	Heartland Hospice-MCD	Heartland Hospice-MCD		0
+IN1	66	42	HOM BCBS	Hospice of MI BCBS	BCBS Hospice		0
+IN1	67	42	HOM	Hospice of Michigan Private	Outpatient Private		0
+IN1	68	42	HOM	Hospice of Michigan Private	SNF Private		0
+IN1	69	42	Hsp MA	Hospice of Michigan-MCD	Hospice of MI Medicaid		0
+IN1	70	42	Hsp Pri	Hospice Private	Hospice Private		0
+IN1	71	42	Huma	Humana	Humana		0
+IN1	72	42	Humana B	Humana Adv B	Humana Adv B		0
+IN1	73	42	HUMADV	Humana Advantage A	Humana Adv		0
+IN1	74	42	IMA Private	IMA	IMA OT Private		0
+IN1	75	42	IEHP	Inland Empire Health Plan	Medicare Advantage		0
+IN1	76	42	IEHP B	Inland Empire Health Plan Part B	Advantage Part B		0
+IN1	77	42	LM	Liberty Mutual	Liberty Mutual Insurance		0
+IN1	78	42	LINC	Lincoln Heritage Life Ins Co	Lincoln Heritage Life Ins Co		0
+IN1	79	42	LTCG	Long Term Care Group	Long Term Care Group		0
+IN1	80	42	Loyal	Loyal American Life Insurance Company	Loyal American Life Insurance Company Outpatient		0
+IN1	81	42	Loyal	Loyal American Life Insurance Company	Loyal American Life Insurance Company SNF		0
+IN1	82	42	MAIL	Mailhandlers Benefit Plan	Mailhandlers Benefit Plan		0
+IN1	83	42	9817	Manhattan Life Ins Co	Manhatton Life Ins Co		0
+IN1	84	42	MA	Medicaid	SNF		0
+IN1	85	42	MCD Pend	Medicaid Pending	Medicaid Pending		0
+IN1	86	42	Med A	Medicare A	Medicare A		0
+IN1	87	42	Med B	Medicare B	Medicare B-Outpatient WPS		0
+IN1	88	42	Med B	Medicare B	Medicare B-Inpatient NGS		0
+IN1	89	42	Plus Blue	Medicare Plus Blue A	Plus Blue A		0
+IN1	90	42	Plus Blue B	Medicare Plus Blue B 	Plus Blue B		0
+IN1	91	42	MEEMIC	MEEMIC Insurance Company	MEEMIC Insurance Company		0
+IN1	92	42	Mercer	Mercer Health Benefits	Mercer Coins		0
+IN1	93	42	Meridian	Meridian Health Plan	Meridian Health Plan		0
+IN1	94	42	MERITIAN	Meritian Health	Meritan Health		0
+IN1	95	42	Frankenmuth	Mitchell WSC Frankenmuth	Mitchell WSC Frankenmuth		0
+IN1	96	42	Mun Hosp	Munson Hospice-MCD	Munson Hospice-MCD		0
+IN1	97	42	MUN	Munson Risk Management	Munson Risk Management		0
+IN1	98	42	MUTUAL	Mutual of Omaha Ins Co	Mutual of Omaha Ins Co		0
+IN1	99	42	NALCHBP	National Association of Letter Carriers Health Benefit Plan	National Association of Letter Carriers Health Ben		0
+IN1	100	42	NAT	National Automatic Sprinkler Industry	National Automatic Sprinkler		0
+IN1	101	42	Nat Gen	National General Auto Insurance	National General 		0
+IN1	102	42	Oxford	Oxford Life	Oxford SNF COINS		0
+IN1	103	42	Para	Paramount	Paramount		0
+IN1	104	42	PHYS	Physician's Benefit Trust	Physician's Benefit Trust		0
+IN1	105	42	PHP	Physicians Health Plan	Physicians Health Plan		0
+IN1	106	42	PRIORADV	Priority Health Advantage A	Priority Medicare A		0
+IN1	107	42	Priority	Priority Health Co Ins	Priority Health Coins		0
+IN1	108	42	PRIOR	Priority Health Insurance	Priority Health Snf HMO/PPO		0
+IN1	109	42	PRIOR	Priority Health Insurance	Priority Outpatient HMO		0
+IN1	110	42	Priority MCD	Priority Medicaid HMO 	Priority Medicaid HMO		0
+IN1	111	42	PRIADVMEDB	Priority Medicare B	Priority Medicare B		0
+IN1	112	42	Pri Pay	Private Pay	Private Pay		0
+IN1	113	42	Pri Pay	Private Pay	Private Hospice		0
+IN1	114	42	Pri Pay-Cons	Private Pay Conservator	Private Pay Conservator		0
+IN1	115	42	PPD	Private Pay Deposit	Private Pay Deposit		0
+IN1	116	42	PBS	Professional Benefit Services	Pro Benefit Serv Coins		0
+IN1	117	42	Pro	Progressive Insurance	Progressive		0
+IN1	118	42	PRUD	Prudentail Insurance Co of America	Prudential Insurance		0
+IN1	119	42	RUG Pend	RUGs Pending	RUGs Pending		0
+IN1	120	42	9665	Rural Carrier Benefit Plan	Rural Carrier Benefit Plan		0
+IN1	121	42	Secure Horizons A	Secure Horizons A	Secure Horizons Part A		0
+IN1	122	42	Secure B	Secure Horizons B	Secure Horizons B		0
+IN1	123	42	SL	Standard Life & Accident Insurance Co	Standard Life & Accident Insurance		0
+IN1	124	42	State Farm	State Farm Health Insurance	State Farm Health Insurance		0
+IN1	125	42	st	State Farm Insurance	State Farm Insurance		0
+IN1	126	42	SBL	Stonebridge Life	Stonebridge		0
+IN1	127	42	United Healthcare	The Empire Plan	Copay Part B		0
+IN1	128	42	Titan	Titan Insurance	Titan Insurance		0
+IN1	129	42	TWEF	Toledo Welfare Electric Fund	Toledo WEF Coins		0
+IN1	130	42	9451	Transamerica 	Transamerica Ins		0
+IN1	131	42	Traveler's	Traveler's Insurance Ce	Traveler's Insurance Company		0
+IN1	132	42	TriCare	Tricare Co-Insurances	Tricare for Life		0
+IN1	133	42	TriCare Outpatient	TriCare Out	TriCare Out Therapy		0
+IN1	134	42	UMR	UMR	UMR		0
+IN1	135	42	UNIT	United American Ins Co	United American Ins Co		0
+IN1	136	42	UCT	United Commercial Travelers	UCT/Outpatient		0
+IN1	137	42	UHC	United Healthcare	United Healthcare		0
+IN1	138	42	UHCAdv B	United Healthcare	Med B Adv		0
+IN1	139	42	UHCAdv	United Healthcare A	Med A Advantage		0
+IN1	140	42	8805	United World Insurance Co	United World Ins Co		0
+IN1	141	42	USAA	USAA	USAA SNF Part A/B		0
+IN1	142	42	VA	VAMC	VA SNF Part A/B		0
+IN1	143	42	WAIVER	Waiver	Waiver		0
+IN1	144	42	Wash Nat	Washington National Insurance	Washington Nat		0

@@ -1,0 +1,94 @@
+base: UP Health System Portage
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/UP Health System Portage ADT 2.0 table 10-17-19.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: ADT-CHRTWS.1.12288693
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '202109140606'
+          field name: PID-30
+          field value: '""'
+          message count: 46
+          receiving org message ID: 27237714
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/UP Health System Portage ADT 2.0 table 10-17-19.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE11
+            label: 'Internal Medicine, MEDICAL, '
+          - cell: AE15
+            label: 'EDUCATION CHILDBIRTH CLASSES, '
+          - cell: AE17
+            label: 'Orthopedics, sports medicine, '
+          - cell: AE20
+            label: 'Surgery, MEDICAL SURGICAL DAYCARE, sds surgical, '
+          - cell: AE23
+            label: 'LTC OUTPATIENT, '
+          - cell: AE26
+            label: 'dermatology, '
+          - cell: AE41
+            label: 'nuclear medicine, '
+          - cell: AE45
+            label: 'ob outpatient, '
+          - cell: AE47
+            label: 'EDUCATION, nutrition services, swing bed, '
+          - cell: AE53
+            label: 'Oral Surgery, periodontics, '
+          - cell: AE65
+            label: 'infusion therapy, '
+          - cell: AE93
+            label: 'community resource, '
+          - cell: AE94
+            label: 'LABORATORY, reference labs, '
+          - cell: AE97
+            label: 'obervation, '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-10
+          see:
+          - cell: F4
+            code: 'AA, NA, '
+          - cell: F9
+            code: 'OT, UN, HI, '
+        - hl7 segment: PV1-14
+          see:
+          - cell: X14
+            code: 'HOME, PHY, SDC, RSHHA, '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE11
+            code: 'IME, MED, '
+          - cell: AE15
+            code: 'EDU-BIRTH, '
+          - cell: AE17
+            code: 'ORT, SP, '
+          - cell: AE20
+            code: 'SUR, MSDC, SDC SURG, '
+          - cell: AE23
+            code: 'LTO, '
+          - cell: AE26
+            code: 'der, '
+          - cell: AE45
+            code: 'OBO, '
+          - cell: AE47
+            code: 'EDUCATION, nutrit, stn, '
+          - cell: AE53
+            code: 'OSU, PER, '
+          - cell: AE65
+            code: 'SDC INF, '
+          - cell: AE93
+            code: 'COMM, '
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM25
+            code: 'FO, CD, CH/INS, CH/NO FIN, EM, INJ PLAIN, MD OR MD, NE/NI, OD, SP DEP, '

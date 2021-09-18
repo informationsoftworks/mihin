@@ -1,0 +1,93 @@
+base: HHA-Trinity HCHB
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Trinity HCHB ADT 2.0 table 11-13-17.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 20210714232650ANH00020682701
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210714232650'
+          field name: PV1-36
+          field value: '""'
+          message count: 567
+          receiving org message ID: 69341895
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Trinity HCHB ADT 2.0 table 11-13-17.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM5
+            code: 'Brother '
+          - cell: AM16
+            code: 'Father '
+          - cell: AM18
+            code: 'Guardian '
+          - cell: AM21
+            code: 'Mother '
+          - cell: AM25
+            code: 'Other '
+          - cell: AM31
+            code: 'Sister '
+          - cell: AM36
+            code: 'Aunt '
+        - hl7 segment: IN1
+          see:
+          - cell: AP76
+            code: 'AMERIHEALTH '
+          - cell: AP77
+            code: 'AMERIHEALTH '
+          - cell: AP78
+            code: 'AMERIHEALTH '
+          - cell: AP79
+            code: 'AMERIHEALTH '
+          - cell: AP80
+            code: 'AMERIHEALTH '
+          - cell: AP81
+            code: 'AMERIHEALTH '
+          - cell: AP82
+            code: 'AMERIHEALTH '
+          - cell: AP83
+            code: 'AMERIHEALTH '
+          - cell: AP84
+            code: 'AMERIHEALTH '
+          - cell: AP85
+            code: 'AMERIHEALTH '
+          - cell: AP86
+            code: 'AMERIHEALTH '
+          - cell: AP107
+            code: 'ASSURANT HEALTH '
+          - cell: AP108
+            code: 'ASSURANT HEALTH '
+          - cell: AP109
+            code: 'ASSURANT HEALTH '
+          - cell: AP110
+            code: 'ASSURANT HEALTH '
+          - cell: AP214
+            code: 'CC AETNA '
+          - cell: AP215
+            code: 'CC AETNA '
+          - cell: AP792
+            code: 'SELF PAY '
+          - cell: AP793
+            code: 'SELF PAY '
+          - cell: AP794
+            code: 'SELF PAY '
+          - cell: AP795
+            code: 'SELF PAY '
+          - cell: AP796
+            code: 'SELF PAY '
+          - cell: AP797
+            code: 'SELF PAY '
+          - cell: AP798
+            code: 'SELF PAY '
+          - cell: AP799
+            code: 'SELF PAY '
+          - cell: AP800
+            code: 'SELF PAY '

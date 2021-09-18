@@ -1,0 +1,23 @@
+base: HHA-Heartland Home Care-Flint
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Heartland Home Care-Flint ADT Tables 07-18-18.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '20210912182703'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210912182703'
+          field name: PID-30
+          field value: '""'
+          message count: 18
+          receiving org message ID: 27153533
+        - HL7 ID: '20210807185139'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210807185139'
+          field name: PV1-36
+          field value: '""'
+          message count: 6
+          receiving org message ID: 74565442

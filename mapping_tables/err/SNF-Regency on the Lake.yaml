@@ -1,0 +1,23 @@
+base: SNF-Regency on the Lake
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Regency on the Lake ADT 2.0 Table 11-29-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: af765ee857f04bb1b14bf0354aafbd39
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210907033142'
+          field name: PID-30
+          field value: '""'
+          message count: 7
+          receiving org message ID: 81035716
+        - HL7 ID: d46049eec1774950a4c4df7870bd7c8e
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210813152156'
+          field name: PV1-36
+          field value: '""'
+          message count: 3
+          receiving org message ID: 24635628

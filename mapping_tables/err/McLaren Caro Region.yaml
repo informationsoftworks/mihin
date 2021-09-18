@@ -1,0 +1,21 @@
+base: McLaren Caro Region
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Caro Region ADT 2.0 table 03-26-19.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA57
+            code: 'LD '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE139
+            code: 'CQC '
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM25
+            code: 'Other relationship, Sponsored Dependent, Significant Other, Injured Plaintiff '

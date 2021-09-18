@@ -1,0 +1,23 @@
+base: SNF-Medilodge of Monroe
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Monroe ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 683a9cad125246669f2d8f704acab050
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210905100359'
+          field name: PID-30
+          field value: '""'
+          message count: 6
+          receiving org message ID: 26463364
+        - HL7 ID: 66091150a33641f2bfcf949252aaf847
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210901145855'
+          field name: PV1-36
+          field value: '""'
+          message count: 5
+          receiving org message ID: 26107488

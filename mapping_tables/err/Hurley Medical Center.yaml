@@ -1,0 +1,83 @@
+base: Hurley Medical Center
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Hurley Medical Center ADT 2.0 table 7-16-19.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '61041159'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210917021110'
+          field name: PID-30
+          field value: '""'
+          message count: 319
+          receiving org message ID: 27391196
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Hurley Medical Center ADT 2.0 table 7-16-19.xlsx
+      list:
+      - error: Invalid OID
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A6
+            code: '2.16.840.1.113883.3.3413.2     '
+            value: HURLEY HEALTH SERVICES- SERVICE AREA - 20 / SUB ID
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE5
+            label: 'Emergency Room, DIRECT TO MORGUE, '
+          - cell: AE11
+            label: 'Internal Medicine, COMPREHENSIVE WEIGHT LOSS, MEDICAL, MEDICAL CLINIC, '
+          - cell: AE16
+            label: 'Heme-Oncology Clinic, BREAST HEALTH NAVIGATOR, '
+          - cell: AE17
+            label: 'Orthopedics, Pediatric Orthopedics, CTR JOINT REPLACEMENT, '
+          - cell: AE18
+            label: 'Pediatrics, After Hours Peds Ctr, Mott Peds Adolescent, Pediatric Clinic, DEVELOP ASSES, LR PEDS ASTHMA CLINIC, PEDS
+              SURGERY CLINIC, '
+          - cell: AE20
+            label: 'Surgery, COMPLEX CARE CLINIC, '
+          - cell: AE28
+            label: 'Endocrinology Clinic, GB Peds Endocrinology, Ped Endocrinology, DIABETES CLINIC, '
+          - cell: AE31
+            label: 'Infectious Disease, Peds Infectious Disease, DISEASE MANAGEMENT, '
+          - cell: AE32
+            label: 'Nephrology, Nephrology Peds Clin, TRANSPLANT CLINIC, '
+          - cell: AE49
+            label: 'Behavioral Medicine, HURLEY MENTAL HEALTH, PEDS PSYCH CLINIC, '
+          - cell: AE56
+            label: 'Radiology, MRI, NUCLEAR MEDICINE, '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE5
+            code: 'EMR, EPC, DTM, '
+          - cell: AE11
+            code: 'INT, CWL, MED, MEC, '
+          - cell: AE16
+            code: 'KMO, BHN, '
+          - cell: AE17
+            code: 'ORT, POR, JNT, '
+          - cell: AE18
+            code: 'PED, APC, ADO, PEC, DAC, LPA, PSG, '
+          - cell: AE20
+            code: 'SUR, COM, '
+          - cell: AE28
+            code: 'END, GBE, EDP, DBE, '
+          - cell: AE31
+            code: 'INF, INP, DSM, '
+          - cell: AE32
+            code: 'NER, NRP, TRN, '
+          - cell: AE49
+            code: 'PSY, HMH, PPS, '
+          - cell: AE56
+            code: 'RAD, MRI, NUC, '

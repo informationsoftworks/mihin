@@ -1,0 +1,656 @@
+base: HFPN
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/HFPN ADT 2.0 table 08-03-2021.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '252754735'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210831123150'
+          field name: PV1-36
+          field value: '""'
+          message count: 8
+          receiving org message ID: 18441215
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/HFPN ADT 2.0 table 06-25-2021.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM299
+            code: '1201'
+          - cell: AM300
+            code: '1202'
+          - cell: AM301
+            code: '1203'
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM47
+          - cell: AM48
+          - cell: AM49
+          - cell: AM50
+          - cell: AM51
+          - cell: AM52
+          - cell: AM53
+          - cell: AM54
+          - cell: AM55
+          - cell: AM56
+          - cell: AM57
+          - cell: AM58
+          - cell: AM59
+          - cell: AM60
+          - cell: AM61
+          - cell: AM62
+          - cell: AM63
+          - cell: AM64
+          - cell: AM65
+          - cell: AM66
+          - cell: AM67
+          - cell: AM68
+          - cell: AM69
+          - cell: AM70
+          - cell: AM71
+          - cell: AM72
+          - cell: AM73
+          - cell: AM74
+          - cell: AM75
+          - cell: AM76
+          - cell: AM77
+          - cell: AM78
+          - cell: AM79
+          - cell: AM80
+          - cell: AM81
+          - cell: AM82
+          - cell: AM83
+          - cell: AM84
+          - cell: AM85
+          - cell: AM86
+          - cell: AM87
+          - cell: AM88
+          - cell: AM89
+          - cell: AM90
+          - cell: AM91
+          - cell: AM92
+          - cell: AM93
+          - cell: AM94
+          - cell: AM95
+          - cell: AM96
+          - cell: AM97
+          - cell: AM98
+          - cell: AM99
+          - cell: AM100
+          - cell: AM101
+          - cell: AM102
+          - cell: AM103
+          - cell: AM104
+          - cell: AM105
+          - cell: AM106
+          - cell: AM107
+          - cell: AM108
+          - cell: AM109
+          - cell: AM110
+          - cell: AM111
+          - cell: AM112
+          - cell: AM113
+          - cell: AM114
+          - cell: AM115
+          - cell: AM116
+          - cell: AM117
+          - cell: AM118
+          - cell: AM119
+          - cell: AM120
+          - cell: AM121
+          - cell: AM122
+          - cell: AM123
+          - cell: AM124
+          - cell: AM125
+          - cell: AM126
+          - cell: AM127
+          - cell: AM128
+          - cell: AM129
+          - cell: AM130
+          - cell: AM131
+          - cell: AM132
+          - cell: AM133
+          - cell: AM134
+          - cell: AM135
+          - cell: AM136
+          - cell: AM137
+          - cell: AM138
+          - cell: AM139
+          - cell: AM140
+          - cell: AM141
+          - cell: AM142
+          - cell: AM143
+          - cell: AM144
+          - cell: AM145
+          - cell: AM146
+          - cell: AM147
+          - cell: AM148
+          - cell: AM149
+          - cell: AM150
+          - cell: AM151
+          - cell: AM152
+          - cell: AM153
+          - cell: AM154
+          - cell: AM155
+          - cell: AM156
+          - cell: AM157
+          - cell: AM158
+          - cell: AM159
+          - cell: AM160
+          - cell: AM161
+          - cell: AM162
+          - cell: AM163
+          - cell: AM164
+          - cell: AM165
+          - cell: AM166
+          - cell: AM167
+          - cell: AM168
+          - cell: AM169
+          - cell: AM170
+          - cell: AM171
+          - cell: AM172
+          - cell: AM173
+          - cell: AM174
+          - cell: AM175
+          - cell: AM176
+          - cell: AM177
+          - cell: AM178
+          - cell: AM179
+          - cell: AM180
+          - cell: AM181
+          - cell: AM182
+          - cell: AM183
+          - cell: AM184
+          - cell: AM185
+          - cell: AM186
+          - cell: AM187
+          - cell: AM188
+          - cell: AM189
+          - cell: AM190
+          - cell: AM191
+          - cell: AM192
+          - cell: AM193
+          - cell: AM194
+          - cell: AM195
+          - cell: AM196
+          - cell: AM197
+          - cell: AM198
+          - cell: AM199
+          - cell: AM200
+          - cell: AM201
+          - cell: AM202
+          - cell: AM203
+          - cell: AM204
+          - cell: AM205
+          - cell: AM206
+          - cell: AM207
+          - cell: AM208
+          - cell: AM209
+          - cell: AM210
+          - cell: AM211
+          - cell: AM212
+          - cell: AM213
+          - cell: AM214
+          - cell: AM215
+          - cell: AM216
+          - cell: AM217
+          - cell: AM218
+          - cell: AM219
+          - cell: AM220
+          - cell: AM221
+          - cell: AM222
+          - cell: AM223
+          - cell: AM224
+          - cell: AM225
+          - cell: AM226
+          - cell: AM227
+          - cell: AM228
+          - cell: AM229
+          - cell: AM230
+          - cell: AM231
+          - cell: AM232
+          - cell: AM233
+          - cell: AM234
+          - cell: AM235
+          - cell: AM236
+          - cell: AM237
+          - cell: AM238
+          - cell: AM239
+          - cell: AM240
+          - cell: AM241
+          - cell: AM242
+          - cell: AM243
+          - cell: AM244
+          - cell: AM245
+          - cell: AM246
+          - cell: AM247
+          - cell: AM248
+          - cell: AM249
+          - cell: AM250
+          - cell: AM251
+          - cell: AM252
+          - cell: AM253
+          - cell: AM254
+          - cell: AM255
+          - cell: AM256
+          - cell: AM257
+          - cell: AM258
+          - cell: AM259
+          - cell: AM260
+          - cell: AM261
+          - cell: AM262
+          - cell: AM263
+          - cell: AM264
+          - cell: AM265
+          - cell: AM266
+          - cell: AM267
+          - cell: AM268
+          - cell: AM269
+          - cell: AM270
+          - cell: AM271
+          - cell: AM272
+          - cell: AM273
+          - cell: AM274
+          - cell: AM275
+          - cell: AM276
+          - cell: AM277
+          - cell: AM278
+          - cell: AM279
+          - cell: AM280
+          - cell: AM281
+          - cell: AM282
+          - cell: AM283
+          - cell: AM284
+          - cell: AM285
+          - cell: AM286
+          - cell: AM287
+          - cell: AM288
+          - cell: AM289
+          - cell: AM290
+          - cell: AM291
+          - cell: AM292
+          - cell: AM293
+          - cell: AM294
+          - cell: AM295
+          - cell: AM296
+          - cell: AM297
+          - cell: AM298
+        - hl7 segment: IN1
+          see:
+          - cell: AP86
+          - cell: AP87
+          - cell: AP88
+          - cell: AP89
+          - cell: AP91
+          - cell: AP92
+          - cell: AP93
+          - cell: AP94
+          - cell: AP95
+          - cell: AP96
+          - cell: AP97
+          - cell: AP98
+          - cell: AP99
+          - cell: AP100
+          - cell: AP101
+          - cell: AP103
+          - cell: AP104
+          - cell: AP106
+          - cell: AP107
+          - cell: AP108
+          - cell: AP110
+          - cell: AP111
+          - cell: AP112
+          - cell: AP113
+          - cell: AP114
+          - cell: AP115
+          - cell: AP116
+          - cell: AP117
+          - cell: AP118
+          - cell: AP119
+          - cell: AP120
+          - cell: AP121
+          - cell: AP122
+          - cell: AP123
+          - cell: AP124
+          - cell: AP126
+          - cell: AP127
+          - cell: AP128
+          - cell: AP129
+          - cell: AP130
+          - cell: AP131
+          - cell: AP132
+          - cell: AP133
+          - cell: AP134
+          - cell: AP135
+          - cell: AP136
+          - cell: AP137
+          - cell: AP138
+          - cell: AP139
+          - cell: AP140
+          - cell: AP141
+          - cell: AP142
+          - cell: AP143
+          - cell: AP144
+          - cell: AP145
+          - cell: AP146
+          - cell: AP147
+          - cell: AP148
+          - cell: AP149
+          - cell: AP150
+          - cell: AP151
+          - cell: AP152
+          - cell: AP167
+          - cell: AP168
+          - cell: AP169
+          - cell: AP209
+          - cell: AP210
+          - cell: AP211
+          - cell: AP212
+          - cell: AP213
+          - cell: AP214
+          - cell: AP215
+          - cell: AP216
+          - cell: AP222
+          - cell: AP223
+          - cell: AP224
+          - cell: AP228
+          - cell: AP229
+          - cell: AP230
+          - cell: AP231
+          - cell: AP232
+          - cell: AP233
+          - cell: AP257
+          - cell: AP302
+          - cell: AP303
+          - cell: AP305
+          - cell: AP306
+          - cell: AP307
+          - cell: AP308
+          - cell: AP311
+          - cell: AP312
+          - cell: AP313
+          - cell: AP314
+          - cell: AP315
+          - cell: AP316
+          - cell: AP317
+          - cell: AP318
+          - cell: AP319
+          - cell: AP321
+          - cell: AP323
+          - cell: AP324
+          - cell: AP328
+          - cell: AP329
+          - cell: AP330
+          - cell: AP331
+          - cell: AP332
+      - error: Incomplete, non-specific or abbreviated facility name
+        level: Warning
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A10
+            code: 2.16.840.1.113883.3.3823.101007
+            label: HFHN CANTON
+          - cell: A13
+            code: 2.16.840.1.113883.3.3823.101010
+            label: HFHN CHRYSLER
+          - cell: A15
+            code: 2.16.840.1.113883.3.3823.101012
+            label: HFHN COLUMBUS
+          - cell: A16
+            code: 2.16.840.1.113883.3.3823.101013
+            label: HFHN COMMERCE
+          - cell: A26
+            code: 2.16.840.1.113883.3.3823.101023
+            label: HFHN LAKESIDE
+          - cell: A27
+            code: 2.16.840.1.113883.3.3823.101024
+            label: HFHN LIVONIA
+          - cell: A31
+            code: 2.16.840.1.113883.3.3823.101028
+            label: HFHN NOVI
+          - cell: A32
+            code: 2.16.840.1.113883.3.3823.101029
+            label: HFHN PIERSON
+          - cell: A33
+            code: 2.16.840.1.113883.3.3823.101030
+            label: HFHN PLYMOUTH
+          - cell: A38
+            code: 2.16.840.1.113883.3.3823.101035
+            label: HFHN TAYLOR
+          - cell: A39
+            code: 2.16.840.1.113883.3.3823.101036
+            label: HFHN TROY
+          - cell: A50
+            code: 2.16.840.1.113883.3.3823.101050
+            label: HFHN MONROE
+          - cell: A52
+            code: 2.16.840.1.113883.3.3823.101052
+            label: HFHN MACOMB
+          - cell: A54
+            code: 2.16.840.1.113883.3.3823.101055
+            label: HFHN LANSING
+          - cell: A55
+            code: 2.16.840.1.113883.3.3823.101056
+            label: HFHN HURLEY
+          - cell: A59
+            code: 2.16.840.1.113883.3.3823.101060
+            label: HFHN ST JOHN
+          - cell: A60
+            code: 2.16.840.1.113883.3.3823.101061
+            label: HFHN PONTIAC
+          - cell: A61
+            code: 2.16.840.1.113883.3.3823.101062
+            label: HFHN MACOMB
+          - cell: A62
+            code: 2.16.840.1.113883.3.3823.101063
+            label: HFHN BORGESS
+          - cell: A66
+            code: 2.16.840.1.113883.3.3823.101067
+            label: HFHN FOX RUN
+          - cell: A72
+            code: 2.16.840.1.113883.3.3823.1010730001
+            label: HFHN FLINT
+          - cell: A74
+            code: 2.16.840.1.113883.3.3823.101075
+            label: HFHN GENESYS
+          - cell: A75
+            code: 2.16.840.1.113883.3.3823.101076
+            label: HFHN SAGINAW
+          - cell: A76
+            code: 2.16.840.1.113883.3.3823.101077
+            label: HFHN WOODWARD
+          - cell: A78
+            code: 2.16.840.1.113883.3.3823.101079
+            label: HFHN BRUCE
+          - cell: A79
+            code: 2.16.840.1.113883.3.3823.101081
+            label: HFHN FRASER
+          - cell: A86
+            code: 2.16.840.1.113883.3.3823.101088
+            label: HGHN MILFORD
+          - cell: A89
+            code: 2.16.840.1.113883.3.3823.101091
+            label: HFHN LANSING
+          - cell: A91
+            code: 2.16.840.1.113883.3.3823.101093
+            label: HFHN BAY CITY
+          - cell: A96
+            code: 2.16.840.1.113883.3.3823.101100
+            label: HFHN FAIRLANE
+          - cell: A100
+            code: 2.16.840.1.113883.3.3823.101114
+            label: HFHN N CANTON
+          - cell: A104
+            code: 2.16.840.1.113883.3.3823.101120
+            label: HFHN RICHMOND
+          - cell: A108
+            code: 2.16.840.1.113883.3.3823.101134
+            label: HFHN MGM
+          - cell: A122
+            code: 2.16.840.1.113883.3.3823.101145
+            label: HFHN HAP TROY
+          - cell: A158
+            code: 2.16.840.1.113883.3.3823.105004
+            label: HFWY ROCKWOOD
+          - cell: A166
+            code: 2.16.840.1.113883.3.3823.105012
+            label: HFWY OB GYN
+          - cell: A167
+            code: 2.16.840.1.113883.3.3823.105013
+            label: HFWY NOVI
+          - cell: A169
+            code: 2.16.840.1.113883.3.3823.105015
+            label: HFWY TEMPLIN
+          - cell: A174
+            code: 2.16.840.1.113883.3.3823.106005
+            label: HFM FRASER
+          - cell: A176
+            code: 2.16.840.1.113883.3.3823.106006
+            label: HFM RICHMOND
+          - cell: A183
+            code: 2.16.840.1.113883.3.3823.106013
+            label: HFM EASTRIDGE
+          - cell: A185
+            code: 2.16.840.1.113883.3.3823.106015
+            label: HFM SEVILLE
+          - cell: A188
+            code: 2.16.840.1.113883.3.3823.106018
+            label: HFM REDDING
+          - cell: A191
+            code: 2.16.840.1.113883.3.3823.106021
+            label: HFM HAYES
+          - cell: A199
+            code: 2.16.840.1.113883.3.3823.106030
+            label: HFM SOUTH
+          - cell: A201
+            code: 2.16.840.1.113883.3.3823.106032
+            label: HFM HALL RD
+          - cell: A205
+            code: 2.16.840.1.113883.3.3823.106036
+            label: HFM PIERSON
+          - cell: A211
+            code: 2.16.840.1.113883.3.3823.106042
+            label: HFM RICHMOND
+          - cell: A224
+            code: 2.16.840.1.113883.3.3823.111001
+            label: HWB NOVI
+      - error: Invalid OID
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A226
+            code: 2.16.840.1.113883.3.3823.111003\n
+            value: HWB UNION LAKE
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA32
+            label: 'Organ '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE7
+            label: ' Interven Cardiology'
+          - cell: AE10
+            label: ' Hypertension'
+          - cell: AE11
+            label: ' pacemaker check up'
+          - cell: AE16
+            label: ' Hold Obs Patient in ED'
+          - cell: AE17
+            label: ' \cc'
+          - cell: AE19
+            label: ' EPI'
+          - cell: AE63
+            label: ' BCCH HLTH CNT - OB'
+          - cell: AE71
+            label: 'Orthopedics '
+          - cell: AE89
+            label: 'Physical Medicine and Rehabilitation, , , , , , , ,  ,, , , ,, '
+          - cell: AE98
+            label: ' Recreational Therapy'
+          - cell: AE102
+            label: ' Massage Therapy'
+          - cell: AE136
+            label: ' Reproductive Endocrinology'
+          - cell: AE139
+            label: ' Biochemical Genetics'
+          - cell: AE147
+            label: ' Ped-nephrology'
+          - cell: AE149
+            label: 'Pedatric Neurologic Surgery '
+          - cell: AE158
+            label: ' Pediatric Ears,Nose,Throat'
+          - cell: AE164
+            label: ' Ped-Rheumatology'
+          - cell: AE166
+            label: ' Pedatric Urology'
+          - cell: AE169
+            label: ' Prescription'
+          - cell: AE174
+            label: ' Medical Toxicology'
+          - cell: AE186
+            label: 'Wound/Ostomy Care '
+          - cell: AE191
+            label: ' Lactation services'
+          - cell: AE225
+            label: ' Womens Health '
+          - cell: AE229
+            label: 'Palliative Medicine '
+          - cell: AE258
+            label: 'Ped-Pathology '
+          - cell: AE260
+            label: ' Pulmonology'
+          - cell: AE268
+            label: ' Undersea/Hyperbaric'
+          - cell: AE276
+            label: ' Spinal Cord Inj Med'
+          - cell: AE278
+            label: 'Liver Biopsy '
+          - cell: AE287
+            label: ' Bariatric Exercise'
+          - cell: AE325
+            label: 'Administration, Telemetry, Cancelled Services, Confidential Files, CV Tracings Rec And Sent To Be M-Filmed, Documentation
+              To Be Kept For Hosp Ref., Medical Social Work, NWH, Received Records In The, Records Not Received In Department, Records
+              Off Site, RFP, Sent, Special Prcoedure Report, Charge Over Desk, '
+          - cell: AE326
+            label: 'Laboratory, Lab Screen, Multitest, Outpatient Collection Station, Outreach Lab Patients, offsite lab, outpatient lab, '
+          - cell: AE329
+            label: 'Non Patient        '
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI8
+            label: 'Discharged/transferred to another type of health care institution not defined elsewhe, court/law enforcement, '
+          - cell: AI10
+            label: 'Left Against Medical Advice, lwcs - before md evaluation, '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-22
+          see:
+          - cell: I7
+            code: 'D '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE325
+            code: '159, 152, 200, 213, 214, 218, 244, 256, 296, 298, 299, 306, 309, 311, 340, '
+          - cell: AE326
+            code: '167, 237, 248, 267, 270, 354, 360, '
+        - hl7 segment: IN1
+          see:
+          - cell: AP204
+            code: 'HENRY FORD '

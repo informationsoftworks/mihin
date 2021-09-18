@@ -1,0 +1,6 @@
+base: SNF-Lourdes Rehabilitation and Healthcare Center
+domains:
+  import:
+  - error: No-break space found in filename
+    filename: "2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lourdes Rehabilitation and Healthcare Center\_ADT 2.0 table 8-20-20.xlsx"
+    level: Warning

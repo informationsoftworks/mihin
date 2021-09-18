@@ -1,0 +1,23 @@
+base: SNF-Heartland HC Center-Oakland
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Heartland HC Center-Oakland ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: c10f2383a89a40b68e4e7b04e32d6ea8
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210914163941'
+          field name: PID-30
+          field value: '""'
+          message count: 73
+          receiving org message ID: 82516188
+        - HL7 ID: c10f2383a89a40b68e4e7b04e32d6ea8
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210914163941'
+          field name: PV1-36
+          field value: '""'
+          message count: 62
+          receiving org message ID: 82516188

@@ -1,0 +1,23 @@
+base: SNF-Regency at Grand Blanc
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Regency at Grand Blanc ADT 2.0 Table 11-29-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: b5d4e74644854d4fa0a36e4df4657064
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210910215046'
+          field name: PID-30
+          field value: '""'
+          message count: 13
+          receiving org message ID: 81796840
+        - HL7 ID: b5d4e74644854d4fa0a36e4df4657064
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210910215046'
+          field name: PV1-36
+          field value: '""'
+          message count: 14
+          receiving org message ID: 81796840

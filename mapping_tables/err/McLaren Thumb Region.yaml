@@ -1,0 +1,37 @@
+base: McLaren Thumb Region
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Thumb Region ADT 2.0 table 10-09-2020.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE98
+            code: CV
+        - hl7 segment: IN1
+          see:
+          - cell: AP274
+            code: NB
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI13
+            label: 'EXPIRED  '
+          - cell: AI16
+            label: 'EXPIRED MED FACILITY '
+          - cell: AI22
+            label: 'TRANSFERRED TO INPATIENT REHAB FACILITY '
+          - cell: AI25
+            label: 'TRANSER TO PYSCH FACILITY '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE20
+            code: 'S '

@@ -1,0 +1,656 @@
+base: Detroit Medical Center
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Detroit Medical Center ADT 2.0 table 03-06-19.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: Q4391258625T50196023
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210916180114'
+          field name: PV1-18
+          field value: OA
+          message count: 15694
+          receiving org message ID: 82738425
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Detroit Medical Center ADT 2.0 table 03-06-19.xlsx
+      list:
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE119
+          - cell: AE128
+          - cell: AE162
+          - cell: AE180
+          - cell: AE182
+          - cell: AE190
+          - cell: AE193
+          - cell: AE200
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            label: 'Cardiology, dac, hyp, '
+          - cell: AE6
+            label: 'Geriatric - General, geri ip, geriatric medicine, pmr-geriatric, '
+          - cell: AE11
+            label: 'Internal Medicine, AMP IP, AMP OP EAST, AMP OP HAG, collaborative medicine, East occup. Health, low intensity medica,
+              north occup. Health, occupational health, primary care nursing, primary care phy pse, primary care psy psw, primary care
+              phy rim, West Occup. Health, '
+          - cell: AE13
+            label: 'Neurology, Brain Inj/Oncology, brain injury, Cerebral Vasculr ACC, Cerebral Vasculr ONC, cva ip, NEUROTRAUMA, pm&r
+              neuro, pm&r non traumatic brain injury, pm&r non truamatic spinal cord, pmr-traumatic brain injury, ctr for sc recov, '
+          - cell: AE14
+            label: 'Neonatology, MATERNAL FETAL MEDICINE, '
+          - cell: AE16
+            label: 'Oncology, AMP IP ONC, AMPUTEE - ONCOLOGY, cva ip onc, geri ip onc, geriatric - oncology, MEDICAL COMPLEX - ONC, ORTHO
+              - ONCOLOGY, pm & r - oncology, pmr ip onc, sci ip onc, tbi ip onc, '
+          - cell: AE17
+            label: 'Ortho - General, ORTHO OP EAST, ORTHO OP HAG, ORTHO OP HCC, ORTHO OP NORTH, ORTHO OP RIM, ORTHO OP WEST, pmr-orthopaedic, '
+          - cell: AE18
+            label: 'Pediatrics, ADOLESCENT MEDICINE, '
+          - cell: AE19
+            label: 'Physical Med & Rehabilitation, pm & r - general, pmr ip, rcm, rehab tosh, respiratory therapy svs, therapeautic recreation, '
+          - cell: AE23
+            label: 'sci ip acute, ono, '
+          - cell: AE27
+            label: 'Family Practice, pmr-occupational hlth, '
+          - cell: AE28
+            label: 'Endocrinology & Metabol, reproductive endocrinol, '
+          - cell: AE29
+            label: 'Genetic/Metabolic Diso, HOX, MEDICAL COMPLEX - GEN, reproductive genetics, '
+          - cell: AE30
+            label: 'Hematology, HBH, HBR, HMH, '
+          - cell: AE34
+            label: 'Ophthalmology, HCA, HFP, OPTOMETRY, '
+          - cell: AE40
+            label: 'Pharmacology, pharmacology/toxicology, toxicology, medicare drug care, omc, rco, rno, '
+          - cell: AE43
+            label: 'AMP IP Burn, burn care, cva op burn, geri ip burn, pm&r burn, pmr ip burn, sci ip burn, tbi ip burn, '
+          - cell: AE44
+            label: 'Nursery/Newborn Care, A & O Nursery, boarder nursery, MOTHER-BABY UNIT, '
+          - cell: AE47
+            label: 'AMP IP Research, AMPUTEE - GENERAL, cva ip research, dietetic services, faf, hosp serv not assigned, scn, '
+          - cell: AE49
+            label: 'Psychology, forensic pshology, '
+          - cell: AE52
+            label: 'Gynecologic Oncology, pmp, '
+          - cell: AE53
+            label: 'Dental Surgery, Oral Surgery, dentistry, '
+          - cell: AE63
+            label: 'pulmunology, pulmonary disease, '
+          - cell: AE68
+            label: 'PMR-Spinal Cord, spinal cord recovery, '
+          - cell: AE75
+            label: 'Critical Care/Intensive, NICU, trauma/critical care, urgent care, '
+          - cell: AE89
+            label: 'Psychiatry, Psych, chemical dependency, '
+          - cell: AE93
+            label: 'COMMERCE, COMPUWARE, documentation, employee health service, historical tracking, hpn, hro, karmanos purchased service,
+              phone, rnn, rsh, '
+          - cell: AE94
+            label: 'COMMERICAL LAB, laboratory, pep, '
+          - cell: AE95
+            label: 'detroit ath club, downriver, farmington, franklin, gro pte ath clb, jewish community center, milford, oakland ath
+              club, rochester hills, wixom, the lakes, troy, walton woods, west bloomfield, ymca macomb, ann arbor, '
+          - cell: AE96
+            label: 'par ip - paa, par ip - pac, par ip - pad, par ip - pah, par ip - pam, par ip - pao, par ip - pap, par ip - par, par
+              ip - pas, par ip - pat, par ip - paw, '
+          - cell: AE97
+            label: 'phy op drh, phy op east, phy op garden city, phy op grace, phy op hag, phy op harper, phy op hutzel, phy op misc,
+              phy op north, phy op rim, phy op west, '
+          - cell: AE98
+            label: 'pmr ip research, pmr op east, pmr op hag, pmr op hcc, pmr op north, pmr op north - poz, pmr op west, pmr-amputee,
+              pmr-cva, pmr-research, '
+          - cell: AE99
+            label: 'Research ip only, research op inhouse, research op only, '
+          - cell: AE100
+            label: 'RIM crown pointe, rim dearborn, rim nw detroit, rim occup. Health, '
+          - cell: AE101
+            label: 'sci ip eval, sci ip research, sci op east, sci op hag, sci op hcc, sci op north, sci op rim, sci op west, '
+          - cell: AE102
+            label: 'tbi ip acute, tbi ip beh, tbi ip eval, tbi ip research, tbi op east, tbi op hag, tbi op hcc, tbi op north, tbi op
+              rim, tbi op west, '
+          - cell: AE103
+            label: 'amp op hcc, amp op north, amp op rim, amp op west, '
+          - cell: AE104
+            label: 'Cva op east, cva op hag, cva op hcc, cva op north, cva op rim, cva op west, '
+          - cell: AE105
+            label: 'geri ip research, geri op east, geri op hag, geri op north, geri op rim, geri op west, '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: 'Cardiology, CAR, DAC, HYP, '
+          - cell: AE6
+            code: 'Geriatric - General, GERI IP, Geriatric Medicine, PMR-Geriatric, '
+          - cell: AE13
+            code: 'Neurology, Brain Inj/Oncology, Brain Injury, Cerebral Vasculr ACC, Cerebral Vasculr ONC, CVA IP, Neutrotrauma, PM&R
+              NEURO, PM&R Non Traumatic Brain Injury, PM&R Non Traumatic Spinal Cord, PMR-Traumatic Brain Injury, CTR for SC Recov, Low
+              Intensity Debili, '
+          - cell: AE14
+            code: 'Neonatology, Maternal Fetal Medicine, '
+          - cell: AE16
+            code: 'Oncology, AMP IP ONC, Amputee - Oncology, CVA IP ONC, GERI IP ONC, Geriatric - Oncology, Medical Complex - ONC, Ortho
+              - Oncology, PM & R - Oncology, PMR IP ONC, SCI IP ONC, TBI IP ONC, '
+          - cell: AE17
+            code: 'Ortho - General, Ortho OP East, Ortho OP HAG, Ortho OP HCC, Ortho OP North, ORTHO OP RIM, Ortho OP RIM, PMR-Orthopaedic, '
+          - cell: AE18
+            code: 'Pediatrics, Adolescent Medicine, '
+          - cell: AE23
+            code: 'SCI IP Acute, ONO, '
+          - cell: AE28
+            code: 'Endocrinology & Metabol, Reproductive Endocrinol, '
+          - cell: AE29
+            code: 'Genetic/Metabolic Diso, HOX, Medical Complex - GEN, Reproductive Genetics, '
+          - cell: AE30
+            code: 'Hematology, HBH, HBR, HMH, '
+          - cell: AE34
+            code: 'Ophthalmology, HCA, HFP, Optometry, '
+          - cell: AE40
+            code: 'Pharmacology, Pharmacology/Toxicology, Toxicology, Medicare Drug Care, OMC, RCO, RNO,  '
+          - cell: AE43
+            code: 'AMP IP Burn, Burn Care, CVA OP Burn, GERI IP Burn, PM&R BURN, PMR IP Burn, SCI IP Burn, TBI IP Burn, '
+          - cell: AE44
+            code: 'Nursery/Newborn Care, A & O Nursery, Boarder Nursery, Mother-Baby Unit, '
+          - cell: AE47
+            code: 'AMP IP Research, Amputee - General, CVA IP Research, Dietetic Services, FAF, Hosp Serv Not Assigned, SCN, '
+          - cell: AE49
+            code: 'Psychology, Forensic Pschology, '
+          - cell: AE52
+            code: 'Gynecologic Oncology, pmp, '
+          - cell: AE53
+            code: 'Dental Surgery, Oral Surgery, Dentistry, '
+          - cell: AE68
+            code: 'PMR-Spinal Cord, Spinal Cord Recovery, '
+          - cell: AE75
+            code: 'Critical Care/Intensive, NICU, Trauma/Critical Care, Urgent Care, '
+          - cell: AE89
+            code: 'Psychiatry, Psych, Chemical Dependency, '
+          - cell: AE93
+            code: 'Commerce, Compuware, Documentation, Employee Health Service,Historical Tracking, HPN, HRO, Karmanos Purchased Service,
+              Phone, RNN, RSH, '
+          - cell: AE94
+            code: 'Commercial Lab, Laboratory, PEP, '
+          - cell: AE96
+            code: 'PAR IP - PAA, PAR IP - PAC, PAR IP - PAD, PAR IP - PAH, PAR IP - PAM, PAR IP - PAO, PAR IP - PAP, PAR IP - PAR, PAR
+              IP - PAS, PAR IP - PAT, PAR IP - PAW, '
+          - cell: AE97
+            code: 'PHY OP DRH, PHY OP East, PHY OP Garden City, PHY OP Grace, PHY OP HAG, PHY OP Harper, PHY OP Hutzel, PHY OP Misc, PHY
+              OP North, PHY OP RIM, PHY OP West, '
+          - cell: AE99
+            code: 'Research IP Only, Research OP Inhouse, Research OP Only, '
+          - cell: AE100
+            code: 'RIM Crown Pointe, RIM Dearborn, RIM NW Detroit, RIM Occup. Health, '
+          - cell: AE101
+            code: 'SCI IP Eval, SCI IP Research, SCI OP East, SCI OP HAG, SCI OP HCC, SCI OP North, SCI OP RIM, SCI OP West, '
+          - cell: AE102
+            code: 'TBI IP Acute, TBI IP BEH, TBI IP Eval, TBI IP Research, TBI OP East, TBI OP HAG, TBI OP HCC, TBI OP North, TBI OP RIM,
+              TBI OP West, '
+          - cell: AE103
+            code: 'AMP OP HCC, AMP OP North, AMP OP RIM, AMP OP West, '
+          - cell: AE104
+            code: 'CVA OP East, CVA OP HAG, CVA OP HCC, CVA OP North, CVA OP RIM, CVA OP West, '
+          - cell: AE105
+            code: 'GERI IP Research, GERI OP East, GERI OP HAG, GERI OP North, GERI OP RIM, GERI OP West, '
+        - hl7 segment: IN1
+          see:
+          - cell: AP10
+            code: 'MEDICAID '
+          - cell: AP11
+            code: 'MEDICAID '
+          - cell: AP12
+            code: 'MEDICAID '
+          - cell: AP13
+            code: 'MEDICAID '
+          - cell: AP14
+            code: 'MEDICAID '
+          - cell: AP15
+            code: 'MEDICAID '
+          - cell: AP78
+            code: ' MEDICARE'
+          - cell: AP79
+            code: ' MEDICARE'
+          - cell: AP80
+            code: ' MEDICARE'
+          - cell: AP81
+            code: ' MEDICARE'
+          - cell: AP82
+            code: ' MEDICARE'
+          - cell: AP84
+            code: ' MEDICARE'
+          - cell: AP86
+            code: ' MEDICARE'
+          - cell: AP87
+            code: ' MEDICARE'
+          - cell: AP88
+            code: ' MEDICARE'
+          - cell: AP89
+            code: ' MEDICARE'
+          - cell: AP90
+            code: ' MEDICARE'
+          - cell: AP92
+            code: ' MEDICARE'
+          - cell: AP93
+            code: ' MEDICARE'
+          - cell: AP94
+            code: 'MEDICARE '
+          - cell: AP96
+            code: ' MEDICARE'
+          - cell: AP97
+            code: ' MEDICARE'
+          - cell: AP98
+            code: ' MEDICARE'
+          - cell: AP99
+            code: ' MEDICARE'
+          - cell: AP100
+            code: ' MEDICARE'
+          - cell: AP101
+            code: ' MEDICARE'
+          - cell: AP102
+            code: ' MEDICARE'
+          - cell: AP103
+            code: ' MEDICARE'
+          - cell: AP104
+            code: ' MEDICARE'
+          - cell: AP105
+            code: ' MEDICARE'
+          - cell: AP106
+            code: ' MEDICARE'
+          - cell: AP107
+            code: ' MEDICARE'
+          - cell: AP108
+            code: ' MEDICARE'
+          - cell: AP109
+            code: ' MEDICARE'
+          - cell: AP110
+            code: ' MEDICARE'
+          - cell: AP111
+            code: ' MEDICARE'
+          - cell: AP112
+            code: ' MEDICARE'
+          - cell: AP113
+            code: ' MEDICARE'
+          - cell: AP114
+            code: ' MEDICARE'
+          - cell: AP115
+            code: ' MEDICARE'
+          - cell: AP116
+            code: ' MEDICARE'
+          - cell: AP117
+            code: ' MEDICARE'
+          - cell: AP120
+            code: ' MEDICARE'
+          - cell: AP121
+            code: ' MEDICARE - MOLINA'
+          - cell: AP122
+            code: ' MEDICARE'
+          - cell: AP123
+            code: ' MEDICARE - HAP'
+          - cell: AP124
+            code: ' MEDICARE'
+          - cell: AP125
+            code: ' MEDICARE - BCBSM'
+          - cell: AP126
+            code: ' MEDICARE - BCBSM'
+          - cell: AP127
+            code: ' MEDICARE - HAP'
+          - cell: AP128
+            code: ' MEDICARE - MOLINA'
+          - cell: AP129
+            code: ' MEDICARE - MOLINA'
+          - cell: AP130
+            code: ' MEDICARE'
+          - cell: AP131
+            code: ' MEDICARE'
+          - cell: AP132
+            code: ' MEDICARE - MOLINA'
+          - cell: AP133
+            code: ' MEDICARE'
+          - cell: AP135
+            code: ' MEDICARE'
+          - cell: AP136
+            code: ' MEDICARE'
+          - cell: AP137
+            code: ' MEDICARE - BCBSM'
+          - cell: AP138
+            code: ' MEDICARE - BCBSM'
+          - cell: AP139
+            code: ' MEDICARE - BCBSM'
+          - cell: AP140
+            code: ' MEDICARE - BCBSM'
+          - cell: AP141
+            code: ' MEDICARE - BCBSM'
+          - cell: AP142
+            code: ' MEDICARE - HAP'
+          - cell: AP143
+            code: ' MEDICARE - MOLINA'
+          - cell: AP144
+            code: ' MEDICARE - MOLINA'
+          - cell: AP145
+            code: ' MEDICARE - MOLINA'
+          - cell: AP146
+            code: ' MEDICARE'
+          - cell: AP147
+            code: ' MEDICARE'
+          - cell: AP148
+            code: ' MEDICARE'
+          - cell: AP149
+            code: ' MEDICARE'
+          - cell: AP150
+            code: ' MEDICARE'
+          - cell: AP151
+            code: ' MEDICARE'
+          - cell: AP152
+            code: ' MEDICARE'
+          - cell: AP153
+            code: ' MEDICARE'
+          - cell: AP154
+            code: ' MEDICARE - HAP'
+          - cell: AP155
+            code: ' MEDICARE - HAP'
+          - cell: AP156
+            code: ' MEDICARE'
+          - cell: AP157
+            code: ' MEDICARE'
+          - cell: AP158
+            code: ' MEDICARE - BCBSM'
+          - cell: AP159
+            code: ' MEDICARE - BCBSM'
+          - cell: AP160
+            code: ' MEDICARE'
+          - cell: AP161
+            code: ' MEDICARE'
+          - cell: AP162
+            code: ' MEDICARE'
+          - cell: AP163
+            code: ' MEDICARE'
+          - cell: AP164
+            code: ' MEDICARE'
+          - cell: AP165
+            code: ' MEDICARE'
+          - cell: AP166
+            code: ' MEDICARE'
+          - cell: AP167
+            code: ' MEDICARE'
+          - cell: AP168
+            code: ' MEDICARE'
+          - cell: AP169
+            code: ' MEDICARE'
+          - cell: AP170
+            code: ' MEDICARE'
+          - cell: AP171
+            code: ' MEDICARE'
+          - cell: AP172
+            code: ' MEDICARE'
+          - cell: AP173
+            code: ' MEDICARE'
+          - cell: AP174
+            code: ' MEDICARE'
+          - cell: AP175
+            code: ' MEDICARE'
+          - cell: AP176
+            code: ' MEDICARE'
+          - cell: AP177
+            code: ' MEDICARE'
+          - cell: AP178
+            code: ' MEDICARE'
+          - cell: AP179
+            code: ' MEDICARE'
+          - cell: AP180
+            code: ' MEDICARE'
+          - cell: AP181
+            code: ' MEDICARE'
+          - cell: AP182
+            code: ' MEDICARE'
+          - cell: AP183
+            code: ' MEDICARE'
+          - cell: AP184
+            code: ' MEDICARE'
+          - cell: AP185
+            code: ' MEDICARE'
+          - cell: AP186
+            code: ' MEDICARE'
+          - cell: AP187
+            code: ' MEDICARE'
+          - cell: AP188
+            code: ' MEDICARE'
+          - cell: AP189
+            code: ' MEDICARE'
+          - cell: AP190
+            code: ' MEDICARE'
+          - cell: AP191
+            code: ' MEDICARE - MOLINA'
+          - cell: AP192
+            code: ' MEDICARE'
+          - cell: AP193
+            code: ' MEDICARE'
+          - cell: AP194
+            code: ' MEDICARE'
+          - cell: AP195
+            code: ' MEDICARE'
+          - cell: AP196
+            code: ' MEDICARE'
+          - cell: AP197
+            code: ' MEDICARE'
+          - cell: AP198
+            code: ' MEDICARE'
+          - cell: AP199
+            code: ' MEDICARE'
+          - cell: AP200
+            code: ' MEDICARE'
+          - cell: AP201
+            code: ' MEDICARE'
+          - cell: AP202
+            code: ' MEDICARE'
+          - cell: AP203
+            code: ' MEDICARE'
+          - cell: AP204
+            code: ' MEDICARE - MOLINA'
+          - cell: AP205
+            code: ' MEDICARE'
+          - cell: AP206
+            code: ' MEDICARE'
+          - cell: AP214
+            code: 'MEDICAID  '
+          - cell: AP215
+            code: 'MEDICAID  '
+          - cell: AP216
+            code: 'MEDICAID  '
+          - cell: AP217
+            code: 'MEDICAID  '
+          - cell: AP218
+            code: 'MEDICAID  '
+          - cell: AP219
+            code: 'MEDICAID  '
+          - cell: AP220
+            code: 'MEDICAID  '
+          - cell: AP221
+            code: 'MEDICAID  '
+          - cell: AP222
+            code: 'MEDICAID  '
+          - cell: AP223
+            code: 'MEDICAID  '
+          - cell: AP224
+            code: 'MEDICAID  '
+          - cell: AP225
+            code: 'MEDICAID  '
+          - cell: AP226
+            code: 'MEDICAID  '
+          - cell: AP227
+            code: 'MEDICAID  '
+          - cell: AP228
+            code: 'MEDICAID  '
+          - cell: AP229
+            code: 'MEDICAID  '
+          - cell: AP230
+            code: 'MEDICAID  '
+          - cell: AP231
+            code: 'MEDICAID  '
+          - cell: AP232
+            code: 'MEDICAID  '
+          - cell: AP233
+            code: 'MEDICAID  '
+          - cell: AP234
+            code: 'MEDICAID  '
+          - cell: AP235
+            code: 'MEDICAID  '
+          - cell: AP236
+            code: 'MEDICAID  '
+          - cell: AP237
+            code: 'MEDICAID  '
+          - cell: AP239
+            code: 'MEDICAID  '
+          - cell: AP240
+            code: 'MEDICAID  '
+          - cell: AP241
+            code: 'MEDICAID  '
+          - cell: AP242
+            code: 'MEDICAID  '
+          - cell: AP243
+            code: 'MEDICAID  '
+          - cell: AP244
+            code: 'MEDICAID  '
+          - cell: AP245
+            code: 'MEDICAID  '
+          - cell: AP246
+            code: 'MEDICAID  '
+          - cell: AP247
+            code: 'MEDICAID  '
+          - cell: AP248
+            code: 'MEDICAID  '
+          - cell: AP249
+            code: 'MEDICAID  '
+          - cell: AP250
+            code: 'MEDICAID  '
+          - cell: AP251
+            code: 'MEDICAID  '
+          - cell: AP252
+            code: 'MEDICAID  '
+          - cell: AP253
+            code: 'MEDICAID  '
+          - cell: AP254
+            code: 'MEDICAID  '
+          - cell: AP255
+            code: 'MEDICAID  '
+          - cell: AP256
+            code: 'MEDICAID  '
+          - cell: AP257
+            code: 'MEDICAID  '
+          - cell: AP258
+            code: 'MEDICAID  '
+          - cell: AP259
+            code: 'MEDICAID  '
+          - cell: AP260
+            code: 'MEDICAID  '
+          - cell: AP261
+            code: 'MEDICAID  '
+          - cell: AP262
+            code: 'MEDICAID  '
+          - cell: AP263
+            code: 'MEDICAID  '
+          - cell: AP264
+            code: 'MEDICAID  '
+          - cell: AP265
+            code: 'MEDICAID  '
+          - cell: AP266
+            code: 'MEDICAID  '
+          - cell: AP267
+            code: 'MEDICAID  '
+          - cell: AP268
+            code: 'MEDICAID  '
+          - cell: AP269
+            code: 'MEDICAID  '
+          - cell: AP270
+            code: 'MEDICAID  '
+          - cell: AP271
+            code: 'MEDICAID  '
+          - cell: AP272
+            code: 'MEDICAID  '
+          - cell: AP273
+            code: 'MEDICAID  '
+          - cell: AP274
+            code: 'MEDICARE '
+          - cell: AP338
+            code: 'MOLINA '
+          - cell: AP339
+            code: 'MOLINA '
+          - cell: AP340
+            code: 'MOLINA '
+          - cell: AP341
+            code: 'MOLINA '
+          - cell: AP342
+            code: 'MOLINA '
+          - cell: AP343
+            code: 'MOLINA '
+          - cell: AP345
+            code: 'MOLINA '
+          - cell: AP346
+            code: 'MOLINA '
+          - cell: AP347
+            code: 'MOLINA '
+          - cell: AP348
+            code: 'MOLINA '
+          - cell: AP370
+            code: 'MOLINA '
+          - cell: AP435
+            code: 'MEDICARE '
+          - cell: AP578
+            code: 'MEDICAID  '
+          - cell: AP580
+            code: 'MEDICARE '
+          - cell: AP586
+            code: 'MERIDIAN '
+          - cell: AP603
+            code: 'MEDICAID  '
+          - cell: AP618
+            code: 'MEDICAID  '
+          - cell: AP629
+            code: 'MEDICAID  '
+          - cell: AP759
+            code: 'MEDICARE '
+          - cell: AP760
+            code: 'MEDICARE '
+          - cell: AP761
+            code: 'MEDICARE '
+          - cell: AP892
+            code: 'MEDICAID  '
+          - cell: AP893
+            code: 'MEDICAID  '
+          - cell: AP894
+            code: 'MEDICAID  '
+          - cell: AP895
+            code: 'MEDICAID  '
+          - cell: AP896
+            code: 'MEDICAID  '
+          - cell: AP897
+            code: 'MEDICAID  '
+          - cell: AP898
+            code: 'MEDICAID  '
+          - cell: AP899
+            code: 'MEDICAID  '
+          - cell: AP900
+            code: 'MEDICAID  '
+          - cell: AP901
+            code: 'MEDICAID  '
+          - cell: AP902
+            code: 'MEDICAID  '
+          - cell: AP903
+            code: 'MEDICAID  '
+          - cell: AP904
+            code: 'MEDICAID  '
+          - cell: AP905
+            code: 'MEDICAID  '
+          - cell: AP906
+            code: 'MEDICAID  '
+          - cell: AP907
+            code: 'MEDICAID  '

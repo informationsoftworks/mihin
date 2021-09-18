@@ -1,0 +1,26 @@
+base: McLaren Port Huron
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Port Huron ADT 2.0 table 02-26-2019.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE18
+            label: 'Pediatric '
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: DG1-6
+          see:
+          - cell: O4
+            code: 'A '
+        - hl7 segment: IN1-17
+          see:
+          - cell: AM34
+            code: ' UNK'
+          - cell: AM43
+            code: ' SON'

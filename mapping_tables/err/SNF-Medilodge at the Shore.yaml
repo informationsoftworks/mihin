@@ -1,0 +1,8 @@
+base: SNF-Medilodge at the Shore
+domains:
+  import:
+  - error: Duplicate files
+    filenames:
+    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge at the Shore ADT 2.0 table 8-20-20.xlsx
+    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge at the Shore ADT 2.0 table 10-23-18.xlsx
+    level: Error

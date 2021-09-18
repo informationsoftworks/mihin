@@ -1,0 +1,23 @@
+base: SNF-Boulevard Temple Care Center
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Boulevard Temple Care Center ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 93e489bf51e44fb0822184dc11aa715c
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210915085126'
+          field name: PID-30
+          field value: '""'
+          message count: 14
+          receiving org message ID: 19511312
+        - HL7 ID: 93e489bf51e44fb0822184dc11aa715c
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20210915085126'
+          field name: PV1-36
+          field value: '""'
+          message count: 9
+          receiving org message ID: 19511312

@@ -1,0 +1,23 @@
+base: SNF-Medilodge of Capital Area
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Capital Area ADT 2.0 table 10-31-16.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 0fd6f31f88cb4c85825994eec0e10e0f
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210809173941'
+          field name: PID-30
+          field value: '""'
+          message count: 6
+          receiving org message ID: 75362860
+        - HL7 ID: 0fd6f31f88cb4c85825994eec0e10e0f
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20210809173941'
+          field name: PV1-36
+          field value: '""'
+          message count: 5
+          receiving org message ID: 75362860

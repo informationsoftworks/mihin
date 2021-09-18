@@ -1,0 +1,23 @@
+base: HHA-Great Lake Caring (GLC) GRH
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Great Lake Caring (GLC) GRH ADT 2.0 table 05-01-19.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '20210620225709'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210620225709'
+          field name: PID-30
+          field value: '""'
+          message count: 2
+          receiving org message ID: 19379063
+        - HL7 ID: '20210620225709'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210620225709'
+          field name: PV1-36
+          field value: '""'
+          message count: 1
+          receiving org message ID: 19379063

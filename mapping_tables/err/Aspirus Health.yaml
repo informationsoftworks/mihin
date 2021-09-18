@@ -1,0 +1,49 @@
+base: Aspirus Health
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Aspirus Health ADT 2.0 table 03-17-2020.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE217
+            code: '81'
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP4
+          - cell: AP5
+          - cell: AP6
+          - cell: AP7
+          - cell: AP8
+          - cell: AP9
+          - cell: AP10
+          - cell: AP11
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE92
+            label: ' Medical'
+          - cell: AE93
+            label: ' Eye'
+          - cell: AE94
+            label: ' TUMOR SURGERY'
+          - cell: AE115
+            label: ' PEDS TRAUMA'
+          - cell: AE159
+            label: ' LH-OUTPT PROCEDURES'
+          - cell: AE165
+            label: ' LH-INHOUSE OUTPT OB'
+          - cell: AE171
+            label: ' Dentistry Note'
+          - cell: AE204
+            label: ' Sports Medicine Note'
+          - cell: AE205
+            label: ' Urology Note'

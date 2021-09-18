@@ -1,0 +1,92 @@
+base: UP Health System Marquette
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/UP Health System Marquette ADT 2.0 table 03-29-2021.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA48
+            code: CHM
+          - cell: AA49
+            code: CVU
+          - cell: AA50
+            code: ED1
+          - cell: AA51
+            code: MS
+          - cell: AA52
+            code: NOP
+          - cell: AA53
+            code: REH
+          - cell: AA54
+            code: CVS
+          - cell: AA55
+            code: USH
+          - cell: AA56
+            code: HOS
+          - cell: AA57
+            code: URG
+          - cell: AA58
+            code: NU2
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE366
+            code: ME5
+        - hl7 segment: IN1
+          see:
+          - cell: AP613
+            code: '4000'
+          - cell: AP638
+            code: '6762'
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA47
+            code: ' Z, F'
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE328
+            code: ' JCM'
+          - cell: AE329
+            code: ' WMC'
+          - cell: AE330
+            code: ' MAB'
+          - cell: AE331
+            code: ' NCF'
+          - cell: AE332
+            code: ' NMH'
+          - cell: AE333
+            code: ' CA7'
+          - cell: AE334
+            code: ' PE3'
+          - cell: AE335
+            code: ' TLS'
+          - cell: AE336
+            code: ' SU5'
+          - cell: AE337
+            code: ' PCC'
+          - cell: AE338
+            code: ' KCF'
+          - cell: AE339
+            code: ' IRV'
+          - cell: AE340
+            code: ' FMC'
+          - cell: AE341
+            code: ' DSL'
+          - cell: AE342
+            code: ' HAO'
+          - cell: AE343
+            code: ' KTF'
+          - cell: AE344
+            code: ' MAH'
+          - cell: AE345
+            code: ' BOT'
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI21
+            code: '43, 88 '
