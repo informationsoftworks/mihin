@@ -16,22 +16,34 @@ domains:
           receiving org message ID: 18441215
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/HFPN ADT 2.0 table 06-25-2021.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/HFPN ADT 2.0 table 08-03-2021.xlsx
       list:
       - error: Code values provided without label
         level: Warning
         list:
         - hl7 segment: IN1-17
           see:
-          - cell: AM299
+          - cell: AM309
             code: '1201'
-          - cell: AM300
+          - cell: AM310
             code: '1202'
-          - cell: AM301
+          - cell: AM311
             code: '1203'
       - error: Empty row found within segment specification
         level: Warning
         list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE149
+          - cell: AE150
+          - cell: AE151
+          - cell: AE152
+          - cell: AE153
+          - cell: AE154
+          - cell: AE223
+          - cell: AE224
+          - cell: AE242
+          - cell: AE243
         - hl7 segment: IN1-17
           see:
           - cell: AM47
@@ -286,6 +298,16 @@ domains:
           - cell: AM296
           - cell: AM297
           - cell: AM298
+          - cell: AM299
+          - cell: AM300
+          - cell: AM301
+          - cell: AM302
+          - cell: AM303
+          - cell: AM304
+          - cell: AM305
+          - cell: AM306
+          - cell: AM307
+          - cell: AM308
         - hl7 segment: IN1
           see:
           - cell: AP86
@@ -350,50 +372,60 @@ domains:
           - cell: AP150
           - cell: AP151
           - cell: AP152
-          - cell: AP167
-          - cell: AP168
-          - cell: AP169
-          - cell: AP209
-          - cell: AP210
-          - cell: AP211
-          - cell: AP212
-          - cell: AP213
-          - cell: AP214
+          - cell: AP153
+          - cell: AP154
+          - cell: AP155
+          - cell: AP156
+          - cell: AP157
+          - cell: AP158
+          - cell: AP173
+          - cell: AP174
+          - cell: AP175
           - cell: AP215
           - cell: AP216
+          - cell: AP217
+          - cell: AP218
+          - cell: AP219
+          - cell: AP220
+          - cell: AP221
           - cell: AP222
           - cell: AP223
           - cell: AP224
-          - cell: AP228
-          - cell: AP229
           - cell: AP230
           - cell: AP231
           - cell: AP232
-          - cell: AP233
-          - cell: AP257
-          - cell: AP302
-          - cell: AP303
-          - cell: AP305
-          - cell: AP306
-          - cell: AP307
-          - cell: AP308
-          - cell: AP311
+          - cell: AP236
+          - cell: AP237
+          - cell: AP238
+          - cell: AP239
+          - cell: AP240
+          - cell: AP241
+          - cell: AP242
+          - cell: AP243
+          - cell: AP267
           - cell: AP312
           - cell: AP313
-          - cell: AP314
           - cell: AP315
           - cell: AP316
           - cell: AP317
           - cell: AP318
-          - cell: AP319
           - cell: AP321
+          - cell: AP322
           - cell: AP323
           - cell: AP324
+          - cell: AP325
+          - cell: AP326
+          - cell: AP327
           - cell: AP328
           - cell: AP329
-          - cell: AP330
           - cell: AP331
-          - cell: AP332
+          - cell: AP333
+          - cell: AP334
+          - cell: AP338
+          - cell: AP339
+          - cell: AP340
+          - cell: AP341
+          - cell: AP342
       - error: Incomplete, non-specific or abbreviated facility name
         level: Warning
         list:
@@ -501,59 +533,71 @@ domains:
           - cell: A122
             code: 2.16.840.1.113883.3.3823.101145
             label: HFHN HAP TROY
-          - cell: A158
+          - cell: A164
             code: 2.16.840.1.113883.3.3823.105004
             label: HFWY ROCKWOOD
-          - cell: A166
+          - cell: A172
             code: 2.16.840.1.113883.3.3823.105012
             label: HFWY OB GYN
-          - cell: A167
+          - cell: A173
             code: 2.16.840.1.113883.3.3823.105013
             label: HFWY NOVI
-          - cell: A169
+          - cell: A175
             code: 2.16.840.1.113883.3.3823.105015
             label: HFWY TEMPLIN
-          - cell: A174
+          - cell: A180
             code: 2.16.840.1.113883.3.3823.106005
             label: HFM FRASER
-          - cell: A176
+          - cell: A182
             code: 2.16.840.1.113883.3.3823.106006
             label: HFM RICHMOND
-          - cell: A183
+          - cell: A189
             code: 2.16.840.1.113883.3.3823.106013
             label: HFM EASTRIDGE
-          - cell: A185
+          - cell: A191
             code: 2.16.840.1.113883.3.3823.106015
             label: HFM SEVILLE
-          - cell: A188
+          - cell: A194
             code: 2.16.840.1.113883.3.3823.106018
             label: HFM REDDING
-          - cell: A191
+          - cell: A197
             code: 2.16.840.1.113883.3.3823.106021
             label: HFM HAYES
-          - cell: A199
+          - cell: A205
             code: 2.16.840.1.113883.3.3823.106030
             label: HFM SOUTH
-          - cell: A201
+          - cell: A207
             code: 2.16.840.1.113883.3.3823.106032
             label: HFM HALL RD
-          - cell: A205
+          - cell: A211
             code: 2.16.840.1.113883.3.3823.106036
             label: HFM PIERSON
-          - cell: A211
+          - cell: A217
             code: 2.16.840.1.113883.3.3823.106042
             label: HFM RICHMOND
-          - cell: A224
+          - cell: A232
             code: 2.16.840.1.113883.3.3823.111001
             label: HWB NOVI
+          - cell: A242
+            code: 2.16.840.1.113883.3.3823.112052
+            label: HFA HILLSDALE
       - error: Invalid OID
         level: Error
         list:
         - hl7 segment: MSH-4
           see:
-          - cell: A226
-            code: 2.16.840.1.113883.3.3823.111003\n
+          - cell: A234
+            code: '2.16.840.1.113883.3.3823.111003
+
+              '
             value: HWB UNION LAKE
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI7
+            label: Custodial Care Facility
       - error: Leading and/or trailing whitespace in Description
         level: Warning
         list:
@@ -589,47 +633,56 @@ domains:
             label: ' Reproductive Endocrinology'
           - cell: AE139
             label: ' Biochemical Genetics'
+          - cell: AE146
+            label: 'Nephrology
+
+              '
           - cell: AE147
             label: ' Ped-nephrology'
-          - cell: AE149
+          - cell: AE155
             label: 'Pedatric Neurologic Surgery '
-          - cell: AE158
-            label: ' Pediatric Ears,Nose,Throat'
           - cell: AE164
+            label: ' Pediatric Ears,Nose,Throat'
+          - cell: AE170
             label: ' Ped-Rheumatology'
-          - cell: AE166
+          - cell: AE172
             label: ' Pedatric Urology'
-          - cell: AE169
+          - cell: AE175
             label: ' Prescription'
-          - cell: AE174
+          - cell: AE180
             label: ' Medical Toxicology'
-          - cell: AE186
+          - cell: AE192
             label: 'Wound/Ostomy Care '
-          - cell: AE191
+          - cell: AE197
             label: ' Lactation services'
-          - cell: AE225
+          - cell: AE233
             label: ' Womens Health '
-          - cell: AE229
+          - cell: AE237
             label: 'Palliative Medicine '
-          - cell: AE258
-            label: 'Ped-Pathology '
-          - cell: AE260
-            label: ' Pulmonology'
           - cell: AE268
-            label: ' Undersea/Hyperbaric'
-          - cell: AE276
-            label: ' Spinal Cord Inj Med'
+            label: 'Ped-Pathology '
+          - cell: AE270
+            label: ' Pulmonology'
           - cell: AE278
+            label: ' Undersea/Hyperbaric'
+          - cell: AE286
+            label: ' Spinal Cord Inj Med'
+          - cell: AE288
             label: 'Liver Biopsy '
-          - cell: AE287
+          - cell: AE297
             label: ' Bariatric Exercise'
-          - cell: AE325
+          - cell: AE314
+            label: 'Cardiology - Vascular Medicine
+
+
+              '
+          - cell: AE335
             label: 'Administration, Telemetry, Cancelled Services, Confidential Files, CV Tracings Rec And Sent To Be M-Filmed, Documentation
               To Be Kept For Hosp Ref., Medical Social Work, NWH, Received Records In The, Records Not Received In Department, Records
               Off Site, RFP, Sent, Special Prcoedure Report, Charge Over Desk, '
-          - cell: AE326
+          - cell: AE336
             label: 'Laboratory, Lab Screen, Multitest, Outpatient Collection Station, Outreach Lab Patients, offsite lab, outpatient lab, '
-          - cell: AE329
+          - cell: AE339
             label: 'Non Patient        '
         - hl7 segment: PV1-36
           see:
@@ -646,11 +699,11 @@ domains:
             code: 'D '
         - hl7 segment: PV1-10
           see:
-          - cell: AE325
+          - cell: AE335
             code: '159, 152, 200, 213, 214, 218, 244, 256, 296, 298, 299, 306, 309, 311, 340, '
-          - cell: AE326
+          - cell: AE336
             code: '167, 237, 248, 267, 270, 354, 360, '
         - hl7 segment: IN1
           see:
-          - cell: AP204
+          - cell: AP210
             code: 'HENRY FORD '

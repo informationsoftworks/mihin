@@ -15,6 +15,13 @@ domains:
             code: A31
           - cell: AP2673
             code: S45
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP4
+            label: HEALTHPLUS OF MICHIGAN
       - error: Leading and/or trailing whitespace in Description
         level: Warning
         list:

@@ -110,7 +110,7 @@ domains:
           - cell: AI4
             label: 'Discharged to home or self care (routine discharge), Home or Self Care (I), '
           - cell: AI9
-            label: 'Discharged/transferred to home under care of organized home health service \norganization, Home Under Care (I) '
+            label: "Discharged/transferred to home under care of organized home health service \norganization, Home Under Care (I) "
           - cell: AI15
             label: 'COURT OR LAW ENFORCE '
       - error: Leading and/or trailing whitespace in Hospital Value

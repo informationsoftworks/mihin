@@ -37,6 +37,13 @@ domains:
             code: '700114'
           - cell: AP10334
             code: '700120'
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP3604
+            label: Broadspire c/o ACF
       - error: Leading and/or trailing whitespace in Hospital Value
         level: Warning
         list:

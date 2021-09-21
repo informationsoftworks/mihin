@@ -2,7 +2,7 @@ base: Schoolcraft Memorial
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Schoolcraft Memorial ADT 2.0 table 01-14-2021 .xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Schoolcraft Memorial ADT 2.0 table 09-15-2021.xlsx
       list:
       - error: Code values provided without label
         level: Warning

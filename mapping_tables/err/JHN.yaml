@@ -48,6 +48,13 @@ domains:
           - cell: A94
             code: 2.16.840.1.113883.3.3823.112038
             label: HFA TENEYCK
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI7
+            label: Custodial Care Facility
       - error: Leading and/or trailing whitespace in Description
         level: Warning
         list:
@@ -83,6 +90,10 @@ domains:
             label: ' Reproductive Endocrinology'
           - cell: AE139
             label: ' Biochemical Genetics'
+          - cell: AE146
+            label: 'Nephrology
+
+              '
           - cell: AE147
             label: ' Ped-nephrology'
           - cell: AE149
@@ -117,6 +128,11 @@ domains:
             label: 'Liver Biopsy '
           - cell: AE299
             label: ' Bariatric Exercise'
+          - cell: AE316
+            label: 'Cardiology - Vascular Medicine
+
+
+              '
           - cell: AE337
             label: 'Administration, Telemetry, Cancelled Services, Confidential Files, CV Tracings Rec And Sent To Be M-Filmed, Documentation
               To Be Kept For Hosp Ref., Medical Social Work, NWH, Received Records In The, Records Not Received In Department, Records

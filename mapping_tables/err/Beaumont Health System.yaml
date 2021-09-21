@@ -21,16 +21,9 @@ domains:
           field value: '""'
           message count: 119
           receiving org message ID: 22940332
-        - HL7 ID: '520799907'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210916185656'
-          field name: PV1-36
-          field value: Incomplete
-          message count: 19338
-          receiving org message ID: 82737839
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Beaumont Health System ADT 2.0 table 12-18-2018.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Beaumont Health System ADT 2.0 table 07-28-2021.xlsx
       list:
       - error: Incomplete, non-specific or abbreviated facility name
         level: Warning

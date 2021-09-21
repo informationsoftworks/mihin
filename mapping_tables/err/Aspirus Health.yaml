@@ -24,6 +24,13 @@ domains:
           - cell: AP9
           - cell: AP10
           - cell: AP11
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE33
+            label: Neurosurgery
       - error: Leading and/or trailing whitespace in Description
         level: Warning
         list:

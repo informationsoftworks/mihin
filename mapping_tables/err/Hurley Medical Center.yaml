@@ -26,6 +26,215 @@ domains:
           - cell: A6
             code: '2.16.840.1.113883.3.3413.2     '
             value: HURLEY HEALTH SERVICES- SERVICE AREA - 20 / SUB ID
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE51
+            label: OP Procedure Special
+        - hl7 segment: IN1
+          see:
+          - cell: AP8
+            label: AUTOMATED BENEFIT SERVICES 37705
+          - cell: AP9
+            label: COFINITY AUTOMATED BENEFIT SVCS
+          - cell: AP72
+            label: IBEW LOCAL 17
+          - cell: AP73
+            label: COFINITY IBEW LOCAL 17
+          - cell: AP74
+            label: BEECHSTREET
+          - cell: AP75
+            label: IMMERGRUN
+          - cell: AP76
+            label: JP FARLEY CORPORATION
+          - cell: AP77
+            label: COFINITY JP FARLEY CORP
+          - cell: AP78
+            label: MACKINAW ADMINISTRATORS
+          - cell: AP83
+            label: MANAGED HEALTH NETWORK
+          - cell: AP84
+            label: COFINITY MANAGED HEALTH NETWORK
+          - cell: AP90
+            label: MICHIGAN INSURANCE CO
+          - cell: AP92
+            label: MIDWEST HEALTH PLAN
+          - cell: AP93
+            label: COFINITY MIDWEST HEALTH PLAN
+          - cell: AP97
+            label: PARAMOUNT HEALTH CARE
+          - cell: AP98
+            label: PASSPORT ADVANTAGE
+          - cell: AP99
+            label: PASSPORT ADVANTAGE 152107
+          - cell: AP100
+            label: PHYSICIANS HEALTH PLAN
+          - cell: AP101
+            label: PHYSICIANS HEALTH PLAN 439
+          - cell: AP103
+            label: PLANNED ADMINISTRATORS INC
+          - cell: AP107
+            label: SAFECO
+          - cell: AP108
+            label: TEAMSTERS HEALTH AND WELFARE FUND
+          - cell: AP109
+            label: COFINITY TEAMSTERS HLTH & WELF
+          - cell: AP119
+            label: UNITED MEDICAL RESOURCES
+          - cell: AP120
+            label: UNITED MEDICAL RESOURCES 360
+          - cell: AP121
+            label: UNITED MEDICAL RESOURCES 30530
+          - cell: AP122
+            label: UNITED MEDICAL RESOURCES 30532
+          - cell: AP123
+            label: COFINITY UNITED MEDICAL RESOURCES
+          - cell: AP182
+            label: GENERIC WORK COMP
+          - cell: AP183
+            label: COFINITY GENERIC WORK COMP
+          - cell: AP184
+            label: ACCIDENT FUND OF MICHIGAN
+          - cell: AP185
+            label: ASU RISK MANAGEMENT
+          - cell: AP186
+            label: AUTO OWNERS WORK COMP
+          - cell: AP187
+            label: BROADSPIRE INSURANCE
+          - cell: AP188
+            label: BROADSPIRE 14645
+          - cell: AP189
+            label: CITIZENS MANAGEMENT
+          - cell: AP190
+            label: COMPONE ADMINISTRATORS
+          - cell: AP191
+            label: COMPONE OKEMOS
+          - cell: AP192
+            label: EAGLE CLAIMS MANAGEMENT
+          - cell: AP194
+            label: GALLAGHER BASSETT 23812
+          - cell: AP195
+            label: HARTFORD WORK COMP INS
+          - cell: AP196
+            label: INDIANA INSURANCE
+          - cell: AP197
+            label: LIBERTY MUTUAL
+          - cell: AP198
+            label: LIBERTY MUTUAL 7170
+          - cell: AP199
+            label: MICHIGAN MUNICIPAL LEAGUE
+          - cell: AP200
+            label: SEDGEWICK
+          - cell: AP201
+            label: SEDGWICK 14452
+          - cell: AP202
+            label: TRAVELERS
+          - cell: AP203
+            label: HMC WORK COMP (EHO)
+          - cell: AP204
+            label: EMC INSURANCE CO
+          - cell: AP242
+            label: MEDICA HEALTHCARE PLAN
+          - cell: AP243
+            label: PACIFICARE OF ARIZONA
+          - cell: AP244
+            label: AETNA MEDICARE
+          - cell: AP245
+            label: PRIORITY HEALTH MEDICARE
+          - cell: AP247
+            label: COFINITY GENERIC AUTO
+          - cell: AP248
+            label: AAA AUTO INSURANCE
+          - cell: AP249
+            label: AFFIRMATIVE INSURANCE
+          - cell: AP250
+            label: AFFIRMATIVE INSURANCE 9280
+          - cell: AP251
+            label: ALLSTATE AUTO INSURANCE
+          - cell: AP252
+            label: ALLSTATE 9229
+          - cell: AP253
+            label: ALLSTATE 9231
+          - cell: AP254
+            label: ALLSTATE 100
+          - cell: AP255
+            label: AMERICAN CLAIMS MANAGEMENT
+          - cell: AP256
+            label: AMERICAN FELLOWSHIP MUTUAL INSURANCE
+          - cell: AP257
+            label: AUTO OWNERS AUTO INSURANCE
+          - cell: AP258
+            label: AUTO OWNERS 30660
+          - cell: AP259
+            label: AUTO OWNERS 6520
+          - cell: AP260
+            label: BRISTOL WEST
+          - cell: AP261
+            label: CITIZENS AUTO INSURANCE
+          - cell: AP262
+            label: DAIRYLAND INSURANCE
+          - cell: AP263
+            label: DAIRYLAND INS 8021
+          - cell: AP264
+            label: ENCOMPASS INSURANCE
+          - cell: AP265
+            label: ESIS
+          - cell: AP266
+            label: FARM BUREAU AUTO INSRUANCE
+          - cell: AP267
+            label: FARMERS AUTO INSURANCE
+          - cell: AP268
+            label: FARMERS 27260
+          - cell: AP269
+            label: MITCHELL WCS FRANKENMUTH 135801
+          - cell: AP270
+            label: FREMONT INSURANCE
+          - cell: AP271
+            label: GEICO INSURANCE
+          - cell: AP272
+            label: GMAC AUTO INSURANCE
+          - cell: AP273
+            label: GRANGE INSURANCE
+          - cell: AP274
+            label: GRANGE INSURANCE 182657
+          - cell: AP275
+            label: HANOVER INSURANCE
+          - cell: AP276
+            label: HARLEYSVILLE INSURANCE
+          - cell: AP277
+            label: HARTFORD AUTO INSURANCE
+          - cell: AP278
+            label: HASTINGS MUTUAL
+          - cell: AP279
+            label: HORACE MANN INSURANCE
+          - cell: AP280
+            label: KEMPER INSURANCE
+          - cell: AP281
+            label: LIBERTY MUTUAL
+          - cell: AP282
+            label: MEEMIC INSURANCE
+          - cell: AP283
+            label: MEEMIC INSURANCE 217019
+          - cell: AP284
+            label: MICHIGAN INSURANCE CO AUTO
+          - cell: AP285
+            label: NATIONWIDE
+          - cell: AP286
+            label: NORTHPOINTE AUTO INSURANCE
+          - cell: AP288
+            label: PROGRESSIVE AUTO INSURANCE
+          - cell: AP289
+            label: SECURA
+          - cell: AP290
+            label: STATE AUTO GROUP
+          - cell: AP291
+            label: STATE FARM AUTO INSURANCE
+          - cell: AP301
+            label: UNITED HEALTH CARE GRT LKS
+          - cell: AP312
+            label: PHP FAMILYCARE
       - error: Leading and/or trailing whitespace in Description
         level: Warning
         list:

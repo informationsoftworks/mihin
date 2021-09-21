@@ -1,0 +1,38 @@
+base: UP Health System Bell Hospital
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/UP Health System Bell Hospital ADT 2.0 table 05-20-2021.xlsx
+      list:
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI8
+            label: Discharged/transferred to another type of institution not defined elsewhere in this code list
+          - cell: AI11
+            label: Discharged/transferred to home under care of a Home IV provider
+          - cell: AI12
+            label: Admitted as an inpatient to this hospital
+          - cell: AI14
+            label: Still Patient
+          - cell: AI15
+            label: Expired at home
+          - cell: AI16
+            label: Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)
+          - cell: AI17
+            label: Expired - place unknown
+          - cell: AI18
+            label: Discharged/transferred to a federal health care facility. (Effective 10/1/03)
+          - cell: AI21
+            label: Discharged/transferred to hospital-based Medicare approved swing bed
+          - cell: AI22
+            label: Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of
+              a hospital. (Effective retroactive to 1/1/02.)
+          - cell: AI23
+            label: Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)
+          - cell: AI25
+            label: Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)
+          - cell: AI26
+            label: Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)

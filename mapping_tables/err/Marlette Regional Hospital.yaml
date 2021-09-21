@@ -2,8 +2,715 @@ base: Marlette Regional Hospital
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Marlette Regional Hospital ADT 2.0 table 10-3-19.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Marlette Regional Hospital ADT 2.0 table 09-17-2021.xlsx
       list:
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP4
+            label: AAA MICHIGAN
+          - cell: AP5
+            label: AAA MICHIGAN
+          - cell: AP6
+            label: AARP HEALTH CARE OPTIONS
+          - cell: AP7
+            label: AARP HEALTH CARE OPTIONS
+          - cell: AP8
+            label: ABW-  ADULT BENEFIT WAIVER PLAN
+          - cell: AP9
+            label: ABW-  ADULT BENEFIT WAIVER PLAN
+          - cell: AP10
+            label: ACCIDENT FUND INSURANCE AUTO
+          - cell: AP11
+            label: ACCIDENT FUND INSURANCE AUTO
+          - cell: AP12
+            label: ACCIDENT FUND INSURANCE WC
+          - cell: AP13
+            label: ACCIDENT FUND INSURANCE WC
+          - cell: AP14
+            label: ADULT BENEFIT WAIVER PLAN
+          - cell: AP15
+            label: ADULT BENEFIT WAIVER PLAN
+          - cell: AP16
+            label: AETNA
+          - cell: AP17
+            label: AETNA
+          - cell: AP18
+            label: AETNA
+          - cell: AP19
+            label: AIG INSURANCE
+          - cell: AP20
+            label: AIG INSURANCE
+          - cell: AP21
+            label: ALLIANCE HEALTH PLAN
+          - cell: AP22
+            label: ALLIANCE HEALTH PLAN
+          - cell: AP23
+            label: ALLIED AUTO INS
+          - cell: AP24
+            label: ALLIED AUTO INS
+          - cell: AP25
+            label: AMERAPLAN INC
+          - cell: AP26
+            label: AMERAPLAN INC
+          - cell: AP27
+            label: AMERICAN COMM MUTUAL
+          - cell: AP28
+            label: AMERICAN COMM MUTUAL
+          - cell: AP29
+            label: AMERICAN FELLOWSHIP AUTO
+          - cell: AP30
+            label: AMERICAN FELLOWSHIP AUTO
+          - cell: AP31
+            label: AMERISURE
+          - cell: AP32
+            label: AMERISURE
+          - cell: AP33
+            label: AMERISURE - PROFESSIONAL
+          - cell: AP34
+            label: AMERISURE - PROFESSIONAL
+          - cell: AP35
+            label: AMISH BOARD
+          - cell: AP36
+            label: ASR/ADMIN SYS RESEARCH
+          - cell: AP37
+            label: ASR/ADMIN SYS RESEARCH
+          - cell: AP38
+            label: ASSURANT HEALTH
+          - cell: AP39
+            label: ASSURANT HEALTH
+          - cell: AP40
+            label: AUTO OWNERS - PROFESSIONAL
+          - cell: AP41
+            label: AUTO OWNERS - PROFESSIONAL
+          - cell: AP42
+            label: AUTO OWNERS MI PIP BRANCH
+          - cell: AP43
+            label: AUTO OWNERS MI PIP BRANCH
+          - cell: AP44
+            label: BANKERS LIFE AND CASUALTY
+          - cell: AP45
+            label: BANKERS LIFE AND CASUALTY
+          - cell: AP46
+            label: BANKERS LIFE AND CASUALTY - PROFESSIONAL
+          - cell: AP47
+            label: BANKERS LIFE AND CASUALTY - PROFESSIONAL
+          - cell: AP48
+            label: BCBSM
+          - cell: AP49
+            label: BCBSM
+          - cell: AP50
+            label: BCBSM TRUST
+          - cell: AP51
+            label: BCBSM TRUST
+          - cell: AP52
+            label: BENEFIT MGMT ADMN INC-BMAI
+          - cell: AP53
+            label: BENEFIT MGMT ADMN INC-BMAI
+          - cell: AP54
+            label: BLUE CROSS COMPLETE
+          - cell: AP55
+            label: BLUE CROSS COMPLETE
+          - cell: AP56
+            label: BLUECARE NETWORK
+          - cell: AP57
+            label: BLUECARE NETWORK
+          - cell: AP58
+            label: BLUECARE NETWORK
+          - cell: AP59
+            label: BRISTOL WEST
+          - cell: AP60
+            label: BRISTOL WEST
+          - cell: AP61
+            label: BROADSPIRE (PREV RSKCO)
+          - cell: AP62
+            label: BROADSPIRE (PREV RSKCO)
+          - cell: AP63
+            label: Benefit Administrative Systems, LLC
+          - cell: AP64
+            label: Benefit Administrative Systems, LLC
+          - cell: AP65
+            label: CAM
+          - cell: AP66
+            label: CAM
+          - cell: AP67
+            label: CAMBRIDGE INSURANCE
+          - cell: AP68
+            label: CAMBRIDGE INSURANCE
+          - cell: AP69
+            label: CARING HEARTS
+          - cell: AP70
+            label: CARING HEARTS
+          - cell: AP71
+            label: CC - CRIPPLED CHILDREN
+          - cell: AP72
+            label: CC - CRIPPLED CHILDREN
+          - cell: AP73
+            label: CENTRA CLAIMS
+          - cell: AP74
+            label: CENTRA CLAIMS
+          - cell: AP75
+            label: CENTRAL STATE COMMUNITY SERVICE
+          - cell: AP76
+            label: CENTRAL STATE COMMUNITY SERVICE
+          - cell: AP77
+            label: CHAMPVA
+          - cell: AP78
+            label: CHAMPVA
+          - cell: AP79
+            label: CIGNA
+          - cell: AP80
+            label: CIGNA
+          - cell: AP81
+            label: CIGNA
+          - cell: AP82
+            label: CITIZENS HANOVER INSURANCE
+          - cell: AP83
+            label: CITIZENS HANOVER INSURANCE
+          - cell: AP84
+            label: CITIZENS INSURANCE COMPANY
+          - cell: AP85
+            label: CITIZENS INSURANCE COMPANY
+          - cell: AP86
+            label: CLAIMS MANAGEMENT INC.
+          - cell: AP87
+            label: CLAIMS MANAGEMENT INC.
+          - cell: AP88
+            label: CNA INSURANCE
+          - cell: AP89
+            label: CNA INSURANCE
+          - cell: AP90
+            label: COFINITY/PPOM MISC
+          - cell: AP91
+            label: COFINITY/PPOM MISC
+          - cell: AP92
+            label: COLONIAL PENN LIFE INSURANCE
+          - cell: AP93
+            label: COLONIAL PENN LIFE INSURANCE
+          - cell: AP94
+            label: COMMERCIAL MISC
+          - cell: AP95
+            label: COMMERCIAL MISC
+          - cell: AP96
+            label: CONNECTICUT GENERAL
+          - cell: AP97
+            label: CONNECTICUT GENERAL
+          - cell: AP98
+            label: CONTINENTAL LIFE INSURANCE
+          - cell: AP99
+            label: CONTINENTAL LIFE INSURANCE
+          - cell: AP100
+            label: CORPORATE GROUP SYSTEMS
+          - cell: AP101
+            label: CORPORATE GROUP SYSTEMS
+          - cell: AP102
+            label: CRIPPLED CHILDREN
+          - cell: AP103
+            label: CRIPPLED CHILDREN
+          - cell: AP104
+            label: CROP PRODUCTION SERVICES
+          - cell: AP105
+            label: CROP PRODUCTION SERVICES
+          - cell: AP106
+            label: CT GENERAL LIFE INS
+          - cell: AP107
+            label: CT GENERAL LIFE INS
+          - cell: AP108
+            label: CURANET/HCAP
+          - cell: AP109
+            label: CURANET/HCAP
+          - cell: AP110
+            label: ClaimChoice Administrators
+          - cell: AP111
+            label: ClaimChoice Administrators
+          - cell: AP112
+            label: DEPARTMENT OF LABOR
+          - cell: AP113
+            label: DEPARTMENT OF LABOR
+          - cell: AP114
+            label: DRS SERVICES INC
+          - cell: AP115
+            label: DRS SERVICES INC
+          - cell: AP116
+            label: EHIM (EMP HEALTH INS)
+          - cell: AP117
+            label: EHIM (EMP HEALTH INS)
+          - cell: AP118
+            label: EMMIE DIE
+          - cell: AP119
+            label: EMMIE DIE
+          - cell: AP120
+            label: Emp Bene Logistics/NexCare-Health Sys
+          - cell: AP121
+            label: Emp Bene Logistics/NexCare-Health Sys
+          - cell: AP122
+            label: Emp Bene Logistics/NexCare-Health Sys
+          - cell: AP123
+            label: Emp Bene Logistics/NexCare-Health Sys
+          - cell: AP124
+            label: FARM BUREAU
+          - cell: AP125
+            label: FARM BUREAU
+          - cell: AP126
+            label: FEDERAL BC
+          - cell: AP127
+            label: FEDERAL BC
+          - cell: AP128
+            label: FEDERAL BC TRUST
+          - cell: AP129
+            label: FEDERAL BC TRUST
+          - cell: AP130
+            label: FEDERATED INSURANCE
+          - cell: AP131
+            label: FEDERATED INSURANCE
+          - cell: AP132
+            label: FINCOR/COVERYS
+          - cell: AP133
+            label: FINCOR/COVERYS
+          - cell: AP134
+            label: FIRST AGENCY
+          - cell: AP135
+            label: FIRST AGENCY
+          - cell: AP136
+            label: FORTIS INSURANCE CO
+          - cell: AP137
+            label: FORTIS INSURANCE CO
+          - cell: AP138
+            label: FORWARD EDGE ASSOCIATES
+          - cell: AP139
+            label: FORWARD EDGE ASSOCIATES
+          - cell: AP140
+            label: FRANKENMUTH MUTUAL INSURANCE
+          - cell: AP141
+            label: FRANKENMUTH MUTUAL INSURANCE
+          - cell: AP142
+            label: Fee Basis Program- John D. Dingel VA Medical Center
+          - cell: AP143
+            label: Fee Basis Program- John D. Dingel VA Medical Center
+          - cell: AP144
+            label: GE LIFE & ANNUITY
+          - cell: AP145
+            label: GE LIFE & ANNUITY
+          - cell: AP146
+            label: GEHA/GOVERN EMP HOSP
+          - cell: AP147
+            label: GEHA/GOVERN EMP HOSP
+          - cell: AP148
+            label: GENWORTH FINANCIAL
+          - cell: AP149
+            label: GENWORTH FINANCIAL
+          - cell: AP150
+            label: GERBER LIFE INSURANCE
+          - cell: AP151
+            label: GERBER LIFE INSURANCE
+          - cell: AP152
+            label: GLHP (UNITED HEALTHCARE COMMUNITY PLAN)
+          - cell: AP153
+            label: GLHP (UNITED HEALTHCARE COMMUNITY PLAN)
+          - cell: AP154
+            label: GLHP (UNITED HEALTHCARE COMMUNITY PLAN)
+          - cell: AP155
+            label: GLOBAL  MEDICAL MGMT
+          - cell: AP156
+            label: GLOBAL  MEDICAL MGMT
+          - cell: AP157
+            label: GOLDEN RULE LIFE INS
+          - cell: AP158
+            label: GOLDEN RULE LIFE INS
+          - cell: AP159
+            label: GREAT WEST LIFE
+          - cell: AP160
+            label: GREAT WEST LIFE
+          - cell: AP161
+            label: GREAT WEST LIFE/PHCS
+          - cell: AP162
+            label: GREAT WEST LIFE/PHCS
+          - cell: AP163
+            label: GROUP ADMINISTRATORS, LTD
+          - cell: AP164
+            label: GROUP ADMINISTRATORS, LTD
+          - cell: AP165
+            label: GROUP BENEFIT SERVICES
+          - cell: AP166
+            label: GROUP BENEFIT SERVICES
+          - cell: AP167
+            label: GUARDIAN
+          - cell: AP168
+            label: GUARDIAN
+          - cell: AP169
+            label: HAP
+          - cell: AP170
+            label: HAP
+          - cell: AP171
+            label: HAP
+          - cell: AP172
+            label: HASTINGS MUTUAL
+          - cell: AP173
+            label: HASTINGS MUTUAL
+          - cell: AP174
+            label: HUMANA
+          - cell: AP175
+            label: HUMANA
+          - cell: AP176
+            label: HUMANA
+          - cell: AP177
+            label: IBEW LOCAL 17
+          - cell: AP178
+            label: IBEW LOCAL 17
+          - cell: AP179
+            label: JVHL CLAIMS DEPARTMENT
+          - cell: AP180
+            label: JVHL CLAIMS DEPARTMENT
+          - cell: AP181
+            label: KOHLER OIL AND PROPANE
+          - cell: AP182
+            label: KOHLER OIL AND PROPANE
+          - cell: AP183
+            label: KOHLER PROPANE SOUTH
+          - cell: AP184
+            label: KOHLER PROPANE SOUTH
+          - cell: AP185
+            label: KOHLER PROPANE SOUTH
+          - cell: AP186
+            label: KOHLER PROPANE SOUTH
+          - cell: AP187
+            label: MAGELLAN CLAIMS
+          - cell: AP188
+            label: MAGELLAN CLAIMS
+          - cell: AP189
+            label: MAIL HANDLERS BENEFIT PLAN
+          - cell: AP190
+            label: MAIL HANDLERS BENEFIT PLAN
+          - cell: AP191
+            label: MC BCN ADVANTAGE
+          - cell: AP192
+            label: MC BCN ADVANTAGE
+          - cell: AP193
+            label: MC BCN ADVANTAGE
+          - cell: AP194
+            label: MC BCN ADVANTAGE
+          - cell: AP195
+            label: MC HAP Senior Plus
+          - cell: AP196
+            label: MC HAP Senior Plus
+          - cell: AP197
+            label: MC HUMANA/CHOICECARE
+          - cell: AP198
+            label: MC HUMANA/CHOICECARE
+          - cell: AP199
+            label: MC PLUS BLUE
+          - cell: AP200
+            label: MC PLUS BLUE
+          - cell: AP201
+            label: MC PLUS BLUE
+          - cell: AP202
+            label: MC PRIORITY HEALTH
+          - cell: AP203
+            label: MC PRIORITY HEALTH
+          - cell: AP204
+            label: MC PRIORITY HEALTH
+          - cell: AP205
+            label: MCARE
+          - cell: AP206
+            label: MCARE
+          - cell: AP207
+            label: MCLAREN HEALTH
+          - cell: AP208
+            label: MCLAREN HEALTH
+          - cell: AP209
+            label: MCLAREN HEALTH PLAN MDCD
+          - cell: AP210
+            label: MCLAREN HEALTH PLAN MDCD
+          - cell: AP211
+            label: MCLAREN HEALTH PLAN MDCD
+          - cell: AP212
+            label: MEBS
+          - cell: AP213
+            label: MEBS
+          - cell: AP214
+            label: MEDICAID
+          - cell: AP215
+            label: MEDICAID
+          - cell: AP216
+            label: MEDICAID MGT CARE MISC
+          - cell: AP217
+            label: MEDICAID MGT CARE MISC
+          - cell: AP218
+            label: MEDICARE
+          - cell: AP219
+            label: MEDICARE
+          - cell: AP220
+            label: MEDICARE MGT CARE MISC
+          - cell: AP221
+            label: MEDICARE MGT CARE MISC
+          - cell: AP222
+            label: MEDICARE RAILROAD
+          - cell: AP223
+            label: MEDICARE RAILROAD
+          - cell: AP224
+            label: MEEMIC
+          - cell: AP225
+            label: MEEMIC
+          - cell: AP226
+            label: MERIDIAN HEALTH PLAN
+          - cell: AP227
+            label: MERIDIAN HEALTH PLAN
+          - cell: AP228
+            label: MERIDIAN HEALTH PLAN
+          - cell: AP229
+            label: METROPOLITAN LIFE INS
+          - cell: AP230
+            label: METROPOLITAN LIFE INS
+          - cell: AP231
+            label: MI UFCW HEALTH & WELFARE
+          - cell: AP232
+            label: MI UFCW HEALTH & WELFARE
+          - cell: AP233
+            label: MINNEAPOLIS GROUP CLAIMS
+          - cell: AP234
+            label: MINNEAPOLIS GROUP CLAIMS
+          - cell: AP235
+            label: MOLINA HEALTHCARE of MICHIGAN
+          - cell: AP236
+            label: MOLINA HEALTHCARE of MICHIGAN
+          - cell: AP237
+            label: MOLINA HEALTHCARE of MICHIGAN
+          - cell: AP238
+            label: MORTON BLDG EMP HEALTH
+          - cell: AP239
+            label: MORTON BLDG EMP HEALTH
+          - cell: AP240
+            label: MRH BLUE CROSS - PROFESSIONAL
+          - cell: AP241
+            label: MRH BLUE CROSS - PROFESSIONAL
+          - cell: AP242
+            label: MRH BLUE CROSS TRUST
+          - cell: AP243
+            label: MRH BLUE CROSS TRUST
+          - cell: AP244
+            label: MRH Screening
+          - cell: AP245
+            label: MRH Screening
+          - cell: AP246
+            label: MUTUAL OF OMAHA
+          - cell: AP247
+            label: MUTUAL OF OMAHA
+          - cell: AP248
+            label: Michigan BCCCP
+          - cell: AP249
+            label: Michigan BCCCP
+          - cell: AP250
+            label: Misc Commercial
+          - cell: AP251
+            label: Misc Commercial
+          - cell: AP252
+            label: NATIONAL ASSOCIATION OF LETTER CARRIERS
+          - cell: AP253
+            label: NATIONAL ASSOCIATION OF LETTER CARRIERS
+          - cell: AP254
+            label: NEW ERA LIFE INS CO
+          - cell: AP255
+            label: NEW ERA LIFE INS CO
+          - cell: AP256
+            label: NGS AMERICAN, INC
+          - cell: AP257
+            label: NGS AMERICAN, INC
+          - cell: AP258
+            label: NORTH POINTE INSURANCE
+          - cell: AP259
+            label: NORTH POINTE INSURANCE
+          - cell: AP260
+            label: National Diagnostics Incorporated
+          - cell: AP261
+            label: P & T LEASING
+          - cell: AP262
+            label: P & T LEASING
+          - cell: AP263
+            label: PHCS/MULTIPLAN MISC
+          - cell: AP264
+            label: PHCS/MULTIPLAN MISC
+          - cell: AP265
+            label: PHYSICIANS CARE
+          - cell: AP266
+            label: PHYSICIANS CARE
+          - cell: AP267
+            label: PIONEER STATE MUTUAL
+          - cell: AP268
+            label: PIONEER STATE MUTUAL
+          - cell: AP269
+            label: PIONEER STATE MUTUAL
+          - cell: AP270
+            label: PIONEER STATE MUTUAL
+          - cell: AP271
+            label: PLAN FIRST
+          - cell: AP272
+            label: PLAN FIRST
+          - cell: AP273
+            label: PRINCIPAL LIFE INS
+          - cell: AP274
+            label: PRINCIPAL LIFE INS
+          - cell: AP275
+            label: PRIORITY HEALTH PROFESSIONAL
+          - cell: AP276
+            label: PRIORITY HEALTH PROFESSIONAL
+          - cell: AP277
+            label: PRIORITY HEALTH PROFESSIONAL
+          - cell: AP278
+            label: PROGRESSIVE INSURANCE
+          - cell: AP279
+            label: PROGRESSIVE INSURANCE
+          - cell: AP280
+            label: PROGRESSIVE INSURANCE - PROFESSIONAL 1
+          - cell: AP281
+            label: PROGRESSIVE INSURANCE - PROFESSIONAL 1
+          - cell: AP282
+            label: PROGRESSIVE INSURANCE - PROFESSIONAL 2
+          - cell: AP283
+            label: PROGRESSIVE INSURANCE - PROFESSIONAL 2
+          - cell: AP284
+            label: PRUDENTIAL
+          - cell: AP285
+            label: PRUDENTIAL
+          - cell: AP286
+            label: PYRAMID CLAIMS
+          - cell: AP287
+            label: PYRAMID CLAIMS
+          - cell: AP288
+            label: QUALITY ENERGY
+          - cell: AP289
+            label: QUALITY ENERGY
+          - cell: AP290
+            label: RAY MARTUS TRUCKING
+          - cell: AP291
+            label: RAY MARTUS TRUCKING
+          - cell: AP292
+            label: REGENCY BENEFITS
+          - cell: AP293
+            label: REGENCY BENEFITS
+          - cell: AP294
+            label: REGENCY BENEFITS
+          - cell: AP295
+            label: REGENCY BENEFITS
+          - cell: AP296
+            label: SANILAC CO DEPT OF HUMAN SERV
+          - cell: AP297
+            label: SANILAC CO DEPT OF HUMAN SERV
+          - cell: AP298
+            label: SELECTCARE PPO
+          - cell: AP299
+            label: SELECTCARE PPO
+          - cell: AP300
+            label: SELF PAY
+          - cell: AP301
+            label: SELF PAY
+          - cell: AP302
+            label: SET SEG
+          - cell: AP303
+            label: SET SEG
+          - cell: AP304
+            label: SHIELD BENEFIT ADM
+          - cell: AP305
+            label: SHIELD BENEFIT ADM
+          - cell: AP306
+            label: STATE FARM INSURANCE
+          - cell: AP307
+            label: STATE FARM INSURANCE
+          - cell: AP308
+            label: STATE MUTUAL LIFE
+          - cell: AP309
+            label: STATE MUTUAL LIFE
+          - cell: AP310
+            label: STONEGATE ASSISTED LIVING
+          - cell: AP311
+            label: STONEGATE ASSISTED LIVING
+          - cell: AP312
+            label: STONEGATE VILLAGE ASSISTED LIVING
+          - cell: AP313
+            label: STONEGATE VILLAGE ASSISTED LIVING
+          - cell: AP314
+            label: STUDENT ASSURANCE SERVICES INC
+          - cell: AP315
+            label: STUDENT ASSURANCE SERVICES INC
+          - cell: AP316
+            label: SUMMIT UNDERWRITERS
+          - cell: AP317
+            label: SUMMIT UNDERWRITERS
+          - cell: AP318
+            label: Schwans-National Diagnostics
+          - cell: AP319
+            label: Schwans-National Diagnostics
+          - cell: AP320
+            label: Stonegate Village Assisted Living
+          - cell: AP321
+            label: Stonegate Village Assisted Living
+          - cell: AP322
+            label: TIG INS
+          - cell: AP323
+            label: TIG INS
+          - cell: AP324
+            label: TIME INSURANCE COMPANY
+          - cell: AP325
+            label: TIME INSURANCE COMPANY
+          - cell: AP326
+            label: TITAN CLAIMS
+          - cell: AP327
+            label: TITAN CLAIMS
+          - cell: AP328
+            label: Tricare East Region
+          - cell: AP329
+            label: Tricare East Region
+          - cell: AP330
+            label: UMR 1
+          - cell: AP331
+            label: UMR 1
+          - cell: AP332
+            label: UMR 2
+          - cell: AP333
+            label: UMR 2
+          - cell: AP334
+            label: UNITED AMERICAN INSURANCE CO
+          - cell: AP335
+            label: UNITED AMERICAN INSURANCE CO
+          - cell: AP336
+            label: UNITED HC ATLANTA GA
+          - cell: AP337
+            label: UNITED HC ATLANTA GA
+          - cell: AP338
+            label: UNITED HC ATLANTA GA
+          - cell: AP339
+            label: UNITED HC ATLANTA GA
+          - cell: AP340
+            label: United Healthcare
+          - cell: AP341
+            label: VA/JOHN D. DINGELL
+          - cell: AP342
+            label: VA/JOHN D. DINGELL
+          - cell: AP343
+            label: Veterans Choice Program
+          - cell: AP344
+            label: Veterans Choice Program
+          - cell: AP345
+            label: WATER QUALITY ASSOCIATION
+          - cell: AP346
+            label: WATER QUALITY ASSOCIATION
+          - cell: AP347
+            label: WAUSAU/HCAP
+          - cell: AP348
+            label: WAUSAU/HCAP
+          - cell: AP349
+            label: WELLNESS PLAN-MEDICAID HMO
+          - cell: AP350
+            label: WELLNESS PLAN-MEDICAID HMO
+          - cell: AP351
+            label: WEYCO INC
+          - cell: AP352
+            label: WEYCO INC
+          - cell: AP353
+            label: WORKERS COMP MISC
+          - cell: AP354
+            label: WORKERS COMP MISC
       - error: Leading and/or trailing whitespace in Description
         level: Warning
         list:

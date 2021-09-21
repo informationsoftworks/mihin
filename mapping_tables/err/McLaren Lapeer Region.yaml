@@ -4,6 +4,653 @@ domains:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/McLaren Lapeer Region ADT 2.0 tables 08-12-2019.xlsx
       list:
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP62
+            label: ACCIDENT FUND OF MICHIGAN
+          - cell: AP88
+            label: ADVOMAS
+          - cell: AP91
+            label: ADVOMAS  AUTO PENDING
+          - cell: AP363
+            label: ANTHEM BC
+          - cell: AP372
+            label: ANTHEM BC/BS
+          - cell: AP374
+            label: ANTHEM BCBS
+          - cell: AP375
+            label: Anthem BCBS
+          - cell: AP377
+            label: ANTHEM BCBS  OHIO
+          - cell: AP380
+            label: Anthem BCBS - Ohio
+          - cell: AP381
+            label: ANTHEM BCBS - OHIO
+          - cell: AP382
+            label: ANTHEM BCBS  WISCONSIN
+          - cell: AP383
+            label: anthem bcbs california
+          - cell: AP385
+            label: ANTHEM BCBS CALIFORNIA
+          - cell: AP386
+            label: Anthem BCBS Californina
+          - cell: AP388
+            label: ANTHEM BCBS COLORADO
+          - cell: AP390
+            label: ANTHEM BCBS MISSOURI
+          - cell: AP394
+            label: anthem bcbs of kentucky
+          - cell: AP397
+            label: ANTHEM BCBS OF OHIO
+          - cell: AP399
+            label: ANTHEM BCBS OF WISCONSIN
+          - cell: AP401
+            label: anthem bcbs ohio
+          - cell: AP402
+            label: ANTHEM BCBS OHIO
+          - cell: AP403
+            label: ANTHEM BCBS- OHIO
+          - cell: AP432
+            label: ARKANSAS BLUE CROSS AND BLUE SHIELD
+          - cell: AP533
+            label: ATLANTA GA
+          - cell: AP622
+            label: BC ANTHEM BCBS OF CA
+          - cell: AP623
+            label: BC ANTHEM BCBS OF CALIFORNIA
+          - cell: AP624
+            label: BC ANTHEM BCBS OF OHIO
+          - cell: AP626
+            label: BC BCBS ANTHEM
+          - cell: AP628
+            label: BC BCBS of Alabama
+          - cell: AP629
+            label: BC BCBS OF ILLINOIS
+          - cell: AP630
+            label: BC BCBS OF MA
+          - cell: AP633
+            label: BC BCBS of Mississippi
+          - cell: AP634
+            label: BC BCBSM
+          - cell: AP636
+            label: BC BCBSM anthem GA
+          - cell: AP637
+            label: BC BCBSM anthem of ohio
+          - cell: AP638
+            label: BC BCBSM ANTHEM OF OHIO
+          - cell: AP642
+            label: BC BCBSM Illinois
+          - cell: AP643
+            label: BC BCBSM MASSACHUSETTS
+          - cell: AP644
+            label: BC BCBSM MINNESOTA
+          - cell: AP645
+            label: BC BCBSM OF ALABAMA
+          - cell: AP646
+            label: BC BCBSM OF ARKANSAS
+          - cell: AP647
+            label: BC BCBSM OF ILL
+          - cell: AP648
+            label: BC BCBSM OF ILLINOIS
+          - cell: AP649
+            label: BC BCBSM of Minnesota
+          - cell: AP650
+            label: BC BCBSM of pittsburg pa
+          - cell: AP652
+            label: BC BCBSM OOS MINNESOTA
+          - cell: AP654
+            label: BC BCBSM TEXAS
+          - cell: AP659
+            label: BC BCBSM TRUST
+          - cell: AP661
+            label: BC BCBSM TRUST ALABAMA
+          - cell: AP662
+            label: BC BCBSM TRUST ANTHEM
+          - cell: AP663
+            label: BC BCBSM TRUST ANTHEM BCBS - OHIO
+          - cell: AP664
+            label: BC BCBSM TRUST ARKANSAS
+          - cell: AP665
+            label: BC BCBSM TRUST california
+          - cell: AP668
+            label: BC BCBSM TRUST Highmark
+          - cell: AP669
+            label: BC BCBSM TRUST HIGHMARK
+          - cell: AP670
+            label: BC BCBSM TRUST ILLINOIS
+          - cell: AP671
+            label: BC BCBSM TRUST Illinois
+          - cell: AP672
+            label: BC BCBSM TRUST- Illinois
+          - cell: AP673
+            label: BC BCBSM TRUST kentucky
+          - cell: AP674
+            label: BC BCBSM TRUST MASSACHUSETTS
+          - cell: AP677
+            label: BC BCBSM TRUST of alabama
+          - cell: AP679
+            label: BC BCBSM TRUST OF ILLINIOS
+          - cell: AP680
+            label: BC BCBSM TRUST OF ILLINOIS
+          - cell: AP681
+            label: BC BCBSM TRUST OF MISSISSIPPI
+          - cell: AP682
+            label: BC BCBSM TRUST OF OHIO
+          - cell: AP683
+            label: BC BCBSM TRUST OF PITTSBURG  PA
+          - cell: AP684
+            label: BC BCBSM TRUST of texas
+          - cell: AP685
+            label: BC BCBSM TRUST OF TEXAS
+          - cell: AP690
+            label: BC BCBSM TRUST TEAM CAREX
+          - cell: AP691
+            label: BC BCBSM TRUST texas
+          - cell: AP692
+            label: BC BCBSM TRUST-Anthem
+          - cell: AP696
+            label: BC BCBSM TRUST-ILLINOIS
+          - cell: AP699
+            label: BC BCBSM TRUST-TEXAS
+          - cell: AP706
+            label: BC BLUE CROSS
+          - cell: AP708
+            label: BC BLUE CROSS ANTHEM
+          - cell: AP709
+            label: BC BLUE CROSS CAREFIRST ADMIN
+          - cell: AP710
+            label: BC BLUE CROSS ILLINOIS
+          - cell: AP712
+            label: BC BLUE CROSS OF ARKANSAS
+          - cell: AP715
+            label: BC BLUE CROSS OF ILL.
+          - cell: AP717
+            label: BC BLUE CROSS OF ILLINOIS
+          - cell: AP720
+            label: BC BLUE CROSS OF MA
+          - cell: AP721
+            label: BC BLUE CROSS OF MN
+          - cell: AP722
+            label: BC BLUE CROSS of northeastern new york
+          - cell: AP724
+            label: BC BLUE CROSS OF TEXAS
+          - cell: AP726
+            label: BC BLUE CROSS OHIO
+          - cell: AP727
+            label: BC BLUE CROSS OUT OF ALABAMA
+          - cell: AP729
+            label: BC BLUE CROSS OUT OF arizona
+          - cell: AP730
+            label: BC BLUE CROSS OUT OF GA
+          - cell: AP732
+            label: BC BLUE CROSS OUT OF ILLINOIS
+          - cell: AP735
+            label: BC BLUE CROSS OUT OF MASSACHUSETTS
+          - cell: AP736
+            label: BC BLUE CROSS OUT OF NEBRASKA
+          - cell: AP741
+            label: BC BLUE CROSS OUT OF STATE alabama
+          - cell: AP742
+            label: BC BLUE CROSS OUT OF State GA
+          - cell: AP746
+            label: BC BLUE CROSS OUT OF STATE TRAD
+          - cell: AP749
+            label: BC BLUE CROSS OUT OF STATE TRUS
+          - cell: AP754
+            label: BC BLUE CROSS OUT OF STATE TRUST
+          - cell: AP768
+            label: BC HIGHMARK BCBS OF PA
+          - cell: AP769
+            label: BC HIGHMARK BCBS PA
+          - cell: AP771
+            label: BC MDOC PRISON INMATES
+          - cell: AP775
+            label: BC OF DC
+          - cell: AP782
+            label: BC OF OHIO
+          - cell: AP783
+            label: BC OF PA
+          - cell: AP786
+            label: BC of Virginia
+          - cell: AP787
+            label: BC TEXAS
+          - cell: AP793
+            label: bc/bs of illinois
+          - cell: AP797
+            label: BCBS
+          - cell: AP799
+            label: bcbs
+          - cell: AP801
+            label: BCBS - ANTHEM - OUT OF STATE
+          - cell: AP803
+            label: BCBS  MASSACHUSETTS
+          - cell: AP805
+            label: BCBS - minnesota
+          - cell: AP806
+            label: BCBS AK
+          - cell: AP808
+            label: BCBS ALABAMA
+          - cell: AP809
+            label: bcbs alabama
+          - cell: AP810
+            label: BCBS ALANTA
+          - cell: AP811
+            label: BCBS ANTHEM
+          - cell: AP813
+            label: BCBS ANTHEM OF OHIO
+          - cell: AP815
+            label: BCBS ANTHEM OHIO
+          - cell: AP818
+            label: BCBS CareFirst Blue Choice Maryland
+          - cell: AP820
+            label: BCBS HIGHMARK
+          - cell: AP821
+            label: bcbs highmark
+          - cell: AP822
+            label: BCBS HIGHMARK INC
+          - cell: AP824
+            label: BCBS ILLINOIS
+          - cell: AP825
+            label: bcbs illinois
+          - cell: AP826
+            label: BCBS- Illinois
+          - cell: AP827
+            label: bcbs illnois
+          - cell: AP828
+            label: BCBS INDEPENDENCE
+          - cell: AP832
+            label: BCBS MDOC PRISON
+          - cell: AP833
+            label: BCBS MDOC PRISON INMATES
+          - cell: AP836
+            label: bcbs minnesota
+          - cell: AP837
+            label: BCBS MINNESOTA
+          - cell: AP838
+            label: BCBS MISSISSIPPI
+          - cell: AP840
+            label: BCBS OF  TEXAS
+          - cell: AP841
+            label: BCBS of  texas
+          - cell: AP842
+            label: BCBS OF AL
+          - cell: AP844
+            label: BCBS OF ALABAMA
+          - cell: AP845
+            label: bcbs of alabama
+          - cell: AP846
+            label: BCBS OF ARK
+          - cell: AP848
+            label: BCBS of Arkansas
+          - cell: AP849
+            label: BCBS OF ARKANSAS
+          - cell: AP850
+            label: BCBS OF CA
+          - cell: AP852
+            label: BCBS OF CALIFORNIA
+          - cell: AP854
+            label: BCBS of Florida
+          - cell: AP856
+            label: BCBS OF FLORIDA
+          - cell: AP857
+            label: bcbs of florida
+          - cell: AP861
+            label: BCBS OF IL
+          - cell: AP863
+            label: BCBS OF IL CENTRAL STATES BEN. PLAN
+          - cell: AP865
+            label: BCBS OF ILLINIOS
+          - cell: AP869
+            label: BCBS of Illinois
+          - cell: AP870
+            label: BCBS of illinois
+          - cell: AP871
+            label: bcbs of illinois
+          - cell: AP872
+            label: BCBS OF ILLINOIS
+          - cell: AP878
+            label: BCBS of MASS
+          - cell: AP879
+            label: BCBS OF MASSACHUETTES
+          - cell: AP881
+            label: BCBS of Massachusetts
+          - cell: AP882
+            label: BCBS OF MASSACHUSETTS
+          - cell: AP885
+            label: BCBS OF MINNESOTA
+          - cell: AP889
+            label: BCBS OF MN
+          - cell: AP893
+            label: BCBS OF OH
+          - cell: AP895
+            label: bcbs of ohio
+          - cell: AP896
+            label: BCBS of ohio
+          - cell: AP897
+            label: BCBS OF OHIO
+          - cell: AP898
+            label: BCBS OF PA
+          - cell: AP900
+            label: bcbs of pittsburg
+          - cell: AP903
+            label: BCBS of RI
+          - cell: AP904
+            label: BCBS of seattle wa
+          - cell: AP906
+            label: BCBS OF SOUTH CAROLINA
+          - cell: AP907
+            label: BCBS OF TENN.
+          - cell: AP909
+            label: BCBS OF TENNESSEE
+          - cell: AP910
+            label: bcbs of tennessee
+          - cell: AP912
+            label: bcbs of texas
+          - cell: AP913
+            label: BCBS OF TEXAS
+          - cell: AP914
+            label: BCBS of Texas
+          - cell: AP917
+            label: BCBS OF TX
+          - cell: AP918
+            label: BCBS of virginia
+          - cell: AP921
+            label: bcbs ohio
+          - cell: AP924
+            label: bcbs out of state
+          - cell: AP925
+            label: bcbs out of texas
+          - cell: AP931
+            label: BCBS TEXAS
+          - cell: AP934
+            label: BCBS TRUST
+          - cell: AP935
+            label: BCBS/MASSACHUSETTS
+          - cell: AP936
+            label: BCBS-ILL
+          - cell: AP958
+            label: BCBS-OUT OF STATE PLANS
+          - cell: AP1002
+            label: BLUE ADVANTAGE OF ARKANSAS
+          - cell: AP1014
+            label: BLUE CROSS AND BLUE SHIELD OF TEXAS
+          - cell: AP1016
+            label: BLUE CROSS AND BLUE SHIELD-ALABAMA
+          - cell: AP1019
+            label: BLUE CROSS AND BLUE SHIELD-ILLINOIS
+          - cell: AP1022
+            label: BLUE CROSS BLUE SHIELD
+          - cell: AP1023
+            label: Blue Cross Blue Shield
+          - cell: AP1032
+            label: blue cross blue shield of georgia
+          - cell: AP1040
+            label: Blue Cross Blue Shield of Texas
+          - cell: AP1046
+            label: BLUE CROSS COMPLETE
+          - cell: AP1101
+            label: BLUE CROSS OHIO
+          - cell: AP1134
+            label: blue exchange carefirst
+          - cell: AP1219
+            label: CAREFIRST BCBS
+          - cell: AP1262
+            label: CHAMPUS
+          - cell: AP1263
+            label: CHAMPUS PGBA
+          - cell: AP1421
+            label: CMIM CONSUMERS MUTAL INSURANCE CO
+          - cell: AP1422
+            label: CMIM CONSUMERS MUTUAL INSURANCE CO
+          - cell: AP1590
+            label: CONSUMERS MUTUAL INSURANCE CO
+          - cell: AP1641
+            label: COVENTRY CARES OF MICHIGAN
+          - cell: AP1843
+            label: EXCELLUS BCBS - ROCHESTER - NY
+          - cell: AP2428
+            label: HEALTH PLUS
+          - cell: AP2450
+            label: HEALTH PLUS OF MICHIGAN
+          - cell: AP2489
+            label: HEALTHPLUS PARTNERS
+          - cell: AP2537
+            label: HIGHMARK BC OF PA
+          - cell: AP2540
+            label: HIGHMARK BCBC OF PA
+          - cell: AP2543
+            label: HIGHMARK BCBS
+          - cell: AP2544
+            label: HIGHMARK BCBS FLORIDA
+          - cell: AP2545
+            label: HIGHMARK BCBS OF PA
+          - cell: AP2551
+            label: HIGHMARK INC
+          - cell: AP2564
+            label: HMP TOTAL HEALTHCARE
+          - cell: AP2565
+            label: HMSA BCBS OF HAWAII
+          - cell: AP2582
+            label: horizon bcbs new jersey
+          - cell: AP2589
+            label: HOSPICE HEARTLAND
+          - cell: AP2643
+            label: HURLEY MEDICAL CENTER
+          - cell: AP2664
+            label: INDEPENDENCE BLUE CROSS
+          - cell: AP2931
+            label: MA MCLAREN ADVANTAGE MEDICARE
+          - cell: AP3022
+            label: MA PRIORITY HEALTH
+          - cell: AP3237
+            label: ME BC COMPLETE HEALTHY MI
+          - cell: AP3239
+            label: ME BCBS COMPLETE
+          - cell: AP3282
+            label: ME HEALTH PLUS HEALTHY MI PLAN
+          - cell: AP3286
+            label: me HEALTHPLUS PARTNERS
+          - cell: AP3287
+            label: ME HEALTHY MI  MCLAREN HP
+          - cell: AP3288
+            label: ME HEALTHY MI  MEDICAID
+          - cell: AP3289
+            label: ME HEALTHY MI  MEDICAID FFS
+          - cell: AP3290
+            label: ME HEALTHY MI  MERIDIAN HP
+          - cell: AP3291
+            label: ME HEALTHY MI  MOLINA
+          - cell: AP3292
+            label: ME HEALTHY MI  TOTAL HC
+          - cell: AP3293
+            label: ME HEALTHY MI BC COMPLETE
+          - cell: AP3294
+            label: ME HEALTHY MI HEALTH PLUS
+          - cell: AP3296
+            label: ME HEALTHY MI MCLAREN HEALTH PLAN
+          - cell: AP3297
+            label: ME HEALTHY MI MCLAREN HP
+          - cell: AP3298
+            label: ME HEALTHY MI MERIDIAN HEALTH PLAN
+          - cell: AP3299
+            label: ME HEALTHY MI MOLINA
+          - cell: AP3300
+            label: ME HEALTHY MI PHP
+          - cell: AP3301
+            label: ME HEALTHY MI PLAN
+          - cell: AP3302
+            label: ME HEALTHY MI PLAN BLUE CROSS COMPLETE
+          - cell: AP3303
+            label: ME HEALTHY MI PLAN ESO
+          - cell: AP3304
+            label: ME HEALTHY MI PLAN HMO
+          - cell: AP3305
+            label: ME HEALTHY MI PLAN HMO - Meridian
+          - cell: AP3306
+            label: ME HEALTHY MI PLAN HMO AUTO
+          - cell: AP3307
+            label: ME HEALTHY MI PLAN HMO BC COMPLETE
+          - cell: AP3308
+            label: ME HEALTHY MI PLAN HMO HAP MIDWEST
+          - cell: AP3309
+            label: ME HEALTHY MI PLAN HMO meridan
+          - cell: AP3310
+            label: ME HEALTHY MI PLAN HMO MERIDAN
+          - cell: AP3311
+            label: ME HEALTHY MI PLAN HMO MERIDIAN
+          - cell: AP3312
+            label: ME HEALTHY MI PLAN HMO meridian
+          - cell: AP3313
+            label: ME HEALTHY MI PLAN HMO MERIDIAN MEDICAID
+          - cell: AP3314
+            label: ME HEALTHY MI PLAN HMO MOLINA
+          - cell: AP3315
+            label: ME HEALTHY MI PLAN HMO PRIORITY HEALTH
+          - cell: AP3316
+            label: ME HEALTHY MI PLAN HMO TOTAL HEALTH CARE
+          - cell: AP3317
+            label: ME HEALTHY MI PLAN HMO TOTAL HEALTHCARE
+          - cell: AP3318
+            label: ME HEALTHY MI PLAN HMO UPHP
+          - cell: AP3319
+            label: ME HEALTHY MI PLAN HMO/HEALTHPLUS
+          - cell: AP3320
+            label: ME HEALTHY MI PLAN MCLAREN
+          - cell: AP3322
+            label: ME HEALTHY MI PLAN MERIDIAN
+          - cell: AP3323
+            label: ME HEALTHY MI PLAN meridian
+          - cell: AP3324
+            label: ME HEALTHY MI PLAN MERIDIAN MEDICAID
+          - cell: AP3325
+            label: ME HEALTHY MI PLAN MIDWEST
+          - cell: AP3326
+            label: ME HEALTHY MI PLAN MOLINA
+          - cell: AP3327
+            label: ME HEALTHY MI PLAN molina
+          - cell: AP3328
+            label: ME HEALTHY MI PLAN PHP
+          - cell: AP3329
+            label: ME HEALTHY MI PLAN UNITED HEALTHCARE
+          - cell: AP3330
+            label: ME HEALTHY MI SPARROW PHP
+          - cell: AP3332
+            label: ME HEALTHY MICHIGAN PLAN
+          - cell: AP3333
+            label: ME HEALTY MI  MEDICAID FFS
+          - cell: AP3334
+            label: ME HMP AETNA BETTER HEALTH OF MICH
+          - cell: AP3335
+            label: ME HMP BLUE CROSS COMPLETE
+          - cell: AP3337
+            label: ME HMP COVENTRYCARE
+          - cell: AP3338
+            label: ME HMP COVENTRYCARES OF MICHIGAN
+          - cell: AP3340
+            label: ME HMP HEALTHPLUS
+          - cell: AP3341
+            label: ME HMP HEALTHPLUS MEDICAID
+          - cell: AP3342
+            label: ME HMP MCLAREN HEALTH PLAN
+          - cell: AP3343
+            label: ME HMP MCLAREN MEDICAID
+          - cell: AP3344
+            label: ME HMP MEDICAID
+          - cell: AP3346
+            label: ME HMP MEDICAID ESO ONLY
+          - cell: AP3348
+            label: ME HMP MEDICAID HMO
+          - cell: AP3350
+            label: ME HMP MEDICAID INCARCERATION
+          - cell: AP3352
+            label: ME HMP MERIDIAN
+          - cell: AP3354
+            label: ME HMP MIDWEST HEALTH PLAN
+          - cell: AP3356
+            label: ME HMP MOLINA
+          - cell: AP3357
+            label: ME HMP PHP MEDICAID
+          - cell: AP3359
+            label: ME HMP TOTAL HEALTH CARE
+          - cell: AP3361
+            label: ME HMP UNITED HEALTH CARE
+          - cell: AP3370
+            label: ME MCLAREN HEALTH PLAN
+          - cell: AP3374
+            label: ME MCLAREN HP HEALTH MI
+          - cell: AP3380
+            label: ME MEDICAID
+          - cell: AP3384
+            label: ME MEDICAID HEALTH MI
+          - cell: AP3409
+            label: ME MEDICAID PENDING ADVOMAS
+          - cell: AP3413
+            label: me meridian health plan
+          - cell: AP3414
+            label: ME MERIDIAN HEALTH PLAN
+          - cell: AP3416
+            label: ME meridian health plan
+          - cell: AP3417
+            label: ME MERIDIAN HEALTH PLAN MEDICAID
+          - cell: AP3422
+            label: ME MERIDIAN HEALTHY MI
+          - cell: AP3423
+            label: me meridian heatlh plan
+          - cell: AP3429
+            label: ME MIDWEST HEALTH PLAN HMO
+          - cell: AP3430
+            label: me molina
+          - cell: AP3431
+            label: me molina health care
+          - cell: AP3434
+            label: ME MOLINA HEALTH PLAN
+          - cell: AP3435
+            label: me molina health plan
+          - cell: AP3436
+            label: ME MOLINA HEALTHY  MI
+          - cell: AP3437
+            label: ME MOLINA MEDICAID
+          - cell: AP3443
+            label: ME PHP
+          - cell: AP3446
+            label: ME PHP FAMILY CARE
+          - cell: AP3448
+            label: ME PHP FAMILY CARE MICHILD
+          - cell: AP3451
+            label: ME PHP HEALTHY MI
+          - cell: AP3455
+            label: ME PRIORITY HEALTH HMP
+          - cell: AP3464
+            label: ME UHC COMMUNITY PLAN HMP
+          - cell: AP3658
+            label: MERIDIAN CAID HMO  HMP
+          - cell: AP3659
+            label: MERIDIAN CAID HMO  HMP MERIDIAN
+          - cell: AP3663
+            label: MERIDIAN HEALTH PLAN
+          - cell: AP3664
+            label: meridian health plan
+          - cell: AP3666
+            label: Meridian Health Plan
+          - cell: AP3673
+            label: MERIDIAN HEALTH PLAN OF MICHIGAN
+          - cell: AP3676
+            label: MERIDIAN HEALTHPLAN HMP
+          - cell: AP3686
+            label: MERIDIAN MEDICARE
+          - cell: AP4266
+            label: PRIORITY HEALTH GOVERNMENT
+          - cell: AP4332
+            label: QUALITY CARE COMPANY - IBC
+          - cell: AP4896
+            label: united healthcare
+          - cell: AP4949
+            label: UNITEDHEALTHCARE COMMUNITY PLAN
+          - cell: AP5293
+            label: WELLMARK OF IOWA/SOUTH DAKOTA
       - error: Leading and/or trailing whitespace in Hospital Value
         level: Warning
         list:

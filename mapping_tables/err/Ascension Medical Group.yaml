@@ -17,3 +17,10 @@ domains:
           - cell: AP9
           - cell: AP10
           - cell: AP11
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP12
+            label: '*SELF PAY*'

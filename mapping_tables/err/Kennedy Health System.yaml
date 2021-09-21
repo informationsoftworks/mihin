@@ -286,3 +286,27 @@ domains:
           - cell: AE93
           - cell: AE94
           - cell: AE95
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            label: I've included our list of values at the bottom. They don't appear to map cleanly, so you might want to review and map
+              yourself.
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI4
+            label: I've included our list of values at the bottom. They don't appear to map cleanly, so you might want to review and map
+              yourself.
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-10
+          see:
+          - cell: F9
+            code: 'Hispanic
+
+              Latino
+
+              '

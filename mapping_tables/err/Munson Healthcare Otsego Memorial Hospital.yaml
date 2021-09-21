@@ -1,0 +1,97 @@
+base: Munson Healthcare Otsego Memorial Hospital
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare Otsego Memorial Hospital ADT 2.0 table 2-27-19.xlsx
+      list:
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            label: CARDI
+          - cell: AE5
+            label: EMERG
+          - cell: AE7
+            label: GASTR
+          - cell: AE8
+            label: OBGYN
+          - cell: AE9
+            label: HOSPICE
+          - cell: AE10
+            label: ICU
+          - cell: AE11
+            label: INTME
+          - cell: AE13
+            label: NEURO
+          - cell: AE15
+            label: OBGYN
+          - cell: AE16
+            label: ONCOL
+          - cell: AE17
+            label: ORTHO
+          - cell: AE18
+            label: PEDS
+          - cell: AE19
+            label: PHYME
+          - cell: AE20
+            label: SURGE
+          - cell: AE24
+            label: ALLER
+          - cell: AE25
+            label: ANEST
+          - cell: AE26
+            label: DERM
+          - cell: AE27
+            label: FAMME
+          - cell: AE28
+            label: ENDO
+          - cell: AE31
+            label: INFDI
+          - cell: AE32
+            label: NEPHR
+          - cell: AE34
+            label: OPTHA
+          - cell: AE35
+            label: ENT
+          - cell: AE36
+            label: PLAST
+          - cell: AE38
+            label: RHEUM
+          - cell: AE39
+            label: UROLO
+          - cell: AE40
+            label: PHAR
+          - cell: AE43
+            label: WOUND
+          - cell: AE44
+            label: NEW
+          - cell: AE46
+            label: HOSPI
+          - cell: AE49
+            label: PSYC
+          - cell: AE53
+            label: OMSUR
+          - cell: AE55
+            label: PODIA
+          - cell: AE56
+            label: RADS
+          - cell: AE57
+            label: SLEEP
+          - cell: AE62
+            label: PATH
+          - cell: AE63
+            label: PULMO
+          - cell: AE66
+            label: FAMME
+          - cell: AE70
+            label: PAIMG
+          - cell: AE75
+            label: ICU
+          - cell: AE81
+            label: VASC
+          - cell: AE82
+            label: SLP
+          - cell: AE86
+            label: ORTHO

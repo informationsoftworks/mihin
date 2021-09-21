@@ -2,7 +2,7 @@ base: Mackinac Straits Health System
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Mackinac Straits Health System ADT 2.0 table 08-18-2020.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Mackinac Straits Health System ADT 2.0 table 09-07-2021.xlsx
       list:
       - error: Empty row found within segment specification
         level: Warning

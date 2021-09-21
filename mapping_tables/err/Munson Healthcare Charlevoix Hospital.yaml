@@ -202,6 +202,9 @@ domains:
           - cell: AE16
             code: 'Cancer, Cancer Center, Oncology, Oncology Brain, Oncology Brain Peds/Adolescent, Onoclogy Peds/Adolescent, Oncology
               Spinal, Oncology Spinal Peds/Adolescent, Radiation Oncology, Radiation therapy, surgery-Cancer, '
+          - cell: AE17
+            code: "Hip, Knee, Ortho Clinic, Orthopedic Peds/Adolescent, Orthopedics, Orthopedics Ped/Adolescent, Surgery-Orthopedics,\
+              \ cast only, chiropractic, Orthotics, Spasticity, Prosthetics, \n"
           - cell: AE18
             code: 'AMPS (Advanced Mgt of Pediatric Spastici, Limb Difference Peds/Adolescent, , Multiple Trauam Peds/Adolescent, Pediatrics,
               Spasticity Peds/Adolescent, Spinal Peds/Adolescent, Stroke Peds/Adolescent, '
