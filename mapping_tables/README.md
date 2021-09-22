@@ -13,9 +13,9 @@ hosted on a [box.com](https://mihin.box.com/s/2r247jiarfyg524y7oe285eph4tddep3)
 file share.  This delivery mechanism makes it challenging to keep the mapping
 data current and accurate in an operation database for several reasons:
 
-1) Data is stored in Excel spreadsheets, requiring an translation layer
+1) Data are stored in Excel spreadsheets, requiring an translation layer
 2) As most of the files are 8Mb in size, the entire archive is currently 14Gb, which could require > 1hr to download
-3) The data is arranged in a way that is convenient for entry, but awkward for automated processing
+3) The spreadsheets are arranged in a way that is convenient for entry, but awkward for automated processing
 4) Many of the files have duplicate and/or overlapping information
 5) Data is often recorded with multiple values in a single cell, requiring a splitting to get unique values
 6) Some sources don't specify a value at all if it already uses the MiHIN-suggested values
