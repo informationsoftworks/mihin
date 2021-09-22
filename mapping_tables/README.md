@@ -11,7 +11,7 @@ so that these native codes can be translated into standardized and/or custom
 labels.  Historically this data has resided in a series of Excel spreadsheets
 hosted on a [box.com](https://mihin.box.com/s/2r247jiarfyg524y7oe285eph4tddep3)
 file share.  This delivery mechanism makes it challenging to keep the mapping
-data current and accurate in an operation database for several reasons:
+data current and accurate in an operational database for several reasons:
 
 1) Data are stored in Excel spreadsheets, requiring an translation layer
 2) As most of the files are 8Mb in size, the entire archive is currently 14Gb, which could require > 1hr to download
