@@ -2,7 +2,7 @@ base: McLaren Macomb
 domains:
   audit:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/McLaren Macomb ADT 2.0 table 09-13-2021.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Macomb ADT 2.0 table 09-23-2021.xlsx
       list:
         error: Undefined code found in received HL7 data
         level: Error
@@ -16,7 +16,7 @@ domains:
           receiving org message ID: 27390695
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/McLaren Macomb ADT 2.0 table 09-13-2021.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Macomb ADT 2.0 table 09-23-2021.xlsx
       list:
       - error: Code values provided without label
         level: Warning

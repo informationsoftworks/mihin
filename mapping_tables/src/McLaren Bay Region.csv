@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/McLaren Bay Region ADT 2.0 table 09-13-2021.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/McLaren Bay Region ADT 2.0 table 09-23-2021.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.4376.400	McLaren Bay Region			00000000
@@ -1068,6 +1068,9 @@ PV1-18	43	27			PC	Preclient	00000000
 PV1-18	44	27			PG	Prereg	00000000
 PV1-18	45	27			RC	Recurring	00000000
 PV1-18	46	27			SI	SNF Inpatient	00000000
+PV1-18	47	27			ME	Medical	00000000
+PV1-18	48	27			RE	Recurring	00000000
+PV1-18	49	27			SU	Special Unit	00000000
 PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
 PV1-10	3	31			121	Pediatrics	2
 PV1-10	4	31	104	Cardiology - General	CAR		4
@@ -1191,6 +1194,10 @@ PV1-10	122	31			LTC	Long Term Care	00000000
 PV1-10	123	31			P3T	Phase III Treatment	00000000
 PV1-10	124	31			PRC	Precurring	00000000
 PV1-10	125	31			REC	Recurring	00000000
+PV1-10	126	31			IPS	Other	00000000
+PV1-10	127	31			NUR	Other	00000000
+PV1-10	128	31			WBE	Other	00000000
+PV1-10	129	31			STR	Stroke	00000000
 PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	4
 PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
 PV1-36	4	35	01	Discharged to home or self care (routine discharge)	1		4
@@ -1433,3 +1440,16 @@ IN1	143	42	1841469824	Veterans			00000000
 IN1	144	42	WC	Workers Comp			00000000
 IN1	145	42	RRT Hospital	YY Training - Hospital			00000000
 IN1	146	42	ZEL	Zelis Heathcare			00000000
+IN1	147	42	0000	Self Pay - Elected No Coverage			00000000
+IN1	148	42	1066033492	AETNA			00000000
+IN1	149	42	108272359	SELF PAY			00000000
+IN1	150	42	138320405	United Healthcare			00000000
+IN1	151	42	177	CENTAURI WORKING ACCT			00000000
+IN1	152	42	200750134	Molina			00000000
+IN1	153	42	204581265	Veteran Administration			00000000
+IN1	154	42	383252216	Medicaid			00000000
+IN1	155	42	391525003	Humana			00000000
+IN1	156	42	581638390	Blue Cross			00000000
+IN1	157	42	750939949	Cigna			00000000
+IN1	158	42	813126593	Miscellaneous Insurance Company			00000000
+IN1	159	42	88	NORTHERN MI REGIONAL ENTITY			00000000
