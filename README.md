@@ -12,7 +12,7 @@ format more directly consumable by automated systems.
 of the fileshare.  Automatically synchronized twice daily.  See
 [README.md](mapping_tables/README.md) for more information
 * **`oids`**
-  * Updated with each subsequent revision of the
+  * Periodically updated (manually) with each subsequent revision of the
 "MiHIN Sending Facility Crosswalk" spreadsheet posted in the
 "Sending Facility Crosswalk" folder of the fileshare.
 * **`README.md`**
