@@ -4,11 +4,6 @@ domains:
   - error: No-break space found in filename
     filename: "2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Hallmark Living Benton Harbor\_ADT 2.0 table 10-29-2019.xlsx"
     level: Warning
-  - error: Duplicate files
-    filenames:
-    - "2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Hallmark Living Benton Harbor\_ADT 2.0 table 10-29-2019.xlsx"
-    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Hallmark Living Benton Harbor ADT 2.0 table 10-29-2019.xlsx
-    level: Error
   load:
     files:
     - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Hallmark Living Benton Harbor ADT 2.0 table 10-29-2019.xlsx

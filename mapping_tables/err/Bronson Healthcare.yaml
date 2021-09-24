@@ -17,11 +17,6 @@ domains:
   import:
   - error: Duplicate files
     filenames:
-    - 2.0 Mapping Tables - Hospitals/Bronson Healthcare ADT 2.0 table 02-27-2020.xlsx
-    - 2.0 Mapping Tables - Hospitals/Bronson Healthcare ADT 2.0 table 11-16-2020.xlsx
-    level: Error
-  - error: Duplicate files
-    filenames:
     - 2.0 Mapping Tables - Hospitals/Bronson Healthcare ADT 2.0 table 11-16-2020.xlsx
     - 2.0 Mapping Tables - Hospitals/Bronson Healthcare ADT 2.0 table 02-27-2020.xlsx
     level: Error

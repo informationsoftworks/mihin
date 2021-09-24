@@ -21,6 +21,12 @@ domains:
           field value: '""'
           message count: 119
           receiving org message ID: 22940332
+  import:
+  - error: Duplicate files
+    filenames:
+    - 2.0 Mapping Tables - Hospitals/Beaumont Health System ADT 2.0 table 12-18-2018.xlsx
+    - 2.0 Mapping Tables - Hospitals/Beaumont Health System ADT 2.0 table 07-28-2021.xlsx
+    level: Error
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Beaumont Health System ADT 2.0 table 07-28-2021.xlsx

@@ -24,11 +24,6 @@ domains:
   import:
   - error: Duplicate files
     filenames:
-    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Plymouth ADT 2.0 table 8-21-20.xlsx
-    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Plymouth ADT 2.0 table 9-13-18.xlsx
-    level: Error
-  - error: Duplicate files
-    filenames:
     - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Plymouth ADT 2.0 table 9-13-18.xlsx
     - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Plymouth ADT 2.0 table 8-21-20.xlsx
     level: Error
