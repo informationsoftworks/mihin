@@ -640,3 +640,108 @@ domains:
             code: 'MEDICAID  '
           - cell: AP907
             code: 'MEDICAID  '
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE109
+            label: Anesthesiology
+            matching mihin cell: AE25
+            matching mihin value: Anesthesiology
+            mihin value: ''
+          - cell: AE110
+            label: Audiology
+            matching mihin cell: AE48
+            matching mihin value: Audiology
+            mihin value: ''
+          - cell: AE121
+            label: Dermatology
+            matching mihin cell: AE26
+            matching mihin value: Dermatology
+            mihin value: ''
+          - cell: AE125
+            label: Emergency Medicine
+            matching mihin cell: AE5
+            matching mihin value: Emergency Medicine
+            mihin value: ''
+          - cell: AE129
+            label: Family Practice
+            matching mihin cell: AE66
+            matching mihin value: Family Practice
+            mihin value: ''
+          - cell: AE132
+            label: Gastroenterology
+            matching mihin cell: AE7
+            matching mihin value: Gastroenterology
+            mihin value: ''
+          - cell: AE133
+            label: Gynecology
+            matching mihin cell: AE8
+            matching mihin value: Gynecology
+            mihin value: ''
+          - cell: AE135
+            label: Hematology
+            matching mihin cell: AE30
+            matching mihin value: Hematology
+            mihin value: ''
+          - cell: AE140
+            label: Infectious Disease
+            matching mihin cell: AE31
+            matching mihin value: Infectious Disease
+            mihin value: ''
+          - cell: AE145
+            label: Neonatology
+            matching mihin cell: AE14
+            matching mihin value: Neonatology
+            mihin value: ''
+          - cell: AE147
+            label: Neurology
+            matching mihin cell: AE13
+            matching mihin value: Neurology
+            mihin value: ''
+          - cell: AE153
+            label: Obstetrics
+            matching mihin cell: AE15
+            matching mihin value: Obstetrics
+            mihin value: ''
+          - cell: AE155
+            label: Oncology
+            matching mihin cell: AE16
+            matching mihin value: Oncology
+            mihin value: ''
+          - cell: AE156
+            label: Ophthalmology
+            matching mihin cell: AE34
+            matching mihin value: Ophthalmology
+            mihin value: ''
+          - cell: AE158
+            label: Oral Surgery
+            matching mihin cell: AE53
+            matching mihin value: Oral Surgery
+            mihin value: ''
+          - cell: AE161
+            label: Pediatrics
+            matching mihin cell: AE18
+            matching mihin value: Pediatrics
+            mihin value: ''
+          - cell: AE176
+            label: Podiatry
+            matching mihin cell: AE55
+            matching mihin value: Podiatry
+            mihin value: ''
+          - cell: AE186
+            label: Rheumatology
+            matching mihin cell: AE38
+            matching mihin value: Rheumatology
+            mihin value: ''
+          - cell: AE195
+            label: Thoracic Surgery
+            matching mihin cell: AE64
+            matching mihin value: Thoracic Surgery
+            mihin value: ''
+          - cell: AE201
+            label: Vascular Surgery
+            matching mihin cell: AE81
+            matching mihin value: Vascular Surgery
+            mihin value: ''

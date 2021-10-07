@@ -139,3 +139,44 @@ domains:
             code: ' '
           - cell: AP1095
             code: ' '
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI14
+            label: Expired
+            matching mihin cell: AI13
+            matching mihin value: Expired
+            mihin value: Still Patient
+          - cell: AI16
+            label: Still Patient
+            matching mihin cell: AI14
+            matching mihin value: Still Patient
+            mihin value: Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)
+          - cell: AI18
+            label: Expired at home
+            matching mihin cell: AI15
+            matching mihin value: Expired at home
+            mihin value: Discharged/transferred to a federal health care facility. (Effective 10/1/03)
+          - cell: AI20
+            label: Expired - place unknown
+            matching mihin cell: AI17
+            matching mihin value: Expired - place unknown
+            mihin value: Hospice - home
+          - cell: AI21
+            label: Discharged/transferred to a federal health care facility. (Effective 10/1/03)
+            matching mihin cell: AI18
+            matching mihin value: Discharged/transferred to a federal health care facility. (Effective 10/1/03)
+            mihin value: Hospice - medical facility
+          - cell: AI23
+            label: Hospice - home
+            matching mihin cell: AI20
+            matching mihin value: Hospice - home
+            mihin value: Discharged/transferred to hospital-based Medicare approved swing bed
+          - cell: AI24
+            label: Hospice - medical facility
+            matching mihin cell: AI21
+            matching mihin value: Hospice - medical facility
+            mihin value: Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units
+              of a hospital. (Effective retroactive to 1/1/02.)

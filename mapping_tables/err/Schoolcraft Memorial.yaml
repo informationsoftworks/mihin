@@ -55,3 +55,13 @@ domains:
             code: WB:GRADE-RITE EXCAVATING LLC
           - cell: AP1128
             code: EMR:TRIWEST HEALTHCARE ALLIANCE RECURR
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE106
+            label: Interventional Radiology
+            matching mihin cell: AE41
+            matching mihin value: Interventional Radiology
+            mihin value: ''

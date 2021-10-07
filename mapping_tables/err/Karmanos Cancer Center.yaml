@@ -86,3 +86,13 @@ domains:
             code: 'Health Plus '
           - cell: AP214
             code: 'Health Plus '
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE33
+            label: Neurology
+            matching mihin cell: AE13
+            matching mihin value: Neurology
+            mihin value: Neurosurgery

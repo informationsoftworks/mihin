@@ -84,3 +84,13 @@ domains:
             code: 'HB ALT WORKERS COMP    '
           - cell: AP267
             code: 'PB ALT AETNA VISION '
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE45
+            label: Obstetrics
+            matching mihin cell: AE15
+            matching mihin value: Obstetrics
+            mihin value: Labor and Delivery

@@ -19,3 +19,13 @@ domains:
           see:
           - cell: AM25
             code: 'Other relationship, Sponsored Dependent, Significant Other, Injured Plaintiff '
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE109
+            label: Radiology
+            matching mihin cell: AE56
+            matching mihin value: Radiology
+            mihin value: ''

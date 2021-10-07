@@ -12,3 +12,28 @@ domains:
           - cell: A4
             code: '2.16.840.1.113883.3.137.4.2000.90         '
             value: Marycrest Manor
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI12
+            label: Expired
+            matching mihin cell: AI13
+            matching mihin value: Expired
+            mihin value: Admitted as an inpatient to this hospital
+          - cell: AI13
+            label: Still Patient
+            matching mihin cell: AI14
+            matching mihin value: Still Patient
+            mihin value: Expired
+          - cell: AI17
+            label: Hospice - Home
+            matching mihin cell: AI19
+            matching mihin value: Hospice - home
+            mihin value: Expired - place unknown
+          - cell: AI18
+            label: Hospice - Medical Facility
+            matching mihin cell: AI20
+            matching mihin value: Hospice - medical facility
+            mihin value: Discharged/transferred to a federal health care facility. (Effective 10/1/03)

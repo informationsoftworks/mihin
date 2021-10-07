@@ -54,3 +54,13 @@ domains:
             label: ' Sports Medicine Note'
           - cell: AE205
             label: ' Urology Note'
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE138
+            label: Neurosurgery
+            matching mihin cell: AE33
+            matching mihin value: Neurosurgery
+            mihin value: ''

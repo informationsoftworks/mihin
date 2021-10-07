@@ -64,3 +64,18 @@ domains:
             code: 'In Law '
           - cell: AM42
             code: 'Legal Guardian '
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE120
+            label: RADIOLOGY
+            matching mihin cell: AE56
+            matching mihin value: Radiology
+            mihin value: ''
+          - cell: AE135
+            label: PHARMACY
+            matching mihin cell: AE40
+            matching mihin value: Pharmacy
+            mihin value: ''

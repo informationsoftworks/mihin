@@ -116,3 +116,13 @@ domains:
             code: ' '
           - cell: AA111
             code: ' '
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE49
+            label: Nephrology
+            matching mihin cell: AE48
+            matching mihin value: Nephrology
+            mihin value: Nephrology Transplant

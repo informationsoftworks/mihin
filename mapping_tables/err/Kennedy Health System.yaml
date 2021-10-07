@@ -310,3 +310,195 @@ domains:
               Latino
 
               '
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE97
+            label: Anesthesiology
+            matching mihin cell: AE25
+            matching mihin value: Anesthesiology
+            mihin value: ''
+          - cell: AE100
+            label: Dermatology
+            matching mihin cell: AE26
+            matching mihin value: Dermatology
+            mihin value: ''
+          - cell: AE101
+            label: Family Medicine
+            matching mihin cell: AE27
+            matching mihin value: Family Medicine
+            mihin value: ''
+          - cell: AE102
+            label: Gynecology
+            matching mihin cell: AE8
+            matching mihin value: Gynecology
+            mihin value: ''
+          - cell: AE105
+            label: Nephrology
+            matching mihin cell: AE32
+            matching mihin value: Nephrology
+            mihin value: ''
+          - cell: AE106
+            label: Neurology
+            matching mihin cell: AE13
+            matching mihin value: Neurology
+            mihin value: ''
+          - cell: AE107
+            label: Neurosurgery
+            matching mihin cell: AE33
+            matching mihin value: Neurosurgery
+            mihin value: ''
+          - cell: AE108
+            label: Obstetrics
+            matching mihin cell: AE15
+            matching mihin value: Obstetrics
+            mihin value: ''
+          - cell: AE109
+            label: Oncology
+            matching mihin cell: AE16
+            matching mihin value: Oncology
+            mihin value: ''
+          - cell: AE110
+            label: Ophthalmology
+            matching mihin cell: AE34
+            matching mihin value: Ophthalmology
+            mihin value: ''
+          - cell: AE111
+            label: Orthopedics
+            matching mihin cell: AE17
+            matching mihin value: Orthopedics
+            mihin value: ''
+          - cell: AE113
+            label: Pediatrics
+            matching mihin cell: AE18
+            matching mihin value: Pediatrics
+            mihin value: ''
+          - cell: AE115
+            label: Pulmonary
+            matching mihin cell: AE63
+            matching mihin value: Pulmonary
+            mihin value: ''
+          - cell: AE117
+            label: Radiology
+            matching mihin cell: AE56
+            matching mihin value: Radiology
+            mihin value: ''
+          - cell: AE120
+            label: Urology
+            matching mihin cell: AE39
+            matching mihin value: Urology
+            mihin value: ''
+          - cell: AE121
+            label: Gastroenterology
+            matching mihin cell: AE7
+            matching mihin value: Gastroenterology
+            mihin value: ''
+          - cell: AE128
+            label: Chemotherapy
+            matching mihin cell: AE61
+            matching mihin value: Chemotherapy
+            mihin value: ''
+          - cell: AE162
+            label: Newborn
+            matching mihin cell: AE44
+            matching mihin value: Newborn
+            mihin value: ''
+          - cell: AE168
+            label: Pathology
+            matching mihin cell: AE62
+            matching mihin value: Pathology
+            mihin value: ''
+          - cell: AE185
+            label: Dermatology
+            matching mihin cell: AE26
+            matching mihin value: Dermatology
+            mihin value: ''
+          - cell: AE186
+            label: Family Medicine
+            matching mihin cell: AE27
+            matching mihin value: Family Medicine
+            mihin value: ''
+          - cell: AE188
+            label: Ophthalmology
+            matching mihin cell: AE34
+            matching mihin value: Ophthalmology
+            mihin value: ''
+          - cell: AE190
+            label: Pediatrics
+            matching mihin cell: AE18
+            matching mihin value: Pediatrics
+            mihin value: ''
+          - cell: AE192
+            label: Radiation Oncology
+            matching mihin cell: AE37
+            matching mihin value: Radiation Oncology
+            mihin value: ''
+          - cell: AE193
+            label: Urology
+            matching mihin cell: AE39
+            matching mihin value: Urology
+            mihin value: ''
+          - cell: AE196
+            label: Newborn
+            matching mihin cell: AE44
+            matching mihin value: Newborn
+            mihin value: ''
+          - cell: AE197
+            label: Neonatology
+            matching mihin cell: AE14
+            matching mihin value: Neonatology
+            mihin value: ''
+          - cell: AE210
+            label: Neurology
+            matching mihin cell: AE13
+            matching mihin value: Neurology
+            mihin value: ''
+          - cell: AE211
+            label: Neurology
+            matching mihin cell: AE13
+            matching mihin value: Neurology
+            mihin value: ''
+          - cell: AE212
+            label: Neurology
+            matching mihin cell: AE13
+            matching mihin value: Neurology
+            mihin value: ''
+          - cell: AE213
+            label: Neurology
+            matching mihin cell: AE13
+            matching mihin value: Neurology
+            mihin value: ''
+          - cell: AE214
+            label: Neurology
+            matching mihin cell: AE13
+            matching mihin value: Neurology
+            mihin value: ''
+          - cell: AE215
+            label: Neurosurgery
+            matching mihin cell: AE33
+            matching mihin value: Neurosurgery
+            mihin value: ''
+          - cell: AE216
+            label: Neurosurgery
+            matching mihin cell: AE33
+            matching mihin value: Neurosurgery
+            mihin value: ''
+          - cell: AE221
+            label: Urogynecology
+            matching mihin cell: AE71
+            matching mihin value: Urogynecology
+            mihin value: ''
+          - cell: AE228
+            label: Pediatrics
+            matching mihin cell: AE18
+            matching mihin value: Pediatrics
+            mihin value: ''
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI36
+            label: Expired
+            matching mihin cell: AI13
+            matching mihin value: Expired
+            mihin value: ''

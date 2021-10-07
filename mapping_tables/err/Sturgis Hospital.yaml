@@ -21,3 +21,28 @@ domains:
           see:
           - cell: AE4
             label: 'CARDIOLOGY, CARDIAC CARE UNIT, VASCULAR    '
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE27
+            label: FAMILY PRACTICE
+            matching mihin cell: AE66
+            matching mihin value: Family Practice
+            mihin value: Family Medicine
+          - cell: AE131
+            label: ONCOLOGY
+            matching mihin cell: AE16
+            matching mihin value: Oncology
+            mihin value: ''
+          - cell: AE132
+            label: PEDIATRICS
+            matching mihin cell: AE18
+            matching mihin value: Pediatrics
+            mihin value: ''
+          - cell: AE140
+            label: ONCOLOGY
+            matching mihin cell: AE16
+            matching mihin value: Oncology
+            mihin value: ''

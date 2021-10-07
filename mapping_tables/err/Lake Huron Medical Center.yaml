@@ -20,3 +20,13 @@ domains:
           see:
           - cell: AI8
             code: ' ANOTHER INST, COURT/LAW EN'
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE95
+            label: Vascular Surgery
+            matching mihin cell: AE81
+            matching mihin value: Vascular Surgery
+            mihin value: ''

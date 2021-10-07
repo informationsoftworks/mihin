@@ -92,3 +92,13 @@ domains:
           see:
           - cell: AM25
             code: 'FO, CD, CH/INS, CH/NO FIN, EM, INJ PLAIN, MD OR MD, NE/NI, OD, SP DEP, '
+      - error: Possible mis-alignment of Hospital Values with MiHIN Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE27
+            label: Family Practice
+            matching mihin cell: AE66
+            matching mihin value: Family Practice
+            mihin value: Family Medicine
