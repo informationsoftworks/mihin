@@ -89,7 +89,7 @@
 2.0 Mapping Tables - Hospitals/Deckerville Community Hospital ADT 2.0 table 12-14-2020.xlsx
 2.0 Mapping Tables - Hospitals/Detroit Medical Center ADT 2.0 table 03-06-19.xlsx
 2.0 Mapping Tables - Hospitals/Dickinson County Healthcare System ADT 2.0 table 4-1-19.xlsx
-2.0 Mapping Tables - Hospitals/Eaton Rapids Medical Center ADT 2.0 table 10-06-2021.xlsx
+2.0 Mapping Tables - Hospitals/Eaton Rapids Medical Center ADT 2.0 table 10-08-2021.xlsx
 2.0 Mapping Tables - Hospitals/Englewood Health ADT 2.0 table 07-07-2020.xlsx
 2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 10-3-19.xlsx
 2.0 Mapping Tables - Hospitals/HFPN ADT 2.0 table 08-03-2021.xlsx

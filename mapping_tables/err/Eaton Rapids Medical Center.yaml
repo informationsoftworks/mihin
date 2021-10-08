@@ -2,75 +2,15 @@ base: Eaton Rapids Medical Center
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Eaton Rapids Medical Center ADT 2.0 table 10-06-2021.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Eaton Rapids Medical Center ADT 2.0 table 10-08-2021.xlsx
       list:
       - error: Possible mis-alignment of Hospital Values with MiHIN Value
         level: Warning
         list:
         - hl7 segment: PV1-10
           see:
-          - cell: AE4
-            label: ANESTHESIOLOGY
-            matching mihin cell: AE25
-            matching mihin value: Anesthesiology
-            mihin value: Cardiology - General
-          - cell: AE8
-            label: DERMATOLOGY
-            matching mihin cell: AE26
-            matching mihin value: Dermatology
-            mihin value: Gynecology
-          - cell: AE13
-            label: GYNECOLOGY
-            matching mihin cell: AE8
-            matching mihin value: Gynecology
-            mihin value: Neurology
-          - cell: AE14
-            label: INTERNAL MEDICINE
+          - cell: AE46
+            label: Internal Medicine
             matching mihin cell: AE11
             matching mihin value: Internal Medicine
-            mihin value: Neonatology
-          - cell: AE16
-            label: NEUROLOGY
-            matching mihin cell: AE13
-            matching mihin value: Neurology
-            mihin value: Oncology
-          - cell: AE17
-            label: OPHTHALMOLOGY
-            matching mihin cell: AE34
-            matching mihin value: Ophthalmology
-            mihin value: Orthopedics
-          - cell: AE20
-            label: PAIN MANAGEMENT
-            matching mihin cell: AE70
-            matching mihin value: Pain Management
-            mihin value: General Surgery
-          - cell: AE21
-            label: PEDIATRICS
-            matching mihin cell: AE18
-            matching mihin value: Pediatrics
-            mihin value: Surgical Intensive Care
-          - cell: AE23
-            label: PLASTIC SURGERY
-            matching mihin cell: AE36
-            matching mihin value: Plastic Surgery
-            mihin value: Acute Care Surgery
-          - cell: AE28
-            label: RADIOLOGY
-            matching mihin cell: AE56
-            matching mihin value: Radiology
-            mihin value: Endocrinology
-          - cell: AE32
-            label: UROLOGY
-            matching mihin cell: AE39
-            matching mihin value: Urology
-            mihin value: Nephrology
-          - cell: AE33
-            label: EMERGENCY MEDICINE
-            matching mihin cell: AE5
-            matching mihin value: Emergency Medicine
-            mihin value: Neurosurgery
-          - cell: AE42
-            label: SLEEP CENTER
-            matching mihin cell: AE57
-            matching mihin value: Sleep Center
-            mihin value: Clinical Decision Unit
+            mihin value: Hospitalist Medicine
