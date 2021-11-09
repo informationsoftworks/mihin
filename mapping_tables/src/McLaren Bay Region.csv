@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/McLaren Bay Region ADT 2.0 table 09-23-2021.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/McLaren Bay Region ADT 2.0 table 11-09-2021.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.4376.400	McLaren Bay Region			00000000
@@ -986,7 +986,7 @@ PV1-2	2	18	MiHIN Value	Description	Hospital Value		4
 PV1-2	3	18	E	Emergency	ER		2
 PV1-2	4	18	B	Obstetrics			4
 PV1-2	5	18	C	Commercial Account			4
-PV1-2	6	18	E	Emergency			4
+PV1-2	6	18	E	Emergency	E		4
 PV1-2	7	18	I	Inpatient	I		4
 PV1-2	8	18	N	Not Applicable			4
 PV1-2	9	18	O	Outpatient	O		4
