@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Schoolcraft Memorial ADT 2.0 table 09-15-2021.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Schoolcraft Memorial ADT 2.0 table 11-12-2021.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.5523	Schoolcraft Memorial Hospital			00000000
@@ -264,7 +264,7 @@ PV1-36	4	35	01	Discharged to home or self care (routine discharge)	01, 1		000000
 PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	02, 2		00000000
 PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.			00000000
 PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)	04, 4		00000000
-PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list			00000000
+PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list	05, 5		00000000
 PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization	06, 6		00000000
 PV1-36	10	35	07	Left against medical advice or discontinued care	07, 7		00000000
 PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider	08, 8		00000000

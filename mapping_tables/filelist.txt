@@ -139,7 +139,7 @@
 2.0 Mapping Tables - Hospitals/ProMedica Monroe Regional Hospital ADT 2.0 table 8-2-17.xlsx
 2.0 Mapping Tables - Hospitals/SNF-Alpha Manor Nursing Home ADT 2.0 table 02-04-2021.xlsx
 2.0 Mapping Tables - Hospitals/Scheurer Hospital ADT 2.0 table 03-13-2020.xlsx
-2.0 Mapping Tables - Hospitals/Schoolcraft Memorial ADT 2.0 table 09-15-2021.xlsx
+2.0 Mapping Tables - Hospitals/Schoolcraft Memorial ADT 2.0 table 11-12-2021.xlsx
 2.0 Mapping Tables - Hospitals/Sheridan Community Hospital ADT 2.0 table 10-16-19.xlsx
 2.0 Mapping Tables - Hospitals/Sparrow Health System ADT 2.0 table 2-14-20.xlsx
 2.0 Mapping Tables - Hospitals/Spectrum Health ADT 2.0 table 06-11-2021.xlsx
