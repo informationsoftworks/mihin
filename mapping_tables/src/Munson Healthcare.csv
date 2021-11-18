@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Munson Healthcare ADT 2.0 table 02-10-2021.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Munson Healthcare ADT 2.0 table 11-18-2021.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.1164	Munson Medical Center			00000000
@@ -24,6 +24,7 @@ PID-10	8	6	2106-3	White	2106-3		4
 PID-10	9	6	2131-1	Other Race	2131-1, 2135-2, UNK, 2M		4
 PID-10	10	6	MR	Multi-Racial	350000397		4
 PID-10	11	6	PR	Patient Refused 	603632483		4
+PID-10	12	6	 	Patient Declined	F		4
 PID-22	2	9	MiHIN Value	Description	Hospital Value		4
 PID-22	3	9	H	Hispanic or Latino	Hisp		2
 PID-22	4	9	H	Hispanic or Latino	1		4
@@ -64,13 +65,13 @@ PID-22	38	9	VIT	Vietnamese 			4
 PID-30	2	12	MiHIN Value	Description	Hospital Value		4
 PID-30	3	12	Y	Expired	E		2
 PID-30	4	12	Y	Deceased/Yes	Y		4
-PID-30	5	12	N	Not Deceased/No			4
+PID-30	5	12	N	Not Deceased/No	N		4
 DG1-6	2	15	MiHIN Value	Description	Hospital Value		4
 DG1-6	3	15	A	Admitting	AD		2
 DG1-6	4	15	A	Admitting	A		4
 DG1-6	5	15	F	Final	F		4
 DG1-6	6	15	W	Working 	W		4
-DG1-6	7	15	O	Other			4
+DG1-6	7	15	O	Other	O		4
 PV1-2	2	18	MiHIN Value	Description	Hospital Value		4
 PV1-2	3	18	E	Emergency	ER		2
 PV1-2	4	18	B	Obstetrics			4
@@ -97,7 +98,7 @@ PV1-4	8	21	N	Newborn (Birth in healthcare facility)	N		4
 PV1-4	9	21	R	Routine			4
 PV1-4	10	21	U	Urgent	U, UF		4
 PV1-4	11	21	TC	Trauma Center 			4
-PV1-4	12	21	O	Other			4
+PV1-4	12	21	O	Other	O		4
 PV1-14	2	24	MiHIN Value	Description	Hospital Value		4
 PV1-14	3	24	2	Clinic referral	E		2
 PV1-14	4	24	1	Physician referral	1		4
@@ -405,6 +406,7 @@ PV1-10	97	31			CCS	Cowell Cancer SLP	00000000
 PV1-10	98	31			MFC	Mary FreeBed Cowell	00000000
 PV1-10	99	31			NEM	Neurology Clinic MPB MMC	00000000
 PV1-10	100	31			KPM	KMH Physical Med	00000000
+PV1-10	101	31			OHS	I/P Open Heart Surgery	00000000
 PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	4
 PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
 PV1-36	4	35	01	Discharged to home or self care (routine discharge)	01, HOM, DA, OHC, SC, RDWF	Discharged to home or self care (routine discharge), Home or Self Care (I), 	4

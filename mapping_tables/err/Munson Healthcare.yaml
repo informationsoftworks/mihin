@@ -2,7 +2,7 @@ base: Munson Healthcare
 domains:
   audit:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare ADT 2.0 table 02-10-2021.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare ADT 2.0 table 11-18-2021.xlsx
       list:
         error: Undefined code found in received HL7 data
         level: Error
@@ -44,7 +44,7 @@ domains:
           receiving org message ID: 27391205
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare ADT 2.0 table 02-10-2021.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare ADT 2.0 table 11-18-2021.xlsx
       list:
       - error: Code values provided without label
         level: Warning
