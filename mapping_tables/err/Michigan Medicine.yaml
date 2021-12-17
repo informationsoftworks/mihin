@@ -2,7 +2,7 @@ base: Michigan Medicine
 domains:
   audit:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 4-6-2021.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 03-31-2021.xlsx
       list:
         error: Undefined code found in received HL7 data
         level: Error
@@ -22,7 +22,7 @@ domains:
     level: Error
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 4-6-2021.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 03-31-2021.xlsx
       list:
       - error: Incomplete, non-specific or abbreviated facility name
         level: Warning
@@ -135,5 +135,5 @@ domains:
             code: 'CDF, ODnr, CDnr, InPf, '
         - hl7 segment: IN1
           see:
-          - cell: AP182
+          - cell: AP181
             code: 'BCBS '
