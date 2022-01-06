@@ -1,8 +1,14 @@
 base: Dickinson County Healthcare System
 domains:
+  import:
+  - error: Duplicate files
+    filenames:
+    - 2.0 Mapping Tables - Hospitals/Dickinson County Healthcare System ADT 2.0 table 4-1-19.xlsx
+    - 2.0 Mapping Tables - Hospitals/Dickinson County Healthcare System ADT 2.0 table 01-06-22.xlsx
+    level: Error
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Dickinson County Healthcare System ADT 2.0 table 4-1-19.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Dickinson County Healthcare System ADT 2.0 table 01-06-22.xlsx
       list:
       - error: Code values provided without label
         level: Warning
@@ -2593,13 +2599,13 @@ domains:
             code: 'BCBSM                                   '
           - cell: AP2223
             code: 'BCBSM                                   '
-          - cell: AP23035
-            code: 'MEDICARE                                '
           - cell: AP23036
             code: 'MEDICARE                                '
           - cell: AP23037
-            code: 'MEDICAID                       '
+            code: 'MEDICARE                                '
           - cell: AP23038
-            code: 'BCBSM                                   '
+            code: 'MEDICAID                       '
           - cell: AP23039
+            code: 'BCBSM                                   '
+          - cell: AP23040
             code: 'BCBSM                                   '
