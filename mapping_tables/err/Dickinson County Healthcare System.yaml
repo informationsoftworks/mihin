@@ -1,14 +1,8 @@
 base: Dickinson County Healthcare System
 domains:
-  import:
-  - error: Duplicate files
-    filenames:
-    - 2.0 Mapping Tables - Hospitals/Dickinson County Healthcare System ADT 2.0 table 4-1-19.xlsx
-    - 2.0 Mapping Tables - Hospitals/Dickinson County Healthcare System ADT 2.0 table 01-06-22.xlsx
-    level: Error
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Dickinson County Healthcare System ADT 2.0 table 01-06-22.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Dickinson County Healthcare System ADT 2.0 table 01-07-2022.xlsx
       list:
       - error: Code values provided without label
         level: Warning
