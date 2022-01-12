@@ -1,0 +1,23 @@
+base: Laurels of Bedford
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Laurels of Bedford ADT 2.0 table 01-11-2022.xlsx
+      list:
+      - error: Invalid OID
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            code: '2.16.840.1.113883.3.5416.1.11642
+
+              '
+            value: Laurels of Bedford
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-10
+          see:
+          - cell: F13
+            code: 'Black '

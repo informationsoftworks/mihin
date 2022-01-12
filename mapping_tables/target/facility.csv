@@ -89,11 +89,6 @@ oid,facility
 2.16.840.1.113883.17.4093,Physicians Clinic
 2.16.840.1.113883.17.4094,Charlevoix Womens
 2.16.840.1.113883.17.45,CHARLEVOIX AH
-2.16.840.1.113883.3.1097,Hospital
-2.16.840.1.113883.3.1097.105,Royal Oak
-2.16.840.1.113883.3.1097.205,Troy
-2.16.840.1.113883.3.1097.405,Grosse Pointe
-2.16.840.1.113883.3.1097.705,Farmington Hills
 2.16.840.1.113883.3.1145,War Memorial
 2.16.840.1.113883.3.1145.1,War Memorial - Urgent Care
 2.16.840.1.113883.3.1145.2,War Memorial - Hospital
@@ -130,7 +125,6 @@ oid,facility
 2.16.840.1.113883.3.137.4.4000.40,Chelsea Home Care
 2.16.840.1.113883.3.137.4.4000.50,"Mercy Home Care and Hospice, Muskegon"
 2.16.840.1.113883.3.137.4.4000.60,Mercy Home Care Grand Rapids
-2.16.840.1.113883.3.137.4.70,Bronson Battle Creek Hospital
 2.16.840.1.113883.3.1696,Genesys Health System
 2.16.840.1.113883.3.1738,MidMichigan Health System
 2.16.840.1.113883.3.1738.1,MidMichigan Medical Center - Clare
@@ -833,18 +827,9 @@ oid,facility
 2.16.840.1.113883.3.4655,Sheridan Community Hospital
 2.16.840.1.113883.3.4656,Dickinson County Memorial Hospital (parent OID)
 2.16.840.1.113883.3.4656.1,Dickinson County Memorial Hospital
-2.16.840.1.113883.3.4771.1,Bronson Methodist Hospital
-2.16.840.1.113883.3.4771.122,Bronson Urgent Care
 2.16.840.1.113883.3.4771.158,BCOM Bronson Commons
-2.16.840.1.113883.3.4771.2,Bronson Lakeview Hospital
-2.16.840.1.113883.3.4771.3,Bronson Vicksburg Hospital
 2.16.840.1.113883.3.4806,McKenzie Health System
-2.16.840.1.113883.3.5023.1,South Haven Health System
 2.16.840.1.113883.3.5044,Covenant Healthcare
-2.16.840.1.113883.3.5128,Dearborn
-2.16.840.1.113883.3.5139,Trenton
-2.16.840.1.113883.3.5140,Taylor
-2.16.840.1.113883.3.5141,Wayne
 2.16.840.1.113883.3.5330,Harbor Beach Community Hospital
 2.16.840.1.113883.3.5342,Eaton Rapids Medical Center
 2.16.840.1.113883.3.5416.1.10100,McLaren Thumb Region
@@ -860,6 +845,7 @@ oid,facility
 2.16.840.1.113883.3.5416.1.10554,The Oasis at Monroe Rehabilitation and Healthcare Center - SNF
 2.16.840.1.113883.3.5416.1.10897,Menominee Care Center
 2.16.840.1.113883.3.5416.1.10898,PROMEDICA HOME CARE OF DUNDEE
+2.16.840.1.113883.3.5416.1.11642,Laurels of Bedford
 2.16.840.1.113883.3.5416.1.117,ST FRANCIS HOSPITAL
 2.16.840.1.113883.3.5416.1.12103,Allegan County Community Mental Health
 2.16.840.1.113883.3.5416.1.134.1,ProMedica Monroe Regional Hospital
