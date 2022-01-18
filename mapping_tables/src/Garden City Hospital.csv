@@ -1,33 +1,33 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 10-3-19.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 01-18-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
-MSH-4	4	1	2.16.840.1.113883.3.5416.1.85	Garden City Hospital			00000000
+MSH-4	4	1	2.16.840.1.113883.3.5416.1.85	Garden City Hospital 			00000000
 PID-8	2	3	MiHIN Value	Description	Hospital Value		4
 PID-8	3	3	M	Male	M		2
 PID-8	4	3	F	Female	F		4
 PID-8	5	3	M	Male	M		4
-PID-8	6	3	O	Other			4
+PID-8	6	3	O	Other	TF, TM, O		4
 PID-8	7	3	U	Unknown	U		4
 PID-8	8	3	A	Ambiguous			4
 PID-8	9	3	N	Not Applicable			4
 PID-10	2	6	MiHIN Value	Description	Hospital Value		4
 PID-10	3	6	2106-3	White	W		2
-PID-10	4	6	1002-5	American Indian or Alaska Native	AmInd		4
+PID-10	4	6	1002-5	American Indian or Alaska Native	Am Ind		4
 PID-10	5	6	2028-9	Asian	Asian		4
 PID-10	6	6	2054-5	Black or African American	Black		4
-PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	PcfIs		4
+PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	Pac Islander		4
 PID-10	8	6	2106-3	White	White		4
-PID-10	9	6	2131-1	Other Race	Other, U 		4
-PID-10	10	6	MR	Multi-Racial			4
-PID-10	11	6	PR	Patient Refused 	Pat Declined		4
+PID-10	9	6	2131-1	Other Race	Other, Unknown, BlackAmerind, Asian Indian		4
+PID-10	10	6	MR	Multi-Racial	Multiracial		4
+PID-10	11	6	PR	Patient Refused 	Pt Refused		4
 PID-22	2	9	MiHIN Value	Description	Hospital Value		4
 PID-22	3	9	H	Hispanic or Latino	Hisp		2
-PID-22	4	9	H	Hispanic or Latino	HIS		4
-PID-22	5	9	N	Not Hispanic or Latino	Not HIS or LAT		4
-PID-22	6	9	U	Unknown	Unknown		4
-PID-22	7	9	D	Declined	DECL		4
+PID-22	4	9	H	Hispanic or Latino	HISPANIC		4
+PID-22	5	9	N	Not Hispanic or Latino	NOT HISPANIC		4
+PID-22	6	9	U	Unknown	UNKNOWN		4
+PID-22	7	9	D	Declined	PT REFUSED		4
 PID-22	8	9	AN	Alaskan Native 			4
-PID-22	9	9	AR	Arabic 	ARB		4
+PID-22	9	9	AR	Arabic 			4
 PID-22	10	9	AS	Asian 			4
 PID-22	11	9	CA	Caucasian			4
 PID-22	12	9	CHA	Chaldean 			4
@@ -59,14 +59,14 @@ PID-22	37	9	UK	Ukrainian 			4
 PID-22	38	9	VIT	Vietnamese 			4
 PID-30	2	12	MiHIN Value	Description	Hospital Value		4
 PID-30	3	12	Y	Expired	E		2
-PID-30	4	12	Y	Deceased/Yes			4
-PID-30	5	12	N	Not Deceased/No			4
+PID-30	4	12	Y	Deceased/Yes	Y		4
+PID-30	5	12	N	Not Deceased/No	N		4
 DG1-6	2	15	MiHIN Value	Description	Hospital Value		4
 DG1-6	3	15	A	Admitting	AD		2
-DG1-6	4	15	A	Admitting	Adm		4
-DG1-6	5	15	F	Final	Fnl		4
-DG1-6	6	15	W	Working 	Int		4
-DG1-6	7	15	O	Other	Rvt		4
+DG1-6	4	15	A	Admitting	A		4
+DG1-6	5	15	F	Final	F		4
+DG1-6	6	15	W	Working 	W		4
+DG1-6	7	15	O	Other			4
 PV1-2	2	18	MiHIN Value	Description	Hospital Value		4
 PV1-2	3	18	E	Emergency	ER		2
 PV1-2	4	18	B	Obstetrics			4
@@ -74,7 +74,7 @@ PV1-2	5	18	C	Commercial Account			4
 PV1-2	6	18	E	Emergency	E		4
 PV1-2	7	18	I	Inpatient	I		4
 PV1-2	8	18	N	Not Applicable			4
-PV1-2	9	18	O	Outpatient	O		4
+PV1-2	9	18	O	Outpatient	O, OUTPATIENT		4
 PV1-2	10	18	P	Preadmit			4
 PV1-2	11	18	R	Recurring patient			4
 PV1-2	12	18	U	Unknown			4
@@ -86,43 +86,43 @@ PV1-2	17	18	SA	Surgery Admit 			4
 PV1-4	2	21	MiHIN Value	Description	Hospital Value		4
 PV1-4	3	21	E	Emergency	E		2
 PV1-4	4	21	A	Accident			4
-PV1-4	5	21	C	Elective	Elective		4
-PV1-4	6	21	E	Emergency	Emergency		4
+PV1-4	5	21	C	Elective	EL		4
+PV1-4	6	21	E	Emergency	ER		4
 PV1-4	7	21	L	Labor and Delivery			4
-PV1-4	8	21	N	Newborn (Birth in healthcare facility)	Newborn		4
+PV1-4	8	21	N	Newborn (Birth in healthcare facility)	NB		4
 PV1-4	9	21	R	Routine			4
-PV1-4	10	21	U	Urgent	Urgent		4
-PV1-4	11	21	TC	Trauma Center 	Trauma Ctr		4
-PV1-4	12	21	O	Other	Unknown		4
+PV1-4	10	21	U	Urgent	UR		4
+PV1-4	11	21	TC	Trauma Center 	T		4
+PV1-4	12	21	O	Other	NA		4
 PV1-14	2	24	MiHIN Value	Description	Hospital Value		4
 PV1-14	3	24	2	Clinic referral	E		2
-PV1-14	4	24	1	Physician referral	Phys or Self, Born in hospital, Born outside hospital,Extram Birth, Normal Dlvr, Prem Divr,Sick Baby		4
-PV1-14	5	24	2	Clinic referral	Clinic Ref, Clinic or Phys Off		4
+PV1-14	4	24	1	Physician referral	Phys/Clinic		4
+PV1-14	5	24	2	Clinic referral			4
 PV1-14	6	24	3	HMO referral	HMO Ref		4
-PV1-14	7	24	4	Transfer from a hospital	Xfer Hosp, Xfer Crit Acc, Xfer Hosp Same Fac		4
-PV1-14	8	24	5	Transfer froma skilled nursing facility	Xfer SNF		4
-PV1-14	9	24	6	Transfer from another health care facility	Xfer HHA, Xfer from hospice, Xfer Oth Fac		4
-PV1-14	10	24	7	Emergency Room	ER		4
-PV1-14	11	24	8	Court/Law enforcement	Court		4
-PV1-14	12	24	9	Information not available	Info NA		4
-PV1-14	13	24	SR	Self-Referral			4
-PV1-14	14	24	TRNF	Transfer from a non-health care facility	Non-Health Care Fac, Readm HHA		4
-PV1-14	15	24	TRAD	Transfer from Ambulatory Department	Xfer from ASC		4
+PV1-14	7	24	4	Transfer from a hospital	Acute Car		4
+PV1-14	8	24	5	Transfer froma skilled nursing facility	SNF, MI Skilled N, AL Skilled N		4
+PV1-14	9	24	6	Transfer from another health care facility	MI Assisted, MI Acute Car, MI		4
+PV1-14	10	24	7	Emergency Room	Emergency		4
+PV1-14	11	24	8	Court/Law enforcement	Court/Law		4
+PV1-14	12	24	9	Information not available	Info Unav		4
+PV1-14	13	24	SR	Self-Referral	Non-healthcare Facility, Self		4
+PV1-14	14	24	TRNF	Transfer from a non-health care facility	Home, Disch/Readm		4
+PV1-14	15	24	TRAD	Transfer from Ambulatory Department			4
 PV1-18	2	27	MiHIN Suggested Values		Hospital Value	Description	4
 PV1-18	3	27			A	Anonymous	2
-PV1-18	4	27	1	Anonymous			4
-PV1-18	5	27	2	Confidential			4
-PV1-18	6	27	3	Employee			4
-PV1-18	7	27	4	Dismissed			4
-PV1-18	8	27	5	No Medicare			4
-PV1-18	9	27	6	Prisoner			4
-PV1-18	10	27	7	VIP			4
+PV1-18	4	27	1	Anonymous	1	Anonymous	4
+PV1-18	5	27	2	Confidential	2	Confidential	4
+PV1-18	6	27	3	Employee	3	Employee	4
+PV1-18	7	27	4	Dismissed	4	Dismissed	4
+PV1-18	8	27	5	No Medicare	5	No Medicare	4
+PV1-18	9	27	6	Prisoner	6	Prisoner	4
+PV1-18	10	27	7	VIP	8	VIP	4
 PV1-18	11	27	8	Staff Dependent			4
 PV1-18	12	27	9	Benefactor			4
 PV1-18	13	27	10	Employee Dependent			4
 PV1-18	14	27	11	Non-Employee			4
-PV1-18	15	27	12	Volunteer			4
-PV1-18	16	27	13	Staff Physician			4
+PV1-18	15	27	12	Volunteer	9	Volunteer	4
+PV1-18	16	27	13	Staff Physician	7	Staff Physician	4
 PV1-18	17	27	14	Non V.I.P			4
 PV1-18	18	27	15	Retired Employee			4
 PV1-18	19	27	42	Homeless			4
@@ -145,73 +145,73 @@ PV1-18	35	27			IP	Inpatient Hospital	00000000
 PV1-18	36	27			SDS	Same Day Surgery	00000000
 PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
 PV1-10	3	31			121	Pediatrics	2
-PV1-10	4	31	104	Cardiology - General	CAR, CCL, CRE, CPR, EEG	Cardiology, Cardiac Cath Lab, Cardiac Rehab, Cardiopulminary Rehab, EEG	4
-PV1-10	5	31	105	Emergency Medicine	EMR	Emergency	4
+PV1-10	4	31	104	Cardiology - General	Cardiology	Cardiology	4
+PV1-10	5	31	105	Emergency Medicine	Emergency	Emergency	4
 PV1-10	6	31	107	Geriatrics			4
-PV1-10	7	31	108	Gastroenterology			4
-PV1-10	8	31	109	Gynecology	GYN	Gynecology	4
-PV1-10	9	31	110	Hospice Medicine	HSP	Hospice	4
-PV1-10	10	31	111	Medical Intensive Care			4
-PV1-10	11	31	112	Internal Medicine	MED	Medicine	4
+PV1-10	7	31	108	Gastroenterology	Gastro	Gastro	4
+PV1-10	8	31	109	Gynecology	Gynecology	Gynecology	4
+PV1-10	9	31	110	Hospice Medicine	Hospice	Hospice	4
+PV1-10	10	31	111	Medical Intensive Care	Medical ICU	Medical ICU	4
+PV1-10	11	31	112	Internal Medicine	Internal Med	Internal Med	4
 PV1-10	12	31	114	Neuro ICU			4
-PV1-10	13	31	115	Neurology	NEU	Neurology	4
+PV1-10	13	31	115	Neurology	Neurology	Neurology	4
 PV1-10	14	31	116	Neonatology			4
-PV1-10	15	31	117	Obstetrics	OBS, MAT	Obstetrics, Maternity	4
-PV1-10	16	31	118	Oncology	ONCINF	Oncology/Infusion	4
-PV1-10	17	31	119	Orthopedics	ORT	Orthopedics	4
-PV1-10	18	31	121	Pediatrics	PED	Pediatrics	4
-PV1-10	19	31	123	Physical Medicine and Rehabilitation	REH, OTY, PTY,SPM	Inpatient Rehab, Occupational Therapy, Physical Therapy, Sports Medicine	4
-PV1-10	20	31	124	General Surgery	SUR, PAT	Surgery, Preadmit Testing	4
+PV1-10	15	31	117	Obstetrics	Obstetrics	Obstetrics, Maternity	4
+PV1-10	16	31	118	Oncology	Oncology	Oncology	4
+PV1-10	17	31	119	Orthopedics	Orthopedics	Orthopedics	4
+PV1-10	18	31	121	Pediatrics	Pediatrics	Pediatrics	4
+PV1-10	19	31	123	Physical Medicine and Rehabilitation	PM&R	PM&R	4
+PV1-10	20	31	124	General Surgery	Surgery	Surgery	4
 PV1-10	21	31	125	Surgical Intensive Care			4
 PV1-10	22	31	126	Nephrology Transplant			4
 PV1-10	23	31	127	Acute Care Surgery			4
-PV1-10	24	31	128	Allergy & Immunology			4
-PV1-10	25	31	129	Anesthesiology			4
-PV1-10	26	31	131	Dermatology			4
-PV1-10	27	31	132	Family Medicine			4
-PV1-10	28	31	133	Endocrinology	DBE	DIABETIC EDUCATION, 	4
-PV1-10	29	31	134	Genetics			4
-PV1-10	30	31	135	Hematology	HEM	Hematology	4
-PV1-10	31	31	136	Infectious Disease			4
-PV1-10	32	31	137	Nephrology	DIA	DIALYSIS	4
-PV1-10	33	31	138	Neurosurgery	NES	Neurosurgery	4
-PV1-10	34	31	139	Ophthalmology			4
-PV1-10	35	31	140	Otolaryngology/ENT			4
-PV1-10	36	31	141	Plastic Surgery			4
-PV1-10	37	31	143	Radiation Oncology			4
-PV1-10	38	31	144	Rheumatology			4
-PV1-10	39	31	145	Urology	URO	Urology	4
-PV1-10	40	31	148	Pharmacy			4
-PV1-10	41	31	149	Interventional Radiology	IVR	Interventional Radiology	4
+PV1-10	24	31	128	Allergy & Immunology	Allergy	Allergy	4
+PV1-10	25	31	129	Anesthesiology	Anesthesiolo	Anesthesiolo	4
+PV1-10	26	31	131	Dermatology	Dermatology	Dermatology	4
+PV1-10	27	31	132	Family Medicine	Family Med	Family Med	4
+PV1-10	28	31	133	Endocrinology	Endocrinolog	Endocrinolog	4
+PV1-10	29	31	134	Genetics	Genetics	Genetics	4
+PV1-10	30	31	135	Hematology	Hematology	Hematology	4
+PV1-10	31	31	136	Infectious Disease	Infectious D	Infectious D	4
+PV1-10	32	31	137	Nephrology	Nephrology	Nephrology	4
+PV1-10	33	31	138	Neurosurgery	Neurosurgery	Neurosurgery	4
+PV1-10	34	31	139	Ophthalmology	Ophthalmolog	Ophthalmolog	4
+PV1-10	35	31	140	Otolaryngology/ENT	Otolaryngolo	Otolaryngolo	4
+PV1-10	36	31	141	Plastic Surgery	Plastic Surg	Plastic Surg	4
+PV1-10	37	31	143	Radiation Oncology	Rad Onc	Rad Onc	4
+PV1-10	38	31	144	Rheumatology	Rheumatology	Rheumatology	4
+PV1-10	39	31	145	Urology	Urology	Urology	4
+PV1-10	40	31	148	Pharmacy	Pharmacy	Pharmacy	4
+PV1-10	41	31	149	Interventional Radiology	Inter Rad	Inter Rad	4
 PV1-10	42	31	150	Clinical Decision Unit			4
-PV1-10	43	31	151	Wound/Ostomy Care	WND	Wound Care	4
-PV1-10	44	31	153	Newborn	NEW, NSY	Newborn, Nursery	4
+PV1-10	43	31	151	Wound/Ostomy Care	Wound Care	Wound Care	4
+PV1-10	44	31	153	Newborn		Newborn, Nursery	4
 PV1-10	45	31	154	Labor and Delivery			4
 PV1-10	46	31	156	Hospitalist Medicine			4
-PV1-10	47	31	158	Select Specialty	NUT	NUTRITION, 	4
-PV1-10	48	31	161	Audiology	AUD	Audiology	4
+PV1-10	47	31	158	Select Specialty			4
+PV1-10	48	31	161	Audiology		Audiology	4
 PV1-10	49	31	162	Behavioral Health - Psychology			4
 PV1-10	50	31	163	Cardiology - Structural Heart Disease			4
 PV1-10	51	31	165	Colon/Rectal Surgery			4
-PV1-10	52	31	166	Gynecology/Oncology	MAM	Mammography	4
+PV1-10	52	31	166	Gynecology/Oncology	Gynecology/Obstetrics	Gynecology/Obstetrics	4
 PV1-10	53	31	172	Oral Surgery			4
 PV1-10	54	31	175	Palliative Medicine 			4
 PV1-10	55	31	178	Podiatry			4
-PV1-10	56	31	180	Radiology	RAD, CAT, MRA, MRI, NUC, US	Radiology, CT Scan, MRA, MRI, Nuclear Medicine, Ultrasound	4
-PV1-10	57	31	181	Sleep Center	SLP	Sleep Studies	4
+PV1-10	56	31	180	Radiology		Radiology	4
+PV1-10	57	31	181	Sleep Center		Sleep Studies	4
 PV1-10	58	31	184	Cardiac Surgery			4
 PV1-10	59	31	185	Transplant			4
 PV1-10	60	31	198	Bone Marrow Transplant			4
 PV1-10	61	31	208	Chemotherapy			4
-PV1-10	62	31	273	Pathology	PTH	Pathology	4
-PV1-10	63	31	293	Pulmonary	RTY	RESPIRATORY THERAPY	4
+PV1-10	62	31	273	Pathology		Pathology	4
+PV1-10	63	31	293	Pulmonary		RESPIRATORY THERAPY	4
 PV1-10	64	31	322	Thoracic Surgery			4
 PV1-10	65	31	374	Transfusion Medicine			4
 PV1-10	66	31	376	Family Practice			4
 PV1-10	67	31	380	Orthopedic - Hand Surgery			4
 PV1-10	68	31	381	Orthopedic - Spine			4
 PV1-10	69	31	384	Hepatology			4
-PV1-10	70	31	385	Pain Management	PMG	Pain Management Clinic	4
+PV1-10	70	31	385	Pain Management		Pain Management Clinic	4
 PV1-10	71	31	387	Urogynecology			4
 PV1-10	72	31	399	Bone & Mineral			4
 PV1-10	73	31	409	Cardiology - Electrophysiology			4
@@ -223,54 +223,66 @@ PV1-10	78	31	467	Pulmonary Interventional			4
 PV1-10	79	31	469	Transplant HPB Surgery			4
 PV1-10	80	31	470	Cardiothoracic Transplant			4
 PV1-10	81	31	471	Vascular Surgery			4
-PV1-10	82	31	472	Speech Pathology	STY	Speech Therapy	4
+PV1-10	82	31	472	Speech Pathology		Speech Therapy	4
 PV1-10	83	31	473	Cardiology - Advanced Heart Failure/Transplant			4
-PV1-10	84	31	474	Cardiology - Vascular Medicine	CVS, VAS	Cardiovascular, Vascular	4
+PV1-10	84	31	474	Cardiology - Vascular Medicine		Cardiovascular, Vascular	4
 PV1-10	85	31	475	Physiatry			4
 PV1-10	86	31	476	Orthopedic - Surgery			4
 PV1-10	87	31	477	Cardiovascular SICU			4
 PV1-10	88	31	478	Behavioral Health - Neuropsychology			4
 PV1-10	89	31	479	Behavioral Health - Psychiatry			4
-PV1-10	90	31	480	Surgical Endoscopy	END	Endoscopy	4
+PV1-10	90	31	480	Surgical Endoscopy		Endoscopy	4
 PV1-10	91	31	481	Ethics			4
 PV1-10	92	31	482	Trauma Surgery			4
-PV1-10	93	31			LAB	Laboratory	00000000
-PV1-10	94	31			23H	23 Hour Observation	00000000
+PV1-10	93	31			Cardiac ICU	Cardiac ICU	00000000
+PV1-10	94	31			General Med	General Medicine	00000000
+PV1-10	95	31			Vascular Sur	Vascular Surgery	00000000
+PV1-10	96	31			Pulmonology	Pulmonology	00000000
+PV1-10	97	31			Trauma	Trauma	00000000
+PV1-10	98	31			Cardiac Cath	Cardiac Cath	00000000
 PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	4
 PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
-PV1-36	4	35	01	Discharged to home or self care (routine discharge)	Routine, Routine w/plan readmit	Discharged to home or self care (routine discharge)	4
-PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	Oth Hosp, OthHosp w/plan readmit, Neo Care-Hosp, Tert Care-Hosp	Discharged/transferred to a short-term general hospital for inpatient \ncare, Discharge/Transfer to another hosp-neonatal after care, Discharge/Transfer to anotehr hosp-tertiary after care	4
-PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.	SNF, SNF w/plan readmit	Discharged/transferred to skilled nursing facility (SNF) with Medicare \ncertification.	4
-PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)	Inter Care Fac, InterCareFac w/plan readmit	Discharged/transferred to an intermediate care facility (ICF), Disch/Trans to Intermed. Care Facility with plan readmit	4
-PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list	Oth Inst, Court/LawEnforcement w/plan readmit, OP Here, Oth OP Svc, Dsch/Xfer to Desg Cancer CTR, CancerCtr/Child's Hosp w/plan readmit, Disaster, OthInst w/plan readmit	Discharged/transferred to another type of institution not defined elsewhere \nin this code list, disch/Trans to Court/Law Enforcement with plan admit, Disch/Trans/Ref - this inst., OP Serv, Disch/Trans/Ref - other inst., OP Serv, Discharge/Transfer to Designated Cancer Center, Disch/Trans to Disignated Cancer Ctr or Children's Hospital with plan readmit, Disch/Transfer to disaster care site, Disch/Trans to other type of institution with plan readmit	4
-PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization	Home Hlth, HomeHlth w/plan readmit	Discharged/transferred to home under care of organized home health service \norganization	4
-PV1-36	10	35	07	Left against medical advice or discontinued care	AMA, Not Seen	Left against medical advice or discontinued care, Not Seen	4
-PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider	Home IVT	Discharged/transferred to home under care of a Home IV provider	4
-PV1-36	12	35	09	Admitted as an inpatient to this hospital	Admitted	Admitted as an inpatient to this hospital	4
+PV1-36	4	35	01	Discharged to home or self care (routine discharge)	HOME	Home or Self Care	4
+PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	SHORT TERM	Short Term Hospital	4
+PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.	SNF	Skilled Nursing Facility	4
+PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)			4
+PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list	 ANOTHER INST, COURT/LAW EN	Another Health Care Institution Not Defined, Court and Law Enforcement	4
+PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization	HOME-HEALTH	Home-Health Care Svc	4
+PV1-36	10	35	07	Left against medical advice or discontinued care	LEFT AGAINST	Left Against Medical Advice	4
+PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider			4
+PV1-36	12	35	09	Admitted as an inpatient to this hospital	ADMITTED	Admitted as an Inpatient	4
 PV1-36	13	35	10-19	Reserved for national assignment (Discontinued effective 10/16/03)			4
-PV1-36	14	35	20	Expired	Expired	Expired	4
-PV1-36	15	35	2l-29	Reserved for national assignment (Discontinued effective 10/16/03)	Discharge to Court/Law Enforcement	Discharge or Transfer to Court/Law Enforcement	4
-PV1-36	16	35	30	Still Patient	Inhouse	Still Patient	4
+PV1-36	14	35	20	Expired	EXPIRED	Expired	4
+PV1-36	15	35	2l-29	Reserved for national assignment (Discontinued effective 10/16/03)		Discharge or Transfer to Court/Law Enforcement	4
+PV1-36	16	35	30	Still Patient	STILL A PATI	Still a Patient	4
 PV1-36	17	35	31-39	Reserved for national assignment (Discontinued effective 10/16/03)			4
-PV1-36	18	35	40	Expired at home	Died Home	Expired at home	4
-PV1-36	19	35	41	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)	Died Med Fac	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing \nhospice)	4
-PV1-36	20	35	42	Expired - place unknown	Died-Place?	Expired - place unknown	4
-PV1-36	21	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)	Fed Hlth Care Fac, Fed Fac w/plan readmit	Discharged/transferred to a federal health care facility. (Effective 10/1/03)	4
+PV1-36	18	35	40	Expired at home	EXP HOME	Expired at Home	4
+PV1-36	19	35	41	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)	EXP MEDICAL	Expired in Medical Facility	4
+PV1-36	20	35	42	Expired - place unknown	EXP UNKNOWN	Expired - Place Unknown	4
+PV1-36	21	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)	FED	Federal Hospital 	4
 PV1-36	22	35	44-49	Reserved for national assignment			4
-PV1-36	23	35	50	Hospice - home	Hospice-Home	Hospice - home	4
-PV1-36	24	35	51	Hospice - medical facility	Hospice-Med Fac	Hospice - medical facility	4
+PV1-36	23	35	50	Hospice - home	HOSPICEHOME	Hospice/Home	4
+PV1-36	24	35	51	Hospice - medical facility	HOSPICEMEDIC	Hospice/Medical Facility	4
 PV1-36	25	35	52-60	Reserved for national assignment			4
-PV1-36	26	35	61	Discharged/transferred to hospital-based Medicare approved swing bed	Swing Bed, Swing Bed w/plan readmit	Discharged/transferred to hospital-based Medicare approved swing bed	4
-PV1-36	27	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)	Oth Rehab, OthRehab w/plan readmit	Discharged/transferred to an inpatient rehabilitation facility (IRF) including \nrehabilitation distinct part units of a hospital. (Effective \nretroactive to 1/1/02.), Disch/Trans to other rehab with plan readmit	4
-PV1-36	28	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)	LTC Hosp, LTC Hosp w/plan readmit	Discharged/transferred to a Medicare certified long term care hospital \n(LTCH).(Effective 5/9/02.), Disch/Trans to LTC hospital with plan readmit, Disch/Trans to LTC hospital with plan readmit	4
-PV1-36	29	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)	Nurs Fac, NursFac w/plan readmit	Discharged/transferred to a nursing facility certified under Medicaid \nbut not certified under Medicare. (Effective 10/1/02.), Discharge to Nursing Facility Medicaid Certified with plan readmit	4
-PV1-36	30	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	Psych Hosp/Unit, Psych Hosp/Unit w/plan readmit	Discharged/transferred to a psychiatric hospital or psychiatric distinct \npart unit of a hospital. (Effective 4/1/04)	4
-PV1-36	31	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)	Critical Hospital, CAH w/plan readmit	Discharged/transferred to a Critical Access Hospital (CAH). (Effective \n1/1/06)	4
+PV1-36	26	35	61	Discharged/transferred to hospital-based Medicare approved swing bed	SWING BED	Swing Bed	4
+PV1-36	27	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)	REHAB	Rehab Facility	4
+PV1-36	28	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)	LONG TERM	Long Term Acute Care	4
+PV1-36	29	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)			4
+PV1-36	30	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	PSYCH	Psychiatric Hospital	4
+PV1-36	31	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)	CAH	Critical Access Hospital	4
 PV1-36	32	35	67-70	Reserved for national assignment			4
 PV1-36	33	35	71	Reserved for national assignment (Discontinued effective 4/1/03)			4
 PV1-36	34	35	72	Reserved for national assignment (Discontinued effective 4/1/03)			4
 PV1-36	35	35	73-99	Reserved for national assignment			4
-PV1-36	36	35			Dsch\\Xfer to Desg Cancer CTR	Dsch\\Xfer to Desg Cancer CTR	4
+PV1-36	36	35			ASSIST LIVE	Assisted Living	4
+PV1-36	37	35			ELOPE	ELOPE	4
+PV1-36	38	35			BOARD & CARE	BOARD & CARE	4
+PV1-36	39	35			CCF	Custodial Care Facility	4
+PV1-36	40	35			HOME-READM	Home or Self Care w/ Planned Readmission	4
+PV1-36	41	35			NOT ARRIVED	ED Dismiss - Never Arrived	4
+PV1-36	42	35			LTC-READM	Long Term Care w/ Planned Readmission 	4
+PV1-36	43	35			ANOTH-READM	Another Health Care Institution Not Defined w/ Planned Readmission	4
+PV1-36	44	35			SHELTER	Shelter	4
 IN1-17	2	39	MiHIN Value	Description	Hospital Value		4
 IN1-17	3	39	FTH	Father 	F		2
 IN1-17	4	39	ASC	Associate			4
@@ -280,17 +292,17 @@ IN1-17	7	39	CHD	Child	Child, AdptChld		4
 IN1-17	8	39	DEP	Handicapped dependant			4
 IN1-17	9	39	DOM	Life partner	LifeP, SigOth		4
 IN1-17	10	39	EMC	Emergency contact			4
-IN1-17	11	39	EME	Employee			4
+IN1-17	11	39	EME	Employee	Empl		4
 IN1-17	12	39	EMR	Employer			4
 IN1-17	13	39	EXF	Extended family	Niece/N		4
-IN1-17	14	39	FCH	Foster child 	FstCh		4
+IN1-17	14	39	FCH	Foster child 	FsCh		4
 IN1-17	15	39	FND	Friend	Frnd		4
-IN1-17	16	39	FTH	Father 			4
-IN1-17	17	39	GCH	Grandchild	GrChd		4
+IN1-17	16	39	FTH	Father 	Ftjr		4
+IN1-17	17	39	GCH	Grandchild	GdCh		4
 IN1-17	18	39	GRD	Guardian 	FsPar		4
-IN1-17	19	39	GRP	Grandparent 	GrPrt		4
+IN1-17	19	39	GRP	Grandparent 	GrPt		4
 IN1-17	20	39	MGR	Manager			4
-IN1-17	21	39	MTH	Mother 			4
+IN1-17	21	39	MTH	Mother 	Mthr		4
 IN1-17	22	39	NCH	Natural child			4
 IN1-17	23	39	NON	None			4
 IN1-17	24	39	OAD	Other adult			4

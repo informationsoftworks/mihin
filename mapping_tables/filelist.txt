@@ -88,7 +88,7 @@
 2.0 Mapping Tables - Hospitals/Dickinson County Healthcare System ADT 2.0 table 01-07-2022.xlsx
 2.0 Mapping Tables - Hospitals/Eaton Rapids Medical Center ADT 2.0 table 10-08-2021.xlsx
 2.0 Mapping Tables - Hospitals/Englewood Health ADT 2.0 table 07-07-2020.xlsx
-2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 10-3-19.xlsx
+2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 01-18-2022.xlsx
 2.0 Mapping Tables - Hospitals/HFPN ADT 2.0 table 11-18-2021.xlsx
 2.0 Mapping Tables - Hospitals/Harbor Beach Community Hospital ADT 2.0 table 1-8-2020.xlsx
 2.0 Mapping Tables - Hospitals/Helen Newberry Joy Hospital ADT 2.0 table 10-10-2019.xlsx
