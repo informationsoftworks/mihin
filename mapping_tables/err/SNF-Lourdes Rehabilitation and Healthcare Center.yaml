@@ -1,5 +1,26 @@
 base: SNF-Lourdes Rehabilitation and Healthcare Center
 domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lourdes Rehabilitation and Healthcare Center ADT 2.0 table 8-20-20.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '41874851489'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '2021063012275000000003'
+          field name: PID-30
+          field value: '""'
+          message count: 135
+          receiving org message ID: 63617529
+        - HL7 ID: '41875029343'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '2021063015382900000008'
+          field name: PV1-36
+          field value: '""'
+          message count: 291
+          receiving org message ID: 63619177
   import:
   - error: No-break space found in filename
     filename: "2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lourdes Rehabilitation and Healthcare Center\_ADT 2.0 table 8-20-20.xlsx"
