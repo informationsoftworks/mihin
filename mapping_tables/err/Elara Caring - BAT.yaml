@@ -1,0 +1,23 @@
+base: Elara Caring - BAT
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Elara Caring - BAT ADT Mapping Tables 01-11-2022.xlsx
+      list:
+      - error: Invalid OID
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            code: '2.16.840.1.113883.3.5416.1.12236
+
+              '
+            value: Elara Caring - BAT
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI14
+            label: HOSPICE PATIENT EXPIRED,  MCCM - DIED, PATIENT EXPIRED

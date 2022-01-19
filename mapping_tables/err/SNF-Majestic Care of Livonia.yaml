@@ -1,0 +1,13 @@
+base: SNF-Majestic Care of Livonia
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Majestic Care of Livonia ADT 2.0 table 01-19-2022.xlsx
+      list:
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-10
+          see:
+          - cell: F13
+            code: 'Black '

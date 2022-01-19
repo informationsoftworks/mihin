@@ -81,12 +81,15 @@
 2.0 Mapping Tables - Hospitals/Baraga County Memorial Hospital ADT 2.0 table 12-16-19.xlsx
 2.0 Mapping Tables - Hospitals/Beaumont Health System ADT 2.0 table 07-28-2021.xlsx
 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx
+2.0 Mapping Tables - Hospitals/Brookdale Home Health - Detroit ADT Mapping Tables 01-11-2022.xlsx
 2.0 Mapping Tables - Hospitals/Charlevoix ADT 2.0 table 9-17-19.xlsx
 2.0 Mapping Tables - Hospitals/Covenant Healthcare ADT 2.0 table 02-28-19.xlsx
 2.0 Mapping Tables - Hospitals/Deckerville Community Hospital ADT 2.0 table 12-14-2020.xlsx
 2.0 Mapping Tables - Hospitals/Detroit Medical Center ADT 2.0 table 03-06-19.xlsx
 2.0 Mapping Tables - Hospitals/Dickinson County Healthcare System ADT 2.0 table 01-07-2022.xlsx
 2.0 Mapping Tables - Hospitals/Eaton Rapids Medical Center ADT 2.0 table 10-08-2021.xlsx
+2.0 Mapping Tables - Hospitals/Elara Caring - BAT ADT Mapping Tables 01-11-2022.xlsx
+2.0 Mapping Tables - Hospitals/Elara Caring - KAL ADT Mapping Tables 01-11-2022.xlsx
 2.0 Mapping Tables - Hospitals/Englewood Health ADT 2.0 table 07-07-2020.xlsx
 2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 01-18-2022.xlsx
 2.0 Mapping Tables - Hospitals/HFPN ADT 2.0 table 11-18-2021.xlsx
@@ -108,6 +111,7 @@
 2.0 Mapping Tables - Hospitals/McLaren Bay Region ADT 2.0 table 11-09-2021.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Caro Region ADT 2.0 table 03-26-19.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Central Michigan ADT 2.0 tables 12-09-2020.xlsx
+2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 09-23-2021.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Greater Lansing ADT 2.0 table 08-28-2020.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Lapeer Region ADT 2.0 tables 08-12-2019.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Macomb ADT 2.0 table 11-09-2021.xlsx
@@ -117,6 +121,7 @@
 2.0 Mapping Tables - Hospitals/McLaren Thumb Region ADT 2.0 table 10-09-2020.xlsx
 2.0 Mapping Tables - Hospitals/Memorial Healthcare ADT 2.0 table 2.27.20.xlsx
 2.0 Mapping Tables - Hospitals/Metro Health Hospital ADT 2.0 table 9-25-17.xlsx
+2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 1-14-2022.xlsx
 2.0 Mapping Tables - Hospitals/Mid-Michigan Health ADT 2.0 table 04-26-2021.xlsx
 2.0 Mapping Tables - Hospitals/MidMichigan Medical Center - West Branch ADT 2.0 table 02-27-2019.xlsx
 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 8-13-2020.xlsx
@@ -160,6 +165,7 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Advantage Living Center-Southgate ADT 2.0 table 03-19-2021.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Advantage Living Center-Warren ADT 2.0 table 5-30-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Allegra Nursing and Rehab ADT 2.0 table 2-9-17.xlsx
+2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Alpha Manor Nursing Home ADT 2.0 table 02-04-2021.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Ambassador Nursing and Rehab Center ADT 2.0 Table 02-01-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Applewood Nursing Center ADT 2.0 Table 3-21-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Autumn Woods Residential Health Care ADT 2.0 table 11-29-16.xlsx
@@ -243,6 +249,7 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lakeview Manor Healthcare ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Laurels of Mt Pleasant ADT 2.0 table 8-24-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lourdes Rehabilitation and Healthcare Center ADT 2.0 table 8-20-20.xlsx
+2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Majestic Care of Livonia ADT 2.0 table 01-19-2022.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Manistee County Medical Care Facility ADT 2.0 table 10-25-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Manorcare Nursing of Kingsford ADT 2.0 table 07-11-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Maple Woods Manor ADT 2.0 table 03-05-18.xlsx
@@ -257,6 +264,7 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-MediLodge of Clare ADT 2.0 table 5-9-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-MediLodge of Midland ADT 2.0 table 5-9-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-MediLodge of Mt. Pleasant ADT 2.0 table 5-9-17.xlsx
+2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge at the Shore ADT 2.0 table 8-20-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Alpena ADT 2.0 table 4-24-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Campus Area ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Capital Area ADT 2.0 table 10-31-16.xlsx
@@ -297,6 +305,7 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Sterling Heights ADT 2.0 table 11-1-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Tawas City ADT 2.0 table 4-24-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Tawas City ADT 2.0 table 8-20-20.xlsx
+2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Taylor ADT 2.0 table 11-1-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Traverse City ADT 2.0 table 08-10-2021.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Westwood ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Wyoming ADT 2.0 table 10-31-16.xlsx
@@ -335,6 +344,7 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Muskegon ADT 2.0 table 8-21-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Plymouth ADT 2.0 table 8-21-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Plymouth ADT 2.0 table 9-13-18.xlsx
+2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD West Bloomfield ADT 2.0 table 8-21-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Whitehall ADT 2.0 table 9-13-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Wyoming ADT 2.0 table 9-13-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Zeeland ADT 2.0 table 10-23-18.xlsx
@@ -383,6 +393,7 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Villa at the Park ADT 2.0 table 11-9-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Villages of Lapeer ADT 2.0 table 8-20-2020.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Warwick Living Center ADT Mapping Tables 8-20-2020.xlsx
+2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-WellBridge of Pinckney, LLC ADT 2.0 table 5-2-19.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Wellbridge of Brighton ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Wellbridge of Clarkston ADT 2.0 tables 7-17-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Wellbridge of Fenton, LLC ADT 2.0 table 5-9-17.xlsx
