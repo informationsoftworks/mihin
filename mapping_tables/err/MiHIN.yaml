@@ -18,34 +18,6 @@ domains:
         HL7 source org: 2.16.840.1.113883.3.5416.1.1553
         HL7 timestamp: '20210916164202'
         receiving org message ID: 82738213
-    - message count: 43
-      oid: 2.16.840.1.113883.3.137.4.70
-      sample:
-        HL7 ID: '134092528'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-        HL7 timestamp: '20210912150519'
-        receiving org message ID: 27153382
-    - message count: 64
-      oid: 2.16.840.1.113883.3.4771.1
-      sample:
-        HL7 ID: '133712967'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-        HL7 timestamp: '20210907182939'
-        receiving org message ID: 26757567
-    - message count: 3
-      oid: 2.16.840.1.113883.3.4771.2
-      sample:
-        HL7 ID: '132998786'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-        HL7 timestamp: '20210829201022'
-        receiving org message ID: 25659449
-    - message count: 8
-      oid: 2.16.840.1.113883.3.5023.1
-      sample:
-        HL7 ID: '134549539'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-        HL7 timestamp: '20210916201420'
-        receiving org message ID: 82738698
     - message count: 1
       oid: 2.16.840.1.113883.3.5416.1.9346
       sample:
