@@ -1,14 +1,8 @@
-base: Spectrum Health
+base: Spectrum Health KRC
 domains:
-  import:
-  - error: Duplicate files
-    filenames:
-    - 2.0 Mapping Tables - Hospitals/Spectrum Health ADT 2.0 table 06-14-2021.xlsx
-    - 2.0 Mapping Tables - Hospitals/Spectrum Health ADT 2.0 table 06-11-2021.xlsx
-    level: Error
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Spectrum Health ADT 2.0 table 06-14-2021.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Spectrum Health KRC ADT 2.0 table 06-21-2021.xlsx
       list:
       - error: Labels provided without code value
         level: Warning

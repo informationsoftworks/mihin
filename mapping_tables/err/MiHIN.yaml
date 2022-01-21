@@ -4,13 +4,76 @@ domains:
     error: ADTs received from OID for which no mapping exists
     level: Error
     see:
-    - message count: 44
-      oid: 1.3.6.1.4.1.32898.1.4.2.30
+    - message count: 9158
+      oid: 1.3.6.1.4.1.32898.1.4
       sample:
-        HL7 ID: '20210831102114726'
+        HL7 ID: '20210916185132066'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+        HL7 timestamp: '20210916185128'
+        receiving org message ID: 82738024
+    - message count: 21
+      oid: 1.3.6.1.4.1.32898.1.4.2.100
+      sample:
+        HL7 ID: '20210914105426836'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+        HL7 timestamp: '20210914105416'
+        receiving org message ID: 27239028
+    - message count: 198
+      oid: 1.3.6.1.4.1.32898.1.4.2.11
+      sample:
+        HL7 ID: '20210914104817836'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+        HL7 timestamp: '20210914104810'
+        receiving org message ID: 27238991
+    - message count: 77
+      oid: 1.3.6.1.4.1.32898.1.4.2.12
+      sample:
+        HL7 ID: '20210916141737836'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+        HL7 timestamp: '20210916141733'
+        receiving org message ID: 27389230
+    - message count: 25
+      oid: 1.3.6.1.4.1.32898.1.4.2.13
+      sample:
+        HL7 ID: '20210901145517934'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+        HL7 timestamp: '20210901145512'
+        receiving org message ID: 26106020
+    - message count: 47
+      oid: 1.3.6.1.4.1.32898.1.4.2.40
+      sample:
+        HL7 ID: '20210916152457526'
         HL7 source org: 2.16.840.1.113883.3.5416.1.2780
-        HL7 timestamp: '20210831102110'
-        receiving org message ID: 18440397
+        HL7 timestamp: '20210916152453'
+        receiving org message ID: 19603005
+    - message count: 34
+      oid: 1.3.6.1.4.1.32898.1.4.2.50
+      sample:
+        HL7 ID: '20210722114626573'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+        HL7 timestamp: '20210722114621'
+        receiving org message ID: 22758690
+    - message count: 98
+      oid: 1.3.6.1.4.1.32898.1.4.2.70
+      sample:
+        HL7 ID: '20210915124226079'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+        HL7 timestamp: '20210915124224'
+        receiving org message ID: 27307459
+    - message count: 114
+      oid: 1.3.6.1.4.1.32898.1.4.2.80
+      sample:
+        HL7 ID: '20210914233123727'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+        HL7 timestamp: '20210914233113'
+        receiving org message ID: 27241173
+    - message count: 314
+      oid: 1.3.6.1.4.1.32898.1.4.2.90
+      sample:
+        HL7 ID: '20210916144842826'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+        HL7 timestamp: '20210916144835'
+        receiving org message ID: 27389393
     - message count: 1291
       oid: 1.3.6.1.4.1.37810.500.15.5.40
       sample:

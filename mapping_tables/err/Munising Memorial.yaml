@@ -2,7 +2,7 @@ base: Munising Memorial
 domains:
   audit:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 8-13-2020.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 01-21-2022.xlsx
       list:
         error: Undefined code found in received HL7 data
         level: Error
@@ -30,7 +30,7 @@ domains:
           receiving org message ID: 34554535
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 8-13-2020.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 01-21-2022.xlsx
       list:
       - error: Possible mis-alignment of Hospital Values with MiHIN Value
         level: Warning
