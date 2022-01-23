@@ -11,3 +11,7 @@ domains:
         HL7 source org: 2.16.840.1.113883.3.5416.1.1553
         HL7 timestamp: '20220121135703'
         receiving org message ID: 106174977
+  import:
+  - error: Filename not in standard format
+    filename: 2.0 Mapping Tables - Hospitals/Allegan County Community Mental Health ADT 2.0 table 09-30-2021 - Copy.xlsx
+    level: Error
