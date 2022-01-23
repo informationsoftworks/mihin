@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '61041159'
+        - HL7 ID: '62178734'
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210917021110'
+          HL7 timestamp: '20220120150237'
           field name: PID-30
           field value: '""'
-          message count: 319
-          receiving org message ID: 27391196
+          message count: 328
+          receiving org message ID: 35638423
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Hurley Medical Center ADT 2.0 table 7-16-19.xlsx

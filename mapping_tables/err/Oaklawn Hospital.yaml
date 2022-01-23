@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: Q253477913T653918305X0
+        - HL7 ID: Q264931672T687032339X326351
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210909235956'
+          HL7 timestamp: '20220122000741'
           field name: PID-30
           field value: '""'
-          message count: 128
-          receiving org message ID: 27023598
+          message count: 129
+          receiving org message ID: 35718187
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Oaklawn Hospital ADT 2.0 table 04-04-18.xlsx

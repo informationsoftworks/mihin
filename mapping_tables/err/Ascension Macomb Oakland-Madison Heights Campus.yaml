@@ -1,5 +1,19 @@
 base: Ascension Macomb Oakland-Madison Heights Campus
 domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Ascension Macomb Oakland-Madison Heights Campus ADT 2.0 table 05-12-2020.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: Q3950845711T5280764699X2048386
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20220118180255'
+          field name: PV1-36
+          field value: '""'
+          message count: 6
+          receiving org message ID: 105556731
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Ascension Macomb Oakland-Madison Heights Campus ADT 2.0 table 05-12-2020.xlsx

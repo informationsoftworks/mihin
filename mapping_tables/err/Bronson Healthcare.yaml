@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '133712967'
+        - HL7 ID: '144090392'
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210907182939'
+          HL7 timestamp: '20220109222448'
           field name: PID-30
           field value: '""'
-          message count: 64
-          receiving org message ID: 26757567
+          message count: 74
+          receiving org message ID: 34809795
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Bronson Healthcare ADT 2.0 table 12-09-2020.xlsx

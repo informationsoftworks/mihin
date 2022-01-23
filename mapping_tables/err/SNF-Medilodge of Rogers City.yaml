@@ -1,0 +1,23 @@
+base: SNF-Medilodge of Rogers City
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Rogers City ADT 2.0 table 4-24-18.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: 944466ae7da742acae09d1170aef9c31
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20220112133704'
+          field name: PID-30
+          field value: '""'
+          message count: 11
+          receiving org message ID: 104137969
+        - HL7 ID: 6756f32f659843348ac2dc994d1288f2
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20220110183857'
+          field name: PV1-36
+          field value: '""'
+          message count: 5
+          receiving org message ID: 103934756

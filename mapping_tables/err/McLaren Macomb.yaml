@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '20210917164418771'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210917001207'
+        - HL7 ID: '20211012164944370'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20211012235908'
           field name: PV1-36
           field value: '""'
-          message count: 49
-          receiving org message ID: 27390695
+          message count: 207
+          receiving org message ID: 21630943
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/McLaren Macomb ADT 2.0 table 11-09-2021.xlsx

@@ -7,41 +7,41 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: Q2884050644T2927389861X662870
-          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
-          HL7 timestamp: '20210916113106'
+        - HL7 ID: Q2946506940T3036288576X609095
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: 20220120001156-0500000
           field name: PID-10
           field value: '""'
-          message count: 87
-          receiving org message ID: 19602904
-        - HL7 ID: Q2880093745T2920450216X149941
+          message count: 181
+          receiving org message ID: 35568937
+        - HL7 ID: Q2946506940T3036288576X609095
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210909001244'
+          HL7 timestamp: 20220120001156-0500000
           field name: PID-22
           field value: '""'
-          message count: 60
-          receiving org message ID: 26891490
-        - HL7 ID: Q2884420323T2928048566X712110
+          message count: 126
+          receiving org message ID: 35568937
+        - HL7 ID: Q2917023565T2985105289X545240
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210917002331'
+          HL7 timestamp: 20211118001036-0500000
           field name: PID-30
           field value: '""'
-          message count: 1909
-          receiving org message ID: 27391206
-        - HL7 ID: Q2882451455T2924565999X442163
+          message count: 1426
+          receiving org message ID: 31196883
+        - HL7 ID: Q2946506940T3036288576X609095
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210914001502'
+          HL7 timestamp: 20220120001156-0500000
           field name: PV1-14
           field value: '""'
-          message count: 75
-          receiving org message ID: 27237514
-        - HL7 ID: Q2884420314T2928048553X712108
+          message count: 104
+          receiving org message ID: 35568937
+        - HL7 ID: Q2946995118T3037158183X677517
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210917002331'
+          HL7 timestamp: 20220120170711-0500000
           field name: PV1-36
           field value: '""'
-          message count: 419
-          receiving org message ID: 27391205
+          message count: 433
+          receiving org message ID: 35639287
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare ADT 2.0 table 11-18-2021.xlsx

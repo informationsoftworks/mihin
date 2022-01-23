@@ -12,7 +12,7 @@ domains:
           HL7 timestamp: '20210910014325'
           field name: PV1-36
           field value: '""'
-          message count: 78
+          message count: 28
           receiving org message ID: 26956350
   load:
     files:

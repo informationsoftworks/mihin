@@ -12,12 +12,12 @@ domains:
           HL7 timestamp: '20210804104513'
           field name: PID-30
           field value: '""'
-          message count: 3
+          message count: 2
           receiving org message ID: 74071143
         - HL7 ID: 9946309a265245e19ae1a798f8419ada
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
           HL7 timestamp: '20210804104513'
           field name: PV1-36
           field value: '""'
-          message count: 2
+          message count: 1
           receiving org message ID: 74071143

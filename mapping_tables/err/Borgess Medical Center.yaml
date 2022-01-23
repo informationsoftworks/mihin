@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: Q2472871009T3300504174X16892
+        - HL7 ID: Q2699598558T3670029466X34847
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210426115943'
+          HL7 timestamp: '20220120154614'
           field name: PID-30
           field value: '""'
-          message count: 1
-          receiving org message ID: 33311554
+          message count: 41
+          receiving org message ID: 105988491
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Borgess Medical Center ADT 2.0 table 02-25-19.xlsx

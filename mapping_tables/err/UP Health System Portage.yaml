@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: ADT-CHRTWS.1.12288693
+        - HL7 ID: ADT-CHRTWS.1.12706783
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '202109140606'
+          HL7 timestamp: '202201130037'
           field name: PID-30
           field value: '""'
-          message count: 46
-          receiving org message ID: 27237714
+          message count: 44
+          receiving org message ID: 34932771
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/UP Health System Portage ADT 2.0 table 10-17-19.xlsx

@@ -7,20 +7,20 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '20210729222338'
+        - HL7 ID: '20211231182236'
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210729222338'
+          HL7 timestamp: '20211231182236'
           field name: PID-30
           field value: '""'
-          message count: 8
-          receiving org message ID: 72799724
-        - HL7 ID: '20210729222338'
+          message count: 4
+          receiving org message ID: 101581627
+        - HL7 ID: '20211210152916'
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210729222338'
+          HL7 timestamp: '20211210152916'
           field name: PV1-36
           field value: '""'
           message count: 2
-          receiving org message ID: 72799724
+          receiving org message ID: 97242857
   load:
     files:
     - filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Heartland Home Care-Flint HS ADT 2.0 table 12-12-18.xlsx

@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: Q2232966525T33146737
+        - HL7 ID: Q2286841888T34070344
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210913140047'
+          HL7 timestamp: '20220119162839'
           field name: PV1-36
           field value: '""'
-          message count: 22
-          receiving org message ID: 82042997
+          message count: 44
+          receiving org message ID: 105790754
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Ascension Providence Rochester ADT 2.0 table 9-19-19.xlsx

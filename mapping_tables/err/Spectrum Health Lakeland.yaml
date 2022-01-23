@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '121084398'
+        - HL7 ID: '126404155'
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210908183743'
+          HL7 timestamp: '20220121121736'
           field name: PID-30
           field value: '""'
-          message count: 45
-          receiving org message ID: 26891357
+          message count: 127
+          receiving org message ID: 35716221
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Spectrum Health Lakeland ADT 2.0 table 01-07-2021.xlsx

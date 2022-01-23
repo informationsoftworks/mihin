@@ -7,20 +7,20 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: fec866af9d674f659ff454eee54feda7
-          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210913004423'
+        - HL7 ID: 54522ce736064e909a7b175be83ec57b
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20220104113700'
           field name: PID-30
           field value: '""'
-          message count: 15
-          receiving org message ID: 27153784
-        - HL7 ID: 566e7aa40bfd476baa3e5dcb791a9dd8
+          message count: 25
+          receiving org message ID: 102379110
+        - HL7 ID: 54522ce736064e909a7b175be83ec57b
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210906070704'
+          HL7 timestamp: '20220104113700'
           field name: PV1-36
           field value: '""'
-          message count: 12
-          receiving org message ID: 26478591
+          message count: 17
+          receiving org message ID: 34572030
   load:
     files:
     - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Advantage Living Center- Harper Woods ADT 2.0 Table 10-31-16.xlsx

@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '256406255'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210913171822'
+        - HL7 ID: '295320073'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220121153320'
           field name: PV1-36
           field value: '""'
-          message count: 179
-          receiving org message ID: 82257065
+          message count: 158
+          receiving org message ID: 35717513
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Henry Ford Health System ADT 2.0 table 04-02-2020.xlsx

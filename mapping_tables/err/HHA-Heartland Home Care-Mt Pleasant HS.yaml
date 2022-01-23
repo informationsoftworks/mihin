@@ -7,13 +7,20 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '20210617202936'
+        - HL7 ID: '20211009015218'
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210617202936'
+          HL7 timestamp: '20211009015218'
           field name: PID-30
           field value: '""'
-          message count: 2
-          receiving org message ID: 19121929
+          message count: 1
+          receiving org message ID: 29305908
+        - HL7 ID: '20211009015218'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20211009015218'
+          field name: PV1-36
+          field value: '""'
+          message count: 1
+          receiving org message ID: 29305908
   load:
     files:
     - filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Heartland Home Care-Mt Pleasant HS ADT 2.0 table 12-12-18.xlsx

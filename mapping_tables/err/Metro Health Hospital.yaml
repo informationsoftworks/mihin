@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '158300233'
+        - HL7 ID: '167077310'
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210916090056'
+          HL7 timestamp: '20220119141331'
           field name: PID-30
           field value: '""'
-          message count: 158
-          receiving org message ID: 27387629
+          message count: 209
+          receiving org message ID: 35567096
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Metro Health Hospital ADT 2.0 table 9-25-17.xlsx

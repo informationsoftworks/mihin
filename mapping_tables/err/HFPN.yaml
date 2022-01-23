@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '252754735'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
-          HL7 timestamp: '20210831123150'
+        - HL7 ID: '283759888'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20211210131226'
           field name: PV1-36
           field value: '""'
-          message count: 8
-          receiving org message ID: 18441215
+          message count: 3
+          receiving org message ID: 32976635
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/HFPN ADT 2.0 table 11-18-2021.xlsx

@@ -7,20 +7,20 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: 6e620d46b7e047428afae5af7db4feda
+        - HL7 ID: d328da93a58d4714abcfc8befcf9e54b
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210916130630'
+          HL7 timestamp: '20220106093817'
           field name: PID-30
           field value: '""'
-          message count: 11
-          receiving org message ID: 82738212
-        - HL7 ID: c40fbf7cfeab4a5093ea7bcb5bf257df
-          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210913173716'
+          message count: 13
+          receiving org message ID: 102790787
+        - HL7 ID: d328da93a58d4714abcfc8befcf9e54b
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20220106093817'
           field name: PV1-36
           field value: '""'
-          message count: 15
-          receiving org message ID: 27171332
+          message count: 9
+          receiving org message ID: 102790787
   load:
     files:
     - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-The Manor of Novi ADT 2.0 table 5-11-17.xlsx

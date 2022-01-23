@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '212283878'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210901085927'
+        - HL7 ID: '232364877'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220118144747'
           field name: PID-30
           field value: '""'
-          message count: 84
-          receiving org message ID: 79808141
+          message count: 106
+          receiving org message ID: 35542868
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/ProMedica Herrick ADT 2.0 table 8-2-17.xlsx

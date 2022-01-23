@@ -7,17 +7,17 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '502158645'
+        - HL7 ID: '514441780'
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210908192252'
+          HL7 timestamp: '20220118163959'
           field name: PID-30
           field value: '""'
-          message count: 12
-          receiving org message ID: 81503823
-        - HL7 ID: '502825148'
+          message count: 10
+          receiving org message ID: 105782248
+        - HL7 ID: '514673941'
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210915221342'
+          HL7 timestamp: '20220120180453'
           field name: PV1-36
           field value: '""'
-          message count: 69
-          receiving org message ID: 82731939
+          message count: 55
+          receiving org message ID: 106168339

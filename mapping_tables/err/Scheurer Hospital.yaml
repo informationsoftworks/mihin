@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '98584120'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210916142021'
+        - HL7 ID: '113726596'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20220121194139'
           field name: PID-30
           field value: '""'
-          message count: 955
-          receiving org message ID: 27390406
+          message count: 1082
+          receiving org message ID: 106176903
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Scheurer Hospital ADT 2.0 table 03-13-2020.xlsx

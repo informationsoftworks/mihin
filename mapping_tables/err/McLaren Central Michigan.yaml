@@ -7,27 +7,27 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: Q604169407T672689278
-          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210916191213'
+        - HL7 ID: Q701646456T790392535
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20220121195945'
           field name: PV1-18
           field value: EM
-          message count: 48
-          receiving org message ID: 27390275
+          message count: 47
+          receiving org message ID: 27909079
         - HL7 ID: Q591662925T657587529
           HL7 source org: 2.16.840.1.113883.3.5416.1.2780
           HL7 timestamp: '20210827160352'
           field name: PV1-18
           field value: IN
-          message count: 34
+          message count: 6
           receiving org message ID: 17887354
-        - HL7 ID: Q515187939T565817873
+        - HL7 ID: Q690705056T777081925
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210415140601'
-          field name: PV1-36
-          field value: '11'
-          message count: 1
-          receiving org message ID: 13938559
+          HL7 timestamp: '20220107130353'
+          field name: PV1-18
+          field value: OP
+          message count: 8
+          receiving org message ID: 34737598
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/McLaren Central Michigan ADT 2.0 tables 12-09-2020.xlsx

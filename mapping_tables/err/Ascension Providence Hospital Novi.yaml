@@ -1,5 +1,19 @@
 base: Ascension Providence Hospital Novi
 domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Ascension Providence Hospital Novi ADT 2.0 table 07-10-2020.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: Q3841771509T5115720036X463998
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20211006071007'
+          field name: PID-10
+          field value: '[{"is": {"is": ""}}, {"is": [{"is": "White"}, {"is": "White"}]}]'
+          message count: 1
+          receiving org message ID: 28915587
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Ascension Providence Hospital Novi ADT 2.0 table 07-10-2020.xlsx

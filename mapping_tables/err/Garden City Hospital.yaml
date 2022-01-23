@@ -7,27 +7,20 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '125260552'
+        - HL7 ID: '135055684'
           HL7 source org: 2.16.840.1.113883.3.5416.1.2780
-          HL7 timestamp: '20210915112749'
+          HL7 timestamp: '20220117105041'
           field name: IN1-17
           field value: Spouse
-          message count: 24
-          receiving org message ID: 19511572
-        - HL7 ID: '119673534'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
-          HL7 timestamp: '20210701044730'
-          field name: PID-30
-          field value: '""'
-          message count: 5500
-          receiving org message ID: 14193800
-        - HL7 ID: '122190930'
+          message count: 33
+          receiving org message ID: 27602722
+        - HL7 ID: '130417387'
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210804182429'
+          HL7 timestamp: '20211118165600'
           field name: PV1-36
           field value: '""'
-          message count: 144
-          receiving org message ID: 23812070
+          message count: 6
+          receiving org message ID: 31200068
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 01-18-2022.xlsx

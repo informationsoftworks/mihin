@@ -1,5 +1,26 @@
 base: SNF-Majestic Care of Livonia
 domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Majestic Care of Livonia ADT 2.0 table 01-19-2022.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: e140923bf1294384b22b05ed367dc0d8
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20220121062548'
+          field name: PID-30
+          field value: '""'
+          message count: 3
+          receiving org message ID: 106170628
+        - HL7 ID: e140923bf1294384b22b05ed367dc0d8
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220121062548'
+          field name: PV1-36
+          field value: '""'
+          message count: 3
+          receiving org message ID: 35714677
   load:
     files:
     - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Majestic Care of Livonia ADT 2.0 table 01-19-2022.xlsx

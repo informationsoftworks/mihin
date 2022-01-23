@@ -1,5 +1,19 @@
 base: JHN
 domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/JHN ADT 2.0 table  05-27-21.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '268612571'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20211022131237'
+          field name: PV1-36
+          field value: '""'
+          message count: 1
+          receiving org message ID: 89896754
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/JHN ADT 2.0 table  05-27-21.xlsx

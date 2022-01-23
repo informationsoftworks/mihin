@@ -7,13 +7,13 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '214332937'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
-          HL7 timestamp: '20210916092213'
+        - HL7 ID: '232831949'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220121102427'
           field name: PID-30
           field value: '""'
-          message count: 306
-          receiving org message ID: 19602276
+          message count: 440
+          receiving org message ID: 35715807
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/ProMedica Charles and Virginia Hickman ADT 2.0 table 10-09-2020.xlsx

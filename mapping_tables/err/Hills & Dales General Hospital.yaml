@@ -1,5 +1,19 @@
 base: Hills & Dales General Hospital
 domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Hills & Dales General Hospital ADT 2.0 table 07-29-20.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '109768382'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20211218175138'
+          field name: PV1-36
+          field value: '""'
+          message count: 1
+          receiving org message ID: 98752116
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Hills & Dales General Hospital ADT 2.0 table 07-29-20.xlsx

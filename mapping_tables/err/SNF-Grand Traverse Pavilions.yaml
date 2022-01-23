@@ -12,7 +12,7 @@ domains:
           HL7 timestamp: '20210818173511'
           field name: PID-30
           field value: '""'
-          message count: 17
+          message count: 9
           receiving org message ID: 76770497
   load:
     files:

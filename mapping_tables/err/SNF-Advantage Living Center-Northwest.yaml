@@ -7,20 +7,20 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: 86a06a538d2c4c5796e2d477cc348398
+        - HL7 ID: 17a478504f4442f8a262a7f107973fab
           HL7 source org: 2.16.840.1.113883.3.5416.1.2780
-          HL7 timestamp: '20210913050015'
+          HL7 timestamp: '20220120110443'
           field name: PID-30
           field value: '""'
-          message count: 7
-          receiving org message ID: 19351760
-        - HL7 ID: 88b7c89b2067467784f231d5965a8735
-          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
-          HL7 timestamp: '20210910163535'
+          message count: 47
+          receiving org message ID: 27842615
+        - HL7 ID: ae946b5146b94b32b8b6c7050a239976
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220119171730'
           field name: PV1-36
           field value: '""'
-          message count: 2
-          receiving org message ID: 19197089
+          message count: 31
+          receiving org message ID: 35568446
   load:
     files:
     - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Advantage Living Center-Northwest ADT 2.0 table 03-19-2021.xlsx

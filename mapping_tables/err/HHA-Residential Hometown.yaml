@@ -7,20 +7,20 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '20210916082624'
+        - HL7 ID: '20220121082957'
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210916082624'
+          HL7 timestamp: '20220121082957'
           field name: PID-30
           field value: '""'
-          message count: 365
-          receiving org message ID: 82734345
-        - HL7 ID: '20210907042752'
+          message count: 266
+          receiving org message ID: 106171243
+        - HL7 ID: '20220112000931'
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210907042752'
+          HL7 timestamp: '20220112000931'
           field name: PV1-36
           field value: '""'
-          message count: 106
-          receiving org message ID: 81035732
+          message count: 82
+          receiving org message ID: 104131700
   load:
     files:
     - filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Residential Hometown ADT 2.0 Table 6-30-17.xlsx

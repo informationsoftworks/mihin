@@ -1,5 +1,26 @@
 base: Detroit Medical Center
 domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/Detroit Medical Center ADT 2.0 table 03-06-19.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: Q4412265995T50484290
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20211014073658'
+          field name: PID-22
+          field value: '["", "", {"ce_1": {"st": "N"}, "ce_2": {"st": "N"}}]'
+          message count: 1
+          receiving org message ID: 88686058
+        - HL7 ID: Q4411601367T50475033
+          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
+          HL7 timestamp: '20211013120642'
+          field name: PID-22
+          field value: '["", "", {"ce_1": {"st": "U"}, "ce_2": {"st": "U"}}]'
+          message count: 1
+          receiving org message ID: 88499613
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/Detroit Medical Center ADT 2.0 table 03-06-19.xlsx

@@ -7,20 +7,20 @@ domains:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: 73d2fdef527d4c0ea3b001dc3109cf52
+        - HL7 ID: cab3dfcf89df4ca0b95f8118d652ba49
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210916135716'
+          HL7 timestamp: '20220120153028'
           field name: PID-30
           field value: '""'
-          message count: 171
-          receiving org message ID: 82738411
-        - HL7 ID: 73d2fdef527d4c0ea3b001dc3109cf52
+          message count: 495
+          receiving org message ID: 105989634
+        - HL7 ID: cab3dfcf89df4ca0b95f8118d652ba49
           HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20210916135716'
+          HL7 timestamp: '20220120153028'
           field name: PV1-36
           field value: '""'
-          message count: 161
-          receiving org message ID: 82738411
+          message count: 469
+          receiving org message ID: 105989634
   load:
     files:
     - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-West Bloomfield Nursing Center ADT 2.0 table 10-31-16.xlsx
