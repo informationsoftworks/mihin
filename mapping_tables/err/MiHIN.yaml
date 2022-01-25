@@ -13,11 +13,5 @@ domains:
         receiving org message ID: 106174977
   import:
   - error: Filename not in standard format
-    filename: 2.0 Mapping Tables - Hospitals/Allegan County Community Mental Health ADT 2.0 table 09-30-2021 - Copy.xlsx
-    level: Error
-  - error: Filename not in standard format
-    filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 1-14-2022 - Copy.xlsx
-    level: Error
-  - error: Filename not in standard format
     filename: 2.0 Mapping Tables - Hospitals/Testing.xlsx
     level: Error
