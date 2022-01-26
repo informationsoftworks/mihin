@@ -1,7 +1,7 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Lake Huron Medical Center ADT 2.0 table 8-30-17.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Lake Huron Medical Center ADT 2.0 table 12-09-2020.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
-MSH-4	4	1	2.16.840.1.113883.3.3238.50.958	Lake Huron Medical Center			00000000
+MSH-4	4	1	2.16.840.1.113883.3.3238.50.958	Lake Huron Medical Center 			00000000
 PID-8	2	3	MiHIN Value	Description	Hospital Value		4
 PID-8	3	3	M	Male	M		2
 PID-8	4	3	F	Female	F		4

@@ -2,7 +2,7 @@ base: Lake Huron Medical Center
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Lake Huron Medical Center ADT 2.0 table 8-30-17.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Lake Huron Medical Center ADT 2.0 table 12-09-2020.xlsx
       list:
       - error: Leading and/or trailing whitespace in Description
         level: Warning

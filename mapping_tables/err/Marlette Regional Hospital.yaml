@@ -2,7 +2,7 @@ base: Marlette Regional Hospital
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Marlette Regional Hospital ADT 2.0 table 12-16-2021.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Marlette Regional Hospital ADT 2.0 table 01-26-2022.xlsx
       list:
       - error: Labels provided without code value
         level: Warning
@@ -711,13 +711,6 @@ domains:
             label: WORKERS COMP MISC
           - cell: AP354
             label: WORKERS COMP MISC
-      - error: Leading and/or trailing whitespace in Description
-        level: Warning
-        list:
-        - hl7 segment: PV1-36
-          see:
-          - cell: AI28
-            label: 'Other '
       - error: Leading and/or trailing whitespace in Hospital Value
         level: Warning
         list:
@@ -736,6 +729,10 @@ domains:
               Great Grandmother (Paternal), Great Grandfather (Paternal), Great Grandfather (Maternal)'
           - cell: AM21
             code: ' Mother'
+          - cell: AM25
+            code: 'Advisor, Attorney, Cadaver Donor, Authorized Representative, Foreign Advisor, Social Worker, Power of Attorney, Fiance,
+              Medical POA,  Other Relationship, Healthcare Surrogate, Case Manager, Organ Donor, Neighbor,  Girlfriend,Host Family,  Host
+              Parent, Cousin,  Nephew, Niece, Aunt (paternal), Boyfriend, '
           - cell: AM27
             code: 'Parent, Parents, Foster Father, Foster Parents, Foster Mother, '
           - cell: AM29
@@ -749,10 +746,10 @@ domains:
           - cell: AM34
             code: ' Unknown'
           - cell: AM36
-            code: ' Aunt'
+            code: ' Aunt, Aunt (maternal), Aunt (praternal)'
           - cell: AM37
-            code: ' Daughter'
+            code: ' Daughter, Daughter-In-Law'
           - cell: AM41
-            code: 'Brother-In-Law,Daughter-In-Law,Father-In-Law, Mother-In-Law, Sister-In-Law, Son-In-Law, '
+            code: 'Father-In-Law, Mother-In-Law, Sister-In-Law, Son-In-Law, '
           - cell: AM45
             code: 'Step Sister, Step Brother, '

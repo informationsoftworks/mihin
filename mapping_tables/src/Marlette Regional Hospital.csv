@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Marlette Regional Hospital ADT 2.0 table 12-16-2021.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Marlette Regional Hospital ADT 2.0 table 01-26-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.4.497.1	Marlette Hospital 			00000000
@@ -17,7 +17,7 @@ PID-10	5	6	2028-9	Asian	Asian		4
 PID-10	6	6	2054-5	Black or African American	Black or African American		4
 PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	Native Hawaiian or Pacific Islander		4
 PID-10	8	6	2106-3	White	White		4
-PID-10	9	6	2131-1	Other Race	Unknown		4
+PID-10	9	6	2131-1	Other Race	Unknown, Other		4
 PID-10	10	6	MR	Multi-Racial			4
 PID-10	11	6	PR	Patient Refused 	Patient Refuses		4
 PID-22	2	9	MiHIN Value	Description	Hospital Value		4
@@ -59,14 +59,14 @@ PID-22	37	9	UK	Ukrainian 			4
 PID-22	38	9	VIT	Vietnamese 			4
 PID-30	2	12	MiHIN Value	Description	Hospital Value		4
 PID-30	3	12	Y	Expired	E		2
-PID-30	4	12	Y	Deceased/Yes	Yes		4
-PID-30	5	12	N	Not Deceased/No	No		4
+PID-30	4	12	Y	Deceased/Yes	Y, Yes		4
+PID-30	5	12	N	Not Deceased/No	N, No		4
 DG1-6	2	15	MiHIN Value	Description	Hospital Value		4
 DG1-6	3	15	A	Admitting	AD		2
-DG1-6	4	15	A	Admitting	A		4
-DG1-6	5	15	F	Final	F		4
-DG1-6	6	15	W	Working 	W		4
-DG1-6	7	15	O	Other	O		4
+DG1-6	4	15	A	Admitting	A, Admitting		4
+DG1-6	5	15	F	Final	F, Final, Discharge		4
+DG1-6	6	15	W	Working 	W, Working		4
+DG1-6	7	15	O	Other	O, Other		4
 PV1-2	2	18	MiHIN Value	Description	Hospital Value		4
 PV1-2	3	18	E	Emergency	ER		2
 PV1-2	4	18	B	Obstetrics			4
@@ -93,7 +93,7 @@ PV1-4	8	21	N	Newborn (Birth in healthcare facility)	Newborn		4
 PV1-4	9	21	R	Routine			4
 PV1-4	10	21	U	Urgent	Urgent		4
 PV1-4	11	21	TC	Trauma Center 	Trauma		4
-PV1-4	12	21	O	Other			4
+PV1-4	12	21	O	Other	Other, Information not available		4
 PV1-14	2	24	MiHIN Value	Description	Hospital Value		4
 PV1-14	3	24	2	Clinic referral	E		2
 PV1-14	4	24	1	Physician referral			4
@@ -263,46 +263,40 @@ PV1-10	114	31			Treatment Room	Treatment Room	00000000
 PV1-10	115	31			Office Visit	Office Visit	00000000
 PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	4
 PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
-PV1-36	4	35	01	Discharged to home or self care (routine discharge)	Home with External Provider Foll	Home with External Provider Follow up	4
+PV1-36	4	35	01	Discharged to home or self care (routine discharge)	Home with External Provider Foll, Home or Self Care	Home with External Provider Follow up, Home or Self Care	4
 PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	Another Hospital	Another Hospital	4
 PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.	Skilled Nursing Facility	Skilled Nursing Facility	4
-PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)	INTERMEDIATECARE	Intermediate Care	4
-PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list	CANCERCENTERORCHILDRENSHOSPITAL	Cancer Center or Children's Hospital	4
+PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)	Intermediate Care	Intermediate Care	4
+PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list	Cancer Center or Children's Hospital, LAW/COURT, OTHER, Other HC Fac	Cancer Center or Children's Hospital, Law/Court, Other, Other HC Fac	4
 PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization	Home Care with Home Health	Home Care with Home Health	4
-PV1-36	10	35	07	Left against medical advice or discontinued care	Left Against Medical Advice	Left Against Medical Advice	4
-PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider	HOMECAREIVTHERAPY	Home Care IV Therapy	4
+PV1-36	10	35	07	Left against medical advice or discontinued care	Left Against Medical Advice Left Without Being Seen	Left Against Medical Advice, Left without being seen	4
+PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider	Home Care IV Therapy	Home Care IV Therapy	4
 PV1-36	12	35	09	Admitted as an inpatient to this hospital	Admitted as Inpatient	Admitted as Inpatient	4
 PV1-36	13	35	20	Expired	EXPIRED	Expired	4
-PV1-36	14	35	30	Still Patient	STILLAPATIENT	Still a Patient	4
-PV1-36	15	35	40	Expired at home	EXPIREDATHOME	Expired at Home	4
+PV1-36	14	35	30	Still Patient	Still a Patient	Still a Patient	4
+PV1-36	15	35	40	Expired at home	Expired at Home	Expired at Home	4
 PV1-36	16	35	41	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)	Expired in a Medical Facility	Expired in a Medical Facility	4
-PV1-36	17	35	42	Expired - place unknown	EXPIREDPLACEUNKNOWN	Expired Place Unknown	4
-PV1-36	18	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)	FEDERALHCFAC	Federal HCFAC	4
+PV1-36	17	35	42	Expired - place unknown	Expired Place Unknown	Expired Place Unknown	4
+PV1-36	18	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)	Federal HCFAC	Federal HCFAC	4
 PV1-36	19	35	50	Hospice - home	Hospice - Home	Hospice - Home	4
-PV1-36	20	35	51	Hospice - medical facility	HOSPICEMEDICALFACILITY	Hospice - Medical Facility	4
+PV1-36	20	35	51	Hospice - medical facility	Hospice - Medical Facility	Hospice - Medical Facility	4
 PV1-36	21	35	61	Discharged/transferred to hospital-based Medicare approved swing bed	Swing Bed	Swing Bed	4
-PV1-36	22	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)	INPTREHABFAC	INPT Rehab Fac	4
-PV1-36	23	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)	LONGTERMCAREHOSPITAL	Long Term Care Hospital	4
-PV1-36	24	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)	NURSEFACILITYMEDICAID	Nurse Facility-Medicaid	4
-PV1-36	25	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	PSYCHIATRICFAC	Psychiatric Fac	4
-PV1-36	26	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)	CRITICALACCESSHOSPITAL	Critical Access Hospital	4
-PV1-36	27	35			LAWCOURT	Law/Court	4
-PV1-36	28	35			OTHER	Other 	4
-PV1-36	29	35			OTHERHCFAC	Other HC Fac	4
-PV1-36	30	35			Home or Self Care	Home or Self Care	4
-PV1-36	31	35			Home with Home Health Care	Home with Home Health Care	4
-PV1-36	32	35			Left without Being Seen	Left without Being Seen	4
+PV1-36	22	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)	INPT Rehab Fac	INPT Rehab Fac	4
+PV1-36	23	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)	Long Term Care Hospital	Long Term Care Hospital	4
+PV1-36	24	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)	Nurse Facility-Medicaid	Nurse Facility-Medicaid	4
+PV1-36	25	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	Psychiatric Fac	Psychiatric Fac	4
+PV1-36	26	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)	Critical Access Hospital	Critical Access Hospital	4
 IN1-17	2	39	MiHIN Value	Description	Hospital Value		4
 IN1-17	3	39	FTH	Father 	F		2
 IN1-17	4	39	ASC	Associate			4
-IN1-17	5	39	BRO	Brother 	Brother		4
+IN1-17	5	39	BRO	Brother 	Brother, Brother-In-Law		4
 IN1-17	6	39	CGV	Care giver 	Caretaker		4
 IN1-17	7	39	CHD	Child	Child		4
 IN1-17	8	39	DEP	Handicapped dependant	Handicapped Dependant		4
 IN1-17	9	39	DOM	Life partner	Life Partner		4
 IN1-17	10	39	EMC	Emergency contact			4
 IN1-17	11	39	EME	Employee	Employee		4
-IN1-17	12	39	EMR	Employer			4
+IN1-17	12	39	EMR	Employer	Employer		4
 IN1-17	13	39	EXF	Extended family			4
 IN1-17	14	39	FCH	Foster child 	Foster Child, Foster Son, Foster Daughter, 		4
 IN1-17	15	39	FND	Friend	 Friend		4
@@ -315,7 +309,7 @@ IN1-17	21	39	MTH	Mother 	 Mother		4
 IN1-17	22	39	NCH	Natural child			4
 IN1-17	23	39	NON	None			4
 IN1-17	24	39	OAD	Other adult			4
-IN1-17	25	39	OTH	Other 	Advisor, Attorney, Cadaver Donor, Authorized Representative, Foreign Advisor, Social Worker, Power of Attorney, Fiance, Medical POA,  Other Relationship, Healthcare Surrogate, Case Manager, Organ Donor, Neighbor, Girlfriend,Host Family,  Host Parent, Cousin,  Nephew, Niece		4
+IN1-17	25	39	OTH	Other 	Advisor, Attorney, Cadaver Donor, Authorized Representative, Foreign Advisor, Social Worker, Power of Attorney, Fiance, Medical POA,  Other Relationship, Healthcare Surrogate, Case Manager, Organ Donor, Neighbor,  Girlfriend,Host Family,  Host Parent, Cousin,  Nephew, Niece, Aunt (paternal), Boyfriend, 		4
 IN1-17	26	39	OWN	Owner			4
 IN1-17	27	39	PAR	Parent 	Parent, Parents, Foster Father, Foster Parents, Foster Mother, 		4
 IN1-17	28	39	SCH	Stepchild 	Step Daughter, Step Son		4
@@ -326,12 +320,12 @@ IN1-17	32	39	SPO	Spouse	 Spouse, Husband, Wife		4
 IN1-17	33	39	TRA	Trainer			4
 IN1-17	34	39	UNK	Unknown	 Unknown		4
 IN1-17	35	39	WRD	Ward of court	Ward of the Court		4
-IN1-17	36	39	AUN	Aunt 	 Aunt		4
-IN1-17	37	39	DAU	Daughter	 Daughter		4
+IN1-17	36	39	AUN	Aunt 	 Aunt, Aunt (maternal), Aunt (praternal)		4
+IN1-17	37	39	DAU	Daughter	 Daughter, Daughter-In-Law		4
 IN1-17	38	39	EXS	Ex Spouse 			4
 IN1-17	39	39	EXH	Ex-husband	Ex Husband		4
 IN1-17	40	39	EXW	Ex-wife 	Ex Wife		4
-IN1-17	41	39	INL	In Law 	Brother-In-Law,Daughter-In-Law,Father-In-Law, Mother-In-Law, Sister-In-Law, Son-In-Law, 		4
+IN1-17	41	39	INL	In Law 	Father-In-Law, Mother-In-Law, Sister-In-Law, Son-In-Law, 		4
 IN1-17	42	39	LEG	Legal Guardian 			4
 IN1-17	43	39	SON	Son (S)	Son		4
 IN1-17	44	39	STP	Step Parent (STP)	Step Father, Step Mother,		4

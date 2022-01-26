@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 01-21-2022.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 01-26-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.8257	Munising Memorial Hospital			00000000
@@ -68,9 +68,8 @@ DG1-6	2	15	MiHIN Value	Description	Hospital Value		4
 DG1-6	3	15	A	Admitting	AD		2
 DG1-6	4	15	A	Admitting	A		00000000
 DG1-6	5	15	F	Final	F		00000000
-DG1-6	6	15	W	Working 	W		00000000
+DG1-6	6	15	W	Working 	D, W		00000000
 DG1-6	7	15	O	Other	O		00000000
-DG1-6	8	15	 				0
 PV1-2	2	18	MiHIN Value	Description	Hospital Value		4
 PV1-2	3	18	E	Emergency	ER		2
 PV1-2	4	18	B	Obstetrics			4
@@ -141,6 +140,8 @@ PV1-18	26	27	52	Other	O		4
 PV1-18	27	27	58	Organ Donor			4
 PV1-18	28	27	59	Organ 			4
 PV1-18	29	27	60	Select Specialty			4
+PV1-18	30	27			ED	Emergency Department	00000000
+PV1-18	31	27			IN	Hospital Inpatient	00000000
 PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
 PV1-10	3	31			121	Pediatrics	2
 PV1-10	4	31	104	Cardiology - General	CAR	Cardiology	4
@@ -260,10 +261,11 @@ PV1-10	117	31			ST	Stress Test	00000000
 PV1-10	118	31			SRG	Surgical	00000000
 PV1-10	119	31			SWB	Swingbed	00000000
 PV1-10	120	31			TLH	Telehealth	00000000
+PV1-10	121	31			INP	Inpatient	00000000
 PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	4
 PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
-PV1-36	4	35	01	Discharged to home or self care (routine discharge)	01		00000000
-PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	02		00000000
+PV1-36	4	35	01	Discharged to home or self care (routine discharge)	1, 01		00000000
+PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	2, 02		00000000
 PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.			00000000
 PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)	04		00000000
 PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list			00000000
@@ -299,7 +301,7 @@ IN1-17	3	39	FTH	Father 	F		2
 IN1-17	4	39	ASC	Associate			4
 IN1-17	5	39	BRO	Brother 			4
 IN1-17	6	39	CGV	Care giver 			4
-IN1-17	7	39	CHD	Child	CHD		00000000
+IN1-17	7	39	CHD	Child	Child, CHD		00000000
 IN1-17	8	39	DEP	Handicapped dependant	DEPP		00000000
 IN1-17	9	39	DOM	Life partner	DOM		00000000
 IN1-17	10	39	EMC	Emergency contact			00000000
@@ -321,7 +323,7 @@ IN1-17	25	39	OTH	Other 	OTH		00000000
 IN1-17	26	39	OWN	Owner			00000000
 IN1-17	27	39	PAR	Parent 			00000000
 IN1-17	28	39	SCH	Stepchild 	SCH		00000000
-IN1-17	29	39	SEL	Self	SEL		00000000
+IN1-17	29	39	SEL	Self	Self, SEL		00000000
 IN1-17	30	39	SIB	Sibling 			4
 IN1-17	31	39	SIS	Sister 	SIS		00000000
 IN1-17	32	39	SPO	Spouse	SPO		00000000
@@ -342,3 +344,6 @@ IN1-17	46	39	UN	Uncle (UN)			4
 IN1	2	42	IN1-3 Value	IN1-4 Value	Payer		4
 IN1	3	42	1001	BCN	BCBSM		2
 IN1	4	42	3192462	UPHP			00000000
+IN1	6	42	3192507	Medicare			00000000
+IN1	12	42	3192470	Meritain Health			00000000
+IN1	13	42	3192482	Humana			00000000
