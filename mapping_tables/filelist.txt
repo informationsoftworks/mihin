@@ -249,7 +249,7 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lakeside Manor ADT 2.0 table 11-22-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lakeview Manor Healthcare ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Laurels of Mt Pleasant ADT 2.0 table 8-24-20.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lourdes Rehabilitation and Healthcare Center ADT 2.0 table 8-20-20.xlsx
+2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lourdes Rehabilitation and Healthcare Center ADT 2.0 table 8-20-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Majestic Care of Livonia ADT 2.0 table 01-19-2022.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Manistee County Medical Care Facility ADT 2.0 table 10-25-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Manorcare Nursing of Kingsford ADT 2.0 table 07-11-18.xlsx
@@ -261,6 +261,7 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Marycrest Manor ADT table 2.0 12-21-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Marywood Nursing Care Center ADT 2.0 table 2-10-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Masonic Pathways ADT Mapping Tables 8-21-2020.xlsx
+2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Masonic Pathways Breathing Unit ADT 2.0 table 03-19-2021.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-MediLodge of Clare ADT 2.0 table 5-9-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-MediLodge of Midland ADT 2.0 table 5-9-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-MediLodge of Mt. Pleasant ADT 2.0 table 5-9-17.xlsx
