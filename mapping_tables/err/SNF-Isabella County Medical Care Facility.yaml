@@ -1,8 +1,0 @@
-base: SNF-Isabella County Medical Care Facility
-domains:
-  import:
-  - error: Duplicate files
-    filenames:
-    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Isabella County Medical Care Facility ADT Mapping Tables 8-20-20.xlsx
-    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Isabella County Medical Care Facility ADT Mapping Tables 6-11-18.xlsx
-    level: Error

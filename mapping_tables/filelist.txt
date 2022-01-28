@@ -92,6 +92,7 @@
 2.0 Mapping Tables - Hospitals/Elara Caring - BAT ADT Mapping Tables 01-11-2022.xlsx
 2.0 Mapping Tables - Hospitals/Elara Caring - KAL ADT Mapping Tables 01-11-2022.xlsx
 2.0 Mapping Tables - Hospitals/Englewood Health ADT 2.0 table 07-07-2020.xlsx
+2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 01-26-2022.xlsx
 2.0 Mapping Tables - Hospitals/HFPN ADT 2.0 table 11-18-2021.xlsx
 2.0 Mapping Tables - Hospitals/Harbor Beach Community Hospital ADT 2.0 table 1-8-2020.xlsx
 2.0 Mapping Tables - Hospitals/Helen Newberry Joy Hospital ADT 2.0 table 10-10-2019.xlsx
@@ -138,7 +139,6 @@
 2.0 Mapping Tables - Hospitals/ProMedica Herrick ADT 2.0 table 8-2-17.xlsx
 2.0 Mapping Tables - Hospitals/ProMedica Monroe Regional Hospital ADT 2.0 table 8-2-17.xlsx
 2.0 Mapping Tables - Hospitals/Promedica Hospice of Coldwater HS ADT 2.0 table 01-20-2022.xlsx
-2.0 Mapping Tables - Hospitals/SNF-Alpha Manor Nursing Home ADT 2.0 table 02-04-2021.xlsx
 2.0 Mapping Tables - Hospitals/Scheurer Hospital ADT 2.0 table 03-13-2020.xlsx
 2.0 Mapping Tables - Hospitals/Schoolcraft Memorial ADT 2.0 table 11-12-2021.xlsx
 2.0 Mapping Tables - Hospitals/Sheridan Community Hospital ADT 2.0 table 10-16-19.xlsx
@@ -217,7 +217,7 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Four Seasons Nursing-Courtney Manor ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Glacier Hills ADT 2.0 12-21-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Grand Traverse Pavilions ADT 2.0 tables 3-13-17.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Hallmark Living Benton Harbor ADT 2.0 table 10-29-2019.xlsx
+2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Hallmark Living Benton Harbor ADT 2.0 table 10-29-2019.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Hartford Senior Care and Rehab ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Hastings Rehabilitation and Healthcare Center - SNF ADT 2.0 table 8-19-2020.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Heartland HC Center-Allen Park ADT 2.0 table 10-31-16.xlsx
@@ -241,7 +241,6 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-IHM Senior Living Community ADT 2.0 11-29-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Imperial Nursing and Rehabilitation Center ADT 2.0 table 8-19-2020.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Ingham County Medical Care Facility ADT 2.0 table 03-19-2021.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Isabella County Medical Care Facility ADT Mapping Tables 6-11-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Isabella County Medical Care Facility ADT Mapping Tables 8-20-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Kith Haven ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lahser Hills Care Centre ADT 2.0 table 5-9-17.xlsx
@@ -262,7 +261,6 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Marycrest Manor ADT table 2.0 12-21-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Marywood Nursing Care Center ADT 2.0 table 2-10-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Masonic Pathways ADT Mapping Tables 8-21-2020.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Masonic Pathways Breathing Unit ADT 2.0 table 03-19-2021.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-MediLodge of Clare ADT 2.0 table 5-9-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-MediLodge of Midland ADT 2.0 table 5-9-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-MediLodge of Mt. Pleasant ADT 2.0 table 5-9-17.xlsx
@@ -305,7 +303,6 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of St. Clair ADT 2.0 table 11-1-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Sterling ADT 2.0 table 11-29-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Sterling Heights ADT 2.0 table 11-1-16.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Tawas City ADT 2.0 table 4-24-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Tawas City ADT 2.0 table 8-20-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Taylor ADT 2.0 table 11-1-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Traverse City ADT 2.0 table 08-10-2021.xlsx
@@ -345,7 +342,6 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Livonia ADT 2.0 table 8-21-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Muskegon ADT 2.0 table 8-21-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Plymouth ADT 2.0 table 8-21-20.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Plymouth ADT 2.0 table 9-13-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD West Bloomfield ADT 2.0 table 8-21-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Whitehall ADT 2.0 table 9-13-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-SKLD Wyoming ADT 2.0 table 9-13-18.xlsx

@@ -1,6 +1,0 @@
-base: SNF-Masonic Pathways Breathing Unit
-domains:
-  import:
-  - error: No-break space found in filename
-    filename: "2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Masonic Pathways Breathing Unit\_ADT 2.0 table 03-19-2021.xlsx"
-    level: Warning

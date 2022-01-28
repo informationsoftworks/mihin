@@ -1,8 +1,0 @@
-base: SNF-Alpha Manor Nursing Home
-domains:
-  import:
-  - error: Duplicate files
-    filenames:
-    - 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Alpha Manor Nursing Home ADT 2.0 table 02-04-2021.xlsx
-    - 2.0 Mapping Tables - Hospitals/SNF-Alpha Manor Nursing Home ADT 2.0 table 02-04-2021.xlsx
-    level: Error
