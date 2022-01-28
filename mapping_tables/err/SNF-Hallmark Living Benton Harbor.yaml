@@ -1,6 +1,0 @@
-base: SNF-Hallmark Living Benton Harbor
-domains:
-  import:
-  - error: No-break space found in filename
-    filename: "2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Hallmark Living Benton Harbor\_ADT 2.0 table 10-29-2019.xlsx"
-    level: Warning
