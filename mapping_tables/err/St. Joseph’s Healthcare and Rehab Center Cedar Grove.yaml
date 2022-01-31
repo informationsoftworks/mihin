@@ -1,0 +1,38 @@
+base: "St. Joseph\u2019s Healthcare and Rehab Center Cedar Grove"
+domains:
+  load:
+    files:
+    - filename: "2.0 Mapping Tables - Hospitals/St. Joseph\u2019s Healthcare and Rehab Center Cedar Grove ADT 2.0 table 01-28-2022.xlsx"
+      list:
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: IN1
+          see:
+          - cell: AP4
+          - cell: AP7
+          - cell: AP8
+          - cell: AP9
+          - cell: AP10
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE29
+            label: PGN
+          - cell: AE67
+            label: POT
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PV1-2
+          see:
+          - cell: R9
+            code: 'O '
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE9
+            code: 'HOS '
+          - cell: AE19
+            code: ' PHM '

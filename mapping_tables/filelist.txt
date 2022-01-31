@@ -112,9 +112,10 @@
 2.0 Mapping Tables - Hospitals/McLaren Bay Region ADT 2.0 table 11-09-2021.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Caro Region ADT 2.0 table 03-26-19.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Central Michigan ADT 2.0 tables 12-09-2020.xlsx
+2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 01-27-2022.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 09-23-2021.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Greater Lansing ADT 2.0 table 08-28-2020.xlsx
-2.0 Mapping Tables - Hospitals/McLaren Lapeer Region ADT 2.0 tables 08-12-2019.xlsx
+2.0 Mapping Tables - Hospitals/McLaren Lapeer Region ADT 2.0 table 01-27-2022.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Macomb ADT 2.0 table 11-09-2021.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Northern Michigan ADT 2.0 table 11-6-2019.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Oakland ADT 2.0 table 01-29-2021.xlsx
@@ -126,7 +127,7 @@
 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 1-14-2022.xlsx
 2.0 Mapping Tables - Hospitals/Mid-Michigan Health ADT 2.0 table 04-26-2021.xlsx
 2.0 Mapping Tables - Hospitals/MidMichigan Medical Center - West Branch ADT 2.0 table 02-27-2019.xlsx
-2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 01-26-2022.xlsx
+2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 01-31-2022.xlsx
 2.0 Mapping Tables - Hospitals/Munson Healthcare ADT 2.0 table 11-18-2021.xlsx
 2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 06-03-20.xlsx
 2.0 Mapping Tables - Hospitals/Munson Healthcare Manistee Hospital ADT 2.0 table 7-2-19.xlsx
@@ -146,6 +147,10 @@
 2.0 Mapping Tables - Hospitals/Spectrum Health ADT 2.0 table 06-14-2021.xlsx
 2.0 Mapping Tables - Hospitals/Spectrum Health KRC ADT 2.0 table 06-21-2021.xlsx
 2.0 Mapping Tables - Hospitals/Spectrum Health Lakeland ADT 2.0 table 01-07-2021.xlsx
+2.0 Mapping Tables - Hospitals/St. Joseph’s Health Ambulatory Sites ADT 2.0 table 01-28-2022.xlsx
+2.0 Mapping Tables - Hospitals/St. Joseph’s Healthcare and Rehab Center Cedar Grove ADT 2.0 table 01-28-2022.xlsx
+2.0 Mapping Tables - Hospitals/St. Joseph’s University Medical Center Paterson ADT 2.0 table 01-28-2022.xlsx
+2.0 Mapping Tables - Hospitals/St. Joseph’s Wayne Medical Center Wayne ADT 2.0 table 01-28-2022.xlsx
 2.0 Mapping Tables - Hospitals/Straith Hospital ADT 2.0 table 1-14-2020.xlsx
 2.0 Mapping Tables - Hospitals/Sturgis Hospital ADT 2.0 table 4-3-18.xlsx
 2.0 Mapping Tables - Hospitals/Testing.xlsx

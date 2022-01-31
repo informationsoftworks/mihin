@@ -1,0 +1,518 @@
+filename	0	0		2.0 Mapping Tables - Hospitals/St. Joseph’s University Medical Center Paterson ADT 2.0 table 01-28-2022.xlsx			
+MSH-4	2	1	Hospital Value	Description			4
+MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
+MSH-4	4	1	2.16.840.1.113883.3.5770.1	St. Joseph’s University Medical Center Paterson			00000000
+PID-8	2	3	NJHIN Value	Description	Hospital Value		4
+PID-8	3	3	M	Male	M		2
+PID-8	4	3	F	Female	F		4
+PID-8	5	3	M	Male	M		4
+PID-8	6	3	O	Other	O		4
+PID-8	7	3	U	Unknown	U		4
+PID-8	8	3	A	Ambiguous			4
+PID-8	9	3	N	Not Applicable			4
+PID-10	2	6	NJHIN Value	Description	Hospital Value		4
+PID-10	3	6	2106-3	White	W		2
+PID-10	4	6	1002-5	American Indian or Alaska Native	American Indian, Alaska Native,AmInd		4
+PID-10	5	6	2028-9	Asian	Asian,Filip,Oth Asian,Viet,Kor,Japn,Chin		4
+PID-10	6	6	2054-5	Black or African American	Black		4
+PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	Native Hawaiian,  Other Pacific Islander,Sam,OPL,HI,Pcfls,Gua		4
+PID-10	8	6	2106-3	White	White		4
+PID-10	9	6	2131-1	Other Race	Other		4
+PID-10	10	6	MR	Multi-Racial	Multi Racial,WBAA,BAAAIA,WA,WAIA,Mltrc		4
+PID-10	11	6	PR	Patient Refused 	Patient Refused,No Ans,U		4
+PID-10	12	6		Hispanic	Hispn		00000000
+PID-22	2	9	NJHIN Value	Description	Hospital Value		4
+PID-22	3	9	H	Hispanic or Latino	Hisp		2
+PID-22	4	9	H	Hispanic or Latino	SHL,CSA,PR,HIS,Mex,Cub,HispRcBhvCd		4
+PID-22	5	9	N	Not Hispanic or Latino	Not HIS or LAT		4
+PID-22	6	9	U	Unknown	Unknown		4
+PID-22	7	9	D	Declined	No Ans		4
+PID-22	8	9	AN	Alaskan Native 			4
+PID-22	9	9	AR	Arabic 			4
+PID-22	10	9	AS	Asian 			4
+PID-22	11	9	CA	Caucasian			4
+PID-22	12	9	CHA	Chaldean 			4
+PID-22	13	9	CHI	Chinese 			4
+PID-22	14	9	DU	Dutch 			4
+PID-22	15	9	EG	Egyptian 			4
+PID-22	16	9	FR	French 			4
+PID-22	17	9	GER	German 			4
+PID-22	18	9	GRE	Greek 			4
+PID-22	19	9	HA	Hawaiian 			4
+PID-22	20	9	IRA	Iranian 			4
+PID-22	21	9	IRQ	Iraqi 			4
+PID-22	22	9	IRH	Irish 			4
+PID-22	23	9	ITA	Italian 			4
+PID-22	24	9	JA	Japanese 			4
+PID-22	25	9	JE	Jewish 			4
+PID-22	26	9	JO	Jordanian 			4
+PID-22	27	9	KO	Korean 			4
+PID-22	28	9	LE	Lebanese  			4
+PID-22	29	9	MAC	Macedonian 			4
+PID-22	30	9	ME	Middle Eastern			4
+PID-22	31	9	MUL	Multi-Ethnic 			4
+PID-22	32	9	NA	Native American			4
+PID-22	33	9	O	Other 			4
+PID-22	34	9	PO	Polish 			4
+PID-22	35	9	RU	Russian 			4
+PID-22	36	9	SC	Scottish 			4
+PID-22	37	9	UK	Ukrainian 			4
+PID-22	38	9	VIT	Vietnamese 			4
+PID-30	2	12	NJHIN Value	Description	Hospital Value		4
+PID-30	3	12	Y	Expired	E		2
+PID-30	4	12	Y	Deceased/Yes	Y		4
+PID-30	5	12	N	Not Deceased/No	N		4
+DG1-6	2	15	NJHIN Value	Description	Hospital Value		4
+DG1-6	3	15	A	Admitting	AD		2
+DG1-6	4	15	A	Admitting	Adm		4
+DG1-6	5	15	F	Final	Fnl		4
+DG1-6	6	15	W	Working 			4
+DG1-6	7	15	O	Other			4
+PV1-2	2	18	NJHIN Value	Description	Hospital Value		4
+PV1-2	3	18	E	Emergency	ER		2
+PV1-2	4	18	B	Obstetrics			4
+PV1-2	5	18	C	Commercial Account			4
+PV1-2	6	18	E	Emergency	E		4
+PV1-2	7	18	I	Inpatient	I		4
+PV1-2	8	18	N	Not Applicable	N		4
+PV1-2	9	18	O	Outpatient	O 		4
+PV1-2	10	18	P	Preadmit	P		4
+PV1-2	11	18	R	Recurring patient			4
+PV1-2	12	18	U	Unknown			4
+PV1-2	13	18	IH	IP Hospice 			4
+PV1-2	14	18	NB	Newborn			4
+PV1-2	15	18	OB	Observation 			4
+PV1-2	16	18	SN	Skilled Nursing 			4
+PV1-2	17	18	SA	Surgery Admit 			4
+PV1-4	2	21	NJHIN Value	Description	Hospital Value		4
+PV1-4	3	21	E	Emergency	E		2
+PV1-4	4	21	A	Accident	Accident		4
+PV1-4	5	21	C	Elective	Elective		4
+PV1-4	6	21	E	Emergency	Emergency		4
+PV1-4	7	21	L	Labor and Delivery	Labor and Delivery		4
+PV1-4	8	21	N	Newborn (Birth in healthcare facility)	Newborn		4
+PV1-4	9	21	R	Routine	Routine		4
+PV1-4	10	21	U	Urgent	Urgent		4
+PV1-4	11	21	TC	Trauma Center 	Trauma Ctr		4
+PV1-4	12	21	O	Other	Other,Unknown		4
+PV1-14	2	24	NJHIN Value	Description	Hospital Value		4
+PV1-14	3	24	2	Clinic referral	E		2
+PV1-14	4	24	1	Physician referral	Phys Off,Phys Ref,Born in hospital		4
+PV1-14	5	24	2	Clinic referral	Clinic Ref		4
+PV1-14	6	24	3	HMO referral	HMO Ref		4
+PV1-14	7	24	4	Transfer from a hospital	Xfer Hosp,Xfer Crit Acc		4
+PV1-14	8	24	5	Transfer froma skilled nursing facility	Xfer SNF		4
+PV1-14	9	24	6	Transfer from another health care facility	Xfer Oth Fac		4
+PV1-14	10	24	7	Emergency Room	ER		4
+PV1-14	11	24	8	Court/Law enforcement	Court		4
+PV1-14	12	24	9	Information not available	Info NA		4
+PV1-14	13	24	SR	Self-Referral			4
+PV1-14	14	24	TRNF	Transfer from a non-health care facility	Non-Health Care Fac		4
+PV1-14	15	24	TRAD	Transfer from Ambulatory Department	Clinic or Phys Off		4
+PV1-18	2	27	NJHIN Suggested Values		Hospital Value	Description	4
+PV1-18	3	27			A	Anonymous	2
+PV1-18	4	27	1	Anonymous			4
+PV1-18	5	27	2	Confidential			4
+PV1-18	6	27	3	Employee			4
+PV1-18	7	27	4	Dismissed			4
+PV1-18	8	27	5	No Medicare			4
+PV1-18	9	27	6	Prisoner			4
+PV1-18	10	27	7	VIP			4
+PV1-18	11	27	8	Staff Dependent			4
+PV1-18	12	27	9	Benefactor			4
+PV1-18	13	27	10	Employee Dependent			4
+PV1-18	14	27	11	Non-Employee			4
+PV1-18	15	27	12	Volunteer			4
+PV1-18	16	27	13	Staff Physician			4
+PV1-18	17	27	14	Non V.I.P			4
+PV1-18	18	27	15	Retired Employee			4
+PV1-18	19	27	42	Homeless			4
+PV1-18	20	27	44	Celebrity			4
+PV1-18	21	27	45	Donor			4
+PV1-18	22	27	46	Transplant			4
+PV1-18	23	27	47	Voucher			4
+PV1-18	24	27	49	Board Member			4
+PV1-18	25	27	49	Clergy			4
+PV1-18	26	27	52	Other			4
+PV1-18	27	27	58	Organ Donor			4
+PV1-18	28	27	59	Organ 			4
+PV1-18	29	27	60	Select Specialty			4
+PV1-18	30	27			IP	Inpatient	00000000
+PV1-18	31	27			OP	Outpatient,Clinic,Ancill.	00000000
+PV1-18	32	27			ED,ER	Emergency	00000000
+PV1-18	33	27			SDS	Same Day Surgery	00000000
+PV1-18	34	27			Clinic	Clinic Outpatient	00000000
+PV1-18	35	27			Ancill.	Ancillary Service Outpatient	00000000
+PV1-10	2	31	NJHIN Suggested Values		Hospital Value	Description	4
+PV1-10	3	31			121	Pediatrics	2
+PV1-10	4	31	104	Cardiology - General	CAR,CAE,CBA,CEK,CNI,CRD		4
+PV1-10	5	31	105	Emergency Medicine	EMR,ERX,ERD,PER		4
+PV1-10	6	31	107	Geriatrics	GRH		4
+PV1-10	7	31	108	Gastroenterology	GAS,GAI,GIC		4
+PV1-10	8	31	109	Gynecology	GYN		4
+PV1-10	9	31	110	Hospice Medicine	HOS,HOSP		4
+PV1-10	10	31	111	Medical Intensive Care	ICU		4
+PV1-10	11	31	112	Internal Medicine	MED,MEDW		4
+PV1-10	12	31	114	Neuro ICU			4
+PV1-10	13	31	115	Neurology	NEU		4
+PV1-10	14	31	116	Neonatology	NEO		4
+PV1-10	15	31	117	Obstetrics	OBS,OBG,OBD,SOB		4
+PV1-10	16	31	118	Oncology	ONC		4
+PV1-10	17	31	119	Orthopedics	ORT,ORS		4
+PV1-10	18	31	121	Pediatrics	PED,SPE		4
+PV1-10	19	31	123	Physical Medicine and Rehabilitation	 PHM,PTD,PTY,RHB,RHBW		4
+PV1-10	20	31	124	General Surgery	SUR		4
+PV1-10	21	31	125	Surgical Intensive Care			4
+PV1-10	22	31	126	Nephrology Transplant			4
+PV1-10	23	31	127	Acute Care Surgery			4
+PV1-10	24	31	128	Allergy & Immunology	ALL		4
+PV1-10	25	31	129	Anesthesiology	ANE		4
+PV1-10	26	31	131	Dermatology	DER		4
+PV1-10	27	31	132	Family Medicine			4
+PV1-10	28	31	133	Endocrinology	ENC,ENDOSVC,PEN		4
+PV1-10	29	31	134	Genetics	PGN		4
+PV1-10	30	31	135	Hematology	HEM		4
+PV1-10	31	31	136	Infectious Disease	IND		4
+PV1-10	32	31	137	Nephrology	NEP,PNP		4
+PV1-10	33	31	138	Neurosurgery	SNE		4
+PV1-10	34	31	139	Ophthalmology	OPH		4
+PV1-10	35	31	140	Otolaryngology/ENT	ENT		4
+PV1-10	36	31	141	Plastic Surgery	PLA,PLS		4
+PV1-10	37	31	143	Radiation Oncology	RON,RAT,RTP		4
+PV1-10	38	31	144	Rheumatology	RHU		4
+PV1-10	39	31	145	Urology	URO		4
+PV1-10	40	31	148	Pharmacy			4
+PV1-10	41	31	149	Interventional Radiology	IVR		4
+PV1-10	42	31	150	Clinical Decision Unit			4
+PV1-10	43	31	151	Wound/Ostomy Care	WND		4
+PV1-10	44	31	153	Newborn	NEW		4
+PV1-10	45	31	154	Labor and Delivery	LND		4
+PV1-10	46	31	156	Hospitalist Medicine	HSP		4
+PV1-10	47	31	158	Select Specialty			4
+PV1-10	48	31	161	Audiology	AUD		4
+PV1-10	49	31	162	Behavioral Health - Psychology	BEH,PSL		4
+PV1-10	50	31	163	Cardiology - Structural Heart Disease			4
+PV1-10	51	31	165	Colon/Rectal Surgery	CRS		4
+PV1-10	52	31	166	Gynecology/Oncology	GON		4
+PV1-10	53	31	172	Oral Surgery			4
+PV1-10	54	31	175	Palliative Medicine 			4
+PV1-10	55	31	178	Podiatry	POD		4
+PV1-10	56	31	180	Radiology	RAD,CAT,RADW,RCT.RSP,XRY		4
+PV1-10	57	31	181	Sleep Center	SLP		4
+PV1-10	58	31	184	Cardiac Surgery	CAN,CTS		4
+PV1-10	59	31	185	Transplant	OTS		4
+PV1-10	60	31	198	Bone Marrow Transplant			4
+PV1-10	61	31	208	Chemotherapy			4
+PV1-10	62	31	273	Pathology	PTH		4
+PV1-10	63	31	293	Pulmonary	PUL,PPU,PPA		4
+PV1-10	64	31	322	Thoracic Surgery	THO		4
+PV1-10	65	31	374	Transfusion Medicine			4
+PV1-10	66	31	376	Family Practice	FPM		4
+PV1-10	67	31	380	Orthopedic - Hand Surgery	POT		4
+PV1-10	68	31	381	Orthopedic - Spine			4
+PV1-10	69	31	384	Hepatology			4
+PV1-10	70	31	385	Pain Management	PMG		4
+PV1-10	71	31	387	Urogynecology	GUG		4
+PV1-10	72	31	399	Bone & Mineral			4
+PV1-10	73	31	409	Cardiology - Electrophysiology	EPS		4
+PV1-10	74	31	463	Bariatric Surgery			4
+PV1-10	75	31	464	Intensive Care			4
+PV1-10	76	31	465	Pulmonary Hypertension			4
+PV1-10	77	31	466	Pulmonary Transplant			4
+PV1-10	78	31	467	Pulmonary Interventional			4
+PV1-10	79	31	469	Transplant HPB Surgery			4
+PV1-10	80	31	470	Cardiothoracic Transplant			4
+PV1-10	81	31	471	Vascular Surgery	VAS		4
+PV1-10	82	31	472	Speech Pathology	SPT		4
+PV1-10	83	31	473	Cardiology - Advanced Heart Failure/Transplant			4
+PV1-10	84	31	474	Cardiology - Vascular Medicine	CVS,CCA,CCL,CCLW,CVA		4
+PV1-10	85	31	475	Physiatry	PSY		4
+PV1-10	86	31	476	Orthopedic - Surgery			4
+PV1-10	87	31	477	Cardiovascular SICU	CCU		4
+PV1-10	88	31	478	Behavioral Health - Neuropsychology			4
+PV1-10	89	31	479	Behavioral Health - Psychiatry	BHE,SPS		4
+PV1-10	90	31	480	Surgical Endoscopy			4
+PV1-10	91	31	481	Ethics			4
+PV1-10	92	31	482	Trauma Surgery	TRAUMA		4
+PV1-10	93	31			ANT	Antenatal	00000000
+PV1-10	94	31			APC	Adult Primary Care	00000000
+PV1-10	95	31			CANW	Cancelled Preadmit	00000000
+PV1-10	96	31			CCC	Comprehensive Care	00000000
+PV1-10	97	31			CFE	Cardiac Fetal Echo	00000000
+PV1-10	98	31			CFD	Craniofacial Center	00000000
+PV1-10	99	31			CFS	Craniofacial Surgery	00000000
+PV1-10	100	31			BST	Breast Clinic	00000000
+PV1-10	101	31			CED	Cancer Ed Early Det	00000000
+PV1-10	102	31			CGO	Ceed Gyn Onc	00000000
+PV1-10	103	31			CLA	Clinic Ancil Adult	00000000
+PV1-10	104	31			CLN	Clinic	00000000
+PV1-10	105	31			CME	Community Medicine	00000000
+PV1-10	106	31			CNS	Cardiac Nuclear Stress	00000000
+PV1-10	107	31			CNV	Conversion	00000000
+PV1-10	108	31			CNVW	Conversion Wayne	00000000
+PV1-10	109	31			CPE	Cardiac Peds Echo	00000000
+PV1-10	110	31			CPL	Cardiopulmonary	00000000
+PV1-10	111	31			CPR	Cardiopulminary Rehab	00000000
+PV1-10	112	31			CPS	Child Protection Sft	00000000
+PV1-10	113	31			CRH	Cardiac Rehab Monitored	00000000
+PV1-10	114	31			CRL	Imaging Center at Carlstadt	00000000
+PV1-10	115	31			CRV	Cardiac Rehab Volunteers	00000000
+PV1-10	116	31			CSB	Crisis Screening  Ed	00000000
+PV1-10	117	31			CSR	Cardiac Routine Stress	00000000
+PV1-10	118	31			CTR	Clinical Trials	00000000
+PV1-10	119	31			CVC	Cardiovascular Center	00000000
+PV1-10	120	31			CVP	Cardiology Associates Practice	00000000
+PV1-10	121	31			CVW	Advanced Cardiology Practice	00000000
+PV1-10	122	31			DBC	Diabetic Counseling	00000000
+PV1-10	123	31			DBE	Diabetic Education	00000000
+PV1-10	124	31			DEN	Dental	00000000
+PV1-10	125	31			DIA	Dialysis	00000000
+PV1-10	126	31			DOH	Dept Of Health	00000000
+PV1-10	127	31			DPE	Depaul Episodic Care	00000000
+PV1-10	128	31			DSH	DSH	00000000
+PV1-10	129	31			EAUS	Express Admit Unit	00000000
+PV1-10	130	31			ECO	Echo	00000000
+PV1-10	131	31			ECT	Electroconvulsive Th	00000000
+PV1-10	132	31			EDD	Endodontics	00000000
+PV1-10	133	31			EEG	EEG	00000000
+PV1-10	134	31			EKG	ECG/EKG	00000000
+PV1-10	135	31			EMH	E I S Mental Health	00000000
+PV1-10	136	31			EMP	Employee Health	00000000
+PV1-10	137	31			FHA	FHC Ancillary	00000000
+PV1-10	138	31			FHC	Family Health Center	00000000
+PV1-10	139	31			FHG	FHC Gyn	00000000
+PV1-10	140	31			FHH	FHC Home	00000000
+PV1-10	141	31			FHI	FHC Infertility	00000000
+PV1-10	142	31			FHM	FHC Medicine	00000000
+PV1-10	143	31			FHO	FHC Obs	00000000
+PV1-10	144	31			FHP	FHC Pediatrics	00000000
+PV1-10	145	31			FHR	FHC Rn	00000000
+PV1-10	146	31			FHU	FHC Urogyn	00000000
+PV1-10	147	31			FOG	FHC Obgyn Ancillary	00000000
+PV1-10	148	31			FPN	Facial Pain Center	00000000
+PV1-10	149	31			FRA	Fracture Clinic	00000000
+PV1-10	150	31			FSR	Floor Stock Replensh	00000000
+PV1-10	151	31			GFP	Great Falls Pediatric	00000000
+PV1-10	152	31			GPT	Gov Paterson Tower	00000000
+PV1-10	153	31			HCH	HCH	00000000
+PV1-10	154	31			HHS	Harbor House	00000000
+PV1-10	155	31			HME	Home Care	00000000
+PV1-10	156	31			HON	Hematology/Oncology	00000000
+PV1-10	157	31			IFD	ID Clinic	00000000
+PV1-10	158	31			IMG	Imaging Center	00000000
+PV1-10	159	31			INF	Infusion	00000000
+PV1-10	160	31			IPA	A M Surgical IP Admission	00000000
+PV1-10	161	31			KLT	Kindred LTC	00000000
+PV1-10	162	31			LAB	Lab Specimen Drop Off	00000000
+PV1-10	163	31			LABW	Laboratory	00000000
+PV1-10	164	31			LABWL	Wayne Laboratory	00000000
+PV1-10	165	31			LRCC	LRCC	00000000
+PV1-10	166	31			MAM	Mammography	00000000
+PV1-10	167	31			MAT	Maternity	00000000
+PV1-10	168	31			MFT	Maternal/Fetal	00000000
+PV1-10	169	31			MHA	Mental Health Clinic Adult	00000000
+PV1-10	170	31			MHB	Phys/Emg/Nerve Rehab	00000000
+PV1-10	171	31			MHC	Mental Health Clinic	00000000
+PV1-10	172	31			MIC	Clinic Mental Health	00000000
+PV1-10	173	31			MILF	MILF	00000000
+PV1-10	174	31			MOB	Mobile Icu	00000000
+PV1-10	175	31			MOR	Same Day Minor	00000000
+PV1-10	176	31			MRA	MRA	00000000
+PV1-10	177	31			MRI	MRI	00000000
+PV1-10	178	31			NHL	N Hudson Op Lab	00000000
+PV1-10	179	31			NHP	North Hudson OP Lab Passaic	00000000
+PV1-10	180	31			NIS	Neurointerventional	00000000
+PV1-10	181	31			NJS	NJ Swallowing Services	00000000
+PV1-10	182	31			NON	Neurooncology	00000000
+PV1-10	183	31			NUC	Nuclear Cardiology	00000000
+PV1-10	184	31			NUM	Nuclear Medicine	00000000
+PV1-10	185	31			NUR	Nursery	00000000
+PV1-10	186	31			NUT	Nutrition Counseling	00000000
+PV1-10	187	31			OBA	Ob Antepartum	00000000
+PV1-10	188	31			OBI	Observation- Inpatient Unit	00000000
+PV1-10	189	31			OBV	Observation	00000000
+PV1-10	190	31			OCT	Occupational Therapy	00000000
+PV1-10	191	31			ODS	One Day Stay	00000000
+PV1-10	192	31			OL	Outpatient Lab Testing	00000000
+PV1-10	193	31			OMX	Oral/Maxillary	00000000
+PV1-10	194	31			OPL	OP Lab Testing	00000000
+PV1-10	195	31			OPM	Univ Imag Mammograph	00000000
+PV1-10	196	31			OPR	Univ Imag Radiology	00000000
+PV1-10	197	31			OPS	Op Minor Surgery	00000000
+PV1-10	198	31			OPT	Ophthalmology Clinic	00000000
+PV1-10	199	31			ORD	Orthodontics	00000000
+PV1-10	200	31			OTY	Occupational Therapy Wayne	00000000
+PV1-10	201	31			PACLNC	Ped/Adol Clinic	00000000
+PV1-10	202	31			PAL	Pediatric Allergy	00000000
+PV1-10	203	31			PAT	Preadmit Testing	00000000
+PV1-10	204	31			PATW	Preadmission Testing	00000000
+PV1-10	205	31			PCA	Pediatric Cardiology	00000000
+PV1-10	206	31			PCR	Pediatric Critical	00000000
+PV1-10	207	31			PCS	Ped Cardiothor Surg	00000000
+PV1-10	208	31			PDE	Pediatric Dental	00000000
+PV1-10	209	31			PDV	Pediatric Development	00000000
+PV1-10	210	31			PEP	Perinatal Private	00000000
+PV1-10	211	31			PET	Pet Scan	00000000
+PV1-10	212	31			PFH	FHC-Postpartum	00000000
+PV1-10	213	31			PFS	Ped Feed & Swallow	00000000
+PV1-10	214	31			PGA	Ped Gastroenterology	00000000
+PV1-10	215	31			PHB	Pulmonary Rehab	00000000
+PV1-10	216	31			PHE	Ped Rheumatology	00000000
+PV1-10	217	31			PHO	Ped Hem/Oncology	00000000
+PV1-10	218	31			PHP	Partial Hospitalization	00000000
+PV1-10	219	31			PIF	Peds ID	00000000
+PV1-10	220	31			PIN	PPD Infectious	00000000
+PV1-10	221	31			PMC	Pacemaker Check	00000000
+PV1-10	222	31			PMH	PMH	00000000
+PV1-10	223	31			PNE	Ped Neurology	00000000
+PV1-10	224	31			PNS	Peds Neurosurgery	00000000
+PV1-10	225	31			POP	Peds Ophthalmology	00000000
+PV1-10	226	31			PPL	Peds Pulmonary Clin	00000000
+PV1-10	227	31			PPP	Ped Pulmonary Pt	00000000
+PV1-10	228	31			PRD	Periodontics	00000000
+PV1-10	229	31			PRS	Prosthodontics	00000000
+PV1-10	230	31			PSC	Peds Subspec Clinic	00000000
+PV1-10	231	31			PSU	Pediatric Surgery	00000000
+PV1-10	232	31			PUR	Pediatric Urology	00000000
+PV1-10	233	31			RCI	Renal Cath Insertion	00000000
+PV1-10	234	31			REC	Recreational Therapy	00000000
+PV1-10	235	31			REG	Regular Preadmit	00000000
+PV1-10	236	31			REN	Renal Clinic	00000000
+PV1-10	237	31			RLO	Renal Lab Other	00000000
+PV1-10	238	31			RLS	Renal Lab Stat	00000000
+PV1-10	239	31			ROB	Rapid Observation Tx	00000000
+PV1-10	240	31			RTU	Rapid Treatment Unit	00000000
+PV1-10	241	31			RTY	Respiratory Therapy	00000000
+PV1-10	242	31			RWC	Radiology-Womens Ctr	00000000
+PV1-10	243	31			SAN	Specialty Ancillary	00000000
+PV1-10	244	31			SCO	Scoliosis Clinic	00000000
+PV1-10	245	31			SDC	Same Day Cath	00000000
+PV1-10	246	31			SDE	Same Day Endo	00000000
+PV1-10	247	31			SDM	Same Day Medical	00000000
+PV1-10	248	31			SDS	Same Day Surgery	00000000
+PV1-10	249	31			SDV	Cardioversion	00000000
+PV1-10	250	31			SIC	Service ICN	00000000
+PV1-10	251	31			SID	Service ID	00000000
+PV1-10	252	31			SIN	Service ICN Delivery	00000000
+PV1-10	253	31			SJHE	SJHE	00000000
+PV1-10	254	31			SJHR	SJHR	00000000
+PV1-10	255	31			SLL	Allergy Cln Ancill	00000000
+PV1-10	256	31			SME	Service Medicine	00000000
+PV1-10	257	31			SNU	Service Nursery	00000000
+PV1-10	258	31			SOT	Service Other	00000000
+PV1-10	259	31			SPC	Specialty Clinic	00000000
+PV1-10	260	31			SPM	Sports Medicine	00000000
+PV1-10	261	31			SPN	Service Perinatal	00000000
+PV1-10	262	31			SSU	Service Surgical	00000000
+PV1-10	263	31			STN	Straight & Narrow	00000000
+PV1-10	264	31			STO	Service Teen OB	00000000
+PV1-10	265	31			STR	Service Trauma	00000000
+PV1-10	266	31			STV	St Vincents	00000000
+PV1-10	267	31			SURW	Surgical	00000000
+PV1-10	268	31			SVL	St Vincents Lab	00000000
+PV1-10	269	31			SWC	Peds Feed & Swallow	00000000
+PV1-10	270	31			TAN	Antenatal Totowa	00000000
+PV1-10	271	31			TOB	Teen OB	00000000
+PV1-10	272	31			TRA	Trauma	00000000
+PV1-10	273	31			ULT	Ultrasound	00000000
+PV1-10	274	31			UNC	Unapplied Cash	00000000
+PV1-10	275	31			UNID	Unidentified	00000000
+PV1-10	276	31			URG	Urgent Care	00000000
+PV1-10	277	31			VAC	Vascular Access Ctr	00000000
+PV1-10	278	31			VLB	St. Vincents Lab	00000000
+PV1-10	279	31			VNM	Valley Natl Mammogra	00000000
+PV1-10	280	31			VOC	Vocational Therapy	00000000
+PV1-10	281	31			VTS	Vasc/Thoracic Surg	00000000
+PV1-10	282	31			WBO	Willowbrook OBGYN	00000000
+PV1-10	283	31			WIL	Willowbrook	00000000
+PV1-10	284	31			WIN	Wayne Infusion	00000000
+PV1-10	285	31			WME	Willowbrook Medicine	00000000
+PV1-36	2	35	NJHIN suggested values		Hospital Value	Description	4
+PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
+PV1-36	4	35	01	Discharged to home or self care (routine discharge)	Routine	Discharge to Home (Routine)	4
+PV1-36	5	35	02	Discharged/transferred to a short-term general hospital for inpatient care	Oth Hosp	Disch/trans - other shrt-trm gen IP hosp	4
+PV1-36	6	35	03	Discharged/transferred to skilled nursing facility (SNF) with Medicare certification.	SNF	Discharged/transferred to SNF	4
+PV1-36	7	35	04	Discharged/transferred to an intermediate care facility (ICF)	Inter Care Fac	Discharged/Transferred to a Facility that Provides Custodial or Supportive Care	4
+PV1-36	8	35	05	Discharged/transferred to another type of institution not defined elsewhere in this code list	Oth Inst	Discharged/Transferred to another type of healthcare institution not elsewhere defined in this list	4
+PV1-36	9	35	06	Discharged/transferred to home under care of organized home health service organization	Home Hlth	Disch/transf to home w/ home health care	4
+PV1-36	10	35	07	Left against medical advice or discontinued care	AMA	Left against medical advice	4
+PV1-36	11	35	08	Discharged/transferred to home under care of a Home IV provider			4
+PV1-36	12	35	09	Admitted as an inpatient to this hospital	Admitted	Admitted as an inpatient to this hospital (outpatient only)	4
+PV1-36	13	35	20	Expired	Expired	Expired	4
+PV1-36	14	35	30	Still Patient	Inhouse	Still Patient	4
+PV1-36	15	35	40	Expired at home			4
+PV1-36	16	35	41	Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)			4
+PV1-36	17	35	42	Expired - place unknown	Died Place	Expired - place unknown (hospice only)	4
+PV1-36	18	35	43	Discharged/transferred to a federal health care facility. (Effective 10/1/03)	Fed Fac with plan readmit	Disch/Trans to Federal Facility with plan readmit	4
+PV1-36	19	35	50	Hospice - home	Died Home	Expired at home (for hospice care only)	4
+PV1-36	20	35	51	Hospice - medical facility	Died Med Fac	Expired in a medical facility	4
+PV1-36	21	35	61	Discharged/transferred to hospital-based Medicare approved swing bed			4
+PV1-36	22	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)			4
+PV1-36	23	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)			4
+PV1-36	24	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)			4
+PV1-36	25	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)			4
+PV1-36	26	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)	Critical Hospital	Dschg/Xfer to Critical Access Hospital	4
+IN1-17	2	39	NJHIN Value	Description	Hospital Value		4
+IN1-17	3	39	FTH	Father 	F		2
+IN1-17	4	39	ASC	Associate			4
+IN1-17	5	39	BRO	Brother 			4
+IN1-17	6	39	CGV	Care giver 			4
+IN1-17	7	39	CHD	Child	Child,AdptChld		4
+IN1-17	8	39	DEP	Handicapped dependant			4
+IN1-17	9	39	DOM	Life partner	LifeP		4
+IN1-17	10	39	EMC	Emergency contact			4
+IN1-17	11	39	EME	Employee			4
+IN1-17	12	39	EMR	Employer			4
+IN1-17	13	39	EXF	Extended family			4
+IN1-17	14	39	FCH	Foster child 	FstCh		4
+IN1-17	15	39	FND	Friend	Frnd		4
+IN1-17	16	39	FTH	Father 			4
+IN1-17	17	39	GCH	Grandchild	GrChd		4
+IN1-17	18	39	GRD	Guardian 	Guardian,Guard		4
+IN1-17	19	39	GRP	Grandparent 	GrPrt		4
+IN1-17	20	39	MGR	Manager			4
+IN1-17	21	39	MTH	Mother 	Mother		4
+IN1-17	22	39	NCH	Natural child			4
+IN1-17	23	39	NON	None	None		4
+IN1-17	24	39	OAD	Other adult	SigOth		4
+IN1-17	25	39	OTH	Other 	Other		4
+IN1-17	26	39	OWN	Owner			4
+IN1-17	27	39	PAR	Parent 	Parnt,AdptPar		4
+IN1-17	28	39	SCH	Stepchild 	StpCh		4
+IN1-17	29	39	SEL	Self	Self		4
+IN1-17	30	39	SIB	Sibling 	Sibl		4
+IN1-17	31	39	SIS	Sister 			4
+IN1-17	32	39	SPO	Spouse	Spouse,Spous		4
+IN1-17	33	39	TRA	Trainer			4
+IN1-17	34	39	UNK	Unknown	Unk		4
+IN1-17	35	39	WRD	Ward of court	Ward		4
+IN1-17	36	39	AUN	Aunt 	Aunt		4
+IN1-17	37	39	DAU	Daughter			4
+IN1-17	38	39	EXS	Ex Spouse 			4
+IN1-17	39	39	EXH	Ex-husband			4
+IN1-17	40	39	EXW	Ex-wife 			4
+IN1-17	41	39	INL	In Law 			4
+IN1-17	42	39	LEG	Legal Guardian 			4
+IN1-17	43	39	SON	Son (S)			4
+IN1-17	44	39	STP	Step Parent (STP)	StpPr		4
+IN1-17	45	39	STS	Step Sibling			4
+IN1-17	46	39	UN	Uncle (UN)	U		4
+IN1	2	42	IN1-3 Value	IN1-4 Value	Payer		4
+IN1	3	42	1001	BCN	BCBSNJ		2
+IN1	5	42	415	Amerigroup			00000000
+IN1	6	42	430	Medicare	MEDICARE		00000000
+IN1	11	42	433	Self	SELF PAY		00000000
+IN1	12	42	410	Aetna	Aetna		00000000
+IN1	13	42	655	Charity Care	Charity Care		00000000
+IN1	14	42	432	Oxford Health			00000000
+IN1	15	42	689	Horizon NJ Health   	Horizon NJ Health		00000000
+IN1	16	42	287	SJ Charity Care 100%	SJ Charity Care 100%		00000000
+IN1	17	42	53	Medicare A          	Medicare A		00000000
+IN1	18	42	242	Amerigroup Medicaid 	Amerigroup Medicaid		00000000
+IN1	19	42	49	Medicaid            	Medicaid		00000000
+IN1	20	42	279	Straight Selfpay    	Self Pay Straight Self pay		00000000
+IN1	21	42	52	Medicare B          	Medicare B		00000000
+IN1	22	42	347	Wellcare Medicaid   	Wellcare Medicaid		00000000
+IN1	23	42	307	Horizon BCBS NJ PPO 	BCBS Horizon NJ PPO		00000000
+IN1	24	42	244	UnitedHC Comm Plan  	United HC Community Plan		00000000
+IN1	25	42	305	Horizon BCBS NJ HMO 	BCBS Horizon NJ HMO		00000000

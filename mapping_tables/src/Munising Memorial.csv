@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 01-26-2022.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 01-31-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.8257	Munising Memorial Hospital			00000000
@@ -53,7 +53,7 @@ PID-22	29	9	MAC	Macedonian 			4
 PID-22	30	9	ME	Middle Eastern			4
 PID-22	31	9	MUL	Multi-Ethnic 			00000000
 PID-22	32	9	NA	Native American			4
-PID-22	33	9	O	Other 			4
+PID-22	33	9	O	Other 	Other, O		4
 PID-22	34	9	PO	Polish 			4
 PID-22	35	9	RU	Russian 			4
 PID-22	36	9	SC	Scottish 			4
@@ -83,7 +83,7 @@ PV1-2	11	18	R	Recurring patient	R		00000000
 PV1-2	12	18	U	Unknown	U		00000000
 PV1-2	13	18	IH	IP Hospice 			00000000
 PV1-2	14	18	NB	Newborn			00000000
-PV1-2	15	18	OB	Observation 			00000000
+PV1-2	15	18	OB	Observation 	OB		00000000
 PV1-2	16	18	SN	Skilled Nursing 	S		00000000
 PV1-2	17	18	SA	Surgery Admit 			4
 PV1-2	18	18	 				0
@@ -142,6 +142,7 @@ PV1-18	28	27	59	Organ 			4
 PV1-18	29	27	60	Select Specialty			4
 PV1-18	30	27			ED	Emergency Department	00000000
 PV1-18	31	27			IN	Hospital Inpatient	00000000
+PV1-18	32	27			OB	Observation	00000000
 PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
 PV1-10	3	31			121	Pediatrics	2
 PV1-10	4	31	104	Cardiology - General	CAR	Cardiology	4
@@ -326,7 +327,7 @@ IN1-17	28	39	SCH	Stepchild 	SCH		00000000
 IN1-17	29	39	SEL	Self	Self, SEL		00000000
 IN1-17	30	39	SIB	Sibling 			4
 IN1-17	31	39	SIS	Sister 	SIS		00000000
-IN1-17	32	39	SPO	Spouse	SPO		00000000
+IN1-17	32	39	SPO	Spouse	Spouse, SPO		00000000
 IN1-17	33	39	TRA	Trainer			00000000
 IN1-17	34	39	UNK	Unknown	UNK		00000000
 IN1-17	35	39	WRD	Ward of court	WRD		00000000
@@ -345,5 +346,7 @@ IN1	2	42	IN1-3 Value	IN1-4 Value	Payer		4
 IN1	3	42	1001	BCN	BCBSM		2
 IN1	4	42	3192462	UPHP			00000000
 IN1	6	42	3192507	Medicare			00000000
+IN1	11	42	3192400	Self-Pay			00000000
 IN1	12	42	3192470	Meritain Health			00000000
 IN1	13	42	3192482	Humana			00000000
+IN1	14	42	3192601	Tricare East Region			00000000
