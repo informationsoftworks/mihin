@@ -2,21 +2,8 @@ oid,facility
 "",Default
 1.3.6.1.4.1.22812.3.7515501.3,Ascension Medical Group Genesys
 1.3.6.1.4.1.22812.3.7515501.6,Ascension Medical Group St. Mary's
-1.3.6.1.4.1.32898.1.4,Spectrum Health System
-1.3.6.1.4.1.32898.1.4.2.10,Spectrum Health Grand Rapids Hospitals
-1.3.6.1.4.1.32898.1.4.2.100,Spectrum Health Pennock Hospital
-1.3.6.1.4.1.32898.1.4.2.11,Butterworth Hospital
-1.3.6.1.4.1.32898.1.4.2.12,Blodgett Hospital
-1.3.6.1.4.1.32898.1.4.2.13,Helen DeVos Children's Hospital
-1.3.6.1.4.1.32898.1.4.2.14,Meijer Heart Center
-1.3.6.1.4.1.32898.1.4.2.20,Special Care Hospital
 1.3.6.1.4.1.32898.1.4.2.30,Spectrum Health Reed City Hospital
-1.3.6.1.4.1.32898.1.4.2.40,Spectrum Health Gerber Memorial Hospital
-1.3.6.1.4.1.32898.1.4.2.50,Spectrum Health United Hospital
 1.3.6.1.4.1.32898.1.4.2.60,Spectrum Health Kelsey Hospital
-1.3.6.1.4.1.32898.1.4.2.70,Spectrum Health Zeeland Hospital
-1.3.6.1.4.1.32898.1.4.2.80,Spectrum Health Big Rapids Hospital
-1.3.6.1.4.1.32898.1.4.2.90,Spectrum Health Ludington Hospital
 2.16.840.1.113883.17.159,Lakeland Hospital Watervliet
 2.16.840.1.113883.17.160,Lakeland Hospital St Joseph
 2.16.840.1.113883.17.162,Lakeland Hospital Niles

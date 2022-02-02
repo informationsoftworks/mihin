@@ -2,7 +2,7 @@ base: Spectrum Health KRC
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Spectrum Health KRC ADT 2.0 table 06-21-2021.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Spectrum Health KRC ADT 2.0 table 02-02-2022.xlsx
       list:
       - error: Labels provided without code value
         level: Warning
