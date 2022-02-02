@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Sparrow Health System ADT 2.0 table 2-14-20.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Sparrow Health System ADT 2.0 table 12-09-2020.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.3991.1	Sparrow Hospital			00000000
@@ -7,7 +7,7 @@ MSH-4	6	1	2.16.840.1.113883.3.3991.3	Clinton			00000000
 MSH-4	7	1	2.16.840.1.113883.3.3991.4	Ionia			00000000
 MSH-4	8	1	2.16.840.1.113883.3.3991.5	Sparrow Specialty Hospital			00000000
 MSH-4	9	1	2.16.840.1.113883.3.3991.6	Carson City Hospital			00000000
-MSH-4	10	1	2.16.840.1.113883.3.3991.8	Sparrow Eaton Hospital			00000000
+MSH-4	10	1	2.16.840.1.113883.3.3991.8	Sparrow Eaton Hospital 			00000000
 PID-8	2	3	MiHIN Value	Description	Hospital Value		4
 PID-8	3	3	M	Male	M		2
 PID-8	4	3	F	Female	F		4

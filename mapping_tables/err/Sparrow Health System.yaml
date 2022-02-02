@@ -2,7 +2,7 @@ base: Sparrow Health System
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Sparrow Health System ADT 2.0 table 2-14-20.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Sparrow Health System ADT 2.0 table 12-09-2020.xlsx
       list:
       - error: Incomplete, non-specific or abbreviated facility name
         level: Warning
