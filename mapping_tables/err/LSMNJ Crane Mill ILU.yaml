@@ -1,0 +1,17 @@
+base: LSMNJ Crane Mill ILU
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/LSMNJ Crane Mill ILU ADT 2.0 table 02-02-2022.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA30
+            code: Home
+          - cell: AA31
+            code: Hospice
+          - cell: AA32
+            code: Facility

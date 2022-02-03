@@ -2,7 +2,7 @@ base: Munising Memorial
 domains:
   audit:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 01-31-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 02-03-2022.xlsx
       list:
         error: Undefined code found in received HL7 data
         level: Error
@@ -16,7 +16,7 @@ domains:
           receiving org message ID: 92563659
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 01-31-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 02-03-2022.xlsx
       list:
       - error: Empty row found within segment specification
         level: Warning

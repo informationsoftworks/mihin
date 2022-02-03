@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 01-31-2022.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 02-03-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.8257	Munising Memorial Hospital			00000000
@@ -306,31 +306,31 @@ IN1-17	7	39	CHD	Child	Child, CHD		00000000
 IN1-17	8	39	DEP	Handicapped dependant	DEPP		00000000
 IN1-17	9	39	DOM	Life partner	DOM		00000000
 IN1-17	10	39	EMC	Emergency contact			00000000
-IN1-17	11	39	EME	Employee	EME		00000000
+IN1-17	11	39	EME	Employee	Employee, EME		00000000
 IN1-17	12	39	EMR	Employer			00000000
-IN1-17	13	39	EXF	Extended family	EXF		00000000
-IN1-17	14	39	FCH	Foster child 	FCH		00000000
+IN1-17	13	39	EXF	Extended family	Extended family, EXF		00000000
+IN1-17	14	39	FCH	Foster child 	Foster child, FCH		00000000
 IN1-17	15	39	FND	Friend			00000000
-IN1-17	16	39	FTH	Father 	FTH		00000000
-IN1-17	17	39	GCH	Grandchild	GCH		00000000
-IN1-17	18	39	GRD	Guardian 	GRD		00000000
-IN1-17	19	39	GRP	Grandparent 	GRP		00000000
+IN1-17	16	39	FTH	Father 	Father, FTH		00000000
+IN1-17	17	39	GCH	Grandchild	Grandchild, GCH		00000000
+IN1-17	18	39	GRD	Guardian 	Guardian, GRD		00000000
+IN1-17	19	39	GRP	Grandparent 	Grandparent, GRP		00000000
 IN1-17	20	39	MGR	Manager			00000000
-IN1-17	21	39	MTH	Mother 	MTH		00000000
+IN1-17	21	39	MTH	Mother 	Mother, MTH		00000000
 IN1-17	22	39	NCH	Natural child			00000000
 IN1-17	23	39	NON	None			00000000
-IN1-17	24	39	OAD	Other adult	OAD		00000000
-IN1-17	25	39	OTH	Other 	OTH		00000000
+IN1-17	24	39	OAD	Other adult	Other adult, OAD		00000000
+IN1-17	25	39	OTH	Other 	Other, OTH		00000000
 IN1-17	26	39	OWN	Owner			00000000
 IN1-17	27	39	PAR	Parent 			00000000
-IN1-17	28	39	SCH	Stepchild 	SCH		00000000
+IN1-17	28	39	SCH	Stepchild 	Stepchild, SCH		00000000
 IN1-17	29	39	SEL	Self	Self, SEL		00000000
 IN1-17	30	39	SIB	Sibling 			4
-IN1-17	31	39	SIS	Sister 	SIS		00000000
+IN1-17	31	39	SIS	Sister 	Sister, SIS		00000000
 IN1-17	32	39	SPO	Spouse	Spouse, SPO		00000000
 IN1-17	33	39	TRA	Trainer			00000000
-IN1-17	34	39	UNK	Unknown	UNK		00000000
-IN1-17	35	39	WRD	Ward of court	WRD		00000000
+IN1-17	34	39	UNK	Unknown	Unknown, UNK		00000000
+IN1-17	35	39	WRD	Ward of court	Ward of court, WRD		00000000
 IN1-17	36	39	AUN	Aunt 			4
 IN1-17	37	39	DAU	Daughter			4
 IN1-17	38	39	EXS	Ex Spouse 			4
@@ -347,6 +347,9 @@ IN1	3	42	1001	BCN	BCBSM		2
 IN1	4	42	3192462	UPHP			00000000
 IN1	6	42	3192507	Medicare			00000000
 IN1	11	42	3192400	Self-Pay			00000000
-IN1	12	42	3192470	Meritain Health			00000000
+IN1	12	42	3192508	Blue Cross Blue Shield			00000000
 IN1	13	42	3192482	Humana			00000000
 IN1	14	42	3192601	Tricare East Region			00000000
+IN1	15	42	3192470	Meritain Health			00000000
+IN1	16	42	3192509	Medicare Plus Blue			00000000
+IN1	17	42	3221505	VACCN Optum			00000000

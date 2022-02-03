@@ -1166,6 +1166,8 @@ oid,facility
 2.16.840.1.113883.3.6609,Bay Bluffs - Emmet County Medical Care Facility
 2.16.840.1.113883.3.6769,"DMC Children's Hospital of Michigan - Troy, Michigan Facility"
 2.16.840.1.113883.3.6863,Grand Traverse Pavilions
+2.16.840.1.113883.3.6899.10.1221,LSMNJ Crane Mill Outpatient Therapy
+2.16.840.1.113883.3.6899.10.1224,LSMNJ Crane Mill ILU
 2.16.840.1.113883.3.7898,MidMichigan Medical Center - West Branch
 2.16.840.1.113883.3.801.4.1,Detroit Medical Center - Harper Univ & Hutzel Hosp
 2.16.840.1.113883.3.801.4.2,Detroit Medical Center - Detroit Receiving
