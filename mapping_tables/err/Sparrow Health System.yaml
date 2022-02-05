@@ -62,16 +62,17 @@ domains:
       - error: Number of Hospital Values does not match number of Descriptions
         level: Error
         list:
-        - hl7 segment: PV1-2
+        - hl7 segment: PV1-10
           see:
-          - cell: R7
-            code: IP, I, C, D, IPPY, SUBA
-            label: Inpatient, Inpatient Psych, Substance Abuse Inpatient
-          - cell: R9
-            code: OP, O, OPBED, T, HAS, R, P, SPSY, SSAB
-            label: Outpatient, Psychiatric Series, Psychiatric Series, Substance Abuse Series
-        - hl7 segment: IN1-17
+          - cell: AE20
+            code: Surgery, Peds Surgery, Amb Surg, SU, TCV Surgery, TCV SURG
+            label: Pediatric Surgery, Plastic Surgery, Amb Surg, SU, TCV Surgery
+          - cell: AE27
+            code: FAMILY MEDIC, CM, IH, SH, SL
+            label: CM, IH, SH, SL
+        - hl7 segment: PV1-36
           see:
-          - cell: AM12
-            code: EMPLOYER, EMPL, Empl
-            label: Employer, EMPL
+          - cell: AI8
+            code: ANOTHER INST, ADULT FOSTER, ADMITTED, CCT TRANSFER, DIVERTED,Discharged/T, Child Prote, Sub Abuse, In Police Cu, INFANT
+              FOSTE, HOME READMIT, IRF READMIT, NURS READM, UNKNOWN, CNCRCHLD, LAW READM, CHILD PROTE
+            label: Another instiution, Adult Foster Care, Admitted to another facility, CCT Transfer, Diverted

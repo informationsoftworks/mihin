@@ -146,3 +146,66 @@ domains:
             code: 'Oadt, INPF, ANGD, '
           - cell: AM41
             code: 'SDIL, BSIL, FMIL, '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: 94, CRD, ANG, CARDIAC CATH, CARDIAC ICU, NMC
+            label: Cardiology, angiogram, cardiac cath, cardiac icu, nuc med/cardio
+          - cell: AE5
+            code: 4, ED, Emergency, 138, TRA, EMR
+            label: Emergency, trauma, emergency center
+          - cell: AE11
+            code: CLI, 104, GME, Med, MEDICINE, OMM
+            label: Internal Med Clinic, general medicine, medical medicine, osteopathic manipulative medicine
+          - cell: AE15
+            code: 46, OBS, CLG, OBC
+            label: Obstetrics, ob clinic, ob check
+          - cell: AE16
+            code: 95, ONCOLOGY, PCC, MCH, Onc/Hemat
+            label: Oncology, physician cancer center, metro cancer & hematology
+          - cell: AE17
+            code: 103, ORT, CST, ORTHO
+            label: Orthopedics, cast room, Orthopaedics
+          - cell: AE18
+            code: 50, PED , CLP, PEDIATRIC IC, ECB
+            label: Pediatrics, pediatric clinic, pediatrics icu, education/child
+          - cell: AE19
+            code: REHAB, REH, PHM, IVT, MSR
+            label: Rehabilitation, phys/occip ther, iv therapy, med surg rehab
+          - cell: AE20
+            code: SURGERY,  SUR, 60, GRS, SOS, SSS
+            label: Surgery, surgical, grand river surgery, surgical overnight stay, surgical short
+          - cell: AE56
+            code: 55, Rad, 90, CAT, CSX, MAM, MRI, MRO, MXR, PET, FMR, ISO, LCT, LXC, LXO, MBD, NUC, ULT, MLB, MLT, NIL, XCO
+            label: Radiology, metro radiation, cat scan, cast/xray, mammography, magnetic reson, metro radiation, mammorgraphy/x-r, pet,
+              Fluoroscopy W/ MRI, isotopes, Lab/CAT scan, Lab/x-ray/cardio, lab/x-ray, mammography/bon, nuclear medicine, ultrasound,
+              mammography/lab, mammography/ult, doppler/non invas L, x-ray/cardio pu
+          - cell: AE63
+            code: PULMONOLOGY, 136, CPU
+            label: Pulmonology, cardiopulmonary
+          - cell: AE75
+            code: 25, ICU, 71, 120, IMC
+            label: Intensive Care, ventilator dep, intermediate care
+          - cell: AE89
+            code: psych, PSY, DTX
+            label: Psychiatry, detox
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI5
+            code: 108, DISCHG TO ST, 82, 1, 57
+            label: Short Term Hospital, Discharged/transd to another short-term general hospital for inpatien, Planned Readmission with
+              discharge/transfer to Short Term Hospital
+          - cell: AI10
+            code: 7, 56, 104, 105, LAMA, 103
+            label: Against Medical Advice (I), Against Medical Advice (O), Left Against Medical Advice, Left Without Being Seen, Left
+              against medical advice or discontinued care
+          - cell: AI27
+            code: DISCH REHAB, 90, 107
+            label: Discharged/transd to another rehab facility incl rehad distinct pa, Planned Readmission with discharge/transfer to
+              Rehab Facility
+          - cell: AI30
+            code: 66, 67, 106, 93
+            label: Disch/Transf Psychiatric Hosp (I), Disch/Transf Pyschiatric Hosp (O)

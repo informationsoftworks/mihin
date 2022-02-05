@@ -81,17 +81,3 @@ domains:
         HL7 source org: 2.16.840.1.113883.3.5416.1.1553
         HL7 timestamp: '20220121135703'
         receiving org message ID: 106174977
-    - message count: 5
-      oid: 2.16.840.1.113883.3.5416.1.8949
-      sample:
-        HL7 ID: f1c04408bf2241efbe3663ce562c0f99
-        HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-        HL7 timestamp: '20211108112913'
-        receiving org message ID: 91838129
-  import:
-  - error: Filename not in standard format
-    filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 1-14-2022 - Copy.xlsx
-    level: Error
-  - error: Filename not in standard format
-    filename: 2.0 Mapping Tables - Hospitals/Testing.xlsx
-    level: Error

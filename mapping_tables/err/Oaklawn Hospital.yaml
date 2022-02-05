@@ -101,3 +101,11 @@ domains:
             code: 'PSYC, PSYCA, PSYCC, '
           - cell: AE93
             code: 'DIAG, DXMD, '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE18
+            code: PM, PED, PEDS
+            label: Pediatrics, Pediatric-Surgical

@@ -290,3 +290,29 @@ domains:
             code: 'PSY, HMH, PPS, '
           - cell: AE56
             code: 'RAD, MRI, NUC, '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: CDA, CDP, HHF, CTH, CRB
+            label: Cardiology - Adults, Cardio-Peds, Card Rehab HHF, Cardiac Cath, Cardiac Rehabilitation,Emergent Prompt Care
+          - cell: AE5
+            code: EMR, EPC, DTM
+            label: Emergency Room, DIRECT TO MORGUE
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI5
+            code: ATH, 31003, 31018
+            label: "Discharged/transferred to a short-term general hospital for inpatient \ncare, 200 - ED Dismiss - Diverted Elsewhere\
+              \ (2), 31003 - Acute Care Hospital with planned readmission (82), Transferred/Discharged for CABG"
+          - cell: AI8
+            code: ATA, ADC, ATB, ATC, AOU, ATO, ATM, AHC, 31001, 31005, 31006, 31008, 31015, ADB
+            label: "Discharged/transferred to another type of institution not defined elsewhere \nin this code list, 300 - Court/Law Enforcemet,\
+              \ 302 - Correctional institution, 303 - Custodial care facility, 304 - Admitted as IP/ services unrelated to admission,\
+              \ 305 - Transferred to another facility, 309 - Transferred to another acute care institution, 312 - Transferred to Maternity\
+              \ - ED USE ONLY, 70 - Another Health Care Institution Not Defined, 31001 - Designated Disaster Alternative Care Site (69),31005\
+              \ - Custodial/ supportive care with planned readmission (84), 31006 - Cancer center or childrens hosp with planned readmission\
+              \ (85), 31008 - Court/Law enforcement with planned readmission (87), 31015 - Other institution not defined elsewhere with\
+              \ planned readmission (95),306 - Discharge to another type of institution"

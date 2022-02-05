@@ -79,3 +79,37 @@ domains:
             code: 'BC OUT OF STATE '
           - cell: AP239
             code: 'GIFT OF LIFE '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI5
+            code: 02, Another Hospital,Trans to Other General Hospital, Transfer to another general hospital, Trans to Other General Ho
+            label: Trans to Other General Hospital, Transfer to another general hospital, Trans to Other General Ho
+          - cell: AI6
+            code: 03, Transfer to skilled nursing OP, Transfer to skilled nursing, Transferred to SNF
+            label: Transfer to skilled nursing OP, Transfer to skilled nursing, Transferred to SNF
+          - cell: AI8
+            code: 05, Another Type of Institution, Discharged to other inst - outpatient, Discharged to same inst - outpatient,Another
+              Type of Instituti, Discharge to other facili, Discharged/transferred to another type of institution not defined elsewhere
+              in this code list, Transferred to Another In
+            label: Discharged/transferred to another type of institution not defined elsewhere in this code list,Another Type of Instituti,
+              Discharge to other facili, Transferred to Another In
+          - cell: AI9
+            code: 06, Home Care with Home Health, Home with Home Health Care, Home with Home Health Car, Discharged with Home Health,
+              Discharged with Home Heal
+            label: Discharged with Home Health, Home Care with Home Health, Home with Home Health Care, Discharged with Home Heal
+          - cell: AI10
+            code: 07, Against Medical Advice, Against Medical Advice with follow-up, Left without being seen, Against medical advice  w,
+              Left Against Medical Advi
+            label: Against Medical Advice, Left without being seen, Against medical advice  w, Left Against Medical Advi
+          - cell: AI14
+            code: 20, Deceased, Expired
+            label: Expired, Deceased
+          - cell: AI27
+            code: 62, Rehab Care, Discharged to Rehab Facil
+            label: Discharged to Rehab Facility, Transfer to Inpatient rehab, Rehab Care, Discharged to Rehab Facil
+          - cell: AI28
+            code: 63, Long Term Care, Discharged to Long Term C
+            label: Long Term Care, Discharged to Long Term C

@@ -869,6 +869,7 @@ oid,facility
 2.16.840.1.113883.3.5416.1.2838,Advantage Living Center- Redford                               
 2.16.840.1.113883.3.5416.1.2839,Advantage Living Center- Wayne                
 2.16.840.1.113883.3.5416.1.2840,Advantage Living Center- Roseville                             
+2.16.840.1.113883.3.5416.1.2841,Alpha Manor Nursing Home  
 2.16.840.1.113883.3.5416.1.2842,-
 2.16.840.1.113883.3.5416.1.2843,Autumnwood of Livonia  
 2.16.840.1.113883.3.5416.1.2844,Autumnwood of McBain  
@@ -968,6 +969,7 @@ oid,facility
 2.16.840.1.113883.3.5416.1.4594,Heartland Healthcare Center-Grosse Pointe Woods
 2.16.840.1.113883.3.5416.1.4595,Heartland Healthcare Center-Livonia
 2.16.840.1.113883.3.5416.1.4596,SKLD Livonia
+2.16.840.1.113883.3.5416.1.4597,SKLD Plymouth
 2.16.840.1.113883.3.5416.1.4598,Heartland Healthcare Center-Sterling Heights
 2.16.840.1.113883.3.5416.1.4599,Heartland Healthcare Center-Allen Park
 2.16.840.1.113883.3.5416.1.4605,Heartland Healthcare Center-Ann Arbor
@@ -1108,6 +1110,7 @@ oid,facility
 2.16.840.1.113883.3.5416.1.8946,Medilodge of Munising
 2.16.840.1.113883.3.5416.1.8947,Medilodge of Rogers City
 2.16.840.1.113883.3.5416.1.8948,Medilodge of Sault Ste. Marie
+2.16.840.1.113883.3.5416.1.8949,Medilodge of Tawas City
 2.16.840.1.113883.3.5416.1.8950,Medilodge of Traverse City
 2.16.840.1.113883.3.5416.1.8951,Lauresl of Mt Pleasant
 2.16.840.1.113883.3.5416.1.8966,Medilodge of Shoreline
@@ -1117,6 +1120,7 @@ oid,facility
 2.16.840.1.113883.3.5416.1.8984,Bay County Medical Care Facility
 2.16.840.1.113883.3.5416.1.8985,Thornapple Manor
 2.16.840.1.113883.3.5416.1.9318,Beaumont Health & Rehab (Beaumont Commons)
+2.16.840.1.113883.3.5416.1.9327,Isabella County Medical Care Facility
 2.16.840.1.113883.3.5416.1.9334,Wellbridge of Grand Blanc
 2.16.840.1.113883.3.5416.1.9345,Wellbridge of Clarkston
 2.16.840.1.113883.3.5416.1.9347,Heartland Home Care of Mt Pleasant

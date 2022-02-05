@@ -33,3 +33,14 @@ domains:
             code: 'CO, NC, NP, '
           - cell: AM27
             code: 'AF, AM, FF, FM, PA, PE, PH, '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE19
+            code: PMR, PRM, PMandR
+            label: Physical Medicine and Rehabilitaion, Physical Medicine and Rehabilitaion
+          - cell: AE28
+            code: EDM, PEE, REE
+            label: Endocrinology, Diabeties Metabolism, Pediatric Endrocrinology, Reproductive Endocrinology

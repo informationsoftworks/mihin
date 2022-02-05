@@ -70,3 +70,18 @@ domains:
             code: ' HOSPICEMED'
           - cell: AI27
             code: ' REHAB'
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: CARD, CATH, CPUO, CREH
+            label: Cardiology - General, Cardiology - Vascular Medicine, Cardiac Surgery, Thoracic Surgery, Chest Pain Unit Observation,
+              Cardiac Rehab
+          - cell: AE19
+            code: PM&R, PM, AREHSC
+            label: Physical Medicine and Rehabilitation, Acute Rehab Screen
+          - cell: AE32
+            code: NEPH, DIAL
+            label: Nephrology, Nephrology Transplant, Dialysis

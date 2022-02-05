@@ -135,3 +135,84 @@ domains:
           see:
           - cell: AP182
             code: 'BCBS '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA26
+            code: A, B, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
+            label: PSF AFFILIATES, OFS DONOR AND SPOUSE, DP - SKIN CANCER, DP - AORTIC, DP - LIVER CANCER, DP - PANCREATIC CANCER, DP
+              - HEAD & NECK ONCOLOGY, DP - CRANIAL BASE, DP - ENDOCRINE ONCOLOGY, DP - ADRENAL ONCOLOGY, DP - HEART RHYTHM CENTER, DP
+              - BLADDER CANCER, DP - STEM CELL TRANSPLANT, DP - CEREBROVASC DISORDER, DP - CRANIOFACIAL ANOM, DP - ESOPHAGEAL CANCER,
+              DP - FETAL DIAGNOSIS TX, DP - INTERSTITIAL LUNG DZ, DP - MISCAP, DP - SARCOMA, DP - THOR INSUFF RESP SYN, DP-THYROID EYE
+              DISEASE
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE5
+            code: EMERGENCY, AES, CES, NTE, STB, TRAUMA
+            label: EMERGENCY, ADULT EMERGENCY SERVICES, CHILDREN EMERGENCY SERVICES, NON TRAUMA/EMERGENCY, TRAUMA BURN - TRAUMA/BURN/EMERGENCY
+          - cell: AE6
+            code: GERIATRICS, GER
+            label: GERIATRICS, ACUTE CARE ELDERLY, GERIATRIC MED-CONSULT, TRAUMA
+          - cell: AE7
+            code: GASTRO, GASTROENTER, MGI, PGI
+            label: GASTROENTEROLOGY, MEDICINE GASTROENTEROLOGY/LIVER, PEDIATRIC GASTROENTEROLOGY
+          - cell: AE8
+            code: GY1, GY2, GY3, GYN, CNM, FMB, GYNEC, UMO
+            label: GYNECOLOGY, OB-CERTIFIED NURSE MIDWIVES, OB-FAMILY MEDICINE OB, MODEL GYN, OB-U OF M OBSTETRICS
+          - cell: AE13
+            code: NEURO, NEUROLOGY,  NG, NEE, NER, NNM, OGN, PNU
+            label: NEUROLOGY, NEUROLOGY GENERAL, NEUROLOGY EPILEPSY, NEUROLOGY EPILEPSY RESEARCH, NEUROLOGY NEUROMUSCULAR, OTO GREEN NEUROTOLOGY,
+              PEDIATRIC NEUROLOGY
+          - cell: AE15
+            code: OBSTET, MFM, OB, OBU, WH, OBB, OBM, OBW
+            label: OBSTETRICS, OB-MATERNAL FETAL MEDICINE, OBSTETRICS (TRIAGE), OBSTETRICS UH HOSP, OB-WOMEN'S HEALTH
+          - cell: AE19
+            code: PM&R, PMA, PMC, PMM, PMN, PMP, SSO, PMB, PMO
+            label: PHYSICAL MEDICINE AND REHABILITATION, PHYSICAL MEDICINE, PHYSICAL MEDICINE SPINAL CORD INJURY, PHYSICAL MEDICINE MEDICINE
+              (NOT PLACED ON 6A) PHYSICAL MEDICINE NEURO, PHYSICAL MEDICINE PEDIATRICS, SPORTS MEDICINE, PHYSICAL MEDICINE BRAIN, PHYSICAL
+              MEDICINE ONCOLOGY
+          - cell: AE28
+            code: ENDO, ENDOCRINOLOG, HIIP, PEN
+            label: ENDOCRINOLOGY, HOSP INTENSIVE INSULIN PGRM-CONSULT, PEDIATRIC ENDOCRINOLOGY
+          - cell: AE30
+            code: HEMA, HEMATOLOGY, MHE, MHO, MHP, PH
+            label: HEMATOLOGY, MEDICINE HEM, MEDICINE HEM ONCOLOGY, MEDICINE HEM PA, PEDIATRIC HEMATOLOGY
+          - cell: AE31
+            code: INFECTIOUS, INFECTIOUS D, IDA, IDP, PID
+            label: INFECTIOUS DISEASE, ADULT INFECTIOUS DISEASE-CONSULT, PEDS INFECTIOUS DISEASE-CONSULT, PEDIATRIC INFECTIOUS DISEASE
+          - cell: AE34
+            code: OPHTH, OPHTHALMOLOG, OPS, OPT, OPU, OPV, OPW, OPX
+            label: OPHTHALMOLOGY, OPHTHALMOLOGY PLASTIC, OPTHAMOLOGY CORNEA, OPHTHALMOLOGY GENERAL, OPHTHALMOLOGY GLAUCOMA, OPHTHAMOLOGY
+              NEURO, OPHTHAMOLOGY RETINA
+          - cell: AE36
+            code: PLASTIC SURG, PLASTICS, SPB, SPG, SPH, SPR
+            label: PLASTIC SURGERY, SURGERY PLASTIC BLUE, SURGERY PLASTIC GOLD, SURGERY PLASTIC HAND, SURGERY PLASTIC RED
+          - cell: AE110
+            code: ACE, MMSJ, MSJ
+            label: ED MMSJ PATIENTS, ST JOSEPH MERCY ANN ARBOR 10E(ED MSJ PATIENTS)
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI4
+            code: A, HWP, HWPR, RTN
+            label: Home or Self Care, Home or self-care with planned readmission
+          - cell: AI10
+            code: LBT, LWB, G, NA, DIV, DIVERTED, LWBS, LBTC, Super AOD, SUPER AOD, ED ERROR, OPTHALMOLOGY
+            label: Left Before Treatment Complete, Left Without Being Seen, Left Against Medical Advice, ED DISMISS - NEVER ARRIVED, ED
+              DISMISS - Diverted Elsewhere, ED DISMISS - DIRECT ADMIT
+          - cell: AI16
+            code: L&D, STL, AES, PES, CES
+            label: Labor and Delivery, Home Health Still A Patient
+          - cell: AI21
+            code: O, FHC, FHCPR
+            label: Federal Hospital, Federal health care facilirt with planned readmission
+          - cell: AI27
+            code: J, IRF, IRFPR
+            label: Rehab Facility, Inpatient rehabilitation facility (IRF) with planned readmission
+          - cell: AI28
+            code: K, LTCH, LTCHPR
+            label: Long Term Care, Long term care hospital (LTCH) with planned readmission
+          - cell: AI30
+            code: PSY, Q, PSYPR
+            label: Psychiatric with planned readmission, Psychiatric Hospital

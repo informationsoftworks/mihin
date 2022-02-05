@@ -90,3 +90,25 @@ domains:
           see:
           - cell: AI21
             code: '43, 88 '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: CVU, CVS, CAC, CAR, CAS, CGS, CI7, CS7, JVC, OC1, OPC
+            label: Cardiology Clinic, U M Cardio Assoc Research, Cardiology Assoc of UP, Cardiographic Services, Cardiac/Intermediate
+              Care Unit, Cariac South, Joint Venture Cardiology, Out Cardiac Care, Outpatient Cardiac Care
+          - cell: AE19
+            code: REH, ARC, CR, CRH, ERS, MRS, NMR, NRS, PT, RE3, RNH, RSP, SRS
+            label: ARC Addiction Rehab Outpatient, Communication Rehab, Cardiac Rehab, Escanaba Rehab Service, Marquette UP Rehab Services,
+              Neuromuscular Rehab, Negaunee UP Rehab Services, Physical Therapy, Rehabilitation Unit, Roubal Care & Rehab Center, Respiratory
+              Therapy, Sawyer Rehab Services
+          - cell: AE44
+            code: NU2, NSY, SNC
+            label: Nursery, Sick Newborn Care
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI9
+            code: 86, 06
+            label: 06 DC/XFER TO HOME HEALTH CARE, DC/XFER HH W PLANNED ACUTE CARE READMIT, 06 DC/XFER TO HOME HEALTH CARE

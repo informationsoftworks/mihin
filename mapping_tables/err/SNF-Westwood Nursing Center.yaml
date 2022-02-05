@@ -1,26 +1,5 @@
 base: SNF-Westwood Nursing Center
 domains:
-  audit:
-    files:
-    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Westwood Nursing Center ADT 2.0 table 10-31-16.xlsx
-      list:
-        error: Undefined code found in received HL7 data
-        level: Error
-        list:
-        - HL7 ID: '41850057379'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '2021052408561300000000'
-          field name: PID-30
-          field value: '""'
-          message count: 6
-          receiving org message ID: 43371820
-        - HL7 ID: '41875535818'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '2021070109110200000002'
-          field name: PV1-36
-          field value: '""'
-          message count: 11
-          receiving org message ID: 63924259
   load:
     files:
     - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Westwood Nursing Center ADT 2.0 table 10-31-16.xlsx

@@ -1,19 +1,5 @@
 base: OSF St. Francis Hospital & Medical Group
 domains:
-  audit:
-    files:
-    - filename: 2.0 Mapping Tables - Hospitals/OSF St. Francis Hospital & Medical Group ADT 2.0 table 10-3-19.xlsx
-      list:
-        error: Undefined code found in received HL7 data
-        level: Error
-        list:
-        - HL7 ID: '466142237'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-          HL7 timestamp: '20210522120718'
-          field name: PID-30
-          field value: '""'
-          message count: 10
-          receiving org message ID: 16410800
   load:
     files:
     - filename: 2.0 Mapping Tables - Hospitals/OSF St. Francis Hospital & Medical Group ADT 2.0 table 10-3-19.xlsx

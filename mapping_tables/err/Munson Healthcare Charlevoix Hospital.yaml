@@ -274,6 +274,56 @@ domains:
           - cell: AE95
             code: 'BAM/LB, Home Health Lab, Lab, Laboratory, Laboratory - Pathology, Laboratory - Specimen, Non Patient Lab, Outpatient
               Testing, Reference Lab, Specimen, '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE8
+            code: Surgery-Gynecology, Yearly Gynecological Exam, Inpatient GYN
+            label: Surgery-Gynecology, Yearly Gynecological Exam
+          - cell: AE13
+            code: ALS, Brain Injury, Brain Injury Peds/Adolescent, Cerebral Palsy, Concussion, Concussion Peds/Adolescent, Neurological
+              Disorders, Neurology, Neuropsych, Neuropsychology, Neuropsychology Peds/Adolescent, Stroke, Surgery-Neurology, Parkinson,
+              zzneurology
+            label: ALS, Brain Injury, Brain Injury Peds/Adolescent, Cerebral Palsy, Concussion, Concussion Peds/Adolescent, Neurological
+              Disorders, Neurology, Neuropsych, Neuropsychology, Neuropsychology Peds/Adolescent, OB - Not Delivered, Stroke, Surgery-Neurology,
+              PARKINSON, zzneurology
+          - cell: AE15
+            code: Gynecology-Obstetrics, OB - Aborted, OB-aborted GYN/SURG, OB- DEL C-SECT GYN/ST, OB- DEL C-section REP, OB - Delivered,
+              OB- Delivered C-sect, OB- Delivered StillBN, OBGL PRO FEES, OB/GYN, OB - Not Delivered, Obstetrics, Obstetrics/Gynecology,
+              OB
+            label: Gynecology-Obstetrics, OB - Aborted, OB - Aborted, OB-aborted GYN/SURG, OB- DEL C-SECT GYN/ST, OB- DEL C-section REP,
+              OB - Delivered, OB- Delivered C-sect, OB- Delivered StillBN, OBGL PRO FEES, OB/GYN
+          - cell: AE16
+            code: Cancer, Cancer Center, Oncology, Oncology Brain, Oncology Brain Peds/Adolescent, Onoclogy Peds/Adolescent, Oncology
+              Spinal, Oncology Spinal Peds/Adolescent, Radiation Oncology, Radiation therapy, surgery-Cancer
+            label: Cancer, Cancer Center, Oncology, Oncology Brain, Oncology Brain Peds/Adolescent, Onoclogy Peds/Adolescent, Oncology
+              Spinal, Oncology Spinal Peds/Adolescent, Radiation Oncology, Radiation therapy
+          - cell: AE19
+            code: Driver Rehabilitation, Inpatient Rehab, Other Rehab, Other Rehab Peds/Adolescent, Physical Therapy OP, Rehabiliation,
+              therapy, Therapy Multiple, therapy-OT, Therapy-OT Driving, Therapy-OT/PT, Therapy-OT/ST, Therapy-OT vision, Therapy-OT Vision
+              Peds, ,Therapy-PT, therapy-PT/OP/SP, Therapy-PT/OT/SP, Therapy-PT/OT/ST, Therapy PT/SP, Therapy PT/ST, Therapy-SP, therapy-ST,
+              therapy-TR, IV Therapy, Speech Therapy OP, Rehabilitation, Rehab OT, Rehab PT
+            label: Driver Rehabilitation, Inpatient Rehab, Other Rehab, Other Rehab Peds/Adolescent, Physical Therapy OP, Rehabiliation,
+              therapy, Therapy Multiple, therapy-OT, Therapy-OT Driving, Therapy-OT/PT, Therapy-OT/ST, Therapy-OT vision, Therapy-OT Vision
+              Peds, Therapy-PT, therapy-PT/OP/SP, Therapy-PT/OT/SP, Therapy-PT/OT/ST, Therapy PT/SP, Therapy PT/ST, Therapy-SP, therapy-ST,
+              therapy-TR, IV THERAPY, SPEECH THERAPY OP
+          - cell: AE20
+            code: Med/Surg, Surgery-General, Surgical, Offsite Surgical, Pre-Op, Pre-op Testing, Surgery, Inpatient Surgical, Medical/Surgical
+            label: Med/Surg, Surgery-General, Surgical, OFFSITE SURGICAL, PRE-OP, PRE-OP TESTING
+          - cell: AE24
+            code: Allergy-Immunology-Rheumatology, Immunization, Injection, Injection/Immunization, Injections, Lymphedema Multiple Sclerosis
+            label: Allergy-Immunology-Rheumatology, Immunization, Injection, Injection/Immunization, Injections, LYMPHEDEMA, MULTIPLE
+              SCLEROSIS
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI10
+            code: Left without being seen, Left Before Treatment Completed, Left Against Medical Advice, Against Medical Advice
+            label: Left without being seen, Left Before Treatment Completed, Left Against Medical Advice
+          - cell: AI25
+            code: Psychiatric Fac, Psychiatric Hosp Plan Readmt Acute Hsp
+            label: Psychiatric Fac, Psychiatric Hosp Plan Readmt Acute Hsp, Psychiatric Fac
       - error: OID appearing in multiple files
         level: Error
         list:

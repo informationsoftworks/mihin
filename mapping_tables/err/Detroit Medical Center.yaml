@@ -661,6 +661,23 @@ domains:
             code: 'MEDICAID  '
           - cell: AP907
             code: 'MEDICAID  '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: Cardiology, CAR, DAC, HYP
+            label: Cardiology, dac, hyp
+          - cell: AE13
+            code: Neurology, Brain Inj/Oncology, Brain Injury, Cerebral Vasculr ACC, Cerebral Vasculr ONC, CVA IP, Neutrotrauma, PM&R
+              NEURO, PM&R Non Traumatic Brain Injury, PM&R Non Traumatic Spinal Cord, PMR-Traumatic Brain Injury, CTR for SC Recov, Low
+              Intensity Debili
+            label: Neurology, Brain Inj/Oncology, brain injury, Cerebral Vasculr ACC, Cerebral Vasculr ONC, cva ip, NEUROTRAUMA, pm&r
+              neuro, pm&r non traumatic brain injury, pm&r non truamatic spinal cord, pmr-traumatic brain injury, ctr for sc recov
+          - cell: AE20
+            code: Surgery, Surgery (General), Surgery (General) 1, Surgery (General) 3, SUR
+            label: Surgery, Surgery (General), Surgery (General) 1, Surgery (General) 3
       - error: Possible mis-alignment of Hospital Values with MiHIN Value
         level: Warning
         list:

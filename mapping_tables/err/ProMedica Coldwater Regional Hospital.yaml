@@ -84,6 +84,14 @@ domains:
             code: 'HB ALT WORKERS COMP    '
           - cell: AP267
             code: 'PB ALT AETNA VISION '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE16
+            code: 118,Oncology,Med/Onc,Peds Hem Onc,Surgical Onc
+            label: Oncology,Peds Hem Onc,Surgical Onc
       - error: Possible mis-alignment of Hospital Values with MiHIN Value
         level: Warning
         list:

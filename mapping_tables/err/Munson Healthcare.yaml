@@ -452,3 +452,56 @@ domains:
           see:
           - cell: AM25
             code: 'OTH, CHD, UNK, DOM, 16, GCH, ng, '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE4
+            code: CAR, CP, EEG, CLT, NC, CCL
+            label: (CLN-CARDIOLOGY), CP (O/P CARDIOP THERAPY), EEG (O/P ELECTROENCEPHAL), CLT (CARDIOLITE), NC (O/P-NONINV CARDIOLO),
+              CCL (CARDIAC CATH LAB), CDU (O/P CARDIAC DX UNIT)
+          - cell: AE19
+            code: PMC, PTC, PT, KPT, PTE, CRH, AQT, PTP, PMR, ptw, OT, HAB, MAS, AQO, OTM, PDC, OTT, PTL, OCC, REH, PTW
+            label: (PHYSICAL MEDICINE CLINIC), PTC (O/P PT CRYSTAL LAKE), PT (O/P PHYS THERAPY), KPT (PHY TPY KINGSLEY), PTE (PHYSICAL
+              THERAPY EMPIRE), CRH (O/P CARDIAC REHAB), AQT (AQUATRIC THERAPY), PTP (PED PHYSICAL THERAPY), PMR (MULTIPLE REHAB SERV),
+              ptw (physical therapy west), OT (O/P-OCC THERAPY), HAB (I/P REHAB UNIT), MAS (O/P MASSAGE THERAPY), AQO (MCHC AQUA OCC TPY),
+              OTM (O/P-OCC THER-MUNSON), PDC (PT DIAGNOSTIC CENTER) OTE (OCC THERAPY EMPIRE), PTL (PHYSICAL THERAPY LEELANAU) OCC (OCC
+              HEALTH OUTPATIENT), REH (O/P REHAB THERAPY), PTW (PHYSICAL THERAPY WEST)
+          - cell: AE20
+            code: S, OPS, gfs, PSC, SFS, SRG, SUR, GFS
+            label: SUR (I/P SURGERY), OPS (O/P-SURGERY), gfs (surgery ground flr), PSC (PRE-SRUGICAL CLINIC), SFS (SURGERY SECOND FLR),
+              SRG (CLINIC-SURGERY), SUR (SURG), SUR (SURGERY-OFFICE), GFS (SURGERY GENERAL FLR)
+          - cell: AE32
+            code: NEP, NPH, AKI, LIT, 205797093
+            label: (O/P-NEPHROLOGY), (NEPHROLOGY CONSULT), AKI (ACUTE KIDNEY INJ), LIT (O/P-MOB LITHOTRIPSY), 205797093 (Dialysis Room),
+              BBL (O/P BEAUMONT BL LAB)
+          - cell: AE47
+            code: MTO, INF, FAC, EMR, PRF, PE, CYT, XLO, NM, IHR, SAL, LAB, SHS, TJC, OBM, NTC, OUT, FPM, CMD, ITC, NSR, UCK, RHC, UCN,
+              WMP, ivt, MED, PR, MCH, LTC, PDS, MDC, MMC, CE, KTC, XCL, MCL, WMC, INJ, OPE, RHW, ITO, SWB, WOC, EMG, SCL, HC, HCS, MTP,
+              OSL, BBL, AEG, NOR, UNK, PDM, DON, IVT, CLS, DEK, VFC
+            label: MTO (MEMORY TRAINING OT), INF (O/P-INFUSION THERAPY), FAC (O/P FOREXT AREA CLN), EMR (ELECTRONIC MED REC), PRF (PHYS
+              VISITS), PE (PATIENT EDUCATION), CYT (O/P-LAB CYT & HIST), XLO (NO CARE/NO CHARGES), NM (NUCLEAR MEDICINE SERIES), IHR (IV
+              HYDRATION RAD), SAL (SOUTH AIRPORT LAB), LAB (O/P-LABORATORY), SHS (TRAUMA AND ACUTE SURGERY SERVICES), TJC (THOMAS JUDD
+              CENTER), OBM (MATERNITY OBSERVATION), NTC (NUTRITIONAL CONSEL), OUT (O/P-MULTIPLE SERVICES), FPM (FAMILY PRACTICE MUNSON),
+              CMD (COUMADIN CLINIC), ITC (INTERLOCHEN THERAPY), NSR (O/P-NO SERVICES), UCK (URGENT CARE KMH), RHC (O/P-RURAL HEALTH CL),
+              UCN (URGENT CARE NORTH), WMP (WEIGHT MANAGEMENT PROGRAM), ivt (o/p-iv therapy), MED (I/P MEDICAL), PR (O/P PROCEDURE ROOM),
+              MCH (MUNSON COMM. HEALTH), LTC (LTC I/P LONG TERM CARE), PDS (O/P PHYSICIAN DSS), MDC (MULTI DISC CLINIC), MMC (MUNSON MED.
+              CENTER), CE (COMMUNITY EDUCATION), KTC (O/P KMH TEEN CLINIC), XCL (CANCELLED PROCEDURE), MCL (O/P MANCELONA LAB), WMC (WEIGHT
+              MNGT CLINIC), INJ (O/P-INJECTION), OPE (O/P EXTENDED STAY), RHW (RURAL HEALTH WELLNESS), ITO (INTERLOCHEN OT), SWB (I/P
+              SWING BED), WOC (STOMA THERAPY), EMG (O/P EMG SERVICES), SCL (SPECIALTY CLINIC), HC (O/P HOME CARE), HCS (HRT CLN STRUCTURAL),
+              MTP (MEMORY TRAINING PT), OSL (OFFSITE LAB), AEG (EEG AMBULATORY SERIES), NOR (O/P NORTHFLIGHT EMS) UNK (UNKNOWN), PDM (PHYSICIAN
+              DIAGNOSTIC MCHC), DON (DONOR SERVICE), IVT (O/P-IV THERAPY), CLS (CLINIC SPECIALIST), DEK (Diabetick Education), VFC (VACCINE
+              FOR CHILD)
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI4
+            code: 01, HOM, DA, OHC, SC, RDWF
+            label: Discharged to home or self care (routine discharge), Home or Self Care (I)
+          - cell: AI8
+            code: 05, AC, DE, ICF, CI, ICC, IC,IF, DOINSTO
+            label: "Discharged/transferred to another type of institution not defined elsewhere \nin this code list, Other Institution\
+              \ (I), Disch/Trans to Interm Care Fac (O), Cancer Center/Children's Hosp (I), TRAN TO CA/CHLD HOSP W PLAN READM, Jail"
+          - cell: AI9
+            code: 06,DF,HCHH,HUC,HSPR,HHHC, CPC
+            label: "Discharged/transferred to home under care of organized home health service \norganization, Home Under Care (I)"

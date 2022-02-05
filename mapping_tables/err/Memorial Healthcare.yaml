@@ -24,3 +24,12 @@ domains:
           see:
           - cell: AM24
             code: 'FF, FM '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-18
+          see:
+          - cell: AA26
+            code: AMB,CLIE,CLI,ER,IN,IRF,LTCH,NB,INO,POV,RCR,REF,SNF,SDC
+            label: Ambulatory Office Visit, Client, Clinical, Emergency, Inpatient, Inpatinet Rehabilitation Facility, Long Term Care
+              Hospital, Newborn, Observation, Provider Office Visit, Recurring, Referred, Skilled Nursing, Facility, Surgical Day Care

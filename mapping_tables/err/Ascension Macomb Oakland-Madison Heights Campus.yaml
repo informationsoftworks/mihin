@@ -1254,3 +1254,30 @@ domains:
             code: ' '
           - cell: AP1017
             code: ' '
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE19
+            code: Physical Medicine & Rehabilitation,  Physical Medicine and Rehabilitation,  Rehab,  Occupational Therapy, Balance and
+              Falls Clinic, Rehab Inpatient, Physical Therapy, Park Physical Therap, Farmington Phy Ther
+            label: Physical Medicine & Rehabilitation,  Rehab,  Occupational Therapy, Balance and Falls Clinic, Rehab Inpatient, Physical
+              Therapy, Park Physical Therap, Farmington Phy Ther
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI5
+            code: General Hosp w/Planned Acute Care Readm,  Short Term Hospital, Another Hospital,  Acute Care
+            label: General Hosp w/Planned Acute Care Readm,  Short Term Hospital, Another Hospital,  Acute Care, Transfer to Macomb, TFR
+              to Cancer or Children's Hosp
+          - cell: AI9
+            code: Home with Home Health Care,  Home Care with Home Health
+            label: Home with Home Health Care,  Home Care with Home Health, Home Health Bcbsm
+          - cell: AI20
+            code: Expired\, unknown place
+            label: Expired, unknown place, Expired  unknown place
+          - cell: AI30
+            code: Psych Hosp w/Planned Acute Care Readm,  Psychiatric Facility,  Psychiatric Hospital,  Discharge to Psychiatric Facility,
+              Discharge to Psychiatric Facilit
+            label: Psych Hosp w/Planned Acute Care Readm,  Psychiatric Facility,  Psychiatric Hospital,  Discharge to Psychiatric Facility,
+              Discharge to Psychiatric Facilit, Psych Hosp w/Planned Acute Care, Xfer To/Frm Psy/Rehb

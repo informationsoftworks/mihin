@@ -38,3 +38,12 @@ domains:
           see:
           - cell: AP2288
             code: ' CLAIMS'
+      - error: Number of Hospital Values does not match number of Descriptions
+        level: Error
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE11
+            code: APT, DTX, EMP, EXP, FRK, PAT, PRE, SMD, TMD, TMS, TNT, MMD, CMD,  BMD, VMD, AMD
+            label: ACC PRE-ADM TESTING, RESPITE - DAVIS RD, ASSOCIATE HEALTH, EXPOSURE, FRANKENMUTH, PRE-ADM O/P TESTING, PRE-ADM I/P
+              TESTING, MULTIPLE DEPARTMENTS, MULTIPLE DEPARTMENTS, OP MED SERVICES, NUTRITIONAL SERVICES, Saginaw multiple departments
