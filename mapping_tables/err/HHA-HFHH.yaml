@@ -2,53 +2,17 @@ base: HHA-HFHH
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-HFHH ADT 2.0 table 04-05-2021.xlsx
+    - filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-HFHH ADT 2.0 table 02-04-2022.xlsx
       list:
-      - error: Empty row found within segment specification
-        level: Warning
-        list:
-        - hl7 segment: PID-22
-          see:
-          - cell: I27
-          - cell: I28
-          - cell: I29
-          - cell: I30
-        - hl7 segment: PV1-18
-          see:
-          - cell: AA27
-          - cell: AA28
-          - cell: AA29
-          - cell: AA30
-        - hl7 segment: PV1-10
-          see:
-          - cell: AE27
-          - cell: AE28
-          - cell: AE29
-          - cell: AE30
-        - hl7 segment: PV1-36
-          see:
-          - cell: AI27
-          - cell: AI28
-          - cell: AI29
-          - cell: AI30
-        - hl7 segment: IN1-17
-          see:
-          - cell: AM27
-          - cell: AM28
-          - cell: AM29
-          - cell: AM30
-        - hl7 segment: IN1
-          see:
-          - cell: AP27
-          - cell: AP28
-          - cell: AP29
-          - cell: AP30
       - error: Incomplete, non-specific or abbreviated facility name
         level: Warning
         list:
         - hl7 segment: MSH-4
           see:
-          - cell: A32
+          - cell: A4
+            code: 2.16.840.1.113883.3.3823.400000322
+            label: HFMC BECK RD
+          - cell: A42
             code: 2.16.840.1.113883.3.3823.402002
             label: HFAH HOSPICE
       - error: Labels provided without code value
@@ -63,7 +27,7 @@ domains:
         list:
         - hl7 segment: PV1-18
           see:
-          - cell: AA36
+          - cell: AA28
             label: 'Organ '
         - hl7 segment: PV1-10
           see:
@@ -79,71 +43,67 @@ domains:
             label: ' \cc'
           - cell: AE19
             label: ' EPI'
-          - cell: AE67
+          - cell: AE63
             label: ' BCCH HLTH CNT - OB'
-          - cell: AE75
+          - cell: AE71
             label: 'Orthopedics '
-          - cell: AE93
+          - cell: AE89
             label: 'Physical Medicine and Rehabilitation, , , , , , , ,  ,, , , ,, '
-          - cell: AE102
+          - cell: AE98
             label: ' Recreational Therapy'
-          - cell: AE106
+          - cell: AE102
             label: ' Massage Therapy'
-          - cell: AE140
+          - cell: AE136
             label: ' Reproductive Endocrinology'
-          - cell: AE143
+          - cell: AE139
             label: ' Biochemical Genetics'
-          - cell: AE150
+          - cell: AE146
             label: 'Nephrology
 
               '
-          - cell: AE151
+          - cell: AE147
             label: ' Ped-nephrology'
-          - cell: AE153
+          - cell: AE149
             label: 'Pedatric Neurologic Surgery '
-          - cell: AE162
+          - cell: AE158
             label: ' Pediatric Ears,Nose,Throat'
-          - cell: AE168
+          - cell: AE164
             label: ' Ped-Rheumatology'
-          - cell: AE170
+          - cell: AE166
             label: ' Pedatric Urology'
-          - cell: AE173
+          - cell: AE169
             label: ' Prescription'
-          - cell: AE178
+          - cell: AE174
             label: ' Medical Toxicology'
-          - cell: AE190
+          - cell: AE186
             label: 'Wound/Ostomy Care '
-          - cell: AE195
+          - cell: AE191
             label: ' Lactation services'
-          - cell: AE229
+          - cell: AE225
             label: ' Womens Health '
-          - cell: AE233
+          - cell: AE229
             label: 'Palliative Medicine '
-          - cell: AE274
+          - cell: AE270
             label: 'Ped-Pathology '
-          - cell: AE276
+          - cell: AE272
             label: ' Pulmonology'
-          - cell: AE284
+          - cell: AE280
             label: ' Undersea/Hyperbaric'
-          - cell: AE292
+          - cell: AE288
             label: ' Spinal Cord Inj Med'
-          - cell: AE294
+          - cell: AE290
             label: 'Liver Biopsy '
-          - cell: AE303
+          - cell: AE299
             label: ' Bariatric Exercise'
-          - cell: AE320
+          - cell: AE316
             label: 'Cardiology - Vascular Medicine
 
 
               '
-          - cell: AE341
-            label: 'Administration, Telemetry, Cancelled Services, Confidential Files, CV Tracings Rec And Sent To Be M-Filmed, Documentation
-              To Be Kept For Hosp Ref., Medical Social Work, NWH, Received Records In The, Records Not Received In Department, Records
-              Off Site, RFP, Sent, Special Prcoedure Report, Charge Over Desk, '
-          - cell: AE342
-            label: 'Laboratory, Lab Screen, Multitest, Outpatient Collection Station, Outreach Lab Patients, offsite lab, outpatient lab, '
-          - cell: AE345
-            label: 'Non Patient        '
+          - cell: AE358
+            label: 'Non Patient         '
+          - cell: AE360
+            label: 'Outpatient Lab      '
         - hl7 segment: PV1-36
           see:
           - cell: AI8
@@ -159,13 +119,21 @@ domains:
             code: 'D '
         - hl7 segment: PV1-10
           see:
-          - cell: AE262
+          - cell: AE258
             code: '386, '
-          - cell: AE341
-            code: '159, 152, 200, 213, 214, 218, 244, 256, 296, 298, 299, 306, 309, 311, 340, '
-          - cell: AE342
-            code: '167, 237, 248, 267, 270, 354, 360, '
         - hl7 segment: IN1
           see:
-          - cell: AP143
+          - cell: AP139
             code: 'HENRY FORD '
+      - error: OID appearing in multiple files
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            files:
+            - cell: A4
+              filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-HFHH ADT 2.0 table 02-04-2022.xlsx
+            - cell: A375
+              filename: 2.0 Mapping Tables - Hospitals/HFPN ADT 2.0 table 11-18-2021.xlsx
+            oid: 2.16.840.1.113883.3.3823.400000322

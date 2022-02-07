@@ -1,38 +1,51 @@
-filename	0	0		2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-HFHH ADT 2.0 table 04-05-2021.xlsx			
+filename	0	0		2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-HFHH ADT 2.0 table 02-04-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
-MSH-4	4	1	2.16.840.1.113883.3.3823.112045	HFA ALLEGAINCE PALLIATIVE MEDICINE			00000000
-MSH-4	5	1	2.16.840.1.113883.3.3823.112046	HFA JACKSON PALLIATIVE PROF BLDG			00000000
-MSH-4	6	1	2.16.840.1.113883.3.3823.401001	HFHN EXTENDED CARE			00000000
+MSH-4	4	1	2.16.840.1.113883.3.3823.400000322	HFMC BECK RD			00000000
+MSH-4	5	1	2.16.840.1.113883.3.3823.401001	HFHN EXTENDED CARE			00000000
+MSH-4	6	1	2.16.840.1.113883.3.3823.4010010001	OFP EXTENDED CARE			00000000
 MSH-4	7	1	2.16.840.1.113883.3.3823.401002	HFHN NORTH HOME HEALTH CARE			00000000
-MSH-4	8	1	2.16.840.1.113883.3.3823.401003	HFHN NORTH HOME HEALTH CARE SITT			00000000
-MSH-4	9	1	2.16.840.1.113883.3.3823.401004	HFHN OFP HOME HELATH CARE THERAPY			00000000
-MSH-4	10	1	2.16.840.1.113883.3.3823.401005	HFHN EAST HOME HEALTH CARE			00000000
-MSH-4	11	1	2.16.840.1.113883.3.3823.401006	HFHN DOWNRIVER HOME HEALTH CARE			00000000
-MSH-4	12	1	2.16.840.1.113883.3.3823.401007	HFHN MACOMB HOSPICE			00000000
-MSH-4	13	1	2.16.840.1.113883.3.3823.401008	HFHN OAKLAND HOSPICE			00000000
-MSH-4	14	1	2.16.840.1.113883.3.3823.401009	HFHN DETROIT HOSPICE			00000000
-MSH-4	15	1	2.16.840.1.113883.3.3823.401010	HFHN WAYNE HOSPICE			00000000
-MSH-4	16	1	2.16.840.1.113883.3.3823.401012	HFHN DOWNRIVER HOME HEALTH PALLIATIVE			00000000
-MSH-4	17	1	2.16.840.1.113883.3.3823.401013	HFHN EAST HOME HEALTH PALLIATIVE			00000000
-MSH-4	18	1	2.16.840.1.113883.3.3823.401014	HFHN NORTH HOME HEALTH PALLIATIVE			00000000
-MSH-4	19	1	2.16.840.1.113883.3.3823.401015	HFHN NORTH HOME HEALTH PALLIATIVE SITT			00000000
-MSH-4	20	1	2.16.840.1.113883.3.3823.401016	HFHN OFP HOME HEALTH PALLIATIVE			00000000
-MSH-4	21	1	2.16.840.1.113883.3.3823.401017	HFHN MACOMB HOSPICE PALLIATIVE			00000000
-MSH-4	22	1	2.16.840.1.113883.3.3823.401018	HFHN OAKLAND HOSPICE PALLIATIVE			00000000
-MSH-4	23	1	2.16.840.1.113883.3.3823.401020	HFHN WAYNE HOSPICE PALLIATIVE			00000000
-MSH-4	24	1	2.16.840.1.113883.3.3823.401021	HFHN SAFE LANDING			00000000
-MSH-4	25	1	2.16.840.1.113883.3.3823.401022	HFHN PHYSICIAN HOSPICE			00000000
-MSH-4	26	1	2.16.840.1.113883.3.3823.401023	HFHN TELEHEALTH			00000000
-MSH-4	27	1	2.16.840.1.113883.3.3823.401024	HFHN OFP IN-HOME OPD THERAPIES			00000000
-MSH-4	28	1	2.16.840.1.113883.3.3823.4010240001	HHS:OFP IH PT:Home Health Services			00000000
-MSH-4	29	1	2.16.840.1.113883.3.3823.4010240002	HHS:OFP IH OT:Home Health Services			00000000
-MSH-4	30	1	2.16.840.1.113883.3.3823.4010240003	HHS:OFP IH SLP:Home Health Services			00000000
-MSH-4	31	1	2.16.840.1.113883.3.3823.402001	HFAH HOME HEALTH CARE			00000000
-MSH-4	32	1	2.16.840.1.113883.3.3823.402002	HFAH HOSPICE			00000000
-MSH-4	33	1	2.16.840.1.113883.3.3823.402005	HFAH PHYSICIAN HOSPICE			00000000
-MSH-4	34	1	2.16.840.1.113883.3.3823.402006	HFAF TELEHEALTH			00000000
-MSH-4	35	1	2.16.840.1.113883.3.3823.402007	HFAF HOSPICE PALLIATIVE			00000000
+MSH-4	8	1	2.16.840.1.113883.3.3823.4010020002	NORTH HOME HEALTH CARE HEALING AT HOME			00000000
+MSH-4	9	1	2.16.840.1.113883.3.3823.401003	HFHN NORTH HOME HEALTH CARE SITT			00000000
+MSH-4	10	1	2.16.840.1.113883.3.3823.401004	HFHN OFP HOME HELATH CARE THERAPY			00000000
+MSH-4	11	1	2.16.840.1.113883.3.3823.4010040001	OFP HOME HEALTH CARE THERAPY			00000000
+MSH-4	12	1	2.16.840.1.113883.3.3823.401005	HFHN EAST HOME HEALTH CARE			00000000
+MSH-4	13	1	2.16.840.1.113883.3.3823.4010050002	EAST HOME HEALTH CARE HEALING AT HOME			00000000
+MSH-4	14	1	2.16.840.1.113883.3.3823.401006	HFHN DOWNRIVER HOME HEALTH CARE			00000000
+MSH-4	15	1	2.16.840.1.113883.3.3823.4010060001	DOWNRIVER HOME HEALTH CARE			00000000
+MSH-4	16	1	2.16.840.1.113883.3.3823.4010060002	DOWNRIVER HOME HEALTH CARE HEALING AT HOME			00000000
+MSH-4	17	1	2.16.840.1.113883.3.3823.401007	HFHN MACOMB HOSPICE			00000000
+MSH-4	18	1	2.16.840.1.113883.3.3823.401008	HFHN OAKLAND HOSPICE			00000000
+MSH-4	19	1	2.16.840.1.113883.3.3823.401009	HFHN DETROIT HOSPICE			00000000
+MSH-4	20	1	2.16.840.1.113883.3.3823.401010	HFHN WAYNE HOSPICE			00000000
+MSH-4	21	1	2.16.840.1.113883.3.3823.401012	HFHN DOWNRIVER HOME HEALTH PALLIATIVE			00000000
+MSH-4	22	1	2.16.840.1.113883.3.3823.4010120001	DOWNRIVER HOME HEALTH PALLIATIVE			00000000
+MSH-4	23	1	2.16.840.1.113883.3.3823.401013	HFHN EAST HOME HEALTH PALLIATIVE			00000000
+MSH-4	24	1	2.16.840.1.113883.3.3823.4010130001	EAST HOME HEALTH PALLIATIVE			00000000
+MSH-4	25	1	2.16.840.1.113883.3.3823.401014	HFHN NORTH HOME HEALTH PALLIATIVE			00000000
+MSH-4	26	1	2.16.840.1.113883.3.3823.401015	HFHN NORTH HOME HEALTH PALLIATIVE SITT			00000000
+MSH-4	27	1	2.16.840.1.113883.3.3823.401016	HFHN OFP HOME HEALTH PALLIATIVE			00000000
+MSH-4	28	1	2.16.840.1.113883.3.3823.401017	HFHN MACOMB HOSPICE PALLIATIVE			00000000
+MSH-4	29	1	2.16.840.1.113883.3.3823.4010170001	MACOMB HOSPICE PALLIATIVE			00000000
+MSH-4	30	1	2.16.840.1.113883.3.3823.401018	HFHN OAKLAND HOSPICE PALLIATIVE			00000000
+MSH-4	31	1	2.16.840.1.113883.3.3823.4010180001	OAKLAND HOSPICE PALLIATIVE			00000000
+MSH-4	32	1	2.16.840.1.113883.3.3823.401020	HFHN WAYNE HOSPICE PALLIATIVE			00000000
+MSH-4	33	1	2.16.840.1.113883.3.3823.4010200001	WAYNE HOSPICE PALLIATIVE			00000000
+MSH-4	34	1	2.16.840.1.113883.3.3823.401021	HFHN SAFE LANDING			00000000
+MSH-4	35	1	2.16.840.1.113883.3.3823.401022	HFHN PHYSICIAN HOSPICE			00000000
+MSH-4	36	1	2.16.840.1.113883.3.3823.401023	HFHN TELEHEALTH			00000000
+MSH-4	37	1	2.16.840.1.113883.3.3823.401024	HFHN OFP IN-HOME OPD THERAPIES			00000000
+MSH-4	38	1	2.16.840.1.113883.3.3823.4010240001	HHS:OFP IH PT:Home Health Services			00000000
+MSH-4	39	1	2.16.840.1.113883.3.3823.4010240002	HHS:OFP IH OT:Home Health Services			00000000
+MSH-4	40	1	2.16.840.1.113883.3.3823.4010240003	HHS:OFP IH SLP:Home Health Services			00000000
+MSH-4	41	1	2.16.840.1.113883.3.3823.402001	HFAH HOME HEALTH CARE			00000000
+MSH-4	42	1	2.16.840.1.113883.3.3823.402002	HFAH HOSPICE			00000000
+MSH-4	43	1	2.16.840.1.113883.3.3823.4020020001	ALLEGIANCE HOSPICE			00000000
+MSH-4	44	1	2.16.840.1.113883.3.3823.402005	HFAH PHYSICIAN HOSPICE			00000000
+MSH-4	45	1	2.16.840.1.113883.3.3823.402006	HFAF TELEHEALTH			00000000
+MSH-4	46	1	2.16.840.1.113883.3.3823.4020060001	HFAH HH&H TELEHEALTH			00000000
+MSH-4	47	1	2.16.840.1.113883.3.3823.402007	HFAF HOSPICE PALLIATIVE			00000000
+MSH-4	48	1	2.16.840.1.113883.3.3823.4020070001	ALLEGIANCE HOSPICE PALLIATIVE			00000000
 PID-8	2	3	MiHIN Value	Description	Hospital Value		4
 PID-8	3	3	M	Male	M		2
 PID-8	4	3	F	Female	F		4
@@ -76,18 +89,18 @@ PID-22	23	9	ITA	Italian 	ITA		4
 PID-22	24	9	JA	Japanese 	JA		4
 PID-22	25	9	JE	Jewish 	JE		4
 PID-22	26	9	JO	Jordanian 	JO		4
-PID-22	31	9	KO	Korean 	KO		4
-PID-22	32	9	LE	Lebanese  	LE		4
-PID-22	33	9	MAC	Macedonian 	MAC		4
-PID-22	34	9	ME	Middle Eastern			4
-PID-22	35	9	MUL	Multi-Ethnic 	MUL		4
-PID-22	36	9	NA	Native American, Chippeaw/Ojibwe, 	NA		4
-PID-22	37	9	O	Other, African American, Albanian, Bangladeshi, Belgian, Czechoslovakian, Filipino, Finnish, Indian (not Native American), Jamaican, Nigerian, Palestinian, Romanian, Spanish (Spain), Syrian, Yemeni, Armenian, Hungarian, Hungerian, Maltese, Swedish, Taiwanese, Collect Later, English, Haitian, Hawaiian, Huron, Miscellaneous, Ottawa/Odawa, Persian, Potawatomi,	O		4
-PID-22	38	9	PO	Polish 	PO		4
-PID-22	39	9	RU	Russian 	RU		0
-PID-22	40	9	SC	Scottish 	SC		0
-PID-22	41	9	UK	Ukrainian 	UK		0
-PID-22	42	9	VIT	Vietnamese 	VIT		0
+PID-22	27	9	KO	Korean 	KO		4
+PID-22	28	9	LE	Lebanese  	LE		4
+PID-22	29	9	MAC	Macedonian 	MAC		4
+PID-22	30	9	ME	Middle Eastern			4
+PID-22	31	9	MUL	Multi-Ethnic 	MUL		4
+PID-22	32	9	NA	Native American, Chippeaw/Ojibwe, 	NA		4
+PID-22	33	9	O	Other, African American, Albanian, Bangladeshi, Belgian, Czechoslovakian, Filipino, Finnish, Indian (not Native American), Jamaican, Nigerian, Palestinian, Romanian, Spanish (Spain), Syrian, Yemeni, Armenian, Hungarian, Hungerian, Maltese, Swedish, Taiwanese, Collect Later, English, Haitian, Hawaiian, Huron, Miscellaneous, Ottawa/Odawa, Persian, Potawatomi,	O		4
+PID-22	34	9	PO	Polish 	PO		4
+PID-22	35	9	RU	Russian 	RU		4
+PID-22	36	9	SC	Scottish 	SC		4
+PID-22	37	9	UK	Ukrainian 	UK		4
+PID-22	38	9	VIT	Vietnamese 	VIT		4
 PID-30	2	12	MiHIN Value	Description	Hospital Value		4
 PID-30	3	12	Y	Expired	E		2
 PID-30	4	12	Y	Deceased/Yes	Y		4
@@ -127,7 +140,7 @@ PV1-4	11	21	TC	Trauma Center 	TC		4
 PV1-4	12	21	O	Other	O		4
 PV1-14	2	24	MiHIN Value	Description	Hospital Value		4
 PV1-14	3	24	2	Clinic referral	E		2
-PV1-14	4	24	1	Physician referral			4
+PV1-14	4	24	1	Physician referral	1		4
 PV1-14	5	24	2	Clinic referral	2		4
 PV1-14	6	24	3	HMO referral	3		4
 PV1-14	7	24	4	Transfer from a hospital	4		4
@@ -152,35 +165,21 @@ PV1-18	11	27	8	Staff Dependent	8	Staff Dependent	4
 PV1-18	12	27	9	Benefactor	9	Benefactor	4
 PV1-18	13	27	10	Employee Dependent	10	Employee Dependent	4
 PV1-18	14	27	11	Non-Employee	11	Non-Employee	4
-PV1-18	15	27	11	Non-Employee	41	Old Employee	4
-PV1-18	16	27	12	Volunteer	12	Volunteer	4
-PV1-18	17	27	13	Staff Physician	13	Staff Physician	4
-PV1-18	18	27	14	Non V.I.P			4
-PV1-18	19	27	15	Retired Employee	15	Retired Employee	4
-PV1-18	20	27	42	Homeless	42	Homeless	4
-PV1-18	21	27	44	Celebrity	44	Celebrity	4
-PV1-18	22	27	45	Donor	45	Donor	4
-PV1-18	23	27	46	Transplant	46	Transplant	4
-PV1-18	24	27	46	Transplant	61	Transplant Billed	4
-PV1-18	25	27	46	Transplant	55	Pre-Transplant	4
-PV1-18	26	27	46	Transplant	56	Post-Transplant	4
-PV1-18	31	27	47	Voucher	47	Voucher	4
-PV1-18	32	27	49	Board Member	48	Board Member	4
-PV1-18	33	27	49	Clergy	49	Clergy	4
-PV1-18	34	27	52	Other	52	Other	4
-PV1-18	35	27	58	Organ Donor	58	Organ Donor	4
-PV1-18	36	27	59	Organ 	59	Organ 	00000000
-PV1-18	37	27	60	Select Specialty	60	Select Specialty	00000000
-PV1-18	38	27			28	Chrysler Employee	00000000
-PV1-18	39	27			43	In	00000000
-PV1-18	40	27			50	Fungal Contamination	00000000
-PV1-18	41	27			51	Maternity Partner	00000000
-PV1-18	42	27			53	Rio Rancho Tribe Member	00000000
-PV1-18	43	27			54	Senior club	00000000
-PV1-18	44	27			63	Hospice	00000000
-PV1-18	45	27			64	Stem Cell Donor	00000000
-PV1-18	46	27			65	Seasons Hospice	00000000
-PV1-18	47	27			310301	International	00000000
+PV1-18	15	27	12	Volunteer	12	Volunteer	4
+PV1-18	16	27	13	Staff Physician	13	Staff Physician	4
+PV1-18	17	27	14	Non V.I.P	14	Non V.I.P	4
+PV1-18	18	27	15	Retired Employee	15	Retired Employee	4
+PV1-18	19	27	42	Homeless	42	Homeless	4
+PV1-18	20	27	44	Celebrity	44	Celebrity	4
+PV1-18	21	27	45	Donor	45	Donor	4
+PV1-18	22	27	46	Transplant	46	Transplant	4
+PV1-18	23	27	47	Voucher	47	Voucher	4
+PV1-18	24	27	48	Board Member	48	Board Member	4
+PV1-18	25	27	49	Clergy	49	Clergy	4
+PV1-18	26	27	52	Other	52	Other	4
+PV1-18	27	27	58	Organ Donor	58	Organ Donor	4
+PV1-18	28	27	59	Organ 	59	Organ 	4
+PV1-18	29	27	60	Select Specialty	60	Select Specialty	4
 PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
 PV1-10	3	31			121	Pediatrics	2
 PV1-10	4	31	104	Cardiology - General	104	Cardiology - General	4
@@ -206,326 +205,347 @@ PV1-10	23	31	108	Gastroenterology	439	Ped-Gastroenterology	4
 PV1-10	24	31	108	Gastroenterology	402	Metabolic Disease	4
 PV1-10	25	31	109	Gynecology	109	Gynecology	4
 PV1-10	26	31	109	Gynecology	210	Clinic gyn Care Patients	4
-PV1-10	31	31	110	Hospice Medicine	110	Hospice Medicine	4
-PV1-10	32	31	110	Hospice Medicine	155	Observation	4
-PV1-10	33	31	111	Medical Intensive Care	111	Medical Intensive Care	4
-PV1-10	34	31	112	Internal Medicine	112	Internal Medicine	4
-PV1-10	35	31	112	Internal Medicine	106	General Medicine	4
-PV1-10	36	31	112	Internal Medicine	174	Other Satellite Medicine	4
-PV1-10	37	31	112	Internal Medicine	195	Aspiration	4
-PV1-10	38	31	112	Internal Medicine	232	Health Clinic	4
-PV1-10	39	31	112	Internal Medicine	347	Home Care	4
-PV1-10	40	31	112	Internal Medicine	357	OMT	4
-PV1-10	41	31	112	Internal Medicine	367	Medical division 2	4
-PV1-10	42	31	112	Internal Medicine	388	Adult	4
-PV1-10	43	31	112	Internal Medicine	396	Medical Dept Service	4
-PV1-10	44	31	112	Internal Medicine	397	medical division 3	4
-PV1-10	45	31	112	Internal Medicine	398	medical division 4	4
-PV1-10	46	31	112	Internal Medicine	400	medical division 7-FRL	4
-PV1-10	47	31	112	Internal Medicine	401	Medical division 8-blm	4
-PV1-10	48	31	112	Internal Medicine	393	Executivie Medicine	4
-PV1-10	49	31	112	Internal Medicine	431	Nurse Practitioner	4
-PV1-10	50	31	112	Internal Medicine	443	Public Health/Preven	4
-PV1-10	51	31	112	Internal Medicine	254	Nurse notes	4
-PV1-10	52	31	114	Neuro ICU	114	Neuro ICU	4
-PV1-10	53	31	115	Neurology	115	Neurology	4
-PV1-10	54	31	115	Neurology	429	Neurodevelop Disability	4
-PV1-10	55	31	115	Neurology	430	Neuromusc Med & OMM	4
-PV1-10	56	31	115	Neurology	433	Neuro Child Neuro	4
-PV1-10	57	31	115	Neurology	279	Pediatric Neurology	4
-PV1-10	58	31	115	Neurology	415	Neurophysiology	4
-PV1-10	59	31	116	Neonatology	116	Neonatology	4
-PV1-10	60	31	116	Neonatology	285	Perinatologist Visit	4
-PV1-10	61	31	117	Obstetrics	117	Obstetrics	4
-PV1-10	62	31	117	Obstetrics	147	Maternal-Fetal Medicine	4
-PV1-10	63	31	117	Obstetrics	211	Clinic Ob Patients Only,	4
-PV1-10	64	31	117	Obstetrics	250	Non Stress Test	4
-PV1-10	65	31	117	Obstetrics	257	Ob Evaluation	4
-PV1-10	66	31	117	Obstetrics	258	Ob Not Delivered	4
-PV1-10	67	31	117	Obstetrics	336	 BCCH HLTH CNT - OB	4
-PV1-10	68	31	117	Obstetrics	231	Great Expections Lamaze/Breast	4
-PV1-10	69	31	118	Oncology	118	Oncology	4
-PV1-10	70	31	118	Oncology	444	Ped-Hemato/Oncology	4
-PV1-10	71	31	118	Oncology	166	Gynecology/Oncology,	4
-PV1-10	72	31	118	Oncology	240	LTC	4
-PV1-10	73	31	118	Oncology	358	ONC	4
-PV1-10	74	31	118	Oncology	484	Hematology and Oncology	4
-PV1-10	75	31	119	Orthopedics	119	Orthopedics 	4
-PV1-10	76	31	119	Orthopedics	173	Orthopeadics	4
-PV1-10	77	31	119	Orthopedics	382	Ortho Trauma	4
-PV1-10	78	31	119	Orthopedics	383	Ortho Joint Service	4
-PV1-10	79	31	119	Orthopedics	282	Pediatric Orthopedics	4
-PV1-10	80	31	119	Orthopedics	317	Sports Medicine	4
-PV1-10	81	31	119	Orthopedics	160	Athletic Medicine	4
-PV1-10	82	31	119	Orthopedics	235	ITB	4
-PV1-10	83	31	119	Orthopedics	259	Ortho Rad. From Other	4
-PV1-10	84	31	119	Orthopedics	410	Chiropractic	4
-PV1-10	85	31	119	Orthopedics	483	Sports Medicine	4
-PV1-10	86	31	121	Pediatrics	121	Pediatrics	4
-PV1-10	87	31	121	Pediatrics	275	Pediatric Clinic	4
-PV1-10	88	31	121	Pediatrics	277	Pediatric Medicine	4
-PV1-10	89	31	121	Pediatrics	390	Ford Serv. Teens/Adolescent	4
-PV1-10	90	31	121	Pediatrics	391	Teens / adolescent	4
-PV1-10	91	31	121	Pediatrics	209	Child Appraisal Center	4
-PV1-10	92	31	121	Pediatrics	333	Youth Partial Hospitalization	4
-PV1-10	93	31	123	Physical Medicine and Rehabilitation	123	Physical Medicine and Rehabilitation, , , , , , , ,  ,, , , ,, 	00000000
-PV1-10	94	31	123	Physical Medicine and Rehabilitation	177	Physical Therapy Handoff	00000000
-PV1-10	95	31	123	Physical Medicine and Rehabilitation	301	Rehabilitation	00000000
-PV1-10	96	31	123	Physical Medicine and Rehabilitation	349	Inpatient Rehab	00000000
-PV1-10	97	31	123	Physical Medicine and Rehabilitation	448	Physical Med/Rehab	00000000
-PV1-10	98	31	123	Physical Medicine and Rehabilitation	452	Ped-Rehab Medicine	00000000
-PV1-10	99	31	123	Physical Medicine and Rehabilitation	169	Occupational Therapy Handoff	00000000
-PV1-10	100	31	123	Physical Medicine and Rehabilitation	223	Electroconvulsive Therapy	00000000
-PV1-10	101	31	123	Physical Medicine and Rehabilitation	268	Outpatient Hand Therapy	00000000
-PV1-10	102	31	123	Physical Medicine and Rehabilitation	300	 Recreational Therapy	00000000
-PV1-10	103	31	123	Physical Medicine and Rehabilitation	332	Wyandotte Hospital Rehabilitation	00000000
-PV1-10	104	31	123	Physical Medicine and Rehabilitation	366	Schoenherr Pt	00000000
-PV1-10	105	31	123	Physical Medicine and Rehabilitation	460	Undersea Medicine	00000000
-PV1-10	106	31	123	Physical Medicine and Rehabilitation	462	 Massage Therapy	00000000
-PV1-10	107	31	124	General Surgery	124	General Surgery	00000000
-PV1-10	108	31	124	General Surgery	176	Pediatric Surgery	00000000
-PV1-10	109	31	124	General Surgery	283	Pediatric Surgery	00000000
-PV1-10	110	31	124	General Surgery	269	Outpatient Surgery	00000000
-PV1-10	111	31	124	General Surgery	370	Surgical Clinic	00000000
-PV1-10	112	31	124	General Surgery	377	Green Surgery	00000000
-PV1-10	113	31	124	General Surgery	378	White Surgery	00000000
-PV1-10	114	31	124	General Surgery	379	Purple Surgery	00000000
-PV1-10	115	31	124	General Surgery	288	Physician Surgical Inpatient Service	00000000
-PV1-10	116	31	124	General Surgery	289	Preadmission Testing Patient	00000000
-PV1-10	117	31	125	Surgical Intensive Care	125	Surgical Intensive Care	00000000
-PV1-10	118	31	126	Nephrology Transplant	126	Nephrology Transplant	00000000
-PV1-10	119	31	127	Acute Care Surgery	127	Acute Care Surgery	00000000
-PV1-10	120	31	127	Acute Care Surgery	186	Acute Care Surgery-Blue	00000000
-PV1-10	121	31	127	Acute Care Surgery	359	One-Day Surgery	00000000
-PV1-10	122	31	127	Acute Care Surgery	100	Ambulatory Surgery	00000000
-PV1-10	123	31	127	Acute Care Surgery	274	Pediatric Ambulatory Surgery	00000000
-PV1-10	124	31	128	Allergy & Immunology	128	Allergy & Immunology	00000000
-PV1-10	125	31	128	Allergy & Immunology	468	Allergy & Immunology	00000000
-PV1-10	126	31	128	Allergy & Immunology	413	Clinic Lab Derm Immunology	00000000
-PV1-10	127	31	128	Allergy & Immunology	414	Clinic/Lab Immunology	00000000
-PV1-10	128	31	129	Anesthesiology	129	Anesthesiology	00000000
-PV1-10	129	31	131	Dermatology	131	Dermatology	00000000
-PV1-10	130	31	131	Dermatology	436	Ped-Dermatology	00000000
-PV1-10	131	31	132	Family Medicine	132	Family Medicine	00000000
-PV1-10	132	31	132	Family Medicine	307	Riverside Family Physician Outreach Labs	00000000
-PV1-10	133	31	132	Family Medicine	348	Horizon Fam Med Ctr	00000000
-PV1-10	134	31	132	Family Medicine	170	Occupational Medicine	00000000
-PV1-10	135	31	132	Family Medicine	212	Community Care Clinic	00000000
-PV1-10	136	31	132	Family Medicine	287	Physical	00000000
-PV1-10	137	31	132	Family Medicine	304	Return to work	00000000
-PV1-10	138	31	133	Endocrinology	133	Endocrinology	00000000
-PV1-10	139	31	133	Endocrinology	438	Ped-Endocrinology	00000000
-PV1-10	140	31	133	Endocrinology	456	 Reproductive Endocrinology	00000000
-PV1-10	141	31	133	Endocrinology	342	Diabetic Treatment	00000000
-PV1-10	142	31	134	Genetics	134	Genetics	00000000
-PV1-10	143	31	134	Genetics	408	 Biochemical Genetics	00000000
-PV1-10	144	31	134	Genetics	412	Clinic Cytogenetics	00000000
-PV1-10	145	31	134	Genetics	417	Molecular Genetics	00000000
-PV1-10	146	31	134	Genetics	447	PHD Medical Genetics	00000000
-PV1-10	147	31	135	Hematology	135	Hematology	00000000
-PV1-10	148	31	136	Infectious Disease	136	Infectious Disease	00000000
-PV1-10	149	31	136	Infectious Disease	445	Ped-Infectious Disease	00000000
-PV1-10	150	31	137	Nephrology	137	Nephrology\n	00000000
-PV1-10	151	31	137	Nephrology	441	 Ped-nephrology	00000000
-PV1-10	152	31	138	Neurosurgery	138	Neurosurgery	00000000
-PV1-10	153	31	138	Neurosurgery	278	Pedatric Neurologic Surgery 	00000000
-PV1-10	154	31	139	Ophthalmology	28	Pediattric Opthalmology	00000000
-PV1-10	155	31	139	Ophthalmology	139	Ophthalmology	00000000
-PV1-10	156	31	139	Ophthalmology	171	Optometry	00000000
-PV1-10	157	31	140	Otolaryngology/ENT	140	Otolaryngology/ENT	00000000
-PV1-10	158	31	140	Otolaryngology/ENT	221	Ears Nosse & Throat	00000000
-PV1-10	159	31	140	Otolaryngology/ENT	345	ENT Rechecks - Op	00000000
-PV1-10	160	31	140	Otolaryngology/ENT	435	Otology/neurotology	00000000
-PV1-10	161	31	140	Otolaryngology/ENT	18886	neonatalotolarynofrogology	00000000
-PV1-10	162	31	140	Otolaryngology/ENT	276	 Pediatric Ears,Nose,Throat	00000000
-PV1-10	163	31	141	Plastic Surgery	141	Plastic Surgery	00000000
-PV1-10	164	31	141	Plastic Surgery	446	Plastic Surg Head/NK	00000000
-PV1-10	165	31	141	Plastic Surgery	458	Surgery Hand-Plastic	00000000
-PV1-10	166	31	143	Radiation Oncology	143	Radiation Oncology	00000000
-PV1-10	167	31	144	Rheumatology	144	Rheumatology	00000000
-PV1-10	168	31	144	Rheumatology	451	 Ped-Rheumatology	00000000
-PV1-10	169	31	145	Urology	145	Urology	00000000
-PV1-10	170	31	145	Urology	284	 Pedatric Urology	00000000
-PV1-10	171	31	148	Pharmacy	148	Pharmacy	00000000
-PV1-10	172	31	148	Pharmacy	253	Nuclear Medicine Pharmacy	00000000
-PV1-10	173	31	148	Pharmacy	291	 Prescription	00000000
-PV1-10	174	31	148	Pharmacy	217	DEX	00000000
-PV1-10	175	31	148	Pharmacy	230	Flu Serum Given	00000000
-PV1-10	176	31	148	Pharmacy	350	MER	00000000
-PV1-10	177	31	148	Pharmacy	426	Medical Microbiology	00000000
-PV1-10	178	31	148	Pharmacy	427	 Medical Toxicology	00000000
-PV1-10	179	31	148	Pharmacy	251	NOP	00000000
-PV1-10	180	31	149	Interventional Radiology	149	Interventional Radiology	00000000
-PV1-10	181	31	149	Interventional Radiology	183	Therapeutic Radiology	00000000
-PV1-10	182	31	149	Interventional Radiology	461	Vasc/Interv Radiology	00000000
-PV1-10	183	31	149	Interventional Radiology	234	Invasive Radiology Procedures	00000000
-PV1-10	184	31	149	Interventional Radiology	252	Nuclear Medicine	00000000
-PV1-10	185	31	149	Interventional Radiology	318	Stereotatic CHS	00000000
-PV1-10	186	31	150	Clinical Decision Unit	150	Clinical Decision Unit	00000000
-PV1-10	187	31	150	Clinical Decision Unit	323	T-Patients Held / Then Admitted	00000000
-PV1-10	188	31	150	Clinical Decision Unit	326	V-Patients Held / Then Admitted	00000000
-PV1-10	189	31	150	Clinical Decision Unit	346	ERM	00000000
-PV1-10	190	31	151	Wound/Ostomy Care	151	Wound/Ostomy Care 	00000000
-PV1-10	191	31	151	Wound/Ostomy Care	101	Burn	00000000
-PV1-10	192	31	151	Wound/Ostomy Care	205	Center For Wound Healing	00000000
-PV1-10	193	31	153	Newborn	153	Newborn	00000000
-PV1-10	194	31	153	Newborn	199	Breast Feeding Clinic	00000000
-PV1-10	195	31	153	Newborn	238	 Lactation services	00000000
-PV1-10	196	31	154	Labor and Delivery	154	Labor and Delivery	00000000
-PV1-10	197	31	154	Labor and Delivery	319	Stillborn	00000000
-PV1-10	198	31	154	Labor and Delivery	337	Boarder Baby	00000000
-PV1-10	199	31	156	Hospitalist Medicine	156	Hospitalist Medicine	00000000
-PV1-10	200	31	156	Hospitalist Medicine	168	Medical Admin. (Consults)	00000000
-PV1-10	201	31	156	Hospitalist Medicine	219	Dr Fanego Inpatient Service	00000000
-PV1-10	202	31	156	Hospitalist Medicine	272	Partial Hospitalization	00000000
-PV1-10	203	31	156	Hospitalist Medicine	292	Procedure	00000000
-PV1-10	204	31	156	Hospitalist Medicine	316	Spinal Tap	00000000
-PV1-10	205	31	156	Hospitalist Medicine	344	Dr Rogers Lab (Roh)	00000000
-PV1-10	206	31	156	Hospitalist Medicine	356	Pre-Admit	00000000
-PV1-10	207	31	156	Hospitalist Medicine	364	Pre-Admission Tests	00000000
-PV1-10	208	31	156	Hospitalist Medicine	403	Center for Integrative Medicine	00000000
-PV1-10	209	31	158	Select Specialty	158	Select Specialty	00000000
-PV1-10	210	31	158	Select Specialty	192	Adult Specialty Unit	00000000
-PV1-10	211	31	158	Select Specialty	201	Cardiovascular and Neurology Services	00000000
-PV1-10	212	31	158	Select Specialty	204	Cardiovascular/Neur. Servs.	00000000
-PV1-10	213	31	158	Select Specialty	255	Nutrition	00000000
-PV1-10	214	31	158	Select Specialty	265	Out Patient Death	00000000
-PV1-10	215	31	158	Select Specialty	226	ElopEment	00000000
-PV1-10	216	31	158	Select Specialty	263	Other	00000000
-PV1-10	217	31	161	Audiology	161	Audiology	00000000
-PV1-10	218	31	161	Audiology	196	Audiology Tracing Mirco-Filmed	00000000
-PV1-10	219	31	161	Audiology	266	Outpatient Audiology	00000000
-PV1-10	220	31	162	Behavioral Health - Psychology	162	Behavioral Health - Psychology	00000000
-PV1-10	221	31	162	Behavioral Health - Psychology	191	Adolescent Psyc	00000000
-PV1-10	222	31	162	Behavioral Health - Psychology	419	Developmental Behavioral Ped	00000000
-PV1-10	223	31	162	Behavioral Health - Psychology	454	Psychology	00000000
-PV1-10	224	31	162	Behavioral Health - Psychology	246	Mental Health Services	00000000
-PV1-10	225	31	162	Behavioral Health - Psychology	330	WHC Outpatient Mental	00000000
-PV1-10	226	31	163	Cardiology - Structural Heart Disease	163	Cardiology - Structural Heart Disease	00000000
-PV1-10	227	31	165	Colon/Rectal Surgery	165	Colon/Rectal Surgery	00000000
-PV1-10	228	31	166	Gynecology/Obstetrics	189	Abortion	00000000
-PV1-10	229	31	166	Gynecology/Obstetrics	157	 Womens Health 	00000000
-PV1-10	230	31	172	Oral Surgery	172	Oral Surgery	00000000
-PV1-10	231	31	172	Oral Surgery	281	Pedatric Oral Surgery	00000000
-PV1-10	232	31	172	Oral Surgery	216	Dental Services	00000000
-PV1-10	233	31	175	Palliative Medicine 	175	Palliative Medicine 	00000000
-PV1-10	234	31	178	Podiatry	178	Podiatry	00000000
-PV1-10	235	31	180	Radiology	180	Radiology	00000000
-PV1-10	236	31	180	Radiology	164	CAT Scan	00000000
-PV1-10	237	31	180	Radiology	193	Angiogram	00000000
-PV1-10	238	31	180	Radiology	194	Arteriogram	00000000
-PV1-10	239	31	180	Radiology	222	Electrocardiogram	00000000
-PV1-10	240	31	180	Radiology	224	Electromyelogram	00000000
-PV1-10	241	31	180	Radiology	225	Electromyocardiogram	00000000
-PV1-10	242	31	180	Radiology	242	Magnetic Resonance Angiography	00000000
-PV1-10	243	31	180	Radiology	243	Magnetic Resonance Imaging	00000000
-PV1-10	244	31	180	Radiology	247	MTC X-Ray	00000000
-PV1-10	245	31	180	Radiology	249	Myelogram	00000000
-PV1-10	246	31	180	Radiology	286	PET	00000000
-PV1-10	247	31	180	Radiology	324	Ultra Sound Biopsy	00000000
-PV1-10	248	31	180	Radiology	334	Angiography	00000000
-PV1-10	249	31	180	Radiology	351	MRI	00000000
-PV1-10	250	31	180	Radiology	352	Myelography	00000000
-PV1-10	251	31	180	Radiology	375	Ultrasound	00000000
-PV1-10	252	31	180	Radiology	392	EMI	00000000
-PV1-10	253	31	180	Radiology	428	Neuroradiology	00000000
-PV1-10	254	31	180	Radiology	434	Nuclear Radiology	00000000
-PV1-10	255	31	180	Radiology	450	Ped-Radiology	00000000
-PV1-10	256	31	180	Radiology	455	Radiology Physics	00000000
-PV1-10	257	31	180	Radiology	262	Ortho Xray Clinic	00000000
-PV1-10	258	31	180	Radiology	228	Eureka Radiology Clinic	00000000
-PV1-10	259	31	181	Sleep Center	181	Sleep Center	00000000
-PV1-10	260	31	181	Sleep Center	310	Sleep Center Lab	00000000
-PV1-10	261	31	185	Transplant	185	Transplant	00000000
-PV1-10	262	31	185	Transplant	386, 	CHF/Transplant	00000000
-PV1-10	263	31	198	Bone Marrow Transplant	198	Bone Marrow Transplant	00000000
-PV1-10	264	31	208	Chemotherapy	208	Chemotherapy	00000000
-PV1-10	265	31	273	Pathology	273	Pathology	00000000
-PV1-10	266	31	273	Pathology	405	Anatom/Clinic Pathol	00000000
-PV1-10	267	31	273	Pathology	411	Chemical Pathology	00000000
-PV1-10	268	31	273	Pathology	416	Clinical Pathology	00000000
-PV1-10	269	31	273	Pathology	418	Cytopathology	00000000
-PV1-10	270	31	273	Pathology	420	Dermatopathlogy	00000000
-PV1-10	271	31	273	Pathology	422	Forensic Pathology	00000000
-PV1-10	272	31	273	Pathology	424	Immunopathology	00000000
-PV1-10	273	31	273	Pathology	432	Neuropathology	00000000
-PV1-10	274	31	273	Pathology	442	Ped-Pathology 	00000000
-PV1-10	275	31	293	Pulmonary	293	Pulmonary	00000000
-PV1-10	276	31	293	Pulmonary	142	 Pulmonology	00000000
-PV1-10	277	31	293	Pulmonary	179	Pulmonary Disease	00000000
-PV1-10	278	31	293	Pulmonary	294	Pulmonary Rehab Phase 3	00000000
-PV1-10	279	31	293	Pulmonary	302	Respiratory Clinic	00000000
-PV1-10	280	31	293	Pulmonary	303	Respiratory Therapy Services	00000000
-PV1-10	281	31	293	Pulmonary	339	Cardio-Pulmonary	00000000
-PV1-10	282	31	293	Pulmonary	449	Ped-Pulmonology	00000000
-PV1-10	283	31	293	Pulmonary	264	Other Resp Proc	00000000
-PV1-10	284	31	293	Pulmonary	459	 Undersea/Hyperbaric	00000000
-PV1-10	285	31	322	Thoracic Surgery	322	Thoracic Surgery	00000000
-PV1-10	286	31	374	Transfusion Medicine	374	Transfusion Medicine	00000000
-PV1-10	287	31	374	Transfusion Medicine	197	Blood Transfusion	00000000
-PV1-10	288	31	374	Transfusion Medicine	236	IV Infusions	00000000
-PV1-10	289	31	376	Family Practice	376	Family Practice	00000000
-PV1-10	290	31	380	Orthopedic - Hand Surgery	380	Orthopedic - Hand Surgery	00000000
-PV1-10	291	31	381	Orthopedic - Spine	381	Orthopedic - Spine	00000000
-PV1-10	292	31	381	Orthopedic - Spine	457	 Spinal Cord Inj Med	00000000
-PV1-10	293	31	384	Hepatology	384	Hepatology	00000000
-PV1-10	294	31	384	Hepatology	239	Liver Biopsy 	00000000
-PV1-10	295	31	385	Pain Management	385	Pain Management	00000000
-PV1-10	296	31	385	Pain Management	361	Acute Perioperative Pain Control	00000000
-PV1-10	297	31	387	Urogynecology	387	Urogynecology	00000000
-PV1-10	298	31	399	Bone & Mineral	399	Bone & Mineral	00000000
-PV1-10	299	31	409	Cardiology - Electrophysiology	409	Cardiology - Electrophysiology	00000000
-PV1-10	300	31	463	Bariatric Surgery	463	Bariatric Surgery	00000000
-PV1-10	301	31	463	Bariatric Surgery	327	Weight management	00000000
-PV1-10	302	31	463	Bariatric Surgery	331	WOW Weight Manangement Program	00000000
-PV1-10	303	31	463	Bariatric Surgery	335	 Bariatric Exercise	00000000
-PV1-10	304	31	463	Bariatric Surgery	404	MWL	00000000
-PV1-10	305	31	464	Intensive Care	464	Intensive Care	00000000
-PV1-10	306	31	464	Intensive Care	103	Cardiac ICU	00000000
-PV1-10	307	31	464	Intensive Care	113	Neonatal ICU	00000000
-PV1-10	308	31	464	Intensive Care	120	Pediatric ICU	00000000
-PV1-10	309	31	465	Pulmonary Hypertension	465	Pulmonary Hypertension	00000000
-PV1-10	310	31	466	Pulmonary Transplant	466	Pulmonary Transplant	00000000
-PV1-10	311	31	467	Pulmonary Interventional	467	Pulmonary Interventional	00000000
-PV1-10	312	31	469	Transplant HPB Surgery	469	Transplant HPB Surgery	00000000
-PV1-10	313	31	470	Cardiothoracic Transplant	470	Cardiothoracic Transplant	00000000
-PV1-10	314	31	470	Cardiothoracic Transplant	130	Cardiothoracic Surgery	00000000
-PV1-10	315	31	471	Vascular Surgery	471	Vascular Surgery	00000000
-PV1-10	316	31	472	Speech Pathology	312	Speech, Language, and Pathology	00000000
-PV1-10	317	31	472	Speech Pathology	315	Speech, Pathology, and Audiology	00000000
-PV1-10	318	31	472	Speech Pathology	472	Speech Pathology	00000000
-PV1-10	319	31	473	Cardiology - Advanced Heart Failure/Transplant	473	Cardiology - Advanced Heart Failure/Transplant	00000000
-PV1-10	320	31	474	Cardiology - Vascular Medicine	474	Cardiology - Vascular Medicine\n\n	00000000
-PV1-10	321	31	474	Cardiology - Vascular Medicine	146	Vascular	00000000
-PV1-10	322	31	474	Cardiology - Vascular Medicine	202	Cardiovascular Clinic Phase Ii (Re-Hab)	00000000
-PV1-10	323	31	474	Cardiology - Vascular Medicine	203	Cardiovascular Clinic Phase Iii- Lincoln	00000000
-PV1-10	324	31	474	Cardiology - Vascular Medicine	325	Vascular Medicine	00000000
-PV1-10	325	31	475	Physiatry	475	Physiatry	00000000
-PV1-10	326	31	476	Orthopedic - Surgery	476	Orthopedic - Surgery	00000000
-PV1-10	327	31	477	Cardiovascular SICU	477	Cardiovascular SICU	00000000
-PV1-10	328	31	478	Behavioral Health - Neuropsychology	478	Behavioral Health - Neuropsychology	00000000
-PV1-10	329	31	479	Behavioral Health - Psychiatry	479	Behavioral Health	00000000
-PV1-10	330	31	479	Behavioral Health - Psychiatry	122	Psychiatry	00000000
-PV1-10	331	31	479	Behavioral Health - Psychiatry	406	Addiction Psychiatry	00000000
-PV1-10	332	31	479	Behavioral Health - Psychiatry	421	Forensic Psychiatry	00000000
-PV1-10	333	31	479	Behavioral Health - Psychiatry	423	Geriatric Psychiatry	00000000
-PV1-10	334	31	479	Behavioral Health - Psychiatry	182	Substance Abuse	00000000
-PV1-10	335	31	479	Behavioral Health - Psychiatry	329	WHC Outpatient Chemical Dependency	00000000
-PV1-10	336	31	480	Surgical Endoscopy	480	Surgical Endoscopy	00000000
-PV1-10	337	31	481	Ethics	481	Ethics	00000000
-PV1-10	338	31	482	Trauma Surgery	482	Trauma Surgery	00000000
-PV1-10	339	31		Long Term Acute Care	485	Long Term Acute Care	00000000
-PV1-10	340	31		Morgue	486	HFAH Jackson Co Morgue	00000000
-PV1-10	341	31			159, 152, 200, 213, 214, 218, 244, 256, 296, 298, 299, 306, 309, 311, 340, 	Administration, Telemetry, Cancelled Services, Confidential Files, CV Tracings Rec And Sent To Be M-Filmed, Documentation To Be Kept For Hosp Ref., Medical Social Work, NWH, Received Records In The, Records Not Received In Department, Records Off Site, RFP, Sent, Special Prcoedure Report, Charge Over Desk, 	00000000
-PV1-10	342	31			167, 237, 248, 267, 270, 354, 360, 	Laboratory, Lab Screen, Multitest, Outpatient Collection Station, Outreach Lab Patients, offsite lab, outpatient lab, 	00000000
-PV1-10	343	31			320	Terminated In Progress	00000000
-PV1-10	344	31			321	Test	00000000
-PV1-10	345	31			353	Non Patient        	00000000
-PV1-10	346	31			362	Pre Employment	00000000
-PV1-10	347	31			389	Ford Service Adult	00000000
-PV1-10	348	31			395	Lasalle	00000000
-PV1-10	349	31			407	Aerospace Medicine	00000000
-PV1-10	350	31			453	Do Not Use	00000000
+PV1-10	27	31	110	Hospice Medicine	110	Hospice Medicine	4
+PV1-10	28	31	110	Hospice Medicine	155	Observation	4
+PV1-10	29	31	111	Medical Intensive Care	111	Medical Intensive Care	4
+PV1-10	30	31	112	Internal Medicine	112	Internal Medicine	4
+PV1-10	31	31	112	Internal Medicine	106	General Medicine	4
+PV1-10	32	31	112	Internal Medicine	174	Other Satellite Medicine	4
+PV1-10	33	31	112	Internal Medicine	195	Aspiration	4
+PV1-10	34	31	112	Internal Medicine	232	Health Clinic	4
+PV1-10	35	31	112	Internal Medicine	347	Home Care	4
+PV1-10	36	31	112	Internal Medicine	357	OMT	4
+PV1-10	37	31	112	Internal Medicine	367	Medical division 2	4
+PV1-10	38	31	112	Internal Medicine	388	Adult	4
+PV1-10	39	31	112	Internal Medicine	396	Medical Dept Service	4
+PV1-10	40	31	112	Internal Medicine	397	medical division 3	4
+PV1-10	41	31	112	Internal Medicine	398	medical division 4	4
+PV1-10	42	31	112	Internal Medicine	400	medical division 7-FRL	4
+PV1-10	43	31	112	Internal Medicine	401	Medical division 8-blm	4
+PV1-10	44	31	112	Internal Medicine	393	Executivie Medicine	4
+PV1-10	45	31	112	Internal Medicine	431	Nurse Practitioner	4
+PV1-10	46	31	112	Internal Medicine	443	Public Health/Preven	4
+PV1-10	47	31	112	Internal Medicine	254	Nurse notes	4
+PV1-10	48	31	114	Neuro ICU	114	Neuro ICU	4
+PV1-10	49	31	115	Neurology	115	Neurology	4
+PV1-10	50	31	115	Neurology	429	Neurodevelop Disability	4
+PV1-10	51	31	115	Neurology	430	Neuromusc Med & OMM	4
+PV1-10	52	31	115	Neurology	433	Neuro Child Neuro	4
+PV1-10	53	31	115	Neurology	279	Pediatric Neurology	4
+PV1-10	54	31	115	Neurology	415	Neurophysiology	4
+PV1-10	55	31	116	Neonatology	116	Neonatology	4
+PV1-10	56	31	116	Neonatology	285	Perinatologist Visit	4
+PV1-10	57	31	117	Obstetrics	117	Obstetrics	4
+PV1-10	58	31	117	Obstetrics	147	Maternal-Fetal Medicine	4
+PV1-10	59	31	117	Obstetrics	211	Clinic Ob Patients Only,	4
+PV1-10	60	31	117	Obstetrics	250	Non Stress Test	4
+PV1-10	61	31	117	Obstetrics	257	Ob Evaluation	4
+PV1-10	62	31	117	Obstetrics	258	Ob Not Delivered	4
+PV1-10	63	31	117	Obstetrics	336	 BCCH HLTH CNT - OB	4
+PV1-10	64	31	117	Obstetrics	231	Great Expections Lamaze/Breast	4
+PV1-10	65	31	118	Oncology	118	Oncology	4
+PV1-10	66	31	118	Oncology	444	Ped-Hemato/Oncology	4
+PV1-10	67	31	118	Oncology	166	Gynecology/Oncology,	4
+PV1-10	68	31	118	Oncology	240	LTC	4
+PV1-10	69	31	118	Oncology	358	ONC	4
+PV1-10	70	31	118	Oncology	484	Hematology and Oncology	4
+PV1-10	71	31	119	Orthopedics	119	Orthopedics 	4
+PV1-10	72	31	119	Orthopedics	173	Orthopeadics	4
+PV1-10	73	31	119	Orthopedics	382	Ortho Trauma	4
+PV1-10	74	31	119	Orthopedics	383	Ortho Joint Service	4
+PV1-10	75	31	119	Orthopedics	282	Pediatric Orthopedics	4
+PV1-10	76	31	119	Orthopedics	317	Sports Medicine	4
+PV1-10	77	31	119	Orthopedics	160	Athletic Medicine	4
+PV1-10	78	31	119	Orthopedics	235	ITB	4
+PV1-10	79	31	119	Orthopedics	259	Ortho Rad. From Other	4
+PV1-10	80	31	119	Orthopedics	410	Chiropractic	4
+PV1-10	81	31	119	Orthopedics	483	Sports Medicine	4
+PV1-10	82	31	121	Pediatrics	121	Pediatrics	4
+PV1-10	83	31	121	Pediatrics	275	Pediatric Clinic	4
+PV1-10	84	31	121	Pediatrics	277	Pediatric Medicine	4
+PV1-10	85	31	121	Pediatrics	390	Ford Serv. Teens/Adolescent	4
+PV1-10	86	31	121	Pediatrics	391	Teens / adolescent	4
+PV1-10	87	31	121	Pediatrics	209	Child Appraisal Center	4
+PV1-10	88	31	121	Pediatrics	333	Youth Partial Hospitalization	4
+PV1-10	89	31	123	Physical Medicine and Rehabilitation	123	Physical Medicine and Rehabilitation, , , , , , , ,  ,, , , ,, 	4
+PV1-10	90	31	123	Physical Medicine and Rehabilitation	177	Physical Therapy Handoff	4
+PV1-10	91	31	123	Physical Medicine and Rehabilitation	301	Rehabilitation	4
+PV1-10	92	31	123	Physical Medicine and Rehabilitation	349	Inpatient Rehab	4
+PV1-10	93	31	123	Physical Medicine and Rehabilitation	448	Physical Med/Rehab	4
+PV1-10	94	31	123	Physical Medicine and Rehabilitation	452	Ped-Rehab Medicine	4
+PV1-10	95	31	123	Physical Medicine and Rehabilitation	169	Occupational Therapy Handoff	4
+PV1-10	96	31	123	Physical Medicine and Rehabilitation	223	Electroconvulsive Therapy	4
+PV1-10	97	31	123	Physical Medicine and Rehabilitation	268	Outpatient Hand Therapy	4
+PV1-10	98	31	123	Physical Medicine and Rehabilitation	300	 Recreational Therapy	4
+PV1-10	99	31	123	Physical Medicine and Rehabilitation	332	Wyandotte Hospital Rehabilitation	4
+PV1-10	100	31	123	Physical Medicine and Rehabilitation	366	Schoenherr Pt	4
+PV1-10	101	31	123	Physical Medicine and Rehabilitation	460	Undersea Medicine	4
+PV1-10	102	31	123	Physical Medicine and Rehabilitation	462	 Massage Therapy	4
+PV1-10	103	31	124	General Surgery	124	General Surgery	4
+PV1-10	104	31	124	General Surgery	176	Pediatric Surgery	4
+PV1-10	105	31	124	General Surgery	283	Pediatric Surgery	4
+PV1-10	106	31	124	General Surgery	269	Outpatient Surgery	4
+PV1-10	107	31	124	General Surgery	370	Surgical Clinic	4
+PV1-10	108	31	124	General Surgery	377	Green Surgery	4
+PV1-10	109	31	124	General Surgery	378	White Surgery	4
+PV1-10	110	31	124	General Surgery	379	Purple Surgery	4
+PV1-10	111	31	124	General Surgery	288	Physician Surgical Inpatient Service	4
+PV1-10	112	31	124	General Surgery	289	Preadmission Testing Patient	4
+PV1-10	113	31	125	Surgical Intensive Care	125	Surgical Intensive Care	4
+PV1-10	114	31	126	Nephrology Transplant	126	Nephrology Transplant	4
+PV1-10	115	31	127	Acute Care Surgery	127	Acute Care Surgery	4
+PV1-10	116	31	127	Acute Care Surgery	186	Acute Care Surgery-Blue	4
+PV1-10	117	31	127	Acute Care Surgery	359	One-Day Surgery	4
+PV1-10	118	31	127	Acute Care Surgery	100	Ambulatory Surgery	4
+PV1-10	119	31	127	Acute Care Surgery	274	Pediatric Ambulatory Surgery	4
+PV1-10	120	31	128	Allergy & Immunology	128	Allergy & Immunology	4
+PV1-10	121	31	128	Allergy & Immunology	468	Allergy & Immunology	4
+PV1-10	122	31	128	Allergy & Immunology	413	Clinic Lab Derm Immunology	4
+PV1-10	123	31	128	Allergy & Immunology	414	Clinic/Lab Immunology	4
+PV1-10	124	31	129	Anesthesiology	129	Anesthesiology	4
+PV1-10	125	31	131	Dermatology	131	Dermatology	4
+PV1-10	126	31	131	Dermatology	436	Ped-Dermatology	4
+PV1-10	127	31	132	Family Medicine	132	Family Medicine	4
+PV1-10	128	31	132	Family Medicine	307	Riverside Family Physician Outreach Labs	4
+PV1-10	129	31	132	Family Medicine	348	Horizon Fam Med Ctr	4
+PV1-10	130	31	132	Family Medicine	170	Occupational Medicine	4
+PV1-10	131	31	132	Family Medicine	212	Community Care Clinic	4
+PV1-10	132	31	132	Family Medicine	287	Physical	4
+PV1-10	133	31	132	Family Medicine	304	Return to work	4
+PV1-10	134	31	133	Endocrinology	133	Endocrinology	4
+PV1-10	135	31	133	Endocrinology	438	Ped-Endocrinology	4
+PV1-10	136	31	133	Endocrinology	456	 Reproductive Endocrinology	4
+PV1-10	137	31	133	Endocrinology	342	Diabetic Treatment	4
+PV1-10	138	31	134	Genetics	134	Genetics	4
+PV1-10	139	31	134	Genetics	408	 Biochemical Genetics	4
+PV1-10	140	31	134	Genetics	412	Clinic Cytogenetics	4
+PV1-10	141	31	134	Genetics	417	Molecular Genetics	4
+PV1-10	142	31	134	Genetics	447	PHD Medical Genetics	4
+PV1-10	143	31	135	Hematology	135	Hematology	4
+PV1-10	144	31	136	Infectious Disease	136	Infectious Disease	4
+PV1-10	145	31	136	Infectious Disease	445	Ped-Infectious Disease	4
+PV1-10	146	31	137	Nephrology	137	Nephrology\n	4
+PV1-10	147	31	137	Nephrology	441	 Ped-nephrology	4
+PV1-10	148	31	138	Neurosurgery	138	Neurosurgery	4
+PV1-10	149	31	138	Neurosurgery	278	Pedatric Neurologic Surgery 	4
+PV1-10	150	31	139	Ophthalmology	28	Pediatric Opthalmology	4
+PV1-10	151	31	139	Ophthalmology	139	Ophthalmology	4
+PV1-10	152	31	139	Ophthalmology	171	Optometry	4
+PV1-10	153	31	140	Otolaryngology/ENT	140	Otolaryngology/ENT	4
+PV1-10	154	31	140	Otolaryngology/ENT	221	Ears Nosse & Throat	4
+PV1-10	155	31	140	Otolaryngology/ENT	345	ENT Rechecks - Op	4
+PV1-10	156	31	140	Otolaryngology/ENT	435	Otology/neurotology	4
+PV1-10	157	31	140	Otolaryngology/ENT	18886	neonatalotolarynofrogology	4
+PV1-10	158	31	140	Otolaryngology/ENT	276	 Pediatric Ears,Nose,Throat	4
+PV1-10	159	31	141	Plastic Surgery	141	Plastic Surgery	4
+PV1-10	160	31	141	Plastic Surgery	446	Plastic Surg Head/NK	4
+PV1-10	161	31	141	Plastic Surgery	458	Surgery Hand-Plastic	4
+PV1-10	162	31	143	Radiation Oncology	143	Radiation Oncology	4
+PV1-10	163	31	144	Rheumatology	144	Rheumatology	4
+PV1-10	164	31	144	Rheumatology	451	 Ped-Rheumatology	4
+PV1-10	165	31	145	Urology	145	Urology	4
+PV1-10	166	31	145	Urology	284	 Pedatric Urology	4
+PV1-10	167	31	148	Pharmacy	148	Pharmacy	4
+PV1-10	168	31	148	Pharmacy	253	Nuclear Medicine Pharmacy	4
+PV1-10	169	31	148	Pharmacy	291	 Prescription	4
+PV1-10	170	31	148	Pharmacy	217	DEX	4
+PV1-10	171	31	148	Pharmacy	230	Flu Serum Given	4
+PV1-10	172	31	148	Pharmacy	350	MER	4
+PV1-10	173	31	148	Pharmacy	426	Medical Microbiology	4
+PV1-10	174	31	148	Pharmacy	427	 Medical Toxicology	4
+PV1-10	175	31	148	Pharmacy	251	NOP	4
+PV1-10	176	31	149	Interventional Radiology	149	Interventional Radiology	4
+PV1-10	177	31	149	Interventional Radiology	183	Therapeutic Radiology	4
+PV1-10	178	31	149	Interventional Radiology	461	Vasc/Interv Radiology	4
+PV1-10	179	31	149	Interventional Radiology	234	Invasive Radiology Procedures	4
+PV1-10	180	31	149	Interventional Radiology	252	Nuclear Medicine	4
+PV1-10	181	31	149	Interventional Radiology	318	Stereotatic CHS	4
+PV1-10	182	31	150	Clinical Decision Unit	150	Clinical Decision Unit	4
+PV1-10	183	31	150	Clinical Decision Unit	323	T-Patients Held / Then Admitted	4
+PV1-10	184	31	150	Clinical Decision Unit	326	V-Patients Held / Then Admitted	4
+PV1-10	185	31	150	Clinical Decision Unit	346	ERM	4
+PV1-10	186	31	151	Wound/Ostomy Care	151	Wound/Ostomy Care 	4
+PV1-10	187	31	151	Wound/Ostomy Care	101	Burn	4
+PV1-10	188	31	151	Wound/Ostomy Care	205	Center For Wound Healing	4
+PV1-10	189	31	153	Newborn	153	Newborn	4
+PV1-10	190	31	153	Newborn	199	Breast Feeding Clinic	4
+PV1-10	191	31	153	Newborn	238	 Lactation services	4
+PV1-10	192	31	154	Labor and Delivery	154	Labor and Delivery	4
+PV1-10	193	31	154	Labor and Delivery	319	Stillborn	4
+PV1-10	194	31	154	Labor and Delivery	337	Boarder Baby	4
+PV1-10	195	31	156	Hospitalist Medicine	156	Hospitalist Medicine	4
+PV1-10	196	31	156	Hospitalist Medicine	168	Medical Admin. (Consults)	4
+PV1-10	197	31	156	Hospitalist Medicine	219	Dr Fanego Inpatient Service	4
+PV1-10	198	31	156	Hospitalist Medicine	272	Partial Hospitalization	4
+PV1-10	199	31	156	Hospitalist Medicine	292	Procedure	4
+PV1-10	200	31	156	Hospitalist Medicine	316	Spinal Tap	4
+PV1-10	201	31	156	Hospitalist Medicine	344	Dr Rogers Lab (Roh)	4
+PV1-10	202	31	156	Hospitalist Medicine	356	Pre-Admit	4
+PV1-10	203	31	156	Hospitalist Medicine	364	Pre-Admission Tests	4
+PV1-10	204	31	156	Hospitalist Medicine	403	Center for Integrative Medicine	4
+PV1-10	205	31	158	Select Specialty	158	Select Specialty	4
+PV1-10	206	31	158	Select Specialty	192	Adult Specialty Unit	4
+PV1-10	207	31	158	Select Specialty	201	Cardiovascular and Neurology Services	4
+PV1-10	208	31	158	Select Specialty	204	Cardiovascular/Neur. Servs.	4
+PV1-10	209	31	158	Select Specialty	255	Nutrition	4
+PV1-10	210	31	158	Select Specialty	265	Out Patient Death	4
+PV1-10	211	31	158	Select Specialty	226	ElopEment	4
+PV1-10	212	31	158	Select Specialty	263	Other	4
+PV1-10	213	31	161	Audiology	161	Audiology	4
+PV1-10	214	31	161	Audiology	196	Audiology Tracing Mirco-Filmed	4
+PV1-10	215	31	161	Audiology	266	Outpatient Audiology	4
+PV1-10	216	31	162	Behavioral Health - Psychology	162	Behavioral Health - Psychology	4
+PV1-10	217	31	162	Behavioral Health - Psychology	191	Adolescent Psyc	4
+PV1-10	218	31	162	Behavioral Health - Psychology	419	Developmental Behavioral Ped	4
+PV1-10	219	31	162	Behavioral Health - Psychology	454	Psychology	4
+PV1-10	220	31	162	Behavioral Health - Psychology	246	Mental Health Services	4
+PV1-10	221	31	162	Behavioral Health - Psychology	330	WHC Outpatient Mental	4
+PV1-10	222	31	163	Cardiology - Structural Heart Disease	163	Cardiology - Structural Heart Disease	4
+PV1-10	223	31	165	Colon/Rectal Surgery	165	Colon/Rectal Surgery	4
+PV1-10	224	31	166	Gynecology/Obstetrics	189	Abortion	4
+PV1-10	225	31	166	Gynecology/Obstetrics	157	 Womens Health 	4
+PV1-10	226	31	172	Oral Surgery	172	Oral Surgery	4
+PV1-10	227	31	172	Oral Surgery	281	Pedatric Oral Surgery	4
+PV1-10	228	31	172	Oral Surgery	216	Dental Services	4
+PV1-10	229	31	175	Palliative Medicine 	175	Palliative Medicine 	4
+PV1-10	230	31	178	Podiatry	178	Podiatry	4
+PV1-10	231	31	180	Radiology	180	Radiology	4
+PV1-10	232	31	180	Radiology	164	CAT Scan	4
+PV1-10	233	31	180	Radiology	193	Angiogram	4
+PV1-10	234	31	180	Radiology	194	Arteriogram	4
+PV1-10	235	31	180	Radiology	222	Electrocardiogram	4
+PV1-10	236	31	180	Radiology	224	Electromyelogram	4
+PV1-10	237	31	180	Radiology	225	Electromyocardiogram	4
+PV1-10	238	31	180	Radiology	242	Magnetic Resonance Angiography	4
+PV1-10	239	31	180	Radiology	243	Magnetic Resonance Imaging	4
+PV1-10	240	31	180	Radiology	247	MTC X-Ray	4
+PV1-10	241	31	180	Radiology	249	Myelogram	4
+PV1-10	242	31	180	Radiology	286	PET	4
+PV1-10	243	31	180	Radiology	324	Ultra Sound Biopsy	4
+PV1-10	244	31	180	Radiology	334	Angiography	4
+PV1-10	245	31	180	Radiology	351	MRI	4
+PV1-10	246	31	180	Radiology	352	Myelography	4
+PV1-10	247	31	180	Radiology	375	Ultrasound	4
+PV1-10	248	31	180	Radiology	392	EMI	4
+PV1-10	249	31	180	Radiology	428	Neuroradiology	4
+PV1-10	250	31	180	Radiology	434	Nuclear Radiology	4
+PV1-10	251	31	180	Radiology	450	Ped-Radiology	4
+PV1-10	252	31	180	Radiology	455	Radiology Physics	4
+PV1-10	253	31	180	Radiology	262	Ortho Xray Clinic	4
+PV1-10	254	31	180	Radiology	228	Eureka Radiology Clinic	4
+PV1-10	255	31	181	Sleep Center	181	Sleep Center	4
+PV1-10	256	31	181	Sleep Center	310	Sleep Center Lab	4
+PV1-10	257	31	185	Transplant	185	Transplant	4
+PV1-10	258	31	185	Transplant	386, 	CHF/Transplant	4
+PV1-10	259	31	198	Bone Marrow Transplant	198	Bone Marrow Transplant	4
+PV1-10	260	31	208	Chemotherapy	208	Chemotherapy	4
+PV1-10	261	31	273	Pathology	273	Pathology	4
+PV1-10	262	31	273	Pathology	405	Anatom/Clinic Pathol	4
+PV1-10	263	31	273	Pathology	411	Chemical Pathology	4
+PV1-10	264	31	273	Pathology	416	Clinical Pathology	4
+PV1-10	265	31	273	Pathology	418	Cytopathology	4
+PV1-10	266	31	273	Pathology	420	Dermatopathlogy	4
+PV1-10	267	31	273	Pathology	422	Forensic Pathology	4
+PV1-10	268	31	273	Pathology	424	Immunopathology	4
+PV1-10	269	31	273	Pathology	432	Neuropathology	4
+PV1-10	270	31	273	Pathology	442	Ped-Pathology 	4
+PV1-10	271	31	293	Pulmonary	293	Pulmonary	4
+PV1-10	272	31	293	Pulmonary	142	 Pulmonology	4
+PV1-10	273	31	293	Pulmonary	179	Pulmonary Disease	4
+PV1-10	274	31	293	Pulmonary	294	Pulmonary Rehab Phase 3	4
+PV1-10	275	31	293	Pulmonary	302	Respiratory Clinic	4
+PV1-10	276	31	293	Pulmonary	303	Respiratory Therapy Services	4
+PV1-10	277	31	293	Pulmonary	339	Cardio-Pulmonary	4
+PV1-10	278	31	293	Pulmonary	449	Ped-Pulmonology	4
+PV1-10	279	31	293	Pulmonary	264	Other Resp Proc	4
+PV1-10	280	31	293	Pulmonary	459	 Undersea/Hyperbaric	4
+PV1-10	281	31	322	Thoracic Surgery	322	Thoracic Surgery	4
+PV1-10	282	31	374	Transfusion Medicine	374	Transfusion Medicine	4
+PV1-10	283	31	374	Transfusion Medicine	197	Blood Transfusion	4
+PV1-10	284	31	374	Transfusion Medicine	236	IV Infusions	4
+PV1-10	285	31	376	Family Practice	376	Family Practice	4
+PV1-10	286	31	380	Orthopedic - Hand Surgery	380	Orthopedic - Hand Surgery	4
+PV1-10	287	31	381	Orthopedic - Spine	381	Orthopedic - Spine	4
+PV1-10	288	31	381	Orthopedic - Spine	457	 Spinal Cord Inj Med	4
+PV1-10	289	31	384	Hepatology	384	Hepatology	4
+PV1-10	290	31	384	Hepatology	239	Liver Biopsy 	4
+PV1-10	291	31	385	Pain Management	385	Pain Management	4
+PV1-10	292	31	385	Pain Management	361	Acute Perioperative Pain Control	4
+PV1-10	293	31	387	Urogynecology	387	Urogynecology	4
+PV1-10	294	31	399	Bone & Mineral	399	Bone & Mineral	4
+PV1-10	295	31	409	Cardiology - Electrophysiology	409	Cardiology - Electrophysiology	4
+PV1-10	296	31	463	Bariatric Surgery	463	Bariatric Surgery	4
+PV1-10	297	31	463	Bariatric Surgery	327	Weight management	4
+PV1-10	298	31	463	Bariatric Surgery	331	WOW Weight Manangement Program	4
+PV1-10	299	31	463	Bariatric Surgery	335	 Bariatric Exercise	4
+PV1-10	300	31	463	Bariatric Surgery	404	MWL	4
+PV1-10	301	31	464	Intensive Care	464	Intensive Care	4
+PV1-10	302	31	464	Intensive Care	103	Cardiac ICU	4
+PV1-10	303	31	464	Intensive Care	113	Neonatal ICU	4
+PV1-10	304	31	464	Intensive Care	120	Pediatric ICU	4
+PV1-10	305	31	465	Pulmonary Hypertension	465	Pulmonary Hypertension	4
+PV1-10	306	31	466	Pulmonary Transplant	466	Pulmonary Transplant	4
+PV1-10	307	31	467	Pulmonary Interventional	467	Pulmonary Interventional	4
+PV1-10	308	31	469	Transplant HPB Surgery	469	Transplant HPB Surgery	4
+PV1-10	309	31	470	Cardiothoracic Transplant	470	Cardiothoracic Transplant	4
+PV1-10	310	31	470	Cardiothoracic Transplant	130	Cardiothoracic Surgery	4
+PV1-10	311	31	471	Vascular Surgery	471	Vascular Surgery	4
+PV1-10	312	31	472	Speech Pathology	312	Speech, Language, and Pathology	4
+PV1-10	313	31	472	Speech Pathology	315	Speech, Pathology, and Audiology	4
+PV1-10	314	31	472	Speech Pathology	472	Speech Pathology	4
+PV1-10	315	31	473	Cardiology - Advanced Heart Failure/Transplant	473	Cardiology - Advanced Heart Failure/Transplant	4
+PV1-10	316	31	474	Cardiology - Vascular Medicine	474	Cardiology - Vascular Medicine\n\n	4
+PV1-10	317	31	474	Cardiology - Vascular Medicine	146	Vascular	4
+PV1-10	318	31	474	Cardiology - Vascular Medicine	202	Cardiovascular Clinic Phase Ii (Re-Hab)	4
+PV1-10	319	31	474	Cardiology - Vascular Medicine	203	Cardiovascular Clinic Phase Iii- Lincoln	4
+PV1-10	320	31	474	Cardiology - Vascular Medicine	325	Vascular Medicine	4
+PV1-10	321	31	475	Physiatry	475	Physiatry	4
+PV1-10	322	31	476	Orthopedic - Surgery	476	Orthopedic - Surgery	4
+PV1-10	323	31	477	Cardiovascular SICU	477	Cardiovascular SICU	4
+PV1-10	324	31	478	Behavioral Health - Neuropsychology	478	Behavioral Health - Neuropsychology	4
+PV1-10	325	31	479	Behavioral Health - Psychiatry	479	Behavioral Health	4
+PV1-10	326	31	479	Behavioral Health - Psychiatry	122	Psychiatry	4
+PV1-10	327	31	479	Behavioral Health - Psychiatry	406	Addiction Psychiatry	4
+PV1-10	328	31	479	Behavioral Health - Psychiatry	421	Forensic Psychiatry	4
+PV1-10	329	31	479	Behavioral Health - Psychiatry	423	Geriatric Psychiatry	4
+PV1-10	330	31	479	Behavioral Health - Psychiatry	182	Substance Abuse	4
+PV1-10	331	31	479	Behavioral Health - Psychiatry	329	WHC Outpatient Chemical Dependency	4
+PV1-10	332	31	480	Surgical Endoscopy	480	Surgical Endoscopy	4
+PV1-10	333	31	481	Ethics	481	Ethics	4
+PV1-10	334	31	482	Trauma Surgery	482	Trauma Surgery	4
+PV1-10	335	31	184	Cardiac Surgery	184	Cardiac Surgery	4
+PV1-10	336	31			152	Telemetry	00000000
+PV1-10	337	31			159	Administration	00000000
+PV1-10	338	31			167	Laboratory	00000000
+PV1-10	339	31			200	Cancelled Services	00000000
+PV1-10	340	31			213	Confidential Files	00000000
+PV1-10	341	31			214	CV Tracings Rec And Sent To Be M-Filmed	00000000
+PV1-10	342	31			218	Documentation To Be Kept For Hosp Ref.	00000000
+PV1-10	343	31			237	Lab Screen	00000000
+PV1-10	344	31			244	Medical Social Work	00000000
+PV1-10	345	31			248	Multitest	00000000
+PV1-10	346	31			256	NWH	00000000
+PV1-10	347	31			267	Outpatient Collection Station	00000000
+PV1-10	348	31			270	Outreach Lab Patients	00000000
+PV1-10	349	31			296	Received Records In The	00000000
+PV1-10	350	31			298	Record Not Received In Department	00000000
+PV1-10	351	31			299	Records Off Site	00000000
+PV1-10	352	31			306	RFP	00000000
+PV1-10	353	31			309	Sent	00000000
+PV1-10	354	31			311	Special Procedure Report	00000000
+PV1-10	355	31			320	Terminated In Progress	00000000
+PV1-10	356	31			321	Test	00000000
+PV1-10	357	31			340	Charge Over Desk	00000000
+PV1-10	358	31			353	Non Patient         	00000000
+PV1-10	359	31			354	Offsite Lab	00000000
+PV1-10	360	31			360	Outpatient Lab      	00000000
+PV1-10	361	31			362	Pre Employment	00000000
+PV1-10	362	31			389	Ford Service Adult	00000000
+PV1-10	363	31			395	Lasalle	00000000
+PV1-10	364	31			407	Aerospace Medicine	00000000
+PV1-10	365	31			453	Do Not Use	00000000
+PV1-10	366	31			485	Long Term Acute Care	00000000
+PV1-10	367	31			486	HFAH Jackson Co Morgue	00000000
 PV1-36	2	35	MiHIN suggested values		Hospital Value	Description	4
 PV1-36	3	35			01	Discharged to home or self care (routine discharge)	2
 PV1-36	4	35	01	Discharged to home or self care (routine discharge)	01	Home or Self Care	4
@@ -551,16 +571,16 @@ PV1-36	23	35	44-49	Reserved for national assignment			4
 PV1-36	24	35	50	Hospice - home	50	Hospice Home	4
 PV1-36	25	35	51	Hospice - medical facility	51	Hospice Medical Facility	4
 PV1-36	26	35	52-60	Reserved for national assignment			4
-PV1-36	31	35	61	Discharged/transferred to hospital-based Medicare approved swing bed	61	Discharged/transferred to a hospital-based Medicare approved swing bed with a planned	4
-PV1-36	32	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)	62	IP Rehab Facility	4
-PV1-36	33	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)	63	Long Term Care	4
-PV1-36	34	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)	64	Nursing Home	4
-PV1-36	35	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	65	Psychiatric Hospital	4
-PV1-36	36	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)	66	Critical Access Hospital	4
-PV1-36	37	35	67-70	Reserved for national assignment			4
-PV1-36	38	35	71	Reserved for national assignment (Discontinued effective 4/1/03)			4
-PV1-36	39	35	72	Reserved for national assignment (Discontinued effective 4/1/03)			4
-PV1-36	40	35	73-99	Reserved for national assignment			4
+PV1-36	27	35	61	Discharged/transferred to hospital-based Medicare approved swing bed	61	Discharged/transferred to a hospital-based Medicare approved swing bed with a planned	4
+PV1-36	28	35	62	Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital. (Effective retroactive to 1/1/02.)	62	IP Rehab Facility	4
+PV1-36	29	35	63	Discharged/transferred to a Medicare certified long term care hospital (LTCH).(Effective 5/9/02.)	63	Long Term Care	4
+PV1-36	30	35	64	Discharged/transferred to a nursing facility certified under Medicaid but not certified under Medicare. (Effective 10/1/02.)	64	Nursing Home	4
+PV1-36	31	35	65	Discharged/transferred to a psychiatric hospital or psychiatric distinct part unit of a hospital. (Effective 4/1/04)	65	Psychiatric Hospital	4
+PV1-36	32	35	66	Discharged/transferred to a Critical Access Hospital (CAH). (Effective 1/1/06)	66	Critical Access Hospital	4
+PV1-36	33	35	67-70	Reserved for national assignment			4
+PV1-36	34	35	71	Reserved for national assignment (Discontinued effective 4/1/03)			4
+PV1-36	35	35	72	Reserved for national assignment (Discontinued effective 4/1/03)			4
+PV1-36	36	35	73-99	Reserved for national assignment			4
 IN1-17	2	39	MiHIN Value	Description	Hospital Value		4
 IN1-17	3	39	FTH	Father 	F		2
 IN1-17	4	39	ASC	Associate			4
@@ -586,26 +606,26 @@ IN1-17	23	39	NON	None			4
 IN1-17	24	39	OAD	Other adult			4
 IN1-17	25	39	OTH	Other 	OTH		4
 IN1-17	26	39	OWN	Owner			4
-IN1-17	31	39	PAR	Parent 			4
-IN1-17	32	39	SCH	Stepchild 			4
-IN1-17	33	39	SEL	Self	SEL		4
-IN1-17	34	39	SIB	Sibling 			4
-IN1-17	35	39	SIS	Sister 			4
-IN1-17	36	39	SPO	Spouse	SPO		4
-IN1-17	37	39	TRA	Trainer			4
-IN1-17	38	39	UNK	Unknown	UNK		4
-IN1-17	39	39	WRD	Ward of court			4
-IN1-17	40	39	AUN	Aunt 			4
-IN1-17	41	39	DAU	Daughter			4
-IN1-17	42	39	EXS	Ex Spouse 			4
-IN1-17	43	39	EXH	Ex-husband			4
-IN1-17	44	39	EXW	Ex-wife 			4
-IN1-17	45	39	INL	In Law 			4
-IN1-17	46	39	LEG	Legal Guardian 			4
-IN1-17	47	39	SON	Son (S)			0
-IN1-17	48	39	STP	Step Parent (STP)			0
-IN1-17	49	39	STS	Step Sibling			0
-IN1-17	50	39	UN	Uncle (UN)			0
+IN1-17	27	39	PAR	Parent 			4
+IN1-17	28	39	SCH	Stepchild 			4
+IN1-17	29	39	SEL	Self	SEL		4
+IN1-17	30	39	SIB	Sibling 			4
+IN1-17	31	39	SIS	Sister 			4
+IN1-17	32	39	SPO	Spouse	SPO		4
+IN1-17	33	39	TRA	Trainer			4
+IN1-17	34	39	UNK	Unknown	UNK		4
+IN1-17	35	39	WRD	Ward of court			4
+IN1-17	36	39	AUN	Aunt 			4
+IN1-17	37	39	DAU	Daughter			4
+IN1-17	38	39	EXS	Ex Spouse 			4
+IN1-17	39	39	EXH	Ex-husband			4
+IN1-17	40	39	EXW	Ex-wife 			4
+IN1-17	41	39	INL	In Law 			4
+IN1-17	42	39	LEG	Legal Guardian 			4
+IN1-17	43	39	SON	Son (S)			4
+IN1-17	44	39	STP	Step Parent (STP)			4
+IN1-17	45	39	STS	Step Sibling			4
+IN1-17	46	39	UN	Uncle (UN)			4
 IN1	2	42	IN1-3 Value	IN1-4 Value	Payer		4
 IN1	3	42	1001	BCN	BCBSM		2
 IN1	4	42	100	AETNA	AETNA		00000000
@@ -631,461 +651,460 @@ IN1	23	42	1002	ABS / ST JOHN SMART PLAN	ABS / ST JOHN SMART PLAN		00000000
 IN1	24	42	1004	AETNA US HEALTHCARE	AETNA US HEALTHCARE		00000000
 IN1	25	42	1005	ALLIED BENEFIT	ALLIED BENEFIT		00000000
 IN1	26	42	1006	AMERICAN COMMUNITY	AMERICAN COMMUNITY		00000000
-IN1	31	42	1007	AMERICAN MEDICAL SECURITI	AMERICAN MEDICAL SECURITI		00000000
-IN1	32	42	1008	AMERISURE MEDICAL PLAN	AMERISURE MEDICAL PLAN		00000000
-IN1	33	42	1009	ASSURANT HEALTH	ASSURANT HEALTH		00000000
-IN1	34	42	1010	AUTOMATED BENEFIT SVC	AUTOMATED BENEFIT SVC		00000000
-IN1	35	42	1011	BANKERS LIFE & CASUALTY	BANKERS LIFE & CASUALTY		00000000
-IN1	36	42	1013	BEAUMONT EMPLOYEE HEALTH	BEAUMONT EMPLOYEE HEALTH		00000000
-IN1	37	42	1014	BENESIGHT	BENESIGHT		00000000
-IN1	38	42	1015	BOTSFORD HEALTH	BOTSFORD HEALTH		00000000
-IN1	39	42	1016	C.A.M. ADMINISTRATIVE SERVICES	C.A.M. ADMINISTRATIVE SERVICES		00000000
-IN1	40	42	1017	CBCA	CBCA		00000000
-IN1	41	42	1018	CENTRAL RESERVE LIFE	CENTRAL RESERVE LIFE		00000000
-IN1	42	42	1019	CIGNA	CIGNA		00000000
-IN1	43	42	1021	CITIZENS INSURANCE	CITIZENS INSURANCE		00000000
-IN1	44	42	1022	CNA INSURANCE	CNA INSURANCE		00000000
-IN1	45	42	1023	COFINITY PLAN	COFINITY PLAN		00000000
-IN1	46	42	1024	COMMUNITY CARE ASSOS. JVHL	COMMUNITY CARE ASSOS. JVHL		00000000
-IN1	47	42	1025	COMMUNITY PARTNER REFERRAL	COMMUNITY PARTNER REFERRAL		00000000
-IN1	48	42	1026	COMPSYCH CORPORATION	COMPSYCH CORPORATION		00000000
-IN1	49	42	1027	CONN GENERAL / MAPLEGROVE	CONN GENERAL / MAPLEGROVE		00000000
-IN1	50	42	1028	CONNECTCARE	CONNECTCARE		00000000
-IN1	51	42	1029	COVENTRY FIRST HEALTH	COVENTRY FIRST HEALTH		00000000
-IN1	52	42	1030	DELTA VISION	DELTA VISION		00000000
-IN1	53	42	1031	DIRECTCARE AMERICA	DIRECTCARE AMERICA		00000000
-IN1	54	42	1032	DMC CARE	DMC CARE		00000000
-IN1	55	42	1033	EDS HEALTHCARE	EDS HEALTHCARE		00000000
-IN1	56	42	1034	ETHIX/PROAMERICA MIDWEST	ETHIX/PROAMERICA MIDWEST		00000000
-IN1	57	42	1035	FARMERS INSURANCE	FARMERS INSURANCE		00000000
-IN1	58	42	1036	FREE TRADE MEDICAL NTWK	FREE TRADE MEDICAL NTWK		00000000
-IN1	59	42	1037	GEHA FEDERAL EMPLOYEES	GEHA FEDERAL EMPLOYEES		00000000
-IN1	60	42	1038	GENERAL AMERICAN LIFE INS.	GENERAL AMERICAN LIFE INS.		00000000
-IN1	61	42	1039	GENERIC COMMERCIAL	GENERIC COMMERCIAL		00000000
-IN1	62	42	1040	GENERIC NURSING HOME	GENERIC NURSING HOME		00000000
-IN1	63	42	1041	GIFT OF LIFE	GIFT OF LIFE		00000000
-IN1	64	42	1042	GLOBALCARE	GLOBALCARE		00000000
-IN1	65	42	1043	GM UNDERWRITERS	GM UNDERWRITERS		00000000
-IN1	66	42	1044	GOLDEN RULE INSURANCE	GOLDEN RULE INSURANCE		00000000
-IN1	67	42	1045	GREAT WEST LIFE INS. CO.	GREAT WEST LIFE INS. CO.		00000000
-IN1	68	42	1046	GUARDIAN LIFE	GUARDIAN LIFE		00000000
-IN1	69	42	1047	HARRINGTON BENEFIT SERVICES	HARRINGTON BENEFIT SERVICES		00000000
-IN1	70	42	1048	HEALTH PLUS OF MICHIGAN	HEALTH PLUS OF MICHIGAN		00000000
-IN1	71	42	1049	HEALTH/WELFARE FUND	HEALTH/WELFARE FUND		00000000
-IN1	72	42	1050	HEALTHSTAR	HEALTHSTAR		00000000
-IN1	73	42	1051	HHS	HHS		00000000
-IN1	74	42	1052	HMSA - LABORERS ASSISTANCE PROGRAM	HMSA - LABORERS ASSISTANCE PROGRAM		00000000
-IN1	75	42	1053	HORIZON HEALTH EAP	HORIZON HEALTH EAP		00000000
-IN1	76	42	1054	HOSPICE	HOSPICE		00000000
-IN1	77	42	1055	HUMANA	HUMANA		00000000
-IN1	78	42	1056	IGRF / MARATHON ASHLAND	IGRF / MARATHON ASHLAND		00000000
-IN1	79	42	1057	INTERLINK HEALTH SERVICES-TRANSPLANT	INTERLINK HEALTH SERVICES-TRANSPLANT		00000000
-IN1	80	42	1058	IRON WORKERS HEALTH FUND	IRON WORKERS HEALTH FUND		00000000
-IN1	81	42	1059	JOHNSON CONTROLS	JOHNSON CONTROLS		00000000
-IN1	82	42	1060	LIBERTY MUTUAL	LIBERTY MUTUAL		00000000
-IN1	83	42	1062	MAGELLAN HEALTH SERVICES	MAGELLAN HEALTH SERVICES		00000000
-IN1	84	42	1063	MAIL HANDLERS BENEFIT PLAN	MAIL HANDLERS BENEFIT PLAN		00000000
-IN1	85	42	1064	MARITIME MANULIFE	MARITIME MANULIFE		00000000
-IN1	86	42	1065	MCLAREN HEALTH PLAN	MCLAREN HEALTH PLAN		00000000
-IN1	87	42	1066	MEDICAL MUTUAL OF OHIO	MEDICAL MUTUAL OF OHIO		00000000
-IN1	88	42	1067	MEGA LIFE INSURANCE	MEGA LIFE INSURANCE		00000000
-IN1	89	42	1068	MERCY PRIMARY CARE CENTER	MERCY PRIMARY CARE CENTER		00000000
-IN1	90	42	1069	METROPOLITAN LABORERS / T.I.C.	METROPOLITAN LABORERS / T.I.C.		00000000
-IN1	91	42	1070	MICHIGAN UFCW	MICHIGAN UFCW		00000000
-IN1	92	42	1071	MID-AMERICAN ASSOCIATES	MID-AMERICAN ASSOCIATES		00000000
-IN1	93	42	1072	MNNET CLAIMS DEPT	MNNET CLAIMS DEPT		00000000
-IN1	94	42	1073	MOTOR VEHICLE ACCIDENT	MOTOR VEHICLE ACCIDENT		00000000
-IN1	95	42	1074	MUTUAL OF OMAHA	MUTUAL OF OMAHA		00000000
-IN1	96	42	1075	N.A.L.C. HEALTH BENEFIT PLAN	N.A.L.C. HEALTH BENEFIT PLAN		00000000
-IN1	97	42	1076	NATIONWIDE	NATIONWIDE		00000000
-IN1	98	42	1077	NEW YORK LIFE INSURANCE COMP	NEW YORK LIFE INSURANCE COMP		00000000
-IN1	99	42	1078	NGS AMERICAN	NGS AMERICAN		00000000
-IN1	100	42	1079	NHL / WILLIAM J SUTTON INC	NHL / WILLIAM J SUTTON INC		00000000
-IN1	101	42	1080	NATIONAL HOSPITAL NETWORK	NATIONAL HOSPITAL NETWORK		00000000
-IN1	102	42	1081	NORTH AMERICAN ADMIN	NORTH AMERICAN ADMIN		00000000
-IN1	103	42	1082	NORTHERN GROUP SERVICES	NORTHERN GROUP SERVICES		00000000
-IN1	104	42	1083	NATIONAL REF PROV NTWK	NATIONAL REF PROV NTWK		00000000
-IN1	105	42	1084	OHIP ONTARIO HEALTH SERVICES	OHIP ONTARIO HEALTH SERVICES		00000000
-IN1	106	42	1085	ONE HEALTH PLAN	ONE HEALTH PLAN		00000000
-IN1	107	42	1086	ONTARIO BARIATIRIC	ONTARIO BARIATIRIC		00000000
-IN1	108	42	1087	OPTUM HEALTH	OPTUM HEALTH		00000000
-IN1	109	42	1088	OWENS CORNING EAP	OWENS CORNING EAP		00000000
-IN1	110	42	1089	PAI	PAI		00000000
-IN1	111	42	1090	PARAMOUNT GROUP	PARAMOUNT GROUP		00000000
-IN1	112	42	1091	PEDIATRIC CENTER OF EXCELLENCE	PEDIATRIC CENTER OF EXCELLENCE		00000000
-IN1	113	42	1092	PHCS	PHCS		00000000
-IN1	114	42	1093	PHYSICIANS HEALTH PLAN	PHYSICIANS HEALTH PLAN		00000000
-IN1	115	42	1094	PHYSICIANS MUTUAL	PHYSICIANS MUTUAL		00000000
-IN1	116	42	1095	PRINCIPAL HLTHCR PPO PAR	PRINCIPAL HLTHCR PPO PAR		00000000
-IN1	117	42	1096	PRINCIPAL MUTUAL	PRINCIPAL MUTUAL		00000000
-IN1	118	42	1097	PRIORITY HEALTH	PRIORITY HEALTH		00000000
-IN1	119	42	1098	PRUDENTIAL	PRUDENTIAL		00000000
-IN1	120	42	1099	REGENCY MEDICAL ADMIN.	REGENCY MEDICAL ADMIN.		00000000
-IN1	121	42	1100	SHEET METAL WORKERS	SHEET METAL WORKERS		00000000
-IN1	122	42	1102	SUMMACARE	SUMMACARE		00000000
-IN1	123	42	1103	SURGICAL CASE RATE ACCOUNT	SURGICAL CASE RATE ACCOUNT		00000000
-IN1	124	42	1104	TOTAL HEALTHCARE COMMERCIAL HMO	TOTAL HEALTHCARE COMMERCIAL HMO		00000000
-IN1	125	42	1105	TOTAL HEALTHCARE USA SELECT	TOTAL HEALTHCARE USA SELECT		00000000
-IN1	126	42	1106	U.S. COAST GUARD	U.S. COAST GUARD		00000000
-IN1	127	42	1107	UNITED AUTO WORKERS	UNITED AUTO WORKERS		00000000
-IN1	128	42	1108	UMR	UMR		00000000
-IN1	129	42	1109	UNICARE	UNICARE		00000000
-IN1	130	42	1110	UNIFIED LIFE INSURANCE COMPANY	UNIFIED LIFE INSURANCE COMPANY		00000000
-IN1	131	42	1111	UNITED HEALTHCARE	UNITED HEALTHCARE		00000000
-IN1	132	42	1112	USA HEALTHNET	USA HEALTHNET		00000000
-IN1	133	42	1113	VETERANS ADMINISTRATION	VETERANS ADMINISTRATION		00000000
-IN1	134	42	1114	WAYNE COUNTY JAIL	WAYNE COUNTY JAIL		00000000
-IN1	135	42	1115	WELLCARE HEALTH PLANS	WELLCARE HEALTH PLANS		00000000
-IN1	136	42	1116	WELLPOINT BEHAVIORAL HLTH	WELLPOINT BEHAVIORAL HLTH		00000000
-IN1	137	42	1117	WEYCO	WEYCO		00000000
-IN1	138	42	1118	COFINITY PLAN PPOM HMO	COFINITY PLAN PPOM HMO		00000000
-IN1	139	42	1119	JVHL	JVHL		00000000
-IN1	140	42	1120	VALUE OPTIONS	VALUE OPTIONS		00000000
-IN1	141	42	1121	CINERGY HEALTH & LIFE	CINERGY HEALTH & LIFE		00000000
-IN1	142	42	1122	COMMUNITY BRIDGES	COMMUNITY BRIDGES		00000000
-IN1	143	42	1123	HENRY FORD 	HENRY FORD 		00000000
-IN1	144	42	1124	BEAUMONT HEALTH UNCOMPENSATED CARE PROGRAM	BEAUMONT HEALTH UNCOMPENSATED CARE PROGRAM		00000000
-IN1	145	42	1125	INDEMNITY INC CO	INDEMNITY INC CO		00000000
-IN1	146	42	1126	MEEMIC INSURANCE COMPANY	MEEMIC INSURANCE COMPANY		00000000
-IN1	147	42	1127	PENNSYLVANIA DEPT OF LABOR & INDUSTRY	PENNSYLVANIA DEPT OF LABOR & INDUSTRY		00000000
-IN1	148	42	1128	TRANSAMERICA LIFE MEDICARE SUPP	TRANSAMERICA LIFE MEDICARE SUPP		00000000
-IN1	149	42	1129	WABASH MEMORIAL HOSPITAL ASSOCIATION	WABASH MEMORIAL HOSPITAL ASSOCIATION		00000000
-IN1	150	42	1130	NASI	NASI		00000000
-IN1	151	42	1131	HEALTH CHOICE	HEALTH CHOICE		00000000
-IN1	152	42	1132	UNITED AMERICAN	UNITED AMERICAN		00000000
-IN1	153	42	1133	US HEALTH & LIFE	US HEALTH & LIFE		00000000
-IN1	154	42	1134	GUARANTEE TRUST LIFE	GUARANTEE TRUST LIFE		00000000
-IN1	155	42	1135	GOVERNMENT PERSONNEL MUTUAL	GOVERNMENT PERSONNEL MUTUAL		00000000
-IN1	156	42	1136	PAINTERS UNION INS FUND	PAINTERS UNION INS FUND		00000000
-IN1	157	42	1137	GLOBALITES NORTH AMERICA	GLOBALITES NORTH AMERICA		00000000
-IN1	158	42	1138	SEDGWICK CLAIMS	SEDGWICK CLAIMS		00000000
-IN1	159	42	1139	NATIONAL ELEVATOR INDUSTRY	NATIONAL ELEVATOR INDUSTRY		00000000
-IN1	160	42	1140	COORDINATED BENEFIT PLAN	COORDINATED BENEFIT PLAN		00000000
-IN1	161	42	1141	GLOBAL LITE LIFE	GLOBAL LITE LIFE		00000000
-IN1	162	42	1142	MONUMENTAL LIFE	MONUMENTAL LIFE		00000000
-IN1	163	42	1143	AMA INSURANCE AGENCY	AMA INSURANCE AGENCY		00000000
-IN1	164	42	1144	WELLS FARGO INS SERVICES	WELLS FARGO INS SERVICES		00000000
-IN1	165	42	1145	RETIREE MEDICAL INSURANCE PLAN	RETIREE MEDICAL INSURANCE PLAN		00000000
-IN1	166	42	1146	BAC LOCAL 1 INS FUND	BAC LOCAL 1 INS FUND		00000000
-IN1	167	42	1147	MEDICO INSURANCE COMPANY	MEDICO INSURANCE COMPANY		00000000
-IN1	168	42	1148	APWU	APWU		00000000
-IN1	169	42	1149	AMERAPLAN	AMERAPLAN		00000000
-IN1	170	42	1150	EHIM	EHIM		00000000
-IN1	171	42	1151	MICHIGAN EMPLOYEE BENEFITS	MICHIGAN EMPLOYEE BENEFITS		00000000
-IN1	172	42	1152	FREEDOM LIFE INSURANCE COMPANY OF AMERICA	FREEDOM LIFE INSURANCE COMPANY OF AMERICA		00000000
-IN1	173	42	1153	UNITED MINE WORKERS	UNITED MINE WORKERS		00000000
-IN1	174	42	1154	TRAVELERS INSURANCE	TRAVELERS INSURANCE		00000000
-IN1	175	42	1155	STANDARD LIFE & ACCIDENT INSURANCE COMPANY	STANDARD LIFE & ACCIDENT INSURANCE COMPANY		00000000
-IN1	176	42	1156	TRANSAMERICA LIFE INSURANCE	TRANSAMERICA LIFE INSURANCE		00000000
-IN1	177	42	1157	ALL SAVERS INSURANCE	ALL SAVERS INSURANCE		00000000
-IN1	178	42	1158	GEICO	GEICO		00000000
-IN1	179	42	1159	SIMPLIFI ESO	SIMPLIFI ESO		00000000
-IN1	180	42	1160	IBEW LOCAL 17	IBEW LOCAL 17		00000000
-IN1	181	42	1161	STATE FARM	STATE FARM		00000000
-IN1	182	42	1162	BRIDGESTONE FIRESTONE	BRIDGESTONE FIRESTONE		00000000
-IN1	183	42	1163	FEDERATED MUTUAL INSURANCE	FEDERATED MUTUAL INSURANCE		00000000
-IN1	184	42	1164	MERITAIN HEALTH	MERITAIN HEALTH		00000000
-IN1	185	42	1165	HEALTH DESIGN PLUS	HEALTH DESIGN PLUS		00000000
-IN1	186	42	1166	ELCA/MARSH	ELCA/MARSH		00000000
-IN1	187	42	1167	AFLAC	AFLAC		00000000
-IN1	188	42	1168	UNION BANKERS	UNION BANKERS		00000000
-IN1	189	42	1169	BANKERS FIDELITY	BANKERS FIDELITY		00000000
-IN1	190	42	1170	ROOFERS LOCAL 149	ROOFERS LOCAL 149		00000000
-IN1	191	42	1171	SECURE HORIZONS	SECURE HORIZONS		00000000
-IN1	192	42	1172	GRAPHIC COMMUNICATIONS HEALTH	GRAPHIC COMMUNICATIONS HEALTH		00000000
-IN1	193	42	1173	CORESOURCE	CORESOURCE		00000000
-IN1	194	42	1174	UNITED ASSOCIATION OF SMALL BUSINESS (UASB)	UNITED ASSOCIATION OF SMALL BUSINESS (UASB)		00000000
-IN1	195	42	1175	OPTIMED	OPTIMED		00000000
-IN1	196	42	1177	GENWORTH LIFE AND ANNUITY	GENWORTH LIFE AND ANNUITY		00000000
-IN1	197	42	1178	INDEPENDENT HEALTH INSURANCE	INDEPENDENT HEALTH INSURANCE		00000000
-IN1	198	42	1179	LINCOLN HERITAGE	LINCOLN HERITAGE		00000000
-IN1	199	42	1180	ASR HEALTH BENEFITS	ASR HEALTH BENEFITS		00000000
-IN1	200	42	1181	HARTFORD INSURANCE	HARTFORD INSURANCE		00000000
-IN1	201	42	1182	CONSTITUTION LIFE INSURANCE	CONSTITUTION LIFE INSURANCE		00000000
-IN1	202	42	1183	LOYAL AMERICAN LIFE INSURANCE	LOYAL AMERICAN LIFE INSURANCE		00000000
-IN1	203	42	1184	CERNER HEALTH PLAN	CERNER HEALTH PLAN		00000000
-IN1	204	42	1185	WAUSAU	WAUSAU		00000000
-IN1	205	42	1186	AMERICAN REPUBLIC INSURANCE	AMERICAN REPUBLIC INSURANCE		00000000
-IN1	206	42	1187	THRIVENT FINANCIAL FOR LUTHERANS	THRIVENT FINANCIAL FOR LUTHERANS		00000000
-IN1	207	42	1188	SPECIAL INSURANCE SERVICES	SPECIAL INSURANCE SERVICES		00000000
-IN1	208	42	1189	CONSECO	CONSECO		00000000
-IN1	209	42	1190	MITCHELL INTERNATIONAL	MITCHELL INTERNATIONAL		00000000
-IN1	210	42	1191	MICHIGAN REHAB SERVICES	MICHIGAN REHAB SERVICES		00000000
-IN1	211	42	1192	VES (VETERANS EVALUATION SERVICES)	VES (VETERANS EVALUATION SERVICES)		00000000
-IN1	212	42	1193	WASHINGTON NATIONAL INSURANCE	WASHINGTON NATIONAL INSURANCE		00000000
-IN1	213	42	1194	ESURANCE	ESURANCE		00000000
-IN1	214	42	1195	SENTINEL SECURITY LIFE	SENTINEL SECURITY LIFE		00000000
-IN1	215	42	1196	GALLAGHER BASSET	GALLAGHER BASSET		00000000
-IN1	216	42	1197	COMPANION LIFE	COMPANION LIFE		00000000
-IN1	217	42	1198	AMERICAN HERITAGE LIFE	AMERICAN HERITAGE LIFE		00000000
-IN1	218	42	1199	INTERNATIONAL BENEFIT ADMINISTRATORS	INTERNATIONAL BENEFIT ADMINISTRATORS		00000000
-IN1	219	42	1200	CONSUMERS MUTUAL	CONSUMERS MUTUAL		00000000
-IN1	220	42	1201	GREAT LAKES CASUALTY	GREAT LAKES CASUALTY		00000000
-IN1	221	42	1202	CINCINNATI AUTO	CINCINNATI AUTO		00000000
-IN1	222	42	1203	GASS-BECKER AUTO	GASS-BECKER AUTO		00000000
-IN1	223	42	1204	GERBER LIFE	GERBER LIFE		00000000
-IN1	224	42	1205	COMPREHENSIVE BENEFITS	COMPREHENSIVE BENEFITS		00000000
-IN1	225	42	1206	NIPPON LIFE	NIPPON LIFE		00000000
-IN1	226	42	1207	UPMC HEALTH PLAN	UPMC HEALTH PLAN		00000000
-IN1	227	42	1208	CONTINENTAL LIFE	CONTINENTAL LIFE		00000000
-IN1	228	42	1210	SYMETRA LIFE	SYMETRA LIFE		00000000
-IN1	229	42	1211	AMERICAN PROGRESSIVE	AMERICAN PROGRESSIVE		00000000
-IN1	230	42	1212	AMERICAN CLAIMS MANAGEMENT	AMERICAN CLAIMS MANAGEMENT		00000000
-IN1	231	42	1213	MVP SELECT CARE	MVP SELECT CARE		00000000
-IN1	232	42	1214	DEAN HEALTH PLAN	DEAN HEALTH PLAN		00000000
-IN1	233	42	1215	FIRST HEALTH	FIRST HEALTH		00000000
-IN1	234	42	1216	FREEDOM VIP CARE (HMO)	FREEDOM VIP CARE (HMO)		00000000
-IN1	235	42	1217	STARMARK	STARMARK		00000000
-IN1	236	42	1218	CONSOCIATE	CONSOCIATE		00000000
-IN1	237	42	1219	AMERICA'S CHOICE	AMERICA'S CHOICE		00000000
-IN1	238	42	1220	GLOBAL EXCEL MANAGEMENT	GLOBAL EXCEL MANAGEMENT		00000000
-IN1	239	42	1221	ADMINISTRATIVE CONCEPTS	ADMINISTRATIVE CONCEPTS		00000000
-IN1	240	42	1222	ASRM	ASRM		00000000
-IN1	241	42	1223	RELIGIOUS COMPREHENSIVE TRUST	RELIGIOUS COMPREHENSIVE TRUST		00000000
-IN1	242	42	1224	INTERNATIONAL ASSOCIATION OF MACHINISTS	INTERNATIONAL ASSOCIATION OF MACHINISTS		00000000
-IN1	243	42	1225	COLONIAL PENN LIFE	COLONIAL PENN LIFE		00000000
-IN1	244	42	1226	UNITY HEALTH	UNITY HEALTH		00000000
-IN1	245	42	1227	STONEBRIDGE LIFE INSURANCE	STONEBRIDGE LIFE INSURANCE		00000000
-IN1	246	42	1228	RELIANCE STANDARD LIFE INS	RELIANCE STANDARD LIFE INS		00000000
-IN1	247	42	1229	WEBTPA	WEBTPA		00000000
-IN1	248	42	1230	VANTAGE HEALTH PLAN	VANTAGE HEALTH PLAN		00000000
-IN1	249	42	1231	ENCOMPASS	ENCOMPASS		00000000
-IN1	250	42	1232	KAISER PERMANENTE	KAISER PERMANENTE		00000000
-IN1	251	42	1233	WPS GROUP PREFERRED ADVANTAGE PLAN/EPIC LIFE INSURANCE	WPS GROUP PREFERRED ADVANTAGE PLAN/EPIC LIFE INSURANCE		00000000
-IN1	252	42	1234	TRANS RX - PAYMENT POSTING ONLY	TRANS RX - PAYMENT POSTING ONLY		00000000
-IN1	253	42	1235	PHX PREFERRED ADMINISTRATORS	PHX PREFERRED ADMINISTRATORS		00000000
-IN1	254	42	1236	HCC LIFE INS/COVENTRY	HCC LIFE INS/COVENTRY		00000000
-IN1	255	42	1237	USAA LIFE INSURANCE	USAA LIFE INSURANCE		00000000
-IN1	256	42	1238	WESTERN & SOUTHERN FINANCIAL GROUP	WESTERN & SOUTHERN FINANCIAL GROUP		00000000
-IN1	257	42	1239	SAMBA	SAMBA		00000000
-IN1	258	42	1240	AMERICAN PUBLIC LIFE INSURANCE	AMERICAN PUBLIC LIFE INSURANCE		00000000
-IN1	259	42	1241	PULLINARY HEALTHLAND	PULLINARY HEALTHLAND		00000000
-IN1	260	42	1242	ADN	ADN		00000000
-IN1	261	42	1243	JP FARLEY CORPORATION	JP FARLEY CORPORATION		00000000
-IN1	262	42	1244	PRAIRIE STATES ENTERPRISES	PRAIRIE STATES ENTERPRISES		00000000
-IN1	263	42	1245	IPMG-EBS	IPMG-EBS		00000000
-IN1	264	42	1246	US EVALUATION SERVICES	US EVALUATION SERVICES		00000000
-IN1	265	42	1247	OXFORD HEALTH	OXFORD HEALTH		00000000
-IN1	266	42	1248	GLOBAL MEDICAL CENTER	GLOBAL MEDICAL CENTER		00000000
-IN1	267	42	1249	STERLING INSURANCE OPERATIONS	STERLING INSURANCE OPERATIONS		00000000
-IN1	268	42	1250	ASSOCIATION AND SOCIETY INSURANCE	ASSOCIATION AND SOCIETY INSURANCE		00000000
-IN1	269	42	1251	LIFESTYLE HEALTH PLANS	LIFESTYLE HEALTH PLANS		00000000
-IN1	270	42	1252	COMMUNITY CARE ASSOCIATES	COMMUNITY CARE ASSOCIATES		00000000
-IN1	271	42	1253	CHESTERFIELD RESOURCES	CHESTERFIELD RESOURCES		00000000
-IN1	272	42	1254	MEADOWBROOK INSURANCE	MEADOWBROOK INSURANCE		00000000
-IN1	273	42	1255	GILSBAR	GILSBAR		00000000
-IN1	274	42	1256	EMPLOYEE BENEFIT LOGISTICS	EMPLOYEE BENEFIT LOGISTICS		00000000
-IN1	275	42	1257	CENTRAL STATES INDEMNITY	CENTRAL STATES INDEMNITY		00000000
-IN1	276	42	1258	RIVERGATE NURSING FACILITY	RIVERGATE NURSING FACILITY		00000000
-IN1	277	42	1259	INTERNATIONAL MEDICAL GROUP	INTERNATIONAL MEDICAL GROUP		00000000
-IN1	278	42	1260	MEDIVEST	MEDIVEST		00000000
-IN1	279	42	1261	HEALTH PARTNERS	HEALTH PARTNERS		00000000
-IN1	280	42	1262	MANHATTAN LIFE	MANHATTAN LIFE		00000000
-IN1	281	42	1263	IHC HEALTH SOLUTION	IHC HEALTH SOLUTION		00000000
-IN1	282	42	1264	BUCKEYE COMMUNITY HEALTH PLAN	BUCKEYE COMMUNITY HEALTH PLAN		00000000
-IN1	283	42	1265	MANAGEABILITY IME	MANAGEABILITY IME		00000000
-IN1	284	42	1266	SELECT BENEFIT ADMINISTRATORS	SELECT BENEFIT ADMINISTRATORS		00000000
-IN1	285	42	1267	SOUTHGATE MANOR	SOUTHGATE MANOR		00000000
-IN1	286	42	1268	MEDICA CHOICE	MEDICA CHOICE		00000000
-IN1	287	42	1269	ONEBEACON	ONEBEACON		00000000
-IN1	288	42	1270	CREDENTIALING	CREDENTIALING		00000000
-IN1	289	42	1271	COMBINED INSURANCE COMPANY OF AMERICA	COMBINED INSURANCE COMPANY OF AMERICA		00000000
-IN1	290	42	1272	CONSOLIDATED HEALTH PLAN	CONSOLIDATED HEALTH PLAN		00000000
-IN1	291	42	1273	PEARL HEALTH ALLIANCE	PEARL HEALTH ALLIANCE		00000000
-IN1	292	42	1274	ACUITY	ACUITY		00000000
-IN1	293	42	1275	KEY BENEFIT ADMINISTRATORS	KEY BENEFIT ADMINISTRATORS		00000000
-IN1	294	42	1276	RURAL CARRIER BENEFITS	RURAL CARRIER BENEFITS		00000000
-IN1	295	42	1277	COUNTRY LIFE INSURANCE	COUNTRY LIFE INSURANCE		00000000
-IN1	296	42	1278	LUTHERAN HOME OF MONROE	LUTHERAN HOME OF MONROE		00000000
-IN1	297	42	1279	EISENHOWER CENTER	EISENHOWER CENTER		00000000
-IN1	298	42	1280	AMERICAN NATIONAL LIFE INS OF TEXAS	AMERICAN NATIONAL LIFE INS OF TEXAS		00000000
-IN1	299	42	1281	BENEFIT ADMINISTRATIVE SYSTEMS	BENEFIT ADMINISTRATIVE SYSTEMS		00000000
-IN1	300	42	1282	JEFFERSON NATIONAL LIFE	JEFFERSON NATIONAL LIFE		00000000
-IN1	301	42	1283	AMERICAN RETIREMENT LIFE	AMERICAN RETIREMENT LIFE		00000000
-IN1	302	42	1284	AULTCARE	AULTCARE		00000000
-IN1	303	42	1285	GLOBE LIFE AND ACCIDENT	GLOBE LIFE AND ACCIDENT		00000000
-IN1	304	42	1286	GPA	GPA		00000000
-IN1	305	42	1287	NATIONWIDE LIFE INSURANCE	NATIONWIDE LIFE INSURANCE		00000000
-IN1	306	42	1288	AMERIHEALTH	AMERIHEALTH		00000000
-IN1	307	42	1289	HEALTHSMART ACCEL	HEALTHSMART ACCEL		00000000
-IN1	308	42	1290	HEALTH LINK	HEALTH LINK		00000000
-IN1	309	42	1291	DWMHA	DWMHA		00000000
-IN1	310	42	1292	MEDI-SHARE	MEDI-SHARE		00000000
-IN1	311	42	1293	CHEROKEE INSURANCE COMPANY	CHEROKEE INSURANCE COMPANY		00000000
-IN1	312	42	1294	FARM BUREAU	FARM BUREAU		00000000
-IN1	313	42	1295	AMERIBEN	AMERIBEN		00000000
-IN1	314	42	1296	FOREIGN SERVICE BENEFIT PLAN	FOREIGN SERVICE BENEFIT PLAN		00000000
-IN1	315	42	1297	HEALTH NET COMMERCIAL	HEALTH NET COMMERCIAL		00000000
-IN1	316	42	1298	NEIGHBORS CARING FOR NEIGHBORS MACOMB	NEIGHBORS CARING FOR NEIGHBORS MACOMB		00000000
-IN1	317	42	1299	AMERICAN COUNTRY	AMERICAN COUNTRY		00000000
-IN1	318	42	1300	PACE SOUTHEAST MICHIGAN	PACE SOUTHEAST MICHIGAN		00000000
-IN1	319	42	1301	VETERANS HEALTH CHOICE HEALTH NET FEDER	VETERANS HEALTH CHOICE HEALTH NET FEDER		00000000
-IN1	320	42	1302	6 DEGREES TRANSPLANT NETWORK	6 DEGREES TRANSPLANT NETWORK		00000000
-IN1	321	42	1303	EBS-RMSCO	EBS-RMSCO		00000000
-IN1	322	42	1304	CONSUMERS CHOICE	CONSUMERS CHOICE		00000000
-IN1	323	42	1305	HEALTH SMART	HEALTH SMART		00000000
-IN1	324	42	1306	SISCO	SISCO		00000000
-IN1	325	42	1307	HEALTHGRAM	HEALTHGRAM		00000000
-IN1	326	42	1308	AMFIRST	AMFIRST		00000000
-IN1	327	42	1309	ALLIANZ GLOBAL ASSISTANCE	ALLIANZ GLOBAL ASSISTANCE		00000000
-IN1	328	42	1310	FRONTPATH	FRONTPATH		00000000
-IN1	329	42	1311	WELLCARE HEALTH PLANS	WELLCARE HEALTH PLANS		00000000
-IN1	330	42	1312	PYRAMID LIFE	PYRAMID LIFE		00000000
-IN1	331	42	1313	EMBLEM HEALTH	EMBLEM HEALTH		00000000
-IN1	332	42	1314	CLAIMEDIX	CLAIMEDIX		00000000
-IN1	333	42	1315	GEHA ASA	GEHA ASA		00000000
-IN1	334	42	1316	HEALTHSCOPE	HEALTHSCOPE		00000000
-IN1	335	42	1317	GREATER MACOMB PHO	GREATER MACOMB PHO		00000000
-IN1	336	42	1318	TUFTS HEALTH PLAN	TUFTS HEALTH PLAN		00000000
-IN1	337	42	1319	MICHIGAN DEPARTMENT OF HUMAN SERVICES	MICHIGAN DEPARTMENT OF HUMAN SERVICES		00000000
-IN1	338	42	1320	MACOMB COUNTY HEALTH DEPARTMENT	MACOMB COUNTY HEALTH DEPARTMENT		00000000
-IN1	339	42	1321	HARBOR CHOICE	HARBOR CHOICE		00000000
-IN1	340	42	1322	BENESYS	BENESYS		00000000
-IN1	341	42	1323	EQUITABLE	EQUITABLE		00000000
-IN1	342	42	1324	CARELINK LTAC	CARELINK LTAC		00000000
-IN1	343	42	1325	CORIZON	CORIZON		00000000
-IN1	344	42	1326	OXFORD INS CO	OXFORD INS CO		00000000
-IN1	345	42	1327	MID STATE HEALTH NETWORK	MID STATE HEALTH NETWORK		00000000
-IN1	346	42	1328	JACKSON COUNTY JAIL	JACKSON COUNTY JAIL		00000000
-IN1	347	42	1329	JACKSON HEALTH DEPT	JACKSON HEALTH DEPT		00000000
-IN1	348	42	1330	CENTRAL STATES HEALTH & LIFE OF OMAHA	CENTRAL STATES HEALTH & LIFE OF OMAHA		00000000
-IN1	349	42	1331	HENRY FORD ALLEGIANCE HLTH	HENRY FORD ALLEGIANCE HLTH		00000000
-IN1	350	42	1332	HFAH WOMENS CENTER	HFAH WOMENS CENTER		00000000
-IN1	351	42	1333	MICHIGAN REHAB	MICHIGAN REHAB		00000000
-IN1	352	42	1334	TANDEM DIABETES CARE INC	TANDEM DIABETES CARE INC		00000000
-IN1	353	42	1335	LIBERTY HEALTHSHARE	LIBERTY HEALTHSHARE		00000000
-IN1	354	42	1400	UNITED HEALTHCARE ALTERNATE	UNITED HEALTHCARE ALTERNATE		00000000
-IN1	355	42	2001	MEDICARE	MEDICARE		00000000
-IN1	356	42	2002	MEDICARE RAIL ROAD	MEDICARE RAIL ROAD		00000000
-IN1	357	42	2003	SECTION 1011	SECTION 1011		00000000
-IN1	358	42	2004	UHC DUAL COMPLETE PART A	UHC DUAL COMPLETE PART A		00000000
-IN1	359	42	2005	HEALTHPLUS MEDICARE ADVANTAGE	HEALTHPLUS MEDICARE ADVANTAGE		00000000
-IN1	360	42	2006	UNITED HEALTHCARE DUAL COMPLETE MEDICARE	UNITED HEALTHCARE DUAL COMPLETE MEDICARE		00000000
-IN1	361	42	2007	MEDICARE D	MEDICARE D		00000000
-IN1	362	42	2009	MEDICARE PART D	MEDICARE PART D		00000000
-IN1	363	42	2011	MEDICARE ALTERNATE	MEDICARE ALTERNATE		00000000
-IN1	364	42	2012	MEDICARE PART D PB	MEDICARE PART D PB		00000000
-IN1	365	42	3001	GENERIC MEDICAID	GENERIC MEDICAID		00000000
-IN1	366	42	3002	MACOMB COUNTY HEALTH	MACOMB COUNTY HEALTH		00000000
-IN1	367	42	3004	MEDICAID	MEDICAID		00000000
-IN1	368	42	3005	BCCCP MICHIGAN	BCCCP MICHIGAN		00000000
-IN1	369	42	3006	MICHIGAN DEPT. OF COMM. HLTH	MICHIGAN DEPT. OF COMM. HLTH		00000000
-IN1	370	42	3007	MID MICHIGAN HEALTH PLAN	MID MICHIGAN HEALTH PLAN		00000000
-IN1	371	42	3008	MOMS	MOMS		00000000
-IN1	372	42	3009	COVENTRY	COVENTRY		00000000
-IN1	373	42	3010	MEDICAID SPENDOWN ALT	MEDICAID SPENDOWN ALT		00000000
-IN1	374	42	5001	WORKERS COMPENSATION	WORKERS COMPENSATION		00000000
-IN1	375	42	5002	JVHL COMMERCIAL	JVHL COMMERCIAL		00000000
-IN1	376	42	5003	JVHL MEDICARE ADVANTAGE	JVHL MEDICARE ADVANTAGE		00000000
-IN1	377	42	5004	JVHL MEDICARE	JVHL MEDICARE		00000000
-IN1	378	42	5005	JVHL MEDICAID HMO	JVHL MEDICAID HMO		00000000
-IN1	379	42	5006	JVHL HAP	JVHL HAP		00000000
-IN1	380	42	5007	JVHL BLUE SHIELD	JVHL BLUE SHIELD		00000000
-IN1	381	42	6001	TRICARE	TRICARE		00000000
-IN1	382	42	6002	CHAMPVA	CHAMPVA		00000000
-IN1	383	42	7001	SELECT SPECIALTY	SELECT SPECIALTY		00000000
-IN1	384	42	9001	FEDERAL BLACK LUNG	FEDERAL BLACK LUNG		00000000
-IN1	385	42	10001	BLUE CROSS BLUE SHIELD	BLUE CROSS BLUE SHIELD		00000000
-IN1	386	42	10002	GENERIC BLUE CROSS BLUE SHIELD	GENERIC BLUE CROSS BLUE SHIELD		00000000
-IN1	387	42	10003	WORKING UNINSURED	WORKING UNINSURED		00000000
-IN1	388	42	10004	SPECIAL PROJECTS	SPECIAL PROJECTS		00000000
-IN1	389	42	10005	MERITAIN	MERITAIN		00000000
-IN1	390	42	10006	BLUE CARE NETWORK	BLUE CARE NETWORK		00000000
-IN1	391	42	11191	JVHL HAP	JVHL HAP		00000000
-IN1	392	42	11193	CARE LINK ALT	CARE LINK ALT		00000000
-IN1	393	42	15001	DME REGION B	DME REGION B		00000000
-IN1	394	42	99999	SELF-PAY	SELF-PAY		00000000
-IN1	395	42	101001	HAP	HAP		00000000
-IN1	396	42	102001	ADVANTRA FREEDOM MEDICARE ADVANTAGE	ADVANTRA FREEDOM MEDICARE ADVANTAGE		00000000
-IN1	397	42	102002	AETNA ADVANTAGE	AETNA ADVANTAGE		00000000
-IN1	398	42	102003	BLUE ADVANTAGE	BLUE ADVANTAGE		00000000
-IN1	399	42	102004	ERICKSON ADVANTAGE	ERICKSON ADVANTAGE		00000000
-IN1	400	42	102005	FIDELIS SECURECARE MEDICARE ADVANTAGE	FIDELIS SECURECARE MEDICARE ADVANTAGE		00000000
-IN1	401	42	102006	GENERIC MEDICARE ADVANTAGE	GENERIC MEDICARE ADVANTAGE		00000000
-IN1	402	42	102007	HAP MEDICARE ADVANTAGE	HAP MEDICARE ADVANTAGE		00000000
-IN1	403	42	102008	HUMANA MEDICARE ADVANTAGE	HUMANA MEDICARE ADVANTAGE		00000000
-IN1	404	42	102009	MCLAREN MEDICARE ADVANTAGE	MCLAREN MEDICARE ADVANTAGE		00000000
-IN1	405	42	102010	MIDWEST MEDICARE ADVANTAGE	MIDWEST MEDICARE ADVANTAGE		00000000
-IN1	406	42	102011	MOLINA MEDICARE ADVANTAGE	MOLINA MEDICARE ADVANTAGE		00000000
-IN1	407	42	102012	PACE	PACE		00000000
-IN1	408	42	102013	PARAMOUNT ELITE MEDICARE ADVANTAGE	PARAMOUNT ELITE MEDICARE ADVANTAGE		00000000
-IN1	409	42	102014	PRIORITY HEALTH MEDICARE ADVANTAGE	PRIORITY HEALTH MEDICARE ADVANTAGE		00000000
-IN1	410	42	102015	SECURE HORIZONS MEDICARE	SECURE HORIZONS MEDICARE		00000000
-IN1	411	42	102016	SECURITY CHOICE ENHANCED MEDICARE ADVANTAGE	SECURITY CHOICE ENHANCED MEDICARE ADVANTAGE		00000000
-IN1	412	42	102017	STERLING OPTIONS MEDICARE ADVANTAGE	STERLING OPTIONS MEDICARE ADVANTAGE		00000000
-IN1	413	42	102018	SUMMACARE MEDICARE ADVANTAGE	SUMMACARE MEDICARE ADVANTAGE		00000000
-IN1	414	42	102019	TODAY'S OPTIONS PYRAMID MEDICARE ADVANTAGE	TODAY'S OPTIONS PYRAMID MEDICARE ADVANTAGE		00000000
-IN1	415	42	102020	UNITED HEALTHCARE MEDICARE ADVANTAGE	UNITED HEALTHCARE MEDICARE ADVANTAGE		00000000
-IN1	416	42	102021	AARP MEDICARE ADVANTAGE	AARP MEDICARE ADVANTAGE		00000000
-IN1	417	42	102022	MERIDIAN ADVANTAGE PLAN OF MICHIGAN	MERIDIAN ADVANTAGE PLAN OF MICHIGAN		00000000
-IN1	418	42	102023	CENTER FOR SENIOR INDEPENDENCE	CENTER FOR SENIOR INDEPENDENCE		00000000
-IN1	419	42	102024	ALASKA CARE	ALASKA CARE		00000000
-IN1	420	42	102025	TOTAL HEALTHCARE ADVANTAGE	TOTAL HEALTHCARE ADVANTAGE		00000000
-IN1	421	42	102026	MEDIGOLD	MEDIGOLD		00000000
-IN1	422	42	102027	HEALTHPLUS OF MI ADVANTAGE	HEALTHPLUS OF MI ADVANTAGE		00000000
-IN1	423	42	102028	UNITED HEALTHCARE DUAL COMPLETE	UNITED HEALTHCARE DUAL COMPLETE		00000000
-IN1	424	42	102030	MOLINA	MOLINA		00000000
-IN1	425	42	102031	BRIDGESTONE	BRIDGESTONE		00000000
-IN1	426	42	102032	MCS ADVANTAGE	MCS ADVANTAGE		00000000
-IN1	427	42	102033	AHCCCS	AHCCCS		00000000
-IN1	428	42	102034	AMERIHEALTH CARITAS VIP CARE PLUS	AMERIHEALTH CARITAS VIP CARE PLUS		00000000
-IN1	429	42	102035	MODA MEDICARE ADVANTAGE	MODA MEDICARE ADVANTAGE		00000000
-IN1	430	42	102036	CARE PLUS HMO	CARE PLUS HMO		00000000
-IN1	431	42	102037	PACE SOUTHEAST MICHIGAN ADV	PACE SOUTHEAST MICHIGAN ADV		00000000
-IN1	432	42	102038	CIGNA MEDICARE ADVANTAGE	CIGNA MEDICARE ADVANTAGE		00000000
-IN1	433	42	102039	HARBOR MEDICARE	HARBOR MEDICARE		00000000
-IN1	434	42	102040	CARESOURCE	CARESOURCE		00000000
-IN1	435	42	102041	HARBOR ADVANTAGE	HARBOR ADVANTAGE		00000000
-IN1	436	42	103001	BLUE CARE NETWORK MEDICAID HMO	BLUE CARE NETWORK MEDICAID HMO		00000000
-IN1	437	42	103002	CARE LINK	CARE LINK		00000000
-IN1	438	42	103003	CARE SOURCE	CARE SOURCE		00000000
-IN1	439	42	103004	COMMUNITY HEALTH PLAN MEDICAID HMO	COMMUNITY HEALTH PLAN MEDICAID HMO		00000000
-IN1	440	42	103005	COMMUNITY MH OAKLAND	COMMUNITY MH OAKLAND		00000000
-IN1	441	42	103006	COMPCARE	COMPCARE		00000000
-IN1	442	42	103007	CONSUMER LINK	CONSUMER LINK		00000000
-IN1	443	42	103008	COUNTY HEALTH PLANS	COUNTY HEALTH PLANS		00000000
-IN1	444	42	103009	GATEWAY	GATEWAY		00000000
-IN1	445	42	103010	GENERIC MEDICAID HMO INSURANCE	GENERIC MEDICAID HMO INSURANCE		00000000
-IN1	446	42	103011	GENNESSEE COUNTY CMH	GENNESSEE COUNTY CMH		00000000
-IN1	447	42	103012	HEALTH PLUS MEDICAID HMO	HEALTH PLUS MEDICAID HMO		00000000
-IN1	448	42	103013	HEALTHSOURCE MEDICAID HMO	HEALTHSOURCE MEDICAID HMO		00000000
-IN1	449	42	103014	LIVINGSTON COUNTY CMH	LIVINGSTON COUNTY CMH		00000000
-IN1	450	42	103015	MACOMB CMH	MACOMB CMH		00000000
-IN1	451	42	103016	MACOMB COUNTY PSYCH	MACOMB COUNTY PSYCH		00000000
-IN1	452	42	103017	MCLAREN MEDICAID HMO	MCLAREN MEDICAID HMO		00000000
-IN1	453	42	103018	WASHTENAW COUNTY	WASHTENAW COUNTY		00000000
-IN1	454	42	103019	OAKLAND HEALTH PLAN	OAKLAND HEALTH PLAN		00000000
-IN1	455	42	103020	MONROE COUNTY	MONROE COUNTY		00000000
-IN1	456	42	103021	MIDWEST MEDICAID HMO	MIDWEST MEDICAID HMO		00000000
-IN1	457	42	103022	MOLINA MEDICAID HMO	MOLINA MEDICAID HMO		00000000
-IN1	458	42	103023	COVENTRY	COVENTRY		00000000
-IN1	459	42	103024	PRIORITY HEALTH MEDICAID HMO	PRIORITY HEALTH MEDICAID HMO		00000000
-IN1	460	42	103025	PROCARE	PROCARE		00000000
-IN1	461	42	103026	TOTAL HEALTHCARE MEDICAID HMO	TOTAL HEALTHCARE MEDICAID HMO		00000000
-IN1	462	42	103027	WAYNE COUNTY ABW - PRO CARE	WAYNE COUNTY ABW - PRO CARE		00000000
-IN1	463	42	103028	UNITEDHEALTHCARE COMMUNITY PLAN - MEDICAID HMO	UNITEDHEALTHCARE COMMUNITY PLAN - MEDICAID HMO		00000000
-IN1	464	42	103029	MERIDIAN	MERIDIAN		00000000
-IN1	465	42	103030	FIDELIS SECURE CARE	FIDELIS SECURE CARE		00000000
-IN1	466	42	103031	AETNA BETTER HEALTH OF MICHIGAN	AETNA BETTER HEALTH OF MICHIGAN		00000000
-IN1	467	42	103032	AETNA BETTER HEALTH	AETNA BETTER HEALTH		00000000
-IN1	468	42	103034	AMERIHEALTH OF MI HLTH LINK SECONDARY	AMERIHEALTH OF MI HLTH LINK SECONDARY		00000000
-IN1	469	42	104001	MEDICAID PENDING APPLICATION	MEDICAID PENDING APPLICATION		00000000
-IN1	470	42	105000	ALL SAVERS	ALL SAVERS		00000000
-IN1	471	42	105001	BLUE CROSS BLUE SHIELD ALTERNATE	BLUE CROSS BLUE SHIELD ALTERNATE		00000000
-IN1	472	42	106000	VSP	VSP		00000000
-IN1	473	42	107000	PROJECT ACCESS	PROJECT ACCESS		00000000
-IN1	474	42	107001	DE HEALTHYKIDS DELTA	DE HEALTHYKIDS DELTA		00000000
-IN1	475	42	107002	DE HMP MERIDIAN HPOM DELTA	DE HMP MERIDIAN HPOM DELTA		00000000
-IN1	476	42	107003	DE DELTA COMMERCIAL	DE DELTA COMMERCIAL		00000000
-IN1	477	42	107004	DE HMP UHC COMMUNITY DENTAL	DE HMP UHC COMMUNITY DENTAL		00000000
-IN1	478	42	107005	DE BLUE SHIELD	DE BLUE SHIELD		00000000
-IN1	479	42	107006	DE HMP AETNA DENTAQUEST	DE HMP AETNA DENTAQUEST		00000000
-IN1	480	42	107007	DE HMP PRIORITY HEALTH DELTA	DE HMP PRIORITY HEALTH DELTA		00000000
-IN1	481	42	107008	DE WPS MEDICARE	DE WPS MEDICARE		00000000
-IN1	482	42	107009	DE NGS MEDICARE	DE NGS MEDICARE		00000000
-IN1	483	42	107010	DE METLIFE	DE METLIFE		00000000
-IN1	484	42	107011	DE GUARDIAN LIFE DENTAL GUARD	DE GUARDIAN LIFE DENTAL GUARD		00000000
-IN1	485	42	107012	DE MICHILD DELTA DENTAL	DE MICHILD DELTA DENTAL		00000000
-IN1	486	42	107013	DE MEDICAID	DE MEDICAID		00000000
-IN1	487	42	108000	HEALTHPAY CFH	HEALTHPAY CFH		00000000
-IN1	488	42	999999	XR SELF PAY	XR SELF PAY		00000000
+IN1	27	42	1007	AMERICAN MEDICAL SECURITI	AMERICAN MEDICAL SECURITI		00000000
+IN1	28	42	1008	AMERISURE MEDICAL PLAN	AMERISURE MEDICAL PLAN		00000000
+IN1	29	42	1009	ASSURANT HEALTH	ASSURANT HEALTH		00000000
+IN1	30	42	1010	AUTOMATED BENEFIT SVC	AUTOMATED BENEFIT SVC		00000000
+IN1	31	42	1011	BANKERS LIFE & CASUALTY	BANKERS LIFE & CASUALTY		00000000
+IN1	32	42	1013	BEAUMONT EMPLOYEE HEALTH	BEAUMONT EMPLOYEE HEALTH		00000000
+IN1	33	42	1014	BENESIGHT	BENESIGHT		00000000
+IN1	34	42	1015	BOTSFORD HEALTH	BOTSFORD HEALTH		00000000
+IN1	35	42	1016	C.A.M. ADMINISTRATIVE SERVICES	C.A.M. ADMINISTRATIVE SERVICES		00000000
+IN1	36	42	1017	CBCA	CBCA		00000000
+IN1	37	42	1018	CENTRAL RESERVE LIFE	CENTRAL RESERVE LIFE		00000000
+IN1	38	42	1019	CIGNA	CIGNA		00000000
+IN1	39	42	1021	CITIZENS INSURANCE	CITIZENS INSURANCE		00000000
+IN1	40	42	1022	CNA INSURANCE	CNA INSURANCE		00000000
+IN1	41	42	1023	COFINITY PLAN	COFINITY PLAN		00000000
+IN1	42	42	1024	COMMUNITY CARE ASSOS. JVHL	COMMUNITY CARE ASSOS. JVHL		00000000
+IN1	43	42	1025	COMMUNITY PARTNER REFERRAL	COMMUNITY PARTNER REFERRAL		00000000
+IN1	44	42	1026	COMPSYCH CORPORATION	COMPSYCH CORPORATION		00000000
+IN1	45	42	1027	CONN GENERAL / MAPLEGROVE	CONN GENERAL / MAPLEGROVE		00000000
+IN1	46	42	1028	CONNECTCARE	CONNECTCARE		00000000
+IN1	47	42	1029	COVENTRY FIRST HEALTH	COVENTRY FIRST HEALTH		00000000
+IN1	48	42	1030	DELTA VISION	DELTA VISION		00000000
+IN1	49	42	1031	DIRECTCARE AMERICA	DIRECTCARE AMERICA		00000000
+IN1	50	42	1032	DMC CARE	DMC CARE		00000000
+IN1	51	42	1033	EDS HEALTHCARE	EDS HEALTHCARE		00000000
+IN1	52	42	1034	ETHIX/PROAMERICA MIDWEST	ETHIX/PROAMERICA MIDWEST		00000000
+IN1	53	42	1035	FARMERS INSURANCE	FARMERS INSURANCE		00000000
+IN1	54	42	1036	FREE TRADE MEDICAL NTWK	FREE TRADE MEDICAL NTWK		00000000
+IN1	55	42	1037	GEHA FEDERAL EMPLOYEES	GEHA FEDERAL EMPLOYEES		00000000
+IN1	56	42	1038	GENERAL AMERICAN LIFE INS.	GENERAL AMERICAN LIFE INS.		00000000
+IN1	57	42	1039	GENERIC COMMERCIAL	GENERIC COMMERCIAL		00000000
+IN1	58	42	1040	GENERIC NURSING HOME	GENERIC NURSING HOME		00000000
+IN1	59	42	1041	GIFT OF LIFE	GIFT OF LIFE		00000000
+IN1	60	42	1042	GLOBALCARE	GLOBALCARE		00000000
+IN1	61	42	1043	GM UNDERWRITERS	GM UNDERWRITERS		00000000
+IN1	62	42	1044	GOLDEN RULE INSURANCE	GOLDEN RULE INSURANCE		00000000
+IN1	63	42	1045	GREAT WEST LIFE INS. CO.	GREAT WEST LIFE INS. CO.		00000000
+IN1	64	42	1046	GUARDIAN LIFE	GUARDIAN LIFE		00000000
+IN1	65	42	1047	HARRINGTON BENEFIT SERVICES	HARRINGTON BENEFIT SERVICES		00000000
+IN1	66	42	1048	HEALTH PLUS OF MICHIGAN	HEALTH PLUS OF MICHIGAN		00000000
+IN1	67	42	1049	HEALTH/WELFARE FUND	HEALTH/WELFARE FUND		00000000
+IN1	68	42	1050	HEALTHSTAR	HEALTHSTAR		00000000
+IN1	69	42	1051	HHS	HHS		00000000
+IN1	70	42	1052	HMSA - LABORERS ASSISTANCE PROGRAM	HMSA - LABORERS ASSISTANCE PROGRAM		00000000
+IN1	71	42	1053	HORIZON HEALTH EAP	HORIZON HEALTH EAP		00000000
+IN1	72	42	1054	HOSPICE	HOSPICE		00000000
+IN1	73	42	1055	HUMANA	HUMANA		00000000
+IN1	74	42	1056	IGRF / MARATHON ASHLAND	IGRF / MARATHON ASHLAND		00000000
+IN1	75	42	1057	INTERLINK HEALTH SERVICES-TRANSPLANT	INTERLINK HEALTH SERVICES-TRANSPLANT		00000000
+IN1	76	42	1058	IRON WORKERS HEALTH FUND	IRON WORKERS HEALTH FUND		00000000
+IN1	77	42	1059	JOHNSON CONTROLS	JOHNSON CONTROLS		00000000
+IN1	78	42	1060	LIBERTY MUTUAL	LIBERTY MUTUAL		00000000
+IN1	79	42	1062	MAGELLAN HEALTH SERVICES	MAGELLAN HEALTH SERVICES		00000000
+IN1	80	42	1063	MAIL HANDLERS BENEFIT PLAN	MAIL HANDLERS BENEFIT PLAN		00000000
+IN1	81	42	1064	MARITIME MANULIFE	MARITIME MANULIFE		00000000
+IN1	82	42	1065	MCLAREN HEALTH PLAN	MCLAREN HEALTH PLAN		00000000
+IN1	83	42	1066	MEDICAL MUTUAL OF OHIO	MEDICAL MUTUAL OF OHIO		00000000
+IN1	84	42	1067	MEGA LIFE INSURANCE	MEGA LIFE INSURANCE		00000000
+IN1	85	42	1068	MERCY PRIMARY CARE CENTER	MERCY PRIMARY CARE CENTER		00000000
+IN1	86	42	1069	METROPOLITAN LABORERS / T.I.C.	METROPOLITAN LABORERS / T.I.C.		00000000
+IN1	87	42	1070	MICHIGAN UFCW	MICHIGAN UFCW		00000000
+IN1	88	42	1071	MID-AMERICAN ASSOCIATES	MID-AMERICAN ASSOCIATES		00000000
+IN1	89	42	1072	MNNET CLAIMS DEPT	MNNET CLAIMS DEPT		00000000
+IN1	90	42	1073	MOTOR VEHICLE ACCIDENT	MOTOR VEHICLE ACCIDENT		00000000
+IN1	91	42	1074	MUTUAL OF OMAHA	MUTUAL OF OMAHA		00000000
+IN1	92	42	1075	N.A.L.C. HEALTH BENEFIT PLAN	N.A.L.C. HEALTH BENEFIT PLAN		00000000
+IN1	93	42	1076	NATIONWIDE	NATIONWIDE		00000000
+IN1	94	42	1077	NEW YORK LIFE INSURANCE COMP	NEW YORK LIFE INSURANCE COMP		00000000
+IN1	95	42	1078	NGS AMERICAN	NGS AMERICAN		00000000
+IN1	96	42	1079	NHL / WILLIAM J SUTTON INC	NHL / WILLIAM J SUTTON INC		00000000
+IN1	97	42	1080	NATIONAL HOSPITAL NETWORK	NATIONAL HOSPITAL NETWORK		00000000
+IN1	98	42	1081	NORTH AMERICAN ADMIN	NORTH AMERICAN ADMIN		00000000
+IN1	99	42	1082	NORTHERN GROUP SERVICES	NORTHERN GROUP SERVICES		00000000
+IN1	100	42	1083	NATIONAL REF PROV NTWK	NATIONAL REF PROV NTWK		00000000
+IN1	101	42	1084	OHIP ONTARIO HEALTH SERVICES	OHIP ONTARIO HEALTH SERVICES		00000000
+IN1	102	42	1085	ONE HEALTH PLAN	ONE HEALTH PLAN		00000000
+IN1	103	42	1086	ONTARIO BARIATIRIC	ONTARIO BARIATIRIC		00000000
+IN1	104	42	1087	OPTUM HEALTH	OPTUM HEALTH		00000000
+IN1	105	42	1088	OWENS CORNING EAP	OWENS CORNING EAP		00000000
+IN1	106	42	1089	PAI	PAI		00000000
+IN1	107	42	1090	PARAMOUNT GROUP	PARAMOUNT GROUP		00000000
+IN1	108	42	1091	PEDIATRIC CENTER OF EXCELLENCE	PEDIATRIC CENTER OF EXCELLENCE		00000000
+IN1	109	42	1092	PHCS	PHCS		00000000
+IN1	110	42	1093	PHYSICIANS HEALTH PLAN	PHYSICIANS HEALTH PLAN		00000000
+IN1	111	42	1094	PHYSICIANS MUTUAL	PHYSICIANS MUTUAL		00000000
+IN1	112	42	1095	PRINCIPAL HLTHCR PPO PAR	PRINCIPAL HLTHCR PPO PAR		00000000
+IN1	113	42	1096	PRINCIPAL MUTUAL	PRINCIPAL MUTUAL		00000000
+IN1	114	42	1097	PRIORITY HEALTH	PRIORITY HEALTH		00000000
+IN1	115	42	1098	PRUDENTIAL	PRUDENTIAL		00000000
+IN1	116	42	1099	REGENCY MEDICAL ADMIN.	REGENCY MEDICAL ADMIN.		00000000
+IN1	117	42	1100	SHEET METAL WORKERS	SHEET METAL WORKERS		00000000
+IN1	118	42	1102	SUMMACARE	SUMMACARE		00000000
+IN1	119	42	1103	SURGICAL CASE RATE ACCOUNT	SURGICAL CASE RATE ACCOUNT		00000000
+IN1	120	42	1104	TOTAL HEALTHCARE COMMERCIAL HMO	TOTAL HEALTHCARE COMMERCIAL HMO		00000000
+IN1	121	42	1105	TOTAL HEALTHCARE USA SELECT	TOTAL HEALTHCARE USA SELECT		00000000
+IN1	122	42	1106	U.S. COAST GUARD	U.S. COAST GUARD		00000000
+IN1	123	42	1107	UNITED AUTO WORKERS	UNITED AUTO WORKERS		00000000
+IN1	124	42	1108	UMR	UMR		00000000
+IN1	125	42	1109	UNICARE	UNICARE		00000000
+IN1	126	42	1110	UNIFIED LIFE INSURANCE COMPANY	UNIFIED LIFE INSURANCE COMPANY		00000000
+IN1	127	42	1111	UNITED HEALTHCARE	UNITED HEALTHCARE		00000000
+IN1	128	42	1112	USA HEALTHNET	USA HEALTHNET		00000000
+IN1	129	42	1113	VETERANS ADMINISTRATION	VETERANS ADMINISTRATION		00000000
+IN1	130	42	1114	WAYNE COUNTY JAIL	WAYNE COUNTY JAIL		00000000
+IN1	131	42	1115	WELLCARE HEALTH PLANS	WELLCARE HEALTH PLANS		00000000
+IN1	132	42	1116	WELLPOINT BEHAVIORAL HLTH	WELLPOINT BEHAVIORAL HLTH		00000000
+IN1	133	42	1117	WEYCO	WEYCO		00000000
+IN1	134	42	1118	COFINITY PLAN PPOM HMO	COFINITY PLAN PPOM HMO		00000000
+IN1	135	42	1119	JVHL	JVHL		00000000
+IN1	136	42	1120	VALUE OPTIONS	VALUE OPTIONS		00000000
+IN1	137	42	1121	CINERGY HEALTH & LIFE	CINERGY HEALTH & LIFE		00000000
+IN1	138	42	1122	COMMUNITY BRIDGES	COMMUNITY BRIDGES		00000000
+IN1	139	42	1123	HENRY FORD 	HENRY FORD 		00000000
+IN1	140	42	1124	BEAUMONT HEALTH UNCOMPENSATED CARE PROGRAM	BEAUMONT HEALTH UNCOMPENSATED CARE PROGRAM		00000000
+IN1	141	42	1125	INDEMNITY INC CO	INDEMNITY INC CO		00000000
+IN1	142	42	1126	MEEMIC INSURANCE COMPANY	MEEMIC INSURANCE COMPANY		00000000
+IN1	143	42	1127	PENNSYLVANIA DEPT OF LABOR & INDUSTRY	PENNSYLVANIA DEPT OF LABOR & INDUSTRY		00000000
+IN1	144	42	1128	TRANSAMERICA LIFE MEDICARE SUPP	TRANSAMERICA LIFE MEDICARE SUPP		00000000
+IN1	145	42	1129	WABASH MEMORIAL HOSPITAL ASSOCIATION	WABASH MEMORIAL HOSPITAL ASSOCIATION		00000000
+IN1	146	42	1130	NASI	NASI		00000000
+IN1	147	42	1131	HEALTH CHOICE	HEALTH CHOICE		00000000
+IN1	148	42	1132	UNITED AMERICAN	UNITED AMERICAN		00000000
+IN1	149	42	1133	US HEALTH & LIFE	US HEALTH & LIFE		00000000
+IN1	150	42	1134	GUARANTEE TRUST LIFE	GUARANTEE TRUST LIFE		00000000
+IN1	151	42	1135	GOVERNMENT PERSONNEL MUTUAL	GOVERNMENT PERSONNEL MUTUAL		00000000
+IN1	152	42	1136	PAINTERS UNION INS FUND	PAINTERS UNION INS FUND		00000000
+IN1	153	42	1137	GLOBALITES NORTH AMERICA	GLOBALITES NORTH AMERICA		00000000
+IN1	154	42	1138	SEDGWICK CLAIMS	SEDGWICK CLAIMS		00000000
+IN1	155	42	1139	NATIONAL ELEVATOR INDUSTRY	NATIONAL ELEVATOR INDUSTRY		00000000
+IN1	156	42	1140	COORDINATED BENEFIT PLAN	COORDINATED BENEFIT PLAN		00000000
+IN1	157	42	1141	GLOBAL LITE LIFE	GLOBAL LITE LIFE		00000000
+IN1	158	42	1142	MONUMENTAL LIFE	MONUMENTAL LIFE		00000000
+IN1	159	42	1143	AMA INSURANCE AGENCY	AMA INSURANCE AGENCY		00000000
+IN1	160	42	1144	WELLS FARGO INS SERVICES	WELLS FARGO INS SERVICES		00000000
+IN1	161	42	1145	RETIREE MEDICAL INSURANCE PLAN	RETIREE MEDICAL INSURANCE PLAN		00000000
+IN1	162	42	1146	BAC LOCAL 1 INS FUND	BAC LOCAL 1 INS FUND		00000000
+IN1	163	42	1147	MEDICO INSURANCE COMPANY	MEDICO INSURANCE COMPANY		00000000
+IN1	164	42	1148	APWU	APWU		00000000
+IN1	165	42	1149	AMERAPLAN	AMERAPLAN		00000000
+IN1	166	42	1150	EHIM	EHIM		00000000
+IN1	167	42	1151	MICHIGAN EMPLOYEE BENEFITS	MICHIGAN EMPLOYEE BENEFITS		00000000
+IN1	168	42	1152	FREEDOM LIFE INSURANCE COMPANY OF AMERICA	FREEDOM LIFE INSURANCE COMPANY OF AMERICA		00000000
+IN1	169	42	1153	UNITED MINE WORKERS	UNITED MINE WORKERS		00000000
+IN1	170	42	1154	TRAVELERS INSURANCE	TRAVELERS INSURANCE		00000000
+IN1	171	42	1155	STANDARD LIFE & ACCIDENT INSURANCE COMPANY	STANDARD LIFE & ACCIDENT INSURANCE COMPANY		00000000
+IN1	172	42	1156	TRANSAMERICA LIFE INSURANCE	TRANSAMERICA LIFE INSURANCE		00000000
+IN1	173	42	1157	ALL SAVERS INSURANCE	ALL SAVERS INSURANCE		00000000
+IN1	174	42	1158	GEICO	GEICO		00000000
+IN1	175	42	1159	SIMPLIFI ESO	SIMPLIFI ESO		00000000
+IN1	176	42	1160	IBEW LOCAL 17	IBEW LOCAL 17		00000000
+IN1	177	42	1161	STATE FARM	STATE FARM		00000000
+IN1	178	42	1162	BRIDGESTONE FIRESTONE	BRIDGESTONE FIRESTONE		00000000
+IN1	179	42	1163	FEDERATED MUTUAL INSURANCE	FEDERATED MUTUAL INSURANCE		00000000
+IN1	180	42	1164	MERITAIN HEALTH	MERITAIN HEALTH		00000000
+IN1	181	42	1165	HEALTH DESIGN PLUS	HEALTH DESIGN PLUS		00000000
+IN1	182	42	1166	ELCA/MARSH	ELCA/MARSH		00000000
+IN1	183	42	1167	AFLAC	AFLAC		00000000
+IN1	184	42	1168	UNION BANKERS	UNION BANKERS		00000000
+IN1	185	42	1169	BANKERS FIDELITY	BANKERS FIDELITY		00000000
+IN1	186	42	1170	ROOFERS LOCAL 149	ROOFERS LOCAL 149		00000000
+IN1	187	42	1171	SECURE HORIZONS	SECURE HORIZONS		00000000
+IN1	188	42	1172	GRAPHIC COMMUNICATIONS HEALTH	GRAPHIC COMMUNICATIONS HEALTH		00000000
+IN1	189	42	1173	CORESOURCE	CORESOURCE		00000000
+IN1	190	42	1174	UNITED ASSOCIATION OF SMALL BUSINESS (UASB)	UNITED ASSOCIATION OF SMALL BUSINESS (UASB)		00000000
+IN1	191	42	1175	OPTIMED	OPTIMED		00000000
+IN1	192	42	1177	GENWORTH LIFE AND ANNUITY	GENWORTH LIFE AND ANNUITY		00000000
+IN1	193	42	1178	INDEPENDENT HEALTH INSURANCE	INDEPENDENT HEALTH INSURANCE		00000000
+IN1	194	42	1179	LINCOLN HERITAGE	LINCOLN HERITAGE		00000000
+IN1	195	42	1180	ASR HEALTH BENEFITS	ASR HEALTH BENEFITS		00000000
+IN1	196	42	1181	HARTFORD INSURANCE	HARTFORD INSURANCE		00000000
+IN1	197	42	1182	CONSTITUTION LIFE INSURANCE	CONSTITUTION LIFE INSURANCE		00000000
+IN1	198	42	1183	LOYAL AMERICAN LIFE INSURANCE	LOYAL AMERICAN LIFE INSURANCE		00000000
+IN1	199	42	1184	CERNER HEALTH PLAN	CERNER HEALTH PLAN		00000000
+IN1	200	42	1185	WAUSAU	WAUSAU		00000000
+IN1	201	42	1186	AMERICAN REPUBLIC INSURANCE	AMERICAN REPUBLIC INSURANCE		00000000
+IN1	202	42	1187	THRIVENT FINANCIAL FOR LUTHERANS	THRIVENT FINANCIAL FOR LUTHERANS		00000000
+IN1	203	42	1188	SPECIAL INSURANCE SERVICES	SPECIAL INSURANCE SERVICES		00000000
+IN1	204	42	1189	CONSECO	CONSECO		00000000
+IN1	205	42	1190	MITCHELL INTERNATIONAL	MITCHELL INTERNATIONAL		00000000
+IN1	206	42	1191	MICHIGAN REHAB SERVICES	MICHIGAN REHAB SERVICES		00000000
+IN1	207	42	1192	VES (VETERANS EVALUATION SERVICES)	VES (VETERANS EVALUATION SERVICES)		00000000
+IN1	208	42	1193	WASHINGTON NATIONAL INSURANCE	WASHINGTON NATIONAL INSURANCE		00000000
+IN1	209	42	1194	ESURANCE	ESURANCE		00000000
+IN1	210	42	1195	SENTINEL SECURITY LIFE	SENTINEL SECURITY LIFE		00000000
+IN1	211	42	1196	GALLAGHER BASSET	GALLAGHER BASSET		00000000
+IN1	212	42	1197	COMPANION LIFE	COMPANION LIFE		00000000
+IN1	213	42	1198	AMERICAN HERITAGE LIFE	AMERICAN HERITAGE LIFE		00000000
+IN1	214	42	1199	INTERNATIONAL BENEFIT ADMINISTRATORS	INTERNATIONAL BENEFIT ADMINISTRATORS		00000000
+IN1	215	42	1200	CONSUMERS MUTUAL	CONSUMERS MUTUAL		00000000
+IN1	216	42	1201	GREAT LAKES CASUALTY	GREAT LAKES CASUALTY		00000000
+IN1	217	42	1202	CINCINNATI AUTO	CINCINNATI AUTO		00000000
+IN1	218	42	1203	GASS-BECKER AUTO	GASS-BECKER AUTO		00000000
+IN1	219	42	1204	GERBER LIFE	GERBER LIFE		00000000
+IN1	220	42	1205	COMPREHENSIVE BENEFITS	COMPREHENSIVE BENEFITS		00000000
+IN1	221	42	1206	NIPPON LIFE	NIPPON LIFE		00000000
+IN1	222	42	1207	UPMC HEALTH PLAN	UPMC HEALTH PLAN		00000000
+IN1	223	42	1208	CONTINENTAL LIFE	CONTINENTAL LIFE		00000000
+IN1	224	42	1210	SYMETRA LIFE	SYMETRA LIFE		00000000
+IN1	225	42	1211	AMERICAN PROGRESSIVE	AMERICAN PROGRESSIVE		00000000
+IN1	226	42	1212	AMERICAN CLAIMS MANAGEMENT	AMERICAN CLAIMS MANAGEMENT		00000000
+IN1	227	42	1213	MVP SELECT CARE	MVP SELECT CARE		00000000
+IN1	228	42	1214	DEAN HEALTH PLAN	DEAN HEALTH PLAN		00000000
+IN1	229	42	1215	FIRST HEALTH	FIRST HEALTH		00000000
+IN1	230	42	1216	FREEDOM VIP CARE (HMO)	FREEDOM VIP CARE (HMO)		00000000
+IN1	231	42	1217	STARMARK	STARMARK		00000000
+IN1	232	42	1218	CONSOCIATE	CONSOCIATE		00000000
+IN1	233	42	1219	AMERICA'S CHOICE	AMERICA'S CHOICE		00000000
+IN1	234	42	1220	GLOBAL EXCEL MANAGEMENT	GLOBAL EXCEL MANAGEMENT		00000000
+IN1	235	42	1221	ADMINISTRATIVE CONCEPTS	ADMINISTRATIVE CONCEPTS		00000000
+IN1	236	42	1222	ASRM	ASRM		00000000
+IN1	237	42	1223	RELIGIOUS COMPREHENSIVE TRUST	RELIGIOUS COMPREHENSIVE TRUST		00000000
+IN1	238	42	1224	INTERNATIONAL ASSOCIATION OF MACHINISTS	INTERNATIONAL ASSOCIATION OF MACHINISTS		00000000
+IN1	239	42	1225	COLONIAL PENN LIFE	COLONIAL PENN LIFE		00000000
+IN1	240	42	1226	UNITY HEALTH	UNITY HEALTH		00000000
+IN1	241	42	1227	STONEBRIDGE LIFE INSURANCE	STONEBRIDGE LIFE INSURANCE		00000000
+IN1	242	42	1228	RELIANCE STANDARD LIFE INS	RELIANCE STANDARD LIFE INS		00000000
+IN1	243	42	1229	WEBTPA	WEBTPA		00000000
+IN1	244	42	1230	VANTAGE HEALTH PLAN	VANTAGE HEALTH PLAN		00000000
+IN1	245	42	1231	ENCOMPASS	ENCOMPASS		00000000
+IN1	246	42	1232	KAISER PERMANENTE	KAISER PERMANENTE		00000000
+IN1	247	42	1233	WPS GROUP PREFERRED ADVANTAGE PLAN/EPIC LIFE INSURANCE	WPS GROUP PREFERRED ADVANTAGE PLAN/EPIC LIFE INSURANCE		00000000
+IN1	248	42	1234	TRANS RX - PAYMENT POSTING ONLY	TRANS RX - PAYMENT POSTING ONLY		00000000
+IN1	249	42	1235	PHX PREFERRED ADMINISTRATORS	PHX PREFERRED ADMINISTRATORS		00000000
+IN1	250	42	1236	HCC LIFE INS/COVENTRY	HCC LIFE INS/COVENTRY		00000000
+IN1	251	42	1237	USAA LIFE INSURANCE	USAA LIFE INSURANCE		00000000
+IN1	252	42	1238	WESTERN & SOUTHERN FINANCIAL GROUP	WESTERN & SOUTHERN FINANCIAL GROUP		00000000
+IN1	253	42	1239	SAMBA	SAMBA		00000000
+IN1	254	42	1240	AMERICAN PUBLIC LIFE INSURANCE	AMERICAN PUBLIC LIFE INSURANCE		00000000
+IN1	255	42	1241	PULLINARY HEALTHLAND	PULLINARY HEALTHLAND		00000000
+IN1	256	42	1242	ADN	ADN		00000000
+IN1	257	42	1243	JP FARLEY CORPORATION	JP FARLEY CORPORATION		00000000
+IN1	258	42	1244	PRAIRIE STATES ENTERPRISES	PRAIRIE STATES ENTERPRISES		00000000
+IN1	259	42	1245	IPMG-EBS	IPMG-EBS		00000000
+IN1	260	42	1246	US EVALUATION SERVICES	US EVALUATION SERVICES		00000000
+IN1	261	42	1247	OXFORD HEALTH	OXFORD HEALTH		00000000
+IN1	262	42	1248	GLOBAL MEDICAL CENTER	GLOBAL MEDICAL CENTER		00000000
+IN1	263	42	1249	STERLING INSURANCE OPERATIONS	STERLING INSURANCE OPERATIONS		00000000
+IN1	264	42	1250	ASSOCIATION AND SOCIETY INSURANCE	ASSOCIATION AND SOCIETY INSURANCE		00000000
+IN1	265	42	1251	LIFESTYLE HEALTH PLANS	LIFESTYLE HEALTH PLANS		00000000
+IN1	266	42	1252	COMMUNITY CARE ASSOCIATES	COMMUNITY CARE ASSOCIATES		00000000
+IN1	267	42	1253	CHESTERFIELD RESOURCES	CHESTERFIELD RESOURCES		00000000
+IN1	268	42	1254	MEADOWBROOK INSURANCE	MEADOWBROOK INSURANCE		00000000
+IN1	269	42	1255	GILSBAR	GILSBAR		00000000
+IN1	270	42	1256	EMPLOYEE BENEFIT LOGISTICS	EMPLOYEE BENEFIT LOGISTICS		00000000
+IN1	271	42	1257	CENTRAL STATES INDEMNITY	CENTRAL STATES INDEMNITY		00000000
+IN1	272	42	1258	RIVERGATE NURSING FACILITY	RIVERGATE NURSING FACILITY		00000000
+IN1	273	42	1259	INTERNATIONAL MEDICAL GROUP	INTERNATIONAL MEDICAL GROUP		00000000
+IN1	274	42	1260	MEDIVEST	MEDIVEST		00000000
+IN1	275	42	1261	HEALTH PARTNERS	HEALTH PARTNERS		00000000
+IN1	276	42	1262	MANHATTAN LIFE	MANHATTAN LIFE		00000000
+IN1	277	42	1263	IHC HEALTH SOLUTION	IHC HEALTH SOLUTION		00000000
+IN1	278	42	1264	BUCKEYE COMMUNITY HEALTH PLAN	BUCKEYE COMMUNITY HEALTH PLAN		00000000
+IN1	279	42	1265	MANAGEABILITY IME	MANAGEABILITY IME		00000000
+IN1	280	42	1266	SELECT BENEFIT ADMINISTRATORS	SELECT BENEFIT ADMINISTRATORS		00000000
+IN1	281	42	1267	SOUTHGATE MANOR	SOUTHGATE MANOR		00000000
+IN1	282	42	1268	MEDICA CHOICE	MEDICA CHOICE		00000000
+IN1	283	42	1269	ONEBEACON	ONEBEACON		00000000
+IN1	284	42	1270	CREDENTIALING	CREDENTIALING		00000000
+IN1	285	42	1271	COMBINED INSURANCE COMPANY OF AMERICA	COMBINED INSURANCE COMPANY OF AMERICA		00000000
+IN1	286	42	1272	CONSOLIDATED HEALTH PLAN	CONSOLIDATED HEALTH PLAN		00000000
+IN1	287	42	1273	PEARL HEALTH ALLIANCE	PEARL HEALTH ALLIANCE		00000000
+IN1	288	42	1274	ACUITY	ACUITY		00000000
+IN1	289	42	1275	KEY BENEFIT ADMINISTRATORS	KEY BENEFIT ADMINISTRATORS		00000000
+IN1	290	42	1276	RURAL CARRIER BENEFITS	RURAL CARRIER BENEFITS		00000000
+IN1	291	42	1277	COUNTRY LIFE INSURANCE	COUNTRY LIFE INSURANCE		00000000
+IN1	292	42	1278	LUTHERAN HOME OF MONROE	LUTHERAN HOME OF MONROE		00000000
+IN1	293	42	1279	EISENHOWER CENTER	EISENHOWER CENTER		00000000
+IN1	294	42	1280	AMERICAN NATIONAL LIFE INS OF TEXAS	AMERICAN NATIONAL LIFE INS OF TEXAS		00000000
+IN1	295	42	1281	BENEFIT ADMINISTRATIVE SYSTEMS	BENEFIT ADMINISTRATIVE SYSTEMS		00000000
+IN1	296	42	1282	JEFFERSON NATIONAL LIFE	JEFFERSON NATIONAL LIFE		00000000
+IN1	297	42	1283	AMERICAN RETIREMENT LIFE	AMERICAN RETIREMENT LIFE		00000000
+IN1	298	42	1284	AULTCARE	AULTCARE		00000000
+IN1	299	42	1285	GLOBE LIFE AND ACCIDENT	GLOBE LIFE AND ACCIDENT		00000000
+IN1	300	42	1286	GPA	GPA		00000000
+IN1	301	42	1287	NATIONWIDE LIFE INSURANCE	NATIONWIDE LIFE INSURANCE		00000000
+IN1	302	42	1288	AMERIHEALTH	AMERIHEALTH		00000000
+IN1	303	42	1289	HEALTHSMART ACCEL	HEALTHSMART ACCEL		00000000
+IN1	304	42	1290	HEALTH LINK	HEALTH LINK		00000000
+IN1	305	42	1291	DWMHA	DWMHA		00000000
+IN1	306	42	1292	MEDI-SHARE	MEDI-SHARE		00000000
+IN1	307	42	1293	CHEROKEE INSURANCE COMPANY	CHEROKEE INSURANCE COMPANY		00000000
+IN1	308	42	1294	FARM BUREAU	FARM BUREAU		00000000
+IN1	309	42	1295	AMERIBEN	AMERIBEN		00000000
+IN1	310	42	1296	FOREIGN SERVICE BENEFIT PLAN	FOREIGN SERVICE BENEFIT PLAN		00000000
+IN1	311	42	1297	HEALTH NET COMMERCIAL	HEALTH NET COMMERCIAL		00000000
+IN1	312	42	1298	NEIGHBORS CARING FOR NEIGHBORS MACOMB	NEIGHBORS CARING FOR NEIGHBORS MACOMB		00000000
+IN1	313	42	1299	AMERICAN COUNTRY	AMERICAN COUNTRY		00000000
+IN1	314	42	1300	PACE SOUTHEAST MICHIGAN	PACE SOUTHEAST MICHIGAN		00000000
+IN1	315	42	1301	VETERANS HEALTH CHOICE HEALTH NET FEDER	VETERANS HEALTH CHOICE HEALTH NET FEDER		00000000
+IN1	316	42	1302	6 DEGREES TRANSPLANT NETWORK	6 DEGREES TRANSPLANT NETWORK		00000000
+IN1	317	42	1303	EBS-RMSCO	EBS-RMSCO		00000000
+IN1	318	42	1304	CONSUMERS CHOICE	CONSUMERS CHOICE		00000000
+IN1	319	42	1305	HEALTH SMART	HEALTH SMART		00000000
+IN1	320	42	1306	SISCO	SISCO		00000000
+IN1	321	42	1307	HEALTHGRAM	HEALTHGRAM		00000000
+IN1	322	42	1308	AMFIRST	AMFIRST		00000000
+IN1	323	42	1309	ALLIANZ GLOBAL ASSISTANCE	ALLIANZ GLOBAL ASSISTANCE		00000000
+IN1	324	42	1310	FRONTPATH	FRONTPATH		00000000
+IN1	325	42	1311	WELLCARE HEALTH PLANS	WELLCARE HEALTH PLANS		00000000
+IN1	326	42	1312	PYRAMID LIFE	PYRAMID LIFE		00000000
+IN1	327	42	1313	EMBLEM HEALTH	EMBLEM HEALTH		00000000
+IN1	328	42	1314	CLAIMEDIX	CLAIMEDIX		00000000
+IN1	329	42	1315	GEHA ASA	GEHA ASA		00000000
+IN1	330	42	1316	HEALTHSCOPE	HEALTHSCOPE		00000000
+IN1	331	42	1317	GREATER MACOMB PHO	GREATER MACOMB PHO		00000000
+IN1	332	42	1318	TUFTS HEALTH PLAN	TUFTS HEALTH PLAN		00000000
+IN1	333	42	1319	MICHIGAN DEPARTMENT OF HUMAN SERVICES	MICHIGAN DEPARTMENT OF HUMAN SERVICES		00000000
+IN1	334	42	1320	MACOMB COUNTY HEALTH DEPARTMENT	MACOMB COUNTY HEALTH DEPARTMENT		00000000
+IN1	335	42	1321	HARBOR CHOICE	HARBOR CHOICE		00000000
+IN1	336	42	1322	BENESYS	BENESYS		00000000
+IN1	337	42	1323	EQUITABLE	EQUITABLE		00000000
+IN1	338	42	1324	CARELINK LTAC	CARELINK LTAC		00000000
+IN1	339	42	1325	CORIZON	CORIZON		00000000
+IN1	340	42	1326	OXFORD INS CO	OXFORD INS CO		00000000
+IN1	341	42	1327	MID STATE HEALTH NETWORK	MID STATE HEALTH NETWORK		00000000
+IN1	342	42	1328	JACKSON COUNTY JAIL	JACKSON COUNTY JAIL		00000000
+IN1	343	42	1329	JACKSON HEALTH DEPT	JACKSON HEALTH DEPT		00000000
+IN1	344	42	1330	CENTRAL STATES HEALTH & LIFE OF OMAHA	CENTRAL STATES HEALTH & LIFE OF OMAHA		00000000
+IN1	345	42	1331	HENRY FORD ALLEGIANCE HLTH	HENRY FORD ALLEGIANCE HLTH		00000000
+IN1	346	42	1332	HFAH WOMENS CENTER	HFAH WOMENS CENTER		00000000
+IN1	347	42	1333	MICHIGAN REHAB	MICHIGAN REHAB		00000000
+IN1	348	42	1334	TANDEM DIABETES CARE INC	TANDEM DIABETES CARE INC		00000000
+IN1	349	42	1335	LIBERTY HEALTHSHARE	LIBERTY HEALTHSHARE		00000000
+IN1	350	42	1400	UNITED HEALTHCARE ALTERNATE	UNITED HEALTHCARE ALTERNATE		00000000
+IN1	351	42	2001	MEDICARE	MEDICARE		00000000
+IN1	352	42	2002	MEDICARE RAIL ROAD	MEDICARE RAIL ROAD		00000000
+IN1	353	42	2003	SECTION 1011	SECTION 1011		00000000
+IN1	354	42	2004	UHC DUAL COMPLETE PART A	UHC DUAL COMPLETE PART A		00000000
+IN1	355	42	2005	HEALTHPLUS MEDICARE ADVANTAGE	HEALTHPLUS MEDICARE ADVANTAGE		00000000
+IN1	356	42	2006	UNITED HEALTHCARE DUAL COMPLETE MEDICARE	UNITED HEALTHCARE DUAL COMPLETE MEDICARE		00000000
+IN1	357	42	2007	MEDICARE D	MEDICARE D		00000000
+IN1	358	42	2009	MEDICARE PART D	MEDICARE PART D		00000000
+IN1	359	42	2011	MEDICARE ALTERNATE	MEDICARE ALTERNATE		00000000
+IN1	360	42	2012	MEDICARE PART D PB	MEDICARE PART D PB		00000000
+IN1	361	42	3001	GENERIC MEDICAID	GENERIC MEDICAID		00000000
+IN1	362	42	3002	MACOMB COUNTY HEALTH	MACOMB COUNTY HEALTH		00000000
+IN1	363	42	3004	MEDICAID	MEDICAID		00000000
+IN1	364	42	3005	BCCCP MICHIGAN	BCCCP MICHIGAN		00000000
+IN1	365	42	3006	MICHIGAN DEPT. OF COMM. HLTH	MICHIGAN DEPT. OF COMM. HLTH		00000000
+IN1	366	42	3007	MID MICHIGAN HEALTH PLAN	MID MICHIGAN HEALTH PLAN		00000000
+IN1	367	42	3008	MOMS	MOMS		00000000
+IN1	368	42	3009	COVENTRY	COVENTRY		00000000
+IN1	369	42	3010	MEDICAID SPENDOWN ALT	MEDICAID SPENDOWN ALT		00000000
+IN1	370	42	5001	WORKERS COMPENSATION	WORKERS COMPENSATION		00000000
+IN1	371	42	5002	JVHL COMMERCIAL	JVHL COMMERCIAL		00000000
+IN1	372	42	5003	JVHL MEDICARE ADVANTAGE	JVHL MEDICARE ADVANTAGE		00000000
+IN1	373	42	5004	JVHL MEDICARE	JVHL MEDICARE		00000000
+IN1	374	42	5006	JVHL HAP	JVHL HAP		00000000
+IN1	375	42	5007	JVHL BLUE SHIELD	JVHL BLUE SHIELD		00000000
+IN1	376	42	6001	TRICARE	TRICARE		00000000
+IN1	377	42	6002	CHAMPVA	CHAMPVA		00000000
+IN1	378	42	7001	SELECT SPECIALTY	SELECT SPECIALTY		00000000
+IN1	379	42	9001	FEDERAL BLACK LUNG	FEDERAL BLACK LUNG		00000000
+IN1	380	42	10001	BLUE CROSS BLUE SHIELD	BLUE CROSS BLUE SHIELD		00000000
+IN1	381	42	10002	GENERIC BLUE CROSS BLUE SHIELD	GENERIC BLUE CROSS BLUE SHIELD		00000000
+IN1	382	42	10003	WORKING UNINSURED	WORKING UNINSURED		00000000
+IN1	383	42	10004	SPECIAL PROJECTS	SPECIAL PROJECTS		00000000
+IN1	384	42	10005	MERITAIN	MERITAIN		00000000
+IN1	385	42	10006	BLUE CARE NETWORK	BLUE CARE NETWORK		00000000
+IN1	386	42	11191	JVHL HAP	JVHL HAP		00000000
+IN1	387	42	11193	CARE LINK ALT	CARE LINK ALT		00000000
+IN1	388	42	15001	DME REGION B	DME REGION B		00000000
+IN1	389	42	99999	SELF-PAY	SELF-PAY		00000000
+IN1	390	42	101001	HAP	HAP		00000000
+IN1	391	42	102001	ADVANTRA FREEDOM MEDICARE ADVANTAGE	ADVANTRA FREEDOM MEDICARE ADVANTAGE		00000000
+IN1	392	42	102002	AETNA ADVANTAGE	AETNA ADVANTAGE		00000000
+IN1	393	42	102003	BLUE ADVANTAGE	BLUE ADVANTAGE		00000000
+IN1	394	42	102004	ERICKSON ADVANTAGE	ERICKSON ADVANTAGE		00000000
+IN1	395	42	102005	FIDELIS SECURECARE MEDICARE ADVANTAGE	FIDELIS SECURECARE MEDICARE ADVANTAGE		00000000
+IN1	396	42	102006	GENERIC MEDICARE ADVANTAGE	GENERIC MEDICARE ADVANTAGE		00000000
+IN1	397	42	102007	HAP MEDICARE ADVANTAGE	HAP MEDICARE ADVANTAGE		00000000
+IN1	398	42	102008	HUMANA MEDICARE ADVANTAGE	HUMANA MEDICARE ADVANTAGE		00000000
+IN1	399	42	102009	MCLAREN MEDICARE ADVANTAGE	MCLAREN MEDICARE ADVANTAGE		00000000
+IN1	400	42	102010	MIDWEST MEDICARE ADVANTAGE	MIDWEST MEDICARE ADVANTAGE		00000000
+IN1	401	42	102011	MOLINA MEDICARE ADVANTAGE	MOLINA MEDICARE ADVANTAGE		00000000
+IN1	402	42	102012	PACE	PACE		00000000
+IN1	403	42	102013	PARAMOUNT ELITE MEDICARE ADVANTAGE	PARAMOUNT ELITE MEDICARE ADVANTAGE		00000000
+IN1	404	42	102014	PRIORITY HEALTH MEDICARE ADVANTAGE	PRIORITY HEALTH MEDICARE ADVANTAGE		00000000
+IN1	405	42	102015	SECURE HORIZONS MEDICARE	SECURE HORIZONS MEDICARE		00000000
+IN1	406	42	102016	SECURITY CHOICE ENHANCED MEDICARE ADVANTAGE	SECURITY CHOICE ENHANCED MEDICARE ADVANTAGE		00000000
+IN1	407	42	102017	STERLING OPTIONS MEDICARE ADVANTAGE	STERLING OPTIONS MEDICARE ADVANTAGE		00000000
+IN1	408	42	102018	SUMMACARE MEDICARE ADVANTAGE	SUMMACARE MEDICARE ADVANTAGE		00000000
+IN1	409	42	102019	TODAY'S OPTIONS PYRAMID MEDICARE ADVANTAGE	TODAY'S OPTIONS PYRAMID MEDICARE ADVANTAGE		00000000
+IN1	410	42	102020	UNITED HEALTHCARE MEDICARE ADVANTAGE	UNITED HEALTHCARE MEDICARE ADVANTAGE		00000000
+IN1	411	42	102021	AARP MEDICARE ADVANTAGE	AARP MEDICARE ADVANTAGE		00000000
+IN1	412	42	102022	MERIDIAN ADVANTAGE PLAN OF MICHIGAN	MERIDIAN ADVANTAGE PLAN OF MICHIGAN		00000000
+IN1	413	42	102023	CENTER FOR SENIOR INDEPENDENCE	CENTER FOR SENIOR INDEPENDENCE		00000000
+IN1	414	42	102024	ALASKA CARE	ALASKA CARE		00000000
+IN1	415	42	102025	TOTAL HEALTHCARE ADVANTAGE	TOTAL HEALTHCARE ADVANTAGE		00000000
+IN1	416	42	102026	MEDIGOLD	MEDIGOLD		00000000
+IN1	417	42	102027	HEALTHPLUS OF MI ADVANTAGE	HEALTHPLUS OF MI ADVANTAGE		00000000
+IN1	418	42	102028	UNITED HEALTHCARE DUAL COMPLETE	UNITED HEALTHCARE DUAL COMPLETE		00000000
+IN1	419	42	102030	MOLINA	MOLINA		00000000
+IN1	420	42	102031	BRIDGESTONE	BRIDGESTONE		00000000
+IN1	421	42	102032	MCS ADVANTAGE	MCS ADVANTAGE		00000000
+IN1	422	42	102033	AHCCCS	AHCCCS		00000000
+IN1	423	42	102034	AMERIHEALTH CARITAS VIP CARE PLUS	AMERIHEALTH CARITAS VIP CARE PLUS		00000000
+IN1	424	42	102035	MODA MEDICARE ADVANTAGE	MODA MEDICARE ADVANTAGE		00000000
+IN1	425	42	102036	CARE PLUS HMO	CARE PLUS HMO		00000000
+IN1	426	42	102037	PACE SOUTHEAST MICHIGAN ADV	PACE SOUTHEAST MICHIGAN ADV		00000000
+IN1	427	42	102038	CIGNA MEDICARE ADVANTAGE	CIGNA MEDICARE ADVANTAGE		00000000
+IN1	428	42	102039	HARBOR MEDICARE	HARBOR MEDICARE		00000000
+IN1	429	42	102040	CARESOURCE	CARESOURCE		00000000
+IN1	430	42	102041	HARBOR ADVANTAGE	HARBOR ADVANTAGE		00000000
+IN1	431	42	103001	BLUE CARE NETWORK MEDICAID HMO	BLUE CARE NETWORK MEDICAID HMO		00000000
+IN1	432	42	103002	CARE LINK	CARE LINK		00000000
+IN1	433	42	103003	CARE SOURCE	CARE SOURCE		00000000
+IN1	434	42	103004	COMMUNITY HEALTH PLAN MEDICAID HMO	COMMUNITY HEALTH PLAN MEDICAID HMO		00000000
+IN1	435	42	103005	COMMUNITY MH OAKLAND	COMMUNITY MH OAKLAND		00000000
+IN1	436	42	103006	COMPCARE	COMPCARE		00000000
+IN1	437	42	103007	CONSUMER LINK	CONSUMER LINK		00000000
+IN1	438	42	103008	COUNTY HEALTH PLANS	COUNTY HEALTH PLANS		00000000
+IN1	439	42	103009	GATEWAY	GATEWAY		00000000
+IN1	440	42	103010	GENERIC MEDICAID HMO INSURANCE	GENERIC MEDICAID HMO INSURANCE		00000000
+IN1	441	42	103011	GENNESSEE COUNTY CMH	GENNESSEE COUNTY CMH		00000000
+IN1	442	42	103012	HEALTH PLUS MEDICAID HMO	HEALTH PLUS MEDICAID HMO		00000000
+IN1	443	42	103013	HEALTHSOURCE MEDICAID HMO	HEALTHSOURCE MEDICAID HMO		00000000
+IN1	444	42	103014	LIVINGSTON COUNTY CMH	LIVINGSTON COUNTY CMH		00000000
+IN1	445	42	103015	MACOMB CMH	MACOMB CMH		00000000
+IN1	446	42	103016	MACOMB COUNTY PSYCH	MACOMB COUNTY PSYCH		00000000
+IN1	447	42	103017	MCLAREN MEDICAID HMO	MCLAREN MEDICAID HMO		00000000
+IN1	448	42	103018	WASHTENAW COUNTY	WASHTENAW COUNTY		00000000
+IN1	449	42	103019	OAKLAND HEALTH PLAN	OAKLAND HEALTH PLAN		00000000
+IN1	450	42	103020	MONROE COUNTY	MONROE COUNTY		00000000
+IN1	451	42	103021	MIDWEST MEDICAID HMO	MIDWEST MEDICAID HMO		00000000
+IN1	452	42	103022	MOLINA MEDICAID HMO	MOLINA MEDICAID HMO		00000000
+IN1	453	42	103023	COVENTRY	COVENTRY		00000000
+IN1	454	42	103024	PRIORITY HEALTH MEDICAID HMO	PRIORITY HEALTH MEDICAID HMO		00000000
+IN1	455	42	103025	PROCARE	PROCARE		00000000
+IN1	456	42	103026	TOTAL HEALTHCARE MEDICAID HMO	TOTAL HEALTHCARE MEDICAID HMO		00000000
+IN1	457	42	103027	WAYNE COUNTY ABW - PRO CARE	WAYNE COUNTY ABW - PRO CARE		00000000
+IN1	458	42	103028	UNITEDHEALTHCARE COMMUNITY PLAN - MEDICAID HMO	UNITEDHEALTHCARE COMMUNITY PLAN - MEDICAID HMO		00000000
+IN1	459	42	103029	MERIDIAN	MERIDIAN		00000000
+IN1	460	42	103030	FIDELIS SECURE CARE	FIDELIS SECURE CARE		00000000
+IN1	461	42	103031	AETNA BETTER HEALTH OF MICHIGAN	AETNA BETTER HEALTH OF MICHIGAN		00000000
+IN1	462	42	103032	AETNA BETTER HEALTH	AETNA BETTER HEALTH		00000000
+IN1	463	42	103034	AMERIHEALTH OF MI HLTH LINK SECONDARY	AMERIHEALTH OF MI HLTH LINK SECONDARY		00000000
+IN1	464	42	104001	MEDICAID PENDING APPLICATION	MEDICAID PENDING APPLICATION		00000000
+IN1	465	42	105000	ALL SAVERS	ALL SAVERS		00000000
+IN1	466	42	105001	BLUE CROSS BLUE SHIELD ALTERNATE	BLUE CROSS BLUE SHIELD ALTERNATE		00000000
+IN1	467	42	106000	VSP	VSP		00000000
+IN1	468	42	107000	PROJECT ACCESS	PROJECT ACCESS		00000000
+IN1	469	42	107001	DE HEALTHYKIDS DELTA	DE HEALTHYKIDS DELTA		00000000
+IN1	470	42	107002	DE HMP MERIDIAN HPOM DELTA	DE HMP MERIDIAN HPOM DELTA		00000000
+IN1	471	42	107003	DE DELTA COMMERCIAL	DE DELTA COMMERCIAL		00000000
+IN1	472	42	107004	DE HMP UHC COMMUNITY DENTAL	DE HMP UHC COMMUNITY DENTAL		00000000
+IN1	473	42	107005	DE BLUE SHIELD	DE BLUE SHIELD		00000000
+IN1	474	42	107006	DE HMP AETNA DENTAQUEST	DE HMP AETNA DENTAQUEST		00000000
+IN1	475	42	107007	DE HMP PRIORITY HEALTH DELTA	DE HMP PRIORITY HEALTH DELTA		00000000
+IN1	476	42	107008	DE WPS MEDICARE	DE WPS MEDICARE		00000000
+IN1	477	42	107009	DE NGS MEDICARE	DE NGS MEDICARE		00000000
+IN1	478	42	107010	DE METLIFE	DE METLIFE		00000000
+IN1	479	42	107011	DE GUARDIAN LIFE DENTAL GUARD	DE GUARDIAN LIFE DENTAL GUARD		00000000
+IN1	480	42	107012	DE MICHILD DELTA DENTAL	DE MICHILD DELTA DENTAL		00000000
+IN1	481	42	107013	DE MEDICAID	DE MEDICAID		00000000
+IN1	482	42	108000	HEALTHPAY CFH	HEALTHPAY CFH		00000000
+IN1	483	42	999999	XR SELF PAY	XR SELF PAY		00000000

@@ -1,29 +1,14 @@
 base: Munising Memorial
 domains:
-  audit:
-    files:
-    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 02-03-2022.xlsx
-      list:
-        error: Undefined code found in received HL7 data
-        level: Error
-        list:
-        - HL7 ID: Q133654023T166696105
-          HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-          HL7 timestamp: '20211119092245'
-          field name: PV1-18
-          field value: CL
-          message count: 7
-          receiving org message ID: 92563659
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 02-03-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 02-07-2022.xlsx
       list:
       - error: Empty row found within segment specification
         level: Warning
         list:
         - hl7 segment: IN1
           see:
-          - cell: AP5
           - cell: AP7
           - cell: AP8
           - cell: AP9

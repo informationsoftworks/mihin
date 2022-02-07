@@ -308,3 +308,15 @@ domains:
           see:
           - cell: AP139
             code: 'HENRY FORD '
+      - error: OID appearing in multiple files
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A375
+            files:
+            - cell: A4
+              filename: 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-HFHH ADT 2.0 table 02-04-2022.xlsx
+            - cell: A375
+              filename: 2.0 Mapping Tables - Hospitals/HFPN ADT 2.0 table 11-18-2021.xlsx
+            oid: 2.16.840.1.113883.3.3823.400000322

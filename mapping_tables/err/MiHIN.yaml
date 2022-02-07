@@ -4,76 +4,6 @@ domains:
     error: ADTs received from OID for which no mapping exists
     level: Error
     see:
-    - message count: 9309
-      oid: 1.3.6.1.4.1.32898.1.4
-      sample:
-        HL7 ID: '20220121210607924'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-        HL7 timestamp: '20220121210558'
-        receiving org message ID: 35718041
-    - message count: 18
-      oid: 1.3.6.1.4.1.32898.1.4.2.100
-      sample:
-        HL7 ID: '20220113140009443'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-        HL7 timestamp: '20220113140004'
-        receiving org message ID: 35008433
-    - message count: 251
-      oid: 1.3.6.1.4.1.32898.1.4.2.11
-      sample:
-        HL7 ID: '20220121152820113'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-        HL7 timestamp: '20220121152819'
-        receiving org message ID: 35717448
-    - message count: 98
-      oid: 1.3.6.1.4.1.32898.1.4.2.12
-      sample:
-        HL7 ID: '20220121083519217'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-        HL7 timestamp: '20220121083517'
-        receiving org message ID: 35715055
-    - message count: 27
-      oid: 1.3.6.1.4.1.32898.1.4.2.13
-      sample:
-        HL7 ID: '20220121110529576'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.2780
-        HL7 timestamp: '20220121110522'
-        receiving org message ID: 27908415
-    - message count: 37
-      oid: 1.3.6.1.4.1.32898.1.4.2.40
-      sample:
-        HL7 ID: '20220115232228010'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.2780
-        HL7 timestamp: '20220115232221'
-        receiving org message ID: 27523443
-    - message count: 36
-      oid: 1.3.6.1.4.1.32898.1.4.2.50
-      sample:
-        HL7 ID: '20220119132447691'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-        HL7 timestamp: '20220119132442'
-        receiving org message ID: 35567230
-    - message count: 108
-      oid: 1.3.6.1.4.1.32898.1.4.2.70
-      sample:
-        HL7 ID: '20220120133940152'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-        HL7 timestamp: '20220120133936'
-        receiving org message ID: 105988044
-    - message count: 103
-      oid: 1.3.6.1.4.1.32898.1.4.2.80
-      sample:
-        HL7 ID: '20220114150719244'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-        HL7 timestamp: '20220114150718'
-        receiving org message ID: 35286658
-    - message count: 298
-      oid: 1.3.6.1.4.1.32898.1.4.2.90
-      sample:
-        HL7 ID: '20220120131454432'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-        HL7 timestamp: '20220120131451'
-        receiving org message ID: 105987800
     - message count: 1132
       oid: 1.3.6.1.4.1.37810.500.15.5.40
       sample:
@@ -81,3 +11,10 @@ domains:
         HL7 source org: 2.16.840.1.113883.3.5416.1.1553
         HL7 timestamp: '20220121135703'
         receiving org message ID: 106174977
+    - message count: 2909
+      oid: 2.16.840.1.113883.3.4376.100
+      sample:
+        HL7 ID: '20220122146949817'
+        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+        HL7 timestamp: '20220122005122'
+        receiving org message ID: 35718249

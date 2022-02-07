@@ -2,18 +2,11 @@ base: Garden City Hospital
 domains:
   audit:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 02-01-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 02-03-2022.xlsx
       list:
         error: Undefined code found in received HL7 data
         level: Error
         list:
-        - HL7 ID: '135055684'
-          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
-          HL7 timestamp: '20220117105041'
-          field name: IN1-17
-          field value: Spouse
-          message count: 33
-          receiving org message ID: 27602722
         - HL7 ID: '130417387'
           HL7 source org: 2.16.840.1.113883.3.5416.1.10892
           HL7 timestamp: '20211118165600'
@@ -23,7 +16,7 @@ domains:
           receiving org message ID: 31200068
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 02-01-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 02-03-2022.xlsx
       list:
       - error: Labels provided without code value
         level: Warning

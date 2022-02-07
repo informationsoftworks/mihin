@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 02-01-2022.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Garden City Hospital ADT 2.0 table 02-03-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.5416.1.85	Garden City Hospital 			00000000
@@ -106,7 +106,7 @@ PV1-14	10	24	7	Emergency Room	Emergency		4
 PV1-14	11	24	8	Court/Law enforcement	8, Court/Law		4
 PV1-14	12	24	9	Information not available	Info Unav		4
 PV1-14	13	24	SR	Self-Referral	Non-healthcare Facility, Self		4
-PV1-14	14	24	TRNF	Transfer from a non-health care facility	TRNF, Home. Disch/Readm		4
+PV1-14	14	24	TRNF	Transfer from a non-health care facility	TRNF, Home, Disch/Readm		4
 PV1-14	15	24	TRAD	Transfer from Ambulatory Department			4
 PV1-18	2	27	MiHIN Suggested Values		Hospital Value	Description	4
 PV1-18	3	27			A	Anonymous	2
@@ -313,7 +313,7 @@ IN1-17	28	39	SCH	Stepchild 	StpCh		4
 IN1-17	29	39	SEL	Self	Self		4
 IN1-17	30	39	SIB	Sibling 	Sibl		4
 IN1-17	31	39	SIS	Sister 			4
-IN1-17	32	39	SPO	Spouse	Spous		4
+IN1-17	32	39	SPO	Spouse	Spouse		4
 IN1-17	33	39	TRA	Trainer			4
 IN1-17	34	39	UNK	Unknown	Unk		4
 IN1-17	35	39	WRD	Ward of court	Wart		4
