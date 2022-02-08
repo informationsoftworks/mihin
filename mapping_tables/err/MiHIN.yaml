@@ -11,10 +11,3 @@ domains:
         HL7 source org: 2.16.840.1.113883.3.5416.1.1553
         HL7 timestamp: '20220121135703'
         receiving org message ID: 106174977
-    - message count: 2909
-      oid: 2.16.840.1.113883.3.4376.100
-      sample:
-        HL7 ID: '20220122146949817'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.10892
-        HL7 timestamp: '20220122005122'
-        receiving org message ID: 35718249

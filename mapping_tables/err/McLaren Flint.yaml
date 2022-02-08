@@ -1,0 +1,146 @@
+base: McLaren Flint
+domains:
+  audit:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 01-27-2022.xlsx
+      list:
+        error: Undefined code found in received HL7 data
+        level: Error
+        list:
+        - HL7 ID: '20210812141844549'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210812120702'
+          field name: PV1-18
+          field value: CLIENT
+          message count: 1
+          receiving org message ID: 24563789
+        - HL7 ID: '20220118146809204'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220118005612'
+          field name: PV1-18
+          field value: COUR
+          message count: 46
+          receiving org message ID: 35471981
+        - HL7 ID: '20220121146945390'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220121215604'
+          field name: PV1-18
+          field value: ER
+          message count: 687
+          receiving org message ID: 35718091
+        - HL7 ID: '20220118146835074'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.2780
+          HL7 timestamp: '20220118161251'
+          field name: PV1-18
+          field value: ME
+          message count: 23
+          receiving org message ID: 27707238
+        - HL7 ID: '20220101146347337'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220101152548'
+          field name: PV1-18
+          field value: MED
+          message count: 14
+          receiving org message ID: 34307555
+        - HL7 ID: '20220120146882457'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220120005555'
+          field name: PV1-18
+          field value: MMLCL
+          message count: 160
+          receiving org message ID: 35568982
+        - HL7 ID: '20220122146949817'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220122005122'
+          field name: PV1-18
+          field value: MMLCO
+          message count: 749
+          receiving org message ID: 35718249
+        - HL7 ID: '20220118146821649'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220118101659'
+          field name: PV1-18
+          field value: OBV
+          message count: 7
+          receiving org message ID: 35540676
+        - HL7 ID: '20220119146844982'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220119003936'
+          field name: PV1-18
+          field value: OPD
+          message count: 41
+          receiving org message ID: 35544108
+        - HL7 ID: '20210819142046199'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20210819011248'
+          field name: PV1-18
+          field value: PAT
+          message count: 1
+          receiving org message ID: 24873039
+        - HL7 ID: '20220103146382188'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220103124126'
+          field name: PV1-18
+          field value: PDT
+          message count: 3
+          receiving org message ID: 34501204
+        - HL7 ID: '20220118146807494'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220118004312'
+          field name: PV1-18
+          field value: SDS
+          message count: 12
+          receiving org message ID: 35471969
+        - HL7 ID: '20220105146457927'
+          HL7 source org: 2.16.840.1.113883.3.5416.1.10892
+          HL7 timestamp: '20220105140628'
+          field name: PV1-18
+          field value: SERI
+          message count: 3
+          receiving org message ID: 34653845
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 01-27-2022.xlsx
+      list:
+      - error: Code values provided without label
+        level: Warning
+        list:
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI27
+            code: '62'
+          - cell: AI28
+            code: '63'
+          - cell: AI29
+            code: '64'
+          - cell: AI30
+            code: '65'
+          - cell: AI31
+            code: '66'
+      - error: Empty row found within segment specification
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE93
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI32
+          - cell: AI33
+          - cell: AI34
+          - cell: AI35
+      - error: Incomplete, non-specific or abbreviated facility name
+        level: Warning
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            code: 2.16.840.1.113883.3.4376.100
+            label: McLaren Flint
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: DG1-6
+          see:
+          - cell: O4
+            code: 'A '
