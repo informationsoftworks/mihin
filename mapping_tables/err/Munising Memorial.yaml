@@ -2,7 +2,7 @@ base: Munising Memorial
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 02-07-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 02-08-2022.xlsx
       list:
       - error: Empty row found within segment specification
         level: Warning

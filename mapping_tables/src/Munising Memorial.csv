@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 02-07-2022.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 02-08-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.8257	Munising Memorial Hospital			00000000
@@ -136,7 +136,7 @@ PV1-18	22	27	46	Transplant			4
 PV1-18	23	27	47	Voucher			4
 PV1-18	24	27	49	Board Member			4
 PV1-18	25	27	49	Clergy			4
-PV1-18	26	27	52	Other	O		4
+PV1-18	26	27	52	Other			4
 PV1-18	27	27	58	Organ Donor			4
 PV1-18	28	27	59	Organ 			4
 PV1-18	29	27	60	Select Specialty			4
@@ -145,6 +145,13 @@ PV1-18	31	27			IN	Hospital Inpatient	00000000
 PV1-18	32	27			OB	Observation	00000000
 PV1-18	33	27			SW	Swing Bed	00000000
 PV1-18	34	27			CL	Clinic	00000000
+PV1-18	35	27			CR	Clinic Recurring	00000000
+PV1-18	36	27			NA	Non-Admit	00000000
+PV1-18	37	27			NV	Nurse Visit	00000000
+PV1-18	38	27			O	Outpatient	00000000
+PV1-18	39	27			PR	Preadmit	00000000
+PV1-18	40	27			RC	Recurring	00000000
+PV1-18	41	27			SN	SNF Inpatient	00000000
 PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
 PV1-10	3	31			121	Pediatrics	2
 PV1-10	4	31	104	Cardiology - General	CAR	Cardiology	4
