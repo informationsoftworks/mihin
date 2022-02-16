@@ -2,7 +2,7 @@ base: Marlette Regional Hospital
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Marlette Regional Hospital ADT 2.0 table 02-01-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Marlette Regional Hospital ADT 2.0 table 02-10-2022.xlsx
       list:
       - error: Labels provided without code value
         level: Warning
@@ -33,12 +33,6 @@ domains:
             label: ADULT BENEFIT WAIVER PLAN
           - cell: AP15
             label: ADULT BENEFIT WAIVER PLAN
-          - cell: AP16
-            label: AETNA
-          - cell: AP17
-            label: AETNA
-          - cell: AP18
-            label: AETNA
           - cell: AP19
             label: AIG INSURANCE
           - cell: AP20
@@ -97,10 +91,6 @@ domains:
             label: BANKERS LIFE AND CASUALTY - PROFESSIONAL
           - cell: AP47
             label: BANKERS LIFE AND CASUALTY - PROFESSIONAL
-          - cell: AP48
-            label: BCBSM
-          - cell: AP49
-            label: BCBSM
           - cell: AP50
             label: BCBSM TRUST
           - cell: AP51
@@ -109,16 +99,6 @@ domains:
             label: BENEFIT MGMT ADMN INC-BMAI
           - cell: AP53
             label: BENEFIT MGMT ADMN INC-BMAI
-          - cell: AP54
-            label: BLUE CROSS COMPLETE
-          - cell: AP55
-            label: BLUE CROSS COMPLETE
-          - cell: AP56
-            label: BLUECARE NETWORK
-          - cell: AP57
-            label: BLUECARE NETWORK
-          - cell: AP58
-            label: BLUECARE NETWORK
           - cell: AP59
             label: BRISTOL WEST
           - cell: AP60
@@ -349,12 +329,6 @@ domains:
             label: HASTINGS MUTUAL
           - cell: AP173
             label: HASTINGS MUTUAL
-          - cell: AP174
-            label: HUMANA
-          - cell: AP175
-            label: HUMANA
-          - cell: AP176
-            label: HUMANA
           - cell: AP177
             label: IBEW LOCAL 17
           - cell: AP178
@@ -383,28 +357,10 @@ domains:
             label: MAIL HANDLERS BENEFIT PLAN
           - cell: AP190
             label: MAIL HANDLERS BENEFIT PLAN
-          - cell: AP191
-            label: MC BCN ADVANTAGE
-          - cell: AP192
-            label: MC BCN ADVANTAGE
-          - cell: AP193
-            label: MC BCN ADVANTAGE
-          - cell: AP194
-            label: MC BCN ADVANTAGE
-          - cell: AP195
-            label: MC HAP Senior Plus
-          - cell: AP196
-            label: MC HAP Senior Plus
           - cell: AP197
             label: MC HUMANA/CHOICECARE
           - cell: AP198
             label: MC HUMANA/CHOICECARE
-          - cell: AP199
-            label: MC PLUS BLUE
-          - cell: AP200
-            label: MC PLUS BLUE
-          - cell: AP201
-            label: MC PLUS BLUE
           - cell: AP202
             label: MC PRIORITY HEALTH
           - cell: AP203
@@ -429,18 +385,10 @@ domains:
             label: MEBS
           - cell: AP213
             label: MEBS
-          - cell: AP214
-            label: MEDICAID
-          - cell: AP215
-            label: MEDICAID
           - cell: AP216
             label: MEDICAID MGT CARE MISC
           - cell: AP217
             label: MEDICAID MGT CARE MISC
-          - cell: AP218
-            label: MEDICARE
-          - cell: AP219
-            label: MEDICARE
           - cell: AP220
             label: MEDICARE MGT CARE MISC
           - cell: AP221
@@ -471,12 +419,6 @@ domains:
             label: MINNEAPOLIS GROUP CLAIMS
           - cell: AP234
             label: MINNEAPOLIS GROUP CLAIMS
-          - cell: AP235
-            label: MOLINA HEALTHCARE of MICHIGAN
-          - cell: AP236
-            label: MOLINA HEALTHCARE of MICHIGAN
-          - cell: AP237
-            label: MOLINA HEALTHCARE of MICHIGAN
           - cell: AP238
             label: MORTON BLDG EMP HEALTH
           - cell: AP239
@@ -601,10 +543,6 @@ domains:
             label: SELECTCARE PPO
           - cell: AP299
             label: SELECTCARE PPO
-          - cell: AP300
-            label: SELF PAY
-          - cell: AP301
-            label: SELF PAY
           - cell: AP302
             label: SET SEG
           - cell: AP303
@@ -657,10 +595,6 @@ domains:
             label: TITAN CLAIMS
           - cell: AP327
             label: TITAN CLAIMS
-          - cell: AP328
-            label: Tricare East Region
-          - cell: AP329
-            label: Tricare East Region
           - cell: AP330
             label: UMR 1
           - cell: AP331
@@ -673,24 +607,10 @@ domains:
             label: UNITED AMERICAN INSURANCE CO
           - cell: AP335
             label: UNITED AMERICAN INSURANCE CO
-          - cell: AP336
-            label: UNITED HC ATLANTA GA
-          - cell: AP337
-            label: UNITED HC ATLANTA GA
-          - cell: AP338
-            label: UNITED HC ATLANTA GA
-          - cell: AP339
-            label: UNITED HC ATLANTA GA
-          - cell: AP340
-            label: United Healthcare
           - cell: AP341
             label: VA/JOHN D. DINGELL
           - cell: AP342
             label: VA/JOHN D. DINGELL
-          - cell: AP343
-            label: Veterans Choice Program
-          - cell: AP344
-            label: Veterans Choice Program
           - cell: AP345
             label: WATER QUALITY ASSOCIATION
           - cell: AP346
