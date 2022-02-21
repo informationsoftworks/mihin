@@ -2,7 +2,7 @@ base: Michigan Medicine
 domains:
   audit:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 1-14-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 02-21-2022.xlsx
       list:
         error: Undefined code found in received HL7 data
         level: Error
@@ -16,7 +16,7 @@ domains:
           receiving org message ID: 35568243
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 1-14-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 02-21-2022.xlsx
       list:
       - error: Incomplete, non-specific or abbreviated facility name
         level: Warning
@@ -113,10 +113,6 @@ domains:
       - error: Leading and/or trailing whitespace in Hospital Value
         level: Warning
         list:
-        - hl7 segment: PV1-14
-          see:
-          - cell: X14
-            code: 'B, U, 8, EDfrShelter, ED FR Hosp Care at Home '
         - hl7 segment: PV1-10
           see:
           - cell: AE32
