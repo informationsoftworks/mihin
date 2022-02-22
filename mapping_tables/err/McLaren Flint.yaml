@@ -2,7 +2,7 @@ base: McLaren Flint
 domains:
   audit:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 01-27-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 02-22-2022.xlsx
       list:
         error: Undefined code found in received HL7 data
         level: Error
@@ -100,7 +100,7 @@ domains:
           receiving org message ID: 34653845
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 01-27-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 02-22-2022.xlsx
       list:
       - error: Code values provided without label
         level: Warning

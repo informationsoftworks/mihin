@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 01-27-2022.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 02-22-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.4376.100	McLaren Flint			00000000
@@ -1105,7 +1105,7 @@ PV1-10	35	31	140	Otolaryngology/ENT			4
 PV1-10	36	31	141	Plastic Surgery			4
 PV1-10	37	31	143	Radiation Oncology	RDO		4
 PV1-10	38	31	144	Rheumatology			4
-PV1-10	39	31	145	Urology			4
+PV1-10	39	31	145	Urology	URO		4
 PV1-10	40	31	148	Pharmacy			4
 PV1-10	41	31	149	Interventional Radiology			4
 PV1-10	42	31	150	Clinical Decision Unit			4
@@ -1143,7 +1143,7 @@ PV1-10	73	31	409	Cardiology - Electrophysiology			4
 PV1-10	74	31	463	Bariatric Surgery	BAR		4
 PV1-10	75	31	464	Intensive Care			4
 PV1-10	76	31	465	Pulmonary Hypertension			4
-PV1-10	77	31	466	Pulmonary Transplant			4
+PV1-10	77	31	466	Pulmonary Transplant	PUL		4
 PV1-10	78	31	467	Pulmonary Interventional			4
 PV1-10	79	31	469	Transplant HPB Surgery			4
 PV1-10	80	31	470	Cardiothoracic Transplant			4

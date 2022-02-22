@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Sparrow Health System ADT 2.0 table 12-09-2020.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Sparrow Health System ADT 2.0 table 02-22-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.3991.1	Sparrow Hospital			00000000
@@ -78,9 +78,9 @@ PV1-2	3	18	E	Emergency	ER		2
 PV1-2	4	18	B	Obstetrics			4
 PV1-2	5	18	C	Commercial Account			4
 PV1-2	6	18	E	Emergency	EMER, E, K		4
-PV1-2	7	18	I	Inpatient, Inpatient Psych, Substance Abuse Inpatient	IP, I, C, D, IPPY, SUBA		4
+PV1-2	7	18	I	Inpatient	IP, I, C, D, IPPY, SUBA		4
 PV1-2	8	18	N	Not Applicable			4
-PV1-2	9	18	O	Outpatient, Psychiatric Series, Psychiatric Series, Substance Abuse Series	OP, O, OPBED, T, HAS, R, P, SPSY, SSAB		4
+PV1-2	9	18	O	Outpatient	OP, O, OPBED, T, HAS, R, P, SPSY, SSAB		4
 PV1-2	10	18	P	Preadmit			4
 PV1-2	11	18	R	Recurring patient	SONC, STHP, SINF, SDIA, SMAT, SWGT, SWND, SRSP, SCRB		4
 PV1-2	12	18	U	Unknown			4
@@ -142,20 +142,20 @@ PV1-18	26	27	52	Other			4
 PV1-18	27	27	58	Organ Donor			4
 PV1-18	28	27	59	Organ 			4
 PV1-18	29	27	60	Select Specialty			4
-PV1-18	30	27			C	Clinton Inpatient 	00000000
-PV1-18	31	27			D, U	Ionia Inpatient 	00000000
+PV1-18	30	27			C	Clinton Inpatient	00000000
+PV1-18	31	27			D, U	Ionia Inpatient	00000000
 PV1-18	32	27			E	Emergency	00000000
 PV1-18	33	27			F, L, S	N/A	00000000
-PV1-18	34	27			G	Groupes or Facilities 	00000000
+PV1-18	34	27			G	Groupes or Facilities	00000000
 PV1-18	35	27			H	Nmodel Type	00000000
-PV1-18	36	27			I	Inpatient 	00000000
-PV1-18	37	27			K	Ionia Emergency 	00000000
-PV1-18	38	27			M, P	Ionia Outpatient 	00000000
+PV1-18	36	27			I	Inpatient	00000000
+PV1-18	37	27			K	Ionia Emergency	00000000
+PV1-18	38	27			M, P	Ionia Outpatient	00000000
 PV1-18	39	27			N	Nursing Home	00000000
-PV1-18	40	27			O	Outpatient 	00000000
-PV1-18	41	27			R	Regional Lab 	00000000
-PV1-18	42	27			T	Clinton Outpatient 	00000000
-PV1-18	43	27			V	Veterinary 	00000000
+PV1-18	40	27			O	Outpatient	00000000
+PV1-18	41	27			R	Regional Lab	00000000
+PV1-18	42	27			T	Clinton Outpatient	00000000
+PV1-18	43	27			V	Veterinary	00000000
 PV1-10	2	31	MiHIN Suggested Values		Hospital Value	Description	4
 PV1-10	3	31			121	Pediatrics	2
 PV1-10	4	31	104	Cardiology - General	Cardiology, STROKE SERV	Stroke Service	4
@@ -181,7 +181,7 @@ PV1-10	23	31	127	Acute Care Surgery			4
 PV1-10	24	31	128	Allergy & Immunology			4
 PV1-10	25	31	129	Anesthesiology	 ANESTHESIOLO		4
 PV1-10	26	31	131	Dermatology			4
-PV1-10	27	31	132	Family Medicine	FAMILY MEDIC, CM, IH, SH, SL, 	CM, IH, SH, SL 	4
+PV1-10	27	31	132	Family Medicine	FAMILY MEDIC, CM, IH, SH, SL,	CM, IH, SH, SL	4
 PV1-10	28	31	133	Endocrinology	ENDOCRINOLOG		4
 PV1-10	29	31	134	Genetics			4
 PV1-10	30	31	135	Hematology	HEMATOLOGY, PEDS HEM ONC	Pediatric Hematology-Oncology	4
@@ -200,7 +200,7 @@ PV1-10	42	31	150	Clinical Decision Unit			4
 PV1-10	43	31	151	Wound/Ostomy Care	Ostomy		4
 PV1-10	44	31	153	Newborn			4
 PV1-10	45	31	154	Labor and Delivery			4
-PV1-10	46	31	156	Hospitalist Medicine	Hospitalist 	Hospitalist Service	4
+PV1-10	46	31	156	Hospitalist Medicine	Hospitalist	Hospitalist Service	4
 PV1-10	47	31	158	Select Specialty			4
 PV1-10	48	31	161	Audiology			4
 PV1-10	49	31	162	Behavioral Health - Psychology			4
@@ -304,7 +304,7 @@ IN1-17	8	39	DEP	Handicapped dependant	HdDp		4
 IN1-17	9	39	DOM	Life partner	LfPt		4
 IN1-17	10	39	EMC	Emergency contact			4
 IN1-17	11	39	EME	Employee			4
-IN1-17	12	39	EMR	Employer, EMPL	EMPLOYER, EMPL, Empl		4
+IN1-17	12	39	EMR	Employer	EMPLOYER, EMPL, Empl		4
 IN1-17	13	39	EXF	Extended family			4
 IN1-17	14	39	FCH	Foster child 	FsCh		4
 IN1-17	15	39	FND	Friend	Friend		4
@@ -316,7 +316,7 @@ IN1-17	20	39	MGR	Manager			4
 IN1-17	21	39	MTH	Mother 	Mother, Mthr, MOT		4
 IN1-17	22	39	NCH	Natural child			4
 IN1-17	23	39	NON	None	Not Available, CDF		4
-IN1-17	24	39	OAD	Other adult	Oadt, Orel, OAdt, ORel, 		4
+IN1-17	24	39	OAD	Other adult	Oadt, Orel, OAdt, ORel,		4
 IN1-17	25	39	OTH	Other	O, Other, OTH, DPOA, Foster Paren, GdCh, Neighbor, Relative, SO, Sponsor, Adop, Roommate, Odnr, InPf, Soth, SOth, SpDp		4
 IN1-17	26	39	OWN	Owner			4
 IN1-17	27	39	PAR	Parent 	Prnt		4

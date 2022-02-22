@@ -2,7 +2,7 @@ base: Sparrow Health System
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Sparrow Health System ADT 2.0 table 12-09-2020.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Sparrow Health System ADT 2.0 table 02-22-2022.xlsx
       list:
       - error: Incomplete, non-specific or abbreviated facility name
         level: Warning
@@ -15,35 +15,6 @@ domains:
           - cell: A7
             code: 2.16.840.1.113883.3.3991.4
             label: Ionia
-      - error: Leading and/or trailing whitespace in Description
-        level: Warning
-        list:
-        - hl7 segment: PV1-18
-          see:
-          - cell: AA30
-            label: 'Clinton Inpatient '
-          - cell: AA31
-            label: 'Ionia Inpatient '
-          - cell: AA34
-            label: 'Groupes or Facilities '
-          - cell: AA36
-            label: 'Inpatient '
-          - cell: AA37
-            label: 'Ionia Emergency '
-          - cell: AA38
-            label: 'Ionia Outpatient '
-          - cell: AA40
-            label: 'Outpatient '
-          - cell: AA41
-            label: 'Regional Lab '
-          - cell: AA42
-            label: 'Clinton Outpatient '
-          - cell: AA43
-            label: 'Veterinary '
-        - hl7 segment: PV1-10
-          see:
-          - cell: AE27
-            label: 'CM, IH, SH, SL '
       - error: Leading and/or trailing whitespace in Hospital Value
         level: Warning
         list:
@@ -51,14 +22,6 @@ domains:
           see:
           - cell: AE25
             code: ' ANESTHESIOLO'
-          - cell: AE27
-            code: 'FAMILY MEDIC, CM, IH, SH, SL, '
-          - cell: AE46
-            code: 'Hospitalist '
-        - hl7 segment: IN1-17
-          see:
-          - cell: AM24
-            code: 'Oadt, Orel, OAdt, ORel, '
       - error: Number of Hospital Values does not match number of Descriptions
         level: Error
         list:
