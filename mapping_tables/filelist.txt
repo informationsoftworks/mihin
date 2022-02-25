@@ -208,8 +208,6 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Eaton County Health & Rehab ADT 2.0 table 9-25-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Evangelical Homes - Saline ADT 2.0 6-9-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Evergreen Health and Living Center ADT 2.0 table 07-11-18.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Evergreen Senior Care and Rehab Center ADT 2.0 table 5-9-17.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Fairlane Senior Care and Rehab Center ADT 2.0 table 5-9-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Faith Haven Senior Care Center ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Father Murray Nursing Center ADT 2.0 table 02-01-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Fisher Senior Care and Rehab Center ADT 2.0 table 5-9-17.xlsx
@@ -411,7 +409,6 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-West Oaks Senior Care & Rehab Center ADT 2.0 table 8-21-2020.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Westlake Health Campus ADT 2.0 table 9-5-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Westland Nursing and Rehabilitation Centre ADT 2.0 table 5-9-17.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Westwood Nursing Center ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Willowbrook Manor ADT 2.0 table 11-29-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Windemere Park of Warren ADT 2.0 Table 11-17-17.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Woodward Hills Nursing Center ADT 2.0 table 10-31-16.xlsx
