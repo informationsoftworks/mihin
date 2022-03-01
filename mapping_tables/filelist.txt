@@ -128,7 +128,7 @@
 2.0 Mapping Tables - Hospitals/MidMichigan Medical Center - West Branch ADT 2.0 table 02-27-2019.xlsx
 2.0 Mapping Tables - Hospitals/Munising Memorial ADT 2.0 table 02-10-2022.xlsx
 2.0 Mapping Tables - Hospitals/Munson Healthcare ADT 2.0 table 11-18-2021.xlsx
-2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 06-03-20.xlsx
+2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-01-2022.xlsx
 2.0 Mapping Tables - Hospitals/Munson Healthcare Manistee Hospital ADT 2.0 table 7-2-19.xlsx
 2.0 Mapping Tables - Hospitals/Munson Healthcare Otsego Memorial Hospital ADT 2.0 table 2-27-19.xlsx
 2.0 Mapping Tables - Hospitals/North Ottawa Community Health System ADT 2.0 table 11-02-2021.xlsx
