@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-01-2022.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-02-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.17.45	CHARLEVOIX AH			00000000
@@ -63,7 +63,7 @@ PID-22	38	9	VIT	Vietnamese 			4
 PID-30	2	12	MiHIN Value	Description	Hospital Value		4
 PID-30	3	12	Y	Expired	E		2
 PID-30	4	12	Y	Deceased/Yes	Yes		4
-PID-30	5	12	N	Not Deceased/No	No		4
+PID-30	5	12	N	Not Deceased/No	No, N		4
 DG1-6	2	15	MiHIN Value	Description	Hospital Value		4
 DG1-6	3	15	A	Admitting	AD		2
 DG1-6	4	15	A	Admitting	Admitting		4
