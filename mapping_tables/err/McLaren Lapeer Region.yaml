@@ -2,7 +2,7 @@ base: McLaren Lapeer Region
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/McLaren Lapeer Region ADT 2.0 table 01-27-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Lapeer Region ADT 2.0 table 03-03-2022.xlsx
       list:
       - error: Code values provided without label
         level: Warning

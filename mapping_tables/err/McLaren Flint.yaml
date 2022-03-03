@@ -2,7 +2,7 @@ base: McLaren Flint
 domains:
   audit:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 02-22-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 03-03-2022.xlsx
       list:
         error: Undefined code found in received HL7 data
         level: Error
@@ -100,35 +100,14 @@ domains:
           receiving org message ID: 34653845
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 02-22-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/McLaren Flint ADT 2.0 table 03-03-2022.xlsx
       list:
-      - error: Code values provided without label
-        level: Warning
-        list:
-        - hl7 segment: PV1-36
-          see:
-          - cell: AI27
-            code: '62'
-          - cell: AI28
-            code: '63'
-          - cell: AI29
-            code: '64'
-          - cell: AI30
-            code: '65'
-          - cell: AI31
-            code: '66'
       - error: Empty row found within segment specification
         level: Warning
         list:
         - hl7 segment: PV1-10
           see:
           - cell: AE93
-        - hl7 segment: PV1-36
-          see:
-          - cell: AI32
-          - cell: AI33
-          - cell: AI34
-          - cell: AI35
       - error: Incomplete, non-specific or abbreviated facility name
         level: Warning
         list:
@@ -137,6 +116,156 @@ domains:
           - cell: A4
             code: 2.16.840.1.113883.3.4376.100
             label: McLaren Flint
+      - error: Labels provided without code value
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE6
+            label: Geriatrics
+          - cell: AE10
+            label: Medical Intensive Care
+          - cell: AE11
+            label: Internal Medicine
+          - cell: AE12
+            label: Neuro ICU
+          - cell: AE21
+            label: Surgical Intensive Care
+          - cell: AE22
+            label: Nephrology Transplant
+          - cell: AE23
+            label: Acute Care Surgery
+          - cell: AE24
+            label: Allergy & Immunology
+          - cell: AE25
+            label: Anesthesiology
+          - cell: AE26
+            label: Dermatology
+          - cell: AE27
+            label: Family Medicine
+          - cell: AE28
+            label: Endocrinology
+          - cell: AE29
+            label: Genetics
+          - cell: AE32
+            label: Nephrology
+          - cell: AE33
+            label: Neurosurgery
+          - cell: AE35
+            label: Otolaryngology/ENT
+          - cell: AE36
+            label: Plastic Surgery
+          - cell: AE38
+            label: Rheumatology
+          - cell: AE40
+            label: Pharmacy
+          - cell: AE41
+            label: Interventional Radiology
+          - cell: AE42
+            label: Clinical Decision Unit
+          - cell: AE45
+            label: Labor and Delivery
+          - cell: AE46
+            label: Hospitalist Medicine
+          - cell: AE47
+            label: Select Specialty
+          - cell: AE48
+            label: Audiology
+          - cell: AE50
+            label: Cardiology - Structural Heart Disease
+          - cell: AE51
+            label: Colon/Rectal Surgery
+          - cell: AE52
+            label: Gynecology/Oncology
+          - cell: AE53
+            label: Oral Surgery
+          - cell: AE54
+            label: Palliative Medicine
+          - cell: AE55
+            label: Podiatry
+          - cell: AE56
+            label: Radiology
+          - cell: AE58
+            label: Cardiac Surgery
+          - cell: AE59
+            label: Transplant
+          - cell: AE60
+            label: Bone Marrow Transplant
+          - cell: AE61
+            label: Chemotherapy
+          - cell: AE62
+            label: Pathology
+          - cell: AE63
+            label: Pulmonary
+          - cell: AE64
+            label: Thoracic Surgery
+          - cell: AE65
+            label: Transfusion Medicine
+          - cell: AE66
+            label: Family Practice
+          - cell: AE67
+            label: Orthopedic - Hand Surgery
+          - cell: AE68
+            label: Orthopedic - Spine
+          - cell: AE69
+            label: Hepatology
+          - cell: AE71
+            label: Urogynecology
+          - cell: AE72
+            label: Bone & Mineral
+          - cell: AE73
+            label: Cardiology - Electrophysiology
+          - cell: AE75
+            label: Intensive Care
+          - cell: AE76
+            label: Pulmonary Hypertension
+          - cell: AE78
+            label: Pulmonary Interventional
+          - cell: AE79
+            label: Transplant HPB Surgery
+          - cell: AE80
+            label: Cardiothoracic Transplant
+          - cell: AE81
+            label: Vascular Surgery
+          - cell: AE82
+            label: Speech Pathology
+          - cell: AE83
+            label: Cardiology - Advanced Heart Failure/Transplant
+          - cell: AE84
+            label: Cardiology - Vascular Medicine
+          - cell: AE85
+            label: Physiatry
+          - cell: AE86
+            label: Orthopedic - Surgery
+          - cell: AE87
+            label: Cardiovascular SICU
+          - cell: AE88
+            label: Behavioral Health - Neuropsychology
+          - cell: AE89
+            label: Behavioral Health - Psychiatry
+          - cell: AE90
+            label: Surgical Endoscopy
+          - cell: AE91
+            label: Ethics
+          - cell: AE92
+            label: Trauma Surgery
+        - hl7 segment: PV1-36
+          see:
+          - cell: AI15
+            label: Expired at home
+          - cell: AI16
+            label: Expired in a medical facility (e.g. hospital, SNF, ICF, or free standing hospice)
+          - cell: AI17
+            label: Expired - place unknown
+          - cell: AI18
+            label: Discharged/transferred to a federal health care facility. (Effective 10/1/03)
+      - error: Leading and/or trailing whitespace in Description
+        level: Warning
+        list:
+        - hl7 segment: PV1-10
+          see:
+          - cell: AE54
+            label: 'Palliative Medicine '
       - error: Leading and/or trailing whitespace in Hospital Value
         level: Warning
         list:
