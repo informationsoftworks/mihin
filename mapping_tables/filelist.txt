@@ -311,12 +311,6 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Westwood ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Wyoming ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Medilodge of Yale ADT 2.0 table 11-1-16.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Metron of Belding ADT 2.0 table 10-26-16.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Metron of Big Rapids ADT 2.0 table 10-26-16.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Metron of Cedar Springs ADT 2.0 table 10-26-16.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Metron of Forest Hills ADT 2.0 table 10-26-16.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Metron of Greenville ADT 2.0 table 10-31-16.xlsx
-2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Metron of Lamont ADT 2.0 table 10-26-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Midland Nursing Center-Brittany Manor ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-North Woods Nursing Center ADT 2.0 table 3-5-18.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Northwest Manor ADT 2.0 table 10-31-16.xlsx
