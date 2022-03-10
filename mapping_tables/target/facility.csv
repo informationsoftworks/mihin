@@ -859,6 +859,7 @@ oid,facility
 2.16.840.1.113883.3.5416.1.10154,Ingham County Medical Care Facility
 2.16.840.1.113883.3.5416.1.10212,Covenant HealthCare Transitional Care Unit
 2.16.840.1.113883.3.5416.1.10215,Four Seasons Nursing Center of Westland
+2.16.840.1.113883.3.5416.1.10262,Montcalm Care Network
 2.16.840.1.113883.3.5416.1.10413,Masonic Pathways
 2.16.840.1.113883.3.5416.1.10414,Warwick Living Center
 2.16.840.1.113883.3.5416.1.10415,Masonic Pathways Breathing Unit 
@@ -868,6 +869,8 @@ oid,facility
 2.16.840.1.113883.3.5416.1.10554,The Oasis at Monroe Rehabilitation and Healthcare Center - SNF
 2.16.840.1.113883.3.5416.1.10897,Menominee Care Center
 2.16.840.1.113883.3.5416.1.10898,PROMEDICA HOME CARE OF DUNDEE
+2.16.840.1.113883.3.5416.1.11374,Newaygo County Mental Health
+2.16.840.1.113883.3.5416.1.11375,Bay-Arenac Behavioral Health Authority
 2.16.840.1.113883.3.5416.1.11642,Laurels of Bedford
 2.16.840.1.113883.3.5416.1.117,ST FRANCIS HOSPITAL
 2.16.840.1.113883.3.5416.1.12103,Allegan County Community Mental Health
@@ -881,8 +884,10 @@ oid,facility
 2.16.840.1.113883.3.5416.1.1485,Mackinac Straits Health Systems
 2.16.840.1.113883.3.5416.1.1485.1,Mackinac Straits Hospital
 2.16.840.1.113883.3.5416.1.1485.3,Mackinac Island Medical Center
+2.16.840.1.113883.3.5416.1.1504,Macomb County Community Mental Health Authority
 2.16.840.1.113883.3.5416.1.1568,JACKSON ENDOCRINOLOGY
 2.16.840.1.113883.3.5416.1.18,MidMichigan Medical Center - West Branch
+2.16.840.1.113883.3.5416.1.2732,NorthCare PIHP
 2.16.840.1.113883.3.5416.1.2807,CASCADE RIDGE FAMILY MEDICINE
 2.16.840.1.113883.3.5416.1.2837,Advantage Living Center- Harper Woods    
 2.16.840.1.113883.3.5416.1.2838,Advantage Living Center- Redford                               
@@ -948,12 +953,19 @@ oid,facility
 2.16.840.1.113883.3.5416.1.2901,The Manor of Novi    
 2.16.840.1.113883.3.5416.1.2987,Medilodge of Hillman
 2.16.840.1.113883.3.5416.1.3059,Medilodge of Plymouth
+2.16.840.1.113883.3.5416.1.3144,Network 180
+2.16.840.1.113883.3.5416.1.3146,West Michigan CMH
 2.16.840.1.113883.3.5416.1.3185,Medilodge of Monroe
 2.16.840.1.113883.3.5416.1.3186,Medilodge of Sterling Heights
+2.16.840.1.113883.3.5416.1.3216,Northern Lakes CMH Authority
+2.16.840.1.113883.3.5416.1.353,Shiawassee Health & Wellness
+2.16.840.1.113883.3.5416.1.365,Huron Behavioral Health
 2.16.840.1.113883.3.5416.1.3761,Medilodge of Howell
+2.16.840.1.113883.3.5416.1.382,Lapeer Community Mental Health
 2.16.840.1.113883.3.5416.1.389,Deckerville Community Hospital
 2.16.840.1.113883.3.5416.1.4133,Medilodge of Campus Area
 2.16.840.1.113883.3.5416.1.4134,Medilodge of East Lansing
+2.16.840.1.113883.3.5416.1.4135,Mid-State Health Network PIHP
 2.16.840.1.113883.3.5416.1.4422,Medilodge of Montrose
 2.16.840.1.113883.3.5416.1.4456,Villa at West Branch
 2.16.840.1.113883.3.5416.1.4479,Bay Shores Nursing Center
@@ -1060,6 +1072,8 @@ oid,facility
 2.16.840.1.113883.3.5416.1.7552,Cherrywood Nursing and Living
 2.16.840.1.113883.3.5416.1.7707,The Village of East Harbor
 2.16.840.1.113883.3.5416.1.7721,Boulevard Health Center
+2.16.840.1.113883.3.5416.1.7743,Community Mental Health Partnership of Southeast Michigan
+2.16.840.1.113883.3.5416.1.7745,St. Joseph CMH
 2.16.840.1.113883.3.5416.1.7812,Villa at Rose City
 2.16.840.1.113883.3.5416.1.7813,Villa at the Bay
 2.16.840.1.113883.3.5416.1.7814,Villa at Traverse Point
@@ -1078,9 +1092,12 @@ oid,facility
 2.16.840.1.113883.3.5416.1.8059,Marwood Nursing & Rehab
 2.16.840.1.113883.3.5416.1.81.1,PROMEDICA HERRICK HOSPITAL-PARENT
 2.16.840.1.113883.3.5416.1.81.2,ProMedica Charles and Virginia Hickman Hospital
+2.16.840.1.113883.3.5416.1.8157,Summit Pointe - Calhoun County CMH
 2.16.840.1.113883.3.5416.1.8296,Eaton County Health & Rehab
 2.16.840.1.113883.3.5416.1.8322,Westlake Health Campus
 2.16.840.1.113883.3.5416.1.8323,Novi Lakes Health Campus
+2.16.840.1.113883.3.5416.1.8387,Barry County Community Mental Health Authority
+2.16.840.1.113883.3.5416.1.8406,Ionia County CMH
 2.16.840.1.113883.3.5416.1.8429,Great Lakes Caring - BIG
 2.16.840.1.113883.3.5416.1.8430,Great Lakes Caring - BIH
 2.16.840.1.113883.3.5416.1.8431,Great Lakes Caring - CLH
@@ -1135,6 +1152,7 @@ oid,facility
 2.16.840.1.113883.3.5416.1.8979,Villages of Lapeer
 2.16.840.1.113883.3.5416.1.8984,Bay County Medical Care Facility
 2.16.840.1.113883.3.5416.1.8985,Thornapple Manor
+2.16.840.1.113883.3.5416.1.90,LifeWays Community Mental Health
 2.16.840.1.113883.3.5416.1.9318,Beaumont Health & Rehab (Beaumont Commons)
 2.16.840.1.113883.3.5416.1.9327,Isabella County Medical Care Facility
 2.16.840.1.113883.3.5416.1.9334,Wellbridge of Grand Blanc
@@ -1152,6 +1170,12 @@ oid,facility
 2.16.840.1.113883.3.5416.1.9409,Kindred at Home - Kalamazoo
 2.16.840.1.113883.3.5416.1.9410,Medilodge at the Shore
 2.16.840.1.113883.3.5416.1.9414,SKLD Zeeland
+2.16.840.1.113883.3.5416.1.9465,Centra Wellness Network
+2.16.840.1.113883.3.5416.1.9466,Detroit Wayne Integrated Health Network
+2.16.840.1.113883.3.5416.1.9467,Genesee Health System
+2.16.840.1.113883.3.5416.1.9468,Oakland County Health Network
+2.16.840.1.113883.3.5416.1.9469,Sanilac Community Mental Health
+2.16.840.1.113883.3.5416.1.9470,St. Clair Community Mental Health
 2.16.840.1.113883.3.5416.1.9561,HEARTLAND HOME CARE OF BAD AXE HS
 2.16.840.1.113883.3.5416.1.9562,HEARTLAND HOME CARE OF LAPEER HS
 2.16.840.1.113883.3.5416.1.9563,HEARTLAND HOME CARE OF FREMONT HS
@@ -1182,6 +1206,7 @@ oid,facility
 2.16.840.1.113883.3.5794.8,JACKSON PAIN CLINIC
 2.16.840.1.113883.3.5794.9,JACKSON PHYS MED & REHAB
 2.16.840.1.113883.3.6504,MANISTEE COUNTY MEDICAL CARE FACILITY
+2.16.840.1.113883.3.6604,AuSable Valley Community Mental Health Authority
 2.16.840.1.113883.3.6609,Bay Bluffs - Emmet County Medical Care Facility
 2.16.840.1.113883.3.6769,"DMC Children's Hospital of Michigan - Troy, Michigan Facility"
 2.16.840.1.113883.3.6863,Grand Traverse Pavilions

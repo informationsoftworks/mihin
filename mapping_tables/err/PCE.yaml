@@ -1,0 +1,14 @@
+base: PCE
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Hospitals/PCE ADT 2.0 table 03-10-2022.xlsx
+      list:
+      - error: Incomplete, non-specific or abbreviated facility name
+        level: Warning
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A14
+            code: 2.16.840.1.113883.3.5416.1.3144
+            label: Network 180
