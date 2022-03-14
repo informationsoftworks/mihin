@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-02-2022.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-14-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.17.45	CHARLEVOIX AH			00000000
@@ -19,8 +19,8 @@ PID-10	4	6	1002-5	American Indian or Alaska Native	American Indian or Alaska Nat
 PID-10	5	6	2028-9	Asian	Asian		4
 PID-10	6	6	2054-5	Black or African American	Black or African American		4
 PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	Native Hawaiian or Pacific Islander		4
-PID-10	8	6	2106-3	White	Other		4
-PID-10	9	6	2131-1	Other Race	White, Unknown		4
+PID-10	8	6	2106-3	White	Other, White		4
+PID-10	9	6	2131-1	Other Race	Unknown		4
 PID-10	10	6	MR	Multi-Racial			4
 PID-10	11	6	PR	Patient Refused 	Patient Refuses		4
 PID-22	2	9	MiHIN Value	Description	Hospital Value		4
