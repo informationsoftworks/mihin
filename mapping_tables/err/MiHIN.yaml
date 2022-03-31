@@ -13,5 +13,5 @@ domains:
         receiving org message ID: 106174977
   import:
   - error: Filename not in standard format
-    filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/MiHIN 2.0 ADT Mapping Table (Finished) - Ottawa CMH.xlsx
+    filename: 2.0 Mapping Tables - Hospitals/Allegan County Community Mental Health ADT 2.0 table 09-30-2021 - Copy.xlsx
     level: Error

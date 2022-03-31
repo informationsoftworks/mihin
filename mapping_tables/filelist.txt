@@ -59,6 +59,7 @@
 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Residential RHH - GR ADT 2.0 Table 6-30-17.xlsx
 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Residential RHH - Infusion ADT 2.0 Table 6-30-17.xlsx
 2.0 Mapping Tables - Home Health Agencies (HHA)/HHA-Trinity HCHB ADT 2.0 table 11-13-17.xlsx
+2.0 Mapping Tables - Hospitals/Allegan County Community Mental Health ADT 2.0 table 09-30-2021 - Copy.xlsx
 2.0 Mapping Tables - Hospitals/Allegan County Community Mental Health ADT 2.0 table 09-30-2021.xlsx
 2.0 Mapping Tables - Hospitals/Allegan General Hospital ADT 2.0 table 12-11-19.xlsx
 2.0 Mapping Tables - Hospitals/Ascension Borgess ADT 2.0 table 07-10-2020.xlsx
