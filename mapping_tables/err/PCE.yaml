@@ -1,8 +1,14 @@
 base: PCE
 domains:
+  import:
+  - error: Duplicate files
+    filenames:
+    - 2.0 Mapping Tables - Hospitals/PCE ADT 2.0 table 04-19-2022.xlsx
+    - 2.0 Mapping Tables - Hospitals/PCE ADT 2.0 table 03-10-2022.xlsx
+    level: Error
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/PCE ADT 2.0 table 03-10-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/PCE ADT 2.0 table 04-19-2022.xlsx
       list:
       - error: Incomplete, non-specific or abbreviated facility name
         level: Warning

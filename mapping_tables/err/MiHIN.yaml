@@ -3,14 +3,7 @@ domains:
   audit:
     error: ADTs received from OID for which no mapping exists
     level: Error
-    see:
-    - message count: 1132
-      oid: 1.3.6.1.4.1.37810.500.15.5.40
-      sample:
-        HL7 ID: '54798103'
-        HL7 source org: 2.16.840.1.113883.3.5416.1.1553
-        HL7 timestamp: '20220121135703'
-        receiving org message ID: 106174977
+    see: null
   import:
   - error: Filename not in standard format
     filename: 2.0 Mapping Tables - Hospitals/Allegan County Community Mental Health ADT 2.0 table 09-30-2021 - Copy.xlsx
