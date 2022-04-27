@@ -2,7 +2,7 @@ base: OSF St. Francis Hospital & Medical Group
 domains:
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/OSF St. Francis Hospital & Medical Group ADT 2.0 table 10-3-19.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/OSF St. Francis Hospital & Medical Group ADT 2.0 table 04-27-2022.xlsx
       list:
       - error: Empty row found within segment specification
         level: Warning
@@ -76,10 +76,6 @@ domains:
           - cell: AA108
           - cell: AA109
           - cell: AA110
-        - hl7 segment: IN1
-          see:
-          - cell: AP15
-          - cell: AP21
       - error: Leading and/or trailing whitespace in Description
         level: Warning
         list:
