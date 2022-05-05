@@ -284,26 +284,26 @@ domains:
             - cell: A4
               filename: 2.0 Mapping Tables - Hospitals/Charlevoix ADT 2.0 table 9-17-19.xlsx
             - cell: A4
-              filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-14-2022.xlsx
+              filename: 2.0 Mapping Tables - Hospitals/scp37868/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-14-2022.xlsx
             oid: 2.16.840.1.113883.17.45
           - cell: A5
             files:
             - cell: A5
               filename: 2.0 Mapping Tables - Hospitals/Charlevoix ADT 2.0 table 9-17-19.xlsx
             - cell: A5
-              filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-14-2022.xlsx
+              filename: 2.0 Mapping Tables - Hospitals/scp37868/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-14-2022.xlsx
             oid: 2.16.840.1.113883.17.4092
           - cell: A6
             files:
             - cell: A6
               filename: 2.0 Mapping Tables - Hospitals/Charlevoix ADT 2.0 table 9-17-19.xlsx
             - cell: A6
-              filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-14-2022.xlsx
+              filename: 2.0 Mapping Tables - Hospitals/scp37868/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-14-2022.xlsx
             oid: 2.16.840.1.113883.17.4093
           - cell: A7
             files:
             - cell: A7
               filename: 2.0 Mapping Tables - Hospitals/Charlevoix ADT 2.0 table 9-17-19.xlsx
             - cell: A7
-              filename: 2.0 Mapping Tables - Hospitals/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-14-2022.xlsx
+              filename: 2.0 Mapping Tables - Hospitals/scp37868/Munson Healthcare Charlevoix Hospital ADT 2.0 table 03-14-2022.xlsx
             oid: 2.16.840.1.113883.17.4094
