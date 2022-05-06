@@ -160,6 +160,7 @@
 2.0 Mapping Tables - Hospitals/UP Health System Marquette ADT 2.0 table 03-29-2021.xlsx
 2.0 Mapping Tables - Hospitals/UP Health System Portage ADT 2.0 table 10-17-19.xlsx
 2.0 Mapping Tables - Hospitals/War Memorial ADT 2.0 table 07-08-19.xlsx
+2.0 Mapping Tables - Hospitals/Wellbridge of Clarkston ADT 2.0 table 05-06-2022.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/MiHIN 2.0 ADT Mapping Table (Finished) - Ottawa CMH.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF - Belle Fountain Nursing and Rehabilitation Center ADT 2.0 table 01-11-2022.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF - Menominee Care Center ADT Mapping Tables 8-21-20.xlsx

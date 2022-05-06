@@ -1,0 +1,18 @@
+base: SNF-Wellbridge of Clarkston
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Wellbridge of Clarkston ADT 2.0 tables 7-17-18.xlsx
+      list:
+      - error: OID appearing in multiple files
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            files:
+            - cell: A4
+              filename: 2.0 Mapping Tables - Hospitals/Wellbridge of Clarkston ADT 2.0 table 05-06-2022.xlsx
+            - cell: A4
+              filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Wellbridge of Clarkston ADT 2.0 tables 7-17-18.xlsx
+            oid: 2.16.840.1.113883.3.5416.1.9345
