@@ -1,0 +1,23 @@
+base: SNF-Majestic Care of Flushing
+domains:
+  load:
+    files:
+    - filename: 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Majestic Care of Flushing ADT 2.0 table 05-09-2022.xlsx
+      list:
+      - error: Invalid OID
+        level: Error
+        list:
+        - hl7 segment: MSH-4
+          see:
+          - cell: A4
+            code: '2.16.840.1.113883.3.5416.1.12304
+
+              '
+            value: Majestic Care of Flushing
+      - error: Leading and/or trailing whitespace in Hospital Value
+        level: Warning
+        list:
+        - hl7 segment: PID-10
+          see:
+          - cell: F13
+            code: 'Black '

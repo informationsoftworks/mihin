@@ -256,6 +256,7 @@
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lakeview Manor Healthcare ADT 2.0 table 10-31-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Laurels of Mt Pleasant ADT 2.0 table 8-24-20.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Lourdes Rehabilitation and Healthcare Center ADT 2.0 table 8-20-20.xlsx
+2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Majestic Care of Flushing ADT 2.0 table 05-09-2022.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Majestic Care of Livonia ADT 2.0 table 01-19-2022.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Manistee County Medical Care Facility ADT 2.0 table 10-25-16.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/SNF-Manorcare Nursing of Kingsford ADT 2.0 table 07-11-18.xlsx
