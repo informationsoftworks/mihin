@@ -1,8 +1,8 @@
-base: Metro Health Hospital
+base: University of Michigan Health - West
 domains:
   audit:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Metro Health Hospital ADT 2.0 table 9-25-17.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/University of Michigan Health - West ADT 2.0 table 05-13-2022.xlsx
       list:
         error: Undefined code found in received HL7 data
         level: Error
@@ -16,7 +16,7 @@ domains:
           receiving org message ID: 35567096
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Metro Health Hospital ADT 2.0 table 9-25-17.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/University of Michigan Health - West ADT 2.0 table 05-13-2022.xlsx
       list:
       - error: Leading and/or trailing whitespace in Description
         level: Warning

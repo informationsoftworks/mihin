@@ -123,7 +123,6 @@
 2.0 Mapping Tables - Hospitals/McLaren Port Huron ADT 2.0 table 02-26-2019.xlsx
 2.0 Mapping Tables - Hospitals/McLaren Thumb Region ADT 2.0 table 10-09-2020.xlsx
 2.0 Mapping Tables - Hospitals/Memorial Healthcare ADT 2.0 table 2.27.20.xlsx
-2.0 Mapping Tables - Hospitals/Metro Health Hospital ADT 2.0 table 9-25-17.xlsx
 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 02-21-2022.xlsx
 2.0 Mapping Tables - Hospitals/Mid-Michigan Health ADT 2.0 table 04-26-2021.xlsx
 2.0 Mapping Tables - Hospitals/MidMichigan Medical Center - West Branch ADT 2.0 table 02-27-2019.xlsx
@@ -159,6 +158,7 @@
 2.0 Mapping Tables - Hospitals/UP Health System Bell Hospital ADT 2.0 table 05-20-2021.xlsx
 2.0 Mapping Tables - Hospitals/UP Health System Marquette ADT 2.0 table 03-29-2021.xlsx
 2.0 Mapping Tables - Hospitals/UP Health System Portage ADT 2.0 table 10-17-19.xlsx
+2.0 Mapping Tables - Hospitals/University of Michigan Health - West ADT 2.0 table 05-13-2022.xlsx
 2.0 Mapping Tables - Hospitals/War Memorial ADT 2.0 table 07-08-19.xlsx
 2.0 Mapping Tables - Hospitals/Wellbridge of Clarkston ADT 2.0 table 05-06-2022.xlsx
 2.0 Mapping Tables - Skilled Nursing Facilities (ALL)/MiHIN 2.0 ADT Mapping Table (Finished) - Ottawa CMH.xlsx
