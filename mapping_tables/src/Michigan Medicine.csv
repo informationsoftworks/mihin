@@ -1,4 +1,4 @@
-filename	0	0		2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 02-21-2022.xlsx			
+filename	0	0		2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 05-23-2022.xlsx			
 MSH-4	2	1	Hospital Value	Description			4
 MSH-4	3	1	2.16.840.1.113883.3.1481.1.2.2	Hospital Name			2
 MSH-4	4	1	2.16.840.1.113883.3.4220.4.10001	UNIVERSITY HOSPITAL			00000000
@@ -117,10 +117,10 @@ PID-8	9	3	N	Not Applicable			4
 PID-10	2	6	MiHIN Value	Description	Hospital Value		4
 PID-10	3	6	2106-3	White	W		2
 PID-10	4	6	1002-5	American Indian or Alaska Native	A		4
-PID-10	5	6	2028-9	Asian	O		4
+PID-10	5	6	2028-9	Asian	O, C, F, J, K, V, 1, 2,7		4
 PID-10	6	6	2054-5	Black or African American	B		4
-PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	P		4
-PID-10	8	6	2106-3	White	W		4
+PID-10	7	6	2076-8	Native Hawaiian or Other Pacific Islander	P, 3, 4, 5, S		4
+PID-10	8	6	2106-3	White	W, 6		4
 PID-10	9	6	2131-1	Other Race	H, U, E		4
 PID-10	10	6	MR	Multi-Racial	M		4
 PID-10	11	6	PR	Patient Refused 	D		4
@@ -129,7 +129,7 @@ PID-22	3	9	H	Hispanic or Latino	Hisp		2
 PID-22	4	9	H	Hispanic or Latino	HISPANIC		4
 PID-22	5	9	N	Not Hispanic or Latino	NON-HISPANIC		4
 PID-22	6	9	U	Unknown	UNKNOWN		4
-PID-22	7	9	D	Declined	PT REFUSED		4
+PID-22	7	9	D	Declined	PT REFUSED, REFUSED,CHOOSE NOT TO DISCLOSE		4
 PID-22	8	9	AN	Alaskan Native 			4
 PID-22	9	9	AR	Arabic 			4
 PID-22	10	9	AS	Asian 			4
@@ -210,7 +210,7 @@ PV1-14	10	24	7	Emergency Room	A, O, Extramural		4
 PV1-14	11	24	8	Court/Law enforcement	ED FR CORREC		4
 PV1-14	12	24	9	Information not available	Z		4
 PV1-14	13	24	SR	Self-Referral	Self Ref		4
-PV1-14	14	24	TRNF	Transfer from a non-health care facility	B, U, 8, EDfrShelter, ED FR Hosp Care at Home, ED FR HOME, ED FR HCAH, EDFRPES, ED FR MM LOC		4
+PV1-14	14	24	TRNF	Transfer from a non-health care facility	B, U, 8, EDfrShelter, ED FR Hosp Care at Home, ED FR HOME, ED FR HCAH, EDFRPES, ED FR MM LOC, ED FR WORK		4
 PV1-14	15	24	TRAD	Transfer from Ambulatory Department	C, F, G, 3		4
 PV1-18	2	27	MiHIN Suggested Values		Hospital Value	Description	4
 PV1-18	3	27			A	Anonymous	2

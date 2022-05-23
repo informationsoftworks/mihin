@@ -2,7 +2,7 @@ base: Michigan Medicine
 domains:
   audit:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 02-21-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 05-23-2022.xlsx
       list:
         error: Undefined code found in received HL7 data
         level: Error
@@ -16,7 +16,7 @@ domains:
           receiving org message ID: 35568243
   load:
     files:
-    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 02-21-2022.xlsx
+    - filename: 2.0 Mapping Tables - Hospitals/Michigan Medicine ADT 2.0 table 05-23-2022.xlsx
       list:
       - error: Incomplete, non-specific or abbreviated facility name
         level: Warning
