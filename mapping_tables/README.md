@@ -1,3 +1,9 @@
+# Update 2022-08-24
+
+This ADT Mapping table service is currently static, as the upstream feed from box.com is no longer available.
+MiHIN has apparently migrated the spreadsheets to a SharePoint service, for which credentials are still in the
+process of being arranged.  Updates will be posted here.
+
 # MiHIN Mapping Tables
 
 ### Background
